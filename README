@@ -6,12 +6,14 @@
 
 ## Build (using Sphinx)
 
-    pip install sphinx
+    pip install --user --break-system-packages  sphinx recommonmark sphinx_rtd_theme
  
     git clone https://github.com/dpuiu/ocular-microbiome.git
  
     cd ocular-microbiome
     make html
+
+    # the ouutput files will be available under _build/html/
 
 ## Config Files
 
@@ -29,3 +31,8 @@
 ## Image files
 
     _static/*.{png,jpg,jpeg}
+
+## Links
+
+    https://www.sphinx-doc.org
+    https://sphinx-rtd-theme.readthedocs.io/en/stable/index.html
