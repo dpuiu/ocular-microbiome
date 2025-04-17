@@ -1,4 +1,4 @@
-# ocular-microbiome web site supporting files
+# ocular-microbiome Project Web Site 
   
 ## URL 
 
@@ -13,7 +13,7 @@
     cd ocular-microbiome
     make html
 
-    # the ouutput files will be available under _build/html/
+    # the output files will be available under _build/html/
 
 ## Config Files
 
@@ -22,8 +22,8 @@
 
 ## reStructured text files
 
-    index.rst
-    Consortium.rst
+    index.rst         
+    Consortium.rst  
     Research.rst
     Data_Access.rst
     footer.rst
