@@ -1,7 +1,7 @@
 Ocular Microbiome Consortium
 ============================
 
-.. image:: _static/header-bg.jpg
+.. image:: images/header-bg.jpg
    :alt: "Project logo"
    :width: 700px
 

@@ -21,8 +21,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "OLD", "Consortium", "Da
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-#html_theme = 'alabaster'		# default, minimalistic
-html_theme = "sphinx_rtd_theme" # nice but truncated the tables
+html_theme = "sphinx_rtd_theme" 
 
 html_static_path = ['_static']
 html_css_files = ['custom.css']
@@ -30,17 +29,17 @@ html_js_files = ['custom.js']
 ###################################################
 
 # added by dpuiu
-extensions = [ 'recommonmark' ]
+extensions = [ ]  # 'recommonmark', 'myst_parser'
 
 source_suffix = {
     '.rst': 'restructuredtext',
-    '.md': 'markdown',
+#    '.md': 'markdown',
 }
 
-from recommonmark.parser import CommonMarkParser
-source_parsers = {
-    '.md': CommonMarkParser,
-}
+#from recommonmark.parser import CommonMarkParser
+#source_parsers = {
+#    '.md': CommonMarkParser,
+#}
 
 html_search_options = {
     'separate_word_search': True

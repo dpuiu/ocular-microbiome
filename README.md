@@ -22,15 +22,18 @@
 
 ## reStructured text files
 
-    index.rst         
+    index.rst         # Home page
     Consortium.rst  
     Research.rst
     Data_Access.rst
+    JHU.rst 
+
+    header.rst
     footer.rst
 
 ## Image files
 
-    _static/*.{png,jpg,jpeg}
+    images/*
 
 ## Links
 
