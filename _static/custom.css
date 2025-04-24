@@ -1,0 +1,27 @@
+	/* Example to reduce padding for navigation content */
+/*
+.wy-nav-content {
+    padding: 5px !important; 
+}
+*/
+
+.wy-nav-content {
+  max-width: 100%;      /* default is ~800px */
+  width: 100%;           /* or set to 1200px, etc */
+}
+
+/* Example to reduce padding for body content */
+.document {
+    padding: 5px !important; /* Adjust the value as needed */
+}
+
+table.docutils caption span.caption-text {
+  display: block; 
+  text-align: left !important;
+  font-size: 1.5em !important;
+}
+
+table.docutils thead tr th.head {
+  white-space: normal !important;
+  word-wrap: break-word;
+}
