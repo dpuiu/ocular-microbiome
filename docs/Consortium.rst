@@ -50,8 +50,8 @@ Consortium Members
      <li>Sapna Gangaputra</li>
    </ul>
 
-`Johns Hopkins University <JHU.html>`_ &#x1F517;
-------------------------------------------------
+`Johns Hopkins University <JHU.html>`_
+--------------------------------------
 
 **Development of Standardized Resources for Characterization of Resident Ocular Surface Microbiome**
 
