@@ -21,12 +21,11 @@ The OMP is sponsored in part by NIH grant U24-EY035078:
 This research makes use of the `SciServer <https://www.sciserver.org/>`_ science platform. SciServer is a collaborative research environment for large-scale, data-driven science, sponsored in part by NIH grant U24-EY035078. It is being developed at, and administered by, the Institute for Data-Intensive Engineering and Science at Johns Hopkins University.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Contents:
 
    Consortium
    Research
-   Research/Data_Access
    JHU
 
 .. include:: footer.rst

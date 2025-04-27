@@ -3,13 +3,9 @@
 Other Research
 ==============
 
-Projects
---------
+.. toctree::
+   :maxdepth: 1
 
-.. include:: Research/Research.rst 
-
-Data Access
------------
-
-.. include:: Research/Data_Access.rst
+   Research
+   Data_Access
 
