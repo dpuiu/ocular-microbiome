@@ -14,6 +14,32 @@ Additional Members
 Pipeline
 --------
 
+.. mermaid::
+
+   graph TD
+       
+       A[All reads] --> AA["."]
+
+       subgraph Human_Read_Removal [Human read removal]
+           AA -->|minimap2 T2T| B[Unaligned reads]    
+           B -->|minimap2 GRCh38| C[Unaligned reads]
+       end
+    
+       C[All reads] --> CC["."]
+
+       subgraph Pathogen_classification [Pathogen_classification]
+           CC -->|krakenuniq| D[Classified reads]
+           D -->|bracken| E[Classified reads]
+       end 
+
+       style AA width:1px,height:1px
+       style CC width:1px,height:1px
+       style A fill:#f9f,stroke:#333,stroke-width:2px
+       style B fill:#bbf,stroke:#333,stroke-width:2px
+       style C fill:#bbf,stroke:#333,stroke-width:2px
+       style D fill:#bfb,stroke:#333,stroke-width:2px
+       style E fill:#bfb,stroke:#333,stroke-width:2px
+
 Steps:
 
 1. `minimap2 <https://github.com/lh3/minimap2>`_

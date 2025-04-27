@@ -31,7 +31,7 @@ master_doc = 'index'
 extensions = []
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "OLD", "Consortium", "Data_Access", "JHU", "Research"]
-extensions = [ ]  # 'recommonmark', 'myst_parser'
+extensions = ['sphinxcontrib.mermaid']  # 'recommonmark', 'myst_parser'
 source_suffix = { '.rst': 'restructuredtext' } #    '.md': 'markdown',
 
 #from recommonmark.parser import CommonMarkParser
