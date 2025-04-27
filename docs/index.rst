@@ -26,7 +26,7 @@ This research makes use of the `SciServer <https://www.sciserver.org/>`_ scien
 
    Consortium
    Research
-   Research/Projects
-   Research/Results
+   Research/Research_Projects
+   Research/Research_Results
 
 .. include:: footer.rst
