@@ -12,6 +12,10 @@
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
+
 project = 'Ocular Microbial Project'
 copyright = '2025, JHU CCB'
 author = 'Daniela Puiu'
@@ -32,3 +36,4 @@ source_suffix = { '.rst': 'restructuredtext' } #    '.md': 'markdown',
 
 #from recommonmark.parser import CommonMarkParser
 #source_parsers = {    '.md': CommonMarkParser }
+

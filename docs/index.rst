@@ -25,9 +25,7 @@ This research makes use of the `SciServer <https://www.sciserver.org/>`_ scien
    :caption: Contents:
 
    Consortium
-   Research
-   Research/Research
-   Research/Data_Access
+   Research/index
    JHU
 
 .. include:: footer.rst
