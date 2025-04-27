@@ -1,6 +1,3 @@
-Research
-========
-
 .. toctree::
    :maxdepth: 1
 
