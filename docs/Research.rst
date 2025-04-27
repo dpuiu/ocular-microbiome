@@ -14,7 +14,6 @@ Project list at NCBI
 
 Libraries
 
-
 `Results <Results.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

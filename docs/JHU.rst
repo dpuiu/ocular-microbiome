@@ -18,6 +18,8 @@ Additional Members
 `Pipeline <Pipeline.html>`_ (link)
 --------------------------------------
 
+.. include:: JHU/Pipeline.rst
+
 Data
 ----
 
