@@ -11,4 +11,5 @@ Projects
 Data Access
 -----------
 
-.. include:: footer.rst
+.. include:: Research/Data_Access.rst
+
