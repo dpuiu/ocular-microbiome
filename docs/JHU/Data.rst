@@ -1,4 +1,4 @@
-.. csv-table:: Libraries
+.. csv-table:: Library information
    :header: Date,Dataset
 
    2024-03-14,Molzym_Ultra_Deep_Air_Ctr_3_S20
