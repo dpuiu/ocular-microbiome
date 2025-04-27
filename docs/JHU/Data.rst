@@ -1,6 +1,2 @@
-.. csv-table::
-    :header:    Dataset,Date
-
-    OSM_03142024_196871,2024-03-14
-    OSM_07152024_199599,2024-07-15
-    OSM_102824_202538,2024-10-28
+.. csv-table:: Bracken hits 
+   :file: Data.csv
