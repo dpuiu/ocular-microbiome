@@ -1,7 +1,7 @@
 .. include:: header.rst
 
 Data Access
-===========
+-----------
 
 .. include:: Research/PRJNA886972.rst
 
@@ -11,6 +11,3 @@ Data Access
 
 .. note::
    - Run : SRR libray
- 
-.. include:: footer.rst
-

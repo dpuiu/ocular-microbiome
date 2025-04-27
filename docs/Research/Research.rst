@@ -1,3 +1,8 @@
+.. include:: header.rst
+
+Projects
+--------
+
 .. csv-table:: Previously published ocular microbiome projects
     :header:    "BioProject","Description","Center Name","Date"
 
