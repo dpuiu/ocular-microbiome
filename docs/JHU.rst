@@ -14,10 +14,9 @@ Additional Members
 Data
 ----
 
-     24 2024-03-14
-     21 2024-07-15
-     79 2024-10-28
-     96 2025-03-14
+.. include:: JHU/Summary.rst
+
+.. include:: separator
 
 .. include:: JHU/Data.rst
 
