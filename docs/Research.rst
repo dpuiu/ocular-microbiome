@@ -4,9 +4,17 @@ Public Research
 `Projects <Projects.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Available from NCBI
+Project list at NCBI
 
-`Data Access <Data_Access.html>`_
+
+`Data <Data.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
 
-JHU pipeline results
+Libraries
+
+
+`Results <Results.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+JHU pipeline reults
+
