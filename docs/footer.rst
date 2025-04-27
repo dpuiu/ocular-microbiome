@@ -2,7 +2,7 @@
 
    <br><br>
 
-.. image:: images/nih-logo.png
+.. image:: images/footer_01_nih-logo.jpg
    :alt: "Nih logo"
    :width: 80px
 
@@ -23,11 +23,11 @@
    :alt: "Vanderbilt University Medical Center"
    :width: 120px
 
-.. image:: images/BCM_CMMR_Logo_Horz_Gray.png
+.. image:: images/footer_02_BCM_CMMR_Logo_Horz_Gray.png
    :alt: "Baylor College of Medicine"
    :width: 120px
 
-.. image:: images/BCM_OSC.png
+.. image:: images/footer_02_BCM_OSC.png
    :alt: "Baylor College of Medicine"
    :width: 100px
 
