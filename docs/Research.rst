@@ -1,6 +1,12 @@
-.. toctree::
-   :maxdepth: 3
+Public Research
+===============
+	
+`Projects <Projects.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   Projects
-   Data_Access
+Available from NCBI
 
+`Data Access <Data_Access.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      
+
+JHU pipeline results

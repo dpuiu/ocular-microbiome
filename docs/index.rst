@@ -26,6 +26,5 @@ This research makes use of the `SciServer <https://www.sciserver.org/>`_ scien
 
    Consortium
    Research
-   JHU
 
 .. include:: footer.rst
