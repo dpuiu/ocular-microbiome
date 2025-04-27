@@ -25,7 +25,7 @@ Data
 
 .. include:: JHU/Summary.rst
 
-.. include:: separator
+.. include:: separator.rst
 
 .. include:: JHU/Data.rst
 
