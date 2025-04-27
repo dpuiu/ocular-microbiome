@@ -1,6 +1,10 @@
 Consortium Members
 ==================
 
+.. contents::
+   :depth: 1
+   :local:
+
 `Baylor College of Medicine <https://www.bcm.edu/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

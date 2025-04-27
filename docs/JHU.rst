@@ -3,6 +3,10 @@
 Johns Hopkins University
 ========================
 
+.. contents::
+   :depth: 2
+   :local:
+
 Additional Members
 ------------------
 - `Jen Lu <mailto:jlu26@jhmi.edu>`_
