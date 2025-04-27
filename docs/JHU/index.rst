@@ -2,5 +2,5 @@
    :maxdepth: 3
    :caption: 
 
-   Pipeline
+   JHU_Pipeline
 
