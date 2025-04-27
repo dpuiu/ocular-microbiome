@@ -1,7 +1,7 @@
 .. include:: header.rst
 
-Research
-========
+Other Research
+==============
 
 .. include:: Research/Research.rst 
 

@@ -14,10 +14,10 @@ Additional Members
 Data
 ----
 
-.. include:: JHU/Data.rst
-
 Results
 -------
+
+.. include:: JHU/Data.rst
 
 .. include:: footer.rst
 

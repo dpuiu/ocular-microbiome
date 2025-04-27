@@ -1,5 +1,5 @@
-.. csv-table:: Bracken hits 
-   :header: Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new_est_reads,fraction_total_reads
+.. csv-table:: Bracken hits > 1%
+   :header: Date,Dataset,name,taxonomy id,taxonomy lvl,kraken assigned reads,added reads,new est reads,fraction total reads
 
    2025-03-14,10_Zymo_Micro_Prep_CS_010_Right_Eye_S90,Homo sapiens,9606,S,13163,67,13230,0.70745
    2025-03-14,10_Zymo_Micro_Prep_CS_010_Right_Eye_S90,Malassezia restricta,76775,S,285,0,285,0.01524
