@@ -32,5 +32,4 @@ Results
 
 .. include:: JHU/Results.rst
 
-.. include:: footer.rst
 
