@@ -49,7 +49,6 @@ Consortium Members
      <li>Sapna Gangaputra</li>
    </ul>
 
---------------------------------------
 `Johns Hopkins University <JHU.html>`_
 --------------------------------------
 

@@ -5,7 +5,7 @@ Ocular Microbiome Consortium
 
 .. image:: images/header_01_header-bg.jpg
    :alt: "Project logo"
-   :width: 700px
+   :width: 780px
 
 The Ocular Microbiome Project (OMP) was launched by the `National Eye Institute <https://www.nei.nih.gov/>`_  in July 2023. The project supports five centers distributed across multiple universities that are collecting data to investigate the microbial composition on the surface of the human eye.
 
