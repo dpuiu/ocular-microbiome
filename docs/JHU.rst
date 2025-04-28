@@ -3,12 +3,8 @@
 Johns Hopkins University
 ========================
 
-.. contents::
-   :depth: 2
-   :local:
-
 Additional Members
-~~~~~~~~~~~~~~~~~~
+------------------
 
 - `Jen Lu <mailto:jlu26@jhmi.edu>`_
 - `Daniela Puiu <mailto:dpuiu1@jhu.edu>`_
@@ -29,8 +25,6 @@ Data
 .. include:: JHU/Data.rst
 
 Results
-~~~~~~~
+-------
 
 .. include:: JHU/Results.rst
-
-

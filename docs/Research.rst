@@ -8,11 +8,6 @@ Public Research
 
 Project list at NCBI
 
-`Data <Research_Data.html>`_
-----------------------------
-
-Libraries
-
 `Results <Research_Results.html>`_
 ----------------------------------
 

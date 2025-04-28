@@ -1,5 +1,4 @@
 Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new_est_reads,fraction_total_reads
-2025-03-14,10_Zymo_Micro_Prep_CS_010_Right_Eye_S90,Homo sapiens,9606,S,13163,67,13230,0.70745
 2025-03-14,10_Zymo_Micro_Prep_CS_010_Right_Eye_S90,Cutibacterium acnes,1747,S,933,6,939,0.05021
 2025-03-14,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,Xanthomonas campestris,339,S,16057,320,16377,0.06707
 2025-03-14,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,Delftia tsuruhatensis,180282,S,14912,3184,18096,0.07411
@@ -44,12 +43,10 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2025-03-14,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,Escherichia coli,562,S,2219,8531,10750,0.10773
 2025-03-14,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,Xanthomonas campestris,339,S,5652,111,5763,0.05776
 2025-03-14,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,Pseudomonas aeruginosa,287,S,2791,4650,7441,0.07457
-2025-03-14,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,Homo sapiens,9606,S,7178,18,7196,0.07212
 2025-03-14,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,Xanthomonas campestris,339,S,4668,99,4767,0.12981
 2025-03-14,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,Salmonella enterica,28901,S,1379,1479,2858,0.07783
 2025-03-14,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,Escherichia coli,562,S,417,1433,1850,0.05038
 2025-03-14,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,Staphylococcus aureus,1280,S,1792,281,2073,0.05645
-2025-03-14,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,Homo sapiens,9606,S,11053,33,11086,0.30188
 2025-03-14,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,Bacillus subtilis,1423,S,2711,35349,38060,0.05888
 2025-03-14,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,Staphylococcus aureus,1280,S,65954,3928,69882,0.10810
 2025-03-14,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,Listeria monocytogenes,1639,S,54895,2412,57307,0.08865
@@ -94,7 +91,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-07-15,199599_19_S29,Burkholderia contaminans,488447,S,43926,8185,52111,0.09750
 2024-07-15,199599_1_S32,Bradyrhizobium sp. SK17,2057741,S,110584,4771,115355,0.13996
 2024-07-15,199599_1_S32,Burkholderia contaminans,488447,S,50453,10329,60782,0.07375
-2024-07-15,199599_1_S32,Homo sapiens,9606,S,50829,2124,52953,0.06425
 2024-07-15,199599_21_S31,Bradyrhizobium sp. SK17,2057741,S,1,0,1,0.50000
 2024-07-15,199599_21_S31,Achromobacter xylosoxidans,85698,S,1,0,1,0.50000
 2024-07-15,199599_2_S33,Parabacteroides distasonis,823,S,472887,395011,867898,0.31495
@@ -114,7 +110,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-07-15,199599_6_S37,Bradyrhizobium sp. SK17,2057741,S,101691,4363,106054,0.15671
 2024-07-15,199599_6_S37,Burkholderia contaminans,488447,S,49325,9981,59306,0.08763
 2024-07-15,199599_6_S37,Parabacteroides distasonis,823,S,25216,21967,47183,0.06972
-2024-07-15,199599_6_S37,Homo sapiens,9606,S,49618,1879,51497,0.07609
 2024-07-15,199599_7_S38,Bradyrhizobium sp. SK17,2057741,S,1819346,79964,1899310,0.18682
 2024-07-15,199599_7_S38,Burkholderia contaminans,488447,S,903442,191906,1095348,0.10774
 2024-07-15,199599_8_S39,Salmonella enterica,28901,S,11763539,9923675,21687214,0.27717
@@ -124,9 +119,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-07-15,199599_8_S39,Bacillus intestinalis,1963032,S,14753,4829732,4844485,0.06191
 2024-07-15,199599_9_S40,Bradyrhizobium sp. SK17,2057741,S,120482,5375,125857,0.16892
 2024-07-15,199599_9_S40,Burkholderia contaminans,488447,S,56695,12025,68720,0.09223
-2024-07-15,199599_9_S40,Homo sapiens,9606,S,76123,5063,81186,0.10896
-2025-03-14,19_Qiagen_Soil_Pro_CS_005_Left_Eye_S3,Homo sapiens,9606,S,10554,25,10579,0.65403
-2025-03-14,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,Homo sapiens,9606,S,12560,649,13209,0.26775
 2025-03-14,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,Trypanosoma cruzi,5693,S,4442,1101,5543,0.11236
 2025-03-14,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,Cryptosporidium hominis,237895,S,2815,251,3066,0.06215
 2025-03-14,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,Pseudomonas tolaasii,29442,S,1070,2897,3967,0.08041
@@ -140,24 +132,17 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-10-28,Qiagen_Dneasy_CS_001_Air_Swab_S39,Burkholderia contaminans,488447,S,1123920,248332,1372252,0.25224
 2024-10-28,Qiagen_Dneasy_CS_001_Air_Swab_S39,Bradyrhizobium sp. SK17,2057741,S,344636,28249,372885,0.06854
 2024-10-28,Qiagen_Dneasy_CS_001_Right_Eye_S28,Burkholderia contaminans,488447,S,12306,2268,14574,0.14251
-2024-10-28,Qiagen_Dneasy_CS_001_Right_Eye_S28,Homo sapiens,9606,S,30387,476,30863,0.30178
 2024-10-28,Qiagen_Dneasy_CS_002_Air_Swab_S62,Staphylococcus aureus,1280,S,180723,58625,239348,0.05428
 2024-10-28,Qiagen_Dneasy_CS_002_Air_Swab_S62,Burkholderia contaminans,488447,S,504327,89652,593979,0.13470
 2024-10-28,Qiagen_Dneasy_CS_002_Air_Swab_S62,Salmonella enterica,28901,S,107436,144413,251849,0.05711
 2024-10-28,Qiagen_Dneasy_CS_002_Left_Eye_S21,Burkholderia contaminans,488447,S,5164,961,6125,0.16370
-2024-10-28,Qiagen_Dneasy_CS_002_Left_Eye_S21,Homo sapiens,9606,S,11632,88,11720,0.31323
 2024-10-28,Qiagen_Dneasy_CS_003_Air_Swab_S18,Burkholderia contaminans,488447,S,1281360,256314,1537674,0.25203
 2024-10-28,Qiagen_Dneasy_CS_003_Air_Swab_S18,Bradyrhizobium sp. SK17,2057741,S,369245,33353,402598,0.06599
 2024-10-28,Qiagen_Dneasy_CS_003_Right_Eye_S58,Burkholderia contaminans,488447,S,5906,940,6846,0.14528
 2024-10-28,Qiagen_Dneasy_CS_003_Right_Eye_S58,Salmonella enterica,28901,S,1120,1800,2920,0.06197
-2024-10-28,Qiagen_Dneasy_CS_003_Right_Eye_S58,Homo sapiens,9606,S,9901,112,10013,0.21249
 2024-10-28,Qiagen_Dneasy_CS_004_Air_Swab_S52,Burkholderia contaminans,488447,S,341564,76318,417882,0.22356
 2024-10-28,Qiagen_Dneasy_CS_004_Air_Swab_S52,Bradyrhizobium sp. SK17,2057741,S,105668,9346,115014,0.06153
-2025-03-14,21_Qiagen_Soil_Pro_CS_007_Left_Eye_S5,Homo sapiens,9606,S,10079,35,10114,0.85974
-2025-03-14,22_Qiagen_Soil_Pro_CS_008_Right_Eye_S6,Homo sapiens,9606,S,6204,8,6212,0.59496
 2025-03-14,22_Qiagen_Soil_Pro_CS_008_Right_Eye_S6,Cutibacterium acnes,1747,S,541,4,545,0.05220
-2025-03-14,23_Qiagen_Soil_Pro_CS_009_Left_Eye_S7,Homo sapiens,9606,S,7828,17,7845,0.83095
-2025-03-14,24_Qiagen_Soil_Pro_CS_010_Right_Eye_S8,Homo sapiens,9606,S,8971,20,8991,0.55737
 2025-03-14,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,Staphylococcus aureus,1280,S,26122,2094,28216,0.08522
 2025-03-14,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,Listeria monocytogenes,1639,S,25362,1141,26503,0.08004
 2025-03-14,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,Enterococcus faecalis,1351,S,23969,881,24850,0.07505
@@ -180,53 +165,37 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2025-03-14,29_Z_Mini_049_Conj_L_1_S13,Salmonella enterica,28901,S,3925,4014,7939,0.14426
 2025-03-14,29_Z_Mini_049_Conj_L_1_S13,Escherichia coli,562,S,1181,5331,6512,0.11833
 2025-03-14,29_Z_Mini_049_Conj_L_1_S13,Pseudomonas aeruginosa,287,S,2875,4978,7853,0.14270
-2025-03-14,29_Z_Mini_049_Conj_L_1_S13,Homo sapiens,9606,S,7167,94,7261,0.13194
-2025-03-14,2_Zymo_Micro_Prep_CS_002_Right_Eye_S82,Homo sapiens,9606,S,7296,43,7339,0.80862
 2025-03-14,31_Z_Mini_049_Skin_L_1_S15,Cutibacterium acnes,1747,S,91712,762,92474,0.42750
-2025-03-14,31_Z_Mini_049_Skin_L_1_S15,Homo sapiens,9606,S,13738,268,14006,0.06475
 2025-03-14,32_Z_Mini_049_Conj_L_2_S16,Salmonella enterica,28901,S,532,1068,1600,0.05140
 2025-03-14,32_Z_Mini_049_Conj_L_2_S16,Cutibacterium acnes,1747,S,3158,26,3184,0.10229
-2025-03-14,32_Z_Mini_049_Conj_L_2_S16,Homo sapiens,9606,S,12380,269,12649,0.40637
 2025-03-14,33_Z_Mini_049_Lid_L_2_S17,Cutibacterium acnes,1747,S,53832,496,54328,0.62661
-2025-03-14,33_Z_Mini_049_Lid_L_2_S17,Homo sapiens,9606,S,10719,46,10765,0.12416
 2025-03-14,34_Z_Mini_049_Skin_L_2_S18,Cutibacterium acnes,1747,S,896170,7835,904005,0.70735
-2025-03-14,35_Z_Mini_049_Conj_L_3_S19,Homo sapiens,9606,S,8286,104,8390,0.28352
 2025-03-14,36_Z_Mini_049_Lid_L_3_S20,Cutibacterium acnes,1747,S,35356,366,35722,0.47903
 2025-03-14,36_Z_Mini_049_Lid_L_3_S20,Staphylococcus hominis,1290,S,6661,351,7012,0.09403
-2025-03-14,36_Z_Mini_049_Lid_L_3_S20,Homo sapiens,9606,S,7097,165,7262,0.09738
 2025-03-14,37_Z_Mini_049_Skin_L_3_S21,Cutibacterium acnes,1747,S,293486,2712,296198,0.72631
-2025-03-14,38_Z_Mini_050_Conj_R_1_S22,Homo sapiens,9606,S,7881,69,7950,0.46294
 2025-03-14,38_Z_Mini_050_Conj_R_1_S22,Xanthomonas campestris,339,S,875,19,894,0.05206
 2025-03-14,38_Z_Mini_050_Conj_R_1_S22,Cutibacterium acnes,1747,S,1649,14,1663,0.09684
 2025-03-14,39_Z_Mini_050_Lid_R_1_S23,Cutibacterium acnes,1747,S,75456,453,75909,0.45576
 2025-03-14,39_Z_Mini_050_Lid_R_1_S23,Pantoea agglomerans,549,S,46689,1416,48105,0.28883
-2025-03-14,3_Zymo_Micro_Prep_CS_003_Left_Eye_S83,Homo sapiens,9606,S,8723,41,8764,0.72316
 2025-03-14,40_Z_Mini_050_Skin_R_1_S24,Cutibacterium acnes,1747,S,412960,2463,415423,0.77384
 2025-03-14,42_Z_Mini_050_Lid_R_2_S26,Cutibacterium acnes,1747,S,322582,1960,324542,0.84061
 2025-03-14,43_Z_Mini_050_Skin_R_2_S27,Cutibacterium acnes,1747,S,6658728,40330,6699058,0.88730
-2025-03-14,44_Z_Mini_050_Conj_R_3_S28,Homo sapiens,9606,S,12676,44,12720,0.56677
 2025-03-14,44_Z_Mini_050_Conj_R_3_S28,Cutibacterium acnes,1747,S,2371,14,2385,0.10627
 2025-03-14,45_Z_Mini_050_Lid_R_3_S29,Cutibacterium acnes,1747,S,7177,51,7228,0.56381
 2025-03-14,45_Z_Mini_050_Lid_R_3_S29,Corynebacterium segmentosum,43990,S,652,14,666,0.05195
-2025-03-14,45_Z_Mini_050_Lid_R_3_S29,Homo sapiens,9606,S,2850,16,2866,0.22356
 2025-03-14,46_Z_Mini_050_Skin_R_3_S30,Cutibacterium acnes,1747,S,751042,4420,755462,0.82155
 2025-03-14,46_Z_Mini_050_Skin_R_3_S30,Malassezia restricta,76775,S,49814,3,49817,0.05418
-2025-03-14,47_Z_Mini_051_Conj_L_1_S31,Homo sapiens,9606,S,7390,66,7456,0.48321
 2025-03-14,47_Z_Mini_051_Conj_L_1_S31,Cutibacterium acnes,1747,S,815,6,821,0.05321
 2025-03-14,48_Z_Mini_051_Lid_L_1_S32,Cutibacterium acnes,1747,S,22520,255,22775,0.20829
-2025-03-14,48_Z_Mini_051_Lid_L_1_S32,Homo sapiens,9606,S,6090,79,6169,0.05642
 2025-03-14,49_Z_Mini_051_Skin_L_1_S33,Cutibacterium acnes,1747,S,83613,617,84230,0.41192
 2025-03-14,49_Z_Mini_051_Skin_L_1_S33,Dermacoccus nishinomiyaensis,1274,S,10734,236,10970,0.05365
 2025-03-14,4_Zymo_Micro_Prep_CS_004_Right_Eye_S84,Cutibacterium acnes,1747,S,2329,39,2368,0.07561
-2025-03-14,4_Zymo_Micro_Prep_CS_004_Right_Eye_S84,Homo sapiens,9606,S,8405,219,8624,0.27538
 2025-03-14,4_Zymo_Micro_Prep_CS_004_Right_Eye_S84,Trypanosoma cruzi,5693,S,1341,299,1640,0.05237
 2025-03-14,50_Z_Mini_051_Conj_L_2_S34,Delftia tsuruhatensis,180282,S,1458,290,1748,0.06428
 2025-03-14,50_Z_Mini_051_Conj_L_2_S34,Cutibacterium acnes,1747,S,1824,24,1848,0.06796
-2025-03-14,50_Z_Mini_051_Conj_L_2_S34,Homo sapiens,9606,S,6565,43,6608,0.24300
 2025-03-14,51_Z_Mini_051_Lid_L_2_S35,Cutibacterium acnes,1747,S,25072,262,25334,0.20176
 2025-03-14,51_Z_Mini_051_Lid_L_2_S35,Dermacoccus nishinomiyaensis,1274,S,7844,248,8092,0.06444
 2025-03-14,51_Z_Mini_051_Lid_L_2_S35,Staphylococcus epidermidis,1282,S,2617,4885,7502,0.05974
-2025-03-14,51_Z_Mini_051_Lid_L_2_S35,Homo sapiens,9606,S,9500,726,10226,0.08144
 2025-03-14,51_Z_Mini_051_Lid_L_2_S35,Trypanosoma cruzi,5693,S,5906,1477,7383,0.05880
 2024-07-15,199599_20_S30,Salmonella enterica,28901,S,7634581,6101496,13736077,0.25729
 2024-07-15,199599_20_S30,Escherichia coli,562,S,2550850,7698104,10248954,0.19197
@@ -236,12 +205,9 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-07-15,199599_20_S30,Lactobacillus fermentum,1613,S,3584270,80538,3664808,0.06865
 2024-07-15,199599_20_S30,Enterococcus faecalis,1351,S,3214516,117918,3332434,0.06242
 2024-07-15,199599_20_S30,Saccharomyces cerevisiae,4932,S,3434063,4321,3438384,0.06440
-2025-03-14,20_Qiagen_Soil_Pro_CS_006_Right_Eye_S4,Homo sapiens,9606,S,14349,57,14406,0.86575
 2025-03-14,30_Z_Mini_049_049_Lid_L_1_S14,Cutibacterium acnes,1747,S,15669,139,15808,0.32049
 2025-03-14,30_Z_Mini_049_049_Lid_L_1_S14,Staphylococcus epidermidis,1282,S,2636,212,2848,0.05774
-2025-03-14,30_Z_Mini_049_049_Lid_L_1_S14,Homo sapiens,9606,S,9951,75,10026,0.20327
 2025-03-14,41_Z_Mini_050_Conj_R_2_S25,Cutibacterium acnes,1747,S,3397,18,3415,0.16942
-2025-03-14,41_Z_Mini_050_Conj_R_2_S25,Homo sapiens,9606,S,8230,24,8254,0.40949
 2025-03-14,52_Z_Mini_051_Skin_L_2_S36,Curtobacterium flaccumfaciens,2035,S,99452,3567,103019,0.06861
 2025-03-14,52_Z_Mini_051_Skin_L_2_S36,Cutibacterium acnes,1747,S,356846,4110,360956,0.24041
 2025-03-14,62_Z_Mini__OMR_B1001_S46,Salmonella enterica,28901,S,21471,18597,40068,0.08589
@@ -252,7 +218,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2025-03-14,62_Z_Mini__OMR_B1001_S46,Lactobacillus fermentum,1613,S,27915,592,28507,0.06111
 2025-03-14,62_Z_Mini__OMR_B1001_S46,Enterococcus faecalis,1351,S,24851,703,25554,0.05478
 2025-03-14,62_Z_Mini__OMR_B1001_S46,Cutibacterium acnes,1747,S,29353,197,29550,0.06335
-2025-03-14,72_Qiagen_DNeasy_050_Conj_R_1_S56,Homo sapiens,9606,S,12419,1160,13579,0.33579
 2025-03-14,72_Qiagen_DNeasy_050_Conj_R_1_S56,Trypanosoma cruzi,5693,S,3835,1005,4840,0.11969
 2025-03-14,72_Qiagen_DNeasy_050_Conj_R_1_S56,Cryptosporidium hominis,237895,S,2141,747,2888,0.07142
 2025-03-14,72_Qiagen_DNeasy_050_Conj_R_1_S56,Salinivibrio sp. YCSC6,2003370,S,1466,957,2423,0.05992
@@ -261,7 +226,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2025-03-14,82_Qiagen_DNeasy_051_Lid_L_1_S66,Salinivibrio sp. YCSC6,2003370,S,6800,3664,10464,0.08244
 2025-03-14,82_Qiagen_DNeasy_051_Lid_L_1_S66,Salinivibrio costicola,51367,S,6616,3612,10228,0.08058
 2025-03-14,82_Qiagen_DNeasy_051_Lid_L_1_S66,Cutibacterium acnes,1747,S,12629,140,12769,0.10059
-2025-03-14,82_Qiagen_DNeasy_051_Lid_L_1_S66,Homo sapiens,9606,S,8531,875,9406,0.07410
 2025-03-14,82_Qiagen_DNeasy_051_Lid_L_1_S66,Trypanosoma cruzi,5693,S,7625,1612,9237,0.07277
 2025-03-14,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,Salinivibrio sp. YCSC6,2003370,S,53925,32849,86774,0.08780
 2025-03-14,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,Salinivibrio costicola,51367,S,52254,32341,84595,0.08560
@@ -286,8 +250,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-10-28,Qiagen_Dneasy_CS_004_Left_Eye_S27,Burkholderia contaminans,488447,S,15976,3049,19025,0.17935
 2024-10-28,Qiagen_Dneasy_CS_004_Left_Eye_S27,Bradyrhizobium sp. SK17,2057741,S,5436,466,5902,0.05564
 2024-10-28,Qiagen_Dneasy_CS_004_Left_Eye_S27,Pseudomonas aeruginosa,287,S,1477,4531,6008,0.05664
-2024-10-28,Qiagen_Dneasy_CS_004_Left_Eye_S27,Homo sapiens,9606,S,10199,282,10481,0.09881
-2024-03-14,Qiagen_DNeasy_LE_Rt_1_S17,Homo sapiens,9606,S,52055,562,52617,0.57540
 2024-10-28,Qiagen_DNeasy_OMR_MolYsis_2_S53,Burkholderia contaminans,488447,S,864187,309779,1173966,0.20982
 2024-10-28,Qiagen_DNeasy_OMR_MolYsis_2_S53,Bradyrhizobium sp. SK17,2057741,S,394827,28917,423744,0.07574
 2024-10-28,Zymo_Mini_Prep_CS_003_Air_Swab_S77,Burkholderia contaminans,488447,S,966084,187842,1153926,0.24235
@@ -298,9 +260,7 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-10-28,Zymo_Mini_Prep_CS_009_Right_Eye_S71,Burkholderia contaminans,488447,S,17955,2862,20817,0.05600
 2024-10-28,Zymo_Mini_Prep_CS_009_Right_Eye_S71,Bacillus subtilis,1423,S,1514,17125,18639,0.05014
 2025-03-14,53_Z_Mini_051_Conj_L_3_S37,Cutibacterium acnes,1747,S,3123,28,3151,0.11515
-2025-03-14,53_Z_Mini_051_Conj_L_3_S37,Homo sapiens,9606,S,8381,48,8429,0.30803
 2025-03-14,54_Z_Mini_051_Lid_L_3_S38,Cutibacterium acnes,1747,S,55158,511,55669,0.37521
-2025-03-14,54_Z_Mini_051_Lid_L_3_S38,Homo sapiens,9606,S,8828,359,9187,0.06192
 2025-03-14,55_Z_Mini_051_Skin_L_3_S39,Cutibacterium acnes,1747,S,108499,821,109320,0.55336
 2025-03-14,56_Z_Mini_049_ISO_Cont_1_S40,Erwinia gerundensis,1619313,S,76367,649,77016,0.06578
 2025-03-14,56_Z_Mini_049_ISO_Cont_1_S40,Klebsiella pneumoniae,573,S,18367,84869,103236,0.08818
@@ -317,7 +277,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2025-03-14,58_Z_Mini_049_ISO_Cont_2_S42,Cutibacterium acnes,1747,S,34015,304,34319,0.10163
 2025-03-14,59_Z_Mini_050_ISO_Cont_3_S43,Cutibacterium acnes,1747,S,41446,692,42138,0.08486
 2025-03-14,59_Z_Mini_050_ISO_Cont_3_S43,Malassezia restricta,76775,S,42863,6,42869,0.08633
-2025-03-14,5_Zymo_Micro_Prep_CS_005_Left_Eye_S85,Homo sapiens,9606,S,7494,18,7512,0.70055
 2025-03-14,5_Zymo_Micro_Prep_CS_005_Left_Eye_S85,Cutibacterium acnes,1747,S,1138,9,1147,0.10697
 2025-03-14,60_Z_Mini_049_ISO_Cont_3_S44,Cutibacterium acnes,1747,S,39253,579,39832,0.11158
 2025-03-14,61_Z_Mini__MCS_OMR_B1001_S45,Bacillus subtilis,1423,S,90378,900912,991290,0.05560
@@ -338,12 +297,9 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2025-03-14,63_Qiagen_DNeasy_049_Conj_L_1_S47,Listeria monocytogenes,1639,S,3396,254,3650,0.05986
 2025-03-14,63_Qiagen_DNeasy_049_Conj_L_1_S47,Enterococcus faecalis,1351,S,3235,145,3380,0.05544
 2025-03-14,63_Qiagen_DNeasy_049_Conj_L_1_S47,Lactobacillus fermentum,1613,S,3025,75,3100,0.05084
-2025-03-14,63_Qiagen_DNeasy_049_Conj_L_1_S47,Homo sapiens,9606,S,6714,158,6872,0.11271
 2025-03-14,64_Qiagen_DNeasy_049_049_Lid_L_1_S48,Cutibacterium acnes,1747,S,16526,123,16649,0.18463
 2025-03-14,64_Qiagen_DNeasy_049_049_Lid_L_1_S48,Salmonella enterica,28901,S,1262,3719,4981,0.05524
-2025-03-14,64_Qiagen_DNeasy_049_049_Lid_L_1_S48,Homo sapiens,9606,S,9368,489,9857,0.10931
 2025-03-14,65_Qiagen_DNeasy_049_Skin_L_1_S49,Cutibacterium acnes,1747,S,55507,482,55989,0.32418
-2025-03-14,65_Qiagen_DNeasy_049_Skin_L_1_S49,Homo sapiens,9606,S,11067,759,11826,0.06847
 2025-03-14,65_Qiagen_DNeasy_049_Skin_L_1_S49,Trypanosoma cruzi,5693,S,7965,1149,9114,0.05277
 2025-03-14,66_Qiagen_DNeasy_049_Conj_L_2_S50,Salinivibrio costicola,51367,S,1771,1013,2784,0.07710
 2025-03-14,66_Qiagen_DNeasy_049_Conj_L_2_S50,Salinivibrio sp. YCSC6,2003370,S,1741,978,2719,0.07530
@@ -351,26 +307,20 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2025-03-14,66_Qiagen_DNeasy_049_Conj_L_2_S50,Xanthomonas campestris,339,S,2189,33,2222,0.06154
 2025-03-14,66_Qiagen_DNeasy_049_Conj_L_2_S50,Delftia tsuruhatensis,180282,S,1566,305,1871,0.05182
 2025-03-14,66_Qiagen_DNeasy_049_Conj_L_2_S50,Cutibacterium acnes,1747,S,2081,12,2093,0.05797
-2025-03-14,66_Qiagen_DNeasy_049_Conj_L_2_S50,Homo sapiens,9606,S,4070,179,4249,0.11768
 2025-03-14,67_Qiagen_DNeasy_049_Lid_L_2_S51,Cutibacterium acnes,1747,S,36687,326,37013,0.42219
-2025-03-14,67_Qiagen_DNeasy_049_Lid_L_2_S51,Homo sapiens,9606,S,9623,385,10008,0.11416
 2025-03-14,68_Qiagen_DNeasy_049_Skin_L_2_S52,Cutibacterium acnes,1747,S,408318,3305,411623,0.41997
 2025-03-14,68_Qiagen_DNeasy_049_Skin_L_2_S52,Trypanosoma cruzi,5693,S,46887,8259,55146,0.05626
 2025-03-14,69_Qiagen_DNeasy_049_Conj_L_3_S53,Salinivibrio sp. YCSC6,2003370,S,3514,1976,5490,0.09321
 2025-03-14,69_Qiagen_DNeasy_049_Conj_L_3_S53,Salinivibrio costicola,51367,S,3313,1881,5194,0.08818
-2025-03-14,69_Qiagen_DNeasy_049_Conj_L_3_S53,Homo sapiens,9606,S,11912,657,12569,0.21340
 2025-03-14,69_Qiagen_DNeasy_049_Conj_L_3_S53,Trypanosoma cruzi,5693,S,4902,885,5787,0.09825
-2025-03-14,6_Zymo_Micro_Prep_CS_006_Right_Eye_S86,Homo sapiens,9606,S,7032,32,7064,0.88256
 2025-03-14,70_Qiagen_DNeasy_049_Lid_L_3_S54,Cutibacterium acnes,1747,S,44414,337,44751,0.33187
 2025-03-14,70_Qiagen_DNeasy_049_Lid_L_3_S54,Salinivibrio sp. YCSC6,2003370,S,5320,3084,8404,0.06232
 2025-03-14,70_Qiagen_DNeasy_049_Lid_L_3_S54,Salinivibrio costicola,51367,S,4844,2849,7693,0.05705
-2025-03-14,70_Qiagen_DNeasy_049_Lid_L_3_S54,Homo sapiens,9606,S,11317,1009,12326,0.09141
 2025-03-14,70_Qiagen_DNeasy_049_Lid_L_3_S54,Trypanosoma cruzi,5693,S,5732,1277,7009,0.05198
 2025-03-14,71_Qiagen_DNeasy_049_Skin_L_3_S55,Cutibacterium acnes,1747,S,229796,2336,232132,0.63702
 2025-03-14,73_Qiagen_DNeasy_050_Lid_R_1_S57,Cutibacterium acnes,1747,S,44660,318,44978,0.39731
 2025-03-14,73_Qiagen_DNeasy_050_Lid_R_1_S57,Xanthomonas campestris,339,S,5937,68,6005,0.05304
 2025-03-14,73_Qiagen_DNeasy_050_Lid_R_1_S57,Trypanosoma cruzi,5693,S,8076,1703,9779,0.08638
-2025-03-14,73_Qiagen_DNeasy_050_Lid_R_1_S57,Homo sapiens,9606,S,6439,1225,7664,0.06770
 2025-03-14,74_Qiagen_DNeasy_050_Skin_R_1_S58,Cutibacterium acnes,1747,S,161973,1120,163093,0.69037
 2025-03-14,75_Qiagen_DNeasy_050_Conj_R_2_S59,Salinivibrio sp. YCSC6,2003370,S,4886,2712,7598,0.05768
 2025-03-14,75_Qiagen_DNeasy_050_Conj_R_2_S59,Salinivibrio costicola,51367,S,4605,2568,7173,0.05445
@@ -390,34 +340,24 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2025-03-14,78_Qiagen_DNeasy_050_Conj_R_3_S62,Cutibacterium acnes,1747,S,12362,87,12449,0.07483
 2025-03-14,78_Qiagen_DNeasy_050_Conj_R_3_S62,Trypanosoma cruzi,5693,S,12548,2253,14801,0.08897
 2025-03-14,79_Qiagen_DNeasy_050_Lid_R_3_S63,Cutibacterium acnes,1747,S,14651,108,14759,0.40120
-2025-03-14,79_Qiagen_DNeasy_050_Lid_R_3_S63,Homo sapiens,9606,S,15142,130,15272,0.41515
-2025-03-14,7_Zymo_Micro_Prep_CS_007_Left_Eye_S87,Homo sapiens,9606,S,10843,33,10876,0.87161
 2025-03-14,80_Qiagen_DNeasy_050_Skin_R_3_S64,Cutibacterium acnes,1747,S,206187,1414,207601,0.61123
 2025-03-14,81_Qiagen_DNeasy_051_Conj_L_1_S65,Salinivibrio sp. YCSC6,2003370,S,3689,1794,5483,0.16330
 2025-03-14,81_Qiagen_DNeasy_051_Conj_L_1_S65,Salinivibrio costicola,51367,S,3500,1725,5225,0.15562
-2025-03-14,81_Qiagen_DNeasy_051_Conj_L_1_S65,Homo sapiens,9606,S,5749,188,5937,0.17682
 2025-03-14,83_Qiagen_DNeasy_051_Skin_L_1_S67,Cutibacterium acnes,1747,S,22697,215,22912,0.21874
-2025-03-14,83_Qiagen_DNeasy_051_Skin_L_1_S67,Homo sapiens,9606,S,8394,345,8739,0.08343
 2025-03-14,84_Qiagen_DNeasy_051_Conj_L_2_S68,Salinivibrio sp. YCSC6,2003370,S,1794,1077,2871,0.10118
 2025-03-14,84_Qiagen_DNeasy_051_Conj_L_2_S68,Salinivibrio costicola,51367,S,1774,1073,2847,0.10034
-2025-03-14,84_Qiagen_DNeasy_051_Conj_L_2_S68,Homo sapiens,9606,S,7374,350,7724,0.27222
 2025-03-14,84_Qiagen_DNeasy_051_Conj_L_2_S68,Trypanosoma cruzi,5693,S,2212,427,2639,0.09301
 2025-03-14,85_Qiagen_DNeasy_051_Lid_L_2_S69,Cutibacterium acnes,1747,S,9631,102,9733,0.10774
 2025-03-14,85_Qiagen_DNeasy_051_Lid_L_2_S69,Salinivibrio sp. YCSC6,2003370,S,3166,1935,5101,0.05647
 2025-03-14,85_Qiagen_DNeasy_051_Lid_L_2_S69,Salinivibrio costicola,51367,S,2926,1814,4740,0.05247
 2025-03-14,85_Qiagen_DNeasy_051_Lid_L_2_S69,Xanthomonas campestris,339,S,4856,111,4967,0.05498
 2025-03-14,85_Qiagen_DNeasy_051_Lid_L_2_S69,Pseudomonas tolaasii,29442,S,1907,3075,4982,0.05515
-2025-03-14,85_Qiagen_DNeasy_051_Lid_L_2_S69,Homo sapiens,9606,S,10407,1685,12092,0.13385
 2025-03-14,85_Qiagen_DNeasy_051_Lid_L_2_S69,Trypanosoma cruzi,5693,S,5181,1608,6789,0.07515
 2025-03-14,86_Qiagen_DNeasy_051_Skin_L_2_S70,Cutibacterium acnes,1747,S,123848,1742,125590,0.15570
 2025-03-14,87_Qiagen_DNeasy_051_Conj_L_3_S71,Rothia mucilaginosa,43675,S,3379,26,3405,0.11704
-2025-03-14,87_Qiagen_DNeasy_051_Conj_L_3_S71,Homo sapiens,9606,S,6733,399,7132,0.24514
 2025-03-14,87_Qiagen_DNeasy_051_Conj_L_3_S71,Trypanosoma cruzi,5693,S,2282,361,2643,0.09085
 2025-03-14,88_Qiagen_DNeasy_051_Lid_L_3_S72,Cutibacterium acnes,1747,S,17537,203,17740,0.18943
-2025-03-14,88_Qiagen_DNeasy_051_Lid_L_3_S72,Homo sapiens,9606,S,12441,600,13041,0.13925
 2025-03-14,89_Qiagen_DNeasy_051_Skin_L_3_S73,Cutibacterium acnes,1747,S,37302,450,37752,0.27185
-2025-03-14,89_Qiagen_DNeasy_051_Skin_L_3_S73,Homo sapiens,9606,S,6397,757,7154,0.05151
-2025-03-14,8_Zymo_Micro_Prep_CS_008_Right_Eye_S88,Homo sapiens,9606,S,9045,25,9070,0.72519
 2025-03-14,8_Zymo_Micro_Prep_CS_008_Right_Eye_S88,Cutibacterium acnes,1747,S,765,6,771,0.06165
 2025-03-14,90_Qiagen_DNeasy_049_ISO_Cont_1_S74,Trypanosoma cruzi,5693,S,230439,27440,257879,0.30146
 2025-03-14,90_Qiagen_DNeasy_049_ISO_Cont_1_S74,Salinivibrio sp. YCSC6,2003370,S,41683,27017,68700,0.08031
@@ -453,13 +393,11 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2025-03-14,96_Qiagen_DNeasy_OMR_B1001_S80,Escherichia coli,562,S,16388,194357,210745,0.09379
 2025-03-14,96_Qiagen_DNeasy_OMR_B1001_S80,Trypanosoma cruzi,5693,S,284822,70528,355350,0.15814
 2025-03-14,96_Qiagen_DNeasy_OMR_B1001_S80,Cryptosporidium hominis,237895,S,160893,22523,183416,0.08162
-2025-03-14,9_Zymo_Micro_Prep_CS_009_Left_Eye_S89,Homo sapiens,9606,S,9925,46,9971,0.81052
 2024-10-28,MasterPureLyso_LE_AirCtr_3,Bradyrhizobium sp. SK17,2057741,S,1819346,79964,1899310,0.18682
 2024-10-28,MasterPureLyso_LE_AirCtr_3,Burkholderia contaminans,488447,S,903442,191906,1095348,0.10774
 2024-10-28,MasterPureLyso_LE_Lt_2,Bradyrhizobium sp. SK17,2057741,S,101691,4363,106054,0.15671
 2024-10-28,MasterPureLyso_LE_Lt_2,Burkholderia contaminans,488447,S,49325,9981,59306,0.08763
 2024-10-28,MasterPureLyso_LE_Lt_2,Parabacteroides distasonis,823,S,25216,21967,47183,0.06972
-2024-10-28,MasterPureLyso_LE_Lt_2,Homo sapiens,9606,S,49618,1879,51497,0.07609
 2024-10-28,MasterPureLyso_LE_MCS_1_100_4,Salmonella enterica,28901,S,11763539,9923675,21687214,0.27717
 2024-10-28,MasterPureLyso_LE_MCS_1_100_4,Escherichia coli,562,S,3855418,12981311,16836729,0.21518
 2024-10-28,MasterPureLyso_LE_MCS_1_100_4,Pseudomonas aeruginosa,287,S,6315423,10931053,17246476,0.22042
@@ -477,7 +415,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-10-28,MasterPureMolYsisBasic_5_Lt_2,Parabacteroides distasonis,823,S,151854,127239,279093,0.05533
 2024-10-28,MasterPureMolYsisBasic_5_Rt_1,Bradyrhizobium sp. SK17,2057741,S,120482,5375,125857,0.16892
 2024-10-28,MasterPureMolYsisBasic_5_Rt_1,Burkholderia contaminans,488447,S,56695,12025,68720,0.09223
-2024-10-28,MasterPureMolYsisBasic_5_Rt_1,Homo sapiens,9606,S,76123,5063,81186,0.10896
 2024-10-28,MasterPureNEB_AirCtr_3,Faecalibacterium prausnitzii,853,S,1085985,288491,1374476,0.06015
 2024-10-28,MasterPureNEB_AirCtr_3,Bacteroides fragilis,817,S,1779106,102768,1881874,0.08236
 2024-10-28,MasterPureNEB_AirCtr_3,Bacteroides cellulosilyticus,246787,S,1251313,43445,1294758,0.05667
@@ -513,7 +450,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-10-28,MasterPure_LE_Lt_2,Parabacteroides distasonis,823,S,472887,395011,867898,0.31495
 2024-10-28,MasterPure_LE_Rt_1,Bradyrhizobium sp. SK17,2057741,S,110584,4771,115355,0.13996
 2024-10-28,MasterPure_LE_Rt_1,Burkholderia contaminans,488447,S,50453,10329,60782,0.07375
-2024-10-28,MasterPure_LE_Rt_1,Homo sapiens,9606,S,50829,2124,52953,0.06425
 2024-10-28,MasterPure_MCS_7_S56,Salmonella enterica,28901,S,3658078,3056211,6714289,0.29855
 2024-10-28,MasterPure_MCS_7_S56,Escherichia coli,562,S,1045175,3887726,4932901,0.21934
 2024-10-28,MasterPure_MCS_7_S56,Pseudomonas aeruginosa,287,S,1976383,3338168,5314551,0.23631
@@ -586,10 +522,8 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-03-14,Zymo_Magbead_Air_Ctr_3_S4,Bradyrhizobium sp. SK17,2057741,S,14319368,573229,14892597,0.39694
 2024-03-14,Zymo_Magbead_Air_Ctr_3_S4,Burkholderia contaminans,488447,S,6400296,1372250,7772546,0.20716
 2024-03-14,Zymo_Magbead_LE_Lt_2_S16,Cutibacterium acnes,1747,S,18275,196,18471,0.05414
-2024-03-14,Zymo_Magbead_LE_Lt_2_S16,Homo sapiens,9606,S,43786,811,44597,0.13071
 2024-03-14,Zymo_Magbead_LE_Rt_1_S9,Prevotella melaninogenica,28132,S,43814,2804,46618,0.05283
 2024-03-14,Zymo_Magbead_LE_Rt_1_S9,Trypanosoma cruzi,5693,S,59351,12761,72112,0.08172
-2024-03-14,Zymo_Magbead_LE_Rt_1_S9,Homo sapiens,9606,S,43621,5006,48627,0.05510
 2024-03-14,Zymo_Magbead_MCS_1-100_4_S22,Bradyrhizobium sp. SK17,2057741,S,14646860,554029,15200889,0.41304
 2024-03-14,Zymo_Magbead_MCS_1-100_4_S22,Burkholderia contaminans,488447,S,5313965,917525,6231490,0.16932
 2024-03-14,Zymo_Mini_prep_Air_Ctr_3_S19,Bradyrhizobium sp. SK17,2057741,S,14770229,525789,15296018,0.45954
@@ -606,24 +540,19 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-10-28,Qiagen_Dneasy_CS_005_Air_Swab_S67,Bradyrhizobium sp. SK17,2057741,S,329674,27558,357232,0.06121
 2024-10-28,Qiagen_Dneasy_CS_005_Right_Eye_S54,Burkholderia contaminans,488447,S,21848,4239,26087,0.19318
 2024-10-28,Qiagen_Dneasy_CS_005_Right_Eye_S54,Bradyrhizobium sp. SK17,2057741,S,6428,582,7010,0.05191
-2024-10-28,Qiagen_Dneasy_CS_005_Right_Eye_S54,Homo sapiens,9606,S,25420,407,25827,0.19125
 2024-10-28,Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51,Burkholderia contaminans,488447,S,684449,127329,811778,0.18700
 2024-10-28,Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51,Bradyrhizobium sp. SK17,2057741,S,213561,18719,232280,0.05351
 2024-10-28,Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51,Salmonella enterica,28901,S,64152,170839,234991,0.05413
 2024-10-28,Qiagen_Dneasy_CS_006_Left_Eye_S31,Burkholderia contaminans,488447,S,12914,2302,15216,0.17596
 2024-10-28,Qiagen_Dneasy_CS_006_Left_Eye_S31,Bradyrhizobium sp. SK17,2057741,S,4084,367,4451,0.05147
-2024-10-28,Qiagen_Dneasy_CS_006_Left_Eye_S31,Homo sapiens,9606,S,9933,370,10303,0.11915
 2024-10-28,Qiagen_Dneasy_CS_007_Right_Eye_S4,Burkholderia contaminans,488447,S,5095,1013,6108,0.19048
-2024-10-28,Qiagen_Dneasy_CS_007_Right_Eye_S4,Homo sapiens,9606,S,7657,81,7738,0.24131
 2024-10-28,Qiagen_Dneasy_CS_008_Left_Eye_S33,Bacillus subtilis,1423,S,2097,24147,26244,0.10213
 2024-10-28,Qiagen_Dneasy_CS_008_Left_Eye_S33,Bacillus intestinalis,1963032,S,66,26084,26150,0.10176
 2024-10-28,Qiagen_Dneasy_CS_008_Left_Eye_S33,Burkholderia contaminans,488447,S,25017,4269,29286,0.11396
-2024-10-28,Qiagen_Dneasy_CS_008_Left_Eye_S33,Homo sapiens,9606,S,25086,423,25509,0.09926
 2024-10-28,Qiagen_Dneasy_CS_009_10_Air_Swab_S48,Burkholderia contaminans,488447,S,876132,155672,1031804,0.17614
 2024-10-28,Qiagen_Dneasy_CS_009_10_Air_Swab_S48,Bradyrhizobium sp. SK17,2057741,S,288146,23897,312043,0.05327
 2024-10-28,Qiagen_Dneasy_CS_009_10_Air_Swab_S48,Salmonella enterica,28901,S,104875,260347,365222,0.06235
 2024-10-28,Qiagen_Dneasy_CS_009_Right_Eye_S41,Burkholderia contaminans,488447,S,4361,1006,5367,0.14106
-2024-10-28,Qiagen_Dneasy_CS_009_Right_Eye_S41,Homo sapiens,9606,S,11600,334,11934,0.31366
 2024-10-28,Qiagen_Dneasy_CS_010_Left_Eye_S45,Cutibacterium acnes,1747,S,106740,905,107645,0.31680
 2024-10-28,Qiagen_Dneasy_CS_010_Left_Eye_S45,Burkholderia contaminans,488447,S,26416,4456,30872,0.09086
 2024-10-28,Qiagen_Dneasy_CS_010_Left_Eye_S45,Salmonella enterica,28901,S,6544,13111,19655,0.05785
@@ -689,11 +618,8 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-03-14,Qiagen_Soil_Air_Ctr_3_S2,Listeria monocytogenes,1639,S,33,10,43,0.05534
 2024-03-14,Qiagen_Soil_Air_Ctr_3_S2,Staphylococcus aureus,1280,S,19,32,51,0.06564
 2024-03-14,Qiagen_Soil_Air_Ctr_3_S2,Delftia tsuruhatensis,180282,S,33,6,39,0.05019
-2024-03-14,Qiagen_Soil_Air_Ctr_3_S2,Homo sapiens,9606,S,120,2,122,0.15701
-2024-03-14,Qiagen_Soil_LE_Lt_2_S14,Homo sapiens,9606,S,7272,40,7312,0.51814
 2024-03-14,Qiagen_Soil_LE_Lt_2_S14,Bradyrhizobium sp. SK17,2057741,S,1937,101,2038,0.14442
 2024-03-14,Qiagen_Soil_LE_Rt_1_S15,Bradyrhizobium sp. SK17,2057741,S,3331,84,3415,0.40390
-2024-03-14,Qiagen_Soil_LE_Rt_1_S15,Homo sapiens,9606,S,1446,10,1456,0.17221
 2024-03-14,Qiagen_Soil_MCS_1-100_4_S5,Salmonella enterica,28901,S,1747723,1768469,3516192,0.20043
 2024-03-14,Qiagen_Soil_MCS_1-100_4_S5,Escherichia coli,562,S,554981,2254693,2809674,0.16016
 2024-03-14,Qiagen_Soil_MCS_1-100_4_S5,Pseudomonas aeruginosa,287,S,988283,1909066,2897349,0.16516
@@ -747,7 +673,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-03-14,Zymo_Mini_prep_LE_Lt_2_S3,Burkholderia contaminans,488447,S,260397,46703,307100,0.24955
 2024-03-14,Zymo_Mini_prep_LE_Rt_1_S6,Bradyrhizobium sp. SK17,2057741,S,59267,2988,62255,0.16238
 2024-03-14,Zymo_Mini_prep_LE_Rt_1_S6,Burkholderia contaminans,488447,S,71211,12310,83521,0.21785
-2024-03-14,Zymo_Mini_prep_LE_Rt_1_S6,Homo sapiens,9606,S,28157,637,28794,0.07510
 2024-03-14,Zymo_Mini_prep_MCS_1-100_4_S13,Bacillus subtilis,1423,S,317262,3326194,3643456,0.06264
 2024-03-14,Zymo_Mini_prep_MCS_1-100_4_S13,Bacillus intestinalis,1963032,S,10321,3461276,3471597,0.05969
 2024-03-14,Zymo_Mini_prep_MCS_1-100_4_S13,Listeria monocytogenes,1639,S,6861891,275394,7137285,0.12272
