@@ -1,18 +1,20 @@
 /* Example to reduce padding for navigation content */
-/*
+
 .wy-nav-content {
     padding: 5px !important; 
 }
-*/
 
+
+/*
 body:first-of-type .wy-nav-content {
     padding: 5px !important;
 }
 
 .wy-nav-content {
-  max-width: 100%;      /* default is ~800px */
-  width: 100%;           /* or set to 1200px, etc */
+  max-width: 100%;      
+  width: 100%;         
 }
+*/
 
 /* Example to reduce padding for body content */
 .document {
