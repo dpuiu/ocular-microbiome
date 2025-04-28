@@ -26,6 +26,7 @@ html_static_path = ['_static']
 html_css_files = ['custom.css']
 html_js_files = ['custom.js']
 html_search_options = {    'separate_word_search': True }
+html_search_language = 'en'
 
 master_doc = 'index'
 extensions = []

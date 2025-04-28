@@ -1,15 +1,16 @@
+.. include:: header.rst
+
 Consortium Members
 ==================
 
 .. contents::
-   :depth: 1
+   :depth: 3
    :local:
 
 `Baylor College of Medicine <https://www.bcm.edu/>`_
-----------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Multi-Method Investigation and Characterization of the Ocular Microbiome**
-
 **PIs:**
 
 .. raw:: html
@@ -24,10 +25,9 @@ Consortium Members
    </ul> 
 
 `University of Washington <https://www.washington.edu/>`_
----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Determinants of the Periocular Microbiome**
-
 **PI:**
 
 .. raw:: html
@@ -37,10 +37,9 @@ Consortium Members
    </ul>
 
 `Vanderbilt University Medical Center <https://www.vumc.org/main/home>`_
-------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Molecular Characterization of the Ocular Microbiome in Healthy Adults**
-
 **PIs:**
 
 .. raw:: html
@@ -54,7 +53,6 @@ Consortium Members
 --------------------------------------
 
 **Development of Standardized Resources for Characterization of Resident Ocular Surface Microbiome**
-
 **PIs** 
 
 .. raw:: html
@@ -67,10 +65,9 @@ Consortium Members
 
 
 `University of Pittsburgh <https://www.pitt.edu/>`_
----------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Defining Bacterial Members of the Ocular Surface Microbiome & Assessing Stability Over Time**
-
 **PIs:** 
 
 .. raw:: html
@@ -81,4 +78,3 @@ Consortium Members
    </ul>
 
 .. include:: footer.rst
-

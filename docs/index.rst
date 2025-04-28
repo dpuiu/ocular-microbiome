@@ -1,3 +1,5 @@
+.. include:: header.rst
+
 Ocular Microbiome Consortium
 ============================
 
@@ -22,11 +24,8 @@ This research makes use of the `SciServer <https://www.sciserver.org/>`_ scien
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    Consortium
    Research
-   Research/Research_Projects
-   Research/Research_Results
 
 .. include:: footer.rst
