@@ -12,6 +12,9 @@ Additional Members
 - `Trish Simner <mailto:psimner1@jhmi.edu>`_
 - `Fareeha Zulfiqar <mailto:fzulfiq1@jhmi.edu>`_
 
+`SciServer <https://sciserver.org/>`_
+-------------------------------------
+
 `Pipeline <JHU_Pipeline.html>`_
 -------------------------------
 

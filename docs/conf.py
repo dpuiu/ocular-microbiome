@@ -17,7 +17,7 @@ import sys
 sys.path.insert(0, os.path.abspath('.'))
 
 project = 'Ocular Microbial Project'
-copyright = '2025, JHU CCB'
+copyright = '2025,Johns Hopkins University, Whiting School of Engineering, Center for Computational Biology'
 author = 'Daniela Puiu'
 
 html_theme = "sphinx_rtd_theme" 
@@ -25,7 +25,7 @@ html_theme_options = { "navigation_depth": 3 }
 html_static_path = ['_static']
 html_css_files = ['custom.css']
 html_js_files = ['custom.js']
-html_search_options = {    'separate_word_search': True }
+html_search_options = { 'separate_word_search': True }
 html_search_language = 'en'
 
 master_doc = 'index'

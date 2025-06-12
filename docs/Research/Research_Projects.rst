@@ -5,6 +5,7 @@ Projects
 
 .. csv-table:: Previously published ocular microbiome projects
     :header:    "BioProject","Description","Center Name","Date"
+    :widths: 10,20,20,10
 
     "`PRJDB10068 <https://www.ncbi.nlm.nih.gov/bioproject/PRJDB10068/>`_","Microbial contamination pattern of contact lens care solutions used by allergic conjunctivitis patients.","KAGAWA","2020-06-27"
     "`PRJDB10133 <https://www.ncbi.nlm.nih.gov/bioproject/PRJDB10133/>`_","Presence of acanthamoeba and diversified bacterialflora in poorly maintained contact lens cases.","KAGAWA","2022-07-01"
