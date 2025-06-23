@@ -1,3 +1,6 @@
 - 2025-06-12
-moved project admin info to Administration.rst
+Moved project admin info to Administration.rst
+
+- 2025-06-23
+Copyright update
 

@@ -17,7 +17,7 @@ import sys
 sys.path.insert(0, os.path.abspath('.'))
 
 project = 'Ocular Microbial Project'
-#copyright = ''
+copyright = '2025 Ocular Microbiome Consortium'
 author = 'Daniela Puiu'
 
 html_theme = "sphinx_rtd_theme" 
