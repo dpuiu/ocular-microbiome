@@ -2,7 +2,7 @@
   
 ## URL 
 
-    https://ccb.jhu.edu/ocular-microbiome/
+    https://www.ocular-microbiome.org/
 
 ## Build (using Sphinx)
 
@@ -17,8 +17,8 @@
 
 ## Config Files
 
-    conf.py
-    _static/custom.css
+    docs/conf.py
+    docs/_static/custom.css
 
 ## reStructured text files
 

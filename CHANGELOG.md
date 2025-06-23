@@ -4,3 +4,6 @@ Moved project admin info to Administration.rst
 - 2025-06-23
 Copyright update
 
+- 2025-06-23
+README.md update
+
