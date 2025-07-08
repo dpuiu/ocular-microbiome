@@ -1,10 +1,9 @@
-.. include:: header.rst
-
 Projects
-========
+--------
 
 .. csv-table:: Previously published ocular microbiome projects
     :header:    "BioProject","Description","Center Name","Date"
+    :widths: 10,20,20,10
 
     "`PRJDB10068 <https://www.ncbi.nlm.nih.gov/bioproject/PRJDB10068/>`_","Microbial contamination pattern of contact lens care solutions used by allergic conjunctivitis patients.","KAGAWA","2020-06-27"
     "`PRJDB10133 <https://www.ncbi.nlm.nih.gov/bioproject/PRJDB10133/>`_","Presence of acanthamoeba and diversified bacterialflora in poorly maintained contact lens cases.","KAGAWA","2022-07-01"
@@ -50,3 +49,5 @@ Projects
     "`PRJNA912096 <https://www.ncbi.nlm.nih.gov/bioproject/PRJNA912096/>`_","Study of microbial diversity of vitreous humor microbicolor in endophthalmitis.","SHANXI EYE HOSPITAL","2022-12-15"
     "`PRJNA912212 <https://www.ncbi.nlm.nih.gov/bioproject/PRJNA912212/>`_","DNA extraction protocol impacts ocular surface microbiome profile","KU LEUVEN","2022-12-14"
     "`PRJNA937315 <https://www.ncbi.nlm.nih.gov/bioproject/PRJNA937315/>`_","Endophthalmitis_metegenomic_study","CENTRO DE CIENCIAS GENOMICAS - UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO","2023-02-24"
+
+

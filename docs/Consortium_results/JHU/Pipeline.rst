@@ -1,10 +1,10 @@
 .. include:: header.rst
 
 Pipeline
-========
+~~~~~~~~
 
 Steps
------
+^^^^^
 
 1. `minimap2 <https://github.com/lh3/minimap2>`_
 
@@ -18,7 +18,7 @@ Steps
 3. `bracken <https://github.com/jenniferlu717/Bracken/>`_
 
 Diagram
--------
+^^^^^^^
 
 .. mermaid::
 

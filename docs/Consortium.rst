@@ -36,7 +36,7 @@ Consortium Members
      <li><a href="mailto:russvg@uw.edu">Russel Van Gelder</a></li>
    </ul>
 
-`Vanderbilt University Medical Center <https://www.vumc.org/main/home>`_
+`Vanderbilt University Medical Center <https://www.vumc.org/>`_
 ------------------------------------------------------------------------
 
 **Molecular Characterization of the Ocular Microbiome in Healthy Adults**
@@ -49,8 +49,8 @@ Consortium Members
      <li>Sapna Gangaputra</li>
    </ul>
 
-`Johns Hopkins University <JHU.html>`_
---------------------------------------
+`Johns Hopkins University <https://jhu.edu/>`_
+----------------------------------------------
 
 **Development of Standardized Resources for Characterization of Resident Ocular Surface Microbiome**
 **PIs** 
@@ -63,6 +63,7 @@ Consortium Members
      <li><a href="mailto:salzberg@jhu.edu">Steven Salzberg</a></li>
    </ul>
 
+`SciServer <https://sciserver.org/>`_
 
 `University of Pittsburgh <https://www.pitt.edu/>`_
 ---------------------------------------------------
