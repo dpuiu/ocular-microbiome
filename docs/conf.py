@@ -27,12 +27,12 @@ html_css_files = ['custom.css']
 html_js_files = ['custom.js']
 html_search_options = { 'separate_word_search': True }
 html_search_language = 'en'
+html_theme_options = { "use_table_sorting": False }
 
 master_doc = 'index'
-extensions = []
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "OLD", "Consortium", "Data_Access", "JHU", "Research"]
-extensions = ['sphinxcontrib.mermaid']  # 'recommonmark', 'myst_parser'
+extensions = ['sphinxcontrib.mermaid','sphinx_design']  # 'recommonmark', 'myst_parser'
 source_suffix = { '.rst': 'restructuredtext' } #    '.md': 'markdown',
 
 #from recommonmark.parser import CommonMarkParser

@@ -1,8 +1,0 @@
-.. csv-table:: Library counts
-   :header: Date,Counts
-
-   2024-03-14,24
-   2024-07-15,21
-   2024-10-28,79
-   2025-03-14,96
-
