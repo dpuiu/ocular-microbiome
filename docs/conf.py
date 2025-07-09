@@ -32,7 +32,7 @@ html_theme_options = { "use_table_sorting": False }
 master_doc = 'index'
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "OLD", "Consortium", "Data_Access", "JHU", "Research"]
-extensions = ['sphinxcontrib.mermaid','sphinx_design']  # 'recommonmark', 'myst_parser'
+extensions = ['sphinxcontrib.mermaid','sphinx_design']  # 'recommonmark', 'myst_parser; sphinx_design
 source_suffix = { '.rst': 'restructuredtext' } #    '.md': 'markdown',
 
 #from recommonmark.parser import CommonMarkParser

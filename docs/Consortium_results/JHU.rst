@@ -4,14 +4,14 @@
 Data
 ~~~~
 
-.. include:: Consortium_results/JHU/Run_Dates.rst
-.. include:: Consortium_results/separator.rst
-.. include:: Consortium_results/JHU/Runs.rst
+.. include:: JHU/Run_Dates.rst
+.. include:: separator.rst
+.. include:: JHU/Runs.rst
 
 Results
 ~~~~~~~
 
-.. include:: Consortium_results/JHU/Results.merged2.rst
-.. include:: Consortium_results/JHU/Results.merged.rst
-.. include:: Consortium_results/JHU/Results.rst
+.. include:: JHU/Results.merged2.rst
+.. include:: JHU/Results.merged.rst
+.. include:: JHU/Results.rst
 
