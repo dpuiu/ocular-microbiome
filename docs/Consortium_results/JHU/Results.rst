@@ -1,743 +1,8132 @@
 Per Library
 ^^^^^^^^^^^
 
-.. csv-table::
-    :header:    Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new_est_reads,fraction_total_reads
+.. raw:: html
 
-    2025-03-14,10_Zymo_Micro_Prep_CS_010_Right_Eye_S90,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,933,6,939,0.05021
-    2025-03-14,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,Xanthomonas campestris,`339 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>`_,S,"16,057",320,"16,377",0.06707
-    2025-03-14,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,Delftia tsuruhatensis,`180282 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>`_,S,"14,912","3,184","18,096",0.07411
-    2025-03-14,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"34,787",325,"35,112",0.14381
-    2025-03-14,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,Meiothermus silvanus,`52022 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=52022>`_,S,"21,623",81,"21,704",0.08889
-    2025-03-14,12_Zymo_Micro_Prep_CS_010_Air_Swab_S92,Xanthomonas campestris,`339 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>`_,S,"20,677",403,"21,080",0.05122
-    2025-03-14,12_Zymo_Micro_Prep_CS_010_Air_Swab_S92,Delftia tsuruhatensis,`180282 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>`_,S,"22,593","5,165","27,758",0.06744
-    2025-03-14,12_Zymo_Micro_Prep_CS_010_Air_Swab_S92,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"54,425",467,"54,892",0.13337
-    2025-03-14,12_Zymo_Micro_Prep_CS_010_Air_Swab_S92,Meiothermus silvanus,`52022 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=52022>`_,S,"26,884",98,"26,982",0.06556
-    2025-03-14,12_Zymo_Micro_Prep_CS_010_Air_Swab_S92,Malassezia restricta,`76775 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=76775>`_,S,"23,277",3,"23,280",0.05656
-    2025-03-14,13_Zymo_Microprep_MCS_OMR_BD801_S93,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"159,346","1,615,333","1,774,679",0.05842
-    2025-03-14,13_Zymo_Microprep_MCS_OMR_BD801_S93,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"5,395","1,811,887","1,817,282",0.05982
-    2025-03-14,13_Zymo_Microprep_MCS_OMR_BD801_S93,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"3,402,565","152,948","3,555,513",0.11705
-    2025-03-14,13_Zymo_Microprep_MCS_OMR_BD801_S93,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"2,951,130","118,588","3,069,718",0.10105
-    2025-03-14,13_Zymo_Microprep_MCS_OMR_BD801_S93,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"2,965,385","82,027","3,047,412",0.10032
-    2025-03-14,13_Zymo_Microprep_MCS_OMR_BD801_S93,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"2,891,335","60,805","2,952,140",0.09718
-    2025-03-14,13_Zymo_Microprep_MCS_OMR_BD801_S93,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"2,801,102","2,370,365","5,171,467",0.17024
-    2025-03-14,13_Zymo_Microprep_MCS_OMR_BD801_S93,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"827,408","3,094,048","3,921,456",0.12909
-    2025-03-14,13_Zymo_Microprep_MCS_OMR_BD801_S93,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"1,318,976","2,230,111","3,549,087",0.11684
-    2025-03-14,14_Zymo_Microprep_OMR_BD801_S94,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"6,829","91,511","98,340",0.06783
-    2025-03-14,14_Zymo_Microprep_OMR_BD801_S94,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"161,810","8,658","170,468",0.11757
-    2025-03-14,14_Zymo_Microprep_OMR_BD801_S94,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"134,158","5,775","139,933",0.09651
-    2025-03-14,14_Zymo_Microprep_OMR_BD801_S94,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"133,748","3,981","137,729",0.09499
-    2025-03-14,14_Zymo_Microprep_OMR_BD801_S94,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"125,920","2,916","128,836",0.08886
-    2025-03-14,14_Zymo_Microprep_OMR_BD801_S94,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"119,078","109,267","228,345",0.15749
-    2025-03-14,14_Zymo_Microprep_OMR_BD801_S94,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"36,520","139,906","176,426",0.12168
-    2025-03-14,14_Zymo_Microprep_OMR_BD801_S94,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"57,762","103,370","161,132",0.11113
-    2025-03-14,15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"9,639","110,348","119,987",0.05498
-    2025-03-14,15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"218,221","16,870","235,091",0.10771
-    2025-03-14,15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"182,888","8,216","191,104",0.08756
-    2025-03-14,15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"185,445","5,381","190,826",0.08743
-    2025-03-14,15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"163,341","3,806","167,147",0.07658
-    2025-03-14,15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"169,084","161,057","330,141",0.15126
-    2025-03-14,15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"51,491","202,197","253,688",0.11624
-    2025-03-14,15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"80,317","144,182","224,499",0.10286
-    2025-03-14,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,16,"5,109","5,125",0.05136
-    2025-03-14,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"10,393",559,"10,952",0.10976
-    2025-03-14,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"8,326",365,"8,691",0.08710
-    2025-03-14,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"8,522",222,"8,744",0.08763
-    2025-03-14,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"6,581",136,"6,717",0.06732
-    2025-03-14,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"7,100","6,018","13,118",0.13147
-    2025-03-14,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"2,219","8,531","10,750",0.10773
-    2025-03-14,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,Xanthomonas campestris,`339 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>`_,S,"5,652",111,"5,763",0.05776
-    2025-03-14,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"2,791","4,650","7,441",0.07457
-    2025-03-14,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,Xanthomonas campestris,`339 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>`_,S,"4,668",99,"4,767",0.12981
-    2025-03-14,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"1,379","1,479","2,858",0.07783
-    2025-03-14,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,417,"1,433","1,850",0.05038
-    2025-03-14,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"1,792",281,"2,073",0.05645
-    2025-03-14,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"2,711","35,349","38,060",0.05888
-    2025-03-14,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"65,954","3,928","69,882",0.10810
-    2025-03-14,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"54,895","2,412","57,307",0.08865
-    2025-03-14,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"56,077","1,764","57,841",0.08947
-    2025-03-14,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"43,980","1,081","45,061",0.06971
-    2025-03-14,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"43,320","40,939","84,259",0.13034
-    2025-03-14,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"13,831","54,836","68,667",0.10622
-    2025-03-14,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"17,305","32,148","49,453",0.07650
-    2024-07-15,199599_10_S41,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"871,303","38,929","910,232",0.18046
-    2024-07-15,199599_10_S41,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"414,540","97,806","512,346",0.10158
-    2024-07-15,199599_10_S41,Parabacteroides distasonis,`823 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>`_,S,"151,854","127,239","279,093",0.05533
-    2024-07-15,199599_11_S42,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"230,174","10,107","240,281",0.22095
-    2024-07-15,199599_11_S42,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"112,455","24,614","137,069",0.12604
-    2024-07-15,199599_12_S43,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"716,920","7,321,419","8,038,339",0.13656
-    2024-07-15,199599_12_S43,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"19,435","6,358,010","6,377,445",0.10835
-    2024-07-15,199599_12_S43,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"14,408,452","643,378","15,051,830",0.25572
-    2024-07-15,199599_12_S43,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"3,871,135","90,895","3,962,030",0.06731
-    2024-07-15,199599_12_S43,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"3,181,096","115,610","3,296,706",0.05601
-    2024-07-15,199599_12_S43,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"3,748,730","3,666,940","7,415,670",0.12599
-    2024-07-15,199599_12_S43,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"1,322,177","4,590,738","5,912,915",0.10046
-    2024-07-15,199599_12_S43,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"1,450,331","2,734,171","4,184,502",0.07109
-    2024-07-15,199599_13_S44,Bacteroides uniformis,`820 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=820>`_,S,"341,756","160,649","502,405",0.07088
-    2024-07-15,199599_13_S44,Phocaeicola vulgatus,`821 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821>`_,S,"407,633","92,623","500,256",0.07058
-    2024-07-15,199599_13_S44,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"572,574","24,428","597,002",0.08423
-    2024-07-15,199599_14_S45,Bacteroides ovatus,`28116 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28116>`_,S,"1,821,228","400,268","2,221,496",0.13542
-    2024-07-15,199599_14_S45,Phocaeicola vulgatus,`821 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821>`_,S,"2,643,729","409,532","3,053,261",0.18612
-    2024-07-15,199599_14_S45,Klebsiella pneumoniae,`573 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573>`_,S,"508,813","879,414","1,388,227",0.08462
-    2024-07-15,199599_14_S45,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"809,015","34,320","843,335",0.05141
-    2024-07-15,199599_15_S46,Faecalibacterium prausnitzii,`853 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=853>`_,S,"1,085,985","288,491","1,374,476",0.06015
-    2024-07-15,199599_15_S46,Bacteroides fragilis,`817 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=817>`_,S,"1,779,106","102,768","1,881,874",0.08236
-    2024-07-15,199599_15_S46,Bacteroides cellulosilyticus,`246787 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=246787>`_,S,"1,251,313","43,445","1,294,758",0.05667
-    2024-07-15,199599_16_S47,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"10,247,213","8,814,008","19,061,221",0.28275
-    2024-07-15,199599_16_S47,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"3,299,330","11,300,432","14,599,762",0.21657
-    2024-07-15,199599_16_S47,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"5,544,770","9,595,380","15,140,150",0.22458
-    2024-07-15,199599_16_S47,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"428,288","4,191,360","4,619,648",0.06853
-    2024-07-15,199599_16_S47,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"11,998","4,029,339","4,041,337",0.05995
-    2024-07-15,199599_17_S27,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"831,108","35,662","866,770",0.20457
-    2024-07-15,199599_17_S27,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"399,687","78,017","477,704",0.11275
-    2024-07-15,199599_18_S28,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"2,295,362","86,515","2,381,877",0.31562
-    2024-07-15,199599_18_S28,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"639,328","127,786","767,114",0.10165
-    2024-07-15,199599_19_S29,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"82,347","3,825","86,172",0.16123
-    2024-07-15,199599_19_S29,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"43,926","8,185","52,111",0.09750
-    2024-07-15,199599_1_S32,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"110,584","4,771","115,355",0.13996
-    2024-07-15,199599_1_S32,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"50,453","10,329","60,782",0.07375
-    2024-07-15,199599_21_S31,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,1,0,1,0.50000
-    2024-07-15,199599_21_S31,Achromobacter xylosoxidans,`85698 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=85698>`_,S,1,0,1,0.50000
-    2024-07-15,199599_2_S33,Parabacteroides distasonis,`823 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>`_,S,"472,887","395,011","867,898",0.31495
-    2024-07-15,199599_3_S34,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"1,332,343","56,933","1,389,276",0.14204
-    2024-07-15,199599_3_S34,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"619,630","121,576","741,206",0.07578
-    2024-07-15,199599_3_S34,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"303,834","548,257","852,091",0.08712
-    2024-07-15,199599_4_S35,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"10,782,990","8,829,508","19,612,498",0.25831
-    2024-07-15,199599_4_S35,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"3,508,681","11,610,753","15,119,434",0.19913
-    2024-07-15,199599_4_S35,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"5,716,607","9,759,779","15,476,386",0.20383
-    2024-07-15,199599_4_S35,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"493,774","4,712,224","5,205,998",0.06857
-    2024-07-15,199599_4_S35,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"14,382","4,619,080","4,633,462",0.06102
-    2024-07-15,199599_5_S36,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"4,353,511","3,757,642","8,111,153",0.28398
-    2024-07-15,199599_5_S36,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"1,424,172","4,843,728","6,267,900",0.21944
-    2024-07-15,199599_5_S36,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"2,300,380","4,094,385","6,394,765",0.22388
-    2024-07-15,199599_5_S36,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"173,731","1,712,649","1,886,380",0.06604
-    2024-07-15,199599_5_S36,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"4,840","1,623,472","1,628,312",0.05701
-    2024-07-15,199599_6_S37,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"101,691","4,363","106,054",0.15671
-    2024-07-15,199599_6_S37,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"49,325","9,981","59,306",0.08763
-    2024-07-15,199599_6_S37,Parabacteroides distasonis,`823 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>`_,S,"25,216","21,967","47,183",0.06972
-    2024-07-15,199599_7_S38,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"1,819,346","79,964","1,899,310",0.18682
-    2024-07-15,199599_7_S38,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"903,442","191,906","1,095,348",0.10774
-    2024-07-15,199599_8_S39,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"11,763,539","9,923,675","21,687,214",0.27717
-    2024-07-15,199599_8_S39,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"3,855,418","12,981,311","16,836,729",0.21518
-    2024-07-15,199599_8_S39,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"6,315,423","10,931,053","17,246,476",0.22042
-    2024-07-15,199599_8_S39,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"518,243","5,071,923","5,590,166",0.07144
-    2024-07-15,199599_8_S39,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"14,753","4,829,732","4,844,485",0.06191
-    2024-07-15,199599_9_S40,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"120,482","5,375","125,857",0.16892
-    2024-07-15,199599_9_S40,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"56,695","12,025","68,720",0.09223
-    2025-03-14,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"4,442","1,101","5,543",0.11236
-    2025-03-14,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,Cryptosporidium hominis,`237895 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>`_,S,"2,815",251,"3,066",0.06215
-    2025-03-14,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,Pseudomonas tolaasii,`29442 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>`_,S,"1,070","2,897","3,967",0.08041
-    2025-03-14,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,Klebsiella pneumoniae,`573 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573>`_,S,307,"2,402","2,709",0.05491
-    2025-03-14,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"2,816",24,"2,840",0.05757
-    2024-10-28,OMR1_BD801_S6,Caulobacter sp. Ji-3-8,`2708539 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2708539>`_,S,2,0,2,1.00000
-    2024-10-28,OMR2_BH802_S35,Mycolicibacterium psychrotolerans,`216929 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=216929>`_,S,1,0,1,1.00000
-    2024-03-14,Qiagen_DNeasy_Air_Ctr_3_S10,Rothia mucilaginosa,`43675 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=43675>`_,S,"134,595",871,"135,466",0.05536
-    2024-03-14,Qiagen_DNeasy_Air_Ctr_3_S10,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"37,898","117,429","155,327",0.06347
-    2024-03-14,Qiagen_DNeasy_Air_Ctr_3_S10,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"160,451","44,433","204,884",0.08373
-    2024-10-28,Qiagen_Dneasy_CS_001_Air_Swab_S39,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"1,123,920","248,332","1,372,252",0.25224
-    2024-10-28,Qiagen_Dneasy_CS_001_Air_Swab_S39,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"344,636","28,249","372,885",0.06854
-    2024-10-28,Qiagen_Dneasy_CS_001_Right_Eye_S28,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"12,306","2,268","14,574",0.14251
-    2024-10-28,Qiagen_Dneasy_CS_002_Air_Swab_S62,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"180,723","58,625","239,348",0.05428
-    2024-10-28,Qiagen_Dneasy_CS_002_Air_Swab_S62,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"504,327","89,652","593,979",0.13470
-    2024-10-28,Qiagen_Dneasy_CS_002_Air_Swab_S62,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"107,436","144,413","251,849",0.05711
-    2024-10-28,Qiagen_Dneasy_CS_002_Left_Eye_S21,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"5,164",961,"6,125",0.16370
-    2024-10-28,Qiagen_Dneasy_CS_003_Air_Swab_S18,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"1,281,360","256,314","1,537,674",0.25203
-    2024-10-28,Qiagen_Dneasy_CS_003_Air_Swab_S18,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"369,245","33,353","402,598",0.06599
-    2024-10-28,Qiagen_Dneasy_CS_003_Right_Eye_S58,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"5,906",940,"6,846",0.14528
-    2024-10-28,Qiagen_Dneasy_CS_003_Right_Eye_S58,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"1,120","1,800","2,920",0.06197
-    2024-10-28,Qiagen_Dneasy_CS_004_Air_Swab_S52,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"341,564","76,318","417,882",0.22356
-    2024-10-28,Qiagen_Dneasy_CS_004_Air_Swab_S52,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"105,668","9,346","115,014",0.06153
-    2025-03-14,22_Qiagen_Soil_Pro_CS_008_Right_Eye_S6,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,541,4,545,0.05220
-    2025-03-14,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"26,122","2,094","28,216",0.08522
-    2025-03-14,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"25,362","1,141","26,503",0.08004
-    2025-03-14,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"23,969",881,"24,850",0.07505
-    2025-03-14,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"21,746",528,"22,274",0.06727
-    2025-03-14,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"20,812","20,669","41,481",0.12528
-    2025-03-14,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"6,241","25,410","31,651",0.09559
-    2025-03-14,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"11,946","21,886","33,832",0.10218
-    2025-03-14,26_Qiagen_Soil_Pro_CS_010_Air_Swab_S10,Xanthomonas campestris,`339 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>`_,S,"16,749",471,"17,220",0.14660
-    2025-03-14,26_Qiagen_Soil_Pro_CS_010_Air_Swab_S10,Delftia tsuruhatensis,`180282 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>`_,S,"7,207","1,718","8,925",0.07598
-    2025-03-14,26_Qiagen_Soil_Pro_CS_010_Air_Swab_S10,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"22,954",189,"23,143",0.19702
-    2025-03-14,27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"3,085,820","2,679,241","5,765,061",0.27666
-    2025-03-14,27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"879,718","3,433,556","4,313,274",0.20699
-    2025-03-14,27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"1,719,977","2,964,512","4,684,489",0.22481
-    2025-03-14,27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"108,920","1,129,233","1,238,153",0.05942
-    2025-03-14,27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"3,616","1,238,551","1,242,167",0.05961
-    2025-03-14,28_Qiagen_Soil_Pro_OMR_BD801_S12,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"146,273","141,468","287,741",0.24345
-    2025-03-14,28_Qiagen_Soil_Pro_OMR_BD801_S12,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"43,460","174,244","217,704",0.18419
-    2025-03-14,28_Qiagen_Soil_Pro_OMR_BD801_S12,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"103,230","193,039","296,269",0.25067
-    2025-03-14,28_Qiagen_Soil_Pro_OMR_BD801_S12,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"5,134","60,721","65,855",0.05572
-    2025-03-14,29_Z_Mini_049_Conj_L_1_S13,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"3,925","4,014","7,939",0.14426
-    2025-03-14,29_Z_Mini_049_Conj_L_1_S13,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"1,181","5,331","6,512",0.11833
-    2025-03-14,29_Z_Mini_049_Conj_L_1_S13,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"2,875","4,978","7,853",0.14270
-    2025-03-14,31_Z_Mini_049_Skin_L_1_S15,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"91,712",762,"92,474",0.42750
-    2025-03-14,32_Z_Mini_049_Conj_L_2_S16,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,532,"1,068","1,600",0.05140
-    2025-03-14,32_Z_Mini_049_Conj_L_2_S16,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"3,158",26,"3,184",0.10229
-    2025-03-14,33_Z_Mini_049_Lid_L_2_S17,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"53,832",496,"54,328",0.62661
-    2025-03-14,34_Z_Mini_049_Skin_L_2_S18,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"896,170","7,835","904,005",0.70735
-    2025-03-14,36_Z_Mini_049_Lid_L_3_S20,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"35,356",366,"35,722",0.47903
-    2025-03-14,36_Z_Mini_049_Lid_L_3_S20,Staphylococcus hominis,`1290 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1290>`_,S,"6,661",351,"7,012",0.09403
-    2025-03-14,37_Z_Mini_049_Skin_L_3_S21,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"293,486","2,712","296,198",0.72631
-    2025-03-14,38_Z_Mini_050_Conj_R_1_S22,Xanthomonas campestris,`339 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>`_,S,875,19,894,0.05206
-    2025-03-14,38_Z_Mini_050_Conj_R_1_S22,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"1,649",14,"1,663",0.09684
-    2025-03-14,39_Z_Mini_050_Lid_R_1_S23,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"75,456",453,"75,909",0.45576
-    2025-03-14,39_Z_Mini_050_Lid_R_1_S23,Pantoea agglomerans,`549 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=549>`_,S,"46,689","1,416","48,105",0.28883
-    2025-03-14,40_Z_Mini_050_Skin_R_1_S24,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"412,960","2,463","415,423",0.77384
-    2025-03-14,42_Z_Mini_050_Lid_R_2_S26,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"322,582","1,960","324,542",0.84061
-    2025-03-14,43_Z_Mini_050_Skin_R_2_S27,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"6,658,728","40,330","6,699,058",0.88730
-    2025-03-14,44_Z_Mini_050_Conj_R_3_S28,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"2,371",14,"2,385",0.10627
-    2025-03-14,45_Z_Mini_050_Lid_R_3_S29,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"7,177",51,"7,228",0.56381
-    2025-03-14,45_Z_Mini_050_Lid_R_3_S29,Corynebacterium segmentosum,`43990 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=43990>`_,S,652,14,666,0.05195
-    2025-03-14,46_Z_Mini_050_Skin_R_3_S30,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"751,042","4,420","755,462",0.82155
-    2025-03-14,46_Z_Mini_050_Skin_R_3_S30,Malassezia restricta,`76775 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=76775>`_,S,"49,814",3,"49,817",0.05418
-    2025-03-14,47_Z_Mini_051_Conj_L_1_S31,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,815,6,821,0.05321
-    2025-03-14,48_Z_Mini_051_Lid_L_1_S32,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"22,520",255,"22,775",0.20829
-    2025-03-14,49_Z_Mini_051_Skin_L_1_S33,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"83,613",617,"84,230",0.41192
-    2025-03-14,49_Z_Mini_051_Skin_L_1_S33,Dermacoccus nishinomiyaensis,`1274 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1274>`_,S,"10,734",236,"10,970",0.05365
-    2025-03-14,4_Zymo_Micro_Prep_CS_004_Right_Eye_S84,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"2,329",39,"2,368",0.07561
-    2025-03-14,4_Zymo_Micro_Prep_CS_004_Right_Eye_S84,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"1,341",299,"1,640",0.05237
-    2025-03-14,50_Z_Mini_051_Conj_L_2_S34,Delftia tsuruhatensis,`180282 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>`_,S,"1,458",290,"1,748",0.06428
-    2025-03-14,50_Z_Mini_051_Conj_L_2_S34,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"1,824",24,"1,848",0.06796
-    2025-03-14,51_Z_Mini_051_Lid_L_2_S35,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"25,072",262,"25,334",0.20176
-    2025-03-14,51_Z_Mini_051_Lid_L_2_S35,Dermacoccus nishinomiyaensis,`1274 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1274>`_,S,"7,844",248,"8,092",0.06444
-    2025-03-14,51_Z_Mini_051_Lid_L_2_S35,Staphylococcus epidermidis,`1282 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1282>`_,S,"2,617","4,885","7,502",0.05974
-    2025-03-14,51_Z_Mini_051_Lid_L_2_S35,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"5,906","1,477","7,383",0.05880
-    2024-07-15,199599_20_S30,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"7,634,581","6,101,496","13,736,077",0.25729
-    2024-07-15,199599_20_S30,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"2,550,850","7,698,104","10,248,954",0.19197
-    2024-07-15,199599_20_S30,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"2,786,124","4,881,562","7,667,686",0.14362
-    2024-07-15,199599_20_S30,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"301,000","2,874,153","3,175,153",0.05947
-    2024-07-15,199599_20_S30,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"8,605","2,674,558","2,683,163",0.05026
-    2024-07-15,199599_20_S30,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"3,584,270","80,538","3,664,808",0.06865
-    2024-07-15,199599_20_S30,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"3,214,516","117,918","3,332,434",0.06242
-    2024-07-15,199599_20_S30,Saccharomyces cerevisiae,`4932 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>`_,S,"3,434,063","4,321","3,438,384",0.06440
-    2025-03-14,30_Z_Mini_049_049_Lid_L_1_S14,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"15,669",139,"15,808",0.32049
-    2025-03-14,30_Z_Mini_049_049_Lid_L_1_S14,Staphylococcus epidermidis,`1282 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1282>`_,S,"2,636",212,"2,848",0.05774
-    2025-03-14,41_Z_Mini_050_Conj_R_2_S25,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"3,397",18,"3,415",0.16942
-    2025-03-14,52_Z_Mini_051_Skin_L_2_S36,Curtobacterium flaccumfaciens,`2035 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2035>`_,S,"99,452","3,567","103,019",0.06861
-    2025-03-14,52_Z_Mini_051_Skin_L_2_S36,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"356,846","4,110","360,956",0.24041
-    2025-03-14,62_Z_Mini__OMR_B1001_S46,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"21,471","18,597","40,068",0.08589
-    2025-03-14,62_Z_Mini__OMR_B1001_S46,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"6,406","24,883","31,289",0.06707
-    2025-03-14,62_Z_Mini__OMR_B1001_S46,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"15,780","27,479","43,259",0.09273
-    2025-03-14,62_Z_Mini__OMR_B1001_S46,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"29,249","1,994","31,243",0.06697
-    2025-03-14,62_Z_Mini__OMR_B1001_S46,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"27,530","1,173","28,703",0.06153
-    2025-03-14,62_Z_Mini__OMR_B1001_S46,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"27,915",592,"28,507",0.06111
-    2025-03-14,62_Z_Mini__OMR_B1001_S46,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"24,851",703,"25,554",0.05478
-    2025-03-14,62_Z_Mini__OMR_B1001_S46,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"29,353",197,"29,550",0.06335
-    2025-03-14,72_Qiagen_DNeasy_050_Conj_R_1_S56,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"3,835","1,005","4,840",0.11969
-    2025-03-14,72_Qiagen_DNeasy_050_Conj_R_1_S56,Cryptosporidium hominis,`237895 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>`_,S,"2,141",747,"2,888",0.07142
-    2025-03-14,72_Qiagen_DNeasy_050_Conj_R_1_S56,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"1,466",957,"2,423",0.05992
-    2025-03-14,72_Qiagen_DNeasy_050_Conj_R_1_S56,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"1,453",945,"2,398",0.05930
-    2025-03-14,72_Qiagen_DNeasy_050_Conj_R_1_S56,Pseudomonas tolaasii,`29442 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>`_,S,"1,175","2,251","3,426",0.08472
-    2025-03-14,82_Qiagen_DNeasy_051_Lid_L_1_S66,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"6,800","3,664","10,464",0.08244
-    2025-03-14,82_Qiagen_DNeasy_051_Lid_L_1_S66,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"6,616","3,612","10,228",0.08058
-    2025-03-14,82_Qiagen_DNeasy_051_Lid_L_1_S66,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"12,629",140,"12,769",0.10059
-    2025-03-14,82_Qiagen_DNeasy_051_Lid_L_1_S66,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"7,625","1,612","9,237",0.07277
-    2025-03-14,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"53,925","32,849","86,774",0.08780
-    2025-03-14,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"52,254","32,341","84,595",0.08560
-    2025-03-14,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,Pseudomonas tolaasii,`29442 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>`_,S,"47,712","55,216","102,928",0.10415
-    2025-03-14,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"5,891","78,969","84,860",0.08587
-    2025-03-14,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"2,032","61,752","63,784",0.06454
-    2025-03-14,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"165,821","26,294","192,115",0.19439
-    2025-03-14,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,Cryptosporidium hominis,`237895 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>`_,S,"56,875","8,008","64,883",0.06565
-    2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"716,920","7,321,419","8,038,339",0.13656
-    2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"19,435","6,358,010","6,377,445",0.10835
-    2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"14,408,452","643,378","15,051,830",0.25572
-    2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"3,871,135","90,895","3,962,030",0.06731
-    2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"3,181,096","115,610","3,296,706",0.05601
-    2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"3,748,730","3,666,940","7,415,670",0.12599
-    2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"1,322,177","4,590,738","5,912,915",0.10046
-    2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"1,450,331","2,734,171","4,184,502",0.07109
-    2024-10-28,MasterPure_MCS_1_100_4,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"10,782,990","8,829,508","19,612,498",0.25831
-    2024-10-28,MasterPure_MCS_1_100_4,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"3,508,681","11,610,753","15,119,434",0.19913
-    2024-10-28,MasterPure_MCS_1_100_4,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"5,716,607","9,759,779","15,476,386",0.20383
-    2024-10-28,MasterPure_MCS_1_100_4,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"493,774","4,712,224","5,205,998",0.06857
-    2024-10-28,MasterPure_MCS_1_100_4,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"14,382","4,619,080","4,633,462",0.06102
-    2024-10-28,Qiagen_Dneasy_CS_004_Left_Eye_S27,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"15,976","3,049","19,025",0.17935
-    2024-10-28,Qiagen_Dneasy_CS_004_Left_Eye_S27,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"5,436",466,"5,902",0.05564
-    2024-10-28,Qiagen_Dneasy_CS_004_Left_Eye_S27,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"1,477","4,531","6,008",0.05664
-    2024-10-28,Qiagen_DNeasy_OMR_MolYsis_2_S53,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"864,187","309,779","1,173,966",0.20982
-    2024-10-28,Qiagen_DNeasy_OMR_MolYsis_2_S53,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"394,827","28,917","423,744",0.07574
-    2024-10-28,Zymo_Mini_Prep_CS_003_Air_Swab_S77,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"966,084","187,842","1,153,926",0.24235
-    2024-10-28,Zymo_Mini_Prep_CS_003_Air_Swab_S77,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"458,308","31,488","489,796",0.10287
-    2024-10-28,Zymo_Mini_Prep_CS_009_Right_Eye_S71,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"42,263","37,974","80,237",0.21583
-    2024-10-28,Zymo_Mini_Prep_CS_009_Right_Eye_S71,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"12,424","49,644","62,068",0.16696
-    2024-10-28,Zymo_Mini_Prep_CS_009_Right_Eye_S71,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"24,956","45,122","70,078",0.18850
-    2024-10-28,Zymo_Mini_Prep_CS_009_Right_Eye_S71,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"17,955","2,862","20,817",0.05600
-    2024-10-28,Zymo_Mini_Prep_CS_009_Right_Eye_S71,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"1,514","17,125","18,639",0.05014
-    2025-03-14,53_Z_Mini_051_Conj_L_3_S37,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"3,123",28,"3,151",0.11515
-    2025-03-14,54_Z_Mini_051_Lid_L_3_S38,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"55,158",511,"55,669",0.37521
-    2025-03-14,55_Z_Mini_051_Skin_L_3_S39,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"108,499",821,"109,320",0.55336
-    2025-03-14,56_Z_Mini_049_ISO_Cont_1_S40,Erwinia gerundensis,`1619313 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1619313>`_,S,"76,367",649,"77,016",0.06578
-    2025-03-14,56_Z_Mini_049_ISO_Cont_1_S40,Klebsiella pneumoniae,`573 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573>`_,S,"18,367","84,869","103,236",0.08818
-    2025-03-14,56_Z_Mini_049_ISO_Cont_1_S40,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"124,450",956,"125,406",0.10711
-    2025-03-14,56_Z_Mini_049_ISO_Cont_1_S40,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"174,885","32,435","207,320",0.17708
-    2025-03-14,56_Z_Mini_049_ISO_Cont_1_S40,Cryptosporidium hominis,`237895 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>`_,S,"62,375","16,589","78,964",0.06745
-    2025-03-14,57_Z_Mini_050_ISO_Cont_1_S41,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"43,819",388,"44,207",0.11155
-    2025-03-14,57_Z_Mini_050_ISO_Cont_1_S41,Mycolicibacterium phocaicum,`319706 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=319706>`_,S,"23,828",634,"24,462",0.06173
-    2025-03-14,57_Z_Mini_050_ISO_Cont_1_S41,Staphylococcus hominis,`1290 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1290>`_,S,"26,367","1,495","27,862",0.07031
-    2025-03-14,58_Z_Mini_049_ISO_Cont_2_S42,Delftia tsuruhatensis,`180282 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>`_,S,"25,050","5,107","30,157",0.08931
-    2025-03-14,58_Z_Mini_049_ISO_Cont_2_S42,Ralstonia insidiosa,`190721 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=190721>`_,S,"21,938",876,"22,814",0.06756
-    2025-03-14,58_Z_Mini_049_ISO_Cont_2_S42,Xanthomonas campestris,`339 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>`_,S,"17,662",325,"17,987",0.05327
-    2025-03-14,58_Z_Mini_049_ISO_Cont_2_S42,Mycolicibacterium phocaicum,`319706 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=319706>`_,S,"19,649",655,"20,304",0.06013
-    2025-03-14,58_Z_Mini_049_ISO_Cont_2_S42,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"34,015",304,"34,319",0.10163
-    2025-03-14,59_Z_Mini_050_ISO_Cont_3_S43,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"41,446",692,"42,138",0.08486
-    2025-03-14,59_Z_Mini_050_ISO_Cont_3_S43,Malassezia restricta,`76775 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=76775>`_,S,"42,863",6,"42,869",0.08633
-    2025-03-14,5_Zymo_Micro_Prep_CS_005_Left_Eye_S85,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"1,138",9,"1,147",0.10697
-    2025-03-14,60_Z_Mini_049_ISO_Cont_3_S44,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"39,253",579,"39,832",0.11158
-    2025-03-14,61_Z_Mini__MCS_OMR_B1001_S45,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"90,378","900,912","991,290",0.05560
-    2025-03-14,61_Z_Mini__MCS_OMR_B1001_S45,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"3,093","1,023,392","1,026,485",0.05757
-    2025-03-14,61_Z_Mini__MCS_OMR_B1001_S45,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"2,010,318","85,841","2,096,159",0.11756
-    2025-03-14,61_Z_Mini__MCS_OMR_B1001_S45,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"2,017,604","77,513","2,095,117",0.11750
-    2025-03-14,61_Z_Mini__MCS_OMR_B1001_S45,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"1,865,189","51,018","1,916,207",0.10747
-    2025-03-14,61_Z_Mini__MCS_OMR_B1001_S45,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"1,741,742","34,982","1,776,724",0.09965
-    2025-03-14,61_Z_Mini__MCS_OMR_B1001_S45,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"1,601,766","1,320,672","2,922,438",0.16390
-    2025-03-14,61_Z_Mini__MCS_OMR_B1001_S45,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"465,042","1,706,964","2,172,006",0.12181
-    2025-03-14,61_Z_Mini__MCS_OMR_B1001_S45,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"759,358","1,252,273","2,011,631",0.11282
-    2025-03-14,63_Qiagen_DNeasy_049_Conj_L_1_S47,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"2,681","3,377","6,058",0.09936
-    2025-03-14,63_Qiagen_DNeasy_049_Conj_L_1_S47,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,851,"3,668","4,519",0.07412
-    2025-03-14,63_Qiagen_DNeasy_049_Conj_L_1_S47,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"2,787","1,522","4,309",0.07067
-    2025-03-14,63_Qiagen_DNeasy_049_Conj_L_1_S47,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"2,652","1,477","4,129",0.06772
-    2025-03-14,63_Qiagen_DNeasy_049_Conj_L_1_S47,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"1,515","3,027","4,542",0.07449
-    2025-03-14,63_Qiagen_DNeasy_049_Conj_L_1_S47,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"3,606","1,477","5,083",0.08337
-    2025-03-14,63_Qiagen_DNeasy_049_Conj_L_1_S47,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"3,396",254,"3,650",0.05986
-    2025-03-14,63_Qiagen_DNeasy_049_Conj_L_1_S47,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"3,235",145,"3,380",0.05544
-    2025-03-14,63_Qiagen_DNeasy_049_Conj_L_1_S47,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"3,025",75,"3,100",0.05084
-    2025-03-14,64_Qiagen_DNeasy_049_049_Lid_L_1_S48,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"16,526",123,"16,649",0.18463
-    2025-03-14,64_Qiagen_DNeasy_049_049_Lid_L_1_S48,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"1,262","3,719","4,981",0.05524
-    2025-03-14,65_Qiagen_DNeasy_049_Skin_L_1_S49,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"55,507",482,"55,989",0.32418
-    2025-03-14,65_Qiagen_DNeasy_049_Skin_L_1_S49,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"7,965","1,149","9,114",0.05277
-    2025-03-14,66_Qiagen_DNeasy_049_Conj_L_2_S50,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"1,771","1,013","2,784",0.07710
-    2025-03-14,66_Qiagen_DNeasy_049_Conj_L_2_S50,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"1,741",978,"2,719",0.07530
-    2025-03-14,66_Qiagen_DNeasy_049_Conj_L_2_S50,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,682,"1,775","2,457",0.06805
-    2025-03-14,66_Qiagen_DNeasy_049_Conj_L_2_S50,Xanthomonas campestris,`339 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>`_,S,"2,189",33,"2,222",0.06154
-    2025-03-14,66_Qiagen_DNeasy_049_Conj_L_2_S50,Delftia tsuruhatensis,`180282 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>`_,S,"1,566",305,"1,871",0.05182
-    2025-03-14,66_Qiagen_DNeasy_049_Conj_L_2_S50,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"2,081",12,"2,093",0.05797
-    2025-03-14,67_Qiagen_DNeasy_049_Lid_L_2_S51,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"36,687",326,"37,013",0.42219
-    2025-03-14,68_Qiagen_DNeasy_049_Skin_L_2_S52,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"408,318","3,305","411,623",0.41997
-    2025-03-14,68_Qiagen_DNeasy_049_Skin_L_2_S52,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"46,887","8,259","55,146",0.05626
-    2025-03-14,69_Qiagen_DNeasy_049_Conj_L_3_S53,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"3,514","1,976","5,490",0.09321
-    2025-03-14,69_Qiagen_DNeasy_049_Conj_L_3_S53,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"3,313","1,881","5,194",0.08818
-    2025-03-14,69_Qiagen_DNeasy_049_Conj_L_3_S53,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"4,902",885,"5,787",0.09825
-    2025-03-14,70_Qiagen_DNeasy_049_Lid_L_3_S54,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"44,414",337,"44,751",0.33187
-    2025-03-14,70_Qiagen_DNeasy_049_Lid_L_3_S54,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"5,320","3,084","8,404",0.06232
-    2025-03-14,70_Qiagen_DNeasy_049_Lid_L_3_S54,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"4,844","2,849","7,693",0.05705
-    2025-03-14,70_Qiagen_DNeasy_049_Lid_L_3_S54,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"5,732","1,277","7,009",0.05198
-    2025-03-14,71_Qiagen_DNeasy_049_Skin_L_3_S55,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"229,796","2,336","232,132",0.63702
-    2025-03-14,73_Qiagen_DNeasy_050_Lid_R_1_S57,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"44,660",318,"44,978",0.39731
-    2025-03-14,73_Qiagen_DNeasy_050_Lid_R_1_S57,Xanthomonas campestris,`339 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>`_,S,"5,937",68,"6,005",0.05304
-    2025-03-14,73_Qiagen_DNeasy_050_Lid_R_1_S57,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"8,076","1,703","9,779",0.08638
-    2025-03-14,74_Qiagen_DNeasy_050_Skin_R_1_S58,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"161,973","1,120","163,093",0.69037
-    2025-03-14,75_Qiagen_DNeasy_050_Conj_R_2_S59,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"4,886","2,712","7,598",0.05768
-    2025-03-14,75_Qiagen_DNeasy_050_Conj_R_2_S59,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"4,605","2,568","7,173",0.05445
-    2025-03-14,75_Qiagen_DNeasy_050_Conj_R_2_S59,Xanthomonas campestris,`339 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>`_,S,"7,197",100,"7,297",0.05539
-    2025-03-14,75_Qiagen_DNeasy_050_Conj_R_2_S59,Pseudomonas tolaasii,`29442 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>`_,S,"3,852","4,222","8,074",0.06129
-    2025-03-14,75_Qiagen_DNeasy_050_Conj_R_2_S59,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,76,"10,889","10,965",0.08324
-    2025-03-14,75_Qiagen_DNeasy_050_Conj_R_2_S59,Delftia tsuruhatensis,`180282 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>`_,S,"5,706","1,262","6,968",0.05290
-    2025-03-14,75_Qiagen_DNeasy_050_Conj_R_2_S59,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"12,640",67,"12,707",0.09646
-    2025-03-14,75_Qiagen_DNeasy_050_Conj_R_2_S59,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"12,368","3,304","15,672",0.11897
-    2025-03-14,75_Qiagen_DNeasy_050_Conj_R_2_S59,Cryptosporidium hominis,`237895 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>`_,S,"7,327","1,166","8,493",0.06447
-    2025-03-14,76_Qiagen_DNeasy_050_Lid_R_2_S60,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"223,515","1,548","225,063",0.43329
-    2025-03-14,76_Qiagen_DNeasy_050_Lid_R_2_S60,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"33,655","5,906","39,561",0.07616
-    2025-03-14,77_Qiagen_DNeasy_050_Skin_R_2_S61,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"412,987","2,427","415,414",0.73342
-    2025-03-14,78_Qiagen_DNeasy_050_Conj_R_3_S62,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"14,898","9,066","23,964",0.14405
-    2025-03-14,78_Qiagen_DNeasy_050_Conj_R_3_S62,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"14,632","8,981","23,613",0.14194
-    2025-03-14,78_Qiagen_DNeasy_050_Conj_R_3_S62,Xanthomonas campestris,`339 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>`_,S,"9,133",122,"9,255",0.05563
-    2025-03-14,78_Qiagen_DNeasy_050_Conj_R_3_S62,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"12,362",87,"12,449",0.07483
-    2025-03-14,78_Qiagen_DNeasy_050_Conj_R_3_S62,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"12,548","2,253","14,801",0.08897
-    2025-03-14,79_Qiagen_DNeasy_050_Lid_R_3_S63,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"14,651",108,"14,759",0.40120
-    2025-03-14,80_Qiagen_DNeasy_050_Skin_R_3_S64,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"206,187","1,414","207,601",0.61123
-    2025-03-14,81_Qiagen_DNeasy_051_Conj_L_1_S65,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"3,689","1,794","5,483",0.16330
-    2025-03-14,81_Qiagen_DNeasy_051_Conj_L_1_S65,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"3,500","1,725","5,225",0.15562
-    2025-03-14,83_Qiagen_DNeasy_051_Skin_L_1_S67,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"22,697",215,"22,912",0.21874
-    2025-03-14,84_Qiagen_DNeasy_051_Conj_L_2_S68,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"1,794","1,077","2,871",0.10118
-    2025-03-14,84_Qiagen_DNeasy_051_Conj_L_2_S68,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"1,774","1,073","2,847",0.10034
-    2025-03-14,84_Qiagen_DNeasy_051_Conj_L_2_S68,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"2,212",427,"2,639",0.09301
-    2025-03-14,85_Qiagen_DNeasy_051_Lid_L_2_S69,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"9,631",102,"9,733",0.10774
-    2025-03-14,85_Qiagen_DNeasy_051_Lid_L_2_S69,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"3,166","1,935","5,101",0.05647
-    2025-03-14,85_Qiagen_DNeasy_051_Lid_L_2_S69,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"2,926","1,814","4,740",0.05247
-    2025-03-14,85_Qiagen_DNeasy_051_Lid_L_2_S69,Xanthomonas campestris,`339 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>`_,S,"4,856",111,"4,967",0.05498
-    2025-03-14,85_Qiagen_DNeasy_051_Lid_L_2_S69,Pseudomonas tolaasii,`29442 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>`_,S,"1,907","3,075","4,982",0.05515
-    2025-03-14,85_Qiagen_DNeasy_051_Lid_L_2_S69,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"5,181","1,608","6,789",0.07515
-    2025-03-14,86_Qiagen_DNeasy_051_Skin_L_2_S70,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"123,848","1,742","125,590",0.15570
-    2025-03-14,87_Qiagen_DNeasy_051_Conj_L_3_S71,Rothia mucilaginosa,`43675 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=43675>`_,S,"3,379",26,"3,405",0.11704
-    2025-03-14,87_Qiagen_DNeasy_051_Conj_L_3_S71,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"2,282",361,"2,643",0.09085
-    2025-03-14,88_Qiagen_DNeasy_051_Lid_L_3_S72,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"17,537",203,"17,740",0.18943
-    2025-03-14,89_Qiagen_DNeasy_051_Skin_L_3_S73,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"37,302",450,"37,752",0.27185
-    2025-03-14,8_Zymo_Micro_Prep_CS_008_Right_Eye_S88,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,765,6,771,0.06165
-    2025-03-14,90_Qiagen_DNeasy_049_ISO_Cont_1_S74,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"230,439","27,440","257,879",0.30146
-    2025-03-14,90_Qiagen_DNeasy_049_ISO_Cont_1_S74,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"41,683","27,017","68,700",0.08031
-    2025-03-14,90_Qiagen_DNeasy_049_ISO_Cont_1_S74,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"40,777","26,564","67,341",0.07872
-    2025-03-14,90_Qiagen_DNeasy_049_ISO_Cont_1_S74,Pseudomonas tolaasii,`29442 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>`_,S,"19,080","54,283","73,363",0.08576
-    2025-03-14,91_Qiagen_DNeasy_050_ISO_Cont_1_S75,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"311,877","89,197","401,074",0.26893
-    2025-03-14,91_Qiagen_DNeasy_050_ISO_Cont_1_S75,Cryptosporidium hominis,`237895 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>`_,S,"122,628","48,814","171,442",0.11496
-    2025-03-14,91_Qiagen_DNeasy_050_ISO_Cont_1_S75,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"47,207","32,604","79,811",0.05352
-    2025-03-14,91_Qiagen_DNeasy_050_ISO_Cont_1_S75,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"44,931","30,785","75,716",0.05077
-    2025-03-14,91_Qiagen_DNeasy_050_ISO_Cont_1_S75,Pseudomonas tolaasii,`29442 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>`_,S,"52,906","97,145","150,051",0.10061
-    2025-03-14,91_Qiagen_DNeasy_050_ISO_Cont_1_S75,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"4,443","100,421","104,864",0.07031
-    2025-03-14,91_Qiagen_DNeasy_050_ISO_Cont_1_S75,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"1,572","90,707","92,279",0.06188
-    2025-03-14,93_Qiagen_DNeasy_050_ISO_Cont_3_S77,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"106,677","59,247","165,924",0.10199
-    2025-03-14,93_Qiagen_DNeasy_050_ISO_Cont_3_S77,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"102,214","57,951","160,165",0.09845
-    2025-03-14,93_Qiagen_DNeasy_050_ISO_Cont_3_S77,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"70,454","187,058","257,512",0.15829
-    2025-03-14,93_Qiagen_DNeasy_050_ISO_Cont_3_S77,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"21,369","154,313","175,682",0.10799
-    2025-03-14,93_Qiagen_DNeasy_050_ISO_Cont_3_S77,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"35,028","87,403","122,431",0.07526
-    2025-03-14,93_Qiagen_DNeasy_050_ISO_Cont_3_S77,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"159,742","30,175","189,917",0.11674
-    2025-03-14,94_Qiagen_DNeasy_049_ISO_Cont_3_S78,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"28,654","18,460","47,114",0.09192
-    2025-03-14,94_Qiagen_DNeasy_049_ISO_Cont_3_S78,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"27,998","18,230","46,228",0.09019
-    2025-03-14,94_Qiagen_DNeasy_049_ISO_Cont_3_S78,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"6,229","61,289","67,518",0.13173
-    2025-03-14,94_Qiagen_DNeasy_049_ISO_Cont_3_S78,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"2,159","37,050","39,209",0.07650
-    2025-03-14,94_Qiagen_DNeasy_049_ISO_Cont_3_S78,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"61,879","12,276","74,155",0.14468
-    2025-03-14,94_Qiagen_DNeasy_049_ISO_Cont_3_S78,Cryptosporidium hominis,`237895 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>`_,S,"28,924","5,338","34,262",0.06684
-    2025-03-14,95_Qiagen_DNeasy_MCS_OMR_B1001_S79,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"2,833,408","2,554,375","5,387,783",0.30290
-    2025-03-14,95_Qiagen_DNeasy_MCS_OMR_B1001_S79,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"806,877","3,178,593","3,985,470",0.22406
-    2025-03-14,95_Qiagen_DNeasy_MCS_OMR_B1001_S79,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"1,436,761","2,545,460","3,982,221",0.22388
-    2025-03-14,95_Qiagen_DNeasy_MCS_OMR_B1001_S79,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"99,768","1,108,420","1,208,188",0.06792
-    2025-03-14,95_Qiagen_DNeasy_MCS_OMR_B1001_S79,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"3,264","1,116,409","1,119,673",0.06295
-    2025-03-14,96_Qiagen_DNeasy_OMR_B1001_S80,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"95,018","53,518","148,536",0.06610
-    2025-03-14,96_Qiagen_DNeasy_OMR_B1001_S80,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"91,027","52,343","143,370",0.06380
-    2025-03-14,96_Qiagen_DNeasy_OMR_B1001_S80,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"52,574","308,972","361,546",0.16089
-    2025-03-14,96_Qiagen_DNeasy_OMR_B1001_S80,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"16,388","194,357","210,745",0.09379
-    2025-03-14,96_Qiagen_DNeasy_OMR_B1001_S80,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"284,822","70,528","355,350",0.15814
-    2025-03-14,96_Qiagen_DNeasy_OMR_B1001_S80,Cryptosporidium hominis,`237895 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>`_,S,"160,893","22,523","183,416",0.08162
-    2024-10-28,MasterPureLyso_LE_AirCtr_3,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"1,819,346","79,964","1,899,310",0.18682
-    2024-10-28,MasterPureLyso_LE_AirCtr_3,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"903,442","191,906","1,095,348",0.10774
-    2024-10-28,MasterPureLyso_LE_Lt_2,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"101,691","4,363","106,054",0.15671
-    2024-10-28,MasterPureLyso_LE_Lt_2,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"49,325","9,981","59,306",0.08763
-    2024-10-28,MasterPureLyso_LE_Lt_2,Parabacteroides distasonis,`823 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>`_,S,"25,216","21,967","47,183",0.06972
-    2024-10-28,MasterPureLyso_LE_MCS_1_100_4,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"11,763,539","9,923,675","21,687,214",0.27717
-    2024-10-28,MasterPureLyso_LE_MCS_1_100_4,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"3,855,418","12,981,311","16,836,729",0.21518
-    2024-10-28,MasterPureLyso_LE_MCS_1_100_4,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"6,315,423","10,931,053","17,246,476",0.22042
-    2024-10-28,MasterPureLyso_LE_MCS_1_100_4,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"518,243","5,071,923","5,590,166",0.07144
-    2024-10-28,MasterPureLyso_LE_MCS_1_100_4,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"14,753","4,829,732","4,844,485",0.06191
-    2024-10-28,MasterPureLyso_LE_Rt_1,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"4,353,511","3,757,642","8,111,153",0.28398
-    2024-10-28,MasterPureLyso_LE_Rt_1,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"1,424,172","4,843,728","6,267,900",0.21944
-    2024-10-28,MasterPureLyso_LE_Rt_1,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"2,300,380","4,094,385","6,394,765",0.22388
-    2024-10-28,MasterPureLyso_LE_Rt_1,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"173,731","1,712,649","1,886,380",0.06604
-    2024-10-28,MasterPureLyso_LE_Rt_1,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"4,840","1,623,472","1,628,312",0.05701
-    2024-10-28,MasterPureMolYsisBasic_5_AirCtr_3,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"230,174","10,107","240,281",0.22095
-    2024-10-28,MasterPureMolYsisBasic_5_AirCtr_3,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"112,455","24,614","137,069",0.12604
-    2024-10-28,MasterPureMolYsisBasic_5_Lt_2,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"871,303","38,929","910,232",0.18046
-    2024-10-28,MasterPureMolYsisBasic_5_Lt_2,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"414,540","97,806","512,346",0.10158
-    2024-10-28,MasterPureMolYsisBasic_5_Lt_2,Parabacteroides distasonis,`823 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>`_,S,"151,854","127,239","279,093",0.05533
-    2024-10-28,MasterPureMolYsisBasic_5_Rt_1,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"120,482","5,375","125,857",0.16892
-    2024-10-28,MasterPureMolYsisBasic_5_Rt_1,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"56,695","12,025","68,720",0.09223
-    2024-10-28,MasterPureNEB_AirCtr_3,Faecalibacterium prausnitzii,`853 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=853>`_,S,"1,085,985","288,491","1,374,476",0.06015
-    2024-10-28,MasterPureNEB_AirCtr_3,Bacteroides fragilis,`817 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=817>`_,S,"1,779,106","102,768","1,881,874",0.08236
-    2024-10-28,MasterPureNEB_AirCtr_3,Bacteroides cellulosilyticus,`246787 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=246787>`_,S,"1,251,313","43,445","1,294,758",0.05667
-    2024-10-28,MasterPureNEB_Lt_2,Bacteroides ovatus,`28116 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28116>`_,S,"1,821,228","400,268","2,221,496",0.13542
-    2024-10-28,MasterPureNEB_Lt_2,Phocaeicola vulgatus,`821 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821>`_,S,"2,643,729","409,532","3,053,261",0.18612
-    2024-10-28,MasterPureNEB_Lt_2,Klebsiella pneumoniae,`573 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573>`_,S,"508,813","879,414","1,388,227",0.08462
-    2024-10-28,MasterPureNEB_Lt_2,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"809,015","34,320","843,335",0.05141
-    2024-10-28,MasterPureNEB_MCS_1_100_4,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"10,247,213","8,814,008","19,061,221",0.28275
-    2024-10-28,MasterPureNEB_MCS_1_100_4,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"3,299,330","11,300,432","14,599,762",0.21657
-    2024-10-28,MasterPureNEB_MCS_1_100_4,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"5,544,770","9,595,380","15,140,150",0.22458
-    2024-10-28,MasterPureNEB_MCS_1_100_4,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"428,288","4,191,360","4,619,648",0.06853
-    2024-10-28,MasterPureNEB_MCS_1_100_4,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"11,998","4,029,339","4,041,337",0.05995
-    2024-10-28,MasterPureNEB_Rt_1,Bacteroides uniformis,`820 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=820>`_,S,"341,756","160,649","502,405",0.07088
-    2024-10-28,MasterPureNEB_Rt_1,Phocaeicola vulgatus,`821 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821>`_,S,"407,633","92,623","500,256",0.07058
-    2024-10-28,MasterPureNEB_Rt_1,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"572,574","24,428","597,002",0.08423
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_AirCtr_3,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"82,347","3,825","86,172",0.16123
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_AirCtr_3,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"43,926","8,185","52,111",0.09750
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_Lt_2,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"2,295,362","86,515","2,381,877",0.31562
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_Lt_2,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"639,328","127,786","767,114",0.10165
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"7,634,581","6,101,496","13,736,077",0.25729
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"2,550,850","7,698,104","10,248,954",0.19197
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"2,786,124","4,881,562","7,667,686",0.14362
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"301,000","2,874,153","3,175,153",0.05947
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"8,605","2,674,558","2,683,163",0.05026
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"3,584,270","80,538","3,664,808",0.06865
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"3,214,516","117,918","3,332,434",0.06242
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Saccharomyces cerevisiae,`4932 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>`_,S,"3,434,063","4,321","3,438,384",0.06440
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_Rt_1,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"831,108","35,662","866,770",0.20457
-    2024-10-28,MasterPureZymoHostZero_200ul_LE_Rt_1,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"399,687","78,017","477,704",0.11275
-    2024-10-28,MasterPure_AirCtr_3,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"1,332,343","56,933","1,389,276",0.14204
-    2024-10-28,MasterPure_AirCtr_3,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"619,630","121,576","741,206",0.07578
-    2024-10-28,MasterPure_AirCtr_3,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"303,834","548,257","852,091",0.08712
-    2024-10-28,MasterPure_LE_Lt_2,Parabacteroides distasonis,`823 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>`_,S,"472,887","395,011","867,898",0.31495
-    2024-10-28,MasterPure_LE_Rt_1,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"110,584","4,771","115,355",0.13996
-    2024-10-28,MasterPure_LE_Rt_1,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"50,453","10,329","60,782",0.07375
-    2024-10-28,MasterPure_MCS_7_S56,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"3,658,078","3,056,211","6,714,289",0.29855
-    2024-10-28,MasterPure_MCS_7_S56,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"1,045,175","3,887,726","4,932,901",0.21934
-    2024-10-28,MasterPure_MCS_7_S56,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"1,976,383","3,338,168","5,314,551",0.23631
-    2024-10-28,MasterPure_MCS_7_S56,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"124,554","1,289,121","1,413,675",0.06286
-    2024-10-28,MasterPure_MCS_7_S56,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"4,221","1,389,743","1,393,964",0.06198
-    2024-10-28,MasterPure_MCS_HostZero_3_S3,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"4,523,773","96,259","4,620,032",0.21206
-    2024-10-28,MasterPure_MCS_HostZero_3_S3,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"1,753,721","95,674","1,849,395",0.08489
-    2024-10-28,MasterPure_MCS_HostZero_3_S3,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"1,250,510","58,332","1,308,842",0.06008
-    2024-10-28,MasterPure_MCS_HostZero_3_S3,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"553,826","543,914","1,097,740",0.05039
-    2024-10-28,MasterPure_MCS_HostZero_3_S3,Saccharomyces cerevisiae,`4932 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>`_,S,"7,646,986","8,335","7,655,321",0.35138
-    2024-10-28,MasterPure_MCS_MolYsis_1_S59,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"438,233","4,477,250","4,915,483",0.28018
-    2024-10-28,MasterPure_MCS_MolYsis_1_S59,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"14,523","4,722,833","4,737,356",0.27003
-    2024-10-28,MasterPure_MCS_MolYsis_1_S59,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"1,347,613","56,030","1,403,643",0.08001
-    2024-10-28,MasterPure_MCS_MolYsis_1_S59,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"1,257,355","48,885","1,306,240",0.07445
-    2024-10-28,MasterPure_MCS_MolYsis_1_S59,Saccharomyces cerevisiae,`4932 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>`_,S,"1,890,333","2,622","1,892,955",0.10790
-    2024-10-28,MasterPure_MCS_NEB_5_S34,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"3,527,469","3,021,049","6,548,518",0.29606
-    2024-10-28,MasterPure_MCS_NEB_5_S34,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"1,022,615","3,847,928","4,870,543",0.22020
-    2024-10-28,MasterPure_MCS_NEB_5_S34,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"1,887,572","3,231,108","5,118,680",0.23142
-    2024-10-28,MasterPure_MCS_NEB_5_S34,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"124,770","1,315,231","1,440,001",0.06510
-    2024-10-28,MasterPure_MCS_NEB_5_S34,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"4,080","1,415,382","1,419,462",0.06417
-    2024-10-28,MasterPure_OMR_8_S22,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"963,490","147,742","1,111,232",0.23320
-    2024-10-28,MasterPure_OMR_8_S22,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"254,034","23,230","277,264",0.05819
-    2024-10-28,MasterPure_OMR_HostZero_4_S24,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"428,312","67,721","496,033",0.18837
-    2024-10-28,MasterPure_OMR_MolYsis_2_S42,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"517,797","77,912","595,709",0.16345
-    2024-10-28,MasterPure_OMR_MolYsis_2_S42,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"100,420","118,459","218,879",0.06005
-    2024-10-28,MasterPure_OMR_NEB_6_S15,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"910,665","50,561","961,226",0.13803
-    2024-10-28,MasterPure_OMR_NEB_6_S15,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"1,205,071","196,752","1,401,823",0.20130
-    2024-10-28,Molzym_Ultra-Deep_MCS_1_S11,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"191,165","2,420,096","2,611,261",0.21724
-    2024-10-28,Molzym_Ultra-Deep_MCS_1_S11,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"4,579","1,717,104","1,721,683",0.14323
-    2024-10-28,Molzym_Ultra-Deep_MCS_1_S11,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"1,806,068","107,671","1,913,739",0.15921
-    2024-10-28,Molzym_Ultra-Deep_MCS_1_S11,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"1,081,969","41,046","1,123,015",0.09343
-    2024-10-28,Molzym_Ultra-Deep_MCS_1_S11,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"497,893","580,312","1,078,205",0.08970
-    2024-10-28,Molzym_Ultra-Deep_MCS_1_S11,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"172,291","640,200","812,491",0.06759
-    2024-10-28,Molzym_Ultra-Deep_MCS_1_S11,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"213,367","480,323","693,690",0.05771
-    2024-10-28,Molzym_Ultra-Deep_MCS_HostZero_3_S19,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"982,393","1,164,795","2,147,188",0.26432
-    2024-10-28,Molzym_Ultra-Deep_MCS_HostZero_3_S19,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"330,525","1,230,790","1,561,315",0.19220
-    2024-10-28,Molzym_Ultra-Deep_MCS_HostZero_3_S19,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"401,275","916,586","1,317,861",0.16223
-    2024-10-28,Molzym_Ultra-Deep_MCS_HostZero_3_S19,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"39,431","508,391","547,822",0.06744
-    2024-10-28,Molzym_Ultra-Deep_MCS_HostZero_3_S19,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"628,863","16,787","645,650",0.07948
-    2024-10-28,Molzym_Ultra-Deep_MCS_HostZero_3_S19,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"405,538","14,609","420,147",0.05172
-    2024-10-28,Molzym_Ultra-Deep_MCS_NEB_5_S44,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"225,509","2,559,143","2,784,652",0.21121
-    2024-10-28,Molzym_Ultra-Deep_MCS_NEB_5_S44,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"6,961","2,366,699","2,373,660",0.18003
-    2024-10-28,Molzym_Ultra-Deep_MCS_NEB_5_S44,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"1,303,586","61,397","1,364,983",0.10353
-    2024-10-28,Molzym_Ultra-Deep_MCS_NEB_5_S44,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"658,931","25,314","684,245",0.05190
-    2024-10-28,Molzym_Ultra-Deep_MCS_NEB_5_S44,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"491,735","432,881","924,616",0.07013
-    2024-10-28,Molzym_Ultra-Deep_MCS_NEB_5_S44,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"159,546","570,739","730,285",0.05539
-    2024-10-28,Molzym_Ultra-Deep_OMR_2_S10,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"838,510","181,756","1,020,266",0.21445
-    2024-10-28,Molzym_Ultra-Deep_OMR_2_S10,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"268,180","23,504","291,684",0.06131
-    2024-10-28,Molzym_Ultra-Deep_OMR_HostZero_4_S37,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"111,345","27,051","138,396",0.16814
-    2024-10-28,Molzym_Ultra-Deep_OMR_HostZero_4_S37,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"47,200","3,426","50,626",0.06151
-    2024-10-28,Molzym_Ultra-Deep_OMR_HostZero_4_S37,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"13,680","43,595","57,275",0.06959
-    2024-10-28,Molzym_Ultra-Deep_OMR_NEB_6_S32,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"1,393,560","226,754","1,620,314",0.24388
-    2024-10-28,Molzym_Ultra-Deep_OMR_NEB_6_S32,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"365,746","33,965","399,711",0.06016
-    2024-03-14,Molzym_Ultra_Deep_Air_Ctr_3_S20,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"3,015,015","118,882","3,133,897",0.44917
-    2024-03-14,Molzym_Ultra_Deep_Air_Ctr_3_S20,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"1,003,092","253,520","1,256,612",0.18011
-    2024-03-14,Molzym_Ultra_Deep_LE_Lt_2_S23,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"720,098","29,132","749,230",0.18065
-    2024-03-14,Molzym_Ultra_Deep_LE_Lt_2_S23,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"293,185","91,494","384,679",0.09275
-    2024-03-14,Molzym_Ultra_Deep_LE_Lt_2_S23,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"238,315","73,362","311,677",0.07515
-    2024-03-14,Molzym_Ultra_Deep_LE_Rt_1_S1,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"738,941","30,854","769,795",0.33908
-    2024-03-14,Molzym_Ultra_Deep_LE_Rt_1_S1,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"239,621","81,181","320,802",0.14131
-    2024-03-14,Molzym_Ultra_Deep_LE_Rt_1_S1,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"103,943","19,251","123,194",0.05427
-    2024-03-14,Molzym_Ultra_Deep_MCS_1-100_4_S8,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"19,437,997","620,067","20,058,064",0.29006
-    2024-03-14,Molzym_Ultra_Deep_MCS_1-100_4_S8,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"14,068,382","328,573","14,396,955",0.20820
-    2024-03-14,Molzym_Ultra_Deep_MCS_1-100_4_S8,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"13,249,526","597,976","13,847,502",0.20025
-    2024-03-14,Molzym_Ultra_Deep_MCS_1-100_4_S8,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"409,162","4,422,785","4,831,947",0.06988
-    2024-03-14,Molzym_Ultra_Deep_MCS_1-100_4_S8,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"12,519","4,337,105","4,349,624",0.06290
-    2024-03-14,Molzym_Ultra_Deep_MCS_1-100_4_S8,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"6,449,893","364,761","6,814,654",0.09855
-    2024-10-28,Water_S63,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"180,449","31,647","212,096",0.24865
-    2024-10-28,Water_S63,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"46,968","4,242","51,210",0.06004
-    2024-03-14,Zymo_Magbead_Air_Ctr_3_S4,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"14,319,368","573,229","14,892,597",0.39694
-    2024-03-14,Zymo_Magbead_Air_Ctr_3_S4,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"6,400,296","1,372,250","7,772,546",0.20716
-    2024-03-14,Zymo_Magbead_LE_Lt_2_S16,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"18,275",196,"18,471",0.05414
-    2024-03-14,Zymo_Magbead_LE_Rt_1_S9,Prevotella melaninogenica,`28132 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28132>`_,S,"43,814","2,804","46,618",0.05283
-    2024-03-14,Zymo_Magbead_LE_Rt_1_S9,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"59,351","12,761","72,112",0.08172
-    2024-03-14,Zymo_Magbead_MCS_1-100_4_S22,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"14,646,860","554,029","15,200,889",0.41304
-    2024-03-14,Zymo_Magbead_MCS_1-100_4_S22,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"5,313,965","917,525","6,231,490",0.16932
-    2024-03-14,Zymo_Mini_prep_Air_Ctr_3_S19,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"14,770,229","525,789","15,296,018",0.45954
-    2024-03-14,Zymo_Mini_prep_Air_Ctr_3_S19,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"5,665,972","1,063,513","6,729,485",0.20218
-    2024-10-28,Zymo_Mini_Prep_CS_001_Air_Swab_S8,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"362,070","60,923","422,993",0.23918
-    2024-10-28,Zymo_Mini_Prep_CS_001_Air_Swab_S8,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"106,528","9,256","115,784",0.06547
-    2024-10-28,Zymo_Mini_Prep_CS_001_Right_Eye_S46,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"598,328","123,530","721,858",0.23618
-    2024-10-28,Zymo_Mini_Prep_CS_001_Right_Eye_S46,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"178,738","15,736","194,474",0.06363
-    2024-10-28,Zymo_Mini_Prep_CS_002_Air_Swab_S64,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"492,279","92,941","585,220",0.24069
-    2024-10-28,Zymo_Mini_Prep_CS_002_Air_Swab_S64,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"145,958","13,126","159,084",0.06543
-    2024-10-28,Zymo_Mini_Prep_CS_002_Left_Eye_S43,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"39,764","7,366","47,130",0.23440
-    2024-10-28,Zymo_Mini_Prep_CS_002_Left_Eye_S43,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"11,876","1,004","12,880",0.06406
-    2024-10-28,Qiagen_Dneasy_CS_005_Air_Swab_S67,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"1,035,520","179,887","1,215,407",0.20825
-    2024-10-28,Qiagen_Dneasy_CS_005_Air_Swab_S67,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"329,674","27,558","357,232",0.06121
-    2024-10-28,Qiagen_Dneasy_CS_005_Right_Eye_S54,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"21,848","4,239","26,087",0.19318
-    2024-10-28,Qiagen_Dneasy_CS_005_Right_Eye_S54,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"6,428",582,"7,010",0.05191
-    2024-10-28,Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"684,449","127,329","811,778",0.18700
-    2024-10-28,Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"213,561","18,719","232,280",0.05351
-    2024-10-28,Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"64,152","170,839","234,991",0.05413
-    2024-10-28,Qiagen_Dneasy_CS_006_Left_Eye_S31,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"12,914","2,302","15,216",0.17596
-    2024-10-28,Qiagen_Dneasy_CS_006_Left_Eye_S31,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"4,084",367,"4,451",0.05147
-    2024-10-28,Qiagen_Dneasy_CS_007_Right_Eye_S4,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"5,095","1,013","6,108",0.19048
-    2024-10-28,Qiagen_Dneasy_CS_008_Left_Eye_S33,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"2,097","24,147","26,244",0.10213
-    2024-10-28,Qiagen_Dneasy_CS_008_Left_Eye_S33,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,66,"26,084","26,150",0.10176
-    2024-10-28,Qiagen_Dneasy_CS_008_Left_Eye_S33,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"25,017","4,269","29,286",0.11396
-    2024-10-28,Qiagen_Dneasy_CS_009_10_Air_Swab_S48,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"876,132","155,672","1,031,804",0.17614
-    2024-10-28,Qiagen_Dneasy_CS_009_10_Air_Swab_S48,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"288,146","23,897","312,043",0.05327
-    2024-10-28,Qiagen_Dneasy_CS_009_10_Air_Swab_S48,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"104,875","260,347","365,222",0.06235
-    2024-10-28,Qiagen_Dneasy_CS_009_Right_Eye_S41,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"4,361","1,006","5,367",0.14106
-    2024-10-28,Qiagen_Dneasy_CS_010_Left_Eye_S45,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"106,740",905,"107,645",0.31680
-    2024-10-28,Qiagen_Dneasy_CS_010_Left_Eye_S45,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"26,416","4,456","30,872",0.09086
-    2024-10-28,Qiagen_Dneasy_CS_010_Left_Eye_S45,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"6,544","13,111","19,655",0.05785
-    2024-03-14,Qiagen_DNeasy_LE_Lt_2_S12,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"312,631","60,113","372,744",0.07567
-    2024-03-14,Qiagen_DNeasy_LE_Lt_2_S12,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"288,127","15,178","303,305",0.06157
-    2024-03-14,Qiagen_DNeasy_LE_Lt_2_S12,Haemophilus parainfluenzae,`729 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=729>`_,S,"266,272","14,310","280,582",0.05696
-    2024-03-14,Qiagen_DNeasy_LE_Lt_2_S12,Prevotella melaninogenica,`28132 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28132>`_,S,"431,389","23,608","454,997",0.09237
-    2024-03-14,Qiagen_DNeasy_MCS_1-100_4_S18,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"524,323","6,005,268","6,529,591",0.06753
-    2024-03-14,Qiagen_DNeasy_MCS_1-100_4_S18,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"15,906","5,696,445","5,712,351",0.05908
-    2024-03-14,Qiagen_DNeasy_MCS_1-100_4_S18,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"11,867,779","552,669","12,420,448",0.12846
-    2024-03-14,Qiagen_DNeasy_MCS_1-100_4_S18,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"13,520,732","329,031","13,849,763",0.14324
-    2024-03-14,Qiagen_DNeasy_MCS_1-100_4_S18,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"8,087,331","273,637","8,360,968",0.08647
-    2024-03-14,Qiagen_DNeasy_MCS_1-100_4_S18,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"9,062,790","8,735,426","17,798,216",0.18407
-    2024-03-14,Qiagen_DNeasy_MCS_1-100_4_S18,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"2,708,983","10,813,088","13,522,071",0.13985
-    2024-03-14,Qiagen_DNeasy_MCS_1-100_4_S18,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"4,672,577","8,683,250","13,355,827",0.13813
-    2024-10-28,Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"4,040,720","3,806,335","7,847,055",0.29575
-    2024-10-28,Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"1,131,462","4,557,999","5,689,461",0.21443
-    2024-10-28,Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"2,427,041","4,511,386","6,938,427",0.26150
-    2024-10-28,Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"134,827","1,535,305","1,670,132",0.06295
-    2024-10-28,Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"4,290","1,564,924","1,569,214",0.05914
-    2024-10-28,Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"3,042,587","3,021,157","6,063,744",0.29595
-    2024-10-28,Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"881,547","3,557,836","4,439,383",0.21667
-    2024-10-28,Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"1,791,121","3,498,516","5,289,637",0.25817
-    2024-10-28,Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"103,798","1,214,603","1,318,401",0.06435
-    2024-10-28,Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"3,135","1,183,008","1,186,143",0.05789
-    2024-10-28,Qiagen_DNeasy_MCS_7_S2,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"3,336,459","3,219,525","6,555,984",0.29248
-    2024-10-28,Qiagen_DNeasy_MCS_7_S2,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"958,441","3,830,223","4,788,664",0.21364
-    2024-10-28,Qiagen_DNeasy_MCS_7_S2,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"1,987,020","3,781,448","5,768,468",0.25735
-    2024-10-28,Qiagen_DNeasy_MCS_7_S2,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"115,262","1,272,108","1,387,370",0.06189
-    2024-10-28,Qiagen_DNeasy_MCS_7_S2,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"3,508","1,358,230","1,361,738",0.06075
-    2024-10-28,Qiagen_DNeasy_MCS_HostZero_3_S5,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"185,468","2,250,834","2,436,302",0.20083
-    2024-10-28,Qiagen_DNeasy_MCS_HostZero_3_S5,Bacillus cereus,`1396 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1396>`_,S,"179,116","615,762","794,878",0.06552
-    2024-10-28,Qiagen_DNeasy_MCS_HostZero_3_S5,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"4,397","1,593,139","1,597,536",0.13169
-    2024-10-28,Qiagen_DNeasy_MCS_HostZero_3_S5,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"680,149","24,156","704,305",0.05806
-    2024-10-28,Qiagen_DNeasy_MCS_HostZero_3_S5,Saccharomyces cerevisiae,`4932 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>`_,S,"4,361,407","10,032","4,371,439",0.36034
-    2024-10-28,Qiagen_DNeasy_MCS_MolYsis_1_S72,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"408,325","5,077,622","5,485,947",0.27161
-    2024-10-28,Qiagen_DNeasy_MCS_MolYsis_1_S72,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"10,732","4,126,360","4,137,092",0.20482
-    2024-10-28,Qiagen_DNeasy_MCS_MolYsis_1_S72,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"3,522,708","195,748","3,718,456",0.18410
-    2024-10-28,Qiagen_DNeasy_MCS_MolYsis_1_S72,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"1,821,355","72,264","1,893,619",0.09375
-    2024-10-28,Qiagen_DNeasy_MCS_NEB_5_S60,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"3,677,731","3,154,406","6,832,137",0.28777
-    2024-10-28,Qiagen_DNeasy_MCS_NEB_5_S60,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"1,074,198","4,130,483","5,204,681",0.21923
-    2024-10-28,Qiagen_DNeasy_MCS_NEB_5_S60,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"2,269,711","3,890,587","6,160,298",0.25948
-    2024-10-28,Qiagen_DNeasy_MCS_NEB_5_S60,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"134,536","1,395,600","1,530,136",0.06445
-    2024-10-28,Qiagen_DNeasy_MCS_NEB_5_S60,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"4,512","1,546,283","1,550,795",0.06532
-    2024-10-28,Qiagen_DNeasy_OMR1_BD801_S61,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"346,187","493,273","839,460",0.14763
-    2024-10-28,Qiagen_DNeasy_OMR1_BD801_S61,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"105,448","489,621","595,069",0.10465
-    2024-10-28,Qiagen_DNeasy_OMR1_BD801_S61,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"200,922","438,363","639,285",0.11242
-    2024-10-28,Qiagen_DNeasy_OMR1_BD801_S61,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"500,023","102,704","602,727",0.10599
-    2024-10-28,Qiagen_DNeasy_OMR2_BH802_S12,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"1,022,137","186,013","1,208,150",0.21333
-    2024-10-28,Qiagen_DNeasy_OMR2_BH802_S12,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"303,269","27,519","330,788",0.05841
-    2024-10-28,Qiagen_DNeasy_OMR_2_S74,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"644,133","175,202","819,335",0.24257
-    2024-10-28,Qiagen_DNeasy_OMR_2_S74,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"212,381","18,255","230,636",0.06828
-    2024-10-28,Qiagen_DNeasy_OMR_HostZero_4_S38,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"230,882","77,600","308,482",0.22272
-    2024-10-28,Qiagen_DNeasy_OMR_HostZero_4_S38,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"85,478","6,864","92,342",0.06667
-    2024-10-28,Qiagen_DNeasy_OMR_HostZero_4_S38,Pseudomonas tolaasii,`29442 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>`_,S,"20,898","54,065","74,963",0.05412
-    2024-10-28,Qiagen_DNeasy_OMR_NEB_6_S57,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"1,489,998","261,618","1,751,616",0.25637
-    2024-10-28,Qiagen_DNeasy_OMR_NEB_6_S57,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"424,843","37,695","462,538",0.06770
-    2024-10-28,Qiagen_DNeasy_Water_S70,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"798,622","133,682","932,304",0.20087
-    2024-10-28,Qiagen_DNeasy_Water_S70,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"228,872","20,932","249,804",0.05382
-    2024-03-14,Qiagen_Soil_Air_Ctr_3_S2,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,55,10,65,0.08366
-    2024-03-14,Qiagen_Soil_Air_Ctr_3_S2,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,50,3,53,0.06821
-    2024-03-14,Qiagen_Soil_Air_Ctr_3_S2,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,2,66,68,0.08752
-    2024-03-14,Qiagen_Soil_Air_Ctr_3_S2,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,33,10,43,0.05534
-    2024-03-14,Qiagen_Soil_Air_Ctr_3_S2,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,19,32,51,0.06564
-    2024-03-14,Qiagen_Soil_Air_Ctr_3_S2,Delftia tsuruhatensis,`180282 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>`_,S,33,6,39,0.05019
-    2024-03-14,Qiagen_Soil_LE_Lt_2_S14,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"1,937",101,"2,038",0.14442
-    2024-03-14,Qiagen_Soil_LE_Rt_1_S15,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"3,331",84,"3,415",0.40390
-    2024-03-14,Qiagen_Soil_MCS_1-100_4_S5,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"1,747,723","1,768,469","3,516,192",0.20043
-    2024-03-14,Qiagen_Soil_MCS_1-100_4_S5,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"554,981","2,254,693","2,809,674",0.16016
-    2024-03-14,Qiagen_Soil_MCS_1-100_4_S5,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"988,283","1,909,066","2,897,349",0.16516
-    2024-03-14,Qiagen_Soil_MCS_1-100_4_S5,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"90,192","1,141,864","1,232,056",0.07023
-    2024-03-14,Qiagen_Soil_MCS_1-100_4_S5,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"2,452","915,007","917,459",0.05230
-    2024-03-14,Qiagen_Soil_MCS_1-100_4_S5,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"1,425,765","85,617","1,511,382",0.08615
-    2024-03-14,Qiagen_Soil_MCS_1-100_4_S5,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"1,122,610","55,813","1,178,423",0.06717
-    2024-03-14,Qiagen_Soil_MCS_1-100_4_S5,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"1,384,687","42,652","1,427,339",0.08136
-    2024-03-14,Qiagen_Soil_MCS_1-100_4_S5,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"856,758","20,712","877,470",0.05002
-    2024-10-28,Qiagen_Soil_MCS_1_S29,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"1,451,880","1,272,060","2,723,940",0.17012
-    2024-10-28,Qiagen_Soil_MCS_1_S29,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"433,021","1,654,938","2,087,959",0.13040
-    2024-10-28,Qiagen_Soil_MCS_1_S29,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"741,770","1,296,289","2,038,059",0.12728
-    2024-10-28,Qiagen_Soil_MCS_1_S29,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"81,909","819,584","901,493",0.05630
-    2024-10-28,Qiagen_Soil_MCS_1_S29,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"2,741","922,612","925,353",0.05779
-    2024-10-28,Qiagen_Soil_MCS_1_S29,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"1,532,777","91,695","1,624,472",0.10145
-    2024-10-28,Qiagen_Soil_MCS_1_S29,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"1,158,559","30,302","1,188,861",0.07425
-    2024-10-28,Qiagen_Soil_MCS_1_S29,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"869,246","17,640","886,886",0.05539
-    2024-10-28,Qiagen_Soil_OMR_8_S40,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"1,852,423","333,915","2,186,338",0.25439
-    2024-10-28,Qiagen_Soil_OMR_8_S40,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"494,618","45,012","539,630",0.06279
-    2024-03-14,Thermo_MagMax_Air_Ctr_3_S21,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"3,837,955","201,027","4,038,982",0.22147
-    2024-03-14,Thermo_MagMax_Air_Ctr_3_S21,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"4,597,029","922,178","5,519,207",0.30264
-    2024-03-14,Thermo_MagMax_LE_Lt_2_S11,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"376,634","19,495","396,129",0.19440
-    2024-03-14,Thermo_MagMax_LE_Lt_2_S11,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"433,318","81,004","514,322",0.25241
-    2024-03-14,Thermo_MagMax_LE_Rt_1_S7,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"6,517,883","334,732","6,852,615",0.25185
-    2024-03-14,Thermo_MagMax_LE_Rt_1_S7,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"7,371,059","1,353,837","8,724,896",0.32066
-    2024-03-14,Thermo_MagMax_MCS_1-100_4_S24,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"5,182,897","266,355","5,449,252",0.22259
-    2024-03-14,Thermo_MagMax_MCS_1-100_4_S24,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"6,072,361","1,002,549","7,074,910",0.28899
-    2024-10-28,Zymo_Mini_Prep_CS_003_Right_Eye_S13,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"118,462","20,364","138,826",0.24526
-    2024-10-28,Zymo_Mini_Prep_CS_003_Right_Eye_S13,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"34,966","3,078","38,044",0.06721
-    2024-10-28,Zymo_Mini_Prep_CS_004_Air_Swab_S66,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"320,999","54,102","375,101",0.23527
-    2024-10-28,Zymo_Mini_Prep_CS_004_Air_Swab_S66,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"95,261","8,174","103,435",0.06488
-    2024-10-28,Zymo_Mini_Prep_CS_004_Left_Eye_S78,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"485,180","86,719","571,899",0.23872
-    2024-10-28,Zymo_Mini_Prep_CS_004_Left_Eye_S78,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"143,602","12,338","155,940",0.06509
-    2024-10-28,Zymo_Mini_Prep_CS_005_Air_Swab_S30,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"1,043,366","175,314","1,218,680",0.23766
-    2024-10-28,Zymo_Mini_Prep_CS_005_Air_Swab_S30,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"298,377","26,828","325,205",0.06342
-    2024-10-28,Zymo_Mini_Prep_CS_005_Right_Eye_S17,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"125,782","21,139","146,921",0.22280
-    2024-10-28,Zymo_Mini_Prep_CS_005_Right_Eye_S17,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"35,251","3,079","38,330",0.05812
-    2024-10-28,Zymo_Mini_Prep_CS_006_7_8_Air_Swab_S14,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"409,938","69,415","479,353",0.24021
-    2024-10-28,Zymo_Mini_Prep_CS_006_7_8_Air_Swab_S14,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"107,149","10,122","117,271",0.05877
-    2024-10-28,Zymo_Mini_Prep_CS_006_Left_Eye_S79,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"90,494","16,525","107,019",0.23599
-    2024-10-28,Zymo_Mini_Prep_CS_006_Left_Eye_S79,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"29,762","2,481","32,243",0.07110
-    2024-10-28,Zymo_Mini_Prep_CS_007_Right_Eye_S68,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"121,766","20,299","142,065",0.24256
-    2024-10-28,Zymo_Mini_Prep_CS_007_Right_Eye_S68,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"34,206","2,998","37,204",0.06352
-    2024-10-28,Zymo_Mini_Prep_CS_008_Left_Eye_S26,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"411,291","68,558","479,849",0.25261
-    2024-10-28,Zymo_Mini_Prep_CS_008_Left_Eye_S26,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"106,034","9,768","115,802",0.06096
-    2024-10-28,Zymo_Mini_Prep_CS_009_10_Air_Swab_S73,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"515,836","88,074","603,910",0.24352
-    2024-10-28,Zymo_Mini_Prep_CS_009_10_Air_Swab_S73,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"165,139","13,566","178,705",0.07206
-    2024-10-28,Zymo_Mini_Prep_CS_010_Left_Eye_S75,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"936,339","185,026","1,121,365",0.24674
-    2024-10-28,Zymo_Mini_Prep_CS_010_Left_Eye_S75,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"251,389","23,525","274,914",0.06049
-    2024-03-14,Zymo_Mini_prep_LE_Lt_2_S3,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"224,241","11,911","236,152",0.19189
-    2024-03-14,Zymo_Mini_prep_LE_Lt_2_S3,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"260,397","46,703","307,100",0.24955
-    2024-03-14,Zymo_Mini_prep_LE_Rt_1_S6,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"59,267","2,988","62,255",0.16238
-    2024-03-14,Zymo_Mini_prep_LE_Rt_1_S6,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"71,211","12,310","83,521",0.21785
-    2024-03-14,Zymo_Mini_prep_MCS_1-100_4_S13,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"317,262","3,326,194","3,643,456",0.06264
-    2024-03-14,Zymo_Mini_prep_MCS_1-100_4_S13,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"10,321","3,461,276","3,471,597",0.05969
-    2024-03-14,Zymo_Mini_prep_MCS_1-100_4_S13,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"6,861,891","275,394","7,137,285",0.12272
-    2024-03-14,Zymo_Mini_prep_MCS_1-100_4_S13,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"5,378,601","246,559","5,625,160",0.09672
-    2024-03-14,Zymo_Mini_prep_MCS_1-100_4_S13,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"7,294,623","158,998","7,453,621",0.12815
-    2024-03-14,Zymo_Mini_prep_MCS_1-100_4_S13,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"6,046,048","173,241","6,219,289",0.10693
-    2024-03-14,Zymo_Mini_prep_MCS_1-100_4_S13,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"4,931,467","4,255,614","9,187,081",0.15796
-    2024-03-14,Zymo_Mini_prep_MCS_1-100_4_S13,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"1,502,665","5,626,353","7,129,018",0.12257
-    2024-03-14,Zymo_Mini_prep_MCS_1-100_4_S13,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"2,206,939","3,743,108","5,950,047",0.10230
-    2024-10-28,Zymo_Mini_Prep_MCS_1_in_OMR_BD801_S9,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"2,784,428","2,627,282","5,411,710",0.26542
-    2024-10-28,Zymo_Mini_Prep_MCS_1_in_OMR_BD801_S9,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"605,447","2,900,697","3,506,144",0.17196
-    2024-10-28,Zymo_Mini_Prep_MCS_1_in_OMR_BD801_S9,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"1,470,264","2,606,394","4,076,658",0.19994
-    2024-10-28,Zymo_Mini_Prep_MCS_1_in_OMR_BD801_S9,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"4,171,286","54,474","4,225,760",0.20726
-    2024-10-28,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"2,626,175","108,208","2,734,383",0.14007
-    2024-10-28,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"88,469","992,999","1,081,468",0.05540
-    2024-10-28,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"2,083,827","100,186","2,184,013",0.11187
-    2024-10-28,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"2,340,137","51,034","2,391,171",0.12248
-    2024-10-28,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"1,996,489","57,083","2,053,572",0.10519
-    2024-10-28,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"1,458,950","1,321,867","2,780,817",0.14244
-    2024-10-28,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"421,395","1,627,721","2,049,116",0.10496
-    2024-10-28,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"700,585","1,245,280","1,945,865",0.09967
-    2024-10-28,Zymo_Mini_Prep_MCS_7_S25,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"112,863","1,203,506","1,316,369",0.06022
-    2024-10-28,Zymo_Mini_Prep_MCS_7_S25,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"3,670","1,231,133","1,234,803",0.05649
-    2024-10-28,Zymo_Mini_Prep_MCS_7_S25,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"2,014,730","92,992","2,107,722",0.09642
-    2024-10-28,Zymo_Mini_Prep_MCS_7_S25,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"1,901,114","76,051","1,977,165",0.09045
-    2024-10-28,Zymo_Mini_Prep_MCS_7_S25,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"2,774,590","59,230","2,833,820",0.12964
-    2024-10-28,Zymo_Mini_Prep_MCS_7_S25,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"1,987,638","56,630","2,044,268",0.09352
-    2024-10-28,Zymo_Mini_Prep_MCS_7_S25,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"1,966,048","1,710,548","3,676,596",0.16820
-    2024-10-28,Zymo_Mini_Prep_MCS_7_S25,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"570,057","2,166,036","2,736,093",0.12517
-    2024-10-28,Zymo_Mini_Prep_MCS_7_S25,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"937,418","1,602,734","2,540,152",0.11621
-    2024-10-28,Zymo_Mini_Prep_MCS_HostZero_3_S20,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"4,092,232","176,871","4,269,103",0.21073
-    2024-10-28,Zymo_Mini_Prep_MCS_HostZero_3_S20,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"3,330,187","129,736","3,459,923",0.17079
-    2024-10-28,Zymo_Mini_Prep_MCS_HostZero_3_S20,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"96,062","984,772","1,080,834",0.05335
-    2024-10-28,Zymo_Mini_Prep_MCS_HostZero_3_S20,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"3,217","1,011,208","1,014,425",0.05007
-    2024-10-28,Zymo_Mini_Prep_MCS_HostZero_3_S20,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"4,447,273","95,505","4,542,778",0.22424
-    2024-10-28,Zymo_Mini_Prep_MCS_HostZero_3_S20,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"3,868,068","106,740","3,974,808",0.19620
-    2024-10-28,Zymo_Mini_Prep_MCS_MolYsis_1_S49,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"3,658,640","142,284","3,800,924",0.21508
-    2024-10-28,Zymo_Mini_Prep_MCS_MolYsis_1_S49,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"3,608,850","160,363","3,769,213",0.21328
-    2024-10-28,Zymo_Mini_Prep_MCS_MolYsis_1_S49,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"4,034,197","85,095","4,119,292",0.23309
-    2024-10-28,Zymo_Mini_Prep_MCS_MolYsis_1_S49,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"2,378,589","65,498","2,444,087",0.13830
-    2024-10-28,Zymo_Mini_Prep_MCS_NEB_5_S76,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"124,583","1,212,420","1,337,003",0.05443
-    2024-10-28,Zymo_Mini_Prep_MCS_NEB_5_S76,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"4,151","1,357,990","1,362,141",0.05545
-    2024-10-28,Zymo_Mini_Prep_MCS_NEB_5_S76,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"2,758,397","111,622","2,870,019",0.11684
-    2024-10-28,Zymo_Mini_Prep_MCS_NEB_5_S76,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"2,637,858","122,744","2,760,602",0.11239
-    2024-10-28,Zymo_Mini_Prep_MCS_NEB_5_S76,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"2,842,666","59,916","2,902,582",0.11817
-    2024-10-28,Zymo_Mini_Prep_MCS_NEB_5_S76,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"2,633,874","77,407","2,711,281",0.11038
-    2024-10-28,Zymo_Mini_Prep_MCS_NEB_5_S76,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"1,828,280","1,561,324","3,389,604",0.13799
-    2024-10-28,Zymo_Mini_Prep_MCS_NEB_5_S76,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"534,223","2,004,859","2,539,082",0.10337
-    2024-10-28,Zymo_Mini_Prep_MCS_NEB_5_S76,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"835,756","1,424,369","2,260,125",0.09201
-    2024-10-28,Zymo_Mini_Prep_OMR1_BD801_S69,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"339,189","62,089","401,278",0.23521
-    2024-10-28,Zymo_Mini_Prep_OMR1_BD801_S69,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"96,185","8,245","104,430",0.06121
-    2024-10-28,Zymo_Mini_Prep_OMR2_BH802_S7,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"1,043,895","189,624","1,233,519",0.24834
-    2024-10-28,Zymo_Mini_Prep_OMR2_BH802_S7,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"299,944","26,820","326,764",0.06579
-    2024-10-28,Zymo_Mini_Prep_OMR_8_S36,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"784,765","132,899","917,664",0.23322
-    2024-10-28,Zymo_Mini_Prep_OMR_8_S36,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"213,626","19,386","233,012",0.05922
-    2024-10-28,Zymo_Mini_Prep_OMR_HostZero_4_S1,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"394,116","22,205","416,321",0.15642
-    2024-10-28,Zymo_Mini_Prep_OMR_HostZero_4_S1,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"497,391","85,805","583,196",0.21912
-    2024-10-28,Zymo_Mini_Prep_OMR_MolYsis_2_S16,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"567,202","95,712","662,914",0.22133
-    2024-10-28,Zymo_Mini_Prep_OMR_MolYsis_2_S16,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"162,927","14,065","176,992",0.05909
-    2024-10-28,Zymo_Mini_Prep_OMR_NEB_6_S55,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"1,805,569","361,718","2,167,287",0.24505
-    2024-10-28,Zymo_Mini_Prep_OMR_NEB_6_S55,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"511,547","45,113","556,660",0.06294
-    2024-10-28,Zymo_Mini_Prep_Water_S65,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"860,853","148,945","1,009,798",0.24485
-    2024-10-28,Zymo_Mini_Prep_Water_S65,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"260,068","22,562","282,630",0.06853
+    <details>
+    <summary>Show ...</summary>
+    <table class="docutils align-default">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Dataset</th>
+          <th>name</th>
+          <th>taxonomy_id</th>
+          <th>taxonomy_lvl</th>
+          <th>kraken_assigned_reads</th>
+          <th>added_reads</th>
+          <th>new_est_reads</th>
+          <th>fraction_total_reads</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2025-03-14</td>
+          <td>10_Zymo_Micro_Prep_CS_010_Right_Eye_S90</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>933</td>
+          <td>6</td>
+          <td>939</td>
+          <td>0.05021</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>11_Zymo_Micro_Prep_CS_007_Air_Swab_S91</td>
+          <td>Xanthomonas campestris</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>339</a></td>
+          <td>S</td>
+          <td>16,057</td>
+          <td>320</td>
+          <td>16,377</td>
+          <td>0.06707</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>11_Zymo_Micro_Prep_CS_007_Air_Swab_S91</td>
+          <td>Delftia tsuruhatensis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>180282</a></td>
+          <td>S</td>
+          <td>14,912</td>
+          <td>3,184</td>
+          <td>18,096</td>
+          <td>0.07411</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>11_Zymo_Micro_Prep_CS_007_Air_Swab_S91</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>34,787</td>
+          <td>325</td>
+          <td>35,112</td>
+          <td>0.14381</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>11_Zymo_Micro_Prep_CS_007_Air_Swab_S91</td>
+          <td>Meiothermus silvanus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=52022>52022</a></td>
+          <td>S</td>
+          <td>21,623</td>
+          <td>81</td>
+          <td>21,704</td>
+          <td>0.08889</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>12_Zymo_Micro_Prep_CS_010_Air_Swab_S92</td>
+          <td>Xanthomonas campestris</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>339</a></td>
+          <td>S</td>
+          <td>20,677</td>
+          <td>403</td>
+          <td>21,080</td>
+          <td>0.05122</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>12_Zymo_Micro_Prep_CS_010_Air_Swab_S92</td>
+          <td>Delftia tsuruhatensis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>180282</a></td>
+          <td>S</td>
+          <td>22,593</td>
+          <td>5,165</td>
+          <td>27,758</td>
+          <td>0.06744</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>12_Zymo_Micro_Prep_CS_010_Air_Swab_S92</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>54,425</td>
+          <td>467</td>
+          <td>54,892</td>
+          <td>0.13337</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>12_Zymo_Micro_Prep_CS_010_Air_Swab_S92</td>
+          <td>Meiothermus silvanus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=52022>52022</a></td>
+          <td>S</td>
+          <td>26,884</td>
+          <td>98</td>
+          <td>26,982</td>
+          <td>0.06556</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>12_Zymo_Micro_Prep_CS_010_Air_Swab_S92</td>
+          <td>Malassezia restricta</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=76775>76775</a></td>
+          <td>S</td>
+          <td>23,277</td>
+          <td>3</td>
+          <td>23,280</td>
+          <td>0.05656</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>13_Zymo_Microprep_MCS_OMR_BD801_S93</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>159,346</td>
+          <td>1,615,333</td>
+          <td>1,774,679</td>
+          <td>0.05842</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>13_Zymo_Microprep_MCS_OMR_BD801_S93</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>5,395</td>
+          <td>1,811,887</td>
+          <td>1,817,282</td>
+          <td>0.05982</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>13_Zymo_Microprep_MCS_OMR_BD801_S93</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>3,402,565</td>
+          <td>152,948</td>
+          <td>3,555,513</td>
+          <td>0.11705</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>13_Zymo_Microprep_MCS_OMR_BD801_S93</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>2,951,130</td>
+          <td>118,588</td>
+          <td>3,069,718</td>
+          <td>0.10105</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>13_Zymo_Microprep_MCS_OMR_BD801_S93</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>2,965,385</td>
+          <td>82,027</td>
+          <td>3,047,412</td>
+          <td>0.10032</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>13_Zymo_Microprep_MCS_OMR_BD801_S93</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>2,891,335</td>
+          <td>60,805</td>
+          <td>2,952,140</td>
+          <td>0.09718</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>13_Zymo_Microprep_MCS_OMR_BD801_S93</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>2,801,102</td>
+          <td>2,370,365</td>
+          <td>5,171,467</td>
+          <td>0.17024</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>13_Zymo_Microprep_MCS_OMR_BD801_S93</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>827,408</td>
+          <td>3,094,048</td>
+          <td>3,921,456</td>
+          <td>0.12909</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>13_Zymo_Microprep_MCS_OMR_BD801_S93</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>1,318,976</td>
+          <td>2,230,111</td>
+          <td>3,549,087</td>
+          <td>0.11684</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>14_Zymo_Microprep_OMR_BD801_S94</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>6,829</td>
+          <td>91,511</td>
+          <td>98,340</td>
+          <td>0.06783</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>14_Zymo_Microprep_OMR_BD801_S94</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>161,810</td>
+          <td>8,658</td>
+          <td>170,468</td>
+          <td>0.11757</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>14_Zymo_Microprep_OMR_BD801_S94</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>134,158</td>
+          <td>5,775</td>
+          <td>139,933</td>
+          <td>0.09651</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>14_Zymo_Microprep_OMR_BD801_S94</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>133,748</td>
+          <td>3,981</td>
+          <td>137,729</td>
+          <td>0.09499</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>14_Zymo_Microprep_OMR_BD801_S94</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>125,920</td>
+          <td>2,916</td>
+          <td>128,836</td>
+          <td>0.08886</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>14_Zymo_Microprep_OMR_BD801_S94</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>119,078</td>
+          <td>109,267</td>
+          <td>228,345</td>
+          <td>0.15749</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>14_Zymo_Microprep_OMR_BD801_S94</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>36,520</td>
+          <td>139,906</td>
+          <td>176,426</td>
+          <td>0.12168</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>14_Zymo_Microprep_OMR_BD801_S94</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>57,762</td>
+          <td>103,370</td>
+          <td>161,132</td>
+          <td>0.11113</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>9,639</td>
+          <td>110,348</td>
+          <td>119,987</td>
+          <td>0.05498</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>218,221</td>
+          <td>16,870</td>
+          <td>235,091</td>
+          <td>0.10771</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>182,888</td>
+          <td>8,216</td>
+          <td>191,104</td>
+          <td>0.08756</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>185,445</td>
+          <td>5,381</td>
+          <td>190,826</td>
+          <td>0.08743</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>163,341</td>
+          <td>3,806</td>
+          <td>167,147</td>
+          <td>0.07658</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>169,084</td>
+          <td>161,057</td>
+          <td>330,141</td>
+          <td>0.15126</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>51,491</td>
+          <td>202,197</td>
+          <td>253,688</td>
+          <td>0.11624</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>80,317</td>
+          <td>144,182</td>
+          <td>224,499</td>
+          <td>0.10286</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>16</td>
+          <td>5,109</td>
+          <td>5,125</td>
+          <td>0.05136</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>10,393</td>
+          <td>559</td>
+          <td>10,952</td>
+          <td>0.10976</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>8,326</td>
+          <td>365</td>
+          <td>8,691</td>
+          <td>0.08710</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>8,522</td>
+          <td>222</td>
+          <td>8,744</td>
+          <td>0.08763</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>6,581</td>
+          <td>136</td>
+          <td>6,717</td>
+          <td>0.06732</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>7,100</td>
+          <td>6,018</td>
+          <td>13,118</td>
+          <td>0.13147</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>2,219</td>
+          <td>8,531</td>
+          <td>10,750</td>
+          <td>0.10773</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96</td>
+          <td>Xanthomonas campestris</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>339</a></td>
+          <td>S</td>
+          <td>5,652</td>
+          <td>111</td>
+          <td>5,763</td>
+          <td>0.05776</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>2,791</td>
+          <td>4,650</td>
+          <td>7,441</td>
+          <td>0.07457</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1</td>
+          <td>Xanthomonas campestris</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>339</a></td>
+          <td>S</td>
+          <td>4,668</td>
+          <td>99</td>
+          <td>4,767</td>
+          <td>0.12981</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>1,379</td>
+          <td>1,479</td>
+          <td>2,858</td>
+          <td>0.07783</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>417</td>
+          <td>1,433</td>
+          <td>1,850</td>
+          <td>0.05038</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>1,792</td>
+          <td>281</td>
+          <td>2,073</td>
+          <td>0.05645</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>2,711</td>
+          <td>35,349</td>
+          <td>38,060</td>
+          <td>0.05888</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>65,954</td>
+          <td>3,928</td>
+          <td>69,882</td>
+          <td>0.10810</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>54,895</td>
+          <td>2,412</td>
+          <td>57,307</td>
+          <td>0.08865</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>56,077</td>
+          <td>1,764</td>
+          <td>57,841</td>
+          <td>0.08947</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>43,980</td>
+          <td>1,081</td>
+          <td>45,061</td>
+          <td>0.06971</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>43,320</td>
+          <td>40,939</td>
+          <td>84,259</td>
+          <td>0.13034</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>13,831</td>
+          <td>54,836</td>
+          <td>68,667</td>
+          <td>0.10622</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>17,305</td>
+          <td>32,148</td>
+          <td>49,453</td>
+          <td>0.07650</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_10_S41</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>871,303</td>
+          <td>38,929</td>
+          <td>910,232</td>
+          <td>0.18046</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_10_S41</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>414,540</td>
+          <td>97,806</td>
+          <td>512,346</td>
+          <td>0.10158</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_10_S41</td>
+          <td>Parabacteroides distasonis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>823</a></td>
+          <td>S</td>
+          <td>151,854</td>
+          <td>127,239</td>
+          <td>279,093</td>
+          <td>0.05533</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_11_S42</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>230,174</td>
+          <td>10,107</td>
+          <td>240,281</td>
+          <td>0.22095</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_11_S42</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>112,455</td>
+          <td>24,614</td>
+          <td>137,069</td>
+          <td>0.12604</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_12_S43</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>716,920</td>
+          <td>7,321,419</td>
+          <td>8,038,339</td>
+          <td>0.13656</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_12_S43</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>19,435</td>
+          <td>6,358,010</td>
+          <td>6,377,445</td>
+          <td>0.10835</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_12_S43</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>14,408,452</td>
+          <td>643,378</td>
+          <td>15,051,830</td>
+          <td>0.25572</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_12_S43</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>3,871,135</td>
+          <td>90,895</td>
+          <td>3,962,030</td>
+          <td>0.06731</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_12_S43</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>3,181,096</td>
+          <td>115,610</td>
+          <td>3,296,706</td>
+          <td>0.05601</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_12_S43</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>3,748,730</td>
+          <td>3,666,940</td>
+          <td>7,415,670</td>
+          <td>0.12599</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_12_S43</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>1,322,177</td>
+          <td>4,590,738</td>
+          <td>5,912,915</td>
+          <td>0.10046</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_12_S43</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>1,450,331</td>
+          <td>2,734,171</td>
+          <td>4,184,502</td>
+          <td>0.07109</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_13_S44</td>
+          <td>Bacteroides uniformis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=820>820</a></td>
+          <td>S</td>
+          <td>341,756</td>
+          <td>160,649</td>
+          <td>502,405</td>
+          <td>0.07088</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_13_S44</td>
+          <td>Phocaeicola vulgatus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821>821</a></td>
+          <td>S</td>
+          <td>407,633</td>
+          <td>92,623</td>
+          <td>500,256</td>
+          <td>0.07058</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_13_S44</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>572,574</td>
+          <td>24,428</td>
+          <td>597,002</td>
+          <td>0.08423</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_14_S45</td>
+          <td>Bacteroides ovatus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28116>28116</a></td>
+          <td>S</td>
+          <td>1,821,228</td>
+          <td>400,268</td>
+          <td>2,221,496</td>
+          <td>0.13542</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_14_S45</td>
+          <td>Phocaeicola vulgatus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821>821</a></td>
+          <td>S</td>
+          <td>2,643,729</td>
+          <td>409,532</td>
+          <td>3,053,261</td>
+          <td>0.18612</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_14_S45</td>
+          <td>Klebsiella pneumoniae</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573>573</a></td>
+          <td>S</td>
+          <td>508,813</td>
+          <td>879,414</td>
+          <td>1,388,227</td>
+          <td>0.08462</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_14_S45</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>809,015</td>
+          <td>34,320</td>
+          <td>843,335</td>
+          <td>0.05141</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_15_S46</td>
+          <td>Faecalibacterium prausnitzii</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=853>853</a></td>
+          <td>S</td>
+          <td>1,085,985</td>
+          <td>288,491</td>
+          <td>1,374,476</td>
+          <td>0.06015</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_15_S46</td>
+          <td>Bacteroides fragilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=817>817</a></td>
+          <td>S</td>
+          <td>1,779,106</td>
+          <td>102,768</td>
+          <td>1,881,874</td>
+          <td>0.08236</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_15_S46</td>
+          <td>Bacteroides cellulosilyticus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=246787>246787</a></td>
+          <td>S</td>
+          <td>1,251,313</td>
+          <td>43,445</td>
+          <td>1,294,758</td>
+          <td>0.05667</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_16_S47</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>10,247,213</td>
+          <td>8,814,008</td>
+          <td>19,061,221</td>
+          <td>0.28275</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_16_S47</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>3,299,330</td>
+          <td>11,300,432</td>
+          <td>14,599,762</td>
+          <td>0.21657</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_16_S47</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>5,544,770</td>
+          <td>9,595,380</td>
+          <td>15,140,150</td>
+          <td>0.22458</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_16_S47</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>428,288</td>
+          <td>4,191,360</td>
+          <td>4,619,648</td>
+          <td>0.06853</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_16_S47</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>11,998</td>
+          <td>4,029,339</td>
+          <td>4,041,337</td>
+          <td>0.05995</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_17_S27</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>831,108</td>
+          <td>35,662</td>
+          <td>866,770</td>
+          <td>0.20457</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_17_S27</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>399,687</td>
+          <td>78,017</td>
+          <td>477,704</td>
+          <td>0.11275</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_18_S28</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>2,295,362</td>
+          <td>86,515</td>
+          <td>2,381,877</td>
+          <td>0.31562</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_18_S28</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>639,328</td>
+          <td>127,786</td>
+          <td>767,114</td>
+          <td>0.10165</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_19_S29</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>82,347</td>
+          <td>3,825</td>
+          <td>86,172</td>
+          <td>0.16123</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_19_S29</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>43,926</td>
+          <td>8,185</td>
+          <td>52,111</td>
+          <td>0.09750</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_1_S32</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>110,584</td>
+          <td>4,771</td>
+          <td>115,355</td>
+          <td>0.13996</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_1_S32</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>50,453</td>
+          <td>10,329</td>
+          <td>60,782</td>
+          <td>0.07375</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_21_S31</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0.50000</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_21_S31</td>
+          <td>Achromobacter xylosoxidans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=85698>85698</a></td>
+          <td>S</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0.50000</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_2_S33</td>
+          <td>Parabacteroides distasonis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>823</a></td>
+          <td>S</td>
+          <td>472,887</td>
+          <td>395,011</td>
+          <td>867,898</td>
+          <td>0.31495</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_3_S34</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>1,332,343</td>
+          <td>56,933</td>
+          <td>1,389,276</td>
+          <td>0.14204</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_3_S34</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>619,630</td>
+          <td>121,576</td>
+          <td>741,206</td>
+          <td>0.07578</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_3_S34</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>303,834</td>
+          <td>548,257</td>
+          <td>852,091</td>
+          <td>0.08712</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_4_S35</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>10,782,990</td>
+          <td>8,829,508</td>
+          <td>19,612,498</td>
+          <td>0.25831</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_4_S35</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>3,508,681</td>
+          <td>11,610,753</td>
+          <td>15,119,434</td>
+          <td>0.19913</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_4_S35</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>5,716,607</td>
+          <td>9,759,779</td>
+          <td>15,476,386</td>
+          <td>0.20383</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_4_S35</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>493,774</td>
+          <td>4,712,224</td>
+          <td>5,205,998</td>
+          <td>0.06857</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_4_S35</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>14,382</td>
+          <td>4,619,080</td>
+          <td>4,633,462</td>
+          <td>0.06102</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_5_S36</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>4,353,511</td>
+          <td>3,757,642</td>
+          <td>8,111,153</td>
+          <td>0.28398</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_5_S36</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>1,424,172</td>
+          <td>4,843,728</td>
+          <td>6,267,900</td>
+          <td>0.21944</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_5_S36</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>2,300,380</td>
+          <td>4,094,385</td>
+          <td>6,394,765</td>
+          <td>0.22388</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_5_S36</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>173,731</td>
+          <td>1,712,649</td>
+          <td>1,886,380</td>
+          <td>0.06604</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_5_S36</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>4,840</td>
+          <td>1,623,472</td>
+          <td>1,628,312</td>
+          <td>0.05701</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_6_S37</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>101,691</td>
+          <td>4,363</td>
+          <td>106,054</td>
+          <td>0.15671</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_6_S37</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>49,325</td>
+          <td>9,981</td>
+          <td>59,306</td>
+          <td>0.08763</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_6_S37</td>
+          <td>Parabacteroides distasonis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>823</a></td>
+          <td>S</td>
+          <td>25,216</td>
+          <td>21,967</td>
+          <td>47,183</td>
+          <td>0.06972</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_7_S38</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>1,819,346</td>
+          <td>79,964</td>
+          <td>1,899,310</td>
+          <td>0.18682</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_7_S38</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>903,442</td>
+          <td>191,906</td>
+          <td>1,095,348</td>
+          <td>0.10774</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_8_S39</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>11,763,539</td>
+          <td>9,923,675</td>
+          <td>21,687,214</td>
+          <td>0.27717</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_8_S39</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>3,855,418</td>
+          <td>12,981,311</td>
+          <td>16,836,729</td>
+          <td>0.21518</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_8_S39</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>6,315,423</td>
+          <td>10,931,053</td>
+          <td>17,246,476</td>
+          <td>0.22042</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_8_S39</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>518,243</td>
+          <td>5,071,923</td>
+          <td>5,590,166</td>
+          <td>0.07144</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_8_S39</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>14,753</td>
+          <td>4,829,732</td>
+          <td>4,844,485</td>
+          <td>0.06191</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_9_S40</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>120,482</td>
+          <td>5,375</td>
+          <td>125,857</td>
+          <td>0.16892</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_9_S40</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>56,695</td>
+          <td>12,025</td>
+          <td>68,720</td>
+          <td>0.09223</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>1_Zymo_Micro_Prep_CS_001_Left_Eye_S81</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>4,442</td>
+          <td>1,101</td>
+          <td>5,543</td>
+          <td>0.11236</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>1_Zymo_Micro_Prep_CS_001_Left_Eye_S81</td>
+          <td>Cryptosporidium hominis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>237895</a></td>
+          <td>S</td>
+          <td>2,815</td>
+          <td>251</td>
+          <td>3,066</td>
+          <td>0.06215</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>1_Zymo_Micro_Prep_CS_001_Left_Eye_S81</td>
+          <td>Pseudomonas tolaasii</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>29442</a></td>
+          <td>S</td>
+          <td>1,070</td>
+          <td>2,897</td>
+          <td>3,967</td>
+          <td>0.08041</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>1_Zymo_Micro_Prep_CS_001_Left_Eye_S81</td>
+          <td>Klebsiella pneumoniae</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573>573</a></td>
+          <td>S</td>
+          <td>307</td>
+          <td>2,402</td>
+          <td>2,709</td>
+          <td>0.05491</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>1_Zymo_Micro_Prep_CS_001_Left_Eye_S81</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>2,816</td>
+          <td>24</td>
+          <td>2,840</td>
+          <td>0.05757</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>OMR1_BD801_S6</td>
+          <td>Caulobacter sp. Ji-3-8</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2708539>2708539</a></td>
+          <td>S</td>
+          <td>2</td>
+          <td>0</td>
+          <td>2</td>
+          <td>1.00000</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>OMR2_BH802_S35</td>
+          <td>Mycolicibacterium psychrotolerans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=216929>216929</a></td>
+          <td>S</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1.00000</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_Air_Ctr_3_S10</td>
+          <td>Rothia mucilaginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=43675>43675</a></td>
+          <td>S</td>
+          <td>134,595</td>
+          <td>871</td>
+          <td>135,466</td>
+          <td>0.05536</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_Air_Ctr_3_S10</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>37,898</td>
+          <td>117,429</td>
+          <td>155,327</td>
+          <td>0.06347</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_Air_Ctr_3_S10</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>160,451</td>
+          <td>44,433</td>
+          <td>204,884</td>
+          <td>0.08373</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_001_Air_Swab_S39</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>1,123,920</td>
+          <td>248,332</td>
+          <td>1,372,252</td>
+          <td>0.25224</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_001_Air_Swab_S39</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>344,636</td>
+          <td>28,249</td>
+          <td>372,885</td>
+          <td>0.06854</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_001_Right_Eye_S28</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>12,306</td>
+          <td>2,268</td>
+          <td>14,574</td>
+          <td>0.14251</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_002_Air_Swab_S62</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>180,723</td>
+          <td>58,625</td>
+          <td>239,348</td>
+          <td>0.05428</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_002_Air_Swab_S62</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>504,327</td>
+          <td>89,652</td>
+          <td>593,979</td>
+          <td>0.13470</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_002_Air_Swab_S62</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>107,436</td>
+          <td>144,413</td>
+          <td>251,849</td>
+          <td>0.05711</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_002_Left_Eye_S21</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>5,164</td>
+          <td>961</td>
+          <td>6,125</td>
+          <td>0.16370</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_003_Air_Swab_S18</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>1,281,360</td>
+          <td>256,314</td>
+          <td>1,537,674</td>
+          <td>0.25203</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_003_Air_Swab_S18</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>369,245</td>
+          <td>33,353</td>
+          <td>402,598</td>
+          <td>0.06599</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_003_Right_Eye_S58</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>5,906</td>
+          <td>940</td>
+          <td>6,846</td>
+          <td>0.14528</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_003_Right_Eye_S58</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>1,120</td>
+          <td>1,800</td>
+          <td>2,920</td>
+          <td>0.06197</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_004_Air_Swab_S52</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>341,564</td>
+          <td>76,318</td>
+          <td>417,882</td>
+          <td>0.22356</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_004_Air_Swab_S52</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>105,668</td>
+          <td>9,346</td>
+          <td>115,014</td>
+          <td>0.06153</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>22_Qiagen_Soil_Pro_CS_008_Right_Eye_S6</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>541</td>
+          <td>4</td>
+          <td>545</td>
+          <td>0.05220</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>26,122</td>
+          <td>2,094</td>
+          <td>28,216</td>
+          <td>0.08522</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>25,362</td>
+          <td>1,141</td>
+          <td>26,503</td>
+          <td>0.08004</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>23,969</td>
+          <td>881</td>
+          <td>24,850</td>
+          <td>0.07505</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>21,746</td>
+          <td>528</td>
+          <td>22,274</td>
+          <td>0.06727</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>20,812</td>
+          <td>20,669</td>
+          <td>41,481</td>
+          <td>0.12528</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>6,241</td>
+          <td>25,410</td>
+          <td>31,651</td>
+          <td>0.09559</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>11,946</td>
+          <td>21,886</td>
+          <td>33,832</td>
+          <td>0.10218</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>26_Qiagen_Soil_Pro_CS_010_Air_Swab_S10</td>
+          <td>Xanthomonas campestris</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>339</a></td>
+          <td>S</td>
+          <td>16,749</td>
+          <td>471</td>
+          <td>17,220</td>
+          <td>0.14660</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>26_Qiagen_Soil_Pro_CS_010_Air_Swab_S10</td>
+          <td>Delftia tsuruhatensis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>180282</a></td>
+          <td>S</td>
+          <td>7,207</td>
+          <td>1,718</td>
+          <td>8,925</td>
+          <td>0.07598</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>26_Qiagen_Soil_Pro_CS_010_Air_Swab_S10</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>22,954</td>
+          <td>189</td>
+          <td>23,143</td>
+          <td>0.19702</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>3,085,820</td>
+          <td>2,679,241</td>
+          <td>5,765,061</td>
+          <td>0.27666</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>879,718</td>
+          <td>3,433,556</td>
+          <td>4,313,274</td>
+          <td>0.20699</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>1,719,977</td>
+          <td>2,964,512</td>
+          <td>4,684,489</td>
+          <td>0.22481</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>108,920</td>
+          <td>1,129,233</td>
+          <td>1,238,153</td>
+          <td>0.05942</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>3,616</td>
+          <td>1,238,551</td>
+          <td>1,242,167</td>
+          <td>0.05961</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>28_Qiagen_Soil_Pro_OMR_BD801_S12</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>146,273</td>
+          <td>141,468</td>
+          <td>287,741</td>
+          <td>0.24345</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>28_Qiagen_Soil_Pro_OMR_BD801_S12</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>43,460</td>
+          <td>174,244</td>
+          <td>217,704</td>
+          <td>0.18419</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>28_Qiagen_Soil_Pro_OMR_BD801_S12</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>103,230</td>
+          <td>193,039</td>
+          <td>296,269</td>
+          <td>0.25067</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>28_Qiagen_Soil_Pro_OMR_BD801_S12</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>5,134</td>
+          <td>60,721</td>
+          <td>65,855</td>
+          <td>0.05572</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>29_Z_Mini_049_Conj_L_1_S13</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>3,925</td>
+          <td>4,014</td>
+          <td>7,939</td>
+          <td>0.14426</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>29_Z_Mini_049_Conj_L_1_S13</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>1,181</td>
+          <td>5,331</td>
+          <td>6,512</td>
+          <td>0.11833</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>29_Z_Mini_049_Conj_L_1_S13</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>2,875</td>
+          <td>4,978</td>
+          <td>7,853</td>
+          <td>0.14270</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>31_Z_Mini_049_Skin_L_1_S15</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>91,712</td>
+          <td>762</td>
+          <td>92,474</td>
+          <td>0.42750</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>32_Z_Mini_049_Conj_L_2_S16</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>532</td>
+          <td>1,068</td>
+          <td>1,600</td>
+          <td>0.05140</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>32_Z_Mini_049_Conj_L_2_S16</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>3,158</td>
+          <td>26</td>
+          <td>3,184</td>
+          <td>0.10229</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>33_Z_Mini_049_Lid_L_2_S17</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>53,832</td>
+          <td>496</td>
+          <td>54,328</td>
+          <td>0.62661</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>34_Z_Mini_049_Skin_L_2_S18</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>896,170</td>
+          <td>7,835</td>
+          <td>904,005</td>
+          <td>0.70735</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>36_Z_Mini_049_Lid_L_3_S20</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>35,356</td>
+          <td>366</td>
+          <td>35,722</td>
+          <td>0.47903</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>36_Z_Mini_049_Lid_L_3_S20</td>
+          <td>Staphylococcus hominis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1290>1290</a></td>
+          <td>S</td>
+          <td>6,661</td>
+          <td>351</td>
+          <td>7,012</td>
+          <td>0.09403</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>37_Z_Mini_049_Skin_L_3_S21</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>293,486</td>
+          <td>2,712</td>
+          <td>296,198</td>
+          <td>0.72631</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>38_Z_Mini_050_Conj_R_1_S22</td>
+          <td>Xanthomonas campestris</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>339</a></td>
+          <td>S</td>
+          <td>875</td>
+          <td>19</td>
+          <td>894</td>
+          <td>0.05206</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>38_Z_Mini_050_Conj_R_1_S22</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>1,649</td>
+          <td>14</td>
+          <td>1,663</td>
+          <td>0.09684</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>39_Z_Mini_050_Lid_R_1_S23</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>75,456</td>
+          <td>453</td>
+          <td>75,909</td>
+          <td>0.45576</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>39_Z_Mini_050_Lid_R_1_S23</td>
+          <td>Pantoea agglomerans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=549>549</a></td>
+          <td>S</td>
+          <td>46,689</td>
+          <td>1,416</td>
+          <td>48,105</td>
+          <td>0.28883</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>40_Z_Mini_050_Skin_R_1_S24</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>412,960</td>
+          <td>2,463</td>
+          <td>415,423</td>
+          <td>0.77384</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>42_Z_Mini_050_Lid_R_2_S26</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>322,582</td>
+          <td>1,960</td>
+          <td>324,542</td>
+          <td>0.84061</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>43_Z_Mini_050_Skin_R_2_S27</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>6,658,728</td>
+          <td>40,330</td>
+          <td>6,699,058</td>
+          <td>0.88730</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>44_Z_Mini_050_Conj_R_3_S28</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>2,371</td>
+          <td>14</td>
+          <td>2,385</td>
+          <td>0.10627</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>45_Z_Mini_050_Lid_R_3_S29</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>7,177</td>
+          <td>51</td>
+          <td>7,228</td>
+          <td>0.56381</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>45_Z_Mini_050_Lid_R_3_S29</td>
+          <td>Corynebacterium segmentosum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=43990>43990</a></td>
+          <td>S</td>
+          <td>652</td>
+          <td>14</td>
+          <td>666</td>
+          <td>0.05195</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>46_Z_Mini_050_Skin_R_3_S30</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>751,042</td>
+          <td>4,420</td>
+          <td>755,462</td>
+          <td>0.82155</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>46_Z_Mini_050_Skin_R_3_S30</td>
+          <td>Malassezia restricta</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=76775>76775</a></td>
+          <td>S</td>
+          <td>49,814</td>
+          <td>3</td>
+          <td>49,817</td>
+          <td>0.05418</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>47_Z_Mini_051_Conj_L_1_S31</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>815</td>
+          <td>6</td>
+          <td>821</td>
+          <td>0.05321</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>48_Z_Mini_051_Lid_L_1_S32</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>22,520</td>
+          <td>255</td>
+          <td>22,775</td>
+          <td>0.20829</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>49_Z_Mini_051_Skin_L_1_S33</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>83,613</td>
+          <td>617</td>
+          <td>84,230</td>
+          <td>0.41192</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>49_Z_Mini_051_Skin_L_1_S33</td>
+          <td>Dermacoccus nishinomiyaensis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1274>1274</a></td>
+          <td>S</td>
+          <td>10,734</td>
+          <td>236</td>
+          <td>10,970</td>
+          <td>0.05365</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>4_Zymo_Micro_Prep_CS_004_Right_Eye_S84</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>2,329</td>
+          <td>39</td>
+          <td>2,368</td>
+          <td>0.07561</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>4_Zymo_Micro_Prep_CS_004_Right_Eye_S84</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>1,341</td>
+          <td>299</td>
+          <td>1,640</td>
+          <td>0.05237</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>50_Z_Mini_051_Conj_L_2_S34</td>
+          <td>Delftia tsuruhatensis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>180282</a></td>
+          <td>S</td>
+          <td>1,458</td>
+          <td>290</td>
+          <td>1,748</td>
+          <td>0.06428</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>50_Z_Mini_051_Conj_L_2_S34</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>1,824</td>
+          <td>24</td>
+          <td>1,848</td>
+          <td>0.06796</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>51_Z_Mini_051_Lid_L_2_S35</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>25,072</td>
+          <td>262</td>
+          <td>25,334</td>
+          <td>0.20176</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>51_Z_Mini_051_Lid_L_2_S35</td>
+          <td>Dermacoccus nishinomiyaensis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1274>1274</a></td>
+          <td>S</td>
+          <td>7,844</td>
+          <td>248</td>
+          <td>8,092</td>
+          <td>0.06444</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>51_Z_Mini_051_Lid_L_2_S35</td>
+          <td>Staphylococcus epidermidis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1282>1282</a></td>
+          <td>S</td>
+          <td>2,617</td>
+          <td>4,885</td>
+          <td>7,502</td>
+          <td>0.05974</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>51_Z_Mini_051_Lid_L_2_S35</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>5,906</td>
+          <td>1,477</td>
+          <td>7,383</td>
+          <td>0.05880</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_20_S30</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>7,634,581</td>
+          <td>6,101,496</td>
+          <td>13,736,077</td>
+          <td>0.25729</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_20_S30</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>2,550,850</td>
+          <td>7,698,104</td>
+          <td>10,248,954</td>
+          <td>0.19197</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_20_S30</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>2,786,124</td>
+          <td>4,881,562</td>
+          <td>7,667,686</td>
+          <td>0.14362</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_20_S30</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>301,000</td>
+          <td>2,874,153</td>
+          <td>3,175,153</td>
+          <td>0.05947</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_20_S30</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>8,605</td>
+          <td>2,674,558</td>
+          <td>2,683,163</td>
+          <td>0.05026</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_20_S30</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>3,584,270</td>
+          <td>80,538</td>
+          <td>3,664,808</td>
+          <td>0.06865</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_20_S30</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>3,214,516</td>
+          <td>117,918</td>
+          <td>3,332,434</td>
+          <td>0.06242</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>199599_20_S30</td>
+          <td>Saccharomyces cerevisiae</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>4932</a></td>
+          <td>S</td>
+          <td>3,434,063</td>
+          <td>4,321</td>
+          <td>3,438,384</td>
+          <td>0.06440</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>30_Z_Mini_049_049_Lid_L_1_S14</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>15,669</td>
+          <td>139</td>
+          <td>15,808</td>
+          <td>0.32049</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>30_Z_Mini_049_049_Lid_L_1_S14</td>
+          <td>Staphylococcus epidermidis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1282>1282</a></td>
+          <td>S</td>
+          <td>2,636</td>
+          <td>212</td>
+          <td>2,848</td>
+          <td>0.05774</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>41_Z_Mini_050_Conj_R_2_S25</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>3,397</td>
+          <td>18</td>
+          <td>3,415</td>
+          <td>0.16942</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>52_Z_Mini_051_Skin_L_2_S36</td>
+          <td>Curtobacterium flaccumfaciens</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2035>2035</a></td>
+          <td>S</td>
+          <td>99,452</td>
+          <td>3,567</td>
+          <td>103,019</td>
+          <td>0.06861</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>52_Z_Mini_051_Skin_L_2_S36</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>356,846</td>
+          <td>4,110</td>
+          <td>360,956</td>
+          <td>0.24041</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>62_Z_Mini__OMR_B1001_S46</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>21,471</td>
+          <td>18,597</td>
+          <td>40,068</td>
+          <td>0.08589</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>62_Z_Mini__OMR_B1001_S46</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>6,406</td>
+          <td>24,883</td>
+          <td>31,289</td>
+          <td>0.06707</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>62_Z_Mini__OMR_B1001_S46</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>15,780</td>
+          <td>27,479</td>
+          <td>43,259</td>
+          <td>0.09273</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>62_Z_Mini__OMR_B1001_S46</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>29,249</td>
+          <td>1,994</td>
+          <td>31,243</td>
+          <td>0.06697</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>62_Z_Mini__OMR_B1001_S46</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>27,530</td>
+          <td>1,173</td>
+          <td>28,703</td>
+          <td>0.06153</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>62_Z_Mini__OMR_B1001_S46</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>27,915</td>
+          <td>592</td>
+          <td>28,507</td>
+          <td>0.06111</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>62_Z_Mini__OMR_B1001_S46</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>24,851</td>
+          <td>703</td>
+          <td>25,554</td>
+          <td>0.05478</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>62_Z_Mini__OMR_B1001_S46</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>29,353</td>
+          <td>197</td>
+          <td>29,550</td>
+          <td>0.06335</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>72_Qiagen_DNeasy_050_Conj_R_1_S56</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>3,835</td>
+          <td>1,005</td>
+          <td>4,840</td>
+          <td>0.11969</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>72_Qiagen_DNeasy_050_Conj_R_1_S56</td>
+          <td>Cryptosporidium hominis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>237895</a></td>
+          <td>S</td>
+          <td>2,141</td>
+          <td>747</td>
+          <td>2,888</td>
+          <td>0.07142</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>72_Qiagen_DNeasy_050_Conj_R_1_S56</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>1,466</td>
+          <td>957</td>
+          <td>2,423</td>
+          <td>0.05992</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>72_Qiagen_DNeasy_050_Conj_R_1_S56</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>1,453</td>
+          <td>945</td>
+          <td>2,398</td>
+          <td>0.05930</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>72_Qiagen_DNeasy_050_Conj_R_1_S56</td>
+          <td>Pseudomonas tolaasii</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>29442</a></td>
+          <td>S</td>
+          <td>1,175</td>
+          <td>2,251</td>
+          <td>3,426</td>
+          <td>0.08472</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>82_Qiagen_DNeasy_051_Lid_L_1_S66</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>6,800</td>
+          <td>3,664</td>
+          <td>10,464</td>
+          <td>0.08244</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>82_Qiagen_DNeasy_051_Lid_L_1_S66</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>6,616</td>
+          <td>3,612</td>
+          <td>10,228</td>
+          <td>0.08058</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>82_Qiagen_DNeasy_051_Lid_L_1_S66</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>12,629</td>
+          <td>140</td>
+          <td>12,769</td>
+          <td>0.10059</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>82_Qiagen_DNeasy_051_Lid_L_1_S66</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>7,625</td>
+          <td>1,612</td>
+          <td>9,237</td>
+          <td>0.07277</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>92_Qiagen_DNeasy_049_ISO_Cont_2_S76</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>53,925</td>
+          <td>32,849</td>
+          <td>86,774</td>
+          <td>0.08780</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>92_Qiagen_DNeasy_049_ISO_Cont_2_S76</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>52,254</td>
+          <td>32,341</td>
+          <td>84,595</td>
+          <td>0.08560</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>92_Qiagen_DNeasy_049_ISO_Cont_2_S76</td>
+          <td>Pseudomonas tolaasii</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>29442</a></td>
+          <td>S</td>
+          <td>47,712</td>
+          <td>55,216</td>
+          <td>102,928</td>
+          <td>0.10415</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>92_Qiagen_DNeasy_049_ISO_Cont_2_S76</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>5,891</td>
+          <td>78,969</td>
+          <td>84,860</td>
+          <td>0.08587</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>92_Qiagen_DNeasy_049_ISO_Cont_2_S76</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>2,032</td>
+          <td>61,752</td>
+          <td>63,784</td>
+          <td>0.06454</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>92_Qiagen_DNeasy_049_ISO_Cont_2_S76</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>165,821</td>
+          <td>26,294</td>
+          <td>192,115</td>
+          <td>0.19439</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>92_Qiagen_DNeasy_049_ISO_Cont_2_S76</td>
+          <td>Cryptosporidium hominis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>237895</a></td>
+          <td>S</td>
+          <td>56,875</td>
+          <td>8,008</td>
+          <td>64,883</td>
+          <td>0.06565</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_MCS_1_100_4</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>716,920</td>
+          <td>7,321,419</td>
+          <td>8,038,339</td>
+          <td>0.13656</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_MCS_1_100_4</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>19,435</td>
+          <td>6,358,010</td>
+          <td>6,377,445</td>
+          <td>0.10835</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_MCS_1_100_4</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>14,408,452</td>
+          <td>643,378</td>
+          <td>15,051,830</td>
+          <td>0.25572</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_MCS_1_100_4</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>3,871,135</td>
+          <td>90,895</td>
+          <td>3,962,030</td>
+          <td>0.06731</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_MCS_1_100_4</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>3,181,096</td>
+          <td>115,610</td>
+          <td>3,296,706</td>
+          <td>0.05601</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_MCS_1_100_4</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>3,748,730</td>
+          <td>3,666,940</td>
+          <td>7,415,670</td>
+          <td>0.12599</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_MCS_1_100_4</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>1,322,177</td>
+          <td>4,590,738</td>
+          <td>5,912,915</td>
+          <td>0.10046</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_MCS_1_100_4</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>1,450,331</td>
+          <td>2,734,171</td>
+          <td>4,184,502</td>
+          <td>0.07109</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_1_100_4</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>10,782,990</td>
+          <td>8,829,508</td>
+          <td>19,612,498</td>
+          <td>0.25831</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_1_100_4</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>3,508,681</td>
+          <td>11,610,753</td>
+          <td>15,119,434</td>
+          <td>0.19913</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_1_100_4</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>5,716,607</td>
+          <td>9,759,779</td>
+          <td>15,476,386</td>
+          <td>0.20383</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_1_100_4</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>493,774</td>
+          <td>4,712,224</td>
+          <td>5,205,998</td>
+          <td>0.06857</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_1_100_4</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>14,382</td>
+          <td>4,619,080</td>
+          <td>4,633,462</td>
+          <td>0.06102</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_004_Left_Eye_S27</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>15,976</td>
+          <td>3,049</td>
+          <td>19,025</td>
+          <td>0.17935</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_004_Left_Eye_S27</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>5,436</td>
+          <td>466</td>
+          <td>5,902</td>
+          <td>0.05564</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_004_Left_Eye_S27</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>1,477</td>
+          <td>4,531</td>
+          <td>6,008</td>
+          <td>0.05664</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR_MolYsis_2_S53</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>864,187</td>
+          <td>309,779</td>
+          <td>1,173,966</td>
+          <td>0.20982</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR_MolYsis_2_S53</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>394,827</td>
+          <td>28,917</td>
+          <td>423,744</td>
+          <td>0.07574</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_003_Air_Swab_S77</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>966,084</td>
+          <td>187,842</td>
+          <td>1,153,926</td>
+          <td>0.24235</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_003_Air_Swab_S77</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>458,308</td>
+          <td>31,488</td>
+          <td>489,796</td>
+          <td>0.10287</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_009_Right_Eye_S71</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>42,263</td>
+          <td>37,974</td>
+          <td>80,237</td>
+          <td>0.21583</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_009_Right_Eye_S71</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>12,424</td>
+          <td>49,644</td>
+          <td>62,068</td>
+          <td>0.16696</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_009_Right_Eye_S71</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>24,956</td>
+          <td>45,122</td>
+          <td>70,078</td>
+          <td>0.18850</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_009_Right_Eye_S71</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>17,955</td>
+          <td>2,862</td>
+          <td>20,817</td>
+          <td>0.05600</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_009_Right_Eye_S71</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>1,514</td>
+          <td>17,125</td>
+          <td>18,639</td>
+          <td>0.05014</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>53_Z_Mini_051_Conj_L_3_S37</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>3,123</td>
+          <td>28</td>
+          <td>3,151</td>
+          <td>0.11515</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>54_Z_Mini_051_Lid_L_3_S38</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>55,158</td>
+          <td>511</td>
+          <td>55,669</td>
+          <td>0.37521</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>55_Z_Mini_051_Skin_L_3_S39</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>108,499</td>
+          <td>821</td>
+          <td>109,320</td>
+          <td>0.55336</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>56_Z_Mini_049_ISO_Cont_1_S40</td>
+          <td>Erwinia gerundensis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1619313>1619313</a></td>
+          <td>S</td>
+          <td>76,367</td>
+          <td>649</td>
+          <td>77,016</td>
+          <td>0.06578</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>56_Z_Mini_049_ISO_Cont_1_S40</td>
+          <td>Klebsiella pneumoniae</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573>573</a></td>
+          <td>S</td>
+          <td>18,367</td>
+          <td>84,869</td>
+          <td>103,236</td>
+          <td>0.08818</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>56_Z_Mini_049_ISO_Cont_1_S40</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>124,450</td>
+          <td>956</td>
+          <td>125,406</td>
+          <td>0.10711</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>56_Z_Mini_049_ISO_Cont_1_S40</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>174,885</td>
+          <td>32,435</td>
+          <td>207,320</td>
+          <td>0.17708</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>56_Z_Mini_049_ISO_Cont_1_S40</td>
+          <td>Cryptosporidium hominis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>237895</a></td>
+          <td>S</td>
+          <td>62,375</td>
+          <td>16,589</td>
+          <td>78,964</td>
+          <td>0.06745</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>57_Z_Mini_050_ISO_Cont_1_S41</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>43,819</td>
+          <td>388</td>
+          <td>44,207</td>
+          <td>0.11155</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>57_Z_Mini_050_ISO_Cont_1_S41</td>
+          <td>Mycolicibacterium phocaicum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=319706>319706</a></td>
+          <td>S</td>
+          <td>23,828</td>
+          <td>634</td>
+          <td>24,462</td>
+          <td>0.06173</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>57_Z_Mini_050_ISO_Cont_1_S41</td>
+          <td>Staphylococcus hominis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1290>1290</a></td>
+          <td>S</td>
+          <td>26,367</td>
+          <td>1,495</td>
+          <td>27,862</td>
+          <td>0.07031</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>58_Z_Mini_049_ISO_Cont_2_S42</td>
+          <td>Delftia tsuruhatensis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>180282</a></td>
+          <td>S</td>
+          <td>25,050</td>
+          <td>5,107</td>
+          <td>30,157</td>
+          <td>0.08931</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>58_Z_Mini_049_ISO_Cont_2_S42</td>
+          <td>Ralstonia insidiosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=190721>190721</a></td>
+          <td>S</td>
+          <td>21,938</td>
+          <td>876</td>
+          <td>22,814</td>
+          <td>0.06756</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>58_Z_Mini_049_ISO_Cont_2_S42</td>
+          <td>Xanthomonas campestris</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>339</a></td>
+          <td>S</td>
+          <td>17,662</td>
+          <td>325</td>
+          <td>17,987</td>
+          <td>0.05327</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>58_Z_Mini_049_ISO_Cont_2_S42</td>
+          <td>Mycolicibacterium phocaicum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=319706>319706</a></td>
+          <td>S</td>
+          <td>19,649</td>
+          <td>655</td>
+          <td>20,304</td>
+          <td>0.06013</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>58_Z_Mini_049_ISO_Cont_2_S42</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>34,015</td>
+          <td>304</td>
+          <td>34,319</td>
+          <td>0.10163</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>59_Z_Mini_050_ISO_Cont_3_S43</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>41,446</td>
+          <td>692</td>
+          <td>42,138</td>
+          <td>0.08486</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>59_Z_Mini_050_ISO_Cont_3_S43</td>
+          <td>Malassezia restricta</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=76775>76775</a></td>
+          <td>S</td>
+          <td>42,863</td>
+          <td>6</td>
+          <td>42,869</td>
+          <td>0.08633</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>5_Zymo_Micro_Prep_CS_005_Left_Eye_S85</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>1,138</td>
+          <td>9</td>
+          <td>1,147</td>
+          <td>0.10697</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>60_Z_Mini_049_ISO_Cont_3_S44</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>39,253</td>
+          <td>579</td>
+          <td>39,832</td>
+          <td>0.11158</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>61_Z_Mini__MCS_OMR_B1001_S45</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>90,378</td>
+          <td>900,912</td>
+          <td>991,290</td>
+          <td>0.05560</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>61_Z_Mini__MCS_OMR_B1001_S45</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>3,093</td>
+          <td>1,023,392</td>
+          <td>1,026,485</td>
+          <td>0.05757</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>61_Z_Mini__MCS_OMR_B1001_S45</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>2,010,318</td>
+          <td>85,841</td>
+          <td>2,096,159</td>
+          <td>0.11756</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>61_Z_Mini__MCS_OMR_B1001_S45</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>2,017,604</td>
+          <td>77,513</td>
+          <td>2,095,117</td>
+          <td>0.11750</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>61_Z_Mini__MCS_OMR_B1001_S45</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>1,865,189</td>
+          <td>51,018</td>
+          <td>1,916,207</td>
+          <td>0.10747</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>61_Z_Mini__MCS_OMR_B1001_S45</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>1,741,742</td>
+          <td>34,982</td>
+          <td>1,776,724</td>
+          <td>0.09965</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>61_Z_Mini__MCS_OMR_B1001_S45</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>1,601,766</td>
+          <td>1,320,672</td>
+          <td>2,922,438</td>
+          <td>0.16390</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>61_Z_Mini__MCS_OMR_B1001_S45</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>465,042</td>
+          <td>1,706,964</td>
+          <td>2,172,006</td>
+          <td>0.12181</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>61_Z_Mini__MCS_OMR_B1001_S45</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>759,358</td>
+          <td>1,252,273</td>
+          <td>2,011,631</td>
+          <td>0.11282</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>63_Qiagen_DNeasy_049_Conj_L_1_S47</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>2,681</td>
+          <td>3,377</td>
+          <td>6,058</td>
+          <td>0.09936</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>63_Qiagen_DNeasy_049_Conj_L_1_S47</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>851</td>
+          <td>3,668</td>
+          <td>4,519</td>
+          <td>0.07412</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>63_Qiagen_DNeasy_049_Conj_L_1_S47</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>2,787</td>
+          <td>1,522</td>
+          <td>4,309</td>
+          <td>0.07067</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>63_Qiagen_DNeasy_049_Conj_L_1_S47</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>2,652</td>
+          <td>1,477</td>
+          <td>4,129</td>
+          <td>0.06772</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>63_Qiagen_DNeasy_049_Conj_L_1_S47</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>1,515</td>
+          <td>3,027</td>
+          <td>4,542</td>
+          <td>0.07449</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>63_Qiagen_DNeasy_049_Conj_L_1_S47</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>3,606</td>
+          <td>1,477</td>
+          <td>5,083</td>
+          <td>0.08337</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>63_Qiagen_DNeasy_049_Conj_L_1_S47</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>3,396</td>
+          <td>254</td>
+          <td>3,650</td>
+          <td>0.05986</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>63_Qiagen_DNeasy_049_Conj_L_1_S47</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>3,235</td>
+          <td>145</td>
+          <td>3,380</td>
+          <td>0.05544</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>63_Qiagen_DNeasy_049_Conj_L_1_S47</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>3,025</td>
+          <td>75</td>
+          <td>3,100</td>
+          <td>0.05084</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>64_Qiagen_DNeasy_049_049_Lid_L_1_S48</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>16,526</td>
+          <td>123</td>
+          <td>16,649</td>
+          <td>0.18463</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>64_Qiagen_DNeasy_049_049_Lid_L_1_S48</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>1,262</td>
+          <td>3,719</td>
+          <td>4,981</td>
+          <td>0.05524</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>65_Qiagen_DNeasy_049_Skin_L_1_S49</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>55,507</td>
+          <td>482</td>
+          <td>55,989</td>
+          <td>0.32418</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>65_Qiagen_DNeasy_049_Skin_L_1_S49</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>7,965</td>
+          <td>1,149</td>
+          <td>9,114</td>
+          <td>0.05277</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>66_Qiagen_DNeasy_049_Conj_L_2_S50</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>1,771</td>
+          <td>1,013</td>
+          <td>2,784</td>
+          <td>0.07710</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>66_Qiagen_DNeasy_049_Conj_L_2_S50</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>1,741</td>
+          <td>978</td>
+          <td>2,719</td>
+          <td>0.07530</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>66_Qiagen_DNeasy_049_Conj_L_2_S50</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>682</td>
+          <td>1,775</td>
+          <td>2,457</td>
+          <td>0.06805</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>66_Qiagen_DNeasy_049_Conj_L_2_S50</td>
+          <td>Xanthomonas campestris</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>339</a></td>
+          <td>S</td>
+          <td>2,189</td>
+          <td>33</td>
+          <td>2,222</td>
+          <td>0.06154</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>66_Qiagen_DNeasy_049_Conj_L_2_S50</td>
+          <td>Delftia tsuruhatensis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>180282</a></td>
+          <td>S</td>
+          <td>1,566</td>
+          <td>305</td>
+          <td>1,871</td>
+          <td>0.05182</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>66_Qiagen_DNeasy_049_Conj_L_2_S50</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>2,081</td>
+          <td>12</td>
+          <td>2,093</td>
+          <td>0.05797</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>67_Qiagen_DNeasy_049_Lid_L_2_S51</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>36,687</td>
+          <td>326</td>
+          <td>37,013</td>
+          <td>0.42219</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>68_Qiagen_DNeasy_049_Skin_L_2_S52</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>408,318</td>
+          <td>3,305</td>
+          <td>411,623</td>
+          <td>0.41997</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>68_Qiagen_DNeasy_049_Skin_L_2_S52</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>46,887</td>
+          <td>8,259</td>
+          <td>55,146</td>
+          <td>0.05626</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>69_Qiagen_DNeasy_049_Conj_L_3_S53</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>3,514</td>
+          <td>1,976</td>
+          <td>5,490</td>
+          <td>0.09321</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>69_Qiagen_DNeasy_049_Conj_L_3_S53</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>3,313</td>
+          <td>1,881</td>
+          <td>5,194</td>
+          <td>0.08818</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>69_Qiagen_DNeasy_049_Conj_L_3_S53</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>4,902</td>
+          <td>885</td>
+          <td>5,787</td>
+          <td>0.09825</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>70_Qiagen_DNeasy_049_Lid_L_3_S54</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>44,414</td>
+          <td>337</td>
+          <td>44,751</td>
+          <td>0.33187</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>70_Qiagen_DNeasy_049_Lid_L_3_S54</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>5,320</td>
+          <td>3,084</td>
+          <td>8,404</td>
+          <td>0.06232</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>70_Qiagen_DNeasy_049_Lid_L_3_S54</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>4,844</td>
+          <td>2,849</td>
+          <td>7,693</td>
+          <td>0.05705</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>70_Qiagen_DNeasy_049_Lid_L_3_S54</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>5,732</td>
+          <td>1,277</td>
+          <td>7,009</td>
+          <td>0.05198</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>71_Qiagen_DNeasy_049_Skin_L_3_S55</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>229,796</td>
+          <td>2,336</td>
+          <td>232,132</td>
+          <td>0.63702</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>73_Qiagen_DNeasy_050_Lid_R_1_S57</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>44,660</td>
+          <td>318</td>
+          <td>44,978</td>
+          <td>0.39731</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>73_Qiagen_DNeasy_050_Lid_R_1_S57</td>
+          <td>Xanthomonas campestris</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>339</a></td>
+          <td>S</td>
+          <td>5,937</td>
+          <td>68</td>
+          <td>6,005</td>
+          <td>0.05304</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>73_Qiagen_DNeasy_050_Lid_R_1_S57</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>8,076</td>
+          <td>1,703</td>
+          <td>9,779</td>
+          <td>0.08638</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>74_Qiagen_DNeasy_050_Skin_R_1_S58</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>161,973</td>
+          <td>1,120</td>
+          <td>163,093</td>
+          <td>0.69037</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>75_Qiagen_DNeasy_050_Conj_R_2_S59</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>4,886</td>
+          <td>2,712</td>
+          <td>7,598</td>
+          <td>0.05768</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>75_Qiagen_DNeasy_050_Conj_R_2_S59</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>4,605</td>
+          <td>2,568</td>
+          <td>7,173</td>
+          <td>0.05445</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>75_Qiagen_DNeasy_050_Conj_R_2_S59</td>
+          <td>Xanthomonas campestris</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>339</a></td>
+          <td>S</td>
+          <td>7,197</td>
+          <td>100</td>
+          <td>7,297</td>
+          <td>0.05539</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>75_Qiagen_DNeasy_050_Conj_R_2_S59</td>
+          <td>Pseudomonas tolaasii</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>29442</a></td>
+          <td>S</td>
+          <td>3,852</td>
+          <td>4,222</td>
+          <td>8,074</td>
+          <td>0.06129</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>75_Qiagen_DNeasy_050_Conj_R_2_S59</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>76</td>
+          <td>10,889</td>
+          <td>10,965</td>
+          <td>0.08324</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>75_Qiagen_DNeasy_050_Conj_R_2_S59</td>
+          <td>Delftia tsuruhatensis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>180282</a></td>
+          <td>S</td>
+          <td>5,706</td>
+          <td>1,262</td>
+          <td>6,968</td>
+          <td>0.05290</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>75_Qiagen_DNeasy_050_Conj_R_2_S59</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>12,640</td>
+          <td>67</td>
+          <td>12,707</td>
+          <td>0.09646</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>75_Qiagen_DNeasy_050_Conj_R_2_S59</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>12,368</td>
+          <td>3,304</td>
+          <td>15,672</td>
+          <td>0.11897</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>75_Qiagen_DNeasy_050_Conj_R_2_S59</td>
+          <td>Cryptosporidium hominis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>237895</a></td>
+          <td>S</td>
+          <td>7,327</td>
+          <td>1,166</td>
+          <td>8,493</td>
+          <td>0.06447</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>76_Qiagen_DNeasy_050_Lid_R_2_S60</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>223,515</td>
+          <td>1,548</td>
+          <td>225,063</td>
+          <td>0.43329</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>76_Qiagen_DNeasy_050_Lid_R_2_S60</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>33,655</td>
+          <td>5,906</td>
+          <td>39,561</td>
+          <td>0.07616</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>77_Qiagen_DNeasy_050_Skin_R_2_S61</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>412,987</td>
+          <td>2,427</td>
+          <td>415,414</td>
+          <td>0.73342</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>78_Qiagen_DNeasy_050_Conj_R_3_S62</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>14,898</td>
+          <td>9,066</td>
+          <td>23,964</td>
+          <td>0.14405</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>78_Qiagen_DNeasy_050_Conj_R_3_S62</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>14,632</td>
+          <td>8,981</td>
+          <td>23,613</td>
+          <td>0.14194</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>78_Qiagen_DNeasy_050_Conj_R_3_S62</td>
+          <td>Xanthomonas campestris</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>339</a></td>
+          <td>S</td>
+          <td>9,133</td>
+          <td>122</td>
+          <td>9,255</td>
+          <td>0.05563</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>78_Qiagen_DNeasy_050_Conj_R_3_S62</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>12,362</td>
+          <td>87</td>
+          <td>12,449</td>
+          <td>0.07483</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>78_Qiagen_DNeasy_050_Conj_R_3_S62</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>12,548</td>
+          <td>2,253</td>
+          <td>14,801</td>
+          <td>0.08897</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>79_Qiagen_DNeasy_050_Lid_R_3_S63</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>14,651</td>
+          <td>108</td>
+          <td>14,759</td>
+          <td>0.40120</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>80_Qiagen_DNeasy_050_Skin_R_3_S64</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>206,187</td>
+          <td>1,414</td>
+          <td>207,601</td>
+          <td>0.61123</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>81_Qiagen_DNeasy_051_Conj_L_1_S65</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>3,689</td>
+          <td>1,794</td>
+          <td>5,483</td>
+          <td>0.16330</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>81_Qiagen_DNeasy_051_Conj_L_1_S65</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>3,500</td>
+          <td>1,725</td>
+          <td>5,225</td>
+          <td>0.15562</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>83_Qiagen_DNeasy_051_Skin_L_1_S67</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>22,697</td>
+          <td>215</td>
+          <td>22,912</td>
+          <td>0.21874</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>84_Qiagen_DNeasy_051_Conj_L_2_S68</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>1,794</td>
+          <td>1,077</td>
+          <td>2,871</td>
+          <td>0.10118</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>84_Qiagen_DNeasy_051_Conj_L_2_S68</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>1,774</td>
+          <td>1,073</td>
+          <td>2,847</td>
+          <td>0.10034</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>84_Qiagen_DNeasy_051_Conj_L_2_S68</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>2,212</td>
+          <td>427</td>
+          <td>2,639</td>
+          <td>0.09301</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>85_Qiagen_DNeasy_051_Lid_L_2_S69</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>9,631</td>
+          <td>102</td>
+          <td>9,733</td>
+          <td>0.10774</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>85_Qiagen_DNeasy_051_Lid_L_2_S69</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>3,166</td>
+          <td>1,935</td>
+          <td>5,101</td>
+          <td>0.05647</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>85_Qiagen_DNeasy_051_Lid_L_2_S69</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>2,926</td>
+          <td>1,814</td>
+          <td>4,740</td>
+          <td>0.05247</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>85_Qiagen_DNeasy_051_Lid_L_2_S69</td>
+          <td>Xanthomonas campestris</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>339</a></td>
+          <td>S</td>
+          <td>4,856</td>
+          <td>111</td>
+          <td>4,967</td>
+          <td>0.05498</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>85_Qiagen_DNeasy_051_Lid_L_2_S69</td>
+          <td>Pseudomonas tolaasii</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>29442</a></td>
+          <td>S</td>
+          <td>1,907</td>
+          <td>3,075</td>
+          <td>4,982</td>
+          <td>0.05515</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>85_Qiagen_DNeasy_051_Lid_L_2_S69</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>5,181</td>
+          <td>1,608</td>
+          <td>6,789</td>
+          <td>0.07515</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>86_Qiagen_DNeasy_051_Skin_L_2_S70</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>123,848</td>
+          <td>1,742</td>
+          <td>125,590</td>
+          <td>0.15570</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>87_Qiagen_DNeasy_051_Conj_L_3_S71</td>
+          <td>Rothia mucilaginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=43675>43675</a></td>
+          <td>S</td>
+          <td>3,379</td>
+          <td>26</td>
+          <td>3,405</td>
+          <td>0.11704</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>87_Qiagen_DNeasy_051_Conj_L_3_S71</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>2,282</td>
+          <td>361</td>
+          <td>2,643</td>
+          <td>0.09085</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>88_Qiagen_DNeasy_051_Lid_L_3_S72</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>17,537</td>
+          <td>203</td>
+          <td>17,740</td>
+          <td>0.18943</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>89_Qiagen_DNeasy_051_Skin_L_3_S73</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>37,302</td>
+          <td>450</td>
+          <td>37,752</td>
+          <td>0.27185</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>8_Zymo_Micro_Prep_CS_008_Right_Eye_S88</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>765</td>
+          <td>6</td>
+          <td>771</td>
+          <td>0.06165</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>90_Qiagen_DNeasy_049_ISO_Cont_1_S74</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>230,439</td>
+          <td>27,440</td>
+          <td>257,879</td>
+          <td>0.30146</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>90_Qiagen_DNeasy_049_ISO_Cont_1_S74</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>41,683</td>
+          <td>27,017</td>
+          <td>68,700</td>
+          <td>0.08031</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>90_Qiagen_DNeasy_049_ISO_Cont_1_S74</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>40,777</td>
+          <td>26,564</td>
+          <td>67,341</td>
+          <td>0.07872</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>90_Qiagen_DNeasy_049_ISO_Cont_1_S74</td>
+          <td>Pseudomonas tolaasii</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>29442</a></td>
+          <td>S</td>
+          <td>19,080</td>
+          <td>54,283</td>
+          <td>73,363</td>
+          <td>0.08576</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>91_Qiagen_DNeasy_050_ISO_Cont_1_S75</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>311,877</td>
+          <td>89,197</td>
+          <td>401,074</td>
+          <td>0.26893</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>91_Qiagen_DNeasy_050_ISO_Cont_1_S75</td>
+          <td>Cryptosporidium hominis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>237895</a></td>
+          <td>S</td>
+          <td>122,628</td>
+          <td>48,814</td>
+          <td>171,442</td>
+          <td>0.11496</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>91_Qiagen_DNeasy_050_ISO_Cont_1_S75</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>47,207</td>
+          <td>32,604</td>
+          <td>79,811</td>
+          <td>0.05352</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>91_Qiagen_DNeasy_050_ISO_Cont_1_S75</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>44,931</td>
+          <td>30,785</td>
+          <td>75,716</td>
+          <td>0.05077</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>91_Qiagen_DNeasy_050_ISO_Cont_1_S75</td>
+          <td>Pseudomonas tolaasii</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>29442</a></td>
+          <td>S</td>
+          <td>52,906</td>
+          <td>97,145</td>
+          <td>150,051</td>
+          <td>0.10061</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>91_Qiagen_DNeasy_050_ISO_Cont_1_S75</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>4,443</td>
+          <td>100,421</td>
+          <td>104,864</td>
+          <td>0.07031</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>91_Qiagen_DNeasy_050_ISO_Cont_1_S75</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>1,572</td>
+          <td>90,707</td>
+          <td>92,279</td>
+          <td>0.06188</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>93_Qiagen_DNeasy_050_ISO_Cont_3_S77</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>106,677</td>
+          <td>59,247</td>
+          <td>165,924</td>
+          <td>0.10199</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>93_Qiagen_DNeasy_050_ISO_Cont_3_S77</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>102,214</td>
+          <td>57,951</td>
+          <td>160,165</td>
+          <td>0.09845</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>93_Qiagen_DNeasy_050_ISO_Cont_3_S77</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>70,454</td>
+          <td>187,058</td>
+          <td>257,512</td>
+          <td>0.15829</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>93_Qiagen_DNeasy_050_ISO_Cont_3_S77</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>21,369</td>
+          <td>154,313</td>
+          <td>175,682</td>
+          <td>0.10799</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>93_Qiagen_DNeasy_050_ISO_Cont_3_S77</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>35,028</td>
+          <td>87,403</td>
+          <td>122,431</td>
+          <td>0.07526</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>93_Qiagen_DNeasy_050_ISO_Cont_3_S77</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>159,742</td>
+          <td>30,175</td>
+          <td>189,917</td>
+          <td>0.11674</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>94_Qiagen_DNeasy_049_ISO_Cont_3_S78</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>28,654</td>
+          <td>18,460</td>
+          <td>47,114</td>
+          <td>0.09192</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>94_Qiagen_DNeasy_049_ISO_Cont_3_S78</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>27,998</td>
+          <td>18,230</td>
+          <td>46,228</td>
+          <td>0.09019</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>94_Qiagen_DNeasy_049_ISO_Cont_3_S78</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>6,229</td>
+          <td>61,289</td>
+          <td>67,518</td>
+          <td>0.13173</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>94_Qiagen_DNeasy_049_ISO_Cont_3_S78</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>2,159</td>
+          <td>37,050</td>
+          <td>39,209</td>
+          <td>0.07650</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>94_Qiagen_DNeasy_049_ISO_Cont_3_S78</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>61,879</td>
+          <td>12,276</td>
+          <td>74,155</td>
+          <td>0.14468</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>94_Qiagen_DNeasy_049_ISO_Cont_3_S78</td>
+          <td>Cryptosporidium hominis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>237895</a></td>
+          <td>S</td>
+          <td>28,924</td>
+          <td>5,338</td>
+          <td>34,262</td>
+          <td>0.06684</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>95_Qiagen_DNeasy_MCS_OMR_B1001_S79</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>2,833,408</td>
+          <td>2,554,375</td>
+          <td>5,387,783</td>
+          <td>0.30290</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>95_Qiagen_DNeasy_MCS_OMR_B1001_S79</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>806,877</td>
+          <td>3,178,593</td>
+          <td>3,985,470</td>
+          <td>0.22406</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>95_Qiagen_DNeasy_MCS_OMR_B1001_S79</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>1,436,761</td>
+          <td>2,545,460</td>
+          <td>3,982,221</td>
+          <td>0.22388</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>95_Qiagen_DNeasy_MCS_OMR_B1001_S79</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>99,768</td>
+          <td>1,108,420</td>
+          <td>1,208,188</td>
+          <td>0.06792</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>95_Qiagen_DNeasy_MCS_OMR_B1001_S79</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>3,264</td>
+          <td>1,116,409</td>
+          <td>1,119,673</td>
+          <td>0.06295</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>96_Qiagen_DNeasy_OMR_B1001_S80</td>
+          <td>Salinivibrio sp. YCSC6</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
+          <td>S</td>
+          <td>95,018</td>
+          <td>53,518</td>
+          <td>148,536</td>
+          <td>0.06610</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>96_Qiagen_DNeasy_OMR_B1001_S80</td>
+          <td>Salinivibrio costicola</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
+          <td>S</td>
+          <td>91,027</td>
+          <td>52,343</td>
+          <td>143,370</td>
+          <td>0.06380</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>96_Qiagen_DNeasy_OMR_B1001_S80</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>52,574</td>
+          <td>308,972</td>
+          <td>361,546</td>
+          <td>0.16089</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>96_Qiagen_DNeasy_OMR_B1001_S80</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>16,388</td>
+          <td>194,357</td>
+          <td>210,745</td>
+          <td>0.09379</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>96_Qiagen_DNeasy_OMR_B1001_S80</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>284,822</td>
+          <td>70,528</td>
+          <td>355,350</td>
+          <td>0.15814</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>96_Qiagen_DNeasy_OMR_B1001_S80</td>
+          <td>Cryptosporidium hominis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>237895</a></td>
+          <td>S</td>
+          <td>160,893</td>
+          <td>22,523</td>
+          <td>183,416</td>
+          <td>0.08162</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_AirCtr_3</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>1,819,346</td>
+          <td>79,964</td>
+          <td>1,899,310</td>
+          <td>0.18682</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_AirCtr_3</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>903,442</td>
+          <td>191,906</td>
+          <td>1,095,348</td>
+          <td>0.10774</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_Lt_2</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>101,691</td>
+          <td>4,363</td>
+          <td>106,054</td>
+          <td>0.15671</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_Lt_2</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>49,325</td>
+          <td>9,981</td>
+          <td>59,306</td>
+          <td>0.08763</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_Lt_2</td>
+          <td>Parabacteroides distasonis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>823</a></td>
+          <td>S</td>
+          <td>25,216</td>
+          <td>21,967</td>
+          <td>47,183</td>
+          <td>0.06972</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_MCS_1_100_4</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>11,763,539</td>
+          <td>9,923,675</td>
+          <td>21,687,214</td>
+          <td>0.27717</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_MCS_1_100_4</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>3,855,418</td>
+          <td>12,981,311</td>
+          <td>16,836,729</td>
+          <td>0.21518</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_MCS_1_100_4</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>6,315,423</td>
+          <td>10,931,053</td>
+          <td>17,246,476</td>
+          <td>0.22042</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_MCS_1_100_4</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>518,243</td>
+          <td>5,071,923</td>
+          <td>5,590,166</td>
+          <td>0.07144</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_MCS_1_100_4</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>14,753</td>
+          <td>4,829,732</td>
+          <td>4,844,485</td>
+          <td>0.06191</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_Rt_1</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>4,353,511</td>
+          <td>3,757,642</td>
+          <td>8,111,153</td>
+          <td>0.28398</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_Rt_1</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>1,424,172</td>
+          <td>4,843,728</td>
+          <td>6,267,900</td>
+          <td>0.21944</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_Rt_1</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>2,300,380</td>
+          <td>4,094,385</td>
+          <td>6,394,765</td>
+          <td>0.22388</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_Rt_1</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>173,731</td>
+          <td>1,712,649</td>
+          <td>1,886,380</td>
+          <td>0.06604</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureLyso_LE_Rt_1</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>4,840</td>
+          <td>1,623,472</td>
+          <td>1,628,312</td>
+          <td>0.05701</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_AirCtr_3</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>230,174</td>
+          <td>10,107</td>
+          <td>240,281</td>
+          <td>0.22095</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_AirCtr_3</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>112,455</td>
+          <td>24,614</td>
+          <td>137,069</td>
+          <td>0.12604</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_Lt_2</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>871,303</td>
+          <td>38,929</td>
+          <td>910,232</td>
+          <td>0.18046</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_Lt_2</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>414,540</td>
+          <td>97,806</td>
+          <td>512,346</td>
+          <td>0.10158</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_Lt_2</td>
+          <td>Parabacteroides distasonis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>823</a></td>
+          <td>S</td>
+          <td>151,854</td>
+          <td>127,239</td>
+          <td>279,093</td>
+          <td>0.05533</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_Rt_1</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>120,482</td>
+          <td>5,375</td>
+          <td>125,857</td>
+          <td>0.16892</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureMolYsisBasic_5_Rt_1</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>56,695</td>
+          <td>12,025</td>
+          <td>68,720</td>
+          <td>0.09223</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_AirCtr_3</td>
+          <td>Faecalibacterium prausnitzii</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=853>853</a></td>
+          <td>S</td>
+          <td>1,085,985</td>
+          <td>288,491</td>
+          <td>1,374,476</td>
+          <td>0.06015</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_AirCtr_3</td>
+          <td>Bacteroides fragilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=817>817</a></td>
+          <td>S</td>
+          <td>1,779,106</td>
+          <td>102,768</td>
+          <td>1,881,874</td>
+          <td>0.08236</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_AirCtr_3</td>
+          <td>Bacteroides cellulosilyticus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=246787>246787</a></td>
+          <td>S</td>
+          <td>1,251,313</td>
+          <td>43,445</td>
+          <td>1,294,758</td>
+          <td>0.05667</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_Lt_2</td>
+          <td>Bacteroides ovatus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28116>28116</a></td>
+          <td>S</td>
+          <td>1,821,228</td>
+          <td>400,268</td>
+          <td>2,221,496</td>
+          <td>0.13542</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_Lt_2</td>
+          <td>Phocaeicola vulgatus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821>821</a></td>
+          <td>S</td>
+          <td>2,643,729</td>
+          <td>409,532</td>
+          <td>3,053,261</td>
+          <td>0.18612</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_Lt_2</td>
+          <td>Klebsiella pneumoniae</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573>573</a></td>
+          <td>S</td>
+          <td>508,813</td>
+          <td>879,414</td>
+          <td>1,388,227</td>
+          <td>0.08462</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_Lt_2</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>809,015</td>
+          <td>34,320</td>
+          <td>843,335</td>
+          <td>0.05141</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_MCS_1_100_4</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>10,247,213</td>
+          <td>8,814,008</td>
+          <td>19,061,221</td>
+          <td>0.28275</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_MCS_1_100_4</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>3,299,330</td>
+          <td>11,300,432</td>
+          <td>14,599,762</td>
+          <td>0.21657</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_MCS_1_100_4</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>5,544,770</td>
+          <td>9,595,380</td>
+          <td>15,140,150</td>
+          <td>0.22458</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_MCS_1_100_4</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>428,288</td>
+          <td>4,191,360</td>
+          <td>4,619,648</td>
+          <td>0.06853</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_MCS_1_100_4</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>11,998</td>
+          <td>4,029,339</td>
+          <td>4,041,337</td>
+          <td>0.05995</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_Rt_1</td>
+          <td>Bacteroides uniformis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=820>820</a></td>
+          <td>S</td>
+          <td>341,756</td>
+          <td>160,649</td>
+          <td>502,405</td>
+          <td>0.07088</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_Rt_1</td>
+          <td>Phocaeicola vulgatus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821>821</a></td>
+          <td>S</td>
+          <td>407,633</td>
+          <td>92,623</td>
+          <td>500,256</td>
+          <td>0.07058</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureNEB_Rt_1</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>572,574</td>
+          <td>24,428</td>
+          <td>597,002</td>
+          <td>0.08423</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_AirCtr_3</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>82,347</td>
+          <td>3,825</td>
+          <td>86,172</td>
+          <td>0.16123</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_AirCtr_3</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>43,926</td>
+          <td>8,185</td>
+          <td>52,111</td>
+          <td>0.09750</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_Lt_2</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>2,295,362</td>
+          <td>86,515</td>
+          <td>2,381,877</td>
+          <td>0.31562</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_Lt_2</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>639,328</td>
+          <td>127,786</td>
+          <td>767,114</td>
+          <td>0.10165</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_MCS_1_100_4</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>7,634,581</td>
+          <td>6,101,496</td>
+          <td>13,736,077</td>
+          <td>0.25729</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_MCS_1_100_4</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>2,550,850</td>
+          <td>7,698,104</td>
+          <td>10,248,954</td>
+          <td>0.19197</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_MCS_1_100_4</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>2,786,124</td>
+          <td>4,881,562</td>
+          <td>7,667,686</td>
+          <td>0.14362</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_MCS_1_100_4</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>301,000</td>
+          <td>2,874,153</td>
+          <td>3,175,153</td>
+          <td>0.05947</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_MCS_1_100_4</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>8,605</td>
+          <td>2,674,558</td>
+          <td>2,683,163</td>
+          <td>0.05026</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_MCS_1_100_4</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>3,584,270</td>
+          <td>80,538</td>
+          <td>3,664,808</td>
+          <td>0.06865</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_MCS_1_100_4</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>3,214,516</td>
+          <td>117,918</td>
+          <td>3,332,434</td>
+          <td>0.06242</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_MCS_1_100_4</td>
+          <td>Saccharomyces cerevisiae</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>4932</a></td>
+          <td>S</td>
+          <td>3,434,063</td>
+          <td>4,321</td>
+          <td>3,438,384</td>
+          <td>0.06440</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_Rt_1</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>831,108</td>
+          <td>35,662</td>
+          <td>866,770</td>
+          <td>0.20457</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPureZymoHostZero_200ul_LE_Rt_1</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>399,687</td>
+          <td>78,017</td>
+          <td>477,704</td>
+          <td>0.11275</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_AirCtr_3</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>1,332,343</td>
+          <td>56,933</td>
+          <td>1,389,276</td>
+          <td>0.14204</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_AirCtr_3</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>619,630</td>
+          <td>121,576</td>
+          <td>741,206</td>
+          <td>0.07578</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_AirCtr_3</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>303,834</td>
+          <td>548,257</td>
+          <td>852,091</td>
+          <td>0.08712</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_LE_Lt_2</td>
+          <td>Parabacteroides distasonis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>823</a></td>
+          <td>S</td>
+          <td>472,887</td>
+          <td>395,011</td>
+          <td>867,898</td>
+          <td>0.31495</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_LE_Rt_1</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>110,584</td>
+          <td>4,771</td>
+          <td>115,355</td>
+          <td>0.13996</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_LE_Rt_1</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>50,453</td>
+          <td>10,329</td>
+          <td>60,782</td>
+          <td>0.07375</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_7_S56</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>3,658,078</td>
+          <td>3,056,211</td>
+          <td>6,714,289</td>
+          <td>0.29855</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_7_S56</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>1,045,175</td>
+          <td>3,887,726</td>
+          <td>4,932,901</td>
+          <td>0.21934</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_7_S56</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>1,976,383</td>
+          <td>3,338,168</td>
+          <td>5,314,551</td>
+          <td>0.23631</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_7_S56</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>124,554</td>
+          <td>1,289,121</td>
+          <td>1,413,675</td>
+          <td>0.06286</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_7_S56</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>4,221</td>
+          <td>1,389,743</td>
+          <td>1,393,964</td>
+          <td>0.06198</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_HostZero_3_S3</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>4,523,773</td>
+          <td>96,259</td>
+          <td>4,620,032</td>
+          <td>0.21206</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_HostZero_3_S3</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>1,753,721</td>
+          <td>95,674</td>
+          <td>1,849,395</td>
+          <td>0.08489</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_HostZero_3_S3</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>1,250,510</td>
+          <td>58,332</td>
+          <td>1,308,842</td>
+          <td>0.06008</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_HostZero_3_S3</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>553,826</td>
+          <td>543,914</td>
+          <td>1,097,740</td>
+          <td>0.05039</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_HostZero_3_S3</td>
+          <td>Saccharomyces cerevisiae</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>4932</a></td>
+          <td>S</td>
+          <td>7,646,986</td>
+          <td>8,335</td>
+          <td>7,655,321</td>
+          <td>0.35138</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_MolYsis_1_S59</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>438,233</td>
+          <td>4,477,250</td>
+          <td>4,915,483</td>
+          <td>0.28018</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_MolYsis_1_S59</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>14,523</td>
+          <td>4,722,833</td>
+          <td>4,737,356</td>
+          <td>0.27003</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_MolYsis_1_S59</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>1,347,613</td>
+          <td>56,030</td>
+          <td>1,403,643</td>
+          <td>0.08001</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_MolYsis_1_S59</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>1,257,355</td>
+          <td>48,885</td>
+          <td>1,306,240</td>
+          <td>0.07445</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_MolYsis_1_S59</td>
+          <td>Saccharomyces cerevisiae</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>4932</a></td>
+          <td>S</td>
+          <td>1,890,333</td>
+          <td>2,622</td>
+          <td>1,892,955</td>
+          <td>0.10790</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_NEB_5_S34</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>3,527,469</td>
+          <td>3,021,049</td>
+          <td>6,548,518</td>
+          <td>0.29606</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_NEB_5_S34</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>1,022,615</td>
+          <td>3,847,928</td>
+          <td>4,870,543</td>
+          <td>0.22020</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_NEB_5_S34</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>1,887,572</td>
+          <td>3,231,108</td>
+          <td>5,118,680</td>
+          <td>0.23142</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_NEB_5_S34</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>124,770</td>
+          <td>1,315,231</td>
+          <td>1,440,001</td>
+          <td>0.06510</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_MCS_NEB_5_S34</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>4,080</td>
+          <td>1,415,382</td>
+          <td>1,419,462</td>
+          <td>0.06417</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_OMR_8_S22</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>963,490</td>
+          <td>147,742</td>
+          <td>1,111,232</td>
+          <td>0.23320</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_OMR_8_S22</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>254,034</td>
+          <td>23,230</td>
+          <td>277,264</td>
+          <td>0.05819</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_OMR_HostZero_4_S24</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>428,312</td>
+          <td>67,721</td>
+          <td>496,033</td>
+          <td>0.18837</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_OMR_MolYsis_2_S42</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>517,797</td>
+          <td>77,912</td>
+          <td>595,709</td>
+          <td>0.16345</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_OMR_MolYsis_2_S42</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>100,420</td>
+          <td>118,459</td>
+          <td>218,879</td>
+          <td>0.06005</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_OMR_NEB_6_S15</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>910,665</td>
+          <td>50,561</td>
+          <td>961,226</td>
+          <td>0.13803</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>MasterPure_OMR_NEB_6_S15</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>1,205,071</td>
+          <td>196,752</td>
+          <td>1,401,823</td>
+          <td>0.20130</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_1_S11</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>191,165</td>
+          <td>2,420,096</td>
+          <td>2,611,261</td>
+          <td>0.21724</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_1_S11</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>4,579</td>
+          <td>1,717,104</td>
+          <td>1,721,683</td>
+          <td>0.14323</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_1_S11</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>1,806,068</td>
+          <td>107,671</td>
+          <td>1,913,739</td>
+          <td>0.15921</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_1_S11</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>1,081,969</td>
+          <td>41,046</td>
+          <td>1,123,015</td>
+          <td>0.09343</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_1_S11</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>497,893</td>
+          <td>580,312</td>
+          <td>1,078,205</td>
+          <td>0.08970</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_1_S11</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>172,291</td>
+          <td>640,200</td>
+          <td>812,491</td>
+          <td>0.06759</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_1_S11</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>213,367</td>
+          <td>480,323</td>
+          <td>693,690</td>
+          <td>0.05771</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_HostZero_3_S19</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>982,393</td>
+          <td>1,164,795</td>
+          <td>2,147,188</td>
+          <td>0.26432</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_HostZero_3_S19</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>330,525</td>
+          <td>1,230,790</td>
+          <td>1,561,315</td>
+          <td>0.19220</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_HostZero_3_S19</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>401,275</td>
+          <td>916,586</td>
+          <td>1,317,861</td>
+          <td>0.16223</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_HostZero_3_S19</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>39,431</td>
+          <td>508,391</td>
+          <td>547,822</td>
+          <td>0.06744</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_HostZero_3_S19</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>628,863</td>
+          <td>16,787</td>
+          <td>645,650</td>
+          <td>0.07948</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_HostZero_3_S19</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>405,538</td>
+          <td>14,609</td>
+          <td>420,147</td>
+          <td>0.05172</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_NEB_5_S44</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>225,509</td>
+          <td>2,559,143</td>
+          <td>2,784,652</td>
+          <td>0.21121</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_NEB_5_S44</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>6,961</td>
+          <td>2,366,699</td>
+          <td>2,373,660</td>
+          <td>0.18003</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_NEB_5_S44</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>1,303,586</td>
+          <td>61,397</td>
+          <td>1,364,983</td>
+          <td>0.10353</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_NEB_5_S44</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>658,931</td>
+          <td>25,314</td>
+          <td>684,245</td>
+          <td>0.05190</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_NEB_5_S44</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>491,735</td>
+          <td>432,881</td>
+          <td>924,616</td>
+          <td>0.07013</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_MCS_NEB_5_S44</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>159,546</td>
+          <td>570,739</td>
+          <td>730,285</td>
+          <td>0.05539</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_OMR_2_S10</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>838,510</td>
+          <td>181,756</td>
+          <td>1,020,266</td>
+          <td>0.21445</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_OMR_2_S10</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>268,180</td>
+          <td>23,504</td>
+          <td>291,684</td>
+          <td>0.06131</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_OMR_HostZero_4_S37</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>111,345</td>
+          <td>27,051</td>
+          <td>138,396</td>
+          <td>0.16814</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_OMR_HostZero_4_S37</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>47,200</td>
+          <td>3,426</td>
+          <td>50,626</td>
+          <td>0.06151</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_OMR_HostZero_4_S37</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>13,680</td>
+          <td>43,595</td>
+          <td>57,275</td>
+          <td>0.06959</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_OMR_NEB_6_S32</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>1,393,560</td>
+          <td>226,754</td>
+          <td>1,620,314</td>
+          <td>0.24388</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Molzym_Ultra-Deep_OMR_NEB_6_S32</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>365,746</td>
+          <td>33,965</td>
+          <td>399,711</td>
+          <td>0.06016</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_Air_Ctr_3_S20</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>3,015,015</td>
+          <td>118,882</td>
+          <td>3,133,897</td>
+          <td>0.44917</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_Air_Ctr_3_S20</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>1,003,092</td>
+          <td>253,520</td>
+          <td>1,256,612</td>
+          <td>0.18011</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_LE_Lt_2_S23</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>720,098</td>
+          <td>29,132</td>
+          <td>749,230</td>
+          <td>0.18065</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_LE_Lt_2_S23</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>293,185</td>
+          <td>91,494</td>
+          <td>384,679</td>
+          <td>0.09275</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_LE_Lt_2_S23</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>238,315</td>
+          <td>73,362</td>
+          <td>311,677</td>
+          <td>0.07515</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_LE_Rt_1_S1</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>738,941</td>
+          <td>30,854</td>
+          <td>769,795</td>
+          <td>0.33908</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_LE_Rt_1_S1</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>239,621</td>
+          <td>81,181</td>
+          <td>320,802</td>
+          <td>0.14131</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_LE_Rt_1_S1</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>103,943</td>
+          <td>19,251</td>
+          <td>123,194</td>
+          <td>0.05427</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_MCS_1-100_4_S8</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>19,437,997</td>
+          <td>620,067</td>
+          <td>20,058,064</td>
+          <td>0.29006</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_MCS_1-100_4_S8</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>14,068,382</td>
+          <td>328,573</td>
+          <td>14,396,955</td>
+          <td>0.20820</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_MCS_1-100_4_S8</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>13,249,526</td>
+          <td>597,976</td>
+          <td>13,847,502</td>
+          <td>0.20025</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_MCS_1-100_4_S8</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>409,162</td>
+          <td>4,422,785</td>
+          <td>4,831,947</td>
+          <td>0.06988</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_MCS_1-100_4_S8</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>12,519</td>
+          <td>4,337,105</td>
+          <td>4,349,624</td>
+          <td>0.06290</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Molzym_Ultra_Deep_MCS_1-100_4_S8</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>6,449,893</td>
+          <td>364,761</td>
+          <td>6,814,654</td>
+          <td>0.09855</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Water_S63</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>180,449</td>
+          <td>31,647</td>
+          <td>212,096</td>
+          <td>0.24865</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Water_S63</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>46,968</td>
+          <td>4,242</td>
+          <td>51,210</td>
+          <td>0.06004</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Magbead_Air_Ctr_3_S4</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>14,319,368</td>
+          <td>573,229</td>
+          <td>14,892,597</td>
+          <td>0.39694</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Magbead_Air_Ctr_3_S4</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>6,400,296</td>
+          <td>1,372,250</td>
+          <td>7,772,546</td>
+          <td>0.20716</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Magbead_LE_Lt_2_S16</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>18,275</td>
+          <td>196</td>
+          <td>18,471</td>
+          <td>0.05414</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Magbead_LE_Rt_1_S9</td>
+          <td>Prevotella melaninogenica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28132>28132</a></td>
+          <td>S</td>
+          <td>43,814</td>
+          <td>2,804</td>
+          <td>46,618</td>
+          <td>0.05283</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Magbead_LE_Rt_1_S9</td>
+          <td>Trypanosoma cruzi</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
+          <td>S</td>
+          <td>59,351</td>
+          <td>12,761</td>
+          <td>72,112</td>
+          <td>0.08172</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Magbead_MCS_1-100_4_S22</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>14,646,860</td>
+          <td>554,029</td>
+          <td>15,200,889</td>
+          <td>0.41304</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Magbead_MCS_1-100_4_S22</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>5,313,965</td>
+          <td>917,525</td>
+          <td>6,231,490</td>
+          <td>0.16932</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_Air_Ctr_3_S19</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>14,770,229</td>
+          <td>525,789</td>
+          <td>15,296,018</td>
+          <td>0.45954</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_Air_Ctr_3_S19</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>5,665,972</td>
+          <td>1,063,513</td>
+          <td>6,729,485</td>
+          <td>0.20218</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_001_Air_Swab_S8</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>362,070</td>
+          <td>60,923</td>
+          <td>422,993</td>
+          <td>0.23918</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_001_Air_Swab_S8</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>106,528</td>
+          <td>9,256</td>
+          <td>115,784</td>
+          <td>0.06547</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_001_Right_Eye_S46</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>598,328</td>
+          <td>123,530</td>
+          <td>721,858</td>
+          <td>0.23618</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_001_Right_Eye_S46</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>178,738</td>
+          <td>15,736</td>
+          <td>194,474</td>
+          <td>0.06363</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_002_Air_Swab_S64</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>492,279</td>
+          <td>92,941</td>
+          <td>585,220</td>
+          <td>0.24069</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_002_Air_Swab_S64</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>145,958</td>
+          <td>13,126</td>
+          <td>159,084</td>
+          <td>0.06543</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_002_Left_Eye_S43</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>39,764</td>
+          <td>7,366</td>
+          <td>47,130</td>
+          <td>0.23440</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_002_Left_Eye_S43</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>11,876</td>
+          <td>1,004</td>
+          <td>12,880</td>
+          <td>0.06406</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_005_Air_Swab_S67</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>1,035,520</td>
+          <td>179,887</td>
+          <td>1,215,407</td>
+          <td>0.20825</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_005_Air_Swab_S67</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>329,674</td>
+          <td>27,558</td>
+          <td>357,232</td>
+          <td>0.06121</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_005_Right_Eye_S54</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>21,848</td>
+          <td>4,239</td>
+          <td>26,087</td>
+          <td>0.19318</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_005_Right_Eye_S54</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>6,428</td>
+          <td>582</td>
+          <td>7,010</td>
+          <td>0.05191</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>684,449</td>
+          <td>127,329</td>
+          <td>811,778</td>
+          <td>0.18700</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>213,561</td>
+          <td>18,719</td>
+          <td>232,280</td>
+          <td>0.05351</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>64,152</td>
+          <td>170,839</td>
+          <td>234,991</td>
+          <td>0.05413</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_006_Left_Eye_S31</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>12,914</td>
+          <td>2,302</td>
+          <td>15,216</td>
+          <td>0.17596</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_006_Left_Eye_S31</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>4,084</td>
+          <td>367</td>
+          <td>4,451</td>
+          <td>0.05147</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_007_Right_Eye_S4</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>5,095</td>
+          <td>1,013</td>
+          <td>6,108</td>
+          <td>0.19048</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_008_Left_Eye_S33</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>2,097</td>
+          <td>24,147</td>
+          <td>26,244</td>
+          <td>0.10213</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_008_Left_Eye_S33</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>66</td>
+          <td>26,084</td>
+          <td>26,150</td>
+          <td>0.10176</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_008_Left_Eye_S33</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>25,017</td>
+          <td>4,269</td>
+          <td>29,286</td>
+          <td>0.11396</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_009_10_Air_Swab_S48</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>876,132</td>
+          <td>155,672</td>
+          <td>1,031,804</td>
+          <td>0.17614</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_009_10_Air_Swab_S48</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>288,146</td>
+          <td>23,897</td>
+          <td>312,043</td>
+          <td>0.05327</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_009_10_Air_Swab_S48</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>104,875</td>
+          <td>260,347</td>
+          <td>365,222</td>
+          <td>0.06235</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_009_Right_Eye_S41</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>4,361</td>
+          <td>1,006</td>
+          <td>5,367</td>
+          <td>0.14106</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_010_Left_Eye_S45</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>106,740</td>
+          <td>905</td>
+          <td>107,645</td>
+          <td>0.31680</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_010_Left_Eye_S45</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>26,416</td>
+          <td>4,456</td>
+          <td>30,872</td>
+          <td>0.09086</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Dneasy_CS_010_Left_Eye_S45</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>6,544</td>
+          <td>13,111</td>
+          <td>19,655</td>
+          <td>0.05785</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_LE_Lt_2_S12</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>312,631</td>
+          <td>60,113</td>
+          <td>372,744</td>
+          <td>0.07567</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_LE_Lt_2_S12</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>288,127</td>
+          <td>15,178</td>
+          <td>303,305</td>
+          <td>0.06157</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_LE_Lt_2_S12</td>
+          <td>Haemophilus parainfluenzae</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=729>729</a></td>
+          <td>S</td>
+          <td>266,272</td>
+          <td>14,310</td>
+          <td>280,582</td>
+          <td>0.05696</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_LE_Lt_2_S12</td>
+          <td>Prevotella melaninogenica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28132>28132</a></td>
+          <td>S</td>
+          <td>431,389</td>
+          <td>23,608</td>
+          <td>454,997</td>
+          <td>0.09237</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_MCS_1-100_4_S18</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>524,323</td>
+          <td>6,005,268</td>
+          <td>6,529,591</td>
+          <td>0.06753</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_MCS_1-100_4_S18</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>15,906</td>
+          <td>5,696,445</td>
+          <td>5,712,351</td>
+          <td>0.05908</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_MCS_1-100_4_S18</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>11,867,779</td>
+          <td>552,669</td>
+          <td>12,420,448</td>
+          <td>0.12846</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_MCS_1-100_4_S18</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>13,520,732</td>
+          <td>329,031</td>
+          <td>13,849,763</td>
+          <td>0.14324</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_MCS_1-100_4_S18</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>8,087,331</td>
+          <td>273,637</td>
+          <td>8,360,968</td>
+          <td>0.08647</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_MCS_1-100_4_S18</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>9,062,790</td>
+          <td>8,735,426</td>
+          <td>17,798,216</td>
+          <td>0.18407</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_MCS_1-100_4_S18</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>2,708,983</td>
+          <td>10,813,088</td>
+          <td>13,522,071</td>
+          <td>0.13985</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_DNeasy_MCS_1-100_4_S18</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>4,672,577</td>
+          <td>8,683,250</td>
+          <td>13,355,827</td>
+          <td>0.13813</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>4,040,720</td>
+          <td>3,806,335</td>
+          <td>7,847,055</td>
+          <td>0.29575</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>1,131,462</td>
+          <td>4,557,999</td>
+          <td>5,689,461</td>
+          <td>0.21443</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>2,427,041</td>
+          <td>4,511,386</td>
+          <td>6,938,427</td>
+          <td>0.26150</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>134,827</td>
+          <td>1,535,305</td>
+          <td>1,670,132</td>
+          <td>0.06295</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>4,290</td>
+          <td>1,564,924</td>
+          <td>1,569,214</td>
+          <td>0.05914</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>3,042,587</td>
+          <td>3,021,157</td>
+          <td>6,063,744</td>
+          <td>0.29595</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>881,547</td>
+          <td>3,557,836</td>
+          <td>4,439,383</td>
+          <td>0.21667</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>1,791,121</td>
+          <td>3,498,516</td>
+          <td>5,289,637</td>
+          <td>0.25817</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>103,798</td>
+          <td>1,214,603</td>
+          <td>1,318,401</td>
+          <td>0.06435</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>3,135</td>
+          <td>1,183,008</td>
+          <td>1,186,143</td>
+          <td>0.05789</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_7_S2</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>3,336,459</td>
+          <td>3,219,525</td>
+          <td>6,555,984</td>
+          <td>0.29248</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_7_S2</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>958,441</td>
+          <td>3,830,223</td>
+          <td>4,788,664</td>
+          <td>0.21364</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_7_S2</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>1,987,020</td>
+          <td>3,781,448</td>
+          <td>5,768,468</td>
+          <td>0.25735</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_7_S2</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>115,262</td>
+          <td>1,272,108</td>
+          <td>1,387,370</td>
+          <td>0.06189</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_7_S2</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>3,508</td>
+          <td>1,358,230</td>
+          <td>1,361,738</td>
+          <td>0.06075</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_HostZero_3_S5</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>185,468</td>
+          <td>2,250,834</td>
+          <td>2,436,302</td>
+          <td>0.20083</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_HostZero_3_S5</td>
+          <td>Bacillus cereus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1396>1396</a></td>
+          <td>S</td>
+          <td>179,116</td>
+          <td>615,762</td>
+          <td>794,878</td>
+          <td>0.06552</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_HostZero_3_S5</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>4,397</td>
+          <td>1,593,139</td>
+          <td>1,597,536</td>
+          <td>0.13169</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_HostZero_3_S5</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>680,149</td>
+          <td>24,156</td>
+          <td>704,305</td>
+          <td>0.05806</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_HostZero_3_S5</td>
+          <td>Saccharomyces cerevisiae</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>4932</a></td>
+          <td>S</td>
+          <td>4,361,407</td>
+          <td>10,032</td>
+          <td>4,371,439</td>
+          <td>0.36034</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_MolYsis_1_S72</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>408,325</td>
+          <td>5,077,622</td>
+          <td>5,485,947</td>
+          <td>0.27161</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_MolYsis_1_S72</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>10,732</td>
+          <td>4,126,360</td>
+          <td>4,137,092</td>
+          <td>0.20482</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_MolYsis_1_S72</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>3,522,708</td>
+          <td>195,748</td>
+          <td>3,718,456</td>
+          <td>0.18410</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_MolYsis_1_S72</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>1,821,355</td>
+          <td>72,264</td>
+          <td>1,893,619</td>
+          <td>0.09375</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_NEB_5_S60</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>3,677,731</td>
+          <td>3,154,406</td>
+          <td>6,832,137</td>
+          <td>0.28777</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_NEB_5_S60</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>1,074,198</td>
+          <td>4,130,483</td>
+          <td>5,204,681</td>
+          <td>0.21923</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_NEB_5_S60</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>2,269,711</td>
+          <td>3,890,587</td>
+          <td>6,160,298</td>
+          <td>0.25948</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_NEB_5_S60</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>134,536</td>
+          <td>1,395,600</td>
+          <td>1,530,136</td>
+          <td>0.06445</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_MCS_NEB_5_S60</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>4,512</td>
+          <td>1,546,283</td>
+          <td>1,550,795</td>
+          <td>0.06532</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR1_BD801_S61</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>346,187</td>
+          <td>493,273</td>
+          <td>839,460</td>
+          <td>0.14763</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR1_BD801_S61</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>105,448</td>
+          <td>489,621</td>
+          <td>595,069</td>
+          <td>0.10465</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR1_BD801_S61</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>200,922</td>
+          <td>438,363</td>
+          <td>639,285</td>
+          <td>0.11242</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR1_BD801_S61</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>500,023</td>
+          <td>102,704</td>
+          <td>602,727</td>
+          <td>0.10599</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR2_BH802_S12</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>1,022,137</td>
+          <td>186,013</td>
+          <td>1,208,150</td>
+          <td>0.21333</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR2_BH802_S12</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>303,269</td>
+          <td>27,519</td>
+          <td>330,788</td>
+          <td>0.05841</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR_2_S74</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>644,133</td>
+          <td>175,202</td>
+          <td>819,335</td>
+          <td>0.24257</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR_2_S74</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>212,381</td>
+          <td>18,255</td>
+          <td>230,636</td>
+          <td>0.06828</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR_HostZero_4_S38</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>230,882</td>
+          <td>77,600</td>
+          <td>308,482</td>
+          <td>0.22272</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR_HostZero_4_S38</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>85,478</td>
+          <td>6,864</td>
+          <td>92,342</td>
+          <td>0.06667</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR_HostZero_4_S38</td>
+          <td>Pseudomonas tolaasii</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>29442</a></td>
+          <td>S</td>
+          <td>20,898</td>
+          <td>54,065</td>
+          <td>74,963</td>
+          <td>0.05412</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR_NEB_6_S57</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>1,489,998</td>
+          <td>261,618</td>
+          <td>1,751,616</td>
+          <td>0.25637</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_OMR_NEB_6_S57</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>424,843</td>
+          <td>37,695</td>
+          <td>462,538</td>
+          <td>0.06770</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_Water_S70</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>798,622</td>
+          <td>133,682</td>
+          <td>932,304</td>
+          <td>0.20087</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_DNeasy_Water_S70</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>228,872</td>
+          <td>20,932</td>
+          <td>249,804</td>
+          <td>0.05382</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_Air_Ctr_3_S2</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>55</td>
+          <td>10</td>
+          <td>65</td>
+          <td>0.08366</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_Air_Ctr_3_S2</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>50</td>
+          <td>3</td>
+          <td>53</td>
+          <td>0.06821</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_Air_Ctr_3_S2</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>2</td>
+          <td>66</td>
+          <td>68</td>
+          <td>0.08752</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_Air_Ctr_3_S2</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>33</td>
+          <td>10</td>
+          <td>43</td>
+          <td>0.05534</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_Air_Ctr_3_S2</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>19</td>
+          <td>32</td>
+          <td>51</td>
+          <td>0.06564</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_Air_Ctr_3_S2</td>
+          <td>Delftia tsuruhatensis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>180282</a></td>
+          <td>S</td>
+          <td>33</td>
+          <td>6</td>
+          <td>39</td>
+          <td>0.05019</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_LE_Lt_2_S14</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>1,937</td>
+          <td>101</td>
+          <td>2,038</td>
+          <td>0.14442</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_LE_Rt_1_S15</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>3,331</td>
+          <td>84</td>
+          <td>3,415</td>
+          <td>0.40390</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_MCS_1-100_4_S5</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>1,747,723</td>
+          <td>1,768,469</td>
+          <td>3,516,192</td>
+          <td>0.20043</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_MCS_1-100_4_S5</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>554,981</td>
+          <td>2,254,693</td>
+          <td>2,809,674</td>
+          <td>0.16016</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_MCS_1-100_4_S5</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>988,283</td>
+          <td>1,909,066</td>
+          <td>2,897,349</td>
+          <td>0.16516</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_MCS_1-100_4_S5</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>90,192</td>
+          <td>1,141,864</td>
+          <td>1,232,056</td>
+          <td>0.07023</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_MCS_1-100_4_S5</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>2,452</td>
+          <td>915,007</td>
+          <td>917,459</td>
+          <td>0.05230</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_MCS_1-100_4_S5</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>1,425,765</td>
+          <td>85,617</td>
+          <td>1,511,382</td>
+          <td>0.08615</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_MCS_1-100_4_S5</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>1,122,610</td>
+          <td>55,813</td>
+          <td>1,178,423</td>
+          <td>0.06717</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_MCS_1-100_4_S5</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>1,384,687</td>
+          <td>42,652</td>
+          <td>1,427,339</td>
+          <td>0.08136</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Qiagen_Soil_MCS_1-100_4_S5</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>856,758</td>
+          <td>20,712</td>
+          <td>877,470</td>
+          <td>0.05002</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Soil_MCS_1_S29</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>1,451,880</td>
+          <td>1,272,060</td>
+          <td>2,723,940</td>
+          <td>0.17012</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Soil_MCS_1_S29</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>433,021</td>
+          <td>1,654,938</td>
+          <td>2,087,959</td>
+          <td>0.13040</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Soil_MCS_1_S29</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>741,770</td>
+          <td>1,296,289</td>
+          <td>2,038,059</td>
+          <td>0.12728</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Soil_MCS_1_S29</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>81,909</td>
+          <td>819,584</td>
+          <td>901,493</td>
+          <td>0.05630</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Soil_MCS_1_S29</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>2,741</td>
+          <td>922,612</td>
+          <td>925,353</td>
+          <td>0.05779</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Soil_MCS_1_S29</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>1,532,777</td>
+          <td>91,695</td>
+          <td>1,624,472</td>
+          <td>0.10145</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Soil_MCS_1_S29</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>1,158,559</td>
+          <td>30,302</td>
+          <td>1,188,861</td>
+          <td>0.07425</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Soil_MCS_1_S29</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>869,246</td>
+          <td>17,640</td>
+          <td>886,886</td>
+          <td>0.05539</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Soil_OMR_8_S40</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>1,852,423</td>
+          <td>333,915</td>
+          <td>2,186,338</td>
+          <td>0.25439</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Qiagen_Soil_OMR_8_S40</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>494,618</td>
+          <td>45,012</td>
+          <td>539,630</td>
+          <td>0.06279</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Thermo_MagMax_Air_Ctr_3_S21</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>3,837,955</td>
+          <td>201,027</td>
+          <td>4,038,982</td>
+          <td>0.22147</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Thermo_MagMax_Air_Ctr_3_S21</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>4,597,029</td>
+          <td>922,178</td>
+          <td>5,519,207</td>
+          <td>0.30264</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Thermo_MagMax_LE_Lt_2_S11</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>376,634</td>
+          <td>19,495</td>
+          <td>396,129</td>
+          <td>0.19440</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Thermo_MagMax_LE_Lt_2_S11</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>433,318</td>
+          <td>81,004</td>
+          <td>514,322</td>
+          <td>0.25241</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Thermo_MagMax_LE_Rt_1_S7</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>6,517,883</td>
+          <td>334,732</td>
+          <td>6,852,615</td>
+          <td>0.25185</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Thermo_MagMax_LE_Rt_1_S7</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>7,371,059</td>
+          <td>1,353,837</td>
+          <td>8,724,896</td>
+          <td>0.32066</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Thermo_MagMax_MCS_1-100_4_S24</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>5,182,897</td>
+          <td>266,355</td>
+          <td>5,449,252</td>
+          <td>0.22259</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Thermo_MagMax_MCS_1-100_4_S24</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>6,072,361</td>
+          <td>1,002,549</td>
+          <td>7,074,910</td>
+          <td>0.28899</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_003_Right_Eye_S13</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>118,462</td>
+          <td>20,364</td>
+          <td>138,826</td>
+          <td>0.24526</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_003_Right_Eye_S13</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>34,966</td>
+          <td>3,078</td>
+          <td>38,044</td>
+          <td>0.06721</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_004_Air_Swab_S66</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>320,999</td>
+          <td>54,102</td>
+          <td>375,101</td>
+          <td>0.23527</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_004_Air_Swab_S66</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>95,261</td>
+          <td>8,174</td>
+          <td>103,435</td>
+          <td>0.06488</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_004_Left_Eye_S78</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>485,180</td>
+          <td>86,719</td>
+          <td>571,899</td>
+          <td>0.23872</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_004_Left_Eye_S78</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>143,602</td>
+          <td>12,338</td>
+          <td>155,940</td>
+          <td>0.06509</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_005_Air_Swab_S30</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>1,043,366</td>
+          <td>175,314</td>
+          <td>1,218,680</td>
+          <td>0.23766</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_005_Air_Swab_S30</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>298,377</td>
+          <td>26,828</td>
+          <td>325,205</td>
+          <td>0.06342</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_005_Right_Eye_S17</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>125,782</td>
+          <td>21,139</td>
+          <td>146,921</td>
+          <td>0.22280</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_005_Right_Eye_S17</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>35,251</td>
+          <td>3,079</td>
+          <td>38,330</td>
+          <td>0.05812</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_006_7_8_Air_Swab_S14</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>409,938</td>
+          <td>69,415</td>
+          <td>479,353</td>
+          <td>0.24021</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_006_7_8_Air_Swab_S14</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>107,149</td>
+          <td>10,122</td>
+          <td>117,271</td>
+          <td>0.05877</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_006_Left_Eye_S79</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>90,494</td>
+          <td>16,525</td>
+          <td>107,019</td>
+          <td>0.23599</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_006_Left_Eye_S79</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>29,762</td>
+          <td>2,481</td>
+          <td>32,243</td>
+          <td>0.07110</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_007_Right_Eye_S68</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>121,766</td>
+          <td>20,299</td>
+          <td>142,065</td>
+          <td>0.24256</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_007_Right_Eye_S68</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>34,206</td>
+          <td>2,998</td>
+          <td>37,204</td>
+          <td>0.06352</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_008_Left_Eye_S26</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>411,291</td>
+          <td>68,558</td>
+          <td>479,849</td>
+          <td>0.25261</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_008_Left_Eye_S26</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>106,034</td>
+          <td>9,768</td>
+          <td>115,802</td>
+          <td>0.06096</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_009_10_Air_Swab_S73</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>515,836</td>
+          <td>88,074</td>
+          <td>603,910</td>
+          <td>0.24352</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_009_10_Air_Swab_S73</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>165,139</td>
+          <td>13,566</td>
+          <td>178,705</td>
+          <td>0.07206</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_010_Left_Eye_S75</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>936,339</td>
+          <td>185,026</td>
+          <td>1,121,365</td>
+          <td>0.24674</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_CS_010_Left_Eye_S75</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>251,389</td>
+          <td>23,525</td>
+          <td>274,914</td>
+          <td>0.06049</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_LE_Lt_2_S3</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>224,241</td>
+          <td>11,911</td>
+          <td>236,152</td>
+          <td>0.19189</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_LE_Lt_2_S3</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>260,397</td>
+          <td>46,703</td>
+          <td>307,100</td>
+          <td>0.24955</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_LE_Rt_1_S6</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>59,267</td>
+          <td>2,988</td>
+          <td>62,255</td>
+          <td>0.16238</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_LE_Rt_1_S6</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>71,211</td>
+          <td>12,310</td>
+          <td>83,521</td>
+          <td>0.21785</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_MCS_1-100_4_S13</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>317,262</td>
+          <td>3,326,194</td>
+          <td>3,643,456</td>
+          <td>0.06264</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_MCS_1-100_4_S13</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>10,321</td>
+          <td>3,461,276</td>
+          <td>3,471,597</td>
+          <td>0.05969</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_MCS_1-100_4_S13</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>6,861,891</td>
+          <td>275,394</td>
+          <td>7,137,285</td>
+          <td>0.12272</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_MCS_1-100_4_S13</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>5,378,601</td>
+          <td>246,559</td>
+          <td>5,625,160</td>
+          <td>0.09672</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_MCS_1-100_4_S13</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>7,294,623</td>
+          <td>158,998</td>
+          <td>7,453,621</td>
+          <td>0.12815</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_MCS_1-100_4_S13</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>6,046,048</td>
+          <td>173,241</td>
+          <td>6,219,289</td>
+          <td>0.10693</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_MCS_1-100_4_S13</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>4,931,467</td>
+          <td>4,255,614</td>
+          <td>9,187,081</td>
+          <td>0.15796</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_MCS_1-100_4_S13</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>1,502,665</td>
+          <td>5,626,353</td>
+          <td>7,129,018</td>
+          <td>0.12257</td>
+        </tr>
+        <tr>
+          <td>2024-03-14</td>
+          <td>Zymo_Mini_prep_MCS_1-100_4_S13</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>2,206,939</td>
+          <td>3,743,108</td>
+          <td>5,950,047</td>
+          <td>0.10230</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_1_in_OMR_BD801_S9</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>2,784,428</td>
+          <td>2,627,282</td>
+          <td>5,411,710</td>
+          <td>0.26542</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_1_in_OMR_BD801_S9</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>605,447</td>
+          <td>2,900,697</td>
+          <td>3,506,144</td>
+          <td>0.17196</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_1_in_OMR_BD801_S9</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>1,470,264</td>
+          <td>2,606,394</td>
+          <td>4,076,658</td>
+          <td>0.19994</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_1_in_OMR_BD801_S9</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>4,171,286</td>
+          <td>54,474</td>
+          <td>4,225,760</td>
+          <td>0.20726</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>2,626,175</td>
+          <td>108,208</td>
+          <td>2,734,383</td>
+          <td>0.14007</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>88,469</td>
+          <td>992,999</td>
+          <td>1,081,468</td>
+          <td>0.05540</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>2,083,827</td>
+          <td>100,186</td>
+          <td>2,184,013</td>
+          <td>0.11187</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>2,340,137</td>
+          <td>51,034</td>
+          <td>2,391,171</td>
+          <td>0.12248</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>1,996,489</td>
+          <td>57,083</td>
+          <td>2,053,572</td>
+          <td>0.10519</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>1,458,950</td>
+          <td>1,321,867</td>
+          <td>2,780,817</td>
+          <td>0.14244</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>421,395</td>
+          <td>1,627,721</td>
+          <td>2,049,116</td>
+          <td>0.10496</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>700,585</td>
+          <td>1,245,280</td>
+          <td>1,945,865</td>
+          <td>0.09967</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_7_S25</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>112,863</td>
+          <td>1,203,506</td>
+          <td>1,316,369</td>
+          <td>0.06022</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_7_S25</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>3,670</td>
+          <td>1,231,133</td>
+          <td>1,234,803</td>
+          <td>0.05649</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_7_S25</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>2,014,730</td>
+          <td>92,992</td>
+          <td>2,107,722</td>
+          <td>0.09642</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_7_S25</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>1,901,114</td>
+          <td>76,051</td>
+          <td>1,977,165</td>
+          <td>0.09045</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_7_S25</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>2,774,590</td>
+          <td>59,230</td>
+          <td>2,833,820</td>
+          <td>0.12964</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_7_S25</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>1,987,638</td>
+          <td>56,630</td>
+          <td>2,044,268</td>
+          <td>0.09352</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_7_S25</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>1,966,048</td>
+          <td>1,710,548</td>
+          <td>3,676,596</td>
+          <td>0.16820</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_7_S25</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>570,057</td>
+          <td>2,166,036</td>
+          <td>2,736,093</td>
+          <td>0.12517</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_7_S25</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>937,418</td>
+          <td>1,602,734</td>
+          <td>2,540,152</td>
+          <td>0.11621</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_HostZero_3_S20</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>4,092,232</td>
+          <td>176,871</td>
+          <td>4,269,103</td>
+          <td>0.21073</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_HostZero_3_S20</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>3,330,187</td>
+          <td>129,736</td>
+          <td>3,459,923</td>
+          <td>0.17079</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_HostZero_3_S20</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>96,062</td>
+          <td>984,772</td>
+          <td>1,080,834</td>
+          <td>0.05335</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_HostZero_3_S20</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>3,217</td>
+          <td>1,011,208</td>
+          <td>1,014,425</td>
+          <td>0.05007</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_HostZero_3_S20</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>4,447,273</td>
+          <td>95,505</td>
+          <td>4,542,778</td>
+          <td>0.22424</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_HostZero_3_S20</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>3,868,068</td>
+          <td>106,740</td>
+          <td>3,974,808</td>
+          <td>0.19620</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_MolYsis_1_S49</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>3,658,640</td>
+          <td>142,284</td>
+          <td>3,800,924</td>
+          <td>0.21508</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_MolYsis_1_S49</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>3,608,850</td>
+          <td>160,363</td>
+          <td>3,769,213</td>
+          <td>0.21328</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_MolYsis_1_S49</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>4,034,197</td>
+          <td>85,095</td>
+          <td>4,119,292</td>
+          <td>0.23309</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_MolYsis_1_S49</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>2,378,589</td>
+          <td>65,498</td>
+          <td>2,444,087</td>
+          <td>0.13830</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_NEB_5_S76</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>124,583</td>
+          <td>1,212,420</td>
+          <td>1,337,003</td>
+          <td>0.05443</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_NEB_5_S76</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>4,151</td>
+          <td>1,357,990</td>
+          <td>1,362,141</td>
+          <td>0.05545</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_NEB_5_S76</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>2,758,397</td>
+          <td>111,622</td>
+          <td>2,870,019</td>
+          <td>0.11684</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_NEB_5_S76</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>2,637,858</td>
+          <td>122,744</td>
+          <td>2,760,602</td>
+          <td>0.11239</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_NEB_5_S76</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>2,842,666</td>
+          <td>59,916</td>
+          <td>2,902,582</td>
+          <td>0.11817</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_NEB_5_S76</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>2,633,874</td>
+          <td>77,407</td>
+          <td>2,711,281</td>
+          <td>0.11038</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_NEB_5_S76</td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
+          <td>S</td>
+          <td>1,828,280</td>
+          <td>1,561,324</td>
+          <td>3,389,604</td>
+          <td>0.13799</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_NEB_5_S76</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>534,223</td>
+          <td>2,004,859</td>
+          <td>2,539,082</td>
+          <td>0.10337</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_MCS_NEB_5_S76</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>835,756</td>
+          <td>1,424,369</td>
+          <td>2,260,125</td>
+          <td>0.09201</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_OMR1_BD801_S69</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>339,189</td>
+          <td>62,089</td>
+          <td>401,278</td>
+          <td>0.23521</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_OMR1_BD801_S69</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>96,185</td>
+          <td>8,245</td>
+          <td>104,430</td>
+          <td>0.06121</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_OMR2_BH802_S7</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>1,043,895</td>
+          <td>189,624</td>
+          <td>1,233,519</td>
+          <td>0.24834</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_OMR2_BH802_S7</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>299,944</td>
+          <td>26,820</td>
+          <td>326,764</td>
+          <td>0.06579</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_OMR_8_S36</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>784,765</td>
+          <td>132,899</td>
+          <td>917,664</td>
+          <td>0.23322</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_OMR_8_S36</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>213,626</td>
+          <td>19,386</td>
+          <td>233,012</td>
+          <td>0.05922</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_OMR_HostZero_4_S1</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>394,116</td>
+          <td>22,205</td>
+          <td>416,321</td>
+          <td>0.15642</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_OMR_HostZero_4_S1</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>497,391</td>
+          <td>85,805</td>
+          <td>583,196</td>
+          <td>0.21912</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_OMR_MolYsis_2_S16</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>567,202</td>
+          <td>95,712</td>
+          <td>662,914</td>
+          <td>0.22133</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_OMR_MolYsis_2_S16</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>162,927</td>
+          <td>14,065</td>
+          <td>176,992</td>
+          <td>0.05909</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_OMR_NEB_6_S55</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>1,805,569</td>
+          <td>361,718</td>
+          <td>2,167,287</td>
+          <td>0.24505</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_OMR_NEB_6_S55</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>511,547</td>
+          <td>45,113</td>
+          <td>556,660</td>
+          <td>0.06294</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_Water_S65</td>
+          <td>Burkholderia contaminans</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
+          <td>S</td>
+          <td>860,853</td>
+          <td>148,945</td>
+          <td>1,009,798</td>
+          <td>0.24485</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Zymo_Mini_Prep_Water_S65</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>260,068</td>
+          <td>22,562</td>
+          <td>282,630</td>
+          <td>0.06853</td>
+        </tr>
+      </tbody>
+    </table>
+    </details>
