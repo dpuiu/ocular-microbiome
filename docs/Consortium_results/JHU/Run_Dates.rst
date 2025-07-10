@@ -3,7 +3,6 @@ Run dates
 
 .. raw:: html
 
-    <summary>Show ...</summary>
     <table class="docutils align-default">
       <thead>
         <tr>
