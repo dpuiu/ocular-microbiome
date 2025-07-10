@@ -1,9 +1,8 @@
-Run Dates
+Run dates
 ^^^^^^^^^
 
 .. raw:: html
 
-    <details>
     <summary>Show ...</summary>
     <table class="docutils align-default">
       <thead>
@@ -32,3 +31,4 @@ Run Dates
       </tbody>
     </table>
     </details>
+    <hr>

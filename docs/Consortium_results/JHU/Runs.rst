@@ -2,7 +2,6 @@ Runs
 ^^^^
 .. raw:: html
 
-    <details>
     <summary>Show ...</summary>
     <table class="docutils align-default">
       <thead>
@@ -883,3 +882,4 @@ Runs
       </tbody>
     </table>
     </details>
+    <hr>

@@ -1,5 +1,5 @@
-Per Date
-^^^^^^^^
+Species/Date
+^^^^^^^^^^^^
 
 .. raw:: html
 
@@ -44,20 +44,10 @@ Per Date
           <td>Burkholderia contaminans</td>
           <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
           <td>S</td>
-          <td>35,267,492</td>
-          <td>6,735,871</td>
-          <td>42,003,363</td>
-          <td>0.12981</td>
-        </tr>
-        <tr>
-          <td>2024-07-15</td>
-          <td>Bradyrhizobium sp. SK17</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
-          <td>S</td>
-          <td>9,176,330</td>
-          <td>385,192</td>
-          <td>9,561,522</td>
-          <td>0.11966</td>
+          <td>31,978,011</td>
+          <td>6,053,646</td>
+          <td>38,031,657</td>
+          <td>0.15422</td>
         </tr>
         <tr>
           <td>2024-03-14</td>
@@ -71,13 +61,23 @@ Per Date
         </tr>
         <tr>
           <td>2024-07-15</td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>S</td>
+          <td>9,176,329</td>
+          <td>385,192</td>
+          <td>9,561,521</td>
+          <td>0.10065</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
           <td>Salmonella enterica</td>
           <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
           <td>S</td>
           <td>48,530,564</td>
           <td>41,093,269</td>
           <td>89,623,833</td>
-          <td>0.07074</td>
+          <td>0.07427</td>
         </tr>
         <tr>
           <td>2024-07-15</td>
@@ -87,17 +87,7 @@ Per Date
           <td>16,264,462</td>
           <td>53,573,323</td>
           <td>69,837,785</td>
-          <td>0.05857</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Salmonella enterica</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
-          <td>S</td>
-          <td>82,615,718</td>
-          <td>72,870,746</td>
-          <td>155,486,464</td>
-          <td>0.05452</td>
+          <td>0.06149</td>
         </tr>
         <tr>
           <td>2024-07-15</td>
@@ -107,16 +97,16 @@ Per Date
           <td>24,113,635</td>
           <td>41,996,330</td>
           <td>66,109,965</td>
-          <td>0.05178</td>
+          <td>0.05437</td>
         </tr>
         <tr>
           <td>2024-10-28</td>
-          <td>Bradyrhizobium sp. SK17</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
+          <td>Salmonella enterica</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
           <td>S</td>
-          <td>19,021,245</td>
-          <td>1,196,814</td>
-          <td>20,218,059</td>
+          <td>34,085,154</td>
+          <td>31,777,477</td>
+          <td>65,862,631</td>
           <td>0.05080</td>
         </tr>
         <tr>
@@ -127,27 +117,17 @@ Per Date
           <td>3,289,481</td>
           <td>682,225</td>
           <td>3,971,706</td>
-          <td>0.04651</td>
+          <td>0.04883</td>
         </tr>
         <tr>
           <td>2024-10-28</td>
-          <td>Pseudomonas aeruginosa</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>Bradyrhizobium sp. SK17</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
           <td>S</td>
-          <td>41,980,273</td>
-          <td>74,307,534</td>
-          <td>116,287,807</td>
-          <td>0.03843</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Escherichia coli</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
-          <td>S</td>
-          <td>25,722,277</td>
-          <td>90,720,763</td>
-          <td>116,443,040</td>
-          <td>0.03794</td>
+          <td>9,844,916</td>
+          <td>811,622</td>
+          <td>10,656,538</td>
+          <td>0.03917</td>
         </tr>
         <tr>
           <td>2025-03-14</td>
@@ -158,6 +138,26 @@ Per Date
           <td>10,174,809</td>
           <td>21,174,095</td>
           <td>0.03579</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Pseudomonas aeruginosa</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
+          <td>S</td>
+          <td>17,866,638</td>
+          <td>32,311,204</td>
+          <td>50,177,842</td>
+          <td>0.03528</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Escherichia coli</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
+          <td>S</td>
+          <td>9,457,815</td>
+          <td>37,147,440</td>
+          <td>46,605,255</td>
+          <td>0.03281</td>
         </tr>
         <tr>
           <td>2025-03-14</td>
@@ -178,6 +178,16 @@ Per Date
           <td>1,109,607</td>
           <td>36,065,725</td>
           <td>0.02819</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Bacillus subtilis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
+          <td>S</td>
+          <td>2,733,375</td>
+          <td>30,569,857</td>
+          <td>33,303,232</td>
+          <td>0.02678</td>
         </tr>
         <tr>
           <td>2024-03-14</td>
@@ -210,16 +220,6 @@ Per Date
           <td>0.02599</td>
         </tr>
         <tr>
-          <td>2024-10-28</td>
-          <td>Bacillus subtilis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
-          <td>S</td>
-          <td>5,365,331</td>
-          <td>56,453,585</td>
-          <td>61,818,916</td>
-          <td>0.02558</td>
-        </tr>
-        <tr>
           <td>2024-03-14</td>
           <td>Listeria monocytogenes</td>
           <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
@@ -231,23 +231,33 @@ Per Date
         </tr>
         <tr>
           <td>2024-07-15</td>
-          <td>Achromobacter xylosoxidans</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=85698>85698</a></td>
-          <td>S</td>
-          <td>1</td>
-          <td>0</td>
-          <td>1</td>
-          <td>0.02381</td>
-        </tr>
-        <tr>
-          <td>2024-07-15</td>
           <td>Bacillus subtilis</td>
           <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
           <td>S</td>
           <td>2,631,956</td>
           <td>25,883,728</td>
           <td>28,515,684</td>
-          <td>0.02241</td>
+          <td>0.02353</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>Parabacteroides distasonis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>823</a></td>
+          <td>S</td>
+          <td>649,957</td>
+          <td>544,217</td>
+          <td>1,194,174</td>
+          <td>0.02200</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Bacillus intestinalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
+          <td>S</td>
+          <td>78,783</td>
+          <td>27,532,732</td>
+          <td>27,611,515</td>
+          <td>0.02105</td>
         </tr>
         <tr>
           <td>2025-03-14</td>
@@ -261,33 +271,23 @@ Per Date
         </tr>
         <tr>
           <td>2024-07-15</td>
-          <td>Parabacteroides distasonis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>823</a></td>
-          <td>S</td>
-          <td>649,957</td>
-          <td>544,217</td>
-          <td>1,194,174</td>
-          <td>0.02095</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Bacillus intestinalis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
-          <td>S</td>
-          <td>152,796</td>
-          <td>51,666,923</td>
-          <td>51,819,719</td>
-          <td>0.02040</td>
-        </tr>
-        <tr>
-          <td>2024-07-15</td>
           <td>Bacillus intestinalis</td>
           <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
           <td>S</td>
           <td>74,013</td>
           <td>24,134,191</td>
           <td>24,208,204</td>
-          <td>0.01898</td>
+          <td>0.01992</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Lactobacillus fermentum</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
+          <td>S</td>
+          <td>27,312,180</td>
+          <td>560,096</td>
+          <td>27,872,276</td>
+          <td>0.01870</td>
         </tr>
         <tr>
           <td>2024-03-14</td>
@@ -310,6 +310,16 @@ Per Date
           <td>0.01763</td>
         </tr>
         <tr>
+          <td>2024-10-28</td>
+          <td>Listeria monocytogenes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
+          <td>S</td>
+          <td>23,504,998</td>
+          <td>1,047,079</td>
+          <td>24,552,077</td>
+          <td>0.01714</td>
+        </tr>
+        <tr>
           <td>2025-03-14</td>
           <td>Salinivibrio sp. YCSC6</td>
           <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
@@ -330,26 +340,6 @@ Per Date
           <td>0.01650</td>
         </tr>
         <tr>
-          <td>2024-10-28</td>
-          <td>Lactobacillus fermentum</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
-          <td>S</td>
-          <td>34,767,585</td>
-          <td>731,529</td>
-          <td>35,499,114</td>
-          <td>0.01592</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Listeria monocytogenes</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
-          <td>S</td>
-          <td>37,913,450</td>
-          <td>1,690,457</td>
-          <td>39,603,907</td>
-          <td>0.01592</td>
-        </tr>
-        <tr>
           <td>2024-03-14</td>
           <td>Bacillus subtilis</td>
           <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
@@ -358,6 +348,16 @@ Per Date
           <td>14,896,177</td>
           <td>16,237,118</td>
           <td>0.01556</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Enterococcus faecalis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>S</td>
+          <td>21,002,086</td>
+          <td>691,452</td>
+          <td>21,693,538</td>
+          <td>0.01517</td>
         </tr>
         <tr>
           <td>2024-03-14</td>
@@ -370,14 +370,14 @@ Per Date
           <td>0.01509</td>
         </tr>
         <tr>
-          <td>2024-10-28</td>
-          <td>Enterococcus faecalis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
+          <td>2024-07-15</td>
+          <td>Phocaeicola vulgatus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821>821</a></td>
           <td>S</td>
-          <td>27,397,698</td>
-          <td>924,980</td>
-          <td>28,322,678</td>
-          <td>0.01299</td>
+          <td>3,051,362</td>
+          <td>502,155</td>
+          <td>3,553,517</td>
+          <td>0.01284</td>
         </tr>
         <tr>
           <td>2024-03-14</td>
@@ -391,23 +391,23 @@ Per Date
         </tr>
         <tr>
           <td>2024-07-15</td>
-          <td>Phocaeicola vulgatus</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821>821</a></td>
-          <td>S</td>
-          <td>3,051,362</td>
-          <td>502,155</td>
-          <td>3,553,517</td>
-          <td>0.01222</td>
-        </tr>
-        <tr>
-          <td>2024-07-15</td>
           <td>Listeria monocytogenes</td>
           <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
           <td>S</td>
           <td>14,408,452</td>
           <td>643,378</td>
           <td>15,051,830</td>
-          <td>0.01218</td>
+          <td>0.01279</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Staphylococcus aureus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
+          <td>S</td>
+          <td>16,150,997</td>
+          <td>803,476</td>
+          <td>16,954,473</td>
+          <td>0.01169</td>
         </tr>
         <tr>
           <td>2025-03-14</td>
@@ -420,6 +420,16 @@ Per Date
           <td>0.01141</td>
         </tr>
         <tr>
+          <td>2024-10-28</td>
+          <td>Saccharomyces cerevisiae</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>4932</a></td>
+          <td>S</td>
+          <td>13,898,726</td>
+          <td>20,989</td>
+          <td>13,919,715</td>
+          <td>0.01064</td>
+        </tr>
+        <tr>
           <td>2024-03-14</td>
           <td>Bacillus intestinalis</td>
           <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
@@ -428,26 +438,6 @@ Per Date
           <td>14,409,833</td>
           <td>14,451,031</td>
           <td>0.01017</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Caulobacter sp. Ji-3-8</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2708539>2708539</a></td>
-          <td>S</td>
-          <td>2</td>
-          <td>0</td>
-          <td>2</td>
-          <td>0.01010</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Mycolicibacterium psychrotolerans</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=216929>216929</a></td>
-          <td>S</td>
-          <td>1</td>
-          <td>0</td>
-          <td>1</td>
-          <td>0.01010</td>
         </tr>
         <tr>
           <td>2025-03-14</td>
@@ -468,26 +458,6 @@ Per Date
           <td>215,437</td>
           <td>5,620,726</td>
           <td>0.00917</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Staphylococcus aureus</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
-          <td>S</td>
-          <td>16,150,997</td>
-          <td>803,476</td>
-          <td>16,954,473</td>
-          <td>0.00910</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Saccharomyces cerevisiae</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>4932</a></td>
-          <td>S</td>
-          <td>17,332,789</td>
-          <td>25,310</td>
-          <td>17,358,099</td>
-          <td>0.00893</td>
         </tr>
         <tr>
           <td>2025-03-14</td>
@@ -520,16 +490,6 @@ Per Date
           <td>0.00699</td>
         </tr>
         <tr>
-          <td>2025-03-14</td>
-          <td>Pseudomonas tolaasii</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>29442</a></td>
-          <td>S</td>
-          <td>127,702</td>
-          <td>219,089</td>
-          <td>346,791</td>
-          <td>0.00673</td>
-        </tr>
-        <tr>
           <td>2024-07-15</td>
           <td>Lactobacillus fermentum</td>
           <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
@@ -537,7 +497,7 @@ Per Date
           <td>7,455,405</td>
           <td>171,433</td>
           <td>7,626,838</td>
-          <td>0.00647</td>
+          <td>0.00680</td>
         </tr>
         <tr>
           <td>2024-07-15</td>
@@ -547,7 +507,17 @@ Per Date
           <td>1,821,228</td>
           <td>400,268</td>
           <td>2,221,496</td>
-          <td>0.00645</td>
+          <td>0.00677</td>
+        </tr>
+        <tr>
+          <td>2025-03-14</td>
+          <td>Pseudomonas tolaasii</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>29442</a></td>
+          <td>S</td>
+          <td>127,702</td>
+          <td>219,089</td>
+          <td>346,791</td>
+          <td>0.00673</td>
         </tr>
         <tr>
           <td>2024-03-14</td>
@@ -567,7 +537,7 @@ Per Date
           <td>6,395,612</td>
           <td>233,528</td>
           <td>6,629,140</td>
-          <td>0.00564</td>
+          <td>0.00592</td>
         </tr>
         <tr>
           <td>2025-03-14</td>
@@ -590,16 +560,6 @@ Per Date
           <td>0.00560</td>
         </tr>
         <tr>
-          <td>2024-10-28</td>
-          <td>Parabacteroides distasonis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>823</a></td>
-          <td>S</td>
-          <td>649,957</td>
-          <td>544,217</td>
-          <td>1,194,174</td>
-          <td>0.00444</td>
-        </tr>
-        <tr>
           <td>2024-07-15</td>
           <td>Klebsiella pneumoniae</td>
           <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573>573</a></td>
@@ -607,7 +567,7 @@ Per Date
           <td>508,813</td>
           <td>879,414</td>
           <td>1,388,227</td>
-          <td>0.00403</td>
+          <td>0.00423</td>
         </tr>
         <tr>
           <td>2024-07-15</td>
@@ -617,7 +577,27 @@ Per Date
           <td>1,779,106</td>
           <td>102,768</td>
           <td>1,881,874</td>
-          <td>0.00392</td>
+          <td>0.00412</td>
+        </tr>
+        <tr>
+          <td>2024-10-28</td>
+          <td>Cutibacterium acnes</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
+          <td>S</td>
+          <td>106,740</td>
+          <td>905</td>
+          <td>107,645</td>
+          <td>0.00411</td>
+        </tr>
+        <tr>
+          <td>2024-07-15</td>
+          <td>Bacteroides uniformis</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=820>820</a></td>
+          <td>S</td>
+          <td>341,756</td>
+          <td>160,649</td>
+          <td>502,405</td>
+          <td>0.00354</td>
         </tr>
         <tr>
           <td>2025-03-14</td>
@@ -641,33 +621,13 @@ Per Date
         </tr>
         <tr>
           <td>2024-07-15</td>
-          <td>Bacteroides uniformis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=820>820</a></td>
-          <td>S</td>
-          <td>341,756</td>
-          <td>160,649</td>
-          <td>502,405</td>
-          <td>0.00338</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Cutibacterium acnes</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
-          <td>S</td>
-          <td>106,740</td>
-          <td>905</td>
-          <td>107,645</td>
-          <td>0.00320</td>
-        </tr>
-        <tr>
-          <td>2024-07-15</td>
           <td>Saccharomyces cerevisiae</td>
           <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>4932</a></td>
           <td>S</td>
           <td>3,434,063</td>
           <td>4,321</td>
           <td>3,438,384</td>
-          <td>0.00307</td>
+          <td>0.00322</td>
         </tr>
         <tr>
           <td>2024-07-15</td>
@@ -677,7 +637,7 @@ Per Date
           <td>1,085,985</td>
           <td>288,491</td>
           <td>1,374,476</td>
-          <td>0.00286</td>
+          <td>0.00301</td>
         </tr>
         <tr>
           <td>2024-07-15</td>
@@ -687,17 +647,7 @@ Per Date
           <td>1,251,313</td>
           <td>43,445</td>
           <td>1,294,758</td>
-          <td>0.00270</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Phocaeicola vulgatus</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821>821</a></td>
-          <td>S</td>
-          <td>3,051,362</td>
-          <td>502,155</td>
-          <td>3,553,517</td>
-          <td>0.00259</td>
+          <td>0.00283</td>
         </tr>
         <tr>
           <td>2024-03-14</td>
@@ -821,33 +771,13 @@ Per Date
         </tr>
         <tr>
           <td>2024-10-28</td>
-          <td>Bacteroides ovatus</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28116>28116</a></td>
+          <td>Bacillus cereus</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1396>1396</a></td>
           <td>S</td>
-          <td>1,821,228</td>
-          <td>400,268</td>
-          <td>2,221,496</td>
-          <td>0.00137</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Klebsiella pneumoniae</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573>573</a></td>
-          <td>S</td>
-          <td>508,813</td>
-          <td>879,414</td>
-          <td>1,388,227</td>
+          <td>179,116</td>
+          <td>615,762</td>
+          <td>794,878</td>
           <td>0.00085</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Bacteroides fragilis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=817>817</a></td>
-          <td>S</td>
-          <td>1,779,106</td>
-          <td>102,768</td>
-          <td>1,881,874</td>
-          <td>0.00083</td>
         </tr>
         <tr>
           <td>2025-03-14</td>
@@ -881,23 +811,13 @@ Per Date
         </tr>
         <tr>
           <td>2024-10-28</td>
-          <td>Bacteroides uniformis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=820>820</a></td>
+          <td>Pseudomonas tolaasii</td>
+          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>29442</a></td>
           <td>S</td>
-          <td>341,756</td>
-          <td>160,649</td>
-          <td>502,405</td>
-          <td>0.00072</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Bacillus cereus</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1396>1396</a></td>
-          <td>S</td>
-          <td>179,116</td>
-          <td>615,762</td>
-          <td>794,878</td>
-          <td>0.00066</td>
+          <td>20,898</td>
+          <td>54,065</td>
+          <td>74,963</td>
+          <td>0.00070</td>
         </tr>
         <tr>
           <td>2025-03-14</td>
@@ -909,36 +829,7 @@ Per Date
           <td>666</td>
           <td>0.00061</td>
         </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Faecalibacterium prausnitzii</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=853>853</a></td>
-          <td>S</td>
-          <td>1,085,985</td>
-          <td>288,491</td>
-          <td>1,374,476</td>
-          <td>0.00061</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Bacteroides cellulosilyticus</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=246787>246787</a></td>
-          <td>S</td>
-          <td>1,251,313</td>
-          <td>43,445</td>
-          <td>1,294,758</td>
-          <td>0.00057</td>
-        </tr>
-        <tr>
-          <td>2024-10-28</td>
-          <td>Pseudomonas tolaasii</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>29442</a></td>
-          <td>S</td>
-          <td>20,898</td>
-          <td>54,065</td>
-          <td>74,963</td>
-          <td>0.00055</td>
-        </tr>
       </tbody>
     </table>
     </details>
+    <hr>

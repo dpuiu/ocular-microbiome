@@ -35,3 +35,8 @@ table.docutils thead tr th.head {
     color: black;              /* Text color */
 }
 
+details summary {
+    font-size: 1.2em;    /* Adjust size to your liking */
+    font-weight: bold;   /* Optional: make summary bold */
+    cursor: pointer;     /* Pointer cursor on hover */
+}

@@ -91,8 +91,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2024-07-15,199599_19_S29,Burkholderia contaminans,488447,S,43926,8185,52111,0.09750
 2024-07-15,199599_1_S32,Bradyrhizobium sp. SK17,2057741,S,110584,4771,115355,0.13996
 2024-07-15,199599_1_S32,Burkholderia contaminans,488447,S,50453,10329,60782,0.07375
-2024-07-15,199599_21_S31,Bradyrhizobium sp. SK17,2057741,S,1,0,1,0.50000
-2024-07-15,199599_21_S31,Achromobacter xylosoxidans,85698,S,1,0,1,0.50000
 2024-07-15,199599_2_S33,Parabacteroides distasonis,823,S,472887,395011,867898,0.31495
 2024-07-15,199599_3_S34,Bradyrhizobium sp. SK17,2057741,S,1332343,56933,1389276,0.14204
 2024-07-15,199599_3_S34,Burkholderia contaminans,488447,S,619630,121576,741206,0.07578
@@ -124,8 +122,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2025-03-14,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,Pseudomonas tolaasii,29442,S,1070,2897,3967,0.08041
 2025-03-14,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,Klebsiella pneumoniae,573,S,307,2402,2709,0.05491
 2025-03-14,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,Cutibacterium acnes,1747,S,2816,24,2840,0.05757
-2024-10-28,OMR1_BD801_S6,Caulobacter sp. Ji-3-8,2708539,S,2,0,2,1.00000
-2024-10-28,OMR2_BH802_S35,Mycolicibacterium psychrotolerans,216929,S,1,0,1,1.00000
 2024-03-14,Qiagen_DNeasy_Air_Ctr_3_S10,Rothia mucilaginosa,43675,S,134595,871,135466,0.05536
 2024-03-14,Qiagen_DNeasy_Air_Ctr_3_S10,Salmonella enterica,28901,S,37898,117429,155327,0.06347
 2024-03-14,Qiagen_DNeasy_Air_Ctr_3_S10,Trypanosoma cruzi,5693,S,160451,44433,204884,0.08373
@@ -234,19 +230,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2025-03-14,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,Escherichia coli,562,S,2032,61752,63784,0.06454
 2025-03-14,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,Trypanosoma cruzi,5693,S,165821,26294,192115,0.19439
 2025-03-14,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,Cryptosporidium hominis,237895,S,56875,8008,64883,0.06565
-2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Bacillus subtilis,1423,S,716920,7321419,8038339,0.13656
-2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Bacillus intestinalis,1963032,S,19435,6358010,6377445,0.10835
-2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Listeria monocytogenes,1639,S,14408452,643378,15051830,0.25572
-2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Lactobacillus fermentum,1613,S,3871135,90895,3962030,0.06731
-2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Enterococcus faecalis,1351,S,3181096,115610,3296706,0.05601
-2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Salmonella enterica,28901,S,3748730,3666940,7415670,0.12599
-2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Escherichia coli,562,S,1322177,4590738,5912915,0.10046
-2024-10-28,MasterPureMolYsisBasic_5_MCS_1_100_4,Pseudomonas aeruginosa,287,S,1450331,2734171,4184502,0.07109
-2024-10-28,MasterPure_MCS_1_100_4,Salmonella enterica,28901,S,10782990,8829508,19612498,0.25831
-2024-10-28,MasterPure_MCS_1_100_4,Escherichia coli,562,S,3508681,11610753,15119434,0.19913
-2024-10-28,MasterPure_MCS_1_100_4,Pseudomonas aeruginosa,287,S,5716607,9759779,15476386,0.20383
-2024-10-28,MasterPure_MCS_1_100_4,Bacillus subtilis,1423,S,493774,4712224,5205998,0.06857
-2024-10-28,MasterPure_MCS_1_100_4,Bacillus intestinalis,1963032,S,14382,4619080,4633462,0.06102
 2024-10-28,Qiagen_Dneasy_CS_004_Left_Eye_S27,Burkholderia contaminans,488447,S,15976,3049,19025,0.17935
 2024-10-28,Qiagen_Dneasy_CS_004_Left_Eye_S27,Bradyrhizobium sp. SK17,2057741,S,5436,466,5902,0.05564
 2024-10-28,Qiagen_Dneasy_CS_004_Left_Eye_S27,Pseudomonas aeruginosa,287,S,1477,4531,6008,0.05664
@@ -393,63 +376,6 @@ Date,Dataset,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new
 2025-03-14,96_Qiagen_DNeasy_OMR_B1001_S80,Escherichia coli,562,S,16388,194357,210745,0.09379
 2025-03-14,96_Qiagen_DNeasy_OMR_B1001_S80,Trypanosoma cruzi,5693,S,284822,70528,355350,0.15814
 2025-03-14,96_Qiagen_DNeasy_OMR_B1001_S80,Cryptosporidium hominis,237895,S,160893,22523,183416,0.08162
-2024-10-28,MasterPureLyso_LE_AirCtr_3,Bradyrhizobium sp. SK17,2057741,S,1819346,79964,1899310,0.18682
-2024-10-28,MasterPureLyso_LE_AirCtr_3,Burkholderia contaminans,488447,S,903442,191906,1095348,0.10774
-2024-10-28,MasterPureLyso_LE_Lt_2,Bradyrhizobium sp. SK17,2057741,S,101691,4363,106054,0.15671
-2024-10-28,MasterPureLyso_LE_Lt_2,Burkholderia contaminans,488447,S,49325,9981,59306,0.08763
-2024-10-28,MasterPureLyso_LE_Lt_2,Parabacteroides distasonis,823,S,25216,21967,47183,0.06972
-2024-10-28,MasterPureLyso_LE_MCS_1_100_4,Salmonella enterica,28901,S,11763539,9923675,21687214,0.27717
-2024-10-28,MasterPureLyso_LE_MCS_1_100_4,Escherichia coli,562,S,3855418,12981311,16836729,0.21518
-2024-10-28,MasterPureLyso_LE_MCS_1_100_4,Pseudomonas aeruginosa,287,S,6315423,10931053,17246476,0.22042
-2024-10-28,MasterPureLyso_LE_MCS_1_100_4,Bacillus subtilis,1423,S,518243,5071923,5590166,0.07144
-2024-10-28,MasterPureLyso_LE_MCS_1_100_4,Bacillus intestinalis,1963032,S,14753,4829732,4844485,0.06191
-2024-10-28,MasterPureLyso_LE_Rt_1,Salmonella enterica,28901,S,4353511,3757642,8111153,0.28398
-2024-10-28,MasterPureLyso_LE_Rt_1,Escherichia coli,562,S,1424172,4843728,6267900,0.21944
-2024-10-28,MasterPureLyso_LE_Rt_1,Pseudomonas aeruginosa,287,S,2300380,4094385,6394765,0.22388
-2024-10-28,MasterPureLyso_LE_Rt_1,Bacillus subtilis,1423,S,173731,1712649,1886380,0.06604
-2024-10-28,MasterPureLyso_LE_Rt_1,Bacillus intestinalis,1963032,S,4840,1623472,1628312,0.05701
-2024-10-28,MasterPureMolYsisBasic_5_AirCtr_3,Bradyrhizobium sp. SK17,2057741,S,230174,10107,240281,0.22095
-2024-10-28,MasterPureMolYsisBasic_5_AirCtr_3,Burkholderia contaminans,488447,S,112455,24614,137069,0.12604
-2024-10-28,MasterPureMolYsisBasic_5_Lt_2,Bradyrhizobium sp. SK17,2057741,S,871303,38929,910232,0.18046
-2024-10-28,MasterPureMolYsisBasic_5_Lt_2,Burkholderia contaminans,488447,S,414540,97806,512346,0.10158
-2024-10-28,MasterPureMolYsisBasic_5_Lt_2,Parabacteroides distasonis,823,S,151854,127239,279093,0.05533
-2024-10-28,MasterPureMolYsisBasic_5_Rt_1,Bradyrhizobium sp. SK17,2057741,S,120482,5375,125857,0.16892
-2024-10-28,MasterPureMolYsisBasic_5_Rt_1,Burkholderia contaminans,488447,S,56695,12025,68720,0.09223
-2024-10-28,MasterPureNEB_AirCtr_3,Faecalibacterium prausnitzii,853,S,1085985,288491,1374476,0.06015
-2024-10-28,MasterPureNEB_AirCtr_3,Bacteroides fragilis,817,S,1779106,102768,1881874,0.08236
-2024-10-28,MasterPureNEB_AirCtr_3,Bacteroides cellulosilyticus,246787,S,1251313,43445,1294758,0.05667
-2024-10-28,MasterPureNEB_Lt_2,Bacteroides ovatus,28116,S,1821228,400268,2221496,0.13542
-2024-10-28,MasterPureNEB_Lt_2,Phocaeicola vulgatus,821,S,2643729,409532,3053261,0.18612
-2024-10-28,MasterPureNEB_Lt_2,Klebsiella pneumoniae,573,S,508813,879414,1388227,0.08462
-2024-10-28,MasterPureNEB_Lt_2,Bradyrhizobium sp. SK17,2057741,S,809015,34320,843335,0.05141
-2024-10-28,MasterPureNEB_MCS_1_100_4,Salmonella enterica,28901,S,10247213,8814008,19061221,0.28275
-2024-10-28,MasterPureNEB_MCS_1_100_4,Escherichia coli,562,S,3299330,11300432,14599762,0.21657
-2024-10-28,MasterPureNEB_MCS_1_100_4,Pseudomonas aeruginosa,287,S,5544770,9595380,15140150,0.22458
-2024-10-28,MasterPureNEB_MCS_1_100_4,Bacillus subtilis,1423,S,428288,4191360,4619648,0.06853
-2024-10-28,MasterPureNEB_MCS_1_100_4,Bacillus intestinalis,1963032,S,11998,4029339,4041337,0.05995
-2024-10-28,MasterPureNEB_Rt_1,Bacteroides uniformis,820,S,341756,160649,502405,0.07088
-2024-10-28,MasterPureNEB_Rt_1,Phocaeicola vulgatus,821,S,407633,92623,500256,0.07058
-2024-10-28,MasterPureNEB_Rt_1,Bradyrhizobium sp. SK17,2057741,S,572574,24428,597002,0.08423
-2024-10-28,MasterPureZymoHostZero_200ul_LE_AirCtr_3,Bradyrhizobium sp. SK17,2057741,S,82347,3825,86172,0.16123
-2024-10-28,MasterPureZymoHostZero_200ul_LE_AirCtr_3,Burkholderia contaminans,488447,S,43926,8185,52111,0.09750
-2024-10-28,MasterPureZymoHostZero_200ul_LE_Lt_2,Bradyrhizobium sp. SK17,2057741,S,2295362,86515,2381877,0.31562
-2024-10-28,MasterPureZymoHostZero_200ul_LE_Lt_2,Burkholderia contaminans,488447,S,639328,127786,767114,0.10165
-2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Salmonella enterica,28901,S,7634581,6101496,13736077,0.25729
-2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Escherichia coli,562,S,2550850,7698104,10248954,0.19197
-2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Pseudomonas aeruginosa,287,S,2786124,4881562,7667686,0.14362
-2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Bacillus subtilis,1423,S,301000,2874153,3175153,0.05947
-2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Bacillus intestinalis,1963032,S,8605,2674558,2683163,0.05026
-2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Lactobacillus fermentum,1613,S,3584270,80538,3664808,0.06865
-2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Enterococcus faecalis,1351,S,3214516,117918,3332434,0.06242
-2024-10-28,MasterPureZymoHostZero_200ul_LE_MCS_1_100_4,Saccharomyces cerevisiae,4932,S,3434063,4321,3438384,0.06440
-2024-10-28,MasterPureZymoHostZero_200ul_LE_Rt_1,Bradyrhizobium sp. SK17,2057741,S,831108,35662,866770,0.20457
-2024-10-28,MasterPureZymoHostZero_200ul_LE_Rt_1,Burkholderia contaminans,488447,S,399687,78017,477704,0.11275
-2024-10-28,MasterPure_AirCtr_3,Bradyrhizobium sp. SK17,2057741,S,1332343,56933,1389276,0.14204
-2024-10-28,MasterPure_AirCtr_3,Burkholderia contaminans,488447,S,619630,121576,741206,0.07578
-2024-10-28,MasterPure_AirCtr_3,Escherichia coli,562,S,303834,548257,852091,0.08712
-2024-10-28,MasterPure_LE_Lt_2,Parabacteroides distasonis,823,S,472887,395011,867898,0.31495
-2024-10-28,MasterPure_LE_Rt_1,Bradyrhizobium sp. SK17,2057741,S,110584,4771,115355,0.13996
-2024-10-28,MasterPure_LE_Rt_1,Burkholderia contaminans,488447,S,50453,10329,60782,0.07375
 2024-10-28,MasterPure_MCS_7_S56,Salmonella enterica,28901,S,3658078,3056211,6714289,0.29855
 2024-10-28,MasterPure_MCS_7_S56,Escherichia coli,562,S,1045175,3887726,4932901,0.21934
 2024-10-28,MasterPure_MCS_7_S56,Pseudomonas aeruginosa,287,S,1976383,3338168,5314551,0.23631
