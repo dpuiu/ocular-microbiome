@@ -1,8 +1,12 @@
+.. include:: header.rst
+
 Projects
 ~~~~~~~~
 
 .. raw:: html
 
+    <details>
+    <summary>Show ...</summary>
     <table class="docutils align-default">
       <thead>
         <tr>
@@ -414,4 +418,5 @@ Projects
         </tr>
       </tbody>
     </table>
+    </details>
     <hr>
