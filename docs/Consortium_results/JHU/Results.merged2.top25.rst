@@ -1,249 +1,31 @@
 Top 25 Species
 ^^^^^^^^^^^^^^
 
-.. raw:: html
+.. csv-table::
+    :header:    ocular-microbiome,name,taxonomy_id,taxonomy_lvl,kraken_assigned_reads,added_reads,new_est_reads,fraction_total_reads
 
-    <details>
-    <summary>Show ...</summary>
-    <table class="docutils align-default">
-      <thead>
-        <tr>
-          <th>name</th>
-          <th>taxonomy_id</th>
-          <th>taxonomy_lvl</th>
-          <th>kraken_assigned_reads</th>
-          <th>added_reads</th>
-          <th>new_est_reads</th>
-          <th>fraction_total_reads</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Burkholderia contaminans</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>488447</a></td>
-          <td>S</td>
-          <td>73,301,629</td>
-          <td>13,994,048</td>
-          <td>87,295,677</td>
-          <td>0.08012</td>
-        </tr>
-        <tr>
-          <td>Bradyrhizobium sp. SK17</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>2057741</a></td>
-          <td>S</td>
-          <td>83,724,028</td>
-          <td>3,880,600</td>
-          <td>87,604,628</td>
-          <td>0.07944</td>
-        </tr>
-        <tr>
-          <td>Cutibacterium acnes</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>1747</a></td>
-          <td>S</td>
-          <td>12,946,202</td>
-          <td>90,841</td>
-          <td>13,037,043</td>
-          <td>0.05647</td>
-        </tr>
-        <tr>
-          <td>Salmonella enterica</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>28901</a></td>
-          <td>S</td>
-          <td>109,394,882</td>
-          <td>97,922,493</td>
-          <td>207,317,375</td>
-          <td>0.04680</td>
-        </tr>
-        <tr>
-          <td>Escherichia coli</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>562</a></td>
-          <td>S</td>
-          <td>33,674,164</td>
-          <td>122,017,565</td>
-          <td>155,691,729</td>
-          <td>0.03467</td>
-        </tr>
-        <tr>
-          <td>Pseudomonas aeruginosa</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>287</a></td>
-          <td>S</td>
-          <td>55,411,693</td>
-          <td>98,257,476</td>
-          <td>153,669,169</td>
-          <td>0.03206</td>
-        </tr>
-        <tr>
-          <td>Bacillus subtilis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>1423</a></td>
-          <td>S</td>
-          <td>7,188,997</td>
-          <td>76,401,589</td>
-          <td>83,590,586</td>
-          <td>0.01787</td>
-        </tr>
-        <tr>
-          <td>Listeria monocytogenes</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>1639</a></td>
-          <td>S</td>
-          <td>76,420,578</td>
-          <td>3,387,756</td>
-          <td>79,808,334</td>
-          <td>0.01601</td>
-        </tr>
-        <tr>
-          <td>Lactobacillus fermentum</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>1613</a></td>
-          <td>S</td>
-          <td>75,533,715</td>
-          <td>1,673,767</td>
-          <td>77,207,482</td>
-          <td>0.01487</td>
-        </tr>
-        <tr>
-          <td>Enterococcus faecalis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>1351</a></td>
-          <td>S</td>
-          <td>67,620,237</td>
-          <td>2,180,709</td>
-          <td>69,800,946</td>
-          <td>0.01453</td>
-        </tr>
-        <tr>
-          <td>Bacillus intestinalis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>1963032</a></td>
-          <td>S</td>
-          <td>209,378</td>
-          <td>71,272,104</td>
-          <td>71,481,482</td>
-          <td>0.01364</td>
-        </tr>
-        <tr>
-          <td>Trypanosoma cruzi</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>5693</a></td>
-          <td>S</td>
-          <td>2,116,482</td>
-          <td>470,778</td>
-          <td>2,587,260</td>
-          <td>0.01105</td>
-        </tr>
-        <tr>
-          <td>Staphylococcus aureus</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>1280</a></td>
-          <td>S</td>
-          <td>35,335,305</td>
-          <td>1,775,095</td>
-          <td>37,110,400</td>
-          <td>0.00955</td>
-        </tr>
-        <tr>
-          <td>Parabacteroides distasonis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>823</a></td>
-          <td>S</td>
-          <td>649,957</td>
-          <td>544,217</td>
-          <td>1,194,174</td>
-          <td>0.00550</td>
-        </tr>
-        <tr>
-          <td>Salinivibrio sp. YCSC6</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>2003370</a></td>
-          <td>S</td>
-          <td>423,225</td>
-          <td>252,460</td>
-          <td>675,685</td>
-          <td>0.00426</td>
-        </tr>
-        <tr>
-          <td>Salinivibrio costicola</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>51367</a></td>
-          <td>S</td>
-          <td>407,287</td>
-          <td>246,152</td>
-          <td>653,439</td>
-          <td>0.00413</td>
-        </tr>
-        <tr>
-          <td>Saccharomyces cerevisiae</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>4932</a></td>
-          <td>S</td>
-          <td>17,332,789</td>
-          <td>25,310</td>
-          <td>17,358,099</td>
-          <td>0.00347</td>
-        </tr>
-        <tr>
-          <td>Phocaeicola vulgatus</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821>821</a></td>
-          <td>S</td>
-          <td>3,051,362</td>
-          <td>502,155</td>
-          <td>3,553,517</td>
-          <td>0.00321</td>
-        </tr>
-        <tr>
-          <td>Xanthomonas campestris</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>339</a></td>
-          <td>S</td>
-          <td>111,652</td>
-          <td>2,182</td>
-          <td>113,834</td>
-          <td>0.00247</td>
-        </tr>
-        <tr>
-          <td>Delftia tsuruhatensis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>180282</a></td>
-          <td>S</td>
-          <td>78,525</td>
-          <td>17,037</td>
-          <td>95,562</td>
-          <td>0.00195</td>
-        </tr>
-        <tr>
-          <td>Pseudomonas tolaasii</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>29442</a></td>
-          <td>S</td>
-          <td>148,600</td>
-          <td>273,154</td>
-          <td>421,754</td>
-          <td>0.00186</td>
-        </tr>
-        <tr>
-          <td>Cryptosporidium hominis</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>237895</a></td>
-          <td>S</td>
-          <td>443,978</td>
-          <td>103,436</td>
-          <td>547,414</td>
-          <td>0.00175</td>
-        </tr>
-        <tr>
-          <td>Bacteroides ovatus</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28116>28116</a></td>
-          <td>S</td>
-          <td>1,821,228</td>
-          <td>400,268</td>
-          <td>2,221,496</td>
-          <td>0.00169</td>
-        </tr>
-        <tr>
-          <td>Prevotella melaninogenica</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28132>28132</a></td>
-          <td>S</td>
-          <td>475,203</td>
-          <td>26,412</td>
-          <td>501,615</td>
-          <td>0.00158</td>
-        </tr>
-        <tr>
-          <td>Klebsiella pneumoniae</td>
-          <td><a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573>573</a></td>
-          <td>S</td>
-          <td>527,487</td>
-          <td>966,685</td>
-          <td>1,494,172</td>
-          <td>0.00148</td>
-        </tr>
-      </tbody>
-    </table>
-    </details>
-    <hr>
+    ocular-microbiome,Burkholderia contaminans,`488447 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=488447>`_,S,"73,301,629","13,994,048","87,295,677",0.08012
+    ocular-microbiome,Bradyrhizobium sp. SK17,`2057741 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2057741>`_,S,"83,724,028","3,880,600","87,604,628",0.07944
+    ocular-microbiome,Cutibacterium acnes,`1747 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1747>`_,S,"12,946,202","90,841","13,037,043",0.05647
+    ocular-microbiome,Salmonella enterica,`28901 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28901>`_,S,"109,394,882","97,922,493","207,317,375",0.0468
+    ocular-microbiome,Escherichia coli,`562 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562>`_,S,"33,674,164","122,017,565","155,691,729",0.03467
+    ocular-microbiome,Pseudomonas aeruginosa,`287 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287>`_,S,"55,411,693","98,257,476","153,669,169",0.03206
+    ocular-microbiome,Bacillus subtilis,`1423 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1423>`_,S,"7,188,997","76,401,589","83,590,586",0.01787
+    ocular-microbiome,Listeria monocytogenes,`1639 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1639>`_,S,"76,420,578","3,387,756","79,808,334",0.01601
+    ocular-microbiome,Lactobacillus fermentum,`1613 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1613>`_,S,"75,533,715","1,673,767","77,207,482",0.01487
+    ocular-microbiome,Enterococcus faecalis,`1351 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351>`_,S,"67,620,237","2,180,709","69,800,946",0.01453
+    ocular-microbiome,Bacillus intestinalis,`1963032 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1963032>`_,S,"209,378","71,272,104","71,481,482",0.01364
+    ocular-microbiome,Trypanosoma cruzi,`5693 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5693>`_,S,"2,116,482","470,778","2,587,260",0.01105
+    ocular-microbiome,Staphylococcus aureus,`1280 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280>`_,S,"35,335,305","1,775,095","37,110,400",0.00955
+    ocular-microbiome,Parabacteroides distasonis,`823 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823>`_,S,"649,957","544,217","1,194,174",0.0055
+    ocular-microbiome,Salinivibrio sp. YCSC6,`2003370 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2003370>`_,S,"423,225","252,460","675,685",0.00426
+    ocular-microbiome,Salinivibrio costicola,`51367 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=51367>`_,S,"407,287","246,152","653,439",0.00413
+    ocular-microbiome,Saccharomyces cerevisiae,`4932 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932>`_,S,"17,332,789","25,310","17,358,099",0.00347
+    ocular-microbiome,Phocaeicola vulgatus,`821 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821>`_,S,"3,051,362","502,155","3,553,517",0.00321
+    ocular-microbiome,Xanthomonas campestris,`339 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=339>`_,S,"111,652","2,182","113,834",0.00247
+    ocular-microbiome,Delftia tsuruhatensis,`180282 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=180282>`_,S,"78,525","17,037","95,562",0.00195
+    ocular-microbiome,Pseudomonas tolaasii,`29442 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29442>`_,S,"148,600","273,154","421,754",0.00186
+    ocular-microbiome,Cryptosporidium hominis,`237895 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=237895>`_,S,"443,978","103,436","547,414",0.00175
+    ocular-microbiome,Bacteroides ovatus,`28116 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28116>`_,S,"1,821,228","400,268","2,221,496",0.00169
+    ocular-microbiome,Prevotella melaninogenica,`28132 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28132>`_,S,"475,203","26,412","501,615",0.00158
+    ocular-microbiome,Klebsiella pneumoniae,`573 <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573>`_,S,"527,487","966,685","1,494,172",0.00148

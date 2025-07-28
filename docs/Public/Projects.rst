@@ -1,12 +1,10 @@
-.. include:: header.rst
-
 Projects
 ~~~~~~~~
 
 .. raw:: html
 
-    <details>
-    <summary>Show ...</summary>
+    <details open>
+    <summary></summary>
     <table class="docutils align-default">
       <thead>
         <tr>

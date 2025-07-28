@@ -28,6 +28,7 @@ html_js_files = ['custom.js']
 html_search_options = { 'separate_word_search': True }
 html_search_language = 'en'
 html_theme_options = { "use_table_sorting": False }
+html_extra_path = ['Consortium_results']
 
 master_doc = 'index'
 templates_path = ['_templates']
