@@ -32,7 +32,7 @@ html_extra_path = ['Consortium_results']
 
 master_doc = 'index'
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "**/OLD*","**/*.csv"]
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "OLD*/*" , "**/OLD*","**/*.csv*"]
 extensions = ['sphinxcontrib.mermaid','sphinx_design']  # 'recommonmark', 'myst_parser; sphinx_design
 source_suffix = { '.rst': 'restructuredtext' } #    '.md': 'markdown',
 

@@ -16,10 +16,9 @@ This research makes use of the `SciServer <https://www.sciserver.org/>`_ scien
 .. toctree::
    :maxdepth: 1
 
-   Consortium
-
-   Consortium_data
-   Consortium_results
+   Consortium_members
+   Consortium_data/index
+   Consortium_results2/index
 
    Public_data
    Public_results
