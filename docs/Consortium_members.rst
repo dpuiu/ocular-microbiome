@@ -15,7 +15,7 @@ CONSORTIUM MEMBERS
 .. raw:: html
 
    <ul>
-     <li><a href="mailto:cintiadp@bcm.edu">Cintia De Paiva</a></li>
+     <li><a href="https://www.bcm.edu/people-search/cintia-de-paiva-20217">Cintia De Paiva</a></li>
      <li>Robert Britton</li>
      <li>Eric Brown</li>
      <li>Kristi Hoffman</li>
@@ -32,7 +32,7 @@ CONSORTIUM MEMBERS
 .. raw:: html
 
    <ul>
-     <li><a href="mailto:russvg@uw.edu">Russel Van Gelder</a></li>
+     <li><a href="https://ophthalmology.washington.edu/research/research-labs/van-gelder-lab">Russel Van Gelder</a></li>
    </ul>
 
 `Vanderbilt University Medical Center <https://www.vumc.org/>`_
@@ -44,7 +44,7 @@ CONSORTIUM MEMBERS
 .. raw:: html
 
    <ul>
-     <li><a href="mailto:s.v.rajagopala@vumc.org">Seesandra Rajagopala</a></li>
+     <li><a href="https://medicine.vumc.org/department-directory/Seesandra-Rajagopala">Seesandra Rajagopala</a></li>
      <li>Sapna Gangaputra</li>
    </ul>
 
@@ -57,9 +57,9 @@ CONSORTIUM MEMBERS
 .. raw:: html
 
    <ul>
-     <li><a href="mailto:lensign@jhmi.edu">Laura Ensign</a></li>
-     <li><a href="mailto:skarakus@jhmi.edu">Sezen Karakus</a></li>
-     <li><a href="mailto:salzberg@jhu.edu">Steven Salzberg</a></li>
+     <li><a href="https://profiles.hopkinsmedicine.org/provider/laura-ensign-hodges/2777128">Laura Ensign</a></li>
+     <li>Sezen Karakus</li>
+     <li><a href="https://salzberg-lab.org/">Steven Salzberg</a></li>
    </ul>
 
 `SciServer <https://sciserver.org/>`_
@@ -73,7 +73,7 @@ CONSORTIUM MEMBERS
 .. raw:: html
 
    <ul>
-     <li><a href="mailto:Anthony.stleger@pitt.edu">Anthony St. Leger</a></li>
+     <li><a href="https://ophthalmology.pitt.edu/people/anthony-st-leger-phd">Anthony St. Leger</a></li>
      <li>Anat Galor</li>
    </ul>
 
