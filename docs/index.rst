@@ -19,9 +19,9 @@ This research makes use of the `SciServer <https://www.sciserver.org/>`_ scien
 
     Consortium_members
     Consortium_Data/index
-    Consortium_Results/index
+    Consortium_Data_Analysis/index
     Public_Data/index
-    Public_Results/index
+    Public_Data_Analysis/index
 
 * Administration
 
