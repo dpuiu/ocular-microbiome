@@ -1,5 +1,7 @@
 .. raw:: html
 
+   <hr>
+	
 .. image:: images/footer_01_nih-logo.jpg
    :alt: "Nih logo"
    :width: 80px

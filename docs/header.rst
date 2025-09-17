@@ -11,17 +11,47 @@
     <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
 
-    <!--script>$(document).ready(function () { $('.docutils').DataTable({pageLength: 5, dom: '<"middle"t><"bottom"lfip>', lengthMenu: [[5, 10, 25, 50, -1], [5, 10, 25, 50, "Show All"]]}); }); </script-->
-    <!--script>$(document).ready(function () { $('table.docutils.align-default').each(function () { const $t = $(this); $t.find('thead tr').prepend('<th>#</th>'); $t.find('tbody tr').each(function () { $(this).prepend('<td></td>'); }); const dt = $t.DataTable({ pageLength: 5, dom: '<"top"f>rt<"bottom"lp><"clear">', order: [[1, 'asc']], columnDefs: [{ targets: 0, searchable: false, orderable: false, className: 'dt-center' }] }); dt.on('draw.dt', function () { const info = dt.page.info(); dt.column(0, { page: 'current' }).nodes().each(function (cell, i) { cell.innerHTML = info.start + i + 1; }); }); dt.draw(); }); });</script-->
-    <!--script>$(document).ready(function(){ $('table.docutils.align-default').each(function(){const $t=$(this); $t.find('thead tr').prepend('<th>#</th>'); $t.find('tbody tr').each(function(){ $(this).prepend('<td></td>'); }); const dt=$t.DataTable({pageLength:5,lengthMenu:[[5,10,25,50,-1],[5,10,25,50,"Show All"]],dom:'<"middle"t><"bottom"lfip>',order:[[1,'asc']],columnDefs:[{targets:0,searchable:false,orderable:false,className:'dt-center'}]}); dt.on('draw.dt',function(){const info=dt.page.info(); dt.column(0,{page:'current'}).nodes().each(function(cell,i){cell.innerHTML=info.start+i+1;});}); dt.draw(); }); });</script-->
-    <!--script>$(document).ready(function(){ $('table.docutils.align-default').each(function(){const $t=$(this);$t.find('thead tr').prepend('<th>#</th>');$t.find('tbody tr').each(function(){$(this).prepend('<td></td>');});const dt=$t.DataTable({pageLength:5,lengthMenu:[[5,10,25,50,-1],[5,10,25,50,"Show All"]],dom:'B<"middle"t><"bottom"lfip>',buttons:['colvis'],order:[[1,'asc']],columnDefs:[{targets:0,searchable:false,orderable:false,className:'dt-center'}]});dt.on('draw.dt',function(){const info=dt.page.info();dt.column(0,{page:'current'}).nodes().each(function(cell,i){cell.innerHTML=info.start+i+1;});});dt.draw();});});</script-->
-    <!--script>$(document).ready(function(){$('table.docutils.align-default').each(function(){const $t=$(this);$t.find('thead tr').prepend('<th>#</th>');$t.find('tbody tr').each(function(){$(this).prepend('<td></td>');});const dt=$t.DataTable({pageLength:5,lengthMenu:[[5,10,25,50,-1],[5,10,25,50,"Show All"]],dom:'B<"middle"t><"bottom"lfip>',buttons:['copy','csv','excel','pdf','print',{extend:'colvis',text:'cols'}],order:[[1,'asc']],columnDefs:[{targets:0,searchable:false,orderable:false,className:'dt-center'}]});dt.on('draw.dt',function(){const info=dt.page.info();dt.column(0,{page:'current'}).nodes().each(function(cell,i){cell.innerHTML=info.start+i+1;});});dt.draw();});});</script-->
-    <!--script>$(document).ready(function(){$('table.docutils.align-default').each(function(){const $t=$(this);$t.find('thead tr').prepend('<th>#</th>');$t.find('tbody tr').each(function(){$(this).prepend('<td></td>');});const dt=$t.DataTable({pageLength:5,lengthMenu:[[5,10,25,50,-1],[5,10,25,50,"Show All"]],dom:'B<"middle"t><"bottom"lfip>',buttons:[{extend:'colvis',text:'cols',postfixButtons:['csv']}],order:[[1,'asc']],columnDefs:[{targets:0,searchable:false,orderable:false,className:'dt-center'}]});dt.on('draw.dt',function(){const info=dt.page.info();dt.column(0,{page:'current'}).nodes().each(function(cell,i){cell.innerHTML=info.start+i+1;});});dt.draw();});});</script-->
-    <!--script>$(document).ready(function(){$('table.docutils.align-default').each(function(){const $t=$(this);$t.find('thead tr').prepend('<th>#</th>');$t.find('tbody tr').each(function(){$(this).prepend('<td></td>');});const dt=$t.DataTable({pageLength:5,lengthMenu:[[5,10,25,50,-1],[5,10,25,50,"Show All"]],dom:'B<"middle"t><"bottom"lfip>',buttons:[{extend:'colvis',text:'cols'},{extend:'csv',text:'save'}],order:[[1,'asc']],columnDefs:[{targets:0,searchable:false,orderable:false,className:'dt-center'}]});dt.on('draw.dt',function(){const info=dt.page.info();dt.column(0,{page:'current'}).nodes().each(function(cell,i){cell.innerHTML=info.start+i+1;});});dt.draw();});});</script-->
-    <!--script>$(document).ready(function(){$('table.docutils.align-default').each(function(){const $t=$(this);$t.find('thead tr').prepend('<th>#</th>');$t.find('tbody tr').each(function(){$(this).prepend('<td></td>');});const dt=$t.DataTable({pageLength:5,lengthMenu:[[5,10,25,50,-1],[5,10,25,50,"Show All"]],dom:'B<"middle"t><"bottom"lfip>','buttons':[ {extend:'colvis',text:'cols'}, {extend:'csv',text:'save',exportOptions:{columns:':visible'}} ],order:[[1,'asc']],columnDefs:[{targets:0,searchable:false,orderable:false,className:'dt-center'}]});dt.on('draw.dt',function(){const info=dt.page.info();dt.column(0,{page:'current'}).nodes().each(function(cell,i){cell.innerHTML=info.start+i+1;});});dt.draw();});});</script-->
-    <!--script>$(document).ready(function(){$('table.docutils.align-default').each(function(){const $t=$(this);$t.find('thead tr').prepend('<th>#</th>');$t.find('tbody tr').each(function(){$(this).prepend('<td></td>');});const dt=$t.DataTable({pageLength:5,lengthMenu:[[5,10,25,50,-1],[5,10,25,50,"Show All"]],dom:'B<"middle"t><"bottom"lfip>',buttons:[{extend:'colvis',text:'cols'},{extend:'csv',text:'CSV',exportOptions:{columns:[0,':visible']}}],order:[[1,'asc']],columnDefs:[{targets:0,searchable:false,orderable:false,className:'dt-center'}]});dt.on('draw.dt',function(){const info=dt.page.info();dt.column(0,{page:'current'}).nodes().each(function(cell,i){cell.innerHTML=info.start+i+1;});});dt.draw();});});</script-->
-      <!--script>$(document).ready(function(){$('table.docutils.align-default').each(function(){const $t=$(this);$t.find('thead tr').prepend('<th>#</th>');$t.find('tbody tr').each(function(){$(this).prepend('<td></td>');});const dt=$t.DataTable({pageLength:5,lengthMenu:[[5,10,25,50,-1],[5,10,25,50,"Show All"]],dom:'B<"middle"t><"bottom"lfip>',buttons:[{extend:'colvis',text:'cols'},{extend:'csv',text:'save',exportOptions:{columns:[0,':visible']}}],order:[[1,'asc']],columnDefs:[{targets:0,searchable:false,orderable:false,className:'dt-center'},{targets:'_all',render:function(data,type,row){return typeof data==='number'?data.toLocaleString():data;}}]});dt.on('draw.dt',function(){const info=dt.page.info();dt.column(0,{page:'current'}).nodes().each(function(cell,i){cell.innerHTML=info.start+i+1;});});dt.draw();});});</script-->
-      <!--script>$(document).ready(function(){$('table.docutils.align-default').each(function(){const $t=$(this);$t.find('thead tr').prepend('<th>#</th>');$t.find('tbody tr').each(function(){$(this).prepend('<td></td>');});const dt=$t.DataTable({pageLength:5,lengthMenu:[[5,10,25,50,-1],[5,10,25,50,"Show All"]],dom:'B<"middle"t><"bottom"lfip>',buttons:[{extend:'colvis',text:'cols'},{extend:'csv',text:'save',exportOptions:{columns:':not(:first-child)'}}],order:[[1,'asc']],columnDefs:[{targets:0,searchable:false,orderable:false,className:'dt-center'},{targets:'_all',render:function(data,type,row){return typeof data==='number'?data.toLocaleString():data;}}]});dt.on('draw.dt',function(){const info=dt.page.info();dt.column(0,{page:'current'}).nodes().each(function(cell,i){cell.innerHTML=info.start+i+1;});});dt.draw();});});</script-->
+    <script>
+    $(document).ready(function() {
+        $('table.docutils.align-default').each(function() {
+            var $table = $(this);
 
-    <script>$(document).ready(function(){$('table.docutils.align-default').each(function(){const $t=$(this);$t.find('thead tr').prepend('<th>#</th>');$t.find('tbody tr').each(function(){$(this).prepend('<td></td>');});const dt=$t.DataTable({pageLength:5,lengthMenu:[[5,10,25,50,-1],[5,10,25,50,"Show All"]],dom:'B<"middle"t><"bottom"lfip>',buttons:[{extend:'colvis',text:'cols'},{extend:'csv',text:'save',exportOptions:{columns:':not(:first-child)'}}],order:[[1,'asc']],columnDefs:[{targets:0,searchable:false,orderable:false,className:'dt-center'},{targets:'_all',render:function(data,type,row){return typeof data==='number'?data.toLocaleString():data;}}]});dt.on('draw.dt',function(){const info=dt.page.info();dt.column(0,{page:'current'}).nodes().each(function(cell,i){cell.innerHTML=info.start+i+1;});});dt.draw();});});</script>
+            $table.find('thead tr').prepend('<th>#</th>');
+            $table.find('tbody tr').prepend('<td></td>');
+
+            var dt = $table.DataTable({
+                dom: 'tBfipr',
+                pageLength: 5,
+                lengthMenu: [[5, 10, 50, -1],[5, 10, 50, "All"]],
+                buttons: [
+                    'pageLength',
+                    { extend: 'csv', exportOptions: { columns: ':not(:first-child)' } },
+                    'colvis'
+                ],
+                columnDefs: [{
+                    targets: "_all",
+                    render: function(data, type, row, meta) {
+                        var text = $('<div>' + data + '</div>').text().trim();
+
+                        if ($.isNumeric(text)) {
+                          return Number(text).toLocaleString();
+                        }
+
+                        return data;
+                    }
+                }],
+                order: [[1, 'asc']]
+            });
+
+            dt.on('draw.dt', function() {
+                var info = dt.page.info();
+                dt.column(0, { page: 'current' }).nodes().each(function(cell, i) {
+                    cell.innerHTML = info.start + i + 1;
+                });
+            });
+
+            dt.draw();
+        });
+    });
+    </script>
 

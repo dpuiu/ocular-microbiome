@@ -1,11 +1,10 @@
 .. include:: header.rst
 
-Consortium Members
+CONSORTIUM MEMBERS
 ==================
 
-.. contents::
-   :depth: 2
-   :local:
+.. toctree::
+    :maxdepth: 2
 
 `Baylor College of Medicine <https://www.bcm.edu/>`_
 ----------------------------------------------------
