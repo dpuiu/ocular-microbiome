@@ -10,6 +10,7 @@ CONSORTIUM MEMBERS
 ----------------------------------------------------
 
 **Multi-Method Investigation and Characterization of the Ocular Microbiome**  
+
 **PIs**  
 
 .. raw:: html
@@ -27,6 +28,7 @@ CONSORTIUM MEMBERS
 ---------------------------------------------------------
 
 **Determinants of the Periocular Microbiome**  
+
 **PIs**  
 
 .. raw:: html
@@ -51,7 +53,8 @@ CONSORTIUM MEMBERS
 `Johns Hopkins University <https://jhu.edu/>`_
 ----------------------------------------------
 
-**Development of Standardized Resources for Characterization of Resident Ocular Surface Microbiome**
+**Development of Standardized Resources for Characterization of Resident Ocular Surface Microbiome**  
+
 **PIs**  
 
 .. raw:: html
@@ -67,7 +70,8 @@ CONSORTIUM MEMBERS
 `University of Pittsburgh <https://www.pitt.edu/>`_
 ---------------------------------------------------
 
-**Defining Bacterial Members of the Ocular Surface Microbiome & Assessing Stability Over Time**
+**Defining Bacterial Members of the Ocular Surface Microbiome & Assessing Stability Over Time**  
+
 **PIs**   
 
 .. raw:: html

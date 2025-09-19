@@ -13,10 +13,11 @@ body:first-of-type .wy-nav-content {
   width: 100%;         
 }
 
+/* meants to make top headers in lelf menu yellow
 .wy-menu-vertical a {
-  color: #ffffff !important;  
+  color: #ffff00 !important;  
 }
-
+*/
 
 /* Example to reduce padding for body content */
 .document {
