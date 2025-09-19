@@ -1,4 +1,4 @@
-project_id,taxonomy_name,taxonomy_id,taxonomy_lvl,assigned_reads,added_reads,total_reads,weighted_fraction_total_reads
+project_id,taxonomy_name,taxonomy_id,taxonomy_lvl,assigned_reads,added_reads,total_reads,fraction_total_reads_avg
 ocular-microbiome,Burkholderia contaminans,488447,S,73301629,13994048,87295677,0.08012
 ocular-microbiome,Bradyrhizobium sp. SK17,2057741,S,83724028,3880600,87604628,0.07944
 ocular-microbiome,Cutibacterium acnes,1747,S,12946202,90841,13037043,0.05647

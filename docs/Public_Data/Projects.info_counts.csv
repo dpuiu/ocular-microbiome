@@ -1,4 +1,4 @@
-BioProject,Description,Center Name,Date,LibCounts,TotalReads,NonHumanReads
+bioproject_accession,bioproject_goal,center_name,release_date,library_count,total_reads,non_human_reads
 PRJDB10068,Microbial contamination pattern of contact lens care solutions used by allergic conjunctivitis patients.,KAGAWA,2020-06-27,15,1800000,1797188
 PRJDB10133,Presence of acanthamoeba and diversified bacterialflora in poorly maintained contact lens cases.,KAGAWA,2022-07-01,59,5979204,5967470
 PRJDB15234,Disturbances in the Ocular Surface Microbiome by Perioperative Antimicrobial Eye Drops.,KAGAWA,2023-02-13,64,4370400,3795562

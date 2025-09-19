@@ -47,7 +47,6 @@
               }
             },
             {
-              // Last column: format numeric values with thousands separator
               targets: [7,8,9],
               render: function (data, type, row, meta) {
                 var text = $('<div>' + data + '</div>').text().trim();
@@ -56,6 +55,10 @@
                 }
                 return data;
               }
+            },
+            {
+               targets: [3,6,7,8],
+               visible: false
             }
           ],
           order: [[1, 'asc']]

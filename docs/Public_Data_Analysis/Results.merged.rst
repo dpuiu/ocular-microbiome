@@ -68,7 +68,12 @@
                 }
                 return data;
               }
+            },
+            {
+               targets: [4,5,6],
+               visible: false
             }
+
           ],
           order: [[1, 'asc']]
         });
