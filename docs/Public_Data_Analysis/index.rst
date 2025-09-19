@@ -1,7 +1,7 @@
 ANALYSIS OF PREVIOUS STUDIES
 ============================
 
-.. toctree::
+.. toctree:: 
     :maxdepth: 2
 
     Results.merged2.top25

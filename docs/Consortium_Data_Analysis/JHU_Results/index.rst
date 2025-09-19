@@ -2,12 +2,8 @@ JHU Results
 ===========
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     Results.merged2.top25
-
-    Conjunctiva
-    Glabella
-    Lid_margin
-
-
+    Results.filtered
+    Sites

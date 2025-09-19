@@ -1,0 +1,33 @@
+Field Name,Description,Example,Notes
+biosample_id,Unique identifier for the sample,OMS00001,required
+biosample_name,Alternate code or name used at collection site,S89,recommended
+biosample_accession,"External accession IDs (BioSample, SRA, ENA), comma-separated",SAMN12345678,recommended
+biosample_source,Anatomical or environmental site of origin,"conjunctiva, lid margin, air control",required
+biosample_type,Material type of sample,"swab, tissue, tear",required
+biosample_side,"Laterality of sample (left, right, NA)",left,recommended
+collection_date,"Date of sample collection (ISO 8601, YYYY-MM-DD)",2024-05-07,required
+visit_number,Number/label of visit or collection event,v1,recommended
+individual_id,Unique subject/individual identifier (linked to subject table),OMI000123,recommended
+center_id,Unique identifier for associated (collection or extraction) center,JHU,recommended
+collection_method,Method used for sample collection,"swab, wash, filter paper",recommended
+swab_type,Brand/model/type of swab used for sample collection,FLOQSwab,optional
+swab_lot_number,Lot number of the swab used,A12345,optional
+biosample_collect_device,Device identifier or lot number for collection device,DEV001-2023,optional
+swab_kit_manufacturer_lot,Manufacturer and lot for swab/kit,Qiagen-12345,optional
+biosample_store_duration,"Time from collection to processing (ISO 8601 Duration, e.g. PT2H30M)",PT2H30M,optional
+biosample_store_temp,"Sample storage temperature after collection (with units, °C)",-80 °C,optional
+biosample_preservation_method,Method or reagent used for preservation,"RNAlater, ethanol",optional
+replicate_type,Replicate type,biological,optional
+batch_plate_location,"Identifier for batch, plate, and plate location","Batch5, Plate2-B3",optional
+concentration,"DNA/RNA concentration (with units, e.g., ng/µl)",20 ng/µl,recommended
+biosample_volume,"Total volume or mass collected (with units, e.g., µl, mg)",200 µl,recommended
+extraction_date,"Date of DNA/RNA extraction (ISO 8601, YYYY-MM-DD)",2024-05-08,recommended
+dna_extraction_kit,Brand/model of DNA extraction kit,Qiagen DNeasy,recommended
+dna_extraction_kit_lot_number,Lot number for DNA extraction kit,L20240155,optional
+dna_extraction_protocol_version,Version or code/identifier of extraction protocol,v1.2,optional
+host_depletion_performed,Indicates host depletion step performed (yes or no),yes,recommended
+host_depletion_kit,Kit(s) used for host depletion,"NEB, HostZero",optional
+extraction_protocol_modifications,Details of any protocol modifications,Increased elution volume to 100 µl,optional
+elution_volume,Final elution volume (µl),50,optional
+dna_yield,"Measured DNA quantity (with units, e.g., ng, µg)",100 ng,optional
+dna_qc_metrics,"DNA quality control metrics (e.g., 260/280 ratio, fluorometric concentration)","260/280 ratio 1.85, Qubit 22 ng/µl",optional

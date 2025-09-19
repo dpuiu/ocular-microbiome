@@ -20,28 +20,13 @@
             $table.find('tbody tr').prepend('<td></td>');
 
             var dt = $table.DataTable({
-
                 dom: 'tBfipr',
-                pageLength: 5,
-                lengthMenu: [[5, 10, 50, -1],[5, 10, 50, "All"]],
-                buttons: [
-                 'pageLength',
-                 { extend: 'csv', text: 'Save', exportOptions: { columns: ':not(:first-child)',  format: { body: function (data) { return $('<div>' + data + '</div>').text().replace(/,/g, '');}}}},
-                 { extend: 'colvis', text: 'Columns' }
+                paging: false,
+                pageLength: -1,
+                lengthMenu: [[-1],["All"]],
+                buttons: [                 
+                 { extend: 'csv', text: 'Save', exportOptions: { columns: ':not(:first-child)' }},
                 ],
-                columnDefs: [{
-                    targets: "_all",
-                    render: function(data, type, row, meta) {
-                        var text = $('<div>' + data + '</div>').text().trim();
-
-                        if ($.isNumeric(text)) {
-                          return Number(text).toLocaleString();
-                        }
-
-                        return data;
-                    }
-                }],
-                order: [[1, 'asc']]
             });
 
             dt.on('draw.dt', function() {

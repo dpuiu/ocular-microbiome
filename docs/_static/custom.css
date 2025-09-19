@@ -13,6 +13,10 @@ body:first-of-type .wy-nav-content {
   width: 100%;         
 }
 
+.wy-menu-vertical a {
+  color: #ffffff !important;  
+}
+
 
 /* Example to reduce padding for body content */
 .document {
@@ -40,3 +44,19 @@ details summary {
     font-weight: bold;   /* Optional: make summary bold */
     cursor: pointer;     /* Pointer cursor on hover */
 }
+
+
+/*2025-09-17
+table.docutils {
+    table-layout: fixed; 
+    width: 100%;         
+}
+
+table.docutils td {
+    overflow-wrap: break-word; 
+    word-wrap: break-word;     
+}
+
+.csv-table {
+    width: auto;
+}*/

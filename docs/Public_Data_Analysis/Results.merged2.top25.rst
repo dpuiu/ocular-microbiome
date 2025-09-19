@@ -75,9 +75,11 @@
     });
     </script>    
 
+Projects
+========
 
 Top 25 Species
-==============
+--------------
 
 .. raw:: html
    :file: Results.merged_P.html

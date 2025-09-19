@@ -1,7 +1,7 @@
 .. include:: header.rst
 
-Projects
-========
+Previous Studies Projects
+=========================
 
 .. csv-table::
     :file: Projects.info_counts.csv

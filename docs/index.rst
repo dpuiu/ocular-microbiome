@@ -22,6 +22,7 @@ This research makes use of the `SciServer <https://www.sciserver.org/>`_ scien
     Consortium_Data_Analysis/index
     Public_Data/index
     Public_Data_Analysis/index
+    Metadata/index
 
 * Administration
 

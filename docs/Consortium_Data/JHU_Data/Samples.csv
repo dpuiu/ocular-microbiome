@@ -1,4 +1,4 @@
-ID,Name,Total Reads,NonHuman Reads,Date,Dna Extraction Kit,Host Depletion Kit,Source,Side,BioSample,Individual
+sample_id,sample_name,total_reads,non_human_reads,sequencing_date,dna_extraction_kit,host_depletion_kit,biosample_source,biosample_side,individual_alias
 jhu00001,Molzym_Ultra_Deep_Air_Ctr_3_S20,96531668,20011346,2024-03-14,Molzym_Ultra,Molzym,Air_Ctr,.,S20,.
 jhu00002,Molzym_Ultra_Deep_LE_Lt_2_S23,77042792,10715546,2024-03-14,Molzym_Ultra,Molzym,LE,Left,S23,.
 jhu00003,Molzym_Ultra_Deep_LE_Rt_1_S1,68734480,6285176,2024-03-14,Molzym_Ultra,Molzym,LE,Right,S1,.

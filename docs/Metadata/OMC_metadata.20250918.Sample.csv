@@ -1,0 +1,26 @@
+Field Name,Description,Example,Notes
+sample_id,Unique identifier for the sequencing run,OMR00001 (jhu00001),required
+sample_accession,"Public database run accession (e.g., NCBI SRA) if deposited",SRR00001,required
+library_id,"Associated experiment identifier, links to experiment table",OMX00001,required
+sample_name,Brief title/name for run,Ocular_Run01_2024-05-12,recommended
+sample_description,Summary or purpose of sequencing run,Non-human read run for sample OMS00001,recommended
+avg_spot_length,Average read length (specify units),150 bp,recommended
+adapter_sequences,Adapter sequences used,AGATCGGAAGAGC,recommended
+original_file_id,Original input raw read file name or ID,OMS00001_R1.fastq,recommended
+total_reads,Total number of reads in original file,45000000,recommended
+original_read_file_size,"File size of original read file (with units, e.g., MB, GB)",10 GB,recommended
+original_read_file_checksum,"Checksum (e.g., MD5/SHA256) for original read file",d41d8cd98f00b204e9800998ecf8427e,recommended
+non_human_read_file_id,Processed/non-human read file name or ID,OMS00001_R1_nonhuman.fastq,optional
+non_human_reads,Number of non-human reads (integer),4500000,optional
+non_human_read_file_size,File size of non-human read file (with units),1 GB,optional
+non_human_read_file_checksum,Checksum for non-human read file,e339a515c5ed4f561237b1799335c30b,optional
+analysis_date,"Date the sample was analyzed (YYYY-MM-DD, ISO 8601)",2024-05-12,required
+reference_genome,Reference genome version(s) used for human read detection,"hs38DH, chm13v2.0",optional
+microbial_database,Microbial database(s) used for classification,krakendb-2020-08-16-all_pluseupath,optional
+human_read_detection_software,Software (name & version) for human read detection,minimap2 2.30-r1287,optional
+non_human_read_classification_software,Software (name & version) for non-human read detection/classification,KrakenUniq 1.0.2,optional
+base_quality_metrics,Sequencing base quality metrics,"90% Q30, Q20",optional
+data_processing_pipeline,URL or name of data processing pipeline (with version/date),https://github.com/dpuiu/ocular-metagenome 20240608,optional
+sequencing_control,"Sequencing run control(s) used (e.g., spike-ins)",PhiX spike-in 1%,optional
+release_status,Data release status,public,optional
+release_date,"Date of public/controlled release (YYYY-MM-DD, ISO 8601)",2024-06-30,optional

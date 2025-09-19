@@ -88,8 +88,11 @@
     </script>    
 
 
-Species/Project
-===============
+Samples
+=======
+
+Top Species
+-----------
 
 **Species detected in at least 5% of unmapped reads (in any library)** 
 

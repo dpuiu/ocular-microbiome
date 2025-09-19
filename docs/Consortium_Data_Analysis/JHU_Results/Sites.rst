@@ -49,17 +49,7 @@
               }
             },
             {
-              targets: [5,6,7,8],
-              render: function (data, type, row, meta) {
-                var text = $('<div>' + data + '</div>').text().trim();
-                if ($.isNumeric(text)) {
-                   return Number(text).toLocaleString(); 
-                }
-                return data;
-              }
-            },
-            {
-               targets: [1,4,5,6],  
+               targets: [1],  
                visible: false
             }
           ],
@@ -80,18 +70,28 @@
     });
     </script>    
 
-Project
-=======
 
-Top 25 Species
---------------
+Source
+======
 
-.. raw:: html
-   :file: Results.merged.top25.html
+Conjunctiva
+-----------
 
-----
+.. csv-table::
+    :file: Conjunctiva.csv
+    :header-rows: 1
 
-.. csv-table:: Top 25 Species
-   :file: Results.merged2.top25.csv
-   :header-rows: 1
-   :widths: auto
+Glabella
+--------
+
+.. csv-table::
+    :file: Glabella.csv
+    :header-rows: 1
+
+
+Lid_margin
+----------
+
+.. csv-table::
+    :file: Lid_margin.csv
+    :header-rows: 1

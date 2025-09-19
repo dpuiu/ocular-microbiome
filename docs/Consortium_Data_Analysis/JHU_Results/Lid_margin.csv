@@ -1,8 +1,8 @@
-Species
-Cutibacterium acnes
-Staphylococcus spp.
-Lactobacillus spp.
-Micrococcus luteus
-Malassezia restricta
-Curtobacterium flaccumfaciens
-Xanthomonas campestris
+abbreviation,taxonomy_name,taxonomy_id
+C. acnes,Cutibacterium acnes,1747
+Curtobacterium flaccumfaciens,Curtobacterium flaccumfaciens,2035
+Cutibacterium acnes,Cutibacterium acnes,1747
+Lactobacillus spp.,Lactobacillus,1578
+Malassezia restricta,Malassezia restricta,76775
+Micrococcus luteus,Micrococcus luteus,1270
+Xanthomonas campestris,Xanthomonas campestris,339
