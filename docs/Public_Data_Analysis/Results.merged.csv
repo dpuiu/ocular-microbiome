@@ -1,4 +1,4 @@
-bioproject_accesion,taxonomy_name,taxonomy_id,taxonomy_lvl,assigned_reads,added_reads,total_reads,fraction_total_reads
+bioproject_accession,taxonomy_name,taxonomy_id,taxonomy_lvl,assigned_reads,added_reads,total_reads,fraction_total_reads
 PRJNA1077663,Pseudomonas sp. S150,2559074,S,8568,2886509,2895077,0.54325
 PRJNA886972,Achromobacter xylosoxidans,85698,S,607401,38616,646017,0.51374
 PRJNA1048377,Staphylococcus aureus,1280,S,233749,1434559,1668308,0.44799

@@ -39,7 +39,7 @@
                 var text = $('<div>' + data + '</div>').text().trim();
     
                 if ($.isNumeric(text)) {
-                  return '<a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=' +
+                  return '<a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?command=show&mode=node&id=' +
                     text +
                     '" target="_blank" rel="noopener" title="NCBI Taxonomy">' +
                     text +

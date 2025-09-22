@@ -9,4 +9,10 @@ CONSORTIUM DATA
     Pitt_data
     UW_data
     VUMC_data
+
+----
+
+.. toctree::
+    :maxdepth: 2
+
     Combined_data

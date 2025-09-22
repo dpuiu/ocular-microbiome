@@ -17,6 +17,10 @@ import sys
 sys.path.insert(0, os.path.abspath('.'))
 #sys.path.insert(0, os.path.abspath('./_extensions'))
 
+#############################################################
+
+#############################################################
+
 project = 'Ocular Microbial Project'
 copyright = '2025 Ocular Microbiome Consortium'
 author = 'Daniela Puiu'
@@ -36,7 +40,7 @@ html_meta = {    "google-site-verification": "e2LnwrGlv397RPlrT8ckb-yVwcPyZaGyAD
 master_doc = 'index'
 templates_path = [] # '_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "OLD*/*" , "**/OLD*","**/*.csv*"]
-extensions = ['sphinxcontrib.mermaid','sphinx_design']  # 'recommonmark', 'myst_parser; sphinx_design. 'search_extension'
+extensions = ['sphinxcontrib.mermaid','sphinx_design'] #'sphinxcontrib.lunrsearch']  # 'recommonmark', 'myst_parser; sphinx_design. 'search_extension'
 source_suffix = { '.rst': 'restructuredtext' } #    '.md': 'markdown',
 
 #from recommonmark.parser import CommonMarkParser
