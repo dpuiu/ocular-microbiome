@@ -1,5 +1,5 @@
-JHU Data
-========
+Johns Hopkins University Data
+=============================
 
 .. toctree::
     :maxdepth: 1

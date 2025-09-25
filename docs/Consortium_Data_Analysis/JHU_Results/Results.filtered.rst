@@ -33,6 +33,18 @@
           columnDefs: [
             {
               // Penultimate column: add NCBI taxonomy link if numeric
+              targets: 1,
+              render: function (data, type, row, meta) {
+                  var text = $('<div>' + data + '</div>').text().trim();
+                  return '<a href="../../Consortium_Data/JHU_Data/Samples.html#' +
+                    text +
+                    '">' +
+                    text +
+                    '</a>';
+              }
+            },
+            {
+              // Penultimate column: add NCBI taxonomy link if numeric
               targets: 5,
               render: function (data, type, row, meta) {
                 var text = $('<div>' + data + '</div>').text().trim();
@@ -86,6 +98,6 @@ Samples
 Top Species
 -----------
 
-.. csv-table:: Species with frequency 0.1% or more
+.. csv-table:: Species with frequency of 0.1% or more per sample
     :file: Results.filtered+.csv
     :header-rows: 1
