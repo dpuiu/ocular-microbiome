@@ -7,11 +7,11 @@ sample_description,Summary or purpose of sequencing run,Non-human read run for s
 avg_spot_length,Average read length (specify units),150 bp,recommended
 adapter_sequences,Adapter sequences used,AGATCGGAAGAGC,recommended
 original_file_id,Original input raw read file name or ID,OMS00001_R1.fastq,recommended
-total_reads,Total number of reads in original file,45000000,recommended
+total_reads,Total number of read pairs in original file,45000000,recommended
 original_read_file_size,"File size of original read file (with units, e.g., MB, GB)",10 GB,recommended
 original_read_file_checksum,"Checksum (e.g., MD5/SHA256) for original read file",d41d8cd98f00b204e9800998ecf8427e,recommended
 non_human_read_file_id,Processed/non-human read file name or ID,OMS00001_R1_nonhuman.fastq,optional
-non_human_reads,Number of non-human reads (integer),4500000,optional
+non_human_reads,Number of non-human read pairs,4500000,optional
 non_human_read_file_size,File size of non-human read file (with units),1 GB,optional
 non_human_read_file_checksum,Checksum for non-human read file,e339a515c5ed4f561237b1799335c30b,optional
 analysis_date,"Date the sample was analyzed (YYYY-MM-DD, ISO 8601)",2024-05-12,required

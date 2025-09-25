@@ -36,8 +36,7 @@
               targets: 1,
               render: function (data, type, row, meta) {
                   var text = $('<div>' + data + '</div>').text().trim();
-                  return '<a href="../../Consortium_Data/JHU_Data/Samples.html#' +
-                    text +
+                  return '<a href="../../Consortium_Data/JHU_Data/Samples.html' +
                     '">' +
                     text +
                     '</a>';

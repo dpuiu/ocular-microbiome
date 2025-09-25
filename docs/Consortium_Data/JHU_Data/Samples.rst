@@ -13,79 +13,94 @@
 
     <script>
     $(function () {
-    $('table.docutils.align-default').each(function () {
-        var $table = $(this);
+        $('table.docutils.align-default').each(function () {
+            var $table = $(this);
 
-        // Add row number column if needed
-        if ($table.find('thead th').length === $table.find('thead tr').first().children().length) {
-            $table.find('thead tr').prepend('<th>#</th>');
-            $table.find('tbody tr').prepend('<td></td>');
-        }
-
-        var dt = $table.DataTable({
-            dom: 'tBfipr',
-            pageLength: 5,
-            order: [[1, 'asc']],
-            columnDefs: [
-                {
-                    targets: 1,
-                    render: function (data) {
-                        var text = $('<div>' + data + '</div>').text().trim();
-                        return text; // Keep text simple
-                    }
-                }
-            ]
-        });
-
-        // Update row numbers
-        dt.on('draw.dt', function () {
-            var info = dt.page.info();
-            dt.column(0, { page: 'current' }).nodes().each(function (cell, i) {
-                cell.innerHTML = info.start + i + 1;
-            });
-        });
-
-        // Function to sanitize strings for comparison
-        function sanitizeText(str) {
-            return str.trim().replace(/\s+/g, '_').replace(/[^\w\-]/g, '').toLowerCase();
-        }
-
-        // Jump to hash if exists
-        var hash = window.location.hash;
-        if (hash) {
-            var safeHash = sanitizeText(hash.replace('#', ''));
-
-            // Find row index by matching sanitized column 1 text
-            var targetRowIndex = dt.column(1).data().toArray().findIndex(function (d) {
-                return sanitizeText(d) === safeHash;
-            });
-
-            if (targetRowIndex >= 0) {
-                var page = Math.floor(targetRowIndex / dt.page.len());
-                dt.page(page).draw('page');
-
-                dt.one('draw.dt', function () {
-                    var rowNode = dt.row(targetRowIndex).node();
-                    if (rowNode) {
-                        // Scroll to row
-                        $('html, body').animate({
-                            scrollTop: $(rowNode).offset().top
-                        }, 500);
-
-                        // Highlight row briefly
-                        $(rowNode).css('background-color', '#ffff99');
-                        setTimeout(function () {
-                            $(rowNode).css('background-color', '');
-                        }, 2000);
-                    }
-                });
+            // Add row number column if it doesn't already exist
+            if ($table.find('thead th').length === $table.find('thead tr').first().children().length) {
+                $table.find('thead tr').prepend('<th>#</th>');
+                $table.find('tbody tr').prepend('<td></td>');
             }
-        }
 
-        // Initial draw
-        dt.draw();
+            var dt = $table.DataTable({
+                dom: 'tBfipr',
+                pageLength: 5,
+                lengthMenu: [[5, 10, 50, -1], [5, 10, 50, "All"]],
+
+                buttons: [
+                    'pageLength',
+                    { 
+                        extend: 'csv', 
+                        text: 'Save', 
+                        exportOptions: { 
+                            columns: ':not(:first-child)',  
+                            format: { 
+                                body: function (data) { 
+                                    return $('<div>' + data + '</div>').text().replace(/,/g, '');
+                                }
+                            }
+                        }
+                    },
+                    { extend: 'colvis', text: 'Columns' }
+                ],
+
+                columnDefs: [
+                   {
+                     	targets: 1,
+                        render: function (data, type, row, meta) {
+                            var text = $('<div>' + data + '</div>').text().trim();
+                            return '<p id="' + text + '">' + text + '</p>';
+                        }
+                    },
+                    {
+                        targets: 3,
+                        render: function (data, type, row, meta) {
+                            var text = $('<div>' + data + '</div>').text().trim();
+                            if ($.isNumeric(text)) {
+                                return Number(text).toLocaleString();
+                            }
+                            return data;
+                        }
+                    },
+                    {         
+                        targets: 4,
+                        render: function (data, type, row, meta) {
+                            var text = $('<div>' + data + '</div>').text().trim();
+                            var ndata = row[2];
+                            var ntext = $('<div>' + ndata + '</div>').text().trim();
+
+                            if ($.isNumeric(text)) {
+                                return '<a href="https://data.idies.jhu.edu/OcularMicrobiome/Consortium_data/JHU/' + ntext + '.unmapped.fasta.gz"' +
+                                    ' download title="click to download non-human read FASTQ.GZ file">' +
+                                    Number(text).toLocaleString()  +
+                                    '</a>';
+                            }
+                            return data;
+                        }
+                    },
+                    {
+                        targets: 11,   
+                        visible: false 
+                    }
+                ],
+                order: [[1, 'asc']]
+            });
+
+            // Update row numbers on draw, for current page only
+            dt.on('draw.dt', function () {
+                var info = dt.page.info();
+                dt.column(0, { page: 'current' }).nodes().each(function (cell, i) {
+                    cell.innerHTML = info.start + i + 1;
+                });
+            });
+
+            // Initial draw to fill row numbers immediately
+            dt.draw();
+        });
     });
-    });
+
+
+
     </script>    
 
 Samples
