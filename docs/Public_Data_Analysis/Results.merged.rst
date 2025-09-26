@@ -96,10 +96,8 @@
 Samples
 =======
 
-Top Species
------------
-
-**Species detected in at least 5% of unmapped reads (in any library)** 
+Species with Frequency of 5% or More per Sample
+-----------------------------------------------
 
 .. csv-table::
     :file: Results.merged.csv

@@ -94,9 +94,9 @@
 Samples
 =======
 
-Top Species
------------
+Species with Frequency of 0.1% or More
+--------------------------------------
 
-.. csv-table:: Species with frequency of 0.1% or more per sample
+.. csv-table::
     :file: Results.filtered+.csv
     :header-rows: 1
