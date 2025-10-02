@@ -1,26 +1,26 @@
-project_id,taxonomy_name,taxonomy_id,taxonomy_lvl,assigned_reads,added_reads,total_reads,fraction_total_reads_avg
-ocular-microbiome,Burkholderia contaminans,488447,S,73301629,13994048,87295677,0.08012
-ocular-microbiome,Bradyrhizobium sp. SK17,2057741,S,83724028,3880600,87604628,0.07944
-ocular-microbiome,Cutibacterium acnes,1747,S,12946202,90841,13037043,0.05647
-ocular-microbiome,Salmonella enterica,28901,S,109394882,97922493,207317375,0.0468
-ocular-microbiome,Escherichia coli,562,S,33674164,122017565,155691729,0.03467
-ocular-microbiome,Pseudomonas aeruginosa,287,S,55411693,98257476,153669169,0.03206
-ocular-microbiome,Bacillus subtilis,1423,S,7188997,76401589,83590586,0.01787
-ocular-microbiome,Listeria monocytogenes,1639,S,76420578,3387756,79808334,0.01601
-ocular-microbiome,Lactobacillus fermentum,1613,S,75533715,1673767,77207482,0.01487
-ocular-microbiome,Enterococcus faecalis,1351,S,67620237,2180709,69800946,0.01453
-ocular-microbiome,Bacillus intestinalis,1963032,S,209378,71272104,71481482,0.01364
-ocular-microbiome,Trypanosoma cruzi,5693,S,2116482,470778,2587260,0.01105
-ocular-microbiome,Staphylococcus aureus,1280,S,35335305,1775095,37110400,0.00955
-ocular-microbiome,Parabacteroides distasonis,823,S,649957,544217,1194174,0.0055
-ocular-microbiome,Salinivibrio sp. YCSC6,2003370,S,423225,252460,675685,0.00426
-ocular-microbiome,Salinivibrio costicola,51367,S,407287,246152,653439,0.00413
-ocular-microbiome,Saccharomyces cerevisiae,4932,S,17332789,25310,17358099,0.00347
-ocular-microbiome,Phocaeicola vulgatus,821,S,3051362,502155,3553517,0.00321
-ocular-microbiome,Xanthomonas campestris,339,S,111652,2182,113834,0.00247
-ocular-microbiome,Delftia tsuruhatensis,180282,S,78525,17037,95562,0.00195
-ocular-microbiome,Pseudomonas tolaasii,29442,S,148600,273154,421754,0.00186
-ocular-microbiome,Cryptosporidium hominis,237895,S,443978,103436,547414,0.00175
-ocular-microbiome,Bacteroides ovatus,28116,S,1821228,400268,2221496,0.00169
-ocular-microbiome,Prevotella melaninogenica,28132,S,475203,26412,501615,0.00158
-ocular-microbiome,Klebsiella pneumoniae,573,S,527487,966685,1494172,0.00148
+project_id,taxonomy_name,taxonomy_id,taxonomy_lvl,assigned_reads,added_reads,new_est_reads,avg_fraction_total_reads_per_sample,avg_reads_per_sample
+ocular-microbiome,Cutibacterium acnes,1747,S,14352980,115135,14468115,0.12271,74964
+ocular-microbiome,Burkholderia contaminans,488447,S,58705285,11296019,70001304,0.07126,362701
+ocular-microbiome,Salmonella enterica,28901,S,106448936,96928080,203377016,0.05653,1053767
+ocular-microbiome,Escherichia coli,562,S,33127612,121897021,155024633,0.04408,803236
+ocular-microbiome,Pseudomonas aeruginosa,287,S,54588401,98517399,153105800,0.0435,793294
+ocular-microbiome,Bradyrhizobium sp. SK17,2057741,S,66284501,3090356,69374857,0.03349,359455
+ocular-microbiome,Trypanosoma cruzi,5693,S,5515411,1306512,6821923,0.02939,35347
+ocular-microbiome,Bacillus subtilis,1423,S,7308670,77793408,85102078,0.02199,440943
+ocular-microbiome,Listeria monocytogenes,1639,S,88654942,4115190,92770132,0.02181,480674
+ocular-microbiome,Enterococcus faecalis,1351,S,80173223,2721516,82894739,0.02125,429506
+ocular-microbiome,Lactobacillus fermentum,1613,S,89686261,2003358,91689619,0.02076,475076
+ocular-microbiome,Staphylococcus aureus,1280,S,43379815,3000680,46380495,0.01965,240313
+ocular-microbiome,Bacillus intestinalis,1963032,S,217901,73900041,74117942,0.01788,384031
+ocular-microbiome,Xanthomonas campestris,339,S,553521,10750,564271,0.01584,2924
+ocular-microbiome,Cryptosporidium hominis,237895,S,2852671,984014,3836685,0.01492,19879
+ocular-microbiome,Delftia tsuruhatensis,180282,S,704294,188818,893112,0.01407,4628
+ocular-microbiome,Salinivibrio sp. YCSC6,2003370,S,489379,291417,780796,0.01095,4046
+ocular-microbiome,Salinivibrio costicola,51367,S,470865,283855,754720,0.01057,3910
+ocular-microbiome,Pseudomonas tolaasii,29442,S,2288109,1099094,3387203,0.01042,17550
+ocular-microbiome,Staphylococcus epidermidis,1282,S,286744,150530,437274,0.00965,2266
+ocular-microbiome,Malassezia restricta,76775,S,733514,69,733583,0.008,3801
+ocular-microbiome,Saccharomyces cerevisiae,4932,S,29371558,43439,29414997,0.0079,152409
+ocular-microbiome,Microbacterium aurum,36805,S,4663779,571670,5235449,0.00778,27127
+ocular-microbiome,Streptomyces lividans,1916,S,2124579,954337,3078916,0.00646,15953
+ocular-microbiome,Burkholderia lata,482957,S,5097274,1192062,6289336,0.00637,32587

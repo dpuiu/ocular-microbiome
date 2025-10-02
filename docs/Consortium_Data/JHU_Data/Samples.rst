@@ -53,7 +53,7 @@
                         }
                     },
                     {
-                        targets: 3,
+                        targets: [3,5],
                         render: function (data, type, row, meta) {
                             var text = $('<div>' + data + '</div>').text().trim();
                             if ($.isNumeric(text)) {
@@ -77,10 +77,6 @@
                             }
                             return data;
                         }
-                    },
-                    {
-                        targets: 11,   
-                        visible: false 
                     }
                 ],
                 order: [[1, 'asc']]
@@ -98,8 +94,6 @@
             dt.draw();
         });
     });
-
-
 
     </script>    
 

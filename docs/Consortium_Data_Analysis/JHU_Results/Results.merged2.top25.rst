@@ -49,7 +49,7 @@
               }
             },
             {
-              targets: [5,6,7,8],
+              targets: [5,6,7,8,9],
               render: function (data, type, row, meta) {
                 var text = $('<div>' + data + '</div>').text().trim();
                 if ($.isNumeric(text)) {
@@ -83,15 +83,7 @@
 Project
 =======
 
-Top 25 Species
---------------
-
-.. raw:: html
-   :file: Results.merged.top25.html
-
-----
-
-.. csv-table:: Top 25 Species
+.. csv-table:: Top Species
    :file: Results.merged2.top25.csv
    :header-rows: 1
    :widths: auto
