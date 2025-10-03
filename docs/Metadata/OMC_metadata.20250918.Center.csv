@@ -1,5 +1,0 @@
-Field Name,Improved Description,Example,Notes
-center_id,Unique code or acronym for the center,JHU,required
-center_name,"Full name of the parent center, lab, or institution",Johns Hopkins University,required
-contact_name,Name of submitting PI or contact person,Laura Ensign,required
-contact_email,Primary contact's email,lensign@jhmi.edu,required

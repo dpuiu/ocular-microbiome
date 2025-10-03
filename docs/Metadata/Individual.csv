@@ -1,1 +1,11 @@
-OMC_metadata.20251002.Individual.csv
+Field Name,Description,Example,Notes
+individual_id,Unique identifier for individual/subject,OMI00001,required
+individual_alias,Internal code or label for the individual within a study,52,recommended
+birth_year,Year of birth (YYYY),1990,recommended
+age,Age of subject at collection (years),35,recommended
+sex,"Biological sex at birth (M, F, Other, Unknown)",M,required
+ethnicity,Self-identified ethnicity or race (full term),African American,recommended
+disease_status,"Health status or diagnosis (""healthy"", disease name, diagnosis)",healthy,recommended
+longitudinal_sampling,Indicate repeated sampling across time points (yes/no),yes,recommended
+treatment,Treatment or medication info prior to/in context of sampling,none,recommended
+consent_code,Study consent or IRB protocol identifier,IRB2024-001,required

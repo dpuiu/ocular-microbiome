@@ -1,9 +1,0 @@
-Field Name,Description,Example,Notes
-project_id,Short unique project identifier or acronym,ocular-microbiome,required
-project_name,Full name of the research project,Ocular Microbiome Project,required
-project_goal,Brief summary of project aim or objective,Investigate the microbial composition on the surface of the human eye.,required
-project_type,"Main methodological approach (e.g., metagenomic, genomic,RNA-Seq)",Metagenomic,required
-project_design,"Description of project design, experiment type or sampling scheme",Cross-sectional observational study of healthy and diseased eyes,recommended
-bioproject_accession,NCBI BioProject accession number (if available),PRJNA123456,recommended
-contact_name,"Project coordinator, PI, or submitter",Lisa A. Neuhold,required
-contact_email,Email address of coordinator/submitter,lneuhold@nei.nih.gov,required

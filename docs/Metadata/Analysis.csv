@@ -1,1 +1,12 @@
-OMC_metadata.20251002.Analysis.csv
+field_name,description,example,notes
+sample_id,Unique identifier for the sequencing run,OMR00001 (jhu00001),
+taxonomy_name,The scientific classification name of an organism,Cutibacterium acnes,
+abbreviation,The shortened form or taxonomy_name,C. acnes,
+taxonomy_id,A unique identifier that corresponds to a specific taxonomic classification within NCBI,1747,
+taxonomy_lvl,"The rank or level of classification within the taxonomic hierarchy, such as kingdom, phylum, or species.",S (species),
+assigned_read,The number of sequencing reads assigned unambiguously to this specific taxonomic group by the non_human_read_classification_software,10000,
+added_reads,The number of additional reads assigned to this specific taxonomic group,1000,
+microbial_reads,assigned_reads+added_reads assigned to this specific taxonomic group,11000,
+total_microbial_read,sum of total_microbial_read for all species in this sample,10000000,
+fraction_microbial_reads,(assigned_reads+added_reads)/total_microbial_reads,0.1,
+avg_fraction_microbial_reads,average fraction_microbial_reads assigned to this specific taxonomic group for multiple samples,0.15,
