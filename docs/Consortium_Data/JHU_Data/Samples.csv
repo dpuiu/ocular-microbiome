@@ -1,194 +1,194 @@
 sample_id,sample_name,total_reads,non_human_reads,kraken_assigned_human_reads,sequencing_date,batch_plate_location,biosample_site,extraction_kit,host_depletion,lysozyme_treatment,nucleic_acid_concentration,sample_volume,biosample_side,individual_id,biosample_alias,stabilizing_fluid,stabilizing_fluid_lot,microbial_standard,swab_type
-jhu00001,Molzym_Ultra_Deep_Air_Ctr_3_S20,48265834.0,10005673.0,52367.0,2024-03-14,S1273-SC1 A03,Air Control,Molzym Ultra-Deep Microbiome Prep,.,0,6.3 ng/ul,50 ul,.,.,.,.,.,no,.
-jhu00004,Molzym_Ultra_Deep_MCS_1-100_4_S8,72009445.0,69784135.0,5663.0,2024-03-14,S1273-SC1 A04,.,Molzym Ultra-Deep Microbiome Prep,.,0,16 ng/ul,50 ul,.,.,.,.,.,yes,.
-jhu00005,Qiagen_DNeasy_Air_Ctr_3_S10,52434861.0,5413108.0,48525.0,2024-03-14,S1273-SC1 A11,Air Control,Qiagen DNeasy Blood & Tissue Kit,.,0,1.2 ng/ul,50 ul,.,.,.,.,.,no,.
-jhu00008,Qiagen_DNeasy_MCS_1-100_4_S18,98376897.0,97247641.0,331.0,2024-03-14,S1273-SC1 A12,.,Qiagen DNeasy Blood & Tissue Kit,.,0,3.5 ng/ul,50 ul,.,.,.,.,.,yes,.
-jhu00009,Qiagen_Soil_Air_Ctr_3_S2,717757.0,4579.0,122.0,2024-03-14,S1273-SC1 A07,Air Control,Qiagen DNeasy PowerMax Soil Kit,.,0,0 ng/ul,200 ul,.,.,.,.,.,no,.
-jhu00012,Qiagen_Soil_MCS_1-100_4_S5,18930999.0,17666737.0,770.0,2024-03-14,S1273-SC1 A08,.,Qiagen DNeasy PowerMax Soil Kit,.,0,1.5 ng/ul,200 ul,.,.,.,.,.,yes,.
-jhu00013,Thermo_MagMax_Air_Ctr_3_S21,60308293.0,27799952.0,25746.0,2024-03-14,S1273-SC1 B07,Air Control,Thermo Fisher MagMAX™ Pathogen RNA/DNA Kit,.,0,2.8 ng/ul,50 ul,.,.,.,.,.,no,.
-jhu00017,Zymo_Magbead_Air_Ctr_3_S4,59730283.0,57956237.0,9273.0,2024-03-14,S1273-SC1 B11,Air Control,Zymo Magbead Kit,.,0,0.1 ng/ul,50 ul,.,.,.,.,.,no,.
-jhu00020,Zymo_Magbead_MCS_1-100_4_S22,55883346.0,54189462.0,8223.0,2024-03-14,S1273-SC1 B12,.,Zymo Magbead Kit,.,0,0.4 ng/ul,50 ul,.,.,.,.,.,yes,.
-jhu00021,Zymo_Mini_prep_Air_Ctr_3_S19,51666532.0,49977453.0,3770.0,2024-03-14,S1273-SC1 B03,Air Control,Zymo Mini Prep Kit,.,0,1.8 ng/ul,50 ul,.,.,.,.,.,no,.
-jhu00024,Zymo_Mini_prep_MCS_1-100_4_S13,59266306.0,58421667.0,636.0,2024-03-14,S1273-SC1 B04,.,Zymo Mini Prep Kit,.,0,5.3 ng/ul,50 ul,.,.,.,.,.,yes,.
-jhu00025,MasterPure_Air_Ctr_3_S34,22172626.0,18257574.0,6016.0,2024-07-15,S1289-SC1 A03,Air Control,MasterPure Gram Positive DNA Purification Kit,.,0,10.6 ng/ul,50 ul,.,.,.,.,.,no,.
-jhu00030,MasterPure_Lyso_MCS_1_100_4_S39,81023723.0,78755608.0,1101.0,2024-07-15,S1289-SC1 A08,.,MasterPure Gram Positive DNA Purification Kit,.,1,36.2 ng/ul,50 ul,.,100,.,.,.,yes,.
-jhu00031,MasterPure_Lysol_Air_Ctr_3_S38,23135866.0,18077534.0,10651.0,2024-07-15,S1289-SC1 A07,Air Control,MasterPure Gram Positive DNA Purification Kit,.,1,20.6 ng/ul,50 ul,.,.,.,.,.,no,.
-jhu00032,MasterPure_MCS_1_100_4_S35,78906076.0,76560480.0,2968.0,2024-07-15,S1289-SC1 A04,.,MasterPure Gram Positive DNA Purification Kit,.,0,43.9 ng/ul,50 ul,.,100,.,.,.,yes,.
-jhu00033,MasterPure_MolYsis_Basic_5_Air_Ctr_3_S42,2513359.0,1956435.0,970.0,2024-07-15,S1289-SC1 A11,Air Control,MasterPure Gram Positive DNA Purification Kit,MolYsis™ Basic7,0,12 ng/ul,35 ul,.,.,.,.,.,no,.
-jhu00036,MasterPure_MolYsis_Basic_5_MCS_1_100_4_S43,62161455.0,59433187.0,1366.0,2024-07-15,S1289-SC1 A12,.,MasterPure Gram Positive DNA Purification Kit,MolYsis™ Basic8,0,10.3 ng/ul,35 ul,.,100,.,.,.,yes,.
-jhu00037,MasterPure_NEB_Air_Ctr_3_S46,56029521.0,53224864.0,8591.0,2024-07-15,S1289-SC1 B03,Air Control,MasterPure Gram Positive DNA Purification Kit,NEBNext Microbiome DNA Enrichment Kit,0,4.9 ng/ul,35 ul,.,.,.,.,.,no,.
-jhu00040,MasterPure_NEB_MCS_1_100_4_S47,69979815.0,68512694.0,885.0,2024-07-15,S1289-SC1 B04,.,MasterPure Gram Positive DNA Purification Kit,NEBNext Microbiome DNA Enrichment Kit,0,15 ng/ul,35 ul,.,100,.,.,.,yes,.
-jhu00041,MasterPure_Zymo_HostZero_200ul_Air_Ctr_3_S29,1292866.0,936206.0,1689.0,2024-07-15,S1289-SC1 B07,Air Control,MasterPure Gram Positive DNA Purification Kit,Zymo HostZero,0,20.2 ng/ul,35 ul,.,.,.,.,.,no,.
-jhu00044,MasterPure_Zymo_HostZero_MCS_1_100_4_S30,55949505.0,53921998.0,3901.0,2024-07-15,S1289-SC1 B08,.,MasterPure Gram Positive DNA Purification Kit,Zymo HostZero,0,21.2 ng/ul,35 ul,.,100,.,.,.,yes,.
-jhu00046,MasterPure_MCS_7_S56,22827811.0,22605228.0,192.0,2024-10-28,S1304-SC1 C05,.,MasterPure Gram Positive DNA Purification Kit,.,0,22.7 ng/ul,50 ul,.,.,.,.,.,yes,.
-jhu00047,MasterPure_MCS_HostZero_3_S3,23207708.0,22355787.0,4029.0,2024-10-28,S1304-SC1 C01,.,MasterPure Gram Positive DNA Purification Kit,.,0,34 ng/ul,50 ul,.,.,.,.,.,yes,.
-jhu00048,MasterPure_MCS_MolYsis_1_S59,18014237.0,17775556.0,2837.0,2024-10-28,S1304-SC1 B11,.,Molzym Ultra-Deep Microbiome Prep,.,0,26.1 ng/ul,50 ul,.,.,.,.,.,yes,.
-jhu00049,MasterPure_MCS_NEB_5_S34,22510110.0,22246672.0,194.0,2024-10-28,S1304-SC1 C03,.,MasterPure Gram Positive DNA Purification Kit,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,0,10.9 ng/ul,50 ul,.,.,.,.,.,yes,.
-jhu00050,MasterPure_OMR_8_S22,8911434.0,7943287.0,915.0,2024-10-28,S1304-SC1 C06,.,MasterPure Gram Positive DNA Purification Kit,.,0,20.1 ng/ul,50 ul,.,.,.,OMR,110,no,.
-jhu00051,MasterPure_OMR_HostZero_4_S24,4428396.0,4101482.0,474.0,2024-10-28,S1304-SC1 C02,.,MasterPure Gram Positive DNA Purification Kit,.,0,30.6 ng/ul,50 ul,.,.,.,OMR,110,no,.
-jhu00052,MasterPure_OMR_MolYsis_2_S42,5820531.0,5359746.0,809.0,2024-10-28,S1304-SC1 B12,.,Molzym Ultra-Deep Microbiome Prep,.,0,15 ng/ul,50 ul,.,.,.,OMR,110,no,.
-jhu00053,MasterPure_OMR_NEB_6_S15,12119044.0,11587585.0,1190.0,2024-10-28,S1304-SC1 C04,.,MasterPure Gram Positive DNA Purification Kit,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,0,10.1 ng/ul,50 ul,.,.,.,OMR,110,no,.
-jhu00054,Molzym_Ultra-Deep_MCS_1_S11,12789593.0,12249405.0,1057.0,2024-10-28,S1304-SC1 B05,.,Molzym Ultra-Deep Microbiome Prep,.,0,5.2 ng/ul,50 ul,.,.,.,.,.,yes,.
-jhu00055,Molzym_Ultra-Deep_MCS_HostZero_3_S19,8798826.0,8223625.0,739.0,2024-10-28,S1304-SC1 B07,.,Molzym Ultra-Deep Microbiome Prep,.,0,4.9 ng/ul,50 ul,.,.,.,.,.,yes,.
-jhu00056,Molzym_Ultra-Deep_MCS_NEB_5_S44,15138766.0,14768077.0,1249.0,2024-10-28,S1304-SC1 B09,.,Molzym Ultra-Deep Microbiome Prep,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,0,6.3 ng/ul,30 ul,.,.,.,.,.,yes,.
-jhu00057,Molzym_Ultra-Deep_OMR_2_S10,8739573.0,8144617.0,1787.0,2024-10-28,S1304-SC1 B06,.,Molzym Ultra-Deep Microbiome Prep,.,0,0.2 ng/ul,50 ul,.,.,.,OMR,110,no,.
-jhu00058,Molzym_Ultra-Deep_OMR_HostZero_4_S37,1712697.0,1283586.0,771.0,2024-10-28,S1304-SC1 B08,.,Molzym Ultra-Deep Microbiome Prep,.,0,2.8 ng/ul,50 ul,.,.,.,OMR,110,no,.
-jhu00059,Molzym_Ultra-Deep_OMR_NEB_6_S32,12171299.0,11565756.0,1487.0,2024-10-28,S1304-SC1 B10,.,Molzym Ultra-Deep Microbiome Prep,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,0,6.6 ng/ul,30 ul,.,.,.,OMR,110,no,.
-jhu00062,Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47,26788711.0,26620598.0,95.0,2024-10-28,S1304-SC1 E05,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,13 ng/ul,30 ul,.,.,.,OMR,BD801,yes,.
-jhu00063,Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23,20760644.0,20569289.0,113.0,2024-10-28,S1304-SC1 E06,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,6.5 ng/ul,30 ul,.,.,.,OMR,BH802,yes,.
-jhu00064,Qiagen_DNeasy_MCS_7_S2,22718068.0,22516590.0,103.0,2024-10-28,S1304-SC1 A07,.,Qiagen DNeasy Blood_Tissue Kit,.,0,7.3 ng/ul,30 ul,.,.,.,.,.,yes,.
-jhu00065,Qiagen_DNeasy_MCS_HostZero_3_S5,14225290.0,13732825.0,7841.0,2024-10-28,S1304-SC1 A03,.,Qiagen DNeasy Blood_Tissue Kit,.,0,3.5 ng/ul,30 ul,.,.,.,.,.,yes,.
-jhu00066,Qiagen_DNeasy_MCS_MolYsis_1_S72,20690503.0,20391814.0,1618.0,2024-10-28,S1304-SC1 A01,.,Qiagen DNeasy Blood & Tissue Kit,.,0,3.2 ng/ul,30 ul,.,.,.,.,.,yes,.
-jhu00067,Qiagen_DNeasy_MCS_NEB_5_S60,24164234.0,23905676.0,87.0,2024-10-28,S1304-SC1 A05,.,Qiagen DNeasy Blood_Tissue Kit,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,0,4.2 ng/ul,30 ul,.,.,.,.,.,yes,.
-jhu00068,Qiagen_DNeasy_OMR1_BD801_S61,10270188.0,9539120.0,1730.0,2024-10-28,S1304-SC1 E07,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.4 ng/ul,30 ul,.,.,.,OMR,BD801,no,.
-jhu00069,Qiagen_DNeasy_OMR2_BH802_S12,13987582.0,13258485.0,3251.0,2024-10-28,S1304-SC1 E08,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,2.1 ng/ul,30 ul,.,.,.,OMR,BH802,no,.
-jhu00070,Qiagen_DNeasy_OMR_2_S74,8562095.0,7757781.0,4662.0,2024-10-28,S1304-SC1 A08,.,Qiagen DNeasy Blood_Tissue Kit,.,0,1.7 ng/ul,30 ul,.,.,.,OMR,110,no,.
-jhu00071,Qiagen_DNeasy_OMR_HostZero_4_S38,3567954.0,2977704.0,3790.0,2024-10-28,S1304-SC1 A04,.,Qiagen DNeasy Blood_Tissue Kit,.,0,3.5 ng/ul,30 ul,.,.,.,OMR,110,no,.
-jhu00072,Qiagen_DNeasy_OMR_MolYsis_2_S53,10729728.0,9911422.0,22912.0,2024-10-28,S1304-SC1 A02,.,Qiagen DNeasy Blood_Tissue Kit,.,0,2 ng/ul,30 ul,.,.,.,OMR,110,no,.
-jhu00073,Qiagen_DNeasy_OMR_NEB_6_S57,12694537.0,12171104.0,1513.0,2024-10-28,S1304-SC1 A06,.,Qiagen DNeasy Blood_Tissue Kit,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,0,3.41 ng/ul,30 ul,.,.,.,OMR,110,no,.
-jhu00074,Qiagen_DNeasy_Water_S70,11108913.0,10645462.0,1356.0,2024-10-28,S1304-SC1 E09,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,2.2 ng/ul,30 ul,.,.,.,.,.,no,.
-jhu00075,Qiagen_Dneasy_CS_001_Air_Swab_S39,10548488.0,9733137.0,4230.0,2024-10-28,S1304-SC1 D01,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,1.9 ng/ul,30 ul,.,001,.,.,.,no,.
-jhu00076,Qiagen_Dneasy_CS_001_Right_Eye_S28,63568721.0,410412.0,30863.0,2024-10-28,S1304-SC1 C12,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,27.7 ng/ul,30 ul,Right,001,.,.,.,no,.
-jhu00077,Qiagen_Dneasy_CS_002_Air_Swab_S62,10577681.0,8643576.0,2630.0,2024-10-28,S1304-SC1 D03,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.7 ng/ul,30 ul,.,002,.,.,.,no,.
-jhu00078,Qiagen_Dneasy_CS_002_Left_Eye_S21,27925922.0,108620.0,11720.0,2024-10-28,S1304-SC1 D02,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,18.7 ng/ul,30 ul,Left,002,.,.,.,no,.
-jhu00079,Qiagen_Dneasy_CS_003_Air_Swab_S18,12364167.0,11888030.0,1775.0,2024-10-28,S1304-SC1 D05,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,1.3 ng/ul,30 ul,.,003,.,.,.,no,.
-jhu00080,Qiagen_Dneasy_CS_003_Right_Eye_S58,27503333.0,136517.0,10013.0,2024-10-28,S1304-SC1 D04,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,6 ng/ul,30 ul,Right,003,.,.,.,no,.
-jhu00081,Qiagen_Dneasy_CS_004_Air_Swab_S52,5364087.0,5018344.0,2017.0,2024-10-28,S1304-SC1 D07,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,7.6 ng/ul,30 ul,.,004,.,.,.,no,.
-jhu00082,Qiagen_Dneasy_CS_004_Left_Eye_S27,20291771.0,265638.0,10481.0,2024-10-28,S1304-SC1 D06,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,2.7 ng/ul,30 ul,Left,004,.,.,.,no,.
-jhu00083,Qiagen_Dneasy_CS_005_Air_Swab_S67,12532134.0,11494954.0,3457.0,2024-10-28,S1304-SC1 D09,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,4.3 ng/ul,30 ul,.,005,.,.,.,no,.
-jhu00084,Qiagen_Dneasy_CS_005_Right_Eye_S54,61006949.0,406364.0,25827.0,2024-10-28,S1304-SC1 D08,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,14.2 ng/ul,30 ul,Right,005,.,.,.,no,.
-jhu00085,Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51,18904920.0,12505470.0,7113.0,2024-10-28,S1304-SC1 E01,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,1.6 ng/ul,30 ul,.,006,.,.,.,no,.
-jhu00086,Qiagen_Dneasy_CS_006_Left_Eye_S31,20958993.0,237523.0,10303.0,2024-10-28,S1304-SC1 D10,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.4 ng/ul,30 ul,Left,006,.,.,.,no,.
-jhu00087,Qiagen_Dneasy_CS_007_Right_Eye_S4,18985908.0,88107.0,7738.0,2024-10-28,S1304-SC1 D11,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,11.7 ng/ul,30 ul,Right,007,.,.,.,no,.
-jhu00088,Qiagen_Dneasy_CS_008_Left_Eye_S33,56216667.0,556078.0,25509.0,2024-10-28,S1304-SC1 D12,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.1 ng/ul,30 ul,Left,008,.,.,.,no,.
-jhu00089,Qiagen_Dneasy_CS_009_10_Air_Swab_S48,12072399.0,10793358.0,2854.0,2024-10-28,S1304-SC1 E04,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,5.6 ng/ul,30 ul,.,009,.,.,.,no,.
-jhu00090,Qiagen_Dneasy_CS_009_Right_Eye_S41,21643335.0,120809.0,11934.0,2024-10-28,S1304-SC1 E02,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,7.2 ng/ul,30 ul,Right,009,.,.,.,no,.
-jhu00091,Qiagen_Dneasy_CS_010_Left_Eye_S45,20577802.0,559804.0,9849.0,2024-10-28,S1304-SC1 E03,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,5.7 ng/ul,30 ul,Left,010,.,.,.,no,.
-jhu00092,Qiagen_Soil_MCS_1_S29,17896553.0,17597321.0,804.0,2024-10-28,S1304-SC1 C07,.,Qiagen DNeasy PowerMax Soil Kit,.,0,6.2 ng/ul,1400 ul,.,.,.,.,.,yes,.
-jhu00093,Qiagen_Soil_OMR_8_S40,15420797.0,14946070.0,1953.0,2024-10-28,S1304-SC1 C08,.,Qiagen DNeasy PowerMax Soil Kit,.,0,3.9 ng/ul,1600 ul,.,.,.,OMR,110,no,.
-jhu00094,Water_S63,1731585.0,1513206.0,192.0,2024-10-28,S1304-SC1 C11,Water Control,Control,.,0,,50 ul,.,.,.,.,.,no,.
-jhu00095,Zymo_Mini_Prep_CS_001_Air_Swab_S8,3865306.0,3144802.0,673.0,2024-10-28,S1304-SC1 E11,Clinical Sample,Zymo Mini Prep Kit,.,0,0.9 ng/ul,50 ul,.,001,.,.,.,no,.
-jhu00096,Zymo_Mini_Prep_CS_001_Right_Eye_S46,11081608.0,5244815.0,6349.0,2024-10-28,S1304-SC1 E10,Clinical Sample,Zymo Mini Prep Kit,.,0,1.3 ng/ul,50 ul,Right,001,.,.,.,no,.
-jhu00097,Zymo_Mini_Prep_CS_002_Air_Swab_S64,5510196.0,4433238.0,1308.0,2024-10-28,S1304-SC1 F01,Clinical Sample,Zymo Mini Prep Kit,.,0,3.1 ng/ul,50 ul,.,002,.,.,.,no,.
-jhu00099,Zymo_Mini_Prep_CS_003_Air_Swab_S77,8990156.0,8211156.0,1360.0,2024-10-28,S1304-SC1 F03,Clinical Sample,Zymo Mini Prep Kit,.,0,1 ng/ul,50 ul,.,003,.,.,.,no,.
-jhu00100,Zymo_Mini_Prep_CS_003_Right_Eye_S13,21233200.0,1063632.0,8144.0,2024-10-28,S1304-SC1 F02,Clinical Sample,Zymo Mini Prep Kit,.,0,2.3 ng/ul,50 ul,Right,003,.,.,.,no,.
-jhu00101,Zymo_Mini_Prep_CS_004_Air_Swab_S66,3362129.0,2724980.0,557.0,2024-10-28,S1304-SC1 F05,Clinical Sample,Zymo Mini Prep Kit,.,0,0.1 ng/ul,50 ul,.,004,.,.,.,no,.
-jhu00102,Zymo_Mini_Prep_CS_004_Left_Eye_S78,13074025.0,4215943.0,4159.0,2024-10-28,S1304-SC1 F04,Clinical Sample,Zymo Mini Prep Kit,.,0,2 ng/ul,50 ul,Left,004,.,.,.,no,.
-jhu00103,Zymo_Mini_Prep_CS_005_Air_Swab_S30,9418209.0,8879210.0,932.0,2024-10-28,S1304-SC1 F07,Clinical Sample,Zymo Mini Prep Kit,.,0,2.2 ng/ul,50 ul,.,005,.,.,.,no,.
-jhu00104,Zymo_Mini_Prep_CS_005_Right_Eye_S17,20478328.0,1145887.0,7550.0,2024-10-28,S1304-SC1 F06,Clinical Sample,Zymo Mini Prep Kit,.,0,2.9 ng/ul,50 ul,Right,005,.,.,.,no,.
-jhu00105,Zymo_Mini_Prep_CS_006_7_8_Air_Swab_S14,4474818.0,3768098.0,604.0,2024-10-28,S1304-SC1 F11,Clinical Sample,Zymo Mini Prep Kit,.,0,1.8 ng/ul,50 ul,.,006,.,.,.,no,.
-jhu00106,Zymo_Mini_Prep_CS_006_Left_Eye_S79,16552663.0,808661.0,6560.0,2024-10-28,S1304-SC1 F08,Clinical Sample,Zymo Mini Prep Kit,.,0,1.9 ng/ul,50 ul,Left,006,.,.,.,no,.
-jhu00107,Zymo_Mini_Prep_CS_007_Right_Eye_S68,16047824.0,162005.5,5708.0,2024-10-28,S1304-SC1 F09,Clinical Sample,Zymo Mini Prep Kit,.,0,2 ng/ul,50 ul,Right,007,.,.,.,no,.
-jhu00108,Zymo_Mini_Prep_CS_008_Left_Eye_S26,17618592.0,3403371.0,6153.0,2024-10-28,S1304-SC1 F10,Clinical Sample,Zymo Mini Prep Kit,.,0,1.2 ng/ul,50 ul,Left,008,.,.,.,no,.
-jhu00109,Zymo_Mini_Prep_CS_009_10_Air_Swab_S73,5003257.0,4419076.0,673.0,2024-10-28,S1304-SC1 G02,Clinical Sample,Zymo Mini Prep Kit,.,0,2.2 ng/ul,50 ul,.,009,.,.,.,no,.
-jhu00110,Zymo_Mini_Prep_CS_009_Right_Eye_S71,19382814.0,476117.0,7415.0,2024-10-28,S1304-SC1 F12,Clinical Sample,Zymo Mini Prep Kit,.,0,1.8 ng/ul,50 ul,Right,009,.,.,.,no,.
-jhu00111,Zymo_Mini_Prep_CS_010_Left_Eye_S75,8987137.0,7976684.0,1726.0,2024-10-28,S1304-SC1 G01,Clinical Sample,Zymo Mini Prep Kit,.,0,2.1 ng/ul,50 ul,Left,010,.,.,.,no,.
-jhu00112,Zymo_Mini_Prep_MCS_1_in_OMR_BD801_S9,20867830.0,20611680.0,163.0,2024-10-28,S1304-SC1 G03,Clinical Sample,Zymo Mini Prep Kit,.,0,2 ng/ul,50 ul,.,.,.,OMR,BD801,yes,.
-jhu00113,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,20006684.0,19805953.0,466.0,2024-10-28,S1304-SC1 G04,Clinical Sample,Zymo Mini Prep Kit,.,0,1.5 ng/ul,50 ul,.,.,.,OMR,BH802,yes,.
-jhu00114,Zymo_Mini_Prep_MCS_7_S25,22195564.0,21943498.0,683.0,2024-10-28,S1304-SC1 B03,.,Zymo Mini Prep Kit,.,0,1 ng/ul,50 ul,.,.,.,.,.,yes,.
-jhu00115,Zymo_Mini_Prep_MCS_HostZero_3_S20,20598314.0,20427516.0,792.0,2024-10-28,S1304-SC1 A11,.,Zymo Mini Prep Kit,.,0,4.2 ng/ul,50 ul,.,.,.,.,.,yes,.
-jhu00116,Zymo_Mini_Prep_MCS_MolYsis_1_S49,18034682.0,17861514.0,507.0,2024-10-28,S1304-SC1 A09,.,Zymo Mini Prep Kit,.,0,15.4 ng/ul,50 ul,.,.,.,.,.,yes,.
-jhu00117,Zymo_Mini_Prep_MCS_NEB_5_S76,25011543.0,24711086.0,871.0,2024-10-28,S1304-SC1 B01,.,Zymo Mini Prep Kit,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,0,5.6 ng/ul,30 ul,.,.,.,.,.,yes,.
-jhu00118,Zymo_Mini_Prep_OMR1_BD801_S69,3378979.0,2867809.0,886.0,2024-10-28,S1304-SC1 G05,Clinical Sample,Zymo Mini Prep Kit,.,0,1.6 ng/ul,50 ul,.,.,.,OMR,BD801,no,.
-jhu00119,Zymo_Mini_Prep_OMR2_BH802_S7,9565686.0,8750490.0,1264.0,2024-10-28,S1304-SC1 G06,Clinical Sample,Zymo Mini Prep Kit,.,0,2.2 ng/ul,50 ul,.,.,.,OMR,BH802,no,.
-jhu00120,Zymo_Mini_Prep_OMR_8_S36,7325092.0,6791060.0,2532.0,2024-10-28,S1304-SC1 B04,.,Zymo Mini Prep Kit,.,0,0.9 ng/ul,50 ul,.,.,.,OMR,110,no,.
-jhu00121,Zymo_Mini_Prep_OMR_HostZero_4_S1,5204592.0,4589243.0,1518.0,2024-10-28,S1304-SC1 A12,.,Zymo Mini Prep Kit,.,0,2.7 ng/ul,50 ul,.,.,.,OMR,110,no,.
-jhu00122,Zymo_Mini_Prep_OMR_MolYsis_2_S16,5940753.0,5399975.0,5665.0,2024-10-28,S1304-SC1 A10,.,Zymo Mini Prep Kit,.,0,2.9 ng/ul,50 ul,.,.,.,OMR,110,no,.
-jhu00123,Zymo_Mini_Prep_OMR_NEB_6_S55,17319034.0,14964598.0,5977.0,2024-10-28,S1304-SC1 B02,.,Zymo Mini Prep Kit,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,0,1.8 ng/ul,30 ul,.,.,.,OMR,110,no,.
-jhu00124,Zymo_Mini_Prep_Water_S65,7803267.0,7185311.0,822.0,2024-10-28,S1304-SC1 G07,Clinical Sample,Zymo Mini Prep Kit,.,0,1.9 ng/ul,50 ul,.,.,.,.,.,no,.
-jhu00125,10_Zymo_Micro_Prep_CS_010_Right_Eye_S90,22829843.0,39147.0,13230.0,2025-03-14,S1289-SC2 A10,Clinical Sample,Zymo Micro Prep Kit,.,0,1.1 ng/ul,20 ul,Right,010,.,.,.,no,.
-jhu00126,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,1916577.0,412844.0,1595.0,2025-03-14,S1289-SC2 A11,Clinical Sample,Zymo Micro Prep Kit,.,0,0.9 ng/ul,20 ul,.,007,.,.,.,no,.
-jhu00127,12_Zymo_Micro_Prep_CS_010_Air_Swab_S92,1603876.0,591925.0,1624.0,2025-03-14,S1289-SC2 A12,Clinical Sample,Zymo Micro Prep Kit,.,0,1.3 ng/ul,20 ul,.,010,.,.,.,no,.
-jhu00128,13_Zymo_Microprep_MCS_OMR_BD801_S93,30759260.0,30455392.0,818.0,2025-03-14,S1289-SC2 B01,.,Zymo Micro Prep Kit,.,0,5.2 ng/ul,20 ul,.,.,.,OMR,BD801,yes,.
-jhu00129,14_Zymo_Microprep_OMR_BD801_S94,2242493.0,1513858.0,816.0,2025-03-14,S1289-SC2 B02,.,Zymo Micro Prep Kit,.,0,0.7 ng/ul,20 ul,.,.,.,OMR,110,no,.
-jhu00130,15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95,6105462.0,3043128.0,3334.0,2025-03-14,S1289-SC2 B03,Clinical Sample,Qiagen PowerSoil Pro Kits,.,0,3.5 ng/ul,30 ul,Left,001,.,.,.,no,.
-jhu00131,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,18059110.0,120067.0,7196.0,2025-03-14,S1289-SC2 B04,Clinical Sample,Qiagen PowerSoil Pro Kits,.,0,5.1 ng/ul,30 ul,Right,002,.,.,.,no,.
-jhu00132,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,19023316.0,52146.0,11086.0,2025-03-14,S1289-SC2 B05,Clinical Sample,Qiagen PowerSoil Pro Kits,.,0,23.9 ng/ul,30 ul,Left,003,.,.,.,no,.
-jhu00133,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,5014379.0,690204.0,3896.0,2025-03-14,S1289-SC2 B06,Clinical Sample,Qiagen PowerSoil Pro Kits,.,0,3.2 ng/ul,30 ul,Right,004,.,.,.,no,.
-jhu00134,19_Qiagen_Soil_Pro_CS_005_Left_Eye_S3,21975922.0,34438.0,10579.0,2025-03-14,S1289-SC2 B07,Clinical Sample,Qiagen PowerSoil Pro Kits,.,0,2.4 ng/ul,30 ul,Left,005,.,.,.,no,.
-jhu00135,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,19750549.0,118265.0,13209.0,2025-03-14,S1289-SC2 A01,Clinical Sample,Zymo Micro Prep Kit,.,0,0.5 ng/ul,20 ul,Left,001,.,.,.,no,.
-jhu00136,20_Qiagen_Soil_Pro_CS_006_Right_Eye_S4,27376454.0,40759.0,14406.0,2025-03-14,S1289-SC2 B08,Clinical Sample,Qiagen PowerSoil Pro Kits,.,0,3.1 ng/ul,30 ul,Right,006,.,.,.,no,.
-jhu00137,21_Qiagen_Soil_Pro_CS_007_Left_Eye_S5,22349521.0,50563.0,10114.0,2025-03-14,S1289-SC2 B09,Clinical Sample,Qiagen PowerSoil Pro Kits,.,0,21.1 ng/ul,30 ul,Left,007,.,.,.,no,.
-jhu00138,22_Qiagen_Soil_Pro_CS_008_Right_Eye_S6,13394471.0,20150.0,6212.0,2025-03-14,S1289-SC2 B10,Clinical Sample,Qiagen PowerSoil Pro Kits,.,0,31.1 ng/ul,30 ul,Right,008,.,.,.,no,.
-jhu00139,23_Qiagen_Soil_Pro_CS_009_Left_Eye_S7,18480069.0,24391.0,7845.0,2025-03-14,S1289-SC2 B11,Clinical Sample,Qiagen PowerSoil Pro Kits,.,0,3.2 ng/ul,30 ul,Left,009,.,.,.,no,.
-jhu00140,24_Qiagen_Soil_Pro_CS_010_Right_Eye_S8,15984811.0,27715.0,8991.0,2025-03-14,S1289-SC2 B12,Clinical Sample,Qiagen PowerSoil Pro Kits,.,0,8.9 ng/ul,30 ul,Right,010,.,.,.,no,.
-jhu00141,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,3026993.0,382981.0,4931.0,2025-03-14,S1289-SC2 C01,Clinical Sample,Qiagen PowerSoil Pro Kits,.,0,6.3 ng/ul,30 ul,.,007,.,.,.,no,.
-jhu00142,26_Qiagen_Soil_Pro_CS_010_Air_Swab_S10,1630973.0,175908.0,2037.0,2025-03-14,S1289-SC2 C02,Clinical Sample,Qiagen PowerSoil Pro Kits,.,0,8 ng/ul,30 ul,.,010,.,.,.,no,.
-jhu00143,27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11,21054529.0,20873427.0,218.0,2025-03-14,S1289-SC2 C03,.,Qiagen PowerSoil Pro Kits,.,0,5.7 ng/ul,30 ul,.,.,.,OMR,BD801,yes,.
-jhu00144,28_Qiagen_Soil_Pro_OMR_BD801_S12,2166117.0,1216461.0,971.0,2025-03-14,S1289-SC2 C04,.,Qiagen PowerSoil Pro Kits,.,0,4.2 ng/ul,30 ul,.,.,.,OMR,110,no,.
-jhu00145,29_Z_Mini_049_Conj_L_1_S13,15762715.0,113598.0,7261.0,2025-03-14,S1289-SC2 C05,Clinical Sample,Zymo Mini Prep Kit,.,0,2.1 ng/ul,50 ul,.,049,.,.,.,no,.
-jhu00146,2_Zymo_Micro_Prep_CS_002_Right_Eye_S82,16642495.0,24118.0,7339.0,2025-03-14,S1289-SC2 A02,Clinical Sample,Zymo Micro Prep Kit,.,0,1.7 ng/ul,20 ul,Right,002,.,.,.,no,.
-jhu00147,30_Z_Mini_049_049_Lid_L_1_S14,20776322.0,78150.0,10026.0,2025-03-14,S1289-SC2 C06,Clinical Sample,Zymo Mini Prep Kit,.,0,4.5 ng/ul,50 ul,.,049,.,.,.,no,.
-jhu00148,31_Z_Mini_049_Skin_L_1_S15,16460716.0,256913.0,14006.0,2025-03-14,S1289-SC2 C07,Clinical Sample,Zymo Mini Prep Kit,.,0,2.6 ng/ul,50 ul,.,049,.,.,.,no,.
-jhu00149,32_Z_Mini_049_Conj_L_2_S16,22936943.0,68908.0,12649.0,2025-03-14,S1289-SC2 C08,Clinical Sample,Zymo Mini Prep Kit,.,0,2.3 ng/ul,50 ul,.,049,.,.,.,no,.
-jhu00150,33_Z_Mini_049_Lid_L_2_S17,23588515.0,118836.0,10765.0,2025-03-14,S1289-SC2 C09,Clinical Sample,Zymo Mini Prep Kit,.,0,1.9 ng/ul,50 ul,.,049,.,.,.,no,.
-jhu00151,34_Z_Mini_049_Skin_L_2_S18,20859240.0,1391951.0,9944.0,2025-03-14,S1289-SC2 C10,Clinical Sample,Zymo Mini Prep Kit,.,0,5.9 ng/ul,50 ul,.,049,.,.,.,no,.
-jhu00152,35_Z_Mini_049_Conj_L_3_S19,17463734.0,61325.0,8390.0,2025-03-14,S1289-SC2 C11,Clinical Sample,Zymo Mini Prep Kit,.,0,3.2 ng/ul,50 ul,.,049,.,.,.,no,.
-jhu00153,36_Z_Mini_049_Lid_L_3_S20,16363743.0,108266.0,7262.0,2025-03-14,S1289-SC2 C12,Clinical Sample,Zymo Mini Prep Kit,.,0,2.3 ng/ul,50 ul,.,049,.,.,.,no,.
-jhu00154,37_Z_Mini_049_Skin_L_3_S21,14723135.0,463080.0,8250.0,2025-03-14,S1289-SC2 D01,Clinical Sample,Zymo Mini Prep Kit,.,0,2.5 ng/ul,50 ul,.,049,.,.,.,no,.
-jhu00155,38_Z_Mini_050_Conj_R_1_S22,17392586.0,39988.0,7950.0,2025-03-14,S1289-SC2 D02,Clinical Sample,Zymo Mini Prep Kit,.,0,1.9 ng/ul,50 ul,.,050,.,.,.,no,.
-jhu00156,39_Z_Mini_050_Lid_R_1_S23,17057725.0,222489.0,8244.0,2025-03-14,S1289-SC2 D03,Clinical Sample,Zymo Mini Prep Kit,.,0,2.8 ng/ul,50 ul,.,050,.,.,.,no,.
-jhu00157,3_Zymo_Micro_Prep_CS_003_Left_Eye_S83,16559653.0,30772.0,8764.0,2025-03-14,S1289-SC2 A03,Clinical Sample,Zymo Micro Prep Kit,.,0,1.1 ng/ul,20 ul,Left,003,.,.,.,no,.
-jhu00158,40_Z_Mini_050_Skin_R_1_S24,19093420.0,628786.0,8386.0,2025-03-14,S1289-SC2 D04,Clinical Sample,Zymo Mini Prep Kit,.,0,1.5 ng/ul,50 ul,.,050,.,.,.,no,.
-jhu00159,41_Z_Mini_050_Conj_R_2_S25,17476714.0,51652.0,8254.0,2025-03-14,S1289-SC2 D05,Clinical Sample,Zymo Mini Prep Kit,.,0,2.8 ng/ul,50 ul,.,050,.,.,.,no,.
-jhu00160,42_Z_Mini_050_Lid_R_2_S26,14646756.0,434422.0,8723.0,2025-03-14,S1289-SC2 D06,Clinical Sample,Zymo Mini Prep Kit,.,0,6.6 ng/ul,50 ul,.,050,.,.,.,no,.
-jhu00161,43_Z_Mini_050_Skin_R_2_S27,16365176.0,8173581.0,8887.0,2025-03-14,S1289-SC2 D07,Clinical Sample,Zymo Mini Prep Kit,.,0,2.2 ng/ul,50 ul,.,050,.,.,.,no,.
-jhu00162,44_Z_Mini_050_Conj_R_3_S28,23988745.0,70613.0,12720.0,2025-03-14,S1289-SC2 D08,Clinical Sample,Zymo Mini Prep Kit,.,0,2.6 ng/ul,50 ul,.,050,.,.,.,no,.
-jhu00163,45_Z_Mini_050_Lid_R_3_S29,5710230.0,22745.0,2866.0,2025-03-14,S1289-SC2 D09,Clinical Sample,Zymo Mini Prep Kit,.,0,7.3 ng/ul,50 ul,.,050,.,.,.,no,.
-jhu00164,46_Z_Mini_050_Skin_R_3_S30,21526864.0,1026412.0,10984.0,2025-03-14,S1289-SC2 D10,Clinical Sample,Zymo Mini Prep Kit,.,0,3.1 ng/ul,50 ul,.,050,.,.,.,no,.
-jhu00165,47_Z_Mini_051_Conj_L_1_S31,13983288.0,35204.0,7456.0,2025-03-14,S1289-SC2 D11,Clinical Sample,Zymo Mini Prep Kit,.,0,2.5 ng/ul,50 ul,.,051,.,.,.,no,.
-jhu00166,48_Z_Mini_051_Lid_L_1_S32,12560761.0,200797.0,6169.0,2025-03-14,S1289-SC2 D12,Clinical Sample,Zymo Mini Prep Kit,.,0,3.2 ng/ul,50 ul,.,051,.,.,.,no,.
-jhu00167,49_Z_Mini_051_Skin_L_1_S33,17666473.0,328298.0,6669.0,2025-03-14,S1289-SC2 E01,Clinical Sample,Zymo Mini Prep Kit,.,0,1.6 ng/ul,50 ul,.,051,.,.,.,no,.
-jhu00168,4_Zymo_Micro_Prep_CS_004_Right_Eye_S84,19249676.0,81165.0,8624.0,2025-03-14,S1289-SC2 A04,Clinical Sample,Zymo Micro Prep Kit,.,0,0.6 ng/ul,20 ul,Right,004,.,.,.,no,.
-jhu00169,50_Z_Mini_051_Conj_L_2_S34,17520498.0,73859.0,6608.0,2025-03-14,S1289-SC2 E02,Clinical Sample,Zymo Mini Prep Kit,.,0,1.5 ng/ul,50 ul,.,051,.,.,.,no,.
-jhu00170,51_Z_Mini_051_Lid_L_2_S35,17065940.0,623922.0,10226.0,2025-03-14,S1289-SC2 E03,Clinical Sample,Zymo Mini Prep Kit,.,0,2.2 ng/ul,50 ul,.,051,.,.,.,no,.
-jhu00171,52_Z_Mini_051_Skin_L_2_S36,18514098.0,3740664.0,27432.0,2025-03-14,S1289-SC2 E04,Clinical Sample,Zymo Mini Prep Kit,.,0,2.3 ng/ul,50 ul,.,051,.,.,.,no,.
-jhu00172,53_Z_Mini_051_Conj_L_3_S37,22533210.0,57295.0,8429.0,2025-03-14,S1289-SC2 E05,Clinical Sample,Zymo Mini Prep Kit,.,0,2.4 ng/ul,50 ul,.,051,.,.,.,no,.
-jhu00173,54_Z_Mini_051_Lid_L_3_S38,18065586.0,262047.0,9187.0,2025-03-14,S1289-SC2 E06,Clinical Sample,Zymo Mini Prep Kit,.,0,2.9 ng/ul,50 ul,.,051,.,.,.,no,.
-jhu00174,55_Z_Mini_051_Skin_L_3_S39,16926350.0,280709.0,6352.0,2025-03-14,S1289-SC2 E07,Clinical Sample,Zymo Mini Prep Kit,.,0,2 ng/ul,50 ul,.,051,.,.,.,no,.
-jhu00175,56_Z_Mini_049_ISO_Cont_1_S40,6208087.0,5553629.0,22476.0,2025-03-14,S1289-SC2 E08,Clinical Sample,Zymo Mini Prep Kit,.,0,1.9 ng/ul,50 ul,.,049,.,.,.,no,Isohelix
-jhu00176,57_Z_Mini_050_ISO_Cont_1_S41,1667905.0,586787.0,1390.0,2025-03-14,S1289-SC2 E09,Clinical Sample,Zymo Mini Prep Kit,.,0,5.3 ng/ul,50 ul,.,050,.,.,.,no,Isohelix
-jhu00177,58_Z_Mini_049_ISO_Cont_2_S42,1442242.0,464518.0,923.0,2025-03-14,S1289-SC2 E10,Clinical Sample,Zymo Mini Prep Kit,.,0,3.3 ng/ul,50 ul,.,049,.,.,.,no,Isohelix
-jhu00178,59_Z_Mini_050_ISO_Cont_3_S43,2089359.0,812896.0,999.0,2025-03-14,S1289-SC2 E11,Clinical Sample,Zymo Mini Prep Kit,.,0,2.6 ng/ul,50 ul,.,050,.,.,.,no,Isohelix
-jhu00179,5_Zymo_Micro_Prep_CS_005_Left_Eye_S85,20012172.0,26764.0,7512.0,2025-03-14,S1289-SC2 A05,Clinical Sample,Zymo Micro Prep Kit,.,0,1.4 ng/ul,20 ul,Left,005,.,.,.,no,.
-jhu00180,60_Z_Mini_049_ISO_Cont_3_S44,1337611.0,591386.0,1558.0,2025-03-14,S1289-SC2 E12,Clinical Sample,Zymo Mini Prep Kit,.,0,2.7 ng/ul,50 ul,.,049,.,.,.,no,Isohelix
-jhu00181,61_Z_Mini__MCS_OMR_B1001_S45,18031694.0,17874762.0,466.0,2025-03-14,S1289-SC2 F01,.,Zymo Mini Prep Kit,.,0,4.4 ng/ul,50 ul,.,.,.,OMR,B1001,yes,.
-jhu00182,62_Z_Mini__OMR_B1001_S46,1111333.0,592968.0,1773.0,2025-03-14,S1289-SC2 F02,.,Zymo Mini Prep Kit,.,0,1.6 ng/ul,50 ul,.,.,.,OMR,110,no,.
-jhu00183,63_Qiagen_DNeasy_049_Conj_L_1_S47,12491235.0,126313.0,6872.0,2025-03-14,S1289-SC2 F03,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,6.2 ng/ul,30 ul,.,049,.,.,.,no,.
-jhu00184,64_Qiagen_DNeasy_049_049_Lid_L_1_S48,17970897.0,202088.0,9857.0,2025-03-14,S1289-SC2 F04,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.1 ng/ul,30 ul,.,049,.,.,.,no,.
-jhu00185,65_Qiagen_DNeasy_049_Skin_L_1_S49,13513388.0,292954.0,11826.0,2025-03-14,S1289-SC2 F05,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.1 ng/ul,30 ul,.,049,.,.,.,no,.
-jhu00186,66_Qiagen_DNeasy_049_Conj_L_2_S50,7344335.0,90734.0,4249.0,2025-03-14,S1289-SC2 F06,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,5.1 ng/ul,30 ul,.,049,.,.,.,no,.
-jhu00187,67_Qiagen_DNeasy_049_Lid_L_2_S51,15034438.0,185241.0,10008.0,2025-03-14,S1289-SC2 F07,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.3 ng/ul,30 ul,.,049,.,.,.,no,.
-jhu00188,68_Qiagen_DNeasy_049_Skin_L_2_S52,10064434.0,2173211.0,12774.0,2025-03-14,S1289-SC2 F08,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.2 ng/ul,30 ul,.,049,.,.,.,no,.
-jhu00189,69_Qiagen_DNeasy_049_Conj_L_3_S53,17531597.0,251027.0,12569.0,2025-03-14,S1289-SC2 F09,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,4.2 ng/ul,30 ul,.,049,.,.,.,no,.
-jhu00190,6_Zymo_Micro_Prep_CS_006_Right_Eye_S86,17704755.0,22509.0,7064.0,2025-03-14,S1289-SC2 A06,Clinical Sample,Zymo Micro Prep Kit,.,0,3.2 ng/ul,20 ul,Right,006,.,.,.,no,.
-jhu00191,70_Qiagen_DNeasy_049_Lid_L_3_S54,16982311.0,258252.0,12326.0,2025-03-14,S1289-SC2 F10,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3 ng/ul,30 ul,.,049,.,.,.,no,.
-jhu00192,71_Qiagen_DNeasy_049_Skin_L_3_S55,16503217.0,479946.0,14520.0,2025-03-14,S1289-SC2 F11,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,4.3 ng/ul,30 ul,.,049,.,.,.,no,.
-jhu00193,72_Qiagen_DNeasy_050_Conj_R_1_S56,16561570.0,86237.0,13579.0,2025-03-14,S1289-SC2 F12,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,2.4 ng/ul,30 ul,.,050,.,.,.,no,.
-jhu00194,73_Qiagen_DNeasy_050_Lid_R_1_S57,8634430.0,190942.0,7664.0,2025-03-14,S1289-SC2 G01,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,2.7 ng/ul,30 ul,.,050,.,.,.,no,.
-jhu00195,74_Qiagen_DNeasy_050_Skin_R_1_S58,13881462.0,352071.0,10043.0,2025-03-14,S1289-SC2 G02,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,1.1 ng/ul,30 ul,.,050,.,.,.,no,.
-jhu00196,75_Qiagen_DNeasy_050_Conj_R_2_S59,7157278.0,586613.0,4675.0,2025-03-14,S1289-SC2 G03,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.7 ng/ul,30 ul,.,050,.,.,.,no,.
-jhu00197,76_Qiagen_DNeasy_050_Lid_R_2_S60,8622089.0,1597614.0,6167.0,2025-03-14,S1289-SC2 G04,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.1 ng/ul,30 ul,.,050,.,.,.,no,.
-jhu00198,77_Qiagen_DNeasy_050_Skin_R_2_S61,2526536.0,804828.0,1350.0,2025-03-14,S1289-SC2 G05,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,4.4 ng/ul,30 ul,.,050,.,.,.,no,.
-jhu00199,78_Qiagen_DNeasy_050_Conj_R_3_S62,8814382.0,425784.0,7044.0,2025-03-14,S1289-SC2 G06,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,2.9 ng/ul,30 ul,.,050,.,.,.,no,.
-jhu00200,79_Qiagen_DNeasy_050_Lid_R_3_S63,19685917.0,54880.0,15272.0,2025-03-14,S1289-SC2 G07,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.7 ng/ul,30 ul,.,050,.,.,.,no,.
-jhu00201,7_Zymo_Micro_Prep_CS_007_Left_Eye_S87,21616166.0,31349.0,10876.0,2025-03-14,S1289-SC2 A07,Clinical Sample,Zymo Micro Prep Kit,.,0,3.1 ng/ul,20 ul,Left,007,.,.,.,no,.
-jhu00202,80_Qiagen_DNeasy_050_Skin_R_3_S64,12131672.0,567737.0,9668.0,2025-03-14,S1289-SC2 G08,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.5 ng/ul,30 ul,.,050,.,.,.,no,.
-jhu00203,81_Qiagen_DNeasy_051_Conj_L_1_S65,18306384.0,118514.0,5937.0,2025-03-14,S1289-SC2 G09,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,8.5 ng/ul,30 ul,.,051,.,.,.,no,.
-jhu00204,82_Qiagen_DNeasy_051_Lid_L_1_S66,17458700.0,465975.0,9406.0,2025-03-14,S1289-SC2 G10,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,4.4 ng/ul,30 ul,.,051,.,.,.,no,.
-jhu00205,83_Qiagen_DNeasy_051_Skin_L_1_S67,16506607.0,253671.0,8739.0,2025-03-14,S1289-SC2 G11,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,2.1 ng/ul,30 ul,.,051,.,.,.,no,.
-jhu00206,84_Qiagen_DNeasy_051_Conj_L_2_S68,10594271.0,113844.0,7724.0,2025-03-14,S1289-SC2 G12,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,4.3 ng/ul,30 ul,.,051,.,.,.,no,.
-jhu00207,85_Qiagen_DNeasy_051_Lid_L_2_S69,13279965.0,195995.0,12092.0,2025-03-14,S1289-SC2 H01,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,4.6 ng/ul,30 ul,.,051,.,.,.,no,.
-jhu00208,86_Qiagen_DNeasy_051_Skin_L_2_S70,28356564.0,1875237.0,16313.0,2025-03-14,S1289-SC2 H02,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,5.7 ng/ul,30 ul,.,051,.,.,.,no,.
-jhu00209,87_Qiagen_DNeasy_051_Conj_L_3_S71,10054828.0,72435.0,7132.0,2025-03-14,S1289-SC2 H03,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,4.1 ng/ul,30 ul,.,051,.,.,.,no,.
-jhu00210,88_Qiagen_DNeasy_051_Lid_L_3_S72,15919963.0,241317.0,13041.0,2025-03-14,S1289-SC2 H04,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,8.6 ng/ul,30 ul,.,051,.,.,.,no,.
-jhu00211,89_Qiagen_DNeasy_051_Skin_L_3_S73,11893183.0,325142.0,7154.0,2025-03-14,S1289-SC2 H05,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,2.2 ng/ul,30 ul,.,051,.,.,.,no,.
-jhu00212,8_Zymo_Micro_Prep_CS_008_Right_Eye_S88,19483052.0,32223.0,9070.0,2025-03-14,S1289-SC2 A08,Clinical Sample,Zymo Micro Prep Kit,.,0,2 ng/ul,20 ul,Right,008,.,.,.,no,.
-jhu00213,90_Qiagen_DNeasy_049_ISO_Cont_1_S74,2992477.0,2517432.0,4773.0,2025-03-14,S1289-SC2 H06,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.6 ng/ul,30 ul,.,049,.,.,.,no,Isohelix
-jhu00214,91_Qiagen_DNeasy_050_ISO_Cont_1_S75,4184602.0,3633616.0,8915.0,2025-03-14,S1289-SC2 H07,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,6.1 ng/ul,30 ul,.,050,.,.,.,no,Isohelix
-jhu00215,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,4661992.0,3886477.0,4046.0,2025-03-14,S1289-SC2 H08,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,2.3 ng/ul,30 ul,.,049,.,.,.,no,Isohelix
-jhu00216,93_Qiagen_DNeasy_050_ISO_Cont_3_S77,8681421.0,7463058.0,2954.0,2025-03-14,S1289-SC2 H09,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,5 ng/ul,30 ul,.,050,.,.,.,no,Isohelix
-jhu00217,94_Qiagen_DNeasy_049_ISO_Cont_3_S78,3075088.0,2436974.0,1941.0,2025-03-14,S1289-SC2 H10,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,0,3.9 ng/ul,30 ul,.,049,.,.,.,no,Isohelix
-jhu00218,95_Qiagen_DNeasy_MCS_OMR_B1001_S79,17969487.0,17821336.0,91.0,2025-03-14,S1289-SC2 H11,.,Qiagen DNeasy Blood_Tissue Kit,.,0,4.9 ng/ul,30 ul,.,.,.,OMR,B1001,yes,.
-jhu00219,96_Qiagen_DNeasy_OMR_B1001_S80,8583117.0,8158713.0,4033.0,2025-03-14,S1289-SC2 H12,.,Qiagen DNeasy Blood_Tissue Kit,.,0,7 ng/ul,30 ul,.,.,.,OMR,110,no,.
-jhu00220,9_Zymo_Micro_Prep_CS_009_Left_Eye_S89,20598269.0,31435.0,9971.0,2025-03-14,S1289-SC2 A09,Clinical Sample,Zymo Micro Prep Kit,.,0,0.9 ng/ul,20 ul,Left,009,.,.,.,no,.
+jhu00001,Molzym_Ultra_Deep_Air_Ctr_3_S20,48265834.0,10005673.0,52367.0,2024-03-14,S1273-SC1 A03,Air Control,Molzym Ultra-Deep Microbiome Prep,.,no,6.3 ng/ul,50 ul,.,.,.,.,.,no,.
+jhu00004,Molzym_Ultra_Deep_MCS_1-100_4_S8,72009445.0,69784135.0,5663.0,2024-03-14,S1273-SC1 A04,.,Molzym Ultra-Deep Microbiome Prep,.,no,16 ng/ul,50 ul,.,.,.,.,.,yes,.
+jhu00005,Qiagen_DNeasy_Air_Ctr_3_S10,52434861.0,5413108.0,48525.0,2024-03-14,S1273-SC1 A11,Air Control,Qiagen DNeasy Blood & Tissue Kit,.,no,1.2 ng/ul,50 ul,.,.,.,.,.,no,.
+jhu00008,Qiagen_DNeasy_MCS_1-100_4_S18,98376897.0,97247641.0,331.0,2024-03-14,S1273-SC1 A12,.,Qiagen DNeasy Blood & Tissue Kit,.,no,3.5 ng/ul,50 ul,.,.,.,.,.,yes,.
+jhu00009,Qiagen_Soil_Air_Ctr_3_S2,717757.0,4579.0,122.0,2024-03-14,S1273-SC1 A07,Air Control,Qiagen DNeasy PowerMax Soil Kit,.,no,0 ng/ul,200 ul,.,.,.,.,.,no,.
+jhu00012,Qiagen_Soil_MCS_1-100_4_S5,18930999.0,17666737.0,770.0,2024-03-14,S1273-SC1 A08,.,Qiagen DNeasy PowerMax Soil Kit,.,no,1.5 ng/ul,200 ul,.,.,.,.,.,yes,.
+jhu00013,Thermo_MagMax_Air_Ctr_3_S21,60308293.0,27799952.0,25746.0,2024-03-14,S1273-SC1 B07,Air Control,Thermo Fisher MagMAX™ Pathogen RNA/DNA Kit,.,no,2.8 ng/ul,50 ul,.,.,.,.,.,no,.
+jhu00017,Zymo_Magbead_Air_Ctr_3_S4,59730283.0,57956237.0,9273.0,2024-03-14,S1273-SC1 B11,Air Control,Zymo Magbead Kit,.,no,0.1 ng/ul,50 ul,.,.,.,.,.,no,.
+jhu00020,Zymo_Magbead_MCS_1-100_4_S22,55883346.0,54189462.0,8223.0,2024-03-14,S1273-SC1 B12,.,Zymo Magbead Kit,.,no,0.4 ng/ul,50 ul,.,.,.,.,.,yes,.
+jhu00021,Zymo_Mini_prep_Air_Ctr_3_S19,51666532.0,49977453.0,3770.0,2024-03-14,S1273-SC1 B03,Air Control,Zymo Mini Prep Kit,.,no,1.8 ng/ul,50 ul,.,.,.,.,.,no,.
+jhu00024,Zymo_Mini_prep_MCS_1-100_4_S13,59266306.0,58421667.0,636.0,2024-03-14,S1273-SC1 B04,.,Zymo Mini Prep Kit,.,no,5.3 ng/ul,50 ul,.,.,.,.,.,yes,.
+jhu00025,MasterPure_Air_Ctr_3_S34,22172626.0,18257574.0,6016.0,2024-07-15,S1289-SC1 A03,Air Control,MasterPure Gram Positive DNA Purification Kit,.,no,10.6 ng/ul,50 ul,.,.,.,.,.,no,.
+jhu00030,MasterPure_Lyso_MCS_1_100_4_S39,81023723.0,78755608.0,1101.0,2024-07-15,S1289-SC1 A08,.,MasterPure Gram Positive DNA Purification Kit,.,yes,36.2 ng/ul,50 ul,.,100,.,.,.,yes,.
+jhu00031,MasterPure_Lysol_Air_Ctr_3_S38,23135866.0,18077534.0,10651.0,2024-07-15,S1289-SC1 A07,Air Control,MasterPure Gram Positive DNA Purification Kit,.,yes,20.6 ng/ul,50 ul,.,.,.,.,.,no,.
+jhu00032,MasterPure_MCS_1_100_4_S35,78906076.0,76560480.0,2968.0,2024-07-15,S1289-SC1 A04,.,MasterPure Gram Positive DNA Purification Kit,.,no,43.9 ng/ul,50 ul,.,100,.,.,.,yes,.
+jhu00033,MasterPure_MolYsis_Basic_5_Air_Ctr_3_S42,2513359.0,1956435.0,970.0,2024-07-15,S1289-SC1 A11,Air Control,MasterPure Gram Positive DNA Purification Kit,MolYsis™ Basic7,no,12 ng/ul,35 ul,.,.,.,.,.,no,.
+jhu00036,MasterPure_MolYsis_Basic_5_MCS_1_100_4_S43,62161455.0,59433187.0,1366.0,2024-07-15,S1289-SC1 A12,.,MasterPure Gram Positive DNA Purification Kit,MolYsis™ Basic8,no,10.3 ng/ul,35 ul,.,100,.,.,.,yes,.
+jhu00037,MasterPure_NEB_Air_Ctr_3_S46,56029521.0,53224864.0,8591.0,2024-07-15,S1289-SC1 B03,Air Control,MasterPure Gram Positive DNA Purification Kit,NEBNext Microbiome DNA Enrichment Kit,no,4.9 ng/ul,35 ul,.,.,.,.,.,no,.
+jhu00040,MasterPure_NEB_MCS_1_100_4_S47,69979815.0,68512694.0,885.0,2024-07-15,S1289-SC1 B04,.,MasterPure Gram Positive DNA Purification Kit,NEBNext Microbiome DNA Enrichment Kit,no,15 ng/ul,35 ul,.,100,.,.,.,yes,.
+jhu00041,MasterPure_Zymo_HostZero_200ul_Air_Ctr_3_S29,1292866.0,936206.0,1689.0,2024-07-15,S1289-SC1 B07,Air Control,MasterPure Gram Positive DNA Purification Kit,Zymo HostZero,no,20.2 ng/ul,35 ul,.,.,.,.,.,no,.
+jhu00044,MasterPure_Zymo_HostZero_MCS_1_100_4_S30,55949505.0,53921998.0,3901.0,2024-07-15,S1289-SC1 B08,.,MasterPure Gram Positive DNA Purification Kit,Zymo HostZero,no,21.2 ng/ul,35 ul,.,100,.,.,.,yes,.
+jhu00046,MasterPure_MCS_7_S56,22827811.0,22605228.0,192.0,2024-10-28,S1304-SC1 C05,.,MasterPure Gram Positive DNA Purification Kit,.,no,22.7 ng/ul,50 ul,.,.,.,.,.,yes,.
+jhu00047,MasterPure_MCS_HostZero_3_S3,23207708.0,22355787.0,4029.0,2024-10-28,S1304-SC1 C01,.,MasterPure Gram Positive DNA Purification Kit,.,no,34 ng/ul,50 ul,.,.,.,.,.,yes,.
+jhu00048,MasterPure_MCS_MolYsis_1_S59,18014237.0,17775556.0,2837.0,2024-10-28,S1304-SC1 B11,.,Molzym Ultra-Deep Microbiome Prep,.,no,26.1 ng/ul,50 ul,.,.,.,.,.,yes,.
+jhu00049,MasterPure_MCS_NEB_5_S34,22510110.0,22246672.0,194.0,2024-10-28,S1304-SC1 C03,.,MasterPure Gram Positive DNA Purification Kit,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,no,10.9 ng/ul,50 ul,.,.,.,.,.,yes,.
+jhu00050,MasterPure_OMR_8_S22,8911434.0,7943287.0,915.0,2024-10-28,S1304-SC1 C06,.,MasterPure Gram Positive DNA Purification Kit,.,no,20.1 ng/ul,50 ul,.,.,.,OMR,110,no,.
+jhu00051,MasterPure_OMR_HostZero_4_S24,4428396.0,4101482.0,474.0,2024-10-28,S1304-SC1 C02,.,MasterPure Gram Positive DNA Purification Kit,.,no,30.6 ng/ul,50 ul,.,.,.,OMR,110,no,.
+jhu00052,MasterPure_OMR_MolYsis_2_S42,5820531.0,5359746.0,809.0,2024-10-28,S1304-SC1 B12,.,Molzym Ultra-Deep Microbiome Prep,.,no,15 ng/ul,50 ul,.,.,.,OMR,110,no,.
+jhu00053,MasterPure_OMR_NEB_6_S15,12119044.0,11587585.0,1190.0,2024-10-28,S1304-SC1 C04,.,MasterPure Gram Positive DNA Purification Kit,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,no,10.1 ng/ul,50 ul,.,.,.,OMR,110,no,.
+jhu00054,Molzym_Ultra-Deep_MCS_1_S11,12789593.0,12249405.0,1057.0,2024-10-28,S1304-SC1 B05,.,Molzym Ultra-Deep Microbiome Prep,.,no,5.2 ng/ul,50 ul,.,.,.,.,.,yes,.
+jhu00055,Molzym_Ultra-Deep_MCS_HostZero_3_S19,8798826.0,8223625.0,739.0,2024-10-28,S1304-SC1 B07,.,Molzym Ultra-Deep Microbiome Prep,.,no,4.9 ng/ul,50 ul,.,.,.,.,.,yes,.
+jhu00056,Molzym_Ultra-Deep_MCS_NEB_5_S44,15138766.0,14768077.0,1249.0,2024-10-28,S1304-SC1 B09,.,Molzym Ultra-Deep Microbiome Prep,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,no,6.3 ng/ul,30 ul,.,.,.,.,.,yes,.
+jhu00057,Molzym_Ultra-Deep_OMR_2_S10,8739573.0,8144617.0,1787.0,2024-10-28,S1304-SC1 B06,.,Molzym Ultra-Deep Microbiome Prep,.,no,0.2 ng/ul,50 ul,.,.,.,OMR,110,no,.
+jhu00058,Molzym_Ultra-Deep_OMR_HostZero_4_S37,1712697.0,1283586.0,771.0,2024-10-28,S1304-SC1 B08,.,Molzym Ultra-Deep Microbiome Prep,.,no,2.8 ng/ul,50 ul,.,.,.,OMR,110,no,.
+jhu00059,Molzym_Ultra-Deep_OMR_NEB_6_S32,12171299.0,11565756.0,1487.0,2024-10-28,S1304-SC1 B10,.,Molzym Ultra-Deep Microbiome Prep,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,no,6.6 ng/ul,30 ul,.,.,.,OMR,110,no,.
+jhu00062,Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47,26788711.0,26620598.0,95.0,2024-10-28,S1304-SC1 E05,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,13 ng/ul,30 ul,.,.,.,OMR,BD801,yes,.
+jhu00063,Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23,20760644.0,20569289.0,113.0,2024-10-28,S1304-SC1 E06,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,6.5 ng/ul,30 ul,.,.,.,OMR,BH802,yes,.
+jhu00064,Qiagen_DNeasy_MCS_7_S2,22718068.0,22516590.0,103.0,2024-10-28,S1304-SC1 A07,.,Qiagen DNeasy Blood_Tissue Kit,.,no,7.3 ng/ul,30 ul,.,.,.,.,.,yes,.
+jhu00065,Qiagen_DNeasy_MCS_HostZero_3_S5,14225290.0,13732825.0,7841.0,2024-10-28,S1304-SC1 A03,.,Qiagen DNeasy Blood_Tissue Kit,.,no,3.5 ng/ul,30 ul,.,.,.,.,.,yes,.
+jhu00066,Qiagen_DNeasy_MCS_MolYsis_1_S72,20690503.0,20391814.0,1618.0,2024-10-28,S1304-SC1 A01,.,Qiagen DNeasy Blood & Tissue Kit,.,no,3.2 ng/ul,30 ul,.,.,.,.,.,yes,.
+jhu00067,Qiagen_DNeasy_MCS_NEB_5_S60,24164234.0,23905676.0,87.0,2024-10-28,S1304-SC1 A05,.,Qiagen DNeasy Blood_Tissue Kit,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,no,4.2 ng/ul,30 ul,.,.,.,.,.,yes,.
+jhu00068,Qiagen_DNeasy_OMR1_BD801_S61,10270188.0,9539120.0,1730.0,2024-10-28,S1304-SC1 E07,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.4 ng/ul,30 ul,.,.,.,OMR,BD801,no,.
+jhu00069,Qiagen_DNeasy_OMR2_BH802_S12,13987582.0,13258485.0,3251.0,2024-10-28,S1304-SC1 E08,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,2.1 ng/ul,30 ul,.,.,.,OMR,BH802,no,.
+jhu00070,Qiagen_DNeasy_OMR_2_S74,8562095.0,7757781.0,4662.0,2024-10-28,S1304-SC1 A08,.,Qiagen DNeasy Blood_Tissue Kit,.,no,1.7 ng/ul,30 ul,.,.,.,OMR,110,no,.
+jhu00071,Qiagen_DNeasy_OMR_HostZero_4_S38,3567954.0,2977704.0,3790.0,2024-10-28,S1304-SC1 A04,.,Qiagen DNeasy Blood_Tissue Kit,.,no,3.5 ng/ul,30 ul,.,.,.,OMR,110,no,.
+jhu00072,Qiagen_DNeasy_OMR_MolYsis_2_S53,10729728.0,9911422.0,22912.0,2024-10-28,S1304-SC1 A02,.,Qiagen DNeasy Blood_Tissue Kit,.,no,2 ng/ul,30 ul,.,.,.,OMR,110,no,.
+jhu00073,Qiagen_DNeasy_OMR_NEB_6_S57,12694537.0,12171104.0,1513.0,2024-10-28,S1304-SC1 A06,.,Qiagen DNeasy Blood_Tissue Kit,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,no,3.41 ng/ul,30 ul,.,.,.,OMR,110,no,.
+jhu00074,Qiagen_DNeasy_Water_S70,11108913.0,10645462.0,1356.0,2024-10-28,S1304-SC1 E09,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,2.2 ng/ul,30 ul,.,.,.,.,.,no,.
+jhu00075,Qiagen_Dneasy_CS_001_Air_Swab_S39,10548488.0,9733137.0,4230.0,2024-10-28,S1304-SC1 D01,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,1.9 ng/ul,30 ul,.,001,.,.,.,no,.
+jhu00076,Qiagen_Dneasy_CS_001_Right_Eye_S28,63568721.0,410412.0,30863.0,2024-10-28,S1304-SC1 C12,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,27.7 ng/ul,30 ul,Right,001,.,.,.,no,.
+jhu00077,Qiagen_Dneasy_CS_002_Air_Swab_S62,10577681.0,8643576.0,2630.0,2024-10-28,S1304-SC1 D03,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.7 ng/ul,30 ul,.,002,.,.,.,no,.
+jhu00078,Qiagen_Dneasy_CS_002_Left_Eye_S21,27925922.0,108620.0,11720.0,2024-10-28,S1304-SC1 D02,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,18.7 ng/ul,30 ul,Left,002,.,.,.,no,.
+jhu00079,Qiagen_Dneasy_CS_003_Air_Swab_S18,12364167.0,11888030.0,1775.0,2024-10-28,S1304-SC1 D05,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,1.3 ng/ul,30 ul,.,003,.,.,.,no,.
+jhu00080,Qiagen_Dneasy_CS_003_Right_Eye_S58,27503333.0,136517.0,10013.0,2024-10-28,S1304-SC1 D04,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,6 ng/ul,30 ul,Right,003,.,.,.,no,.
+jhu00081,Qiagen_Dneasy_CS_004_Air_Swab_S52,5364087.0,5018344.0,2017.0,2024-10-28,S1304-SC1 D07,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,7.6 ng/ul,30 ul,.,004,.,.,.,no,.
+jhu00082,Qiagen_Dneasy_CS_004_Left_Eye_S27,20291771.0,265638.0,10481.0,2024-10-28,S1304-SC1 D06,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,2.7 ng/ul,30 ul,Left,004,.,.,.,no,.
+jhu00083,Qiagen_Dneasy_CS_005_Air_Swab_S67,12532134.0,11494954.0,3457.0,2024-10-28,S1304-SC1 D09,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,4.3 ng/ul,30 ul,.,005,.,.,.,no,.
+jhu00084,Qiagen_Dneasy_CS_005_Right_Eye_S54,61006949.0,406364.0,25827.0,2024-10-28,S1304-SC1 D08,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,14.2 ng/ul,30 ul,Right,005,.,.,.,no,.
+jhu00085,Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51,18904920.0,12505470.0,7113.0,2024-10-28,S1304-SC1 E01,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,1.6 ng/ul,30 ul,.,006,.,.,.,no,.
+jhu00086,Qiagen_Dneasy_CS_006_Left_Eye_S31,20958993.0,237523.0,10303.0,2024-10-28,S1304-SC1 D10,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.4 ng/ul,30 ul,Left,006,.,.,.,no,.
+jhu00087,Qiagen_Dneasy_CS_007_Right_Eye_S4,18985908.0,88107.0,7738.0,2024-10-28,S1304-SC1 D11,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,11.7 ng/ul,30 ul,Right,007,.,.,.,no,.
+jhu00088,Qiagen_Dneasy_CS_008_Left_Eye_S33,56216667.0,556078.0,25509.0,2024-10-28,S1304-SC1 D12,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.1 ng/ul,30 ul,Left,008,.,.,.,no,.
+jhu00089,Qiagen_Dneasy_CS_009_10_Air_Swab_S48,12072399.0,10793358.0,2854.0,2024-10-28,S1304-SC1 E04,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,5.6 ng/ul,30 ul,.,009,.,.,.,no,.
+jhu00090,Qiagen_Dneasy_CS_009_Right_Eye_S41,21643335.0,120809.0,11934.0,2024-10-28,S1304-SC1 E02,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,7.2 ng/ul,30 ul,Right,009,.,.,.,no,.
+jhu00091,Qiagen_Dneasy_CS_010_Left_Eye_S45,20577802.0,559804.0,9849.0,2024-10-28,S1304-SC1 E03,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,5.7 ng/ul,30 ul,Left,010,.,.,.,no,.
+jhu00092,Qiagen_Soil_MCS_1_S29,17896553.0,17597321.0,804.0,2024-10-28,S1304-SC1 C07,.,Qiagen DNeasy PowerMax Soil Kit,.,no,6.2 ng/ul,1400 ul,.,.,.,.,.,yes,.
+jhu00093,Qiagen_Soil_OMR_8_S40,15420797.0,14946070.0,1953.0,2024-10-28,S1304-SC1 C08,.,Qiagen DNeasy PowerMax Soil Kit,.,no,3.9 ng/ul,1600 ul,.,.,.,OMR,110,no,.
+jhu00094,Water_S63,1731585.0,1513206.0,192.0,2024-10-28,S1304-SC1 C11,Water Control,Control,.,no,,50 ul,.,.,.,.,.,no,.
+jhu00095,Zymo_Mini_Prep_CS_001_Air_Swab_S8,3865306.0,3144802.0,673.0,2024-10-28,S1304-SC1 E11,Clinical Sample,Zymo Mini Prep Kit,.,no,0.9 ng/ul,50 ul,.,001,.,.,.,no,.
+jhu00096,Zymo_Mini_Prep_CS_001_Right_Eye_S46,11081608.0,5244815.0,6349.0,2024-10-28,S1304-SC1 E10,Clinical Sample,Zymo Mini Prep Kit,.,no,1.3 ng/ul,50 ul,Right,001,.,.,.,no,.
+jhu00097,Zymo_Mini_Prep_CS_002_Air_Swab_S64,5510196.0,4433238.0,1308.0,2024-10-28,S1304-SC1 F01,Clinical Sample,Zymo Mini Prep Kit,.,no,3.1 ng/ul,50 ul,.,002,.,.,.,no,.
+jhu00099,Zymo_Mini_Prep_CS_003_Air_Swab_S77,8990156.0,8211156.0,1360.0,2024-10-28,S1304-SC1 F03,Clinical Sample,Zymo Mini Prep Kit,.,no,1 ng/ul,50 ul,.,003,.,.,.,no,.
+jhu00100,Zymo_Mini_Prep_CS_003_Right_Eye_S13,21233200.0,1063632.0,8144.0,2024-10-28,S1304-SC1 F02,Clinical Sample,Zymo Mini Prep Kit,.,no,2.3 ng/ul,50 ul,Right,003,.,.,.,no,.
+jhu00101,Zymo_Mini_Prep_CS_004_Air_Swab_S66,3362129.0,2724980.0,557.0,2024-10-28,S1304-SC1 F05,Clinical Sample,Zymo Mini Prep Kit,.,no,0.1 ng/ul,50 ul,.,004,.,.,.,no,.
+jhu00102,Zymo_Mini_Prep_CS_004_Left_Eye_S78,13074025.0,4215943.0,4159.0,2024-10-28,S1304-SC1 F04,Clinical Sample,Zymo Mini Prep Kit,.,no,2 ng/ul,50 ul,Left,004,.,.,.,no,.
+jhu00103,Zymo_Mini_Prep_CS_005_Air_Swab_S30,9418209.0,8879210.0,932.0,2024-10-28,S1304-SC1 F07,Clinical Sample,Zymo Mini Prep Kit,.,no,2.2 ng/ul,50 ul,.,005,.,.,.,no,.
+jhu00104,Zymo_Mini_Prep_CS_005_Right_Eye_S17,20478328.0,1145887.0,7550.0,2024-10-28,S1304-SC1 F06,Clinical Sample,Zymo Mini Prep Kit,.,no,2.9 ng/ul,50 ul,Right,005,.,.,.,no,.
+jhu00105,Zymo_Mini_Prep_CS_006_7_8_Air_Swab_S14,4474818.0,3768098.0,604.0,2024-10-28,S1304-SC1 F11,Clinical Sample,Zymo Mini Prep Kit,.,no,1.8 ng/ul,50 ul,.,006,.,.,.,no,.
+jhu00106,Zymo_Mini_Prep_CS_006_Left_Eye_S79,16552663.0,808661.0,6560.0,2024-10-28,S1304-SC1 F08,Clinical Sample,Zymo Mini Prep Kit,.,no,1.9 ng/ul,50 ul,Left,006,.,.,.,no,.
+jhu00107,Zymo_Mini_Prep_CS_007_Right_Eye_S68,16047824.0,162005.5,5708.0,2024-10-28,S1304-SC1 F09,Clinical Sample,Zymo Mini Prep Kit,.,no,2 ng/ul,50 ul,Right,007,.,.,.,no,.
+jhu00108,Zymo_Mini_Prep_CS_008_Left_Eye_S26,17618592.0,3403371.0,6153.0,2024-10-28,S1304-SC1 F10,Clinical Sample,Zymo Mini Prep Kit,.,no,1.2 ng/ul,50 ul,Left,008,.,.,.,no,.
+jhu00109,Zymo_Mini_Prep_CS_009_10_Air_Swab_S73,5003257.0,4419076.0,673.0,2024-10-28,S1304-SC1 G02,Clinical Sample,Zymo Mini Prep Kit,.,no,2.2 ng/ul,50 ul,.,009,.,.,.,no,.
+jhu00110,Zymo_Mini_Prep_CS_009_Right_Eye_S71,19382814.0,476117.0,7415.0,2024-10-28,S1304-SC1 F12,Clinical Sample,Zymo Mini Prep Kit,.,no,1.8 ng/ul,50 ul,Right,009,.,.,.,no,.
+jhu00111,Zymo_Mini_Prep_CS_010_Left_Eye_S75,8987137.0,7976684.0,1726.0,2024-10-28,S1304-SC1 G01,Clinical Sample,Zymo Mini Prep Kit,.,no,2.1 ng/ul,50 ul,Left,010,.,.,.,no,.
+jhu00112,Zymo_Mini_Prep_MCS_1_in_OMR_BD801_S9,20867830.0,20611680.0,163.0,2024-10-28,S1304-SC1 G03,Clinical Sample,Zymo Mini Prep Kit,.,no,2 ng/ul,50 ul,.,.,.,OMR,BD801,yes,.
+jhu00113,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,20006684.0,19805953.0,466.0,2024-10-28,S1304-SC1 G04,Clinical Sample,Zymo Mini Prep Kit,.,no,1.5 ng/ul,50 ul,.,.,.,OMR,BH802,yes,.
+jhu00114,Zymo_Mini_Prep_MCS_7_S25,22195564.0,21943498.0,683.0,2024-10-28,S1304-SC1 B03,.,Zymo Mini Prep Kit,.,no,1 ng/ul,50 ul,.,.,.,.,.,yes,.
+jhu00115,Zymo_Mini_Prep_MCS_HostZero_3_S20,20598314.0,20427516.0,792.0,2024-10-28,S1304-SC1 A11,.,Zymo Mini Prep Kit,.,no,4.2 ng/ul,50 ul,.,.,.,.,.,yes,.
+jhu00116,Zymo_Mini_Prep_MCS_MolYsis_1_S49,18034682.0,17861514.0,507.0,2024-10-28,S1304-SC1 A09,.,Zymo Mini Prep Kit,.,no,15.4 ng/ul,50 ul,.,.,.,.,.,yes,.
+jhu00117,Zymo_Mini_Prep_MCS_NEB_5_S76,25011543.0,24711086.0,871.0,2024-10-28,S1304-SC1 B01,.,Zymo Mini Prep Kit,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,no,5.6 ng/ul,30 ul,.,.,.,.,.,yes,.
+jhu00118,Zymo_Mini_Prep_OMR1_BD801_S69,3378979.0,2867809.0,886.0,2024-10-28,S1304-SC1 G05,Clinical Sample,Zymo Mini Prep Kit,.,no,1.6 ng/ul,50 ul,.,.,.,OMR,BD801,no,.
+jhu00119,Zymo_Mini_Prep_OMR2_BH802_S7,9565686.0,8750490.0,1264.0,2024-10-28,S1304-SC1 G06,Clinical Sample,Zymo Mini Prep Kit,.,no,2.2 ng/ul,50 ul,.,.,.,OMR,BH802,no,.
+jhu00120,Zymo_Mini_Prep_OMR_8_S36,7325092.0,6791060.0,2532.0,2024-10-28,S1304-SC1 B04,.,Zymo Mini Prep Kit,.,no,0.9 ng/ul,50 ul,.,.,.,OMR,110,no,.
+jhu00121,Zymo_Mini_Prep_OMR_HostZero_4_S1,5204592.0,4589243.0,1518.0,2024-10-28,S1304-SC1 A12,.,Zymo Mini Prep Kit,.,no,2.7 ng/ul,50 ul,.,.,.,OMR,110,no,.
+jhu00122,Zymo_Mini_Prep_OMR_MolYsis_2_S16,5940753.0,5399975.0,5665.0,2024-10-28,S1304-SC1 A10,.,Zymo Mini Prep Kit,.,no,2.9 ng/ul,50 ul,.,.,.,OMR,110,no,.
+jhu00123,Zymo_Mini_Prep_OMR_NEB_6_S55,17319034.0,14964598.0,5977.0,2024-10-28,S1304-SC1 B02,.,Zymo Mini Prep Kit,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,no,1.8 ng/ul,30 ul,.,.,.,OMR,110,no,.
+jhu00124,Zymo_Mini_Prep_Water_S65,7803267.0,7185311.0,822.0,2024-10-28,S1304-SC1 G07,Clinical Sample,Zymo Mini Prep Kit,.,no,1.9 ng/ul,50 ul,.,.,.,.,.,no,.
+jhu00125,10_Zymo_Micro_Prep_CS_010_Right_Eye_S90,22829843.0,39147.0,13230.0,2025-03-14,S1289-SC2 A10,Clinical Sample,Zymo Micro Prep Kit,.,no,1.1 ng/ul,20 ul,Right,010,.,.,.,no,.
+jhu00126,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,1916577.0,412844.0,1595.0,2025-03-14,S1289-SC2 A11,Clinical Sample,Zymo Micro Prep Kit,.,no,0.9 ng/ul,20 ul,.,007,.,.,.,no,.
+jhu00127,12_Zymo_Micro_Prep_CS_010_Air_Swab_S92,1603876.0,591925.0,1624.0,2025-03-14,S1289-SC2 A12,Clinical Sample,Zymo Micro Prep Kit,.,no,1.3 ng/ul,20 ul,.,010,.,.,.,no,.
+jhu00128,13_Zymo_Microprep_MCS_OMR_BD801_S93,30759260.0,30455392.0,818.0,2025-03-14,S1289-SC2 B01,.,Zymo Micro Prep Kit,.,no,5.2 ng/ul,20 ul,.,.,.,OMR,BD801,yes,.
+jhu00129,14_Zymo_Microprep_OMR_BD801_S94,2242493.0,1513858.0,816.0,2025-03-14,S1289-SC2 B02,.,Zymo Micro Prep Kit,.,no,0.7 ng/ul,20 ul,.,.,.,OMR,110,no,.
+jhu00130,15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95,6105462.0,3043128.0,3334.0,2025-03-14,S1289-SC2 B03,Clinical Sample,Qiagen PowerSoil Pro Kits,.,no,3.5 ng/ul,30 ul,Left,001,.,.,.,no,.
+jhu00131,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,18059110.0,120067.0,7196.0,2025-03-14,S1289-SC2 B04,Clinical Sample,Qiagen PowerSoil Pro Kits,.,no,5.1 ng/ul,30 ul,Right,002,.,.,.,no,.
+jhu00132,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,19023316.0,52146.0,11086.0,2025-03-14,S1289-SC2 B05,Clinical Sample,Qiagen PowerSoil Pro Kits,.,no,23.9 ng/ul,30 ul,Left,003,.,.,.,no,.
+jhu00133,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,5014379.0,690204.0,3896.0,2025-03-14,S1289-SC2 B06,Clinical Sample,Qiagen PowerSoil Pro Kits,.,no,3.2 ng/ul,30 ul,Right,004,.,.,.,no,.
+jhu00134,19_Qiagen_Soil_Pro_CS_005_Left_Eye_S3,21975922.0,34438.0,10579.0,2025-03-14,S1289-SC2 B07,Clinical Sample,Qiagen PowerSoil Pro Kits,.,no,2.4 ng/ul,30 ul,Left,005,.,.,.,no,.
+jhu00135,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,19750549.0,118265.0,13209.0,2025-03-14,S1289-SC2 A01,Clinical Sample,Zymo Micro Prep Kit,.,no,0.5 ng/ul,20 ul,Left,001,.,.,.,no,.
+jhu00136,20_Qiagen_Soil_Pro_CS_006_Right_Eye_S4,27376454.0,40759.0,14406.0,2025-03-14,S1289-SC2 B08,Clinical Sample,Qiagen PowerSoil Pro Kits,.,no,3.1 ng/ul,30 ul,Right,006,.,.,.,no,.
+jhu00137,21_Qiagen_Soil_Pro_CS_007_Left_Eye_S5,22349521.0,50563.0,10114.0,2025-03-14,S1289-SC2 B09,Clinical Sample,Qiagen PowerSoil Pro Kits,.,no,21.1 ng/ul,30 ul,Left,007,.,.,.,no,.
+jhu00138,22_Qiagen_Soil_Pro_CS_008_Right_Eye_S6,13394471.0,20150.0,6212.0,2025-03-14,S1289-SC2 B10,Clinical Sample,Qiagen PowerSoil Pro Kits,.,no,31.1 ng/ul,30 ul,Right,008,.,.,.,no,.
+jhu00139,23_Qiagen_Soil_Pro_CS_009_Left_Eye_S7,18480069.0,24391.0,7845.0,2025-03-14,S1289-SC2 B11,Clinical Sample,Qiagen PowerSoil Pro Kits,.,no,3.2 ng/ul,30 ul,Left,009,.,.,.,no,.
+jhu00140,24_Qiagen_Soil_Pro_CS_010_Right_Eye_S8,15984811.0,27715.0,8991.0,2025-03-14,S1289-SC2 B12,Clinical Sample,Qiagen PowerSoil Pro Kits,.,no,8.9 ng/ul,30 ul,Right,010,.,.,.,no,.
+jhu00141,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,3026993.0,382981.0,4931.0,2025-03-14,S1289-SC2 C01,Clinical Sample,Qiagen PowerSoil Pro Kits,.,no,6.3 ng/ul,30 ul,.,007,.,.,.,no,.
+jhu00142,26_Qiagen_Soil_Pro_CS_010_Air_Swab_S10,1630973.0,175908.0,2037.0,2025-03-14,S1289-SC2 C02,Clinical Sample,Qiagen PowerSoil Pro Kits,.,no,8 ng/ul,30 ul,.,010,.,.,.,no,.
+jhu00143,27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11,21054529.0,20873427.0,218.0,2025-03-14,S1289-SC2 C03,.,Qiagen PowerSoil Pro Kits,.,no,5.7 ng/ul,30 ul,.,.,.,OMR,BD801,yes,.
+jhu00144,28_Qiagen_Soil_Pro_OMR_BD801_S12,2166117.0,1216461.0,971.0,2025-03-14,S1289-SC2 C04,.,Qiagen PowerSoil Pro Kits,.,no,4.2 ng/ul,30 ul,.,.,.,OMR,110,no,.
+jhu00145,29_Z_Mini_049_Conj_L_1_S13,15762715.0,113598.0,7261.0,2025-03-14,S1289-SC2 C05,Clinical Sample,Zymo Mini Prep Kit,.,no,2.1 ng/ul,50 ul,.,049,.,.,.,no,.
+jhu00146,2_Zymo_Micro_Prep_CS_002_Right_Eye_S82,16642495.0,24118.0,7339.0,2025-03-14,S1289-SC2 A02,Clinical Sample,Zymo Micro Prep Kit,.,no,1.7 ng/ul,20 ul,Right,002,.,.,.,no,.
+jhu00147,30_Z_Mini_049_049_Lid_L_1_S14,20776322.0,78150.0,10026.0,2025-03-14,S1289-SC2 C06,Clinical Sample,Zymo Mini Prep Kit,.,no,4.5 ng/ul,50 ul,.,049,.,.,.,no,.
+jhu00148,31_Z_Mini_049_Skin_L_1_S15,16460716.0,256913.0,14006.0,2025-03-14,S1289-SC2 C07,Clinical Sample,Zymo Mini Prep Kit,.,no,2.6 ng/ul,50 ul,.,049,.,.,.,no,.
+jhu00149,32_Z_Mini_049_Conj_L_2_S16,22936943.0,68908.0,12649.0,2025-03-14,S1289-SC2 C08,Clinical Sample,Zymo Mini Prep Kit,.,no,2.3 ng/ul,50 ul,.,049,.,.,.,no,.
+jhu00150,33_Z_Mini_049_Lid_L_2_S17,23588515.0,118836.0,10765.0,2025-03-14,S1289-SC2 C09,Clinical Sample,Zymo Mini Prep Kit,.,no,1.9 ng/ul,50 ul,.,049,.,.,.,no,.
+jhu00151,34_Z_Mini_049_Skin_L_2_S18,20859240.0,1391951.0,9944.0,2025-03-14,S1289-SC2 C10,Clinical Sample,Zymo Mini Prep Kit,.,no,5.9 ng/ul,50 ul,.,049,.,.,.,no,.
+jhu00152,35_Z_Mini_049_Conj_L_3_S19,17463734.0,61325.0,8390.0,2025-03-14,S1289-SC2 C11,Clinical Sample,Zymo Mini Prep Kit,.,no,3.2 ng/ul,50 ul,.,049,.,.,.,no,.
+jhu00153,36_Z_Mini_049_Lid_L_3_S20,16363743.0,108266.0,7262.0,2025-03-14,S1289-SC2 C12,Clinical Sample,Zymo Mini Prep Kit,.,no,2.3 ng/ul,50 ul,.,049,.,.,.,no,.
+jhu00154,37_Z_Mini_049_Skin_L_3_S21,14723135.0,463080.0,8250.0,2025-03-14,S1289-SC2 D01,Clinical Sample,Zymo Mini Prep Kit,.,no,2.5 ng/ul,50 ul,.,049,.,.,.,no,.
+jhu00155,38_Z_Mini_050_Conj_R_1_S22,17392586.0,39988.0,7950.0,2025-03-14,S1289-SC2 D02,Clinical Sample,Zymo Mini Prep Kit,.,no,1.9 ng/ul,50 ul,.,050,.,.,.,no,.
+jhu00156,39_Z_Mini_050_Lid_R_1_S23,17057725.0,222489.0,8244.0,2025-03-14,S1289-SC2 D03,Clinical Sample,Zymo Mini Prep Kit,.,no,2.8 ng/ul,50 ul,.,050,.,.,.,no,.
+jhu00157,3_Zymo_Micro_Prep_CS_003_Left_Eye_S83,16559653.0,30772.0,8764.0,2025-03-14,S1289-SC2 A03,Clinical Sample,Zymo Micro Prep Kit,.,no,1.1 ng/ul,20 ul,Left,003,.,.,.,no,.
+jhu00158,40_Z_Mini_050_Skin_R_1_S24,19093420.0,628786.0,8386.0,2025-03-14,S1289-SC2 D04,Clinical Sample,Zymo Mini Prep Kit,.,no,1.5 ng/ul,50 ul,.,050,.,.,.,no,.
+jhu00159,41_Z_Mini_050_Conj_R_2_S25,17476714.0,51652.0,8254.0,2025-03-14,S1289-SC2 D05,Clinical Sample,Zymo Mini Prep Kit,.,no,2.8 ng/ul,50 ul,.,050,.,.,.,no,.
+jhu00160,42_Z_Mini_050_Lid_R_2_S26,14646756.0,434422.0,8723.0,2025-03-14,S1289-SC2 D06,Clinical Sample,Zymo Mini Prep Kit,.,no,6.6 ng/ul,50 ul,.,050,.,.,.,no,.
+jhu00161,43_Z_Mini_050_Skin_R_2_S27,16365176.0,8173581.0,8887.0,2025-03-14,S1289-SC2 D07,Clinical Sample,Zymo Mini Prep Kit,.,no,2.2 ng/ul,50 ul,.,050,.,.,.,no,.
+jhu00162,44_Z_Mini_050_Conj_R_3_S28,23988745.0,70613.0,12720.0,2025-03-14,S1289-SC2 D08,Clinical Sample,Zymo Mini Prep Kit,.,no,2.6 ng/ul,50 ul,.,050,.,.,.,no,.
+jhu00163,45_Z_Mini_050_Lid_R_3_S29,5710230.0,22745.0,2866.0,2025-03-14,S1289-SC2 D09,Clinical Sample,Zymo Mini Prep Kit,.,no,7.3 ng/ul,50 ul,.,050,.,.,.,no,.
+jhu00164,46_Z_Mini_050_Skin_R_3_S30,21526864.0,1026412.0,10984.0,2025-03-14,S1289-SC2 D10,Clinical Sample,Zymo Mini Prep Kit,.,no,3.1 ng/ul,50 ul,.,050,.,.,.,no,.
+jhu00165,47_Z_Mini_051_Conj_L_1_S31,13983288.0,35204.0,7456.0,2025-03-14,S1289-SC2 D11,Clinical Sample,Zymo Mini Prep Kit,.,no,2.5 ng/ul,50 ul,.,051,.,.,.,no,.
+jhu00166,48_Z_Mini_051_Lid_L_1_S32,12560761.0,200797.0,6169.0,2025-03-14,S1289-SC2 D12,Clinical Sample,Zymo Mini Prep Kit,.,no,3.2 ng/ul,50 ul,.,051,.,.,.,no,.
+jhu00167,49_Z_Mini_051_Skin_L_1_S33,17666473.0,328298.0,6669.0,2025-03-14,S1289-SC2 E01,Clinical Sample,Zymo Mini Prep Kit,.,no,1.6 ng/ul,50 ul,.,051,.,.,.,no,.
+jhu00168,4_Zymo_Micro_Prep_CS_004_Right_Eye_S84,19249676.0,81165.0,8624.0,2025-03-14,S1289-SC2 A04,Clinical Sample,Zymo Micro Prep Kit,.,no,0.6 ng/ul,20 ul,Right,004,.,.,.,no,.
+jhu00169,50_Z_Mini_051_Conj_L_2_S34,17520498.0,73859.0,6608.0,2025-03-14,S1289-SC2 E02,Clinical Sample,Zymo Mini Prep Kit,.,no,1.5 ng/ul,50 ul,.,051,.,.,.,no,.
+jhu00170,51_Z_Mini_051_Lid_L_2_S35,17065940.0,623922.0,10226.0,2025-03-14,S1289-SC2 E03,Clinical Sample,Zymo Mini Prep Kit,.,no,2.2 ng/ul,50 ul,.,051,.,.,.,no,.
+jhu00171,52_Z_Mini_051_Skin_L_2_S36,18514098.0,3740664.0,27432.0,2025-03-14,S1289-SC2 E04,Clinical Sample,Zymo Mini Prep Kit,.,no,2.3 ng/ul,50 ul,.,051,.,.,.,no,.
+jhu00172,53_Z_Mini_051_Conj_L_3_S37,22533210.0,57295.0,8429.0,2025-03-14,S1289-SC2 E05,Clinical Sample,Zymo Mini Prep Kit,.,no,2.4 ng/ul,50 ul,.,051,.,.,.,no,.
+jhu00173,54_Z_Mini_051_Lid_L_3_S38,18065586.0,262047.0,9187.0,2025-03-14,S1289-SC2 E06,Clinical Sample,Zymo Mini Prep Kit,.,no,2.9 ng/ul,50 ul,.,051,.,.,.,no,.
+jhu00174,55_Z_Mini_051_Skin_L_3_S39,16926350.0,280709.0,6352.0,2025-03-14,S1289-SC2 E07,Clinical Sample,Zymo Mini Prep Kit,.,no,2 ng/ul,50 ul,.,051,.,.,.,no,.
+jhu00175,56_Z_Mini_049_ISO_Cont_1_S40,6208087.0,5553629.0,22476.0,2025-03-14,S1289-SC2 E08,Clinical Sample,Zymo Mini Prep Kit,.,no,1.9 ng/ul,50 ul,.,049,.,.,.,no,Isohelix
+jhu00176,57_Z_Mini_050_ISO_Cont_1_S41,1667905.0,586787.0,1390.0,2025-03-14,S1289-SC2 E09,Clinical Sample,Zymo Mini Prep Kit,.,no,5.3 ng/ul,50 ul,.,050,.,.,.,no,Isohelix
+jhu00177,58_Z_Mini_049_ISO_Cont_2_S42,1442242.0,464518.0,923.0,2025-03-14,S1289-SC2 E10,Clinical Sample,Zymo Mini Prep Kit,.,no,3.3 ng/ul,50 ul,.,049,.,.,.,no,Isohelix
+jhu00178,59_Z_Mini_050_ISO_Cont_3_S43,2089359.0,812896.0,999.0,2025-03-14,S1289-SC2 E11,Clinical Sample,Zymo Mini Prep Kit,.,no,2.6 ng/ul,50 ul,.,050,.,.,.,no,Isohelix
+jhu00179,5_Zymo_Micro_Prep_CS_005_Left_Eye_S85,20012172.0,26764.0,7512.0,2025-03-14,S1289-SC2 A05,Clinical Sample,Zymo Micro Prep Kit,.,no,1.4 ng/ul,20 ul,Left,005,.,.,.,no,.
+jhu00180,60_Z_Mini_049_ISO_Cont_3_S44,1337611.0,591386.0,1558.0,2025-03-14,S1289-SC2 E12,Clinical Sample,Zymo Mini Prep Kit,.,no,2.7 ng/ul,50 ul,.,049,.,.,.,no,Isohelix
+jhu00181,61_Z_Mini__MCS_OMR_B1001_S45,18031694.0,17874762.0,466.0,2025-03-14,S1289-SC2 F01,.,Zymo Mini Prep Kit,.,no,4.4 ng/ul,50 ul,.,.,.,OMR,B1001,yes,.
+jhu00182,62_Z_Mini__OMR_B1001_S46,1111333.0,592968.0,1773.0,2025-03-14,S1289-SC2 F02,.,Zymo Mini Prep Kit,.,no,1.6 ng/ul,50 ul,.,.,.,OMR,110,no,.
+jhu00183,63_Qiagen_DNeasy_049_Conj_L_1_S47,12491235.0,126313.0,6872.0,2025-03-14,S1289-SC2 F03,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,6.2 ng/ul,30 ul,.,049,.,.,.,no,.
+jhu00184,64_Qiagen_DNeasy_049_049_Lid_L_1_S48,17970897.0,202088.0,9857.0,2025-03-14,S1289-SC2 F04,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.1 ng/ul,30 ul,.,049,.,.,.,no,.
+jhu00185,65_Qiagen_DNeasy_049_Skin_L_1_S49,13513388.0,292954.0,11826.0,2025-03-14,S1289-SC2 F05,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.1 ng/ul,30 ul,.,049,.,.,.,no,.
+jhu00186,66_Qiagen_DNeasy_049_Conj_L_2_S50,7344335.0,90734.0,4249.0,2025-03-14,S1289-SC2 F06,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,5.1 ng/ul,30 ul,.,049,.,.,.,no,.
+jhu00187,67_Qiagen_DNeasy_049_Lid_L_2_S51,15034438.0,185241.0,10008.0,2025-03-14,S1289-SC2 F07,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.3 ng/ul,30 ul,.,049,.,.,.,no,.
+jhu00188,68_Qiagen_DNeasy_049_Skin_L_2_S52,10064434.0,2173211.0,12774.0,2025-03-14,S1289-SC2 F08,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.2 ng/ul,30 ul,.,049,.,.,.,no,.
+jhu00189,69_Qiagen_DNeasy_049_Conj_L_3_S53,17531597.0,251027.0,12569.0,2025-03-14,S1289-SC2 F09,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,4.2 ng/ul,30 ul,.,049,.,.,.,no,.
+jhu00190,6_Zymo_Micro_Prep_CS_006_Right_Eye_S86,17704755.0,22509.0,7064.0,2025-03-14,S1289-SC2 A06,Clinical Sample,Zymo Micro Prep Kit,.,no,3.2 ng/ul,20 ul,Right,006,.,.,.,no,.
+jhu00191,70_Qiagen_DNeasy_049_Lid_L_3_S54,16982311.0,258252.0,12326.0,2025-03-14,S1289-SC2 F10,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3 ng/ul,30 ul,.,049,.,.,.,no,.
+jhu00192,71_Qiagen_DNeasy_049_Skin_L_3_S55,16503217.0,479946.0,14520.0,2025-03-14,S1289-SC2 F11,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,4.3 ng/ul,30 ul,.,049,.,.,.,no,.
+jhu00193,72_Qiagen_DNeasy_050_Conj_R_1_S56,16561570.0,86237.0,13579.0,2025-03-14,S1289-SC2 F12,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,2.4 ng/ul,30 ul,.,050,.,.,.,no,.
+jhu00194,73_Qiagen_DNeasy_050_Lid_R_1_S57,8634430.0,190942.0,7664.0,2025-03-14,S1289-SC2 G01,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,2.7 ng/ul,30 ul,.,050,.,.,.,no,.
+jhu00195,74_Qiagen_DNeasy_050_Skin_R_1_S58,13881462.0,352071.0,10043.0,2025-03-14,S1289-SC2 G02,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,1.1 ng/ul,30 ul,.,050,.,.,.,no,.
+jhu00196,75_Qiagen_DNeasy_050_Conj_R_2_S59,7157278.0,586613.0,4675.0,2025-03-14,S1289-SC2 G03,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.7 ng/ul,30 ul,.,050,.,.,.,no,.
+jhu00197,76_Qiagen_DNeasy_050_Lid_R_2_S60,8622089.0,1597614.0,6167.0,2025-03-14,S1289-SC2 G04,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.1 ng/ul,30 ul,.,050,.,.,.,no,.
+jhu00198,77_Qiagen_DNeasy_050_Skin_R_2_S61,2526536.0,804828.0,1350.0,2025-03-14,S1289-SC2 G05,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,4.4 ng/ul,30 ul,.,050,.,.,.,no,.
+jhu00199,78_Qiagen_DNeasy_050_Conj_R_3_S62,8814382.0,425784.0,7044.0,2025-03-14,S1289-SC2 G06,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,2.9 ng/ul,30 ul,.,050,.,.,.,no,.
+jhu00200,79_Qiagen_DNeasy_050_Lid_R_3_S63,19685917.0,54880.0,15272.0,2025-03-14,S1289-SC2 G07,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.7 ng/ul,30 ul,.,050,.,.,.,no,.
+jhu00201,7_Zymo_Micro_Prep_CS_007_Left_Eye_S87,21616166.0,31349.0,10876.0,2025-03-14,S1289-SC2 A07,Clinical Sample,Zymo Micro Prep Kit,.,no,3.1 ng/ul,20 ul,Left,007,.,.,.,no,.
+jhu00202,80_Qiagen_DNeasy_050_Skin_R_3_S64,12131672.0,567737.0,9668.0,2025-03-14,S1289-SC2 G08,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.5 ng/ul,30 ul,.,050,.,.,.,no,.
+jhu00203,81_Qiagen_DNeasy_051_Conj_L_1_S65,18306384.0,118514.0,5937.0,2025-03-14,S1289-SC2 G09,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,8.5 ng/ul,30 ul,.,051,.,.,.,no,.
+jhu00204,82_Qiagen_DNeasy_051_Lid_L_1_S66,17458700.0,465975.0,9406.0,2025-03-14,S1289-SC2 G10,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,4.4 ng/ul,30 ul,.,051,.,.,.,no,.
+jhu00205,83_Qiagen_DNeasy_051_Skin_L_1_S67,16506607.0,253671.0,8739.0,2025-03-14,S1289-SC2 G11,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,2.1 ng/ul,30 ul,.,051,.,.,.,no,.
+jhu00206,84_Qiagen_DNeasy_051_Conj_L_2_S68,10594271.0,113844.0,7724.0,2025-03-14,S1289-SC2 G12,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,4.3 ng/ul,30 ul,.,051,.,.,.,no,.
+jhu00207,85_Qiagen_DNeasy_051_Lid_L_2_S69,13279965.0,195995.0,12092.0,2025-03-14,S1289-SC2 H01,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,4.6 ng/ul,30 ul,.,051,.,.,.,no,.
+jhu00208,86_Qiagen_DNeasy_051_Skin_L_2_S70,28356564.0,1875237.0,16313.0,2025-03-14,S1289-SC2 H02,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,5.7 ng/ul,30 ul,.,051,.,.,.,no,.
+jhu00209,87_Qiagen_DNeasy_051_Conj_L_3_S71,10054828.0,72435.0,7132.0,2025-03-14,S1289-SC2 H03,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,4.1 ng/ul,30 ul,.,051,.,.,.,no,.
+jhu00210,88_Qiagen_DNeasy_051_Lid_L_3_S72,15919963.0,241317.0,13041.0,2025-03-14,S1289-SC2 H04,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,8.6 ng/ul,30 ul,.,051,.,.,.,no,.
+jhu00211,89_Qiagen_DNeasy_051_Skin_L_3_S73,11893183.0,325142.0,7154.0,2025-03-14,S1289-SC2 H05,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,2.2 ng/ul,30 ul,.,051,.,.,.,no,.
+jhu00212,8_Zymo_Micro_Prep_CS_008_Right_Eye_S88,19483052.0,32223.0,9070.0,2025-03-14,S1289-SC2 A08,Clinical Sample,Zymo Micro Prep Kit,.,no,2 ng/ul,20 ul,Right,008,.,.,.,no,.
+jhu00213,90_Qiagen_DNeasy_049_ISO_Cont_1_S74,2992477.0,2517432.0,4773.0,2025-03-14,S1289-SC2 H06,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.6 ng/ul,30 ul,.,049,.,.,.,no,Isohelix
+jhu00214,91_Qiagen_DNeasy_050_ISO_Cont_1_S75,4184602.0,3633616.0,8915.0,2025-03-14,S1289-SC2 H07,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,6.1 ng/ul,30 ul,.,050,.,.,.,no,Isohelix
+jhu00215,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,4661992.0,3886477.0,4046.0,2025-03-14,S1289-SC2 H08,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,2.3 ng/ul,30 ul,.,049,.,.,.,no,Isohelix
+jhu00216,93_Qiagen_DNeasy_050_ISO_Cont_3_S77,8681421.0,7463058.0,2954.0,2025-03-14,S1289-SC2 H09,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,5 ng/ul,30 ul,.,050,.,.,.,no,Isohelix
+jhu00217,94_Qiagen_DNeasy_049_ISO_Cont_3_S78,3075088.0,2436974.0,1941.0,2025-03-14,S1289-SC2 H10,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,.,no,3.9 ng/ul,30 ul,.,049,.,.,.,no,Isohelix
+jhu00218,95_Qiagen_DNeasy_MCS_OMR_B1001_S79,17969487.0,17821336.0,91.0,2025-03-14,S1289-SC2 H11,.,Qiagen DNeasy Blood_Tissue Kit,.,no,4.9 ng/ul,30 ul,.,.,.,OMR,B1001,yes,.
+jhu00219,96_Qiagen_DNeasy_OMR_B1001_S80,8583117.0,8158713.0,4033.0,2025-03-14,S1289-SC2 H12,.,Qiagen DNeasy Blood_Tissue Kit,.,no,7 ng/ul,30 ul,.,.,.,OMR,110,no,.
+jhu00220,9_Zymo_Micro_Prep_CS_009_Left_Eye_S89,20598269.0,31435.0,9971.0,2025-03-14,S1289-SC2 A09,Clinical Sample,Zymo Micro Prep Kit,.,no,0.9 ng/ul,20 ul,Left,009,.,.,.,no,.
