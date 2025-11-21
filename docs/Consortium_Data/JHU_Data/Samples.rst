@@ -24,8 +24,8 @@
 
             var dt = $table.DataTable({
                 dom: 'tBfipr',
-                pageLength: 5,
-                lengthMenu: [[5, 10, 50, -1], [5, 10, 50, "All"]],
+                pageLength: 10,
+                lengthMenu: [[ 10, 50, -1], [10, 50, "All"]],
 
                 buttons: [
                     'pageLength',
@@ -77,7 +77,14 @@
                             }
                             return data;
                         }
-                    }
+                    },
+
+ 	           {
+		       targets: [8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
+	               visible: false
+        	    }
+
+
                 ],
                 order: [[1, 'asc']]
             });

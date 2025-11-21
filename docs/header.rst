@@ -22,8 +22,8 @@
             var dt = $table.DataTable({
 
                 dom: 'tBfipr',
-                pageLength: 5,
-                lengthMenu: [[5, 10, 50, -1],[5, 10, 50, "All"]],
+                pageLength: 10,
+                lengthMenu: [[10, 50, -1],[10, 50, "All"]],
                 buttons: [
                  'pageLength',
                  { extend: 'csv', text: 'Save', exportOptions: { columns: ':not(:first-child)',  format: { body: function (data) { return $('<div>' + data + '</div>').text().replace(/,/g, '');}}}},

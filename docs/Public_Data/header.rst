@@ -21,8 +21,8 @@
 
             var dt = $table.DataTable({
                 dom: 'tBfipr',
-                pageLength: 5,
-                lengthMenu: [[5, 10, 50, -1],[5, 10, 50, "All"]],
+                pageLength: 10,
+                lengthMenu: [[10, 50, -1],[10, 50, "All"]],
                 buttons: [
                     'pageLength',
                     { extend: 'csv', exportOptions: { columns: ':not(:first-child)' } },

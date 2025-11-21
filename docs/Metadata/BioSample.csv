@@ -1,39 +1,44 @@
-field_name,description,examples,notes
-biosample_id,Unique identifier for the sample,OMS00001,required
-biosample_alias,Alternate code or name used at collection site,S89,recommended*
-biosample_accession,"External accession IDs (BioSample SRA, ENA)",SAMN12345678,recommended
-biosample_site,Anatomical or environmental site of origin,"Microbial Community Standard,Human Ocular Surface,OMR-110,Air Control",required*
-biosample_material,Material type of sample,"swab, tissue, tear",required
-biosample_side,Laterality of sample,"left right, NA",recommended*
-collection_date,Date of sample collection (ISO 8601),2024-05-07,required
-visit_number,Number/label of visit or collection event,1,recommended
-individual_id,Unique subject/individual identifier (linked to subject table),OMI000123,recommended*
-project_id,Short unique project identifier or acronym,ocular-microbiome,required
-center_id,Unique identifier for associated (collection or extraction) center,JHU,recommended
-collection_method,Method used for sample collection,"swab, wash, filter paper",recommended
-swab_type,Brand/model/type of swab used for sample collection,FLOQSwab,optional
-swab_lot_number,Lot number of the swab used,A12345,optional
-collection_device_id,Device identifier or lot number for collection device,DEV001-2023,optional
-swab_kit_lot,Manufacturer and lot for swab/kit,Qiagen-12345,optional
-storage_duration,Time from collection to processing (ISO 8601),PT2H30M,optional
-storage_temperature,Sample storage temperature after collection (with units),-80 °C,optional
-preservation_method,Method or reagent used for preservation,"RNAlater, ethanol",optional
-replicate_type,Replicate type,biological,optional
-batch_plate_location,Identifier for batch,"plate, and plate location,Batch5, Plate2-B3",optional*
-nucleic_acid_concentration,DNA/RNA concentration (with units),20 ng/µl,recommended*
-sample_volume,Total volume or mass collected (with units),200 µl,recommended*
-extraction_date,Date of DNA/RNA extraction (ISO 8601),2024-05-08,recommended
-extraction_kit,Brand/model of DNA extraction kit,"Qiagen DNeasy Blood_Tissue Kit,Zymo Micro Prep Kit,Qiagen PowerSoil Pro Kits,MasterPure Gram Positive DNA Purification Kit",recommended*
-extraction_kit_lot,Lot number for DNA extraction kit,L20240155,optional
-extraction_protocol_version,Version or code/identifier of extraction protocol,v1.2,optional
-host_depletion_performed,Indicates host depletion step performed,"yes, no",recommended
-host_depletion_kit,Kit(s) used for host depletion,"NEB, Molzym, HostZero",optional*
-host_depletion_method,Specific host depletion method applied,"MolYsis Basic5, NEBNext",recommended*
-extraction_protocol_modifications,Details of any protocol modifications,Increased elution volume to 100 µl,optional
-elution_volume,Final elution volume (with units),50 µl,optional
-dna_yield,Measured DNA quantity (with units),100 ng,optional
-dna_qc_metrics,DNA quality control metrics,"260/280 ratio 1.85, Qubit 22 ng/µl",optional
-stabilizing_fluid,Type of fluid used to stabilize the collected sample,OMR,optional*
-stabilizing_fluid_lot,Lot number of stabilizing fluid used,BD801,optional*
-microbial_standard,Indicates if a microbial community standard was used,MCS,optional*
-lysozyme_treatment,Indicates if lysozyme treatment was applied during processing,yes,optional*
+field_name,description,example,notes,data_format
+biosample_id,Unique identifier for the sample,OMS00001,required,string
+biosample_alias,Alternate code or name used at collection site,S89,recommended*,string
+project_id,Short unique project identifier or acronym,ocular-microbiome,required,string
+individual_id,Unique subject/individual identifier (linked to subject table),OMI000123,recommended*,string
+center_id,Unique identifier for associated (collection or extraction) center,JHU,recommended,string
+visit_number,Number/label of visit or collection event,1,recommended,numeric
+collection_date,Date of sample collection (ISO 8601),2024-05-07,required,date
+biosample_type,Anatomical or environmental site type,"Microbial Community Standard,Human Ocular Surface,OMR-110,Air Control",required*,string
+biosample_site,Anatomical site of origin,"Skin,Lid,Conj",required,string
+biosample_material,Material type of sample,"swab, tissue, tear",required,string
+biosample_side,Laterality of sample,"left right, NA",recommended*,string
+collection_method,Method used for sample collection,"swab, wash, filter paper",recommended,string
+collection_medium,Fluid in which the biosample is stored,"ANE(Amies Transport Medium),BSS(Balanced Salt Solution)",recommended,string
+collection_device_lot,Collection device batch,BG001,optional,string
+collection_device_id,Device identifier or lot number for collection device,DEV001-2023,optional,string
+swab_type,Brand/model/type of swab used for sample collection,"FloQ,Isohelix,Puritan",optional,string
+swab_kit_lot,Manufacturer and lot for swab/kit,Qiagen-12345,optional,string
+swab_lot_number,Lot number of the swab used,A12345,optional,string
+storage_duration,Time from collection to processing (ISO 8601),PT2H30M,optional,string
+storage_temperature,Sample storage temperature after collection (with units),-80 °C,optional,string
+preservation_method,Method or reagent used for preservation,"RNAlater, ethanol",optional,string
+stabilizing_fluid,Type of fluid used to stabilize the collected sample,OMR,optional*,string
+stabilizing_fluid_lot,Lot number of stabilizing fluid used,BD801,optional*,string
+microbial_standard,Indicates if a microbial community standard was used,MCS,optional*,string
+replicate_type,Replicate type,biological,optional,string
+batch_number,"Identifier for batch","Batch5",optional*,string
+plate_number,"Identifier for plate","Plate2",optional*,string
+plate_location,"Identifier for plate location","B3",optional*,string
+lysozyme_treatment,Indicates if lysozyme treatment was applied during processing,yes,optional*,bool
+host_depletion_performed,Indicates host depletion step performed,"yes, no",recommended,bool
+host_depletion_method,Specific host depletion method applied,"MolYsis Basic5, NEBNext",recommended*,string
+host_depletion_kit,Kit(s) used for host depletion,"NEB, Molzym, HostZero",optional*,string
+extraction_date,Date of DNA/RNA extraction (ISO 8601),2024-05-08,recommended,date
+extraction_kit,Brand/model of DNA extraction kit,"Qiagen DNeasy Blood_Tissue Kit,Zymo Micro Prep Kit,Qiagen PowerSoil Pro Kits,MasterPure Gram Positive DNA Purification Kit",recommended*,string
+extraction_kit_lot,Lot number for DNA extraction kit,L20240155,optional,string
+extraction_protocol_version,Version or code/identifier of extraction protocol,v1.2,optional,string
+extraction_protocol_modifications,Details of any protocol modifications,Increased elution volume to 100 µl,optional,string
+sample_volume,Total volume or mass collected (with units),200 µl,recommended*,string
+elution_volume,Final elution volume (with units),50 µl,optional,string
+nucleic_acid_concentration,DNA/RNA concentration (with units),20 ng/µl,recommended*,string
+dna_yield,Measured DNA quantity (with units),100 ng,optional,string
+dna_qc_metrics,DNA quality control metrics,"260/280 ratio 1.85, Qubit 22 ng/µl",optional,string
+biosample_accession,"External accession IDs (BioSample SRA, ENA)",SAMN12345678,recommended,string

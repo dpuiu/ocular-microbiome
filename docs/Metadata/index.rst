@@ -9,7 +9,7 @@ Project
 .. csv-table::
     :file: Project.csv
     :header-rows: 1
-    :widths: 20, 30, 25, 25
+    :widths: 20, 20, 20, 20, 20
 
 Center
 ------
@@ -17,7 +17,7 @@ Center
 .. csv-table::
     :file: Center.csv
     :header-rows: 1
-    :widths: 20, 30, 25, 25
+    :widths: 20, 20, 20, 20, 20
 
 Individual
 ----------
@@ -25,7 +25,7 @@ Individual
 .. csv-table::
     :file: Individual.csv
     :header-rows: 1
-    :widths: 20, 30, 25, 25
+    :widths: 20, 20, 20, 20, 20
 
 BioSample
 ---------
@@ -33,7 +33,7 @@ BioSample
 .. csv-table::
     :file: BioSample.csv
     :header-rows: 1
-    :widths: 20, 30, 25, 25
+    :widths: 20, 20, 20, 20, 20
 
 Library
 -------
@@ -41,7 +41,7 @@ Library
 .. csv-table::
     :file: Library.csv
     :header-rows: 1
-    :widths: 20, 30, 25, 25
+    :widths: 20, 20, 20, 20, 20
 
 Sample
 ------
@@ -49,7 +49,7 @@ Sample
 .. csv-table::
     :file: Sample.csv
     :header-rows: 1
-    :widths: 20, 30, 25, 25
+    :widths: 20, 20, 20, 20, 20
 
 Analysis
 --------
@@ -57,5 +57,5 @@ Analysis
 .. csv-table::
     :file: Analysis.csv
     :header-rows: 1
-    :widths: 20, 30, 25, 25
+    :widths: 20, 20, 20, 20, 20
 
