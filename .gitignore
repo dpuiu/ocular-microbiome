@@ -1,5 +1,8 @@
 _build/
-*/*.sh
-*/*/*.sh
-*/*/*/*.sh
-OLD*
+make.bat
+**/*.sh
+**/*.csv?
+**/*.ids
+**/OLD*
+**/all.csv
+**/*.csvstat

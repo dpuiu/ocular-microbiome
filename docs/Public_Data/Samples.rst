@@ -11,6 +11,15 @@
     <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9X904V344P"></script>
+    <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'G-9X904V344P');
+    </script>
+
     <script>
     $(function () {
         $('table.docutils.align-default').each(function () {
@@ -29,13 +38,13 @@
 
                 buttons: [
                     'pageLength',
-                    { 
-                        extend: 'csv', 
-                        text: 'Save', 
-                        exportOptions: { 
-                            columns: ':not(:first-child)',  
-                            format: { 
-                                body: function (data) { 
+                    {
+                     	extend: 'csv',
+                        text: 'Save',
+                        exportOptions: {
+                            columns: ':not(:first-child)',
+                            format: {
+                                body: function (data) {
                                     return $('<div>' + data + '</div>').text().replace(/,/g, '');
                                 }
                             }
@@ -46,14 +55,14 @@
 
                 columnDefs: [
                    {
-                     	targets: 1,
+                    	targets: 1,
                         render: function (data, type, row, meta) {
                             var text = $('<div>' + data + '</div>').text().trim();
                             return '<p id="' + text + '">' + text + '</p>';
                         }
                     },
                     {
-                        targets: [3,5],
+                     	targets: [3,5],
                         render: function (data, type, row, meta) {
                             var text = $('<div>' + data + '</div>').text().trim();
                             if ($.isNumeric(text)) {
@@ -62,16 +71,16 @@
                             return data;
                         }
                     },
-                    {         
-                        targets: 4,
+                    {
+                     	targets: 4,
                         render: function (data, type, row, meta) {
                             var text = $('<div>' + data + '</div>').text().trim();
                             var ndata = row[2];
                             var ntext = $('<div>' + ndata + '</div>').text().trim();
 
                             if ($.isNumeric(text)) {
-                                return '<a href="https://data.idies.jhu.edu/OcularMicrobiome/Consortium_data/JHU/' + ntext + '.unmapped.fasta.gz"' +
-                                    ' download title="click to download non-human read FASTQ.GZ file">' +
+                                return '<a href="https://data.idies.jhu.edu/OcularMicrobiome/NCBI_Public_Data/all/' + ntext + '.unmapped.fasta.gz"' +
+                                    ' download title="click to download non-human read FASTA.GZ file">' +
                                     Number(text).toLocaleString()  +
                                     '</a>';
                             }
@@ -79,10 +88,10 @@
                         }
                     },
 
- 	           {
-		       targets: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
-	               visible: false
-        	    }
+                   {
+                       targets: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+                       visible: false
+                    }
 
 
                 ],
@@ -102,7 +111,8 @@
         });
     });
 
-    </script>    
+    </script>
+
 
 Samples
 =======
@@ -110,4 +120,3 @@ Samples
 .. csv-table::
     :file: Samples.csv
     :header-rows: 1
-	

@@ -42,3 +42,5 @@ nucleic_acid_concentration,DNA/RNA concentration (with units),20 ng/µl,recommen
 dna_yield,Measured DNA quantity (with units),100 ng,optional,string
 dna_qc_metrics,DNA quality control metrics,"260/280 ratio 1.85, Qubit 22 ng/µl",optional,string
 biosample_accession,"External accession IDs (BioSample SRA, ENA)",SAMN12345678,recommended,string
+geo_loc_name,Geographic location where the sample was collected,"USA: Maryland: Baltimore","Should include country, state/province, and city if known; standardized names recommended",string
+

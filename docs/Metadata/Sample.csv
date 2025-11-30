@@ -7,7 +7,8 @@ sample_description,Summary or purpose of sequencing run,Non-human read run for s
 avg_spot_length,Average read length (specify units),150 bp,recommended,numeric
 adapter_sequences,Adapter sequences used,AGATCGGAAGAGC,recommended,string
 original_file_id,Original input raw read file name or ID,OMS00001_R1.fastq,recommended,string
-total_reads,Total number of read pairs in original file,45000000,required,numeric
+total_reads,Total number of read pairs in the original file,45000000,required,numeric
+total_bases,Total number of bases pairs in the original file,4500000000,required,numeric
 unmapped_reads,Total number of reads not aligned to the reference(s),required,numeric
 original_read_file_size,"File size of original read file (with units, e.g., MB, GB)",10 GB,recommended,string
 original_read_file_checksum,"Checksum (e.g., MD5/SHA256) for original read file",d41d8cd98f00b204e9800998ecf8427e,recommended,string

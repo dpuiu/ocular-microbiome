@@ -5,4 +5,5 @@ PREVIOUS MICROBIOME STUDIES
     :maxdepth: 2
 
     Projects
+    Samples
     Files
