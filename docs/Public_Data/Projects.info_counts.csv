@@ -1,4 +1,4 @@
-BioProject,Description,Center Name,Date,LibCounts,TotalReads,NonHumanReads
+bioproject_accession,project_goal,center_name,release_date,library_count,total_reads,non_human_reads
 <a href=https://www.ncbi.nlm.nih.gov/bioproject/PRJDB10068/>PRJDB10068</a>,Microbial contamination pattern of contact lens care solutions used by allergic conjunctivitis patients.,KAGAWA,2020-06-27,15,"1,800,000","1,797,188"
 <a href=https://www.ncbi.nlm.nih.gov/bioproject/PRJDB10133/>PRJDB10133</a>,Presence of acanthamoeba and diversified bacterialflora in poorly maintained contact lens cases.,KAGAWA,2022-07-01,59,"5,979,204","5,967,470"
 <a href=https://www.ncbi.nlm.nih.gov/bioproject/PRJDB15234/>PRJDB15234</a>,Disturbances in the Ocular Surface Microbiome by Perioperative Antimicrobial Eye Drops.,KAGAWA,2023-02-13,64,"4,370,400","3,795,562"

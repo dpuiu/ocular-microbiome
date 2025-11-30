@@ -7,3 +7,4 @@ project_design,"Description of project design, experiment type or sampling schem
 bioproject_accession,NCBI BioProject accession number (if available),PRJNA123456,recommended,string
 contact_name,"Project coordinator, PI, or submitter",Lisa A. Neuhold,required,string
 contact_email,Email address of coordinator/submitter,lneuhold@nei.nih.gov,required,string
+library_count,Number of libraries,10,recommended,numeric
