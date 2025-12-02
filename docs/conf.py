@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 #############################################################
 
-project = 'Ocular Microbial Project'
+project = 'Ocular Microbial Consortium'
 copyright = '2025 Ocular Microbiome Consortium'
 author = 'Daniela Puiu'
 
