@@ -18,6 +18,7 @@ This research makes use of the `SciServer <https://www.sciserver.org/>`_ scien
     :hidden:
 
     Consortium_members
+    Consortium_Publications/index
     Consortium_Data/index
     Consortium_Data_Analysis/index
     Public_Data/index

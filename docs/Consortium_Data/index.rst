@@ -4,7 +4,7 @@ CONSORTIUM DATA
 .. toctree::
     :maxdepth: 2
 
-    BCM_data
+    BCM_Data/index
     UW_data
     VUMC_data
     JHU_Data/index

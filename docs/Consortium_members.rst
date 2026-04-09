@@ -16,11 +16,11 @@ CONSORTIUM MEMBERS
 .. raw:: html
 
    <ul>
-     <li><a href="https://www.bcm.edu/people-search/cintia-de-paiva-20217">Cintia De Paiva</a></li>
+     <li><a href="https://www.bcm.edu/people-search/cintia-de-paiva-20217">Cintia De Paiva</a><a href="https://scholar.google.com/citations?user=X2vF2DkAAAAJ">*</a></li>
      <li>Robert Britton</li>
      <li>Eric Brown</li>
      <li>Kristi Hoffman</li>
-     <li>Zhe Lvu</li>
+     <li>Laura Schaefer</li>
      <li>Stephen Pflugfelder</li>
    </ul> 
 
@@ -34,7 +34,7 @@ CONSORTIUM MEMBERS
 .. raw:: html
 
    <ul>
-     <li><a href="https://ophthalmology.washington.edu/research/research-labs/van-gelder-lab">Russel Van Gelder</a></li>
+     <li><a href="https://ophthalmology.washington.edu/research/research-labs/van-gelder-lab">Russel Van Gelder</a><a href="https://scholar.google.com/citations?user=cBYEMm4AAAAJ">*</a></li>
    </ul>
 
 `Vanderbilt University Medical Center <https://www.vumc.org/>`_
@@ -46,7 +46,7 @@ CONSORTIUM MEMBERS
 .. raw:: html
 
    <ul>
-     <li><a href="https://medicine.vumc.org/department-directory/Seesandra-Rajagopala">Seesandra Rajagopala</a></li>
+     <li><a href="https://medicine.vumc.org/department-directory/Seesandra-Rajagopala">Seesandra Rajagopala</a><a href="https://scholar.google.com/citations?user=OaIOeSYAAAAJ">*</a></li>
      <li>Sapna Gangaputra</li>
    </ul>
 
@@ -60,9 +60,9 @@ CONSORTIUM MEMBERS
 .. raw:: html
 
    <ul>
-     <li><a href="https://profiles.hopkinsmedicine.org/provider/laura-ensign-hodges/2777128">Laura Ensign</a></li>
-     <li>Sezen Karakus</li>
-     <li><a href="https://salzberg-lab.org/">Steven Salzberg</a></li>
+     <li><a href="https://profiles.hopkinsmedicine.org/provider/laura-ensign-hodges/2777128">Laura Ensign</a><a href="https://scholar.google.com/citations?user=tM2Fw10AAAAJ">*</a></li>
+     <li>Sezen Karakus<a href="https://scholar.google.com/citations?user=uOWAFSUAAAAJ">*</a></li>
+     <li><a href="https://salzberg-lab.org/">Steven Salzberg</a><a href="https://scholar.google.com/citations?user=sUVeH-4AAAAJ">*</a></li>
    </ul>
 
 `SciServer <https://sciserver.org/>`_
@@ -77,8 +77,8 @@ CONSORTIUM MEMBERS
 .. raw:: html
 
    <ul>
-     <li><a href="https://ophthalmology.pitt.edu/people/anthony-st-leger-phd">Anthony St. Leger</a></li>
-     <li>Anat Galor</li>
+     <li><a href="https://ophthalmology.pitt.edu/people/anthony-st-leger-phd">Anthony St. Leger</a><a href="https://scholar.google.com/citations?user=8yV7xm0AAAAJ">*</a></li>
+     <li>Anat Galor<a href="https://scholar.google.com/citations?user=d10RYRwAAAAJ">*</a></li>
    </ul>
 
 .. include:: footer.rst

@@ -4,7 +4,7 @@ CONSORTIUM RESULTS
 .. toctree::
     :maxdepth: 2
 
-    BCM_results
+    BCM_Results/index
     UW_results
     VUMC_results
     JHU_Results/index
