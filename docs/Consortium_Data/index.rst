@@ -5,8 +5,8 @@ CONSORTIUM DATA
     :maxdepth: 2
 
     BCM_Data/index
-    UW_data
-    VUMC_data
+    UW_Data/index
+    VUMC_Data/index
     JHU_Data/index
     Pitt_data
 

@@ -1,11 +1,15 @@
 field_name,description,example,notes,data_format
-individual_id,Unique identifier for individual/subject,OMI00001,required,string
+individual_id,Unique identifier for the individual/subject,OMI00001,required,string
 individual_alias,Internal code or label for the individual within a study,52,recommended,string
 birth_year,Year of birth (YYYY),1990,recommended,numeric
-age,Age of subject at collection (years),35,recommended,numeric
-sex,"Biological sex at birth (M, F, Other, Unknown)",M,required,string
-ethnicity,Self-identified ethnicity or race (full term),African American,recommended,string
-disease_status,"Health status or diagnosis (""healthy"", disease name, diagnosis)",healthy,recommended,string
-longitudinal_sampling,Indicate repeated sampling across time points (yes/no),yes,recommended,string
-treatment,Treatment or medication info prior to/in context of sampling,none,recommended,string
+age,Age of subject at time of collection (years),35,recommended,numeric
+sex,Biological sex at birth (M, F, Other, Unknown),M,required,string
+race,Self-identified race (full term),African American,recommended,string
+ethnicity,Self-identified ethnicity (full term),Hispanic,recommended,string
+disease_status,Health status or diagnosis ("healthy" or disease name),healthy,recommended,string
+longitudinal_sampling,Indicates repeated sampling across time points (yes/no),yes,recommended,string
+treatment,Treatment or medication prior to or at time of sampling,none,recommended,string
 consent_code,Study consent or IRB protocol identifier,IRB2024-001,required,string
+pets,Household pet exposure,cats and dogs,recommended,string
+antibiotics,Antibiotic usage history or current use,penicillin,recommended,string
+contacts,Contact lens usage,soft daily disposable,recommended,string

@@ -1,5 +1,8 @@
 University of Washington Data
 =============================
 
-Coming soon 
+.. toctree::
+    :maxdepth: 2
+
+    Files
 
