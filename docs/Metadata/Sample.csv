@@ -1,7 +1,7 @@
 field_name,description,example,notes,data_format
 omc_id,Unique identifier for the sequencing run,OMR00001 (jhu00001),required,string
 sample_id,Unique center identifier for the sequencing run,Molzym_Ultra_Deep_Air_Ctr_3,required,string
-sample_accession,Public database run accession (e.g., NCBI SRA) if deposited,SRR00001,required,string
+sample_accession,Public database run accession (e.g. NCBI SRA) if deposited,SRR00001,required,string
 library_id,Associated experiment identifier linking to the experiment table,OMX00001,required,string
 sample_name,Short title or name for the run,Ocular_Run01_2024-05-12,recommended,string
 sample_description,Summary or purpose of the sequencing run,Non-human read run for sample OMS00001,recommended,string
@@ -11,8 +11,8 @@ original_file_id,Original raw read file name or ID,OMS00001_R1.fastq,recommended
 total_reads,Total number of read pairs in the original file,45000000,required,numeric
 total_bases,Total number of bases in the original file,4500000000,required,numeric
 unmapped_reads,Total number of reads not aligned to the reference(s),,required,numeric
-original_read_file_size,File size of original read file (e.g., MB, GB),10 GB,recommended,string
-original_read_file_checksum,Checksum (e.g., MD5 or SHA256) of original read file,d41d8cd98f00b204e9800998ecf8427e,recommended,string
+original_read_file_size,File size of original read file (e.g. MB/ GB),10 GB,recommended,string
+original_read_file_checksum,Checksum (e.g. MD5 or SHA256) of original read file,d41d8cd98f00b204e9800998ecf8427e,recommended,string
 non_human_read_file_id,Processed non-human read file name or ID,OMS00001_R1_nonhuman.fastq,optional,string
 non_human_reads,Number of non-human read pairs,4500000,optional,numeric
 non_human_read_file_size,File size of non-human read file,1 GB,optional,string
@@ -24,7 +24,7 @@ human_read_detection_software,Software (name and version) used for human read de
 non_human_read_classification_software,Software (name and version) used for non-human read classification,KrakenUniq 1.0.2,optional,string
 base_quality_metrics,Sequencing base quality metrics,"90% Q30, Q20",optional,string
 data_processing_pipeline,URL or name of processing pipeline (include version/date),https://github.com/dpuiu/ocular-metagenome 20240608,optional,string
-sequencing_control,Sequencing run control(s) used (e.g., spike-ins),PhiX spike-in 1%,optional,string
+sequencing_control,Sequencing run control(s) used (e.g. spike-ins),PhiX spike-in 1%,optional,string
 release_status,Data release status,public,optional,string
 release_date,Date of public or controlled release (ISO 8601),2024-06-30,optional,date
 sequencing_lane,Illumina sequencing lane,L001,optional,string

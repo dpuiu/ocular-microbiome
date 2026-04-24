@@ -8,7 +8,7 @@ CONSORTIUM DATA
     UW_Data/index
     VUMC_Data/index
     JHU_Data/index
-    Pitt_data
+    PITT_Data/index
 
 ----
 

@@ -1,15 +1,40 @@
 field_name,description,example,notes,data_format
 individual_id,Unique identifier for the individual/subject,OMI00001,required,string
-individual_alias,Internal code or label for the individual within a study,52,recommended,string
+individual_alias,Internal study label or code,52,recommended,string
+age,Age at time of sampling (years),35,recommended,numeric
 birth_year,Year of birth (YYYY),1990,recommended,numeric
-age,Age of subject at time of collection (years),35,recommended,numeric
-sex,Biological sex at birth (M, F, Other, Unknown),M,required,string
-race,Self-identified race (full term),African American,recommended,string
-ethnicity,Self-identified ethnicity (full term),Hispanic,recommended,string
-disease_status,Health status or diagnosis ("healthy" or disease name),healthy,recommended,string
-longitudinal_sampling,Indicates repeated sampling across time points (yes/no),yes,recommended,string
-treatment,Treatment or medication prior to or at time of sampling,none,recommended,string
-consent_code,Study consent or IRB protocol identifier,IRB2024-001,required,string
-pets,Household pet exposure,cats and dogs,recommended,string
-antibiotics,Antibiotic usage history or current use,penicillin,recommended,string
-contacts,Contact lens usage,soft daily disposable,recommended,string
+consent_code,IRB or consent identifier,IRB2024-001,required,string
+disease_status,Overall health status or diagnosis,healthy,recommended,string
+ethnicity,"0=Non Hispanic, 1=Hispanic",0,recommended,categorical
+gender,Self-identified gender,Female,recommended,string
+has_autoimmune_disease,Autoimmune disease presence,1,"0=No, 1=Yes",binary
+has_diabetes,Diabetes mellitus status,0,"0=No, 1=Yes",binary
+has_hypercholesterolemia,Hypercholesterolemia status,1,"0=No, 1=Yes",binary
+has_ocular_allergies,Ocular allergy presence,0,"0=No, 1=Yes",binary
+has_ocular_trauma_history,History of ocular trauma,0,"0=No, 1=Yes",binary
+has_pets,Household pet exposure,cats and dogs,recommended,string
+has_refractive_error,Presence of refractive error,1,"0=No, 1=Yes",binary
+has_refractive_surgery_history,History of refractive surgery,0,"0=No, 1=Yes",binary
+has_rosacea,Rosacea diagnosis,1,"0=No, 1=Yes",binary
+has_systemic_allergies,Systemic allergy presence,0,"0=No, 1=Yes",binary
+longitudinal_sampling,Repeated sampling indicator (yes/no),yes,recommended,string
+race,"0=White, 1=Black, 2= Asian 3=Other",0,recommended,categorical
+sex,"Biological sex at birth (M, F, Other, Unknown)",M,required,string
+smoking_status,Smoking status category,current,"0=never, 1=former, 2=current",categorical
+uses_anti_depressants,Antidepressant medication use,0,"0=No, 1=Yes",binary
+uses_anti_epileptics,Anti-epileptic medication use,0,"0=No, 1=Yes",binary
+uses_anti_hypertensives,Antihypertensive medication use,1,"0=No, 1=Yes",binary
+uses_asa,Aspirin (ASA) use,0,"0=No, 1=Yes",binary
+uses_antibiotics,Antibiotic exposure (systemic or topical),penicillin,"drug name or binary depending on encoding",string/binary
+uses_antihistamines,Antihistamine use,0,"0=No, 1=Yes",binary
+uses_artificial_tears,Artificial tear use,1,"0=No, 1=Yes",binary
+uses_contact_lenses,Contact lens use status,1,"0=No, 1=Yes or lens type if available",string/binary
+uses_eye_mask,Eye mask use,0,"0=No, 1=Yes",binary
+uses_fish_oil,Fish oil supplementation,0,"0=No, 1=Yes",binary
+uses_lid_wipes,Lid hygiene wipe use,1,"0=No, 1=Yes",binary
+uses_makeup_routinely,Routine makeup use,0,"0=No, 1=Yes",binary
+uses_multivitamins,Multivitamin use,1,"0=No, 1=Yes",binary
+uses_nsaids,NSAID use,0,"0=No, 1=Yes",binary
+uses_probiotics,Probiotic supplementation,1,"0=No, 1=Yes",binary
+uses_statins,Statin medication use,0,"0=No, 1=Yes",binary
+other_medication_or_condition,Other reported condition or medication,NA,optional,string
