@@ -34,7 +34,6 @@
             var dt = $table.DataTable({
                 dom: 'tBfipr',
                 pageLength: 10,
-                deferRender: true,
                 lengthMenu: [[ 10, 50, -1], [10, 50, "All"]],
 
                 buttons: [
@@ -54,7 +53,6 @@
                     { extend: 'colvis', text: 'Columns' }
                 ],
 
-
                 columnDefs: [
                    {
                      	targets: 1,
@@ -63,31 +61,22 @@
                             return '<p id="' + text + '">' + text + '</p>';
                         }
                     },
-
                     {         
-                        targets: 4,
+                        targets: 3,
                         render: function (data, type, row, meta) {
                             var text = $('<div>' + data + '</div>').text().trim();
-                            var ndata = row[3];
+                            var ndata = row[2];
                             var ntext = $('<div>' + ndata + '</div>').text().trim();
 
                             if ($.isNumeric(text)) {
-                                return '<a href="https://data.idies.jhu.edu/OcularMicrobiome/Consortium_data/PITT/' + ntext + '.unmapped.fastq.gz"' +
-                                    ' download title="click to download non-human read FASTQ.GZ file">' +
+                                return '<a href="https://data.idies.jhu.edu/OcularMicrobiome/Consortium_data/BCM/Sanger_SEQ/' + ntext + '.unmapped.fasta.gz"' +
+                                    ' download title="click to download non-human read FASTA.GZ file">' +
                                     Number(text).toLocaleString()  +
                                     '</a>';
                             }
                             return data;
                         }
-                    },
-
-                   {
-                       targets: [6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39],
-                       visible: false
                     }
-
-
-
                 ],
                 order: [[1, 'asc']]
             });
@@ -107,9 +96,10 @@
 
     </script>    
 
-Samples
-=======
+Samples: Sanger_SEQ
+===================
 
 .. csv-table::
-    :file: Samples.csv
+    :file: Samples.Sanger_SEQ.csv
     :header-rows: 1
+	
