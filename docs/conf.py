@@ -40,7 +40,7 @@ html_meta = {    "google-site-verification": "e2LnwrGlv397RPlrT8ckb-yVwcPyZaGyAD
 master_doc = 'index'
 templates_path = [] # '_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "OLD*/*" , "**/OLD*","**/*.csv*"]
-extensions = ['sphinxcontrib.mermaid','sphinx_design','myst_parser','sphinx_charts.charts'] #'sphinxcontrib.lunrsearch']  # 'recommonmark', 'myst_parser; sphinx_design. 'search_extension'
+extensions = ['sphinxcontrib.mermaid','sphinx_design','myst_parser'] #'sphinxcontrib.lunrsearch']  # 'recommonmark', 'myst_parser; sphinx_design. 'search_extension', sphinx_charts.charts
 source_suffix = { '.rst': 'restructuredtext' , '.md': 'markdown' }
 
 #from recommonmark.parser import CommonMarkParser
