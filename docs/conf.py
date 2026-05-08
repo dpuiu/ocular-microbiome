@@ -45,5 +45,4 @@ source_suffix = { '.rst': 'restructuredtext' , '.md': 'markdown' }
 
 #from recommonmark.parser import CommonMarkParser
 #source_parsers = {    '.md': CommonMarkParser }
-
-html_extrahead = open("_static/extra_head.html").read()
+#html_extrahead = open("_static/extra_head.html").read()
