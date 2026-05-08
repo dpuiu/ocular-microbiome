@@ -2,4 +2,5 @@ sphinx_rtd_theme
 sphinxcontrib-mermaid
 sphinx-design
 sphinx-autobuild
+sphinx-charts
 myst-parser

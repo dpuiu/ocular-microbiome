@@ -7,21 +7,19 @@
 body:first-of-type .wy-nav-content {
     padding: 5px !important;
 }
-*/
-.wy-nav-content {
-  max-width: 100%;      
-  width: 100%;         
-}
 
-/* meants to make top headers in lelf menu yellow
 .wy-menu-vertical a {
   color: #ffff00 !important;  
 }
 */
 
-/* Example to reduce padding for body content */
+.wy-nav-content {
+  max-width: 100% !important;      
+  width: 100%;         
+}
+
 .document {
-    padding: 5px !important; /* Adjust the value as needed */
+    padding: 5px !important; 
 }
 
 table.docutils caption span.caption-text {
@@ -36,16 +34,15 @@ table.docutils thead tr th.head {
 }
 
 .highlight {
-    background-color: yellow;  /* Change the color to your preference */
-    color: black;              /* Text color */
+    background-color: yellow;  
+    color: black;              
 }
 
 details summary {
-    font-size: 1.2em;    /* Adjust size to your liking */
-    font-weight: bold;   /* Optional: make summary bold */
-    cursor: pointer;     /* Pointer cursor on hover */
+    font-size: 1.2em;
+    font-weight: bold;   
+    cursor: pointer;     
 }
-
 
 /*2025-09-17
 table.docutils {
@@ -61,3 +58,38 @@ table.docutils td {
 .csv-table {
     width: auto;
 }*/
+
+
+
+/* 2026-04-28  */
+
+.rst-content {
+    overflow-x: auto !important;
+}
+
+table.dataTable {
+    width: 100% !important;
+}
+.dataTables_scrollHeadInner,
+.dataTables_scrollHeadInner table {
+    width: 100% !important;
+}
+.dataTables_scrollBody table {
+    width: 100% !important;
+}
+
+.dataTables_scroll {
+    overflow: auto !important;
+}
+
+
+/* BAD !!!
+.dataTables_wrapper {
+    width: 100% !important;
+    overflow-x: auto !important;
+}
+
+.dataTables_wrapper * {
+    box-sizing: content-box !important;
+}
+*/

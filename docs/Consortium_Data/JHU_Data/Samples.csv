@@ -1,470 +1,470 @@
-omc_id,sample_name,total_reads,non_human_reads,kraken_human_reads,sequencing_date,biosample_site,extraction_kit,batch_number,batch_plate_location,biosample_alias,biosample_side,collection_date,collection_medium,experiment_number,host_depletion,host_depletion_kit,individual_id,lane_number,lysozyme_treatment,microbial_standard,nucleic_acid_concentration,plate_location,plate_number,sample_volume,sequencing_lane,stabilizing_fluid,stabilizing_fluid_lot,swab_type,tube_lot,visit_number
-jhu00001,Molzym_Ultra_Deep_Air_Ctr_3_S20,96531668,20011346,88940,2024-03-14,Air Control,Molzym Ultra-Deep Microbiome Prep,,S1273-SC1 A03,S20,,,,,,,,,False,0,6.3 ng/ul,,,50 ul
-jhu00002,Molzym_Ultra_Deep_MCS_1-100_4_S8,144018890,139568270,11252,2024-03-14,,Molzym Ultra-Deep Microbiome Prep,,S1273-SC1 A04,S8,,,,,,,,,False,1,16 ng/ul,,,50 ul
-jhu00003,Qiagen_DNeasy_Air_Ctr_3_S10,104869722,10826216,75860,2024-03-14,Air Control,Qiagen DNeasy Blood & Tissue Kit,,S1273-SC1 A11,S10,,,,,,,,,False,0,1.2 ng/ul,,,50 ul
-jhu00004,Qiagen_DNeasy_MCS_1-100_4_S18,196753794,194495282,662,2024-03-14,,Qiagen DNeasy Blood & Tissue Kit,,S1273-SC1 A12,S18,,,,,,,,,False,1,3.5 ng/ul,,,50 ul
-jhu00005,Qiagen_Soil_Air_Ctr_3_S2,1435514,9158,240,2024-03-14,Air Control,Qiagen DNeasy PowerMax Soil Kit,,S1273-SC1 A07,S2,,,,,,,,L008,False,0,0 ng/ul,,,200 ul
-jhu00006,Qiagen_Soil_MCS_1-100_4_S5,37861998,35333474,1540,2024-03-14,,Qiagen DNeasy PowerMax Soil Kit,,S1273-SC1 A08,S5,,,,,,,,L008,False,1,1.5 ng/ul,,,200 ul
-jhu00007,Thermo_MagMax_Air_Ctr_3_S21,120616586,55599904,44822,2024-03-14,Air Control,Thermo Fisher MagMAX™ Pathogen RNA/DNA Kit,,S1273-SC1 B07,S21,,,,,,,,,False,0,2.8 ng/ul,,,50 ul
-jhu00008,Thermo_MagMax_MCS_1-100_4_S24,109799724,72740026,24754,2024-03-14,,Thermo Fisher MagMAX™ Pathogen RNA/DNA Kit,,S1273-SC1 B08,S24,,,,,,,,,False,1,3.4 ng/ul,,,50 ul
-jhu00009,Zymo_Magbead_Air_Ctr_3_S4,119460566,115912474,13402,2024-03-14,Air Control,Zymo Magbead Kit,,S1273-SC1 B11,S4,,,,,,,,,False,0,0.1 ng/ul,,,50 ul
-jhu00010,Zymo_Magbead_MCS_1-100_4_S22,111766692,108378924,9108,2024-03-14,,Zymo Magbead Kit,,S1273-SC1 B12,S22,,,,,,,,,False,1,0.4 ng/ul,,,50 ul
-jhu00011,Zymo_Mini_prep_Air_Ctr_3_S19,103333064,99954906,6318,2024-03-14,Air Control,Zymo Mini Prep Kit,,S1273-SC1 B03,S19,,,,,,,,,False,0,1.8 ng/ul,,,50 ul
-jhu00012,Zymo_Mini_prep_MCS_1-100_4_S13,118532612,116843334,1272,2024-03-14,,Zymo Mini Prep Kit,,S1273-SC1 B04,S13,,,,,,,,,False,1,5.3 ng/ul,,,50 ul
-jhu00013,MasterPure_Air_Ctr_3_S34,44345252,36515148,11394,2024-07-15,Air Control,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 A03,S34,,,,,,,,,False,0,10.6 ng/ul,,,50 ul
-jhu00014,MasterPure_Lyso_MCS_1_100_4_S39,162047446,157511216,2202,2024-07-15,,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 A08,S39,,,,,,,100,,True,1,36.2 ng/ul,,,50 ul
-jhu00015,MasterPure_Lysol_Air_Ctr_3_S38,46271732,36155068,18016,2024-07-15,Air Control,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 A07,S38,,,,,,,,,True,0,20.6 ng/ul,,,50 ul
-jhu00016,MasterPure_MCS_1_100_4_S35,157812152,153120960,5936,2024-07-15,,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 A04,S35,,,,,,,100,,False,1,43.9 ng/ul,,,50 ul
-jhu00017,MasterPure_MolYsis_Basic_5_Air_Ctr_3_S42,5026718,3912870,1380,2024-07-15,Air Control,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 A11,S42,,,,,,MolYsis™ Basic7,,,False,0,12 ng/ul,,,35 ul
-jhu00018,MasterPure_MolYsis_Basic_5_MCS_1_100_4_S43,124322910,118866374,2732,2024-07-15,,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 A12,S43,,,,,,MolYsis™ Basic8,100,,False,1,10.3 ng/ul,,,35 ul
-jhu00019,MasterPure_NEB_Air_Ctr_3_S46,112059042,106449728,15020,2024-07-15,Air Control,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 B03,S46,,,,,,NEBNext Microbiome DNA Enrichment Kit,,,False,0,4.9 ng/ul,,,35 ul
-jhu00020,MasterPure_NEB_MCS_1_100_4_S47,139959630,137025388,1770,2024-07-15,,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 B04,S47,,,,,,NEBNext Microbiome DNA Enrichment Kit,100,,False,1,15 ng/ul,,,35 ul
-jhu00021,MasterPure_Zymo_HostZero_200ul_Air_Ctr_3_S29,2585732,1872412,3238,2024-07-15,Air Control,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 B07,S29,,,,,,Zymo HostZero,,,False,0,20.2 ng/ul,,,35 ul
-jhu00022,MasterPure_Zymo_HostZero_MCS_1_100_4_S30,111899010,107843996,7802,2024-07-15,,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 B08,S30,,,,,,Zymo HostZero,100,,False,1,21.2 ng/ul,,,35 ul
-jhu00023,MasterPure_MCS_7_S56,45655622,45210456,384,2024-10-28,,MasterPure Gram Positive DNA Purification Kit,,S1304-SC1 C05,S56,,,,,,,,,False,1,22.7 ng/ul,,,50 ul
-jhu00024,MasterPure_MCS_HostZero_3_S3,46415416,44711574,8054,2024-10-28,,MasterPure Gram Positive DNA Purification Kit,,S1304-SC1 C01,S3,,,,,,,,,False,1,34 ng/ul,,,50 ul
-jhu00025,MasterPure_MCS_MolYsis_1_S59,36028474,35551112,5672,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B11,S59,,,,,,,,,False,1,26.1 ng/ul,,,50 ul
-jhu00026,MasterPure_MCS_NEB_5_S34,45020220,44493344,388,2024-10-28,,MasterPure Gram Positive DNA Purification Kit,,S1304-SC1 C03,S34,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,1,10.9 ng/ul,,,50 ul
-jhu00027,MasterPure_OMR_8_S22,17822868,15886574,1644,2024-10-28,,MasterPure Gram Positive DNA Purification Kit,,S1304-SC1 C06,S22,,,,,,,,,False,0,20.1 ng/ul,,,50 ul,,OMR,110
-jhu00028,MasterPure_OMR_HostZero_4_S24,8856792,8202964,910,2024-10-28,,MasterPure Gram Positive DNA Purification Kit,,S1304-SC1 C02,S24,,,,,,,,,False,0,30.6 ng/ul,,,50 ul,,OMR,110
-jhu00029,MasterPure_OMR_MolYsis_2_S42,11641062,10719492,1508,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B12,S42,,,,,,,,,False,0,15 ng/ul,,,50 ul,,OMR,110
-jhu00030,MasterPure_OMR_NEB_6_S15,24238088,23175170,1974,2024-10-28,,MasterPure Gram Positive DNA Purification Kit,,S1304-SC1 C04,S15,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,0,10.1 ng/ul,,,50 ul,,OMR,110
-jhu00031,Molzym_Ultra-Deep_MCS_1_S11,25579186,24498810,2110,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B05,S11,,,,,,,,,False,1,5.2 ng/ul,,,50 ul
-jhu00032,Molzym_Ultra-Deep_MCS_HostZero_3_S19,17597652,16447250,1476,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B07,S19,,,,,,,,,False,1,4.9 ng/ul,,,50 ul
-jhu00033,Molzym_Ultra-Deep_MCS_NEB_5_S44,30277532,29536154,2484,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B09,S44,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,1,6.3 ng/ul,,,30 ul
-jhu00034,Molzym_Ultra-Deep_OMR_2_S10,17479146,16289234,2978,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B06,S10,,,,,,,,,False,0,0.2 ng/ul,,,50 ul,,OMR,110
-jhu00035,Molzym_Ultra-Deep_OMR_HostZero_4_S37,3425394,2567172,1264,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B08,S37,,,,,,,,,False,0,2.8 ng/ul,,,50 ul,,OMR,110
-jhu00036,Molzym_Ultra-Deep_OMR_NEB_6_S32,24342598,23131512,2358,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B10,S32,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,0,6.6 ng/ul,,,30 ul,,OMR,110
-jhu00037,Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47,53577422,53241196,190,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E05,S47,,,,,,,,,False,1,13 ng/ul,,,30 ul,,OMR,BD801
-jhu00038,Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23,41521288,41138578,226,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E06,S23,,,,,,,,,False,1,6.5 ng/ul,,,30 ul,,OMR,BH802
-jhu00039,Qiagen_DNeasy_MCS_7_S2,45436136,45033180,206,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A07,S2,,,,,,,,,False,1,7.3 ng/ul,,,30 ul
-jhu00040,Qiagen_DNeasy_MCS_HostZero_3_S5,28450580,27465650,15400,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A03,S5,,,,,,,,,False,1,3.5 ng/ul,,,30 ul
-jhu00041,Qiagen_DNeasy_MCS_MolYsis_1_S72,41381006,40783628,3226,2024-10-28,,Qiagen DNeasy Blood & Tissue Kit,,S1304-SC1 A01,S72,,,,,,,,,False,1,3.2 ng/ul,,,30 ul
-jhu00042,Qiagen_DNeasy_MCS_NEB_5_S60,48328468,47811352,174,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A05,S60,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,1,4.2 ng/ul,,,30 ul
-jhu00043,Qiagen_DNeasy_OMR1_BD801_S61,20540376,19078240,3356,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E07,S61,,,,,,,,,False,0,3.4 ng/ul,,,30 ul,,OMR,BD801
-jhu00044,Qiagen_DNeasy_OMR2_BH802_S12,27975164,26516970,5170,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E08,S12,,,,,,,,,False,0,2.1 ng/ul,,,30 ul,,OMR,BH802
-jhu00045,Qiagen_DNeasy_OMR_2_S74,17124190,15515562,3598,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A08,S74,,,,,,,,,False,0,1.7 ng/ul,,,30 ul,,OMR,110
-jhu00046,Qiagen_DNeasy_OMR_HostZero_4_S38,7135908,5955408,2760,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A04,S38,,,,,,,,,False,0,3.5 ng/ul,,,30 ul,,OMR,110
-jhu00047,Qiagen_DNeasy_OMR_MolYsis_2_S53,21459456,19822844,10118,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A02,S53,,,,,,,,,False,0,2 ng/ul,,,30 ul,,OMR,110
-jhu00048,Qiagen_DNeasy_OMR_NEB_6_S57,25389074,24342208,1964,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A06,S57,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,0,3.41 ng/ul,,,30 ul,,OMR,110
-jhu00049,Qiagen_DNeasy_Water_S70,22217826,21290924,2446,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E09,S70,,,,,,,,,False,0,2.2 ng/ul,,,30 ul
-jhu00050,Qiagen_Dneasy_CS_001_Air_Swab_S39,21096976,19466274,2992,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D01,S39,,,,,,,1,L008,False,0,1.9 ng/ul,,,30 ul
-jhu00051,Qiagen_Dneasy_CS_001_Right_Eye_S28,127137442,820824,60774,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 C12,S28,Right,,,,,,1,,False,0,27.7 ng/ul,,,30 ul
-jhu00052,Qiagen_Dneasy_CS_002_Air_Swab_S62,21155362,17287152,4864,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D03,S62,,,,,,,2,L008,False,0,3.7 ng/ul,,,30 ul
-jhu00053,Qiagen_Dneasy_CS_002_Left_Eye_S21,55851844,217240,23264,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D02,S21,Left,,,,,,2,,False,0,18.7 ng/ul,,,30 ul
-jhu00054,Qiagen_Dneasy_CS_003_Air_Swab_S18,24728334,23776060,2130,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D05,S18,,,,,,,3,L008,False,0,1.3 ng/ul,,,30 ul
-jhu00055,Qiagen_Dneasy_CS_003_Right_Eye_S58,55006666,273034,19802,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D04,S58,Right,,,,,,3,,False,0,6 ng/ul,,,30 ul
-jhu00056,Qiagen_Dneasy_CS_004_Air_Swab_S52,10728174,10036688,2332,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D07,S52,,,,,,,4,L008,False,0,7.6 ng/ul,,,30 ul
-jhu00057,Qiagen_Dneasy_CS_004_Left_Eye_S27,40583542,531276,20398,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D06,S27,Left,,,,,,4,,False,0,2.7 ng/ul,,,30 ul
-jhu00058,Qiagen_Dneasy_CS_005_Air_Swab_S67,25064268,22989908,3794,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D09,S67,,,,,,,5,L008,False,0,4.3 ng/ul,,,30 ul
-jhu00059,Qiagen_Dneasy_CS_005_Right_Eye_S54,122013898,812728,50840,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D08,S54,Right,,,,,,5,,False,0,14.2 ng/ul,,,30 ul
-jhu00060,Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51,37809840,25010940,12658,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E01,S51,,,,,,,6,L008,False,0,1.6 ng/ul,,,30 ul
-jhu00061,Qiagen_Dneasy_CS_006_Left_Eye_S31,41917986,475046,19866,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D10,S31,Left,,,,,,6,,False,0,3.4 ng/ul,,,30 ul
-jhu00062,Qiagen_Dneasy_CS_007_Right_Eye_S4,37971816,176214,15314,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D11,S4,Right,,,,,,7,,False,0,11.7 ng/ul,,,30 ul
-jhu00063,Qiagen_Dneasy_CS_008_Left_Eye_S33,112433334,1112156,50172,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D12,S33,Left,,,,,,8,,False,0,3.1 ng/ul,,,30 ul
-jhu00064,Qiagen_Dneasy_CS_009_10_Air_Swab_S48,24144798,21586716,4374,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E04,S48,,,,,,,9,L008,False,0,5.6 ng/ul,,,30 ul
-jhu00065,Qiagen_Dneasy_CS_009_Right_Eye_S41,43286670,241618,23200,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E02,S41,Right,,,,,,9,,False,0,7.2 ng/ul,,,30 ul
-jhu00066,Qiagen_Dneasy_CS_010_Left_Eye_S45,41155604,1119608,17642,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E03,S45,Left,,,,,,10,,False,0,5.7 ng/ul,,,30 ul
-jhu00067,Qiagen_Soil_MCS_1_S29,35793106,35194642,1600,2024-10-28,,Qiagen DNeasy PowerMax Soil Kit,,S1304-SC1 C07,S29,,,,,,,,L008,False,1,6.2 ng/ul,,,1400 ul
-jhu00068,Qiagen_Soil_OMR_8_S40,30841594,29892140,2442,2024-10-28,,Qiagen DNeasy PowerMax Soil Kit,,S1304-SC1 C08,S40,,,,,,,,L008,False,0,3.9 ng/ul,,,1600 ul,,OMR,110
-jhu00069,Water_S63,3463170,3026412,294,2024-10-28,Water Control,Control,,S1304-SC1 C11,S63,,,,,,,,,False,0,,,,50 ul
-jhu00070,Zymo_Mini_Prep_CS_001_Air_Swab_S8,7730612,6289604,1050,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 E11,S8,,,,,,,1,L008,False,0,0.9 ng/ul,,,50 ul
-jhu00071,Zymo_Mini_Prep_CS_001_Right_Eye_S46,22163216,10489630,6274,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 E10,S46,Right,,,,,,1,,False,0,1.3 ng/ul,,,50 ul
-jhu00072,Zymo_Mini_Prep_CS_002_Air_Swab_S64,11020392,8866476,1782,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F01,S64,,,,,,,2,L008,False,0,3.1 ng/ul,,,50 ul
-jhu00073,Zymo_Mini_Prep_CS_002_Left_Eye_S43,37459926,780848,14476,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 E12,S43,Left,,,,,,2,,False,0,2.1 ng/ul,,,50 ul
-jhu00074,Zymo_Mini_Prep_CS_003_Air_Swab_S77,17980312,16422312,1704,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F03,S77,,,,,,,3,L008,False,0,1 ng/ul,,,50 ul
-jhu00075,Zymo_Mini_Prep_CS_003_Right_Eye_S13,42466400,2127264,14502,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F02,S13,Right,,,,,,3,,False,0,2.3 ng/ul,,,50 ul
-jhu00076,Zymo_Mini_Prep_CS_004_Air_Swab_S66,6724258,5449960,878,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F05,S66,,,,,,,4,L008,False,0,0.1 ng/ul,,,50 ul
-jhu00077,Zymo_Mini_Prep_CS_004_Left_Eye_S78,26148050,8431886,7342,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F04,S78,Left,,,,,,4,,False,0,2 ng/ul,,,50 ul
-jhu00078,Zymo_Mini_Prep_CS_005_Air_Swab_S30,18836418,17758420,1612,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F07,S30,,,,,,,5,L008,False,0,2.2 ng/ul,,,50 ul
-jhu00079,Zymo_Mini_Prep_CS_005_Right_Eye_S17,40956656,2291774,14178,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F06,S17,Right,,,,,,5,,False,0,2.9 ng/ul,,,50 ul
-jhu00080,Zymo_Mini_Prep_CS_006_7_8_Air_Swab_S14,8949636,7536196,1032,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F11,S14,,,,,,,6,L008,False,0,1.8 ng/ul,,,50 ul
-jhu00081,Zymo_Mini_Prep_CS_006_Left_Eye_S79,33105326,1617322,11588,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F08,S79,Left,,,,,,6,,False,0,1.9 ng/ul,,,50 ul
-jhu00082,Zymo_Mini_Prep_CS_007_Right_Eye_S68,32095648,324011,10272,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F09,S68,Right,,,,,,7,,False,0,2 ng/ul,,,50 ul
-jhu00083,Zymo_Mini_Prep_CS_008_Left_Eye_S26,35237184,6806742,10146,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F10,S26,Left,,,,,,8,,False,0,1.2 ng/ul,,,50 ul
-jhu00084,Zymo_Mini_Prep_CS_009_10_Air_Swab_S73,10006514,8838152,948,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G02,S73,,,,,,,9,L008,False,0,2.2 ng/ul,,,50 ul
-jhu00085,Zymo_Mini_Prep_CS_009_Right_Eye_S71,38765628,952234,14802,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F12,S71,Right,,,,,,9,,False,0,1.8 ng/ul,,,50 ul
-jhu00086,Zymo_Mini_Prep_CS_010_Left_Eye_S75,17974274,15953368,2160,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G01,S75,Left,,,,,,10,,False,0,2.1 ng/ul,,,50 ul
-jhu00087,Zymo_Mini_Prep_MCS_1_in_OMR_BD801_S9,41735660,41223360,326,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G03,S9,,,,,,,,,False,1,2 ng/ul,,,50 ul,,OMR,BD801
-jhu00088,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,40013368,39611906,932,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G04,S50,,,,,,,,,False,1,1.5 ng/ul,,,50 ul,,OMR,BH802
-jhu00089,Zymo_Mini_Prep_MCS_7_S25,44391128,43886996,1366,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 B03,S25,,,,,,,,,False,1,1 ng/ul,,,50 ul
-jhu00090,Zymo_Mini_Prep_MCS_HostZero_3_S20,41196628,40855032,1584,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 A11,S20,,,,,,,,,False,1,4.2 ng/ul,,,50 ul
-jhu00091,Zymo_Mini_Prep_MCS_MolYsis_1_S49,36069364,35723028,1014,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 A09,S49,,,,,,,,,False,1,15.4 ng/ul,,,50 ul
-jhu00092,Zymo_Mini_Prep_MCS_NEB_5_S76,50023086,49422172,1742,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 B01,S76,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,1,5.6 ng/ul,,,30 ul
-jhu00093,Zymo_Mini_Prep_OMR1_BD801_S69,6757958,5735618,998,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G05,S69,,,,,,,,,False,0,1.6 ng/ul,,,50 ul,,OMR,BD801
-jhu00094,Zymo_Mini_Prep_OMR2_BH802_S7,19131372,17500980,1670,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G06,S7,,,,,,,,,False,0,2.2 ng/ul,,,50 ul,,OMR,BH802
-jhu00095,Zymo_Mini_Prep_OMR_8_S36,14650184,13582120,4714,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 B04,S36,,,,,,,,,False,0,0.9 ng/ul,,,50 ul,,OMR,110
-jhu00096,Zymo_Mini_Prep_OMR_HostZero_4_S1,10409184,9178486,2898,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 A12,S1,,,,,,,,,False,0,2.7 ng/ul,,,50 ul,,OMR,110
-jhu00097,Zymo_Mini_Prep_OMR_MolYsis_2_S16,11881506,10799950,11140,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 A10,S16,,,,,,,,,False,0,2.9 ng/ul,,,50 ul,,OMR,110
-jhu00098,Zymo_Mini_Prep_OMR_NEB_6_S55,34638068,29929196,6706,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 B02,S55,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,0,1.8 ng/ul,,,30 ul,,OMR,110
-jhu00099,Zymo_Mini_Prep_Water_S65,15606534,14370622,1290,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G07,S65,,,,,,,,,False,0,1.9 ng/ul,,,50 ul
-jhu00100,10_Zymo_Micro_Prep_CS_010_Right_Eye_S90,45659686,78294,26326,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A10,S90,Right,,,,,,10,,,False,1.1 ng/ul,,,20 ul
-jhu00101,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,3833154,825688,3120,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A11,S91,,,,,,,7,L008,,False,0.9 ng/ul,,,20 ul
-jhu00102,12_Zymo_Micro_Prep_CS_010_Air_Swab_S92,3207752,1183850,2868,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A12,S92,,,,,,,10,L008,,False,1.3 ng/ul,,,20 ul
-jhu00103,13_Zymo_Microprep_MCS_OMR_BD801_S93,61518520,60910784,1636,2025-03-14,,Zymo Micro Prep Kit,,S1289-SC2 B01,S93,,,,,,,,,,True,5.2 ng/ul,,,20 ul,,OMR,BD801
-jhu00104,14_Zymo_Microprep_OMR_BD801_S94,4484986,3027716,1630,2025-03-14,,Zymo Micro Prep Kit,,S1289-SC2 B02,S94,,,,,,,,,,False,0.7 ng/ul,,,20 ul,,OMR,110
-jhu00105,15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95,12210924,6086256,6624,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B03,S95,Left,,,,,,1,L008,,False,3.5 ng/ul,,,30 ul
-jhu00106,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,36118220,240134,14356,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B04,S96,Right,,,,,,2,L008,,False,5.1 ng/ul,,,30 ul
-jhu00107,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,38046632,104292,22106,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B05,S1,Left,,,,,,3,L008,,False,23.9 ng/ul,,,30 ul
-jhu00108,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,10028758,1380408,7776,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B06,S2,Right,,,,,,4,L008,,False,3.2 ng/ul,,,30 ul
-jhu00109,19_Qiagen_Soil_Pro_CS_005_Left_Eye_S3,43951844,68876,21108,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B07,S3,Left,,,,,,5,L008,,False,2.4 ng/ul,,,30 ul
-jhu00110,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,39501098,236530,25120,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A01,S81,Left,,,,,,1,,,False,0.5 ng/ul,,,20 ul
-jhu00111,20_Qiagen_Soil_Pro_CS_006_Right_Eye_S4,54752908,81518,28698,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B08,S4,Right,,,,,,6,L008,,False,3.1 ng/ul,,,30 ul
-jhu00112,21_Qiagen_Soil_Pro_CS_007_Left_Eye_S5,44699042,101126,20158,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B09,S5,Left,,,,,,7,L008,,False,21.1 ng/ul,,,30 ul
-jhu00113,22_Qiagen_Soil_Pro_CS_008_Right_Eye_S6,26788942,40300,12408,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B10,S6,Right,,,,,,8,L008,,False,31.1 ng/ul,,,30 ul
-jhu00114,23_Qiagen_Soil_Pro_CS_009_Left_Eye_S7,36960138,48782,15656,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B11,S7,Left,,,,,,9,L008,,False,3.2 ng/ul,,,30 ul
-jhu00115,24_Qiagen_Soil_Pro_CS_010_Right_Eye_S8,31969622,55430,17942,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B12,S8,Right,,,,,,10,L008,,False,8.9 ng/ul,,,30 ul
-jhu00116,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,6053986,765962,9810,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 C01,S9,,,,,,,7,L008,,False,6.3 ng/ul,,,30 ul
-jhu00117,26_Qiagen_Soil_Pro_CS_010_Air_Swab_S10,3261946,351816,3954,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 C02,S10,,,,,,,10,L008,,False,8 ng/ul,,,30 ul
-jhu00118,27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11,42109058,41746854,436,2025-03-14,,Qiagen PowerSoil Pro Kits,,S1289-SC2 C03,S11,,,,,,,,L008,,True,5.7 ng/ul,,,30 ul,,OMR,BD801
-jhu00119,28_Qiagen_Soil_Pro_OMR_BD801_S12,4332234,2432922,1942,2025-03-14,,Qiagen PowerSoil Pro Kits,,S1289-SC2 C04,S12,,,,,,,,L008,,False,4.2 ng/ul,,,30 ul,,OMR,110
-jhu00120,29_Z_Mini_049_Conj_L_1_S13,31525430,227196,14334,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C05,S13,,,,,,,49,,,False,2.1 ng/ul,,,50 ul
-jhu00121,2_Zymo_Micro_Prep_CS_002_Right_Eye_S82,33284990,48236,14592,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A02,S82,Right,,,,,,2,,,False,1.7 ng/ul,,,20 ul
-jhu00122,30_Z_Mini_049_049_Lid_L_1_S14,41552644,156300,19902,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C06,S14,,,,,,,49,,,False,4.5 ng/ul,,,50 ul
-jhu00123,31_Z_Mini_049_Skin_L_1_S15,32921432,513826,27476,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C07,S15,,,,,,,49,L008,,False,2.6 ng/ul,,,50 ul
-jhu00124,32_Z_Mini_049_Conj_L_2_S16,45873886,137816,24760,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C08,S16,,,,,,,49,,,False,2.3 ng/ul,,,50 ul
-jhu00125,33_Z_Mini_049_Lid_L_2_S17,47177030,237672,21438,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C09,S17,,,,,,,49,,,False,1.9 ng/ul,,,50 ul
-jhu00126,34_Z_Mini_049_Skin_L_2_S18,41718480,2783902,19286,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C10,S18,,,,,,,49,L008,,False,5.9 ng/ul,,,50 ul
-jhu00127,35_Z_Mini_049_Conj_L_3_S19,34927468,122650,16572,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C11,S19,,,,,,,49,,,False,3.2 ng/ul,,,50 ul
-jhu00128,36_Z_Mini_049_Lid_L_3_S20,32727486,216532,14194,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C12,S20,,,,,,,49,,,False,2.3 ng/ul,,,50 ul
-jhu00129,37_Z_Mini_049_Skin_L_3_S21,29446270,926160,15872,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D01,S21,,,,,,,49,L008,,False,2.5 ng/ul,,,50 ul
-jhu00130,38_Z_Mini_050_Conj_R_1_S22,34785172,79976,15762,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D02,S22,,,,,,,50,,,False,1.9 ng/ul,,,50 ul
-jhu00131,39_Z_Mini_050_Lid_R_1_S23,34115450,444978,16264,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D03,S23,,,,,,,50,,,False,2.8 ng/ul,,,50 ul
-jhu00132,3_Zymo_Micro_Prep_CS_003_Left_Eye_S83,33119306,61544,17446,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A03,S83,Left,,,,,,3,,,False,1.1 ng/ul,,,20 ul
-jhu00133,40_Z_Mini_050_Skin_R_1_S24,38186840,1257572,16014,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D04,S24,,,,,,,50,L008,,False,1.5 ng/ul,,,50 ul
-jhu00134,41_Z_Mini_050_Conj_R_2_S25,34953428,103304,16460,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D05,S25,,,,,,,50,,,False,2.8 ng/ul,,,50 ul
-jhu00135,42_Z_Mini_050_Lid_R_2_S26,29293512,868844,16936,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D06,S26,,,,,,,50,,,False,6.6 ng/ul,,,50 ul
-jhu00136,43_Z_Mini_050_Skin_R_2_S27,32730352,16347162,17526,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D07,S27,,,,,,,50,L008,,False,2.2 ng/ul,,,50 ul
-jhu00137,44_Z_Mini_050_Conj_R_3_S28,47977490,141226,25352,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D08,S28,,,,,,,50,,,False,2.6 ng/ul,,,50 ul
-jhu00138,45_Z_Mini_050_Lid_R_3_S29,11420460,45490,5700,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D09,S29,,,,,,,50,,,False,7.3 ng/ul,,,50 ul
-jhu00139,46_Z_Mini_050_Skin_R_3_S30,43053728,2052824,21236,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D10,S30,,,,,,,50,L008,,False,3.1 ng/ul,,,50 ul
-jhu00140,47_Z_Mini_051_Conj_L_1_S31,27966576,70408,14780,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D11,S31,,,,,,,51,,,False,2.5 ng/ul,,,50 ul
-jhu00141,48_Z_Mini_051_Lid_L_1_S32,25121522,401594,12180,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D12,S32,,,,,,,51,,,False,3.2 ng/ul,,,50 ul
-jhu00142,49_Z_Mini_051_Skin_L_1_S33,35332946,656596,13172,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E01,S33,,,,,,,51,L008,,False,1.6 ng/ul,,,50 ul
-jhu00143,4_Zymo_Micro_Prep_CS_004_Right_Eye_S84,38499352,162330,16810,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A04,S84,Right,,,,,,4,,,False,0.6 ng/ul,,,20 ul
-jhu00144,50_Z_Mini_051_Conj_L_2_S34,35040996,147718,13130,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E02,S34,,,,,,,51,,,False,1.5 ng/ul,,,50 ul
-jhu00145,51_Z_Mini_051_Lid_L_2_S35,34131880,1247844,19000,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E03,S35,,,,,,,51,,,False,2.2 ng/ul,,,50 ul
-jhu00146,52_Z_Mini_051_Skin_L_2_S36,37028196,7481328,54560,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E04,S36,,,,,,,51,L008,,False,2.3 ng/ul,,,50 ul
-jhu00147,53_Z_Mini_051_Conj_L_3_S37,45066420,114590,16762,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E05,S37,,,,,,,51,,,False,2.4 ng/ul,,,50 ul
-jhu00148,54_Z_Mini_051_Lid_L_3_S38,36131172,524094,17656,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E06,S38,,,,,,,51,,,False,2.9 ng/ul,,,50 ul
-jhu00149,55_Z_Mini_051_Skin_L_3_S39,33852700,561418,12546,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E07,S39,,,,,,,51,L008,,False,2 ng/ul,,,50 ul
-jhu00150,56_Z_Mini_049_ISO_Cont_1_S40,12416174,11107258,39802,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E08,S40,,,,,,,49,,,False,1.9 ng/ul,,,50 ul,,,,Isohelix
-jhu00151,57_Z_Mini_050_ISO_Cont_1_S41,3335810,1173574,2746,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E09,S41,,,,,,,50,,,False,5.3 ng/ul,,,50 ul,,,,Isohelix
-jhu00152,58_Z_Mini_049_ISO_Cont_2_S42,2884484,929036,1822,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E10,S42,,,,,,,49,,,False,3.3 ng/ul,,,50 ul,,,,Isohelix
-jhu00153,59_Z_Mini_050_ISO_Cont_3_S43,4178718,1625792,1944,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E11,S43,,,,,,,50,,,False,2.6 ng/ul,,,50 ul,,,,Isohelix
-jhu00154,5_Zymo_Micro_Prep_CS_005_Left_Eye_S85,40024344,53528,14988,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A05,S85,Left,,,,,,5,,,False,1.4 ng/ul,,,20 ul
-jhu00155,60_Z_Mini_049_ISO_Cont_3_S44,2675222,1182772,2964,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E12,S44,,,,,,,49,,,False,2.7 ng/ul,,,50 ul,,,,Isohelix
-jhu00156,61_Z_Mini__MCS_OMR_B1001_S45,36063388,35749524,932,2025-03-14,,Zymo Mini Prep Kit,,S1289-SC2 F01,S45,,,,,,,,,,True,4.4 ng/ul,,,50 ul,,OMR,B1001
-jhu00157,62_Z_Mini__OMR_B1001_S46,2222666,1185936,3538,2025-03-14,,Zymo Mini Prep Kit,,S1289-SC2 F02,S46,,,,,,,,,,False,1.6 ng/ul,,,50 ul,,OMR,110
-jhu00158,63_Qiagen_DNeasy_049_Conj_L_1_S47,24982470,252626,13428,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F03,S47,,,,,,,49,,,False,6.2 ng/ul,,,30 ul
-jhu00159,64_Qiagen_DNeasy_049_049_Lid_L_1_S48,35941794,404176,18736,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F04,S48,,,,,,,49,,,False,3.1 ng/ul,,,30 ul
-jhu00160,65_Qiagen_DNeasy_049_Skin_L_1_S49,27026776,585908,22134,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F05,S49,,,,,,,49,L008,,False,3.1 ng/ul,,,30 ul
-jhu00161,66_Qiagen_DNeasy_049_Conj_L_2_S50,14688670,181468,8140,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F06,S50,,,,,,,49,,,False,5.1 ng/ul,,,30 ul
-jhu00162,67_Qiagen_DNeasy_049_Lid_L_2_S51,30068876,370482,19246,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F07,S51,,,,,,,49,,,False,3.3 ng/ul,,,30 ul
-jhu00163,68_Qiagen_DNeasy_049_Skin_L_2_S52,20128868,4346422,21596,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F08,S52,,,,,,,49,L008,,False,3.2 ng/ul,,,30 ul
-jhu00164,69_Qiagen_DNeasy_049_Conj_L_3_S53,35063194,502054,23824,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F09,S53,,,,,,,49,,,False,4.2 ng/ul,,,30 ul
-jhu00165,6_Zymo_Micro_Prep_CS_006_Right_Eye_S86,35409510,45018,14064,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A06,S86,Right,,,,,,6,,,False,3.2 ng/ul,,,20 ul
-jhu00166,70_Qiagen_DNeasy_049_Lid_L_3_S54,33964622,516504,22634,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F10,S54,,,,,,,49,,,False,3 ng/ul,,,30 ul
-jhu00167,71_Qiagen_DNeasy_049_Skin_L_3_S55,33006434,959892,27568,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F11,S55,,,,,,,49,L008,,False,4.3 ng/ul,,,30 ul
-jhu00168,72_Qiagen_DNeasy_050_Conj_R_1_S56,33123140,172474,24838,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F12,S56,,,,,,,50,,,False,2.4 ng/ul,,,30 ul
-jhu00169,73_Qiagen_DNeasy_050_Lid_R_1_S57,17268860,381884,12878,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G01,S57,,,,,,,50,,,False,2.7 ng/ul,,,30 ul
-jhu00170,74_Qiagen_DNeasy_050_Skin_R_1_S58,27762924,704142,18698,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G02,S58,,,,,,,50,L008,,False,1.1 ng/ul,,,30 ul
-jhu00171,75_Qiagen_DNeasy_050_Conj_R_2_S59,14314556,1173226,6588,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G03,S59,,,,,,,50,,,False,3.7 ng/ul,,,30 ul
-jhu00172,76_Qiagen_DNeasy_050_Lid_R_2_S60,17244178,3195228,11648,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G04,S60,,,,,,,50,,,False,3.1 ng/ul,,,30 ul
-jhu00173,77_Qiagen_DNeasy_050_Skin_R_2_S61,5053072,1609656,2336,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G05,S61,,,,,,,50,L008,,False,4.4 ng/ul,,,30 ul
-jhu00174,78_Qiagen_DNeasy_050_Conj_R_3_S62,17628764,851568,11838,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G06,S62,,,,,,,50,,,False,2.9 ng/ul,,,30 ul
-jhu00175,79_Qiagen_DNeasy_050_Lid_R_3_S63,39371834,109760,30284,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G07,S63,,,,,,,50,,,False,3.7 ng/ul,,,30 ul
-jhu00176,7_Zymo_Micro_Prep_CS_007_Left_Eye_S87,43232332,62698,21686,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A07,S87,Left,,,,,,7,,,False,3.1 ng/ul,,,20 ul
-jhu00177,80_Qiagen_DNeasy_050_Skin_R_3_S64,24263344,1135474,18902,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G08,S64,,,,,,,50,L008,,False,3.5 ng/ul,,,30 ul
-jhu00178,81_Qiagen_DNeasy_051_Conj_L_1_S65,36612768,237028,11498,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G09,S65,,,,,,,51,,,False,8.5 ng/ul,,,30 ul
-jhu00179,82_Qiagen_DNeasy_051_Lid_L_1_S66,34917400,931950,17062,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G10,S66,,,,,,,51,,,False,4.4 ng/ul,,,30 ul
-jhu00180,83_Qiagen_DNeasy_051_Skin_L_1_S67,33013214,507342,16788,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G11,S67,,,,,,,51,L008,,False,2.1 ng/ul,,,30 ul
-jhu00181,84_Qiagen_DNeasy_051_Conj_L_2_S68,21188542,227688,14748,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G12,S68,,,,,,,51,,,False,4.3 ng/ul,,,30 ul
-jhu00182,85_Qiagen_DNeasy_051_Lid_L_2_S69,26559930,391990,20814,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H01,S69,,,,,,,51,,,False,4.6 ng/ul,,,30 ul
-jhu00183,86_Qiagen_DNeasy_051_Skin_L_2_S70,56713128,3750474,29620,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H02,S70,,,,,,,51,L008,,False,5.7 ng/ul,,,30 ul
-jhu00184,87_Qiagen_DNeasy_051_Conj_L_3_S71,20109656,144870,13466,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H03,S71,,,,,,,51,,,False,4.1 ng/ul,,,30 ul
-jhu00185,88_Qiagen_DNeasy_051_Lid_L_3_S72,31839926,482634,24882,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H04,S72,,,,,,,51,,,False,8.6 ng/ul,,,30 ul
-jhu00186,89_Qiagen_DNeasy_051_Skin_L_3_S73,23786366,650284,12794,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H05,S73,,,,,,,51,L008,,False,2.2 ng/ul,,,30 ul
-jhu00187,8_Zymo_Micro_Prep_CS_008_Right_Eye_S88,38966104,64446,18090,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A08,S88,Right,,,,,,8,,,False,2 ng/ul,,,20 ul
-jhu00188,90_Qiagen_DNeasy_049_ISO_Cont_1_S74,5984954,5034864,3886,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H06,S74,,,,,,,49,,,False,3.6 ng/ul,,,30 ul,,,,Isohelix
-jhu00189,91_Qiagen_DNeasy_050_ISO_Cont_1_S75,8369204,7267232,6530,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H07,S75,,,,,,,50,,,False,6.1 ng/ul,,,30 ul,,,,Isohelix
-jhu00190,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,9323984,7772954,4032,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H08,S76,,,,,,,49,,,False,2.3 ng/ul,,,30 ul,,,,Isohelix
-jhu00191,93_Qiagen_DNeasy_050_ISO_Cont_3_S77,17362842,14926116,5072,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H09,S77,,,,,,,50,,,False,5 ng/ul,,,30 ul,,,,Isohelix
-jhu00192,94_Qiagen_DNeasy_049_ISO_Cont_3_S78,6150176,4873948,2338,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H10,S78,,,,,,,49,,,False,3.9 ng/ul,,,30 ul,,,,Isohelix
-jhu00193,95_Qiagen_DNeasy_MCS_OMR_B1001_S79,35938974,35642672,182,2025-03-14,,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H11,S79,,,,,,,,,,True,4.9 ng/ul,,,30 ul,,OMR,B1001
-jhu00194,96_Qiagen_DNeasy_OMR_B1001_S80,17166234,16317426,5478,2025-03-14,,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H12,S80,,,,,,,,,,False,7 ng/ul,,,30 ul,,OMR,110
-jhu00195,9_Zymo_Micro_Prep_CS_009_Left_Eye_S89,41196538,62870,19850,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A09,S89,Left,,,,,,9,,,False,0.9 ng/ul,,,20 ul
-jhu00196,025RM_Conj_L_1_S1,12268814,135732,5126,2025-08-06,Conj,Zymo Mini Prep Kit,2,,S1,,2024-10-09,,1A,,,25,,,,2,A2,,,L006,,,Puritan,BG001,1
-jhu00197,025RM_Conj_L_2_S2,43959082,110586,15396,2025-08-06,Conj,Zymo Mini Prep Kit,14,,S2,,2025-10-16,,1A,,,25,,,,1.8,B2,,,L006,,,Puritan,BG001,2
-jhu00198,025RM_Conj_L_3_S3,50162800,3488320,17586,2025-08-06,Conj,Zymo Mini Prep Kit,23,,S3,,2024-11-06,,1A,,,25,,,,2,B11,,,L006,,,Puritan,BG001,3
-jhu00199,025RM_Conj_R_1_S4,13173330,236406,5256,2025-08-06,Conj,Zymo Mini Prep Kit,1,,S4,,2024-10-09,,1A,,,25,,,,1.5,A1,,,L006,,,ISOHELIX-mini,BG001,1
-jhu00200,025RM_Conj_R_2_S5,2307774,72762,868,2025-08-06,Conj,Zymo Mini Prep Kit,13,,S5,,2024-10-16,,1A,,,25,,,,1.6,B1,,,L006,,,ISOHELIX-mini,BG001,2
-jhu00201,025RM_Conj_R_3_S6,55688896,227994,25642,2025-08-06,Conj,Zymo Mini Prep Kit,22,,S6,,2024-11-06,,1A,,,25,,,,1.7,B10,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00202,025RM_ISO_CONT_3_S7,3401418,318264,1302,2025-08-06,ISO,Zymo Mini Prep Kit,35,,S7,,2024-11-06,,1A,,,25,,,,2.7,C11,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00203,025RM_Lid_L_1_S8,3390956,151446,1148,2025-08-06,Lid,Zymo Mini Prep Kit,4,,S8,,2024-10-09,,1A,,,25,,,,1.1,A4,,,L006,,,Puritan,BG001,1
-jhu00204,025RM_Lid_L_2_S9,2725808,91004,1392,2025-08-06,Lid,Zymo Mini Prep Kit,16,,S9,,2027-10-16,,1A,,,25,,,,0.7,B4,,,L006,,,Puritan,BG001,2
-jhu00205,025RM_Lid_L_3_S10,7848812,389826,4978,2025-08-06,Lid,Zymo Mini Prep Kit,25,,S10,,2024-11-06,,1A,,,25,,,,2.7,C1,,,L006,,,Puritan,BG001,3
-jhu00206,025RM_Lid_R_1_S11,9875818,6484400,4846,2025-08-06,Lid,Zymo Mini Prep Kit,3,,S11,,2024-10-09,,1A,,,25,,,,2.1,A3,,,L006,,,ISOHELIX-mini,BG001,1
-jhu00207,025RM_Lid_R_2_S12,30808158,785178,11516,2025-08-06,Lid,Zymo Mini Prep Kit,15,,S12,,2026-10-16,,1A,,,25,,,,1.5,B3,,,L006,,,ISOHELIX-mini,BG001,2
-jhu00208,025RM_Lid_R_3_S13,17295594,315998,7888,2025-08-06,Lid,Zymo Mini Prep Kit,24,,S13,,2024-11-06,,1A,,,25,,,,2.2,B12,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00209,025RM_PUR_CONT_1_S14,2436162,253080,1256,2025-08-06,PUR_CONT,Zymo Mini Prep Kit,19,,S14,,2024-10-09,,1A,,,25,,,,2.1,B7,,,L006,,,Puritan,BG001,1
-jhu00210,025RM_PUR_CONT_2_S15,2282396,269718,1200,2025-08-06,PUR_CONT,Zymo Mini Prep Kit,21,,S15,,2024-10-16,,1A,,,25,,,,1.3,B9,,,L006,,,Puritan,BG001,2
-jhu00211,025RM_PUR_CONT_3_S16,5053556,373516,3150,2025-08-06,PUR_CONT,Zymo Mini Prep Kit,34,,S16,,2024-11-06,,1A,,,25,,,,2.8,C10,,,L006,,,Puritan,BG001,3
-jhu00212,025RM_Skin_L_1_S17,20596108,1852058,7702,2025-08-06,Skin,Zymo Mini Prep Kit,6,,S17,,2024-10-09,,1A,,,25,L006,,,1.5,A6,,,L006,,,Puritan,BG001,1
-jhu00213,025RM_Skin_L_2_S18,21717516,1075980,9272,2025-08-06,Skin,Zymo Mini Prep Kit,18,,S18,,2029-10-16,,1A,,,25,L006,,,1.5,B6,,,L006,,,Puritan,BG001,2
-jhu00214,025RM_Skin_L_3_S19,35015266,1600272,13170,2025-08-06,Skin,Zymo Mini Prep Kit,27,,S19,,2024-11-06,,1A,,,25,L006,,,2.6,C3,,,L006,,,Puritan,BG001,3
-jhu00215,025RM_Skin_R_1_S20,12493120,366622,4462,2025-08-06,Skin,Zymo Mini Prep Kit,5,,S20,,2024-10-09,,1A,,,25,L006,,,1.8,A5,,,L006,,,ISOHELIX-mini,BG001,1
-jhu00216,025RM_Skin_R_2_S21,31475386,1551758,11838,2025-08-06,Skin,Zymo Mini Prep Kit,17,,S21,,2028-10-16,,1A,,,25,L006,,,1.3,B5,,,L006,,,ISOHELIX-mini,BG001,2
-jhu00217,025RM_Skin_R_3_S22,45264334,1381106,17330,2025-08-06,Skin,Zymo Mini Prep Kit,26,,S22,,2024-11-06,,1A,,,25,L006,,,2.8,C2,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00218,026MH_Conj_L_1_S23,55936422,168252,20474,2025-08-06,Conj,Zymo Mini Prep Kit,8,,S23,,2024-10-09,,1A,,,26,,,,1.8,A8,,,L006,,,ISOHELIX-mini,BG001,1
-jhu00219,026MH_Conj_L_2_S24,50646898,143292,17926,2025-08-06,Conj,Zymo Mini Prep Kit,42,,S24,,2024-10-23,,1A,,,26,,,,1.5,D6,,,L006,,,ISOHELIX-mini,BG001,2
-jhu00220,026MH_Conj_L_3_S25,52787182,159982,24278,2025-08-06,Conj,Zymo Mini Prep Kit,62,,S25,,2024-10-30,,1A,,,26,,,,2.7,F2,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00221,026MH_Conj_R_1_S26,45201646,152418,18724,2025-08-06,Conj,Zymo Mini Prep Kit,7,,S26,,2024-10-09,,1A,,,26,,,,3,A7,,,L006,,,Puritan,BG001,1
-jhu00222,026MH_Conj_R_2_S27,47000768,121048,15760,2025-08-06,Conj,Zymo Mini Prep Kit,41,,S27,,2024-10-23,,1A,,,26,,,,1.6,D5,,,L006,,,Puritan,BG001,2
-jhu00223,026MH_Conj_R_3_S28,55698180,1523586,18914,2025-08-06,Conj,Zymo Mini Prep Kit,61,,S28,,2024-10-30,,1A,,,26,,,,1.7,F1,,,L006,,,Puritan,BG001,3
-jhu00224,026MH_ISO_CONT_1_S29,923890,49086,644,2025-08-06,ISO,Zymo Mini Prep Kit,20,,S29,,2024-10-09,,1A,,,26,,,,1.6,B8,,,L006,,,ISOHELIX-mini,BG001,1
-jhu00225,026MH_ISO_CONT_2_S30,1432348,251256,464,2025-08-06,ISO,Zymo Mini Prep Kit,54,,S30,,2024-10-23,,1A,,,26,,,,1.2,E6,,,L006,,,ISOHELIX-mini,BG001,2
-jhu00226,026MH_ISO_CONT_3_S31,1237868,265306,658,2025-08-06,ISO,Zymo Mini Prep Kit,74,,S31,,2024-10-30,,1A,,,26,,,,2.5,G2,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00227,026MH_Lid_L_1_S32,50002684,553680,19594,2025-08-06,Lid,Zymo Mini Prep Kit,10,,S32,,2024-10-09,,1A,,,26,,,,2.3,A10,,,L006,,,ISOHELIX-mini,BG001,1
-jhu00228,026MH_Lid_L_2_S33,40271782,375490,13934,2025-08-06,Lid,Zymo Mini Prep Kit,44,,S33,,2024-10-23,,1A,,,26,,,,1.8,D8,,,L006,,,ISOHELIX-mini,BG001,2
-jhu00229,026MH_Lid_L_3_S34,39328036,2796024,14034,2025-08-06,Lid,Zymo Mini Prep Kit,64,,S34,,2024-10-30,,1A,,,26,,,,2,F4,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00230,026MH_Lid_R_1_S35,41525412,1115052,17192,2025-08-06,Lid,Zymo Mini Prep Kit,9,,S35,,2024-10-09,,1A,,,26,,,,1.3,A9,,,L006,,,Puritan,BG001,1
-jhu00231,026MH_Lid_R_2_S36,7622622,340254,2482,2025-08-06,Lid,Zymo Mini Prep Kit,43,,S36,,2024-10-23,,1A,,,26,,,,1.4,D7,,,L006,,,Puritan,BG001,2
-jhu00232,026MH_Lid_R_3_S37,47474774,761586,17354,2025-08-06,Lid,Zymo Mini Prep Kit,63,,S37,,2024-10-30,,1A,,,26,,,,2.1,F3,,,L006,,,Puritan,BG001,3
-jhu00233,026MH_PUR_CONT_2_S38,3144842,551414,1474,2025-08-06,PUR_CONT,Zymo Mini Prep Kit,53,,S38,,2024-10-23,,1A,,,26,,,,1,E5,,,L006,,,Puritan,BG001,2
-jhu00234,026MH_PUR_CONT_3_S39,2219106,820050,1288,2025-08-06,PUR_CONT,Zymo Mini Prep Kit,73,,S39,,2024-10-30,,1A,,,26,,,,2.1,G1,,,L006,,,Puritan,BG001,3
-jhu00235,026MH_Skin_L_1_S40,42208536,2777744,16136,2025-08-06,Skin,Zymo Mini Prep Kit,12,,S40,,2024-10-09,,1A,,,26,L006,,,1.3,A12,,,L006,,,ISOHELIX-mini,BG001,1
-jhu00236,026MH_Skin_L_2_S41,26649308,6457054,7706,2025-08-06,Skin,Zymo Mini Prep Kit,46,,S41,,2024-10-23,,1A,,,26,L006,,,1.4,D10,,,L006,,,ISOHELIX-mini,BG001,2
-jhu00237,026MH_Skin_L_3_S42,40181076,4387450,13832,2025-08-06,Skin,Zymo Mini Prep Kit,66,,S42,,2024-10-30,,1A,,,26,L006,,,1.9,F6,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00238,026MH_Skin_R_1_S43,57261318,2041166,22418,2025-08-06,Skin,Zymo Mini Prep Kit,11,,S43,,2024-10-09,,1A,,,26,L006,,,2,A11,,,L006,,,Puritan,BG001,1
-jhu00239,026MH_Skin_R_2_S44,102409676,60425394,16860,2025-08-06,Skin,Zymo Mini Prep Kit,45,,S44,,2024-10-23,,1A,,,26,L006,,,1.3,D9,,,L006,,,Puritan,BG001,2
-jhu00240,026MH_Skin_R_3_S45,24797522,4717238,7852,2025-08-06,Skin,Zymo Mini Prep Kit,65,,S45,,2024-10-30,,1A,,,26,L006,,,1.9,F5,,,L006,,,Puritan,BG001,3
-jhu00241,0277R_Skin_R_1_S46,50792410,6002334,19580,2025-08-06,Skin,Zymo Mini Prep Kit,51,,S46,,2024-10-23,,1A,,,27,L006,,,1.3,E3,,,L006,,,ISOHELIX-mini,BG001,1
-jhu00242,0277R_Skin_R_2_S47,47914888,6226348,15620,2025-08-06,Skin,Zymo Mini Prep Kit,71,,S47,,2024-10-30,,1A,,,27,L006,,,1.8,F11,,,L006,,,ISOHELIX-mini,BG001,2
-jhu00243,027AW_Conj_L_3_S48,40300970,920128,14798,2025-08-06,Conj,Zymo Mini Prep Kit,29,,S48,,2024-11-06,,1A,,,27,,,,3.6,C5,,,L006,,,Puritan,BG001,3
-jhu00244,027ZR_Conj_L_1_S49,48603604,2021928,15992,2025-08-06,Conj,Zymo Mini Prep Kit,48,,S49,,2024-10-23,,1A,,,27,,,,2.2,D12,,,L006,,,Puritan,BG001,1
-jhu00245,027ZR_Conj_L_2_S50,47787736,168346,22660,2025-08-06,Conj,Zymo Mini Prep Kit,68,,S50,,2024-10-30,,1A,,,27,,,,2,F8,,,L006,,,Puritan,BG001,2
-jhu00246,027ZR_Conj_R_1_S51,50582818,113378,19636,2025-08-06,Conj,Zymo Mini Prep Kit,47,,S51,,2024-10-23,,1A,,,27,,,,1.4,D11,,,L006,,,ISOHELIX-mini,BG001,1
-jhu00247,027ZR_Conj_R_2_S52,47386120,126082,15574,2025-08-06,Conj,Zymo Mini Prep Kit,67,,S52,,2024-10-30,,1A,,,27,,,,1.6,F7,,,L006,,,ISOHELIX-mini,BG001,2
-jhu00248,027ZR_Conj_R_3_S53,39011800,103104,14856,2025-08-06,Conj,Zymo Mini Prep Kit,28,,S53,,2024-11-06,,1A,,,27,,,,1.9,C4,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00249,027ZR_Lid_L_1_S54,39047732,2153904,13470,2025-08-06,Lid,Zymo Mini Prep Kit,50,,S54,,2024-10-23,,1A,,,27,,,,0.9,E2,,,L006,,,Puritan,BG001,1
-jhu00250,027ZR_Lid_L_2_S55,33456716,2714008,13120,2025-08-06,Lid,Zymo Mini Prep Kit,70,,S55,,2024-10-30,,1A,,,27,,,,2.2,F10,,,L006,,,Puritan,BG001,2
-jhu00251,027ZR_Lid_L_3_S56,1621628,56220,370,2025-08-06,Lid,Zymo Mini Prep Kit,31,,S56,,2024-11-06,,1A,,,27,,,,2.6,C7,,,L006,,,Puritan,BG001,3
-jhu00252,027ZR_Lid_R_1_S57,25239240,1329586,9610,2025-08-06,Lid,Zymo Mini Prep Kit,49,,S57,,2024-10-23,,1A,,,27,,,,1.4,E1,,,L006,,,ISOHELIX-mini,BG001,1
-jhu00253,027ZR_Lid_R_2_S58,50263086,634544,18574,2025-08-06,Lid,Zymo Mini Prep Kit,69,,S58,,2024-10-30,,1A,,,27,,,,2.7,F9,,,L006,,,ISOHELIX-mini,BG001,2
-jhu00254,027ZR_Lid_R_3_S59,31503084,801026,11070,2025-08-06,Lid,Zymo Mini Prep Kit,30,,S59,,2024-11-06,,1A,,,27,,,,2.6,C6,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00255,027ZR_Skin_L_1_S60,40456310,2416804,15006,2025-08-06,Skin,Zymo Mini Prep Kit,52,,S60,,2024-10-23,,1A,,,27,L006,,,0.9,E4,,,L006,,,Puritan,BG001,1
-jhu00256,027ZR_Skin_L_2_S61,46599264,4674842,12136,2025-08-06,Skin,Zymo Mini Prep Kit,72,,S61,,2024-10-30,,1A,,,27,L006,,,2.2,F12,,,L006,,,Puritan,BG001,2
-jhu00257,027ZR_Skin_L_3_S62,6648446,2564532,1620,2025-08-06,Skin,Zymo Mini Prep Kit,33,,S62,,2024-11-06,,1A,,,27,L006,,,2.8,C9,,,L006,,,Puritan,BG001,3
-jhu00258,027ZR_Skin_R_3_S63,13999104,7420868,2644,2025-08-06,Skin,Zymo Mini Prep Kit,32,,S63,,2024-11-06,,1A,,,27,L006,,,3.3,C8,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00259,029SH_ISO_CONT_2_S64,2105816,276874,932,2025-08-06,ISO,Zymo Mini Prep Kit,84,,S64,,2024-11-13,,1B,,,29,,,,1.3,G12,1,,L006,,,ISOHELIX-mini,BG001,2
-jhu00260,030AH_Conj_L_1_S65,38390706,4787748,11666,2025-08-06,Conj,Zymo Mini Prep Kit,37,,S65,,2024-11-06,,1B,,,30,,,,2.8,D1,1,,L006,,,ISOHELIX-mini,BG001,1
-jhu00261,030AH_Conj_L_2_S66,46788940,123140,20476,2025-08-06,Conj,Zymo Mini Prep Kit,76,,S66,,2024-11-13,,1B,,,30,,,,1,G4,1,,L006,,,ISOHELIX-mini,BG001,2
-jhu00262,030AH_Conj_L_3_S67,45034332,2620284,17296,2025-08-06,Conj,Zymo Mini Prep Kit,86,,S67,,2024-11-20,,1B,,,30,,,,1.2,H2,1,,L006,,,ISOHELIX-mini,BG001,3
-jhu00263,030AH_Conj_R_1_S68,6985228,4493034,1368,2025-08-06,Conj,Zymo Mini Prep Kit,36,,S68,,2024-11-06,,1B,,,30,,,,3.8,C12,1,,L006,,,FloQ,BG001,1
-jhu00264,030AH_Conj_R_2_S69,48497366,161786,17878,2025-08-06,Conj,Zymo Mini Prep Kit,75,,S69,,2024-11-13,,1B,,,30,,,,1.4,G3,1,,L006,,,FloQ,BG001,2
-jhu00265,030AH_Conj_R_3_S70,19494706,72990,8662,2025-08-06,Conj,Zymo Mini Prep Kit,85,,S70,,2024-11-20,,1B,,,30,,,,1.5,H1,1,,L006,,,FloQ,BG001,3
-jhu00266,030AH_FLOQ_CONT_1_S71,975462,180568,248,2025-08-06,FLOQ_CONT,Zymo Mini Prep Kit,40,,S71,,2024-11-06,,1B,,,30,,,,3.1,D4,1,,L006,,,FloQ,BG001,1
-jhu00267,030AH_Floq_CONT_2_S72,2399724,220168,2496,2025-08-06,FLOQ_CONT,Zymo Mini Prep Kit,83,,S72,,2024-11-13,,1B,,,30,,,,1.3,G11,1,,L006,,,FloQ,BG001,2
-jhu00268,030AH_Floq_CONT_3_S73,2068138,461636,776,2025-08-06,FLOQ_CONT,Zymo Mini Prep Kit,93,,S73,,2024-11-20,,1B,,,30,,,,1.8,H9,1,,L006,,,FloQ,BG001,3
-jhu00269,030AH_Lid_L_1_S74,4353622,175788,1396,2025-08-06,Lid,Zymo Mini Prep Kit,38,,S74,,2024-11-06,,1B,,,30,,,,3.1,D2,1,,L006,,,ISOHELIX-mini,BG001,1
-jhu00270,030AH_Lid_L_2_S75,17619094,2899134,6512,2025-08-06,Lid,Zymo Mini Prep Kit,77,,S75,,2024-11-13,,1B,,,30,,,,1.6,G5,1,,L006,,,ISOHELIX-mini,BG001,2
-jhu00271,030AH_Lid_L_3_S76,22153198,1105324,8070,2025-08-06,Lid,Zymo Mini Prep Kit,87,,S76,,2024-11-20,,1B,,,30,,,,2.2,H3,1,,L006,,,ISOHELIX-mini,BG001,3
-jhu00272,030AH_Skin_L_1_S77,12166598,10312724,1306,2025-08-06,Skin,Zymo Mini Prep Kit,39,,S77,,2024-11-06,,1B,,,30,L006,,,3.2,D3,1,,L006,,,ISOHELIX-mini,BG001,1
-jhu00273,030AH_Skin_L_2_S78,9334500,1207768,5592,2025-08-06,Skin,Zymo Mini Prep Kit,78,,S78,,2024-11-13,,1B,,,30,L006,,,1,G6,1,,L006,,,ISOHELIX-mini,BG001,2
-jhu00274,030AH_Skin_L_3_S79,37470878,3099190,14822,2025-08-06,Skin,Zymo Mini Prep Kit,88,,S79,,2024-11-20,,1B,,,30,L006,,,1.7,H4,1,,L006,,,ISOHELIX-mini,BG001,3
-jhu00275,032SN_Conj_L_1_S80,52259710,127342,17518,2025-08-06,Conj,Zymo Mini Prep Kit,80,,S80,,2024-11-13,,1B,,,32,,,,1.2,G8,1,,L006,,,ISOHELIX-mini,BG001,1
-jhu00276,032SN_Conj_L_2_S81,33507440,100546,14156,2025-08-06,Conj,Zymo Mini Prep Kit,90,,S81,,2024-11-20,,1B,,,32,,,,1.6,H6,1,,L006,,,ISOHELIX-mini,BG001,2
-jhu00277,032SN_Conj_L_3_S82,20668010,137808,7564,2025-08-06,Conj,Zymo Mini Prep Kit,56,,S82,,2024-12-04,,1B,,,32,,,,1.3,E8,1,,L006,,,ISOHELIX-mini,BG001,3
-jhu00278,032SN_Conj_R_1_S83,53149062,609128,16590,2025-08-06,Conj,Zymo Mini Prep Kit,79,,S83,,2024-11-13,,1B,,,32,,,,1.3,G7,1,,L006,,,FloQ,BG001,1
-jhu00279,032SN_Conj_R_2_S84,49945736,250826,19464,2025-08-06,Conj,Zymo Mini Prep Kit,89,,S84,,2024-11-20,,1B,,,32,,,,1.3,H5,1,,L006,,,FloQ,BG001,2
-jhu00280,032SN_Conj_R_3_S85,40143120,106712,14966,2025-08-06,Conj,Zymo Mini Prep Kit,55,,S85,,2024-12-04,,1B,,,32,,,,1.5,E7,1,,L006,,,FloQ,BG001,3
-jhu00281,032SN_FLOQ_CONT_3_S86,3952236,748474,1968,2025-08-06,FLOQ_CONT,Zymo Mini Prep Kit,59,,S86,,2024-12-04,,1B,,,32,,,,0.9,E11,1,,L006,,,FloQ,BG001,3
-jhu00282,032SN_ISO_CONT_2_S87,1178150,118128,636,2025-08-06,ISO,Zymo Mini Prep Kit,94,,S87,,2024-11-20,,1B,,,32,,,,2.5,H10,1,,L006,,,ISOHELIX-mini,BG001,2
-jhu00283,032SN_ISO_CONT_3_S88,19458694,13740402,4958,2025-08-06,ISO,Zymo Mini Prep Kit,60,,S88,,2024-12-04,,1B,,,32,,,,1.4,E12,1,,L006,,,ISOHELIX-mini,BG001,3
-jhu00284,032SN_Lid_L_1_S89,12562348,619816,5650,2025-08-06,Lid,Zymo Mini Prep Kit,81,,S89,,2024-11-13,,1B,,,32,,,,2.1,G9,1,,L006,,,ISOHELIX-mini,BG001,1
-jhu00285,032SN_Lid_L_2_S90,1413486,119612,416,2025-08-06,Lid,Zymo Mini Prep Kit,91,,S90,,2024-11-20,,1B,,,32,,,,1.8,H7,1,,L006,,,ISOHELIX-mini,BG001,2
-jhu00286,032SN_Lid_L_3_S91,3838364,158556,1374,2025-08-06,Lid,Zymo Mini Prep Kit,57,,S91,,2024-12-04,,1B,,,32,,,,2,E9,1,,L006,,,ISOHELIX-mini,BG001,3
-jhu00287,032SN_Skin_R_1_S92,17605122,388514,25996,2025-08-06,Skin,Zymo Mini Prep Kit,82,,S92,,2024-11-13,,1B,,,32,L006,,,1.1,G10,1,,L006,,,FloQ,BG001,1
-jhu00288,032SN_Skin_R_2_S93,135172550,732040,54136,2025-08-06,Skin,Zymo Mini Prep Kit,92,,S93,,2024-11-20,,1B,,,32,L006,,,1.9,H8,1,,L006,,,FloQ,BG001,2
-jhu00289,032SN_Skin_R_3_S94,41533392,3086932,13742,2025-08-06,Skin,Zymo Mini Prep Kit,58,,S94,,2024-12-04,,1B,,,32,L006,,,2,E10,1,,L006,,,FloQ,BG001,3
-jhu00290,033MA_BSS_CONT_1_S191,28377748,26362584,3260,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,113,,S191,,2024-11-13,BSS,2A,,,33,,,,2.1,B7,,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00291,033MA_BSS_CONT_3_S192,15107700,14204242,1630,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,115,,S192,,2024-12-04,BSS,2A,,,33,,,,2.8,B9,,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00292,033MA_Conj_L_1_S193,25921280,167488,11872,2025-08-06,Conj,Zymo Mini Prep Kit,96,,S193,,2024-11-13,,2A,,,33,,,,0.7,A2,,,L008,,,ISOHELIX-mini,BG001,1
-jhu00293,033MA_Conj_L_2_S194,20771082,18327060,2854,2025-08-06,Conj,Zymo Mini Prep Kit,102,,S194,,2024-11-20,,2A,,,33,,,,1.3,A8,2,,L008,,,ISOHELIX-mini,BG001,2
-jhu00294,033MA_Conj_L_3_S195,28511082,26400582,3612,2025-08-06,Conj,Zymo Mini Prep Kit,108,,S195,,2024-12-04,,2A,,,33,,,,1.7,B2,,,L008,,,ISOHELIX-mini,BG001,3
-jhu00295,033MA_Conj_R_1_S196,76826,33172,38,2025-08-06,Conj,Zymo Mini Prep Kit,95,,S196,,2024-11-13,,2A,,,33,,,,1.5,A1,,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00296,033MA_Conj_R_2_S197,36027326,34207456,4532,2025-08-06,Conj,Zymo Mini Prep Kit,101,,S197,,2024-11-20,,2A,,,33,,,,2.3,A7,2,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00297,033MA_Conj_R_3_S198,3746,2028,2,2025-08-06,Conj,Zymo Mini Prep Kit,107,,S198,,2024-12-04,,2A,,,33,,,,1.8,B1,,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00298,033MA_Lid_L_1_S199,12506034,3734074,3994,2025-08-06,Lid,Zymo Mini Prep Kit,98,,S199,,2024-11-13,,2A,,,33,,,,1.2,A4,,,L008,,,ISOHELIX-mini,BG001,1
-jhu00299,033MA_Lid_L_2_S200,20956020,19442558,2774,2025-08-06,Lid,Zymo Mini Prep Kit,104,,S200,,2024-11-20,,2A,,,33,,,,1.7,A10,2,,L008,,,ISOHELIX-mini,BG001,2
-jhu00300,033MA_Lid_L_3_S201,1040810,64242,1020,2025-08-06,Lid,Zymo Mini Prep Kit,110,,S201,,2024-12-04,,2A,,,33,,,,1.2,B4,,,L008,,,ISOHELIX-mini,BG001,3
-jhu00301,033MA_Lid_R_1_S202,5291544,4346956,3058,2025-08-06,Lid,Zymo Mini Prep Kit,97,,S202,,2024-11-13,,2A,,,33,,,,1.4,A3,,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00302,033MA_Lid_R_2_S203,11377378,10244302,1738,2025-08-06,Lid,Zymo Mini Prep Kit,103,,S203,,2024-11-20,,2A,,,33,,,,1.3,A9,2,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00303,033MA_Lid_R_3_S204,31422278,25628662,4636,2025-08-06,Lid,Zymo Mini Prep Kit,109,,S204,,2024-12-04,,2A,,,33,,,,2.2,B3,,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00304,033MA_Skin_L_1_S205,12455074,11193568,2292,2025-08-06,Skin,Zymo Mini Prep Kit,100,,S205,,2024-11-13,,2A,,,33,L008,,,1.5,A6,,,L008,,,ISOHELIX-mini,BG001,1
-jhu00305,033MA_Skin_L_2_S206,34142834,31874790,3670,2025-08-06,Skin,Zymo Mini Prep Kit,106,,S206,,2024-11-20,,2A,,,33,L008,,,2,A12,2,,L008,,,ISOHELIX-mini,BG001,2
-jhu00306,033MA_Skin_L_3_S207,21539266,19351020,3092,2025-08-06,Skin,Zymo Mini Prep Kit,112,,S207,,2024-12-04,,2A,,,33,L008,,,1.9,B6,,,L008,,,ISOHELIX-mini,BG001,3
-jhu00307,033MA_Skin_R_1_S208,29436520,12337230,7790,2025-08-06,Skin,Zymo Mini Prep Kit,99,,S208,,2024-11-13,,2A,,,33,L008,,,1.9,A5,,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00308,033MA_Skin_R_2_S209,1912726,68654,1746,2025-08-06,Skin,Zymo Mini Prep Kit,105,,S209,,2024-11-20,,2A,,,33,L008,,,1,A11,2,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00309,033MA_Skin_R_3_S210,25448738,23850816,3134,2025-08-06,Skin,Zymo Mini Prep Kit,111,,S210,,2024-12-04,,2A,,,33,L008,,,1.4,B5,,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00310,034AN_BSS_CONT_3a_S211,15785642,14115094,2016,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,136,,S211,,2024-12-18,BSS,2A,,,34,,,,1,D6,,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00311,034AN_BSS_CONT_3b_S212,6184694,5452508,1300,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,157,,S212,,2024-12-18,BSS,2A,,,34,,,,2,F3,,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00312,034AN_BSS_ISO_CONT_1a_S214,22067954,19692852,2268,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,114,,S214,,2024-11-20,BSS,2A,,,34,,,,0.8,B8,,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00313,034AN_BSS_ISO_CONT_1b_S215,40103426,38225402,4472,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,134,,S215,,2024-11-20,BSS,2A,,,34,,,,0.5,D4,,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00314,034AN_BSS_ISO_CONT_2_S213,34158900,32160188,4116,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,135,,S213,,2024-12-04,BSS,2A,,,34,,,,1,D5,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00315,034AN_Conj_L_1_S216,53175570,3222336,20176,2025-08-06,Conj,Zymo Mini Prep Kit,117,,S216,,2024-11-20,,2A,,,34,,,,1,B11,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00316,034AN_Conj_L_2_S217,50493734,3457710,17246,2025-08-06,Conj,Zymo Mini Prep Kit,123,,S217,,2024-12-04,,2A,,,34,,,,1.3,C5,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00317,034AN_Conj_L_3_S218,59821682,4978906,20470,2025-08-06,Conj,Zymo Mini Prep Kit,129,,S218,,2024-12-18,,2A,,,34,,,,0.8,C11,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00318,034AN_Conj_R_1_S219,46628414,16363986,13752,2025-08-06,Conj,Zymo Mini Prep Kit,116,,S219,,2024-11-20,,2A,,,34,,,,0.7,B10,2,,L008,,,ISOHELIX-mini,BG001,1
-jhu00319,034AN_Conj_R_2_S220,69377324,8776274,24746,2025-08-06,Conj,Zymo Mini Prep Kit,122,,S220,,2024-12-04,,2A,,,34,,,,1.5,C4,,,L008,,,ISOHELIX-mini,BG001,2
-jhu00320,034AN_Conj_R_3_S221,32530674,12587976,9406,2025-08-06,Conj,Zymo Mini Prep Kit,128,,S221,,2024-12-18,,2A,,,34,,,,1,C10,2,,L008,,,ISOHELIX-mini,BG001,3
-jhu00321,034AN_Lid_L_1_S222,24596266,20136422,7112,2025-08-06,Lid,Zymo Mini Prep Kit,119,,S222,,2024-11-20,,2A,,,34,,,,0.9,C1,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00322,034AN_Lid_L_2_S223,19254970,17601798,3260,2025-08-06,Lid,Zymo Mini Prep Kit,125,,S223,,2024-12-04,,2A,,,34,,,,0.9,C7,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00323,034AN_Lid_L_3_S224,17565426,15864072,3714,2025-08-06,Lid,Zymo Mini Prep Kit,131,,S224,,2024-12-18,,2A,,,34,,,,0.6,D1,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00324,034AN_Lid_R_1_S225,3622,1458,0,2025-08-06,Lid,Zymo Mini Prep Kit,118,,S225,,2024-11-20,,2A,,,34,,,,1.8,B12,2,,L008,,,ISOHELIX-mini,BG001,1
-jhu00325,034AN_Lid_R_2_S226,35071864,19654920,7640,2025-08-06,Lid,Zymo Mini Prep Kit,124,,S226,,2024-12-04,,2A,,,34,,,,1.2,C6,,,L008,,,ISOHELIX-mini,BG001,2
-jhu00326,034AN_Lid_R_3_S227,1870,720,2,2025-08-06,Lid,Zymo Mini Prep Kit,130,,S227,,2024-12-18,,2A,,,34,,,,1.8,C12,2,,L008,,,ISOHELIX-mini,BG001,3
-jhu00327,034AN_Skin_L_1_S228,29704278,27087828,6948,2025-08-06,Skin,Zymo Mini Prep Kit,121,,S228,,2024-11-20,,2A,,,34,L008,,,1.2,C3,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00328,034AN_Skin_L_2_S229,21698340,18433792,2446,2025-08-06,Skin,Zymo Mini Prep Kit,127,,S229,,2024-12-04,,2A,,,34,L008,,,1.7,C9,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00329,034AN_Skin_L_3_S230,17839024,16464486,2630,2025-08-06,Skin,Zymo Mini Prep Kit,133,,S230,,2024-12-18,,2A,,,34,L008,,,0.8,D3,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00330,034AN_Skin_R_1_S231,15233978,14008572,4098,2025-08-06,Skin,Zymo Mini Prep Kit,120,,S231,,2024-11-20,,2A,,,34,L008,,,0.9,C2,2,,L008,,,ISOHELIX-mini,BG001,1
-jhu00331,034AN_Skin_R_2_S232,10274758,8967062,1614,2025-08-06,Skin,Zymo Mini Prep Kit,126,,S232,,2024-12-04,,2A,,,34,L008,,,0.9,C8,,,L008,,,ISOHELIX-mini,BG001,2
-jhu00332,034AN_Skin_R_3_S233,31158966,10062902,9246,2025-08-06,Skin,Zymo Mini Prep Kit,132,,S233,,2024-12-18,,2A,,,34,L008,,,0.8,D2,2,,L008,,,ISOHELIX-mini,BG001,3
-jhu00333,035FS_BSS_ISO_CONT_1_S234,14310660,12041048,5788,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,155,,S234,,2024-11-20,BSS,2A,,,35,,,,1.8,F1,,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00334,035FS_BSS_ISO_CONT_2_S235,20542348,19457672,2722,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,156,,S235,,2024-12-04,BSS,2A,,,35,,,,2.5,F2,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00335,035FS_Conj_L_1_S236,13389778,7066628,3322,2025-08-06,Conj,Zymo Mini Prep Kit,138,,S236,,2024-11-20,,2A,,,35,,,,1.8,D8,,,L008,,,ISOHELIX-mini,BG001,1
-jhu00336,035FS_Conj_L_2_S237,26399408,11422888,7304,2025-08-06,Conj,Zymo Mini Prep Kit,144,,S237,,2024-12-04,,2A,,,35,,,,2.9,E2,,,L008,,,ISOHELIX-mini,BG001,2
-jhu00337,035FS_Conj_L_3_S238,49849466,8364386,16326,2025-08-06,Conj,Zymo Mini Prep Kit,150,,S238,,2024-12-18,,2A,,,35,,,,1.4,E8,2,,L008,,,ISOHELIX-mini,BG001,3
-jhu00338,035FS_Conj_R_1_S239,45498796,42354030,5644,2025-08-06,Conj,Zymo Mini Prep Kit,137,,S239,,2024-11-20,,2A,,,35,,,,1.5,D7,,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00339,035FS_Conj_R_2_S240,55420296,783924,18668,2025-08-06,Conj,Zymo Mini Prep Kit,143,,S240,,2024-12-04,,2A,,,35,,,,1.7,E1,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00340,035FS_Conj_R_3_S241,29291876,6277694,10414,2025-08-06,Conj,Zymo Mini Prep Kit,149,,S241,,2024-12-18,,2A,,,35,,,,2,E7,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00341,035FS_Lid_L_1_S242,21443268,19075048,2108,2025-08-06,Lid,Zymo Mini Prep Kit,140,,S242,,2024-11-20,,2A,,,35,,,,2,D10,,,L008,,,ISOHELIX-mini,BG001,1
-jhu00342,035FS_Lid_L_2_S243,44068110,2544326,14758,2025-08-06,Lid,Zymo Mini Prep Kit,146,,S243,,2024-12-04,,2A,,,35,,,,3,E4,,,L008,,,ISOHELIX-mini,BG001,2
-jhu00343,035FS_Lid_L_3_S244,25662744,23868678,3996,2025-08-06,Lid,Zymo Mini Prep Kit,152,,S244,,2024-12-18,,2A,,,35,,,,2,E10,2,,L008,,,ISOHELIX-mini,BG001,3
-jhu00344,035FS_Lid_R_1_S245,39227624,12248720,12706,2025-08-06,Lid,Zymo Mini Prep Kit,139,,S245,,2024-11-20,,2A,,,35,,,,1.8,D9,,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00345,035FS_Lid_R_2_S246,27962896,22862860,6464,2025-08-06,Lid,Zymo Mini Prep Kit,145,,S246,,2024-12-04,,2A,,,35,,,,1.7,E3,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00346,035FS_Lid_R_3_S247,28396400,8925114,7982,2025-08-06,Lid,Zymo Mini Prep Kit,151,,S247,,2024-12-18,,2A,,,35,,,,1.9,E9,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00347,035FS_Skin_L_1_S248,1711966,900986,662,2025-08-06,Skin,Zymo Mini Prep Kit,142,,S248,,2024-11-20,,2A,,,35,L008,,,2.1,D12,,,L008,,,ISOHELIX-mini,BG001,1
-jhu00348,035FS_Skin_L_2_S249,44618800,1271630,14644,2025-08-06,Skin,Zymo Mini Prep Kit,148,,S249,,2024-12-04,,2A,,,35,L008,,,2.1,E6,,,L008,,,ISOHELIX-mini,BG001,2
-jhu00349,035FS_Skin_L_3_S250,10629508,5558316,4770,2025-08-06,Skin,Zymo Mini Prep Kit,154,,S250,,2024-12-18,,2A,,,35,L008,,,3.2,E12,2,,L008,,,ISOHELIX-mini,BG001,3
-jhu00350,035FS_Skin_R_1_S251,28328904,10665562,8116,2025-08-06,Skin,Zymo Mini Prep Kit,141,,S251,,2024-11-20,,2A,,,35,L008,,,2.3,D11,,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00351,035FS_Skin_R_2_S252,52253602,1215766,16976,2025-08-06,Skin,Zymo Mini Prep Kit,147,,S252,,2024-12-04,,2A,,,35,L008,,,2.1,E5,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00352,035FS_Skin_R_3_S253,41453914,9891122,12448,2025-08-06,Skin,Zymo Mini Prep Kit,153,,S253,,2024-12-18,,2A,,,35,L008,,,2,E11,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00353,036VK_BSS_ISO_CONT_2_S254,14291344,11772652,2054,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,176,,S254,,2024-12-18,BSS,2A,,,36,,,,1.8,G10,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00354,036VK_BSS_ISO_CONT_3_S255,7948778,946876,6934,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,177,,S255,,2025-01-08,BSS,2A,,,36,,,,2.8,G11,,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00355,036VK_Conj_L_1_S256,34437640,15062220,9520,2025-08-06,Conj,Zymo Mini Prep Kit,159,,S256,,2024-12-04,,2A,,,36,,,,1.7,F5,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00356,036VK_Conj_L_2_S257,74927688,1156028,23664,2025-08-06,Conj,Zymo Mini Prep Kit,165,,S257,,2024-12-18,,2A,,,36,,,,2.3,F11,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00357,036VK_Conj_L_3_S258,14061158,12296172,3088,2025-08-06,Conj,Zymo Mini Prep Kit,171,,S258,,2025-01-08,,2A,,,36,,,,1.8,G5,,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00358,036VK_Conj_R_1_S259,48483790,4255488,17284,2025-08-06,Conj,Zymo Mini Prep Kit,158,,S259,,2024-12-04,,2A,,,36,,,,2.2,F4,2,,L008,,,ISOHELIX-mini,BG001,1
-jhu00359,036VK_Conj_R_2_S260,20045528,18717462,3550,2025-08-06,Conj,Zymo Mini Prep Kit,164,,S260,,2024-12-18,,2A,,,36,,,,1.9,F10,,,L008,,,ISOHELIX-mini,BG001,2
-jhu00360,036VK_Conj_R_3_S261,63964472,3548282,21974,2025-08-06,Conj,Zymo Mini Prep Kit,170,,S261,,2025-01-08,,2A,,,36,,,,1.6,G4,,,L008,,,ISOHELIX-mini,BG001,3
-jhu00361,036VK_Lid_L_1_S262,35666188,9529752,11854,2025-08-06,Lid,Zymo Mini Prep Kit,161,,S262,,2024-12-04,,2A,,,36,,,,2.3,F7,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00362,036VK_Lid_L_2_S263,31690390,17105212,7026,2025-08-06,Lid,Zymo Mini Prep Kit,167,,S263,,2024-12-18,,2A,,,36,,,,2.5,G1,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00363,036VK_Lid_L_3_S264,34298398,11778820,9896,2025-08-06,Lid,Zymo Mini Prep Kit,173,,S264,,2025-01-08,,2A,,,36,,,,1.6,G7,,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00364,036VK_Lid_R_1_S265,50000276,4476416,17958,2025-08-06,Lid,Zymo Mini Prep Kit,160,,S265,,2024-12-04,,2A,,,36,,,,2,F6,2,,L008,,,ISOHELIX-mini,BG001,1
-jhu00365,036VK_Lid_R_2_S266,33343410,17850776,7632,2025-08-06,Lid,Zymo Mini Prep Kit,166,,S266,,2024-12-18,,2A,,,36,,,,1.9,F12,,,L008,,,ISOHELIX-mini,BG001,2
-jhu00366,036VK_Lid_R_3_S267,16686678,14858792,2992,2025-08-06,Lid,Zymo Mini Prep Kit,172,,S267,,2025-01-08,,2A,,,36,,,,1.6,G6,,,L008,,,ISOHELIX-mini,BG001,3
-jhu00367,036VK_Skin_L_1_S268,21698098,6980466,6842,2025-08-06,Skin,Zymo Mini Prep Kit,163,,S268,,2024-12-04,,2A,,,36,L008,,,1.9,F9,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00368,036VK_Skin_L_2_S269,35915414,13241280,9836,2025-08-06,Skin,Zymo Mini Prep Kit,169,,S269,,2024-12-18,,2A,,,36,L008,,,3.1,G3,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00369,036VK_Skin_L_3_S270,30568094,10102300,8630,2025-08-06,Skin,Zymo Mini Prep Kit,175,,S270,,2025-01-08,,2A,,,36,L008,,,1.8,G9,,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00370,036VK_Skin_R_1_S271,25551060,23098192,5010,2025-08-06,Skin,Zymo Mini Prep Kit,162,,S271,,2024-12-04,,2A,,,36,L008,,,1.8,F8,2,,L008,,,ISOHELIX-mini,BG001,1
-jhu00371,036VK_Skin_R_2_S272,15057708,13711998,2560,2025-08-06,Skin,Zymo Mini Prep Kit,168,,S272,,2024-12-18,,2A,,,36,L008,,,2.3,G2,,,L008,,,ISOHELIX-mini,BG001,2
-jhu00372,036VK_Skin_R_3_S273,49311220,13930870,15554,2025-08-06,Skin,Zymo Mini Prep Kit,174,,S273,,2025-01-08,,2A,,,36,L008,,,1.4,G8,,,L008,,,ISOHELIX-mini,BG001,3
-jhu00373,038JM_ANE_CONT_1_S96,830944,22192,280,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,184,,S96,,2024-12-04,ANE,3A,,,38,,,,2.4,A7,,,L007,,,Tetra/ISOHELIX-mini,BG001,1
-jhu00374,038JM_ANE_CONT_2_S97,495378,22068,306,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,185,,S97,,2025-01-22,ANE,3A,,,38,,,,2.3,A8,,,L007,,,Tetra/ISOHELIX-mini,BG001,2
-jhu00375,038JM_ANE_CONT_3_S98,5382000,5027272,646,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,186,,S98,,2025-02-19,ANE,3A,,,38,,,,3.3,A9,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00376,038JM_Conj_L_1_S99,15172398,81262,7442,2025-08-06,Conj,Zymo Mini Prep Kit,179,,S99,,2024-12-04,,3A,,,38,,,,1.6,A2,,,L007,,,ISOHELIX-mini,BG001,1
-jhu00377,038JM_Conj_L_2_S100,30929938,1407382,11596,2025-08-06,Conj,Zymo Mini Prep Kit,181,,S100,,2024-12-04,,3A,,,38,,,,2.4,A4,,,L007,,,ISOHELIX-mini,BG001,2
-jhu00378,038JM_Conj_L_3_S101,34464636,90970,14968,2025-08-06,Conj,Zymo Mini Prep Kit,183,,S101,,2025-02-19,,3A,,,38,,,,2.1,A6,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00379,038JM_Conj_R_2_S103,21863632,3065960,8016,2025-08-06,Conj,Zymo Mini Prep Kit,180,,S103,,2025-01-22,,3A,,,38,,,,2.1,A3,,,L007,,,Tetra+ISOHELIX-mini,BG001,2
-jhu00380,038JM_Conj_R_3_S104,28255866,97446,12384,2025-08-06,Conj,Zymo Mini Prep Kit,182,,S104,,2025-02-19,,3A,,,38,,,,2.1,A5,,,L007,,,Tetra+ISOHELIX-mini,BI001,3
-jhu00381,039WB_ANE_CONT_1_S105,1107786,13952,470,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,205,,S105,,2025-01-08,ANE,3A,,,39,,,,1.5,C4,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00382,039WB_ANE_CONT_2_S106,753802,22732,604,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,207,,S106,,2025-01-22,ANE,3B,,,39,,,,1.6,C6,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00383,039WB_ANE_CONT_3_S107,623862,9452,188,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,208,,S107,,2025-01-29,ANE,3A,,,39,,,,1.6,C7,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00384,039WB_Conj_L_1_S108,12121940,38592,5602,2025-08-06,Conj,Zymo Mini Prep Kit,188,,S108,,2025-01-08,,3A,,,39,,,,1.6,A11,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00385,039WB_Conj_L_2_S109,30299220,96700,11746,2025-08-06,Conj,Zymo Mini Prep Kit,190,,S109,,2025-01-22,,3A,,,39,,,,1.5,B1,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00386,039WB_Conj_L_3_S110,35378530,410872,11238,2025-08-06,Conj,Zymo Mini Prep Kit,192,,S110,,2025-01-29,,3A,,,39,,,,1.8,B3,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00387,039WB_Conj_R_1_S111,27913104,539688,10128,2025-08-06,Conj,Zymo Mini Prep Kit,187,,S111,,2025-01-08,,3A,,,39,,,,1.6,A10,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00388,039WB_Conj_R_3_S113,40723754,83416,14918,2025-08-06,Conj,Zymo Mini Prep Kit,191,,S113,,2025-01-29,,3A,,,39,,,,2.3,B2,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00389,040RR_ANE_CONT_2_S114,654142,60742,326,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,206,,S114,,2025-01-15,ANE,3A,,,40,,,,1.6,C5,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00390,040RR_Conj_L_1_S115,20885474,135856,9030,2025-08-06,Conj,Zymo Mini Prep Kit,194,,S115,,2025-01-08,,3A,,,40,,,,1.3,B5,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00391,040RR_Conj_L_2_S116,194925578,741130,77732,2025-08-06,Conj,Zymo Mini Prep Kit,196,,S116,,2025-01-15,,3A,,,40,,,,3.4,B7,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00392,040RR_Conj_L_3_S117,40582094,84960,17846,2025-08-06,Conj,Zymo Mini Prep Kit,198,,S117,,2025-01-29,,3A,,,40,,,,1.7,B9,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00393,040RR_Conj_R_1_S118,19112646,59382,9398,2025-08-06,Conj,Zymo Mini Prep Kit,193,,S118,,2025-01-08,,3A,,,40,,,,1.6,B4,,,L007,,,Tetra+ISOHELIX-mini,BI001,1
-jhu00394,040RR_Conj_R_2_S119,20123386,4409046,7812,2025-08-06,Conj,Zymo Mini Prep Kit,195,,S119,,2025-01-15,,3A,,,40,,,,1.9,B6,,,L007,,,Tetra+ISOHELIX-mini,BI001,2
-jhu00395,040RR_Conj_R_3_S120,18145306,57398,7926,2025-08-06,Conj,Zymo Mini Prep Kit,197,,S120,,2025-01-29,,3A,,,40,,,,1.3,B8,,,L007,,,Tetra+ISOHELIX-mini,BI001,3
-jhu00396,041SB_Conj_L_1_S121,52180948,141966,22796,2025-08-06,Conj,Zymo Mini Prep Kit,200,,S121,,2025-01-15,,3A,,,41,,,,1.5,B11,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00397,041SB_Conj_L_2_S122,6632970,65438,3558,2025-08-06,Conj,Zymo Mini Prep Kit,202,,S122,,2025-01-15,,3A,,,41,,,,2.4,C1,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00398,041SB_Conj_L_3_S123,85562290,200306,37166,2025-08-06,Conj,Zymo Mini Prep Kit,204,,S123,,2025-01-22,,3A,,,41,,,,1.9,C3,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00399,041SB_Conj_R_1_S124,54830150,148190,24828,2025-08-06,Conj,Zymo Mini Prep Kit,199,,S124,,2025-01-15,,3A,,,41,,,,2.3,B10,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00400,041SB_Conj_R_2_S125,759762,2802,272,2025-08-06,Conj,Zymo Mini Prep Kit,201,,S125,,2025-01-22,,3A,,,41,,,,1.9,B12,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00401,041SB_Conj_R_3_S126,74744616,186542,38612,2025-08-06,Conj,Zymo Mini Prep Kit,203,,S126,,2025-01-29,,3A,,,41,,,,2.1,C2,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00402,043SA_ANE_CONT_1_S127,1646618,95548,982,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,227,,S127,,2025-01-15,ANE,3B,,,43,,,,1.6,E2,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00403,043SA_ANE_CONT_2_S128,213822,8066,190,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,228,,S128,,2025-01-22,ANE,3B,,,43,,,,1.2,E3,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00404,043SA_ANE_CONT_3_S129,365154,7740,104,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,229,,S129,,2025-02-05,ANE,3B,,,43,,,,1.3,E4,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00405,043SA_Conj_L_1_S130,30110462,839948,11342,2025-08-06,Conj,Zymo Mini Prep Kit,210,,S130,,2025-01-15,,3B,,,43,,,,1.5,C9,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00406,043SA_Conj_L_2_S131,22283980,4724710,8198,2025-08-06,Conj,Zymo Mini Prep Kit,216,,S131,,2025-01-22,,3B,,,43,,,,2.2,D3,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00407,043SA_Conj_L_3_S132,16170122,10946428,2750,2025-08-06,Conj,Zymo Mini Prep Kit,222,,S132,,2025-02-05,,3B,,,43,,,,1.6,D9,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00408,043SA_Conj_R_1_S133,15797680,187404,9294,2025-08-06,Conj,Zymo Mini Prep Kit,209,,S133,,2025-01-15,,3B,,,43,,,,1.8,C8,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00409,043SA_Conj_R_2_S134,29742090,1490330,39604,2025-08-06,Conj,Zymo Mini Prep Kit,215,,S134,,2025-01-22,,3B,,,43,,,,1.9,D2,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00410,043SA_Conj_R_3_S135,25179690,54038,9552,2025-08-06,Conj,Zymo Mini Prep Kit,221,,S135,,2025-02-05,,3B,,,43,,,,1.2,D8,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00411,043SA_Lid_L_1_S136,25924318,3029750,8582,2025-08-06,Lid,Zymo Mini Prep Kit,212,,S136,,2025-01-15,,3B,,,43,,,,2.8,C11,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00412,043SA_Lid_L_2_S137,23084444,3483012,7900,2025-08-06,Lid,Zymo Mini Prep Kit,218,,S137,,2025-01-22,,3B,,,43,,,,1.3,D5,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00413,043SA_Lid_L_3_S138,4064858,70142,2274,2025-08-06,Lid,Zymo Mini Prep Kit,224,,S138,,2025-02-05,,3B,,,43,,,,1.1,D11,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00414,043SA_Lid_R_1_S139,12989238,68290,5176,2025-08-06,Lid,Zymo Mini Prep Kit,211,,S139,,2025-01-15,,3B,,,43,,,,1.5,C10,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00415,043SA_Lid_R_2_S140,11893124,131706,5462,2025-08-06,Lid,Zymo Mini Prep Kit,217,,S140,,2025-01-22,,3B,,,43,,,,1.1,D4,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00416,043SA_Lid_R_3_S141,28072658,165074,12384,2025-08-06,Lid,Zymo Mini Prep Kit,223,,S141,,2025-02-05,,3B,,,43,,,,1.8,D10,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00417,043SA_Skin_L_1_S142,7567778,153964,3280,2025-08-06,Skin,Zymo Mini Prep Kit,214,,S142,,2025-01-15,,3B,,,43,L007,,,1.7,D1,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00418,043SA_Skin_L_2_S143,680036,24202,304,2025-08-06,Skin,Zymo Mini Prep Kit,220,,S143,,2025-01-22,,3B,,,43,L007,,,1.3,D7,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00419,043SA_Skin_L_3_S144,14732334,860448,5558,2025-08-06,Skin,Zymo Mini Prep Kit,226,,S144,,2025-02-05,,3B,,,43,L007,,,0.8,E1,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00420,043SA_Skin_R_1_S145,24787858,11572732,6422,2025-08-06,Skin,Zymo Mini Prep Kit,213,,S145,,2025-01-15,,3B,,,43,L007,,,2.7,C12,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00421,043SA_Skin_R_2_S146,9369080,8413746,1314,2025-08-06,Skin,Zymo Mini Prep Kit,219,,S146,,2025-01-22,,3B,,,43,L007,,,1.5,D6,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00422,043SA_Skin_R_3_S147,16573406,7714288,4950,2025-08-06,Skin,Zymo Mini Prep Kit,225,,S147,,2025-02-05,,3B,,,43,L007,,,1,D12,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00423,044PB_ANE_CONT_1_S148,3398320,71020,1768,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,248,,S148,,2025-01-22,ANE,3B,,,44,,,,4.1,F11,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00424,044PB_ANE_CONT_2_S149,433800,7836,180,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,249,,S149,,2025-02-19,ANE,3B,,,44,,,,2.9,F12,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00425,044PB_ANE_CONT_3_S150,1069106,66318,800,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,250,,S150,,2025-02-26,ANE,3B,,,44,,,,1.9,G1,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00426,044PB_Conj_L_1_S151,19981034,45916,8922,2025-08-06,Conj,Zymo Mini Prep Kit,231,,S151,,2025-01-22,,3B,,,44,,,,2.3,E6,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00427,044PB_Conj_L_2_S152,18225392,129384,8220,2025-08-06,Conj,Zymo Mini Prep Kit,237,,S152,,2025-02-19,,3B,,,44,,,,1.9,E12,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00428,044PB_Conj_L_3_S153,12230172,95752,6738,2025-08-06,Conj,Zymo Mini Prep Kit,243,,S153,,2025-02-26,,3B,,,44,,,,2.2,F6,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00429,044PB_Conj_R_1_S154,31253846,59336,11904,2025-08-06,Conj,Zymo Mini Prep Kit,230,,S154,,2025-01-22,,3B,,,44,,,,0.9,E5,,,L007,,,Tetra+ISOHELIX-mini,BI001,1
-jhu00430,044PB_Conj_R_2_S155,16031066,11935292,8006,2025-08-06,Conj,Zymo Mini Prep Kit,236,,S155,,2025-02-19,,3B,,,44,,,,2.2,E11,,,L007,,,Tetra+ISOHELIX-mini,BI001,2
-jhu00431,044PB_Conj_R_3_S156,12858186,166348,6380,2025-08-06,Conj,Zymo Mini Prep Kit,242,,S156,,2025-02-26,,3B,,,44,,,,2.7,F5,,,L007,,,Tetra+ISOHELIX-mini,BI001,3
-jhu00432,044PB_Lid_L_1_S157,15166108,305314,6806,2025-08-06,Lid,Zymo Mini Prep Kit,233,,S157,,2025-01-22,,3B,,,44,,,,2.1,E8,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00433,044PB_Lid_L_2_S158,484262,48430,464,2025-08-06,Lid,Zymo Mini Prep Kit,239,,S158,,2025-02-19,,3B,,,44,,,,4.1,F2,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00434,044PB_Lid_L_3_S159,29475218,703734,10370,2025-08-06,Lid,Zymo Mini Prep Kit,245,,S159,,2025-02-26,,3B,,,44,,,,1.9,F8,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00435,044PB_Lid_R_1_S160,12765540,214346,4966,2025-08-06,Lid,Zymo Mini Prep Kit,232,,S160,,2025-01-22,,3B,,,44,,,,1.4,E7,,,L007,,,Tetra+ISOHELIX-mini,BI001,1
-jhu00436,044PB_Lid_R_2_S161,16133862,2830538,5876,2025-08-06,Lid,Zymo Mini Prep Kit,238,,S161,,2025-02-19,,3B,,,44,,,,3.4,F1,,,L007,,,Tetra+ISOHELIX-mini,BI001,2
-jhu00437,044PB_Lid_R_3_S162,15463936,4049260,4804,2025-08-06,Lid,Zymo Mini Prep Kit,244,,S162,,2025-02-26,,3B,,,44,,,,1.5,F7,,,L007,,,Tetra+ISOHELIX-mini,BI001,3
-jhu00438,044PB_Skin_L_1_S163,4103006,224630,1700,2025-08-06,Skin,Zymo Mini Prep Kit,235,,S163,,2025-01-22,,3B,,,44,L007,,,2.1,E10,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00439,044PB_Skin_L_2_S164,4577486,1429854,2020,2025-08-06,Skin,Zymo Mini Prep Kit,241,,S164,,2025-02-19,,3B,,,44,L007,,,1.8,F4,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00440,044PB_Skin_L_3_S165,30465918,2617402,10178,2025-08-06,Skin,Zymo Mini Prep Kit,247,,S165,,2025-02-26,,3B,,,44,L007,,,2.2,F10,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00441,044PB_Skin_R_1_S166,7573618,6196498,1386,2025-08-06,Skin,Zymo Mini Prep Kit,234,,S166,,2025-01-22,,3B,,,44,L007,,,1.6,E9,,,L007,,,Tetra+ISOHELIX-mini,BI001,1
-jhu00442,044PB_Skin_R_2_S167,17371018,10333834,4452,2025-08-06,Skin,Zymo Mini Prep Kit,240,,S167,,2025-02-19,,3B,,,44,L007,,,1.9,F3,,,L007,,,Tetra+ISOHELIX-mini,BI001,2
-jhu00443,044PB_Skin_R_3_S168,8633622,7340382,1982,2025-08-06,Skin,Zymo Mini Prep Kit,246,,S168,,2025-02-26,,3B,,,44,L007,,,1.3,F9,,,L007,,,Tetra+ISOHELIX-mini,BI001,3
-jhu00444,045TA_ANE_CONT_1_S169,5357952,4677846,1452,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,269,,S169,,2025-01-29,ANE,3B,,,45,,,,3.3,H8,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00445,045TA_ANE_CONT_2_S170,12058202,11306852,1760,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,270,,S170,,2025-02-05,ANE,3B,,,45,,,,1.4,H9,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00446,045TA_ANE_CONT_3_S171,9987788,9640038,1164,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,271,,S171,,2025-02-19,ANE,3B,,,45,,,,2.5,H10,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00447,045TA_Conj_L_1_S172,61434976,298020,25804,2025-08-06,Conj,Zymo Mini Prep Kit,252,,S172,,2025-01-29,,3B,,,45,,,,2.1,G3,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00448,045TA_Conj_L_2_S173,37947424,168044,16052,2025-08-06,Conj,Zymo Mini Prep Kit,258,,S173,,2025-02-05,,3B,,,45,,,,1.7,G9,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00449,045TA_Conj_L_3_S174,48925882,113988,21214,2025-08-06,Conj,Zymo Mini Prep Kit,264,,S174,,2025-02-19,,3B,,,45,,,,1.8,H3,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00450,045TA_Conj_R_1_S175,19086490,45296,17644,2025-08-06,Conj,Zymo Mini Prep Kit,251,,S175,,2025-01-29,,3B,,,45,,,,2.2,G2,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00451,045TA_Conj_R_2_S176,32187372,97116,12904,2025-08-06,Conj,Zymo Mini Prep Kit,257,,S176,,2025-02-05,,3B,,,45,,,,1.9,G8,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00452,045TA_Conj_R_3_S177,30574320,70200,11700,2025-08-06,Conj,Zymo Mini Prep Kit,263,,S177,,2025-02-19,,3B,,,45,,,,1.8,H2,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00453,045TA_Lid_L_1_S178,137401266,640418,51102,2025-08-06,Lid,Zymo Mini Prep Kit,254,,S178,,2025-01-29,,3B,,,45,,,,2.2,G5,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00454,045TA_Lid_L_2_S179,44533038,281610,17990,2025-08-06,Lid,Zymo Mini Prep Kit,260,,S179,,2025-02-05,,3B,,,45,,,,1.6,G11,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00455,045TA_Lid_L_3_S180,1581280,11680,666,2025-08-06,Lid,Zymo Mini Prep Kit,266,,S180,,2025-02-19,,3B,,,45,,,,1.5,H5,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00456,045TA_Lid_R_1_S181,47339930,257968,21134,2025-08-06,Lid,Zymo Mini Prep Kit,253,,S181,,2025-01-29,,3B,,,45,,,,1.9,G4,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00457,045TA_Lid_R_2_S182,192932400,808130,63396,2025-08-06,Lid,Zymo Mini Prep Kit,259,,S182,,2025-02-05,,3B,,,45,,,,4.8,G10,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00458,045TA_Lid_R_3_S183,45944866,257548,17600,2025-08-06,Lid,Zymo Mini Prep Kit,265,,S183,,2025-02-19,,3B,,,45,,,,3.1,H4,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00459,045TA_Skin_L_1_S184,205299986,1232112,84454,2025-08-06,Skin,Zymo Mini Prep Kit,256,,S184,,2025-01-29,,3B,,,45,L007,,,3.6,G7,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00460,045TA_Skin_L_2_S185,27063788,656724,11636,2025-08-06,Skin,Zymo Mini Prep Kit,262,,S185,,2025-02-05,,3B,,,45,L007,,,2.6,H1,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00461,045TA_Skin_L_3_S186,39744448,527600,13302,2025-08-06,Skin,Zymo Mini Prep Kit,268,,S186,,2025-02-19,,3B,,,45,L007,,,2.7,H7,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00462,045TA_Skin_R_1_S187,104442106,789502,38538,2025-08-06,Skin,Zymo Mini Prep Kit,255,,S187,,2025-01-29,,3B,,,45,L007,,,1.5,G6,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00463,045TA_Skin_R_2_S188,29767144,1484676,10980,2025-08-06,Skin,Zymo Mini Prep Kit,261,,S188,,2025-02-05,,3B,,,45,L007,,,2,G12,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00464,045TA_Skin_R_3_S189,32932716,656870,11836,2025-08-06,Skin,Zymo Mini Prep Kit,267,,S189,,2025-02-19,,3B,,,45,L007,,,1.6,H6,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00465,MCS_M1_BG001_S274,140796766,138496636,3242,2025-08-06,MCS,Zymo Mini Prep Kit,M_1,,S274,,,,,,,,,,MCS,2.7,H12,,,L008,,,,BG003
-jhu00466,MCS_M6_BG001_S275,106377142,105134610,3292,2025-08-06,MCS,Zymo Mini Prep Kit,M6,,S275,,,,,,,,,,MCS,2.5,H1,,,L008,,,,BG001
-jhu00467,OMR_O14_BI001_S95,11030008,10201252,1246,2025-08-06,OMR,Zymo Mini Prep Kit,O14,,S95,,,OMR,,,,,,,,2.1,H11,,,L006,,,,BI002
-jhu00468,OMR_O1_BG001_S276,32232232,30852220,4962,2025-08-06,OMR,Zymo Mini Prep Kit,O_1,,S276,,,OMR,,,,,,,,1.6,H11,,,L008,,,,BG002
-jhu00469,OMR_O6_BG001_S277,21465548,18857730,13362,2025-08-06,OMR,Zymo Mini Prep Kit,O6,,S277,,,OMR,,,,,,,,1.5,G12,,,L008,,,,BG001
+omc_id,sample_name,non_human_reads,total_reads,kraken_human_reads,sequencing_date,biosample_site,extraction_kit,batch_number,batch_plate_location,biosample_alias,biosample_side,collection_date,collection_medium,experiment_number,host_depletion,host_depletion_kit,individual_id,lane_number,lysozyme_treatment,microbial_standard,nucleic_acid_concentration,plate_location,plate_number,sample_volume,sequencing_lane,stabilizing_fluid,stabilizing_fluid_lot,swab_type,tube_lot,visit_number
+jhu00001,Molzym_Ultra_Deep_Air_Ctr_3_S20,20011346,96531668,88940,2024-03-14,Air Control,Molzym Ultra-Deep Microbiome Prep,,S1273-SC1 A03,S20,,,,,,,,,False,0,6.3 ng/ul,,,50 ul,,,,,,
+jhu00002,Molzym_Ultra_Deep_MCS_1-100_4_S8,139568270,144018890,11252,2024-03-14,,Molzym Ultra-Deep Microbiome Prep,,S1273-SC1 A04,S8,,,,,,,,,False,1,16 ng/ul,,,50 ul,,,,,,
+jhu00003,Qiagen_DNeasy_Air_Ctr_3_S10,10826216,104869722,75860,2024-03-14,Air Control,Qiagen DNeasy Blood & Tissue Kit,,S1273-SC1 A11,S10,,,,,,,,,False,0,1.2 ng/ul,,,50 ul,,,,,,
+jhu00004,Qiagen_DNeasy_MCS_1-100_4_S18,194495282,196753794,662,2024-03-14,,Qiagen DNeasy Blood & Tissue Kit,,S1273-SC1 A12,S18,,,,,,,,,False,1,3.5 ng/ul,,,50 ul,,,,,,
+jhu00005,Qiagen_Soil_Air_Ctr_3_S2,9158,1435514,240,2024-03-14,Air Control,Qiagen DNeasy PowerMax Soil Kit,,S1273-SC1 A07,S2,,,,,,,,L008,False,0,0 ng/ul,,,200 ul,,,,,,
+jhu00006,Qiagen_Soil_MCS_1-100_4_S5,35333474,37861998,1540,2024-03-14,,Qiagen DNeasy PowerMax Soil Kit,,S1273-SC1 A08,S5,,,,,,,,L008,False,1,1.5 ng/ul,,,200 ul,,,,,,
+jhu00007,Thermo_MagMax_Air_Ctr_3_S21,55599904,120616586,44822,2024-03-14,Air Control,Thermo Fisher MagMAX™ Pathogen RNA/DNA Kit,,S1273-SC1 B07,S21,,,,,,,,,False,0,2.8 ng/ul,,,50 ul,,,,,,
+jhu00008,Thermo_MagMax_MCS_1-100_4_S24,72740026,109799724,24754,2024-03-14,,Thermo Fisher MagMAX™ Pathogen RNA/DNA Kit,,S1273-SC1 B08,S24,,,,,,,,,False,1,3.4 ng/ul,,,50 ul,,,,,,
+jhu00009,Zymo_Magbead_Air_Ctr_3_S4,115912474,119460566,13402,2024-03-14,Air Control,Zymo Magbead Kit,,S1273-SC1 B11,S4,,,,,,,,,False,0,0.1 ng/ul,,,50 ul,,,,,,
+jhu00010,Zymo_Magbead_MCS_1-100_4_S22,108378924,111766692,9108,2024-03-14,,Zymo Magbead Kit,,S1273-SC1 B12,S22,,,,,,,,,False,1,0.4 ng/ul,,,50 ul,,,,,,
+jhu00011,Zymo_Mini_prep_Air_Ctr_3_S19,99954906,103333064,6318,2024-03-14,Air Control,Zymo Mini Prep Kit,,S1273-SC1 B03,S19,,,,,,,,,False,0,1.8 ng/ul,,,50 ul,,,,,,
+jhu00012,Zymo_Mini_prep_MCS_1-100_4_S13,116843334,118532612,1272,2024-03-14,,Zymo Mini Prep Kit,,S1273-SC1 B04,S13,,,,,,,,,False,1,5.3 ng/ul,,,50 ul,,,,,,
+jhu00013,MasterPure_Air_Ctr_3_S34,36515148,44345252,11394,2024-07-15,Air Control,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 A03,S34,,,,,,,,,False,0,10.6 ng/ul,,,50 ul,,,,,,
+jhu00014,MasterPure_Lyso_MCS_1_100_4_S39,157511216,162047446,2202,2024-07-15,,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 A08,S39,,,,,,,100,,True,1,36.2 ng/ul,,,50 ul,,,,,,
+jhu00015,MasterPure_Lysol_Air_Ctr_3_S38,36155068,46271732,18016,2024-07-15,Air Control,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 A07,S38,,,,,,,,,True,0,20.6 ng/ul,,,50 ul,,,,,,
+jhu00016,MasterPure_MCS_1_100_4_S35,153120960,157812152,5936,2024-07-15,,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 A04,S35,,,,,,,100,,False,1,43.9 ng/ul,,,50 ul,,,,,,
+jhu00017,MasterPure_MolYsis_Basic_5_Air_Ctr_3_S42,3912870,5026718,1380,2024-07-15,Air Control,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 A11,S42,,,,,,MolYsis™ Basic7,,,False,0,12 ng/ul,,,35 ul,,,,,,
+jhu00018,MasterPure_MolYsis_Basic_5_MCS_1_100_4_S43,118866374,124322910,2732,2024-07-15,,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 A12,S43,,,,,,MolYsis™ Basic8,100,,False,1,10.3 ng/ul,,,35 ul,,,,,,
+jhu00019,MasterPure_NEB_Air_Ctr_3_S46,106449728,112059042,15020,2024-07-15,Air Control,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 B03,S46,,,,,,NEBNext Microbiome DNA Enrichment Kit,,,False,0,4.9 ng/ul,,,35 ul,,,,,,
+jhu00020,MasterPure_NEB_MCS_1_100_4_S47,137025388,139959630,1770,2024-07-15,,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 B04,S47,,,,,,NEBNext Microbiome DNA Enrichment Kit,100,,False,1,15 ng/ul,,,35 ul,,,,,,
+jhu00021,MasterPure_Zymo_HostZero_200ul_Air_Ctr_3_S29,1872412,2585732,3238,2024-07-15,Air Control,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 B07,S29,,,,,,Zymo HostZero,,,False,0,20.2 ng/ul,,,35 ul,,,,,,
+jhu00022,MasterPure_Zymo_HostZero_MCS_1_100_4_S30,107843996,111899010,7802,2024-07-15,,MasterPure Gram Positive DNA Purification Kit,,S1289-SC1 B08,S30,,,,,,Zymo HostZero,100,,False,1,21.2 ng/ul,,,35 ul,,,,,,
+jhu00023,MasterPure_MCS_7_S56,45210456,45655622,384,2024-10-28,,MasterPure Gram Positive DNA Purification Kit,,S1304-SC1 C05,S56,,,,,,,,,False,1,22.7 ng/ul,,,50 ul,,,,,,
+jhu00024,MasterPure_MCS_HostZero_3_S3,44711574,46415416,8054,2024-10-28,,MasterPure Gram Positive DNA Purification Kit,,S1304-SC1 C01,S3,,,,,,,,,False,1,34 ng/ul,,,50 ul,,,,,,
+jhu00025,MasterPure_MCS_MolYsis_1_S59,35551112,36028474,5672,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B11,S59,,,,,,,,,False,1,26.1 ng/ul,,,50 ul,,,,,,
+jhu00026,MasterPure_MCS_NEB_5_S34,44493344,45020220,388,2024-10-28,,MasterPure Gram Positive DNA Purification Kit,,S1304-SC1 C03,S34,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,1,10.9 ng/ul,,,50 ul,,,,,,
+jhu00027,MasterPure_OMR_8_S22,15886574,17822868,1644,2024-10-28,,MasterPure Gram Positive DNA Purification Kit,,S1304-SC1 C06,S22,,,,,,,,,False,0,20.1 ng/ul,,,50 ul,,OMR,110,,,
+jhu00028,MasterPure_OMR_HostZero_4_S24,8202964,8856792,910,2024-10-28,,MasterPure Gram Positive DNA Purification Kit,,S1304-SC1 C02,S24,,,,,,,,,False,0,30.6 ng/ul,,,50 ul,,OMR,110,,,
+jhu00029,MasterPure_OMR_MolYsis_2_S42,10719492,11641062,1508,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B12,S42,,,,,,,,,False,0,15 ng/ul,,,50 ul,,OMR,110,,,
+jhu00030,MasterPure_OMR_NEB_6_S15,23175170,24238088,1974,2024-10-28,,MasterPure Gram Positive DNA Purification Kit,,S1304-SC1 C04,S15,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,0,10.1 ng/ul,,,50 ul,,OMR,110,,,
+jhu00031,Molzym_Ultra-Deep_MCS_1_S11,24498810,25579186,2110,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B05,S11,,,,,,,,,False,1,5.2 ng/ul,,,50 ul,,,,,,
+jhu00032,Molzym_Ultra-Deep_MCS_HostZero_3_S19,16447250,17597652,1476,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B07,S19,,,,,,,,,False,1,4.9 ng/ul,,,50 ul,,,,,,
+jhu00033,Molzym_Ultra-Deep_MCS_NEB_5_S44,29536154,30277532,2484,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B09,S44,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,1,6.3 ng/ul,,,30 ul,,,,,,
+jhu00034,Molzym_Ultra-Deep_OMR_2_S10,16289234,17479146,2978,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B06,S10,,,,,,,,,False,0,0.2 ng/ul,,,50 ul,,OMR,110,,,
+jhu00035,Molzym_Ultra-Deep_OMR_HostZero_4_S37,2567172,3425394,1264,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B08,S37,,,,,,,,,False,0,2.8 ng/ul,,,50 ul,,OMR,110,,,
+jhu00036,Molzym_Ultra-Deep_OMR_NEB_6_S32,23131512,24342598,2358,2024-10-28,,Molzym Ultra-Deep Microbiome Prep,,S1304-SC1 B10,S32,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,0,6.6 ng/ul,,,30 ul,,OMR,110,,,
+jhu00037,Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47,53241196,53577422,190,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E05,S47,,,,,,,,,False,1,13 ng/ul,,,30 ul,,OMR,BD801,,,
+jhu00038,Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23,41138578,41521288,226,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E06,S23,,,,,,,,,False,1,6.5 ng/ul,,,30 ul,,OMR,BH802,,,
+jhu00039,Qiagen_DNeasy_MCS_7_S2,45033180,45436136,206,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A07,S2,,,,,,,,,False,1,7.3 ng/ul,,,30 ul,,,,,,
+jhu00040,Qiagen_DNeasy_MCS_HostZero_3_S5,27465650,28450580,15400,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A03,S5,,,,,,,,,False,1,3.5 ng/ul,,,30 ul,,,,,,
+jhu00041,Qiagen_DNeasy_MCS_MolYsis_1_S72,40783628,41381006,3226,2024-10-28,,Qiagen DNeasy Blood & Tissue Kit,,S1304-SC1 A01,S72,,,,,,,,,False,1,3.2 ng/ul,,,30 ul,,,,,,
+jhu00042,Qiagen_DNeasy_MCS_NEB_5_S60,47811352,48328468,174,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A05,S60,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,1,4.2 ng/ul,,,30 ul,,,,,,
+jhu00043,Qiagen_DNeasy_OMR1_BD801_S61,19078240,20540376,3356,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E07,S61,,,,,,,,,False,0,3.4 ng/ul,,,30 ul,,OMR,BD801,,,
+jhu00044,Qiagen_DNeasy_OMR2_BH802_S12,26516970,27975164,5170,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E08,S12,,,,,,,,,False,0,2.1 ng/ul,,,30 ul,,OMR,BH802,,,
+jhu00045,Qiagen_DNeasy_OMR_2_S74,15515562,17124190,3598,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A08,S74,,,,,,,,,False,0,1.7 ng/ul,,,30 ul,,OMR,110,,,
+jhu00046,Qiagen_DNeasy_OMR_HostZero_4_S38,5955408,7135908,2760,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A04,S38,,,,,,,,,False,0,3.5 ng/ul,,,30 ul,,OMR,110,,,
+jhu00047,Qiagen_DNeasy_OMR_MolYsis_2_S53,19822844,21459456,10118,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A02,S53,,,,,,,,,False,0,2 ng/ul,,,30 ul,,OMR,110,,,
+jhu00048,Qiagen_DNeasy_OMR_NEB_6_S57,24342208,25389074,1964,2024-10-28,,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 A06,S57,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,0,3.41 ng/ul,,,30 ul,,OMR,110,,,
+jhu00049,Qiagen_DNeasy_Water_S70,21290924,22217826,2446,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E09,S70,,,,,,,,,False,0,2.2 ng/ul,,,30 ul,,,,,,
+jhu00050,Qiagen_Dneasy_CS_001_Air_Swab_S39,19466274,21096976,2992,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D01,S39,,,,,,,1,L008,False,0,1.9 ng/ul,,,30 ul,,,,,,
+jhu00051,Qiagen_Dneasy_CS_001_Right_Eye_S28,820824,127137442,60774,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 C12,S28,Right,,,,,,1,,False,0,27.7 ng/ul,,,30 ul,,,,,,
+jhu00052,Qiagen_Dneasy_CS_002_Air_Swab_S62,17287152,21155362,4864,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D03,S62,,,,,,,2,L008,False,0,3.7 ng/ul,,,30 ul,,,,,,
+jhu00053,Qiagen_Dneasy_CS_002_Left_Eye_S21,217240,55851844,23264,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D02,S21,Left,,,,,,2,,False,0,18.7 ng/ul,,,30 ul,,,,,,
+jhu00054,Qiagen_Dneasy_CS_003_Air_Swab_S18,23776060,24728334,2130,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D05,S18,,,,,,,3,L008,False,0,1.3 ng/ul,,,30 ul,,,,,,
+jhu00055,Qiagen_Dneasy_CS_003_Right_Eye_S58,273034,55006666,19802,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D04,S58,Right,,,,,,3,,False,0,6 ng/ul,,,30 ul,,,,,,
+jhu00056,Qiagen_Dneasy_CS_004_Air_Swab_S52,10036688,10728174,2332,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D07,S52,,,,,,,4,L008,False,0,7.6 ng/ul,,,30 ul,,,,,,
+jhu00057,Qiagen_Dneasy_CS_004_Left_Eye_S27,531276,40583542,20398,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D06,S27,Left,,,,,,4,,False,0,2.7 ng/ul,,,30 ul,,,,,,
+jhu00058,Qiagen_Dneasy_CS_005_Air_Swab_S67,22989908,25064268,3794,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D09,S67,,,,,,,5,L008,False,0,4.3 ng/ul,,,30 ul,,,,,,
+jhu00059,Qiagen_Dneasy_CS_005_Right_Eye_S54,812728,122013898,50840,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D08,S54,Right,,,,,,5,,False,0,14.2 ng/ul,,,30 ul,,,,,,
+jhu00060,Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51,25010940,37809840,12658,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E01,S51,,,,,,,6,L008,False,0,1.6 ng/ul,,,30 ul,,,,,,
+jhu00061,Qiagen_Dneasy_CS_006_Left_Eye_S31,475046,41917986,19866,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D10,S31,Left,,,,,,6,,False,0,3.4 ng/ul,,,30 ul,,,,,,
+jhu00062,Qiagen_Dneasy_CS_007_Right_Eye_S4,176214,37971816,15314,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D11,S4,Right,,,,,,7,,False,0,11.7 ng/ul,,,30 ul,,,,,,
+jhu00063,Qiagen_Dneasy_CS_008_Left_Eye_S33,1112156,112433334,50172,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 D12,S33,Left,,,,,,8,,False,0,3.1 ng/ul,,,30 ul,,,,,,
+jhu00064,Qiagen_Dneasy_CS_009_10_Air_Swab_S48,21586716,24144798,4374,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E04,S48,,,,,,,9,L008,False,0,5.6 ng/ul,,,30 ul,,,,,,
+jhu00065,Qiagen_Dneasy_CS_009_Right_Eye_S41,241618,43286670,23200,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E02,S41,Right,,,,,,9,,False,0,7.2 ng/ul,,,30 ul,,,,,,
+jhu00066,Qiagen_Dneasy_CS_010_Left_Eye_S45,1119608,41155604,17642,2024-10-28,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1304-SC1 E03,S45,Left,,,,,,10,,False,0,5.7 ng/ul,,,30 ul,,,,,,
+jhu00067,Qiagen_Soil_MCS_1_S29,35194642,35793106,1600,2024-10-28,,Qiagen DNeasy PowerMax Soil Kit,,S1304-SC1 C07,S29,,,,,,,,L008,False,1,6.2 ng/ul,,,1400 ul,,,,,,
+jhu00068,Qiagen_Soil_OMR_8_S40,29892140,30841594,2442,2024-10-28,,Qiagen DNeasy PowerMax Soil Kit,,S1304-SC1 C08,S40,,,,,,,,L008,False,0,3.9 ng/ul,,,1600 ul,,OMR,110,,,
+jhu00069,Water_S63,3026412,3463170,294,2024-10-28,Water Control,Control,,S1304-SC1 C11,S63,,,,,,,,,False,0,,,,50 ul,,,,,,
+jhu00070,Zymo_Mini_Prep_CS_001_Air_Swab_S8,6289604,7730612,1050,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 E11,S8,,,,,,,1,L008,False,0,0.9 ng/ul,,,50 ul,,,,,,
+jhu00071,Zymo_Mini_Prep_CS_001_Right_Eye_S46,10489630,22163216,6274,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 E10,S46,Right,,,,,,1,,False,0,1.3 ng/ul,,,50 ul,,,,,,
+jhu00072,Zymo_Mini_Prep_CS_002_Air_Swab_S64,8866476,11020392,1782,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F01,S64,,,,,,,2,L008,False,0,3.1 ng/ul,,,50 ul,,,,,,
+jhu00073,Zymo_Mini_Prep_CS_002_Left_Eye_S43,780848,37459926,14476,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 E12,S43,Left,,,,,,2,,False,0,2.1 ng/ul,,,50 ul,,,,,,
+jhu00074,Zymo_Mini_Prep_CS_003_Air_Swab_S77,16422312,17980312,1704,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F03,S77,,,,,,,3,L008,False,0,1 ng/ul,,,50 ul,,,,,,
+jhu00075,Zymo_Mini_Prep_CS_003_Right_Eye_S13,2127264,42466400,14502,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F02,S13,Right,,,,,,3,,False,0,2.3 ng/ul,,,50 ul,,,,,,
+jhu00076,Zymo_Mini_Prep_CS_004_Air_Swab_S66,5449960,6724258,878,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F05,S66,,,,,,,4,L008,False,0,0.1 ng/ul,,,50 ul,,,,,,
+jhu00077,Zymo_Mini_Prep_CS_004_Left_Eye_S78,8431886,26148050,7342,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F04,S78,Left,,,,,,4,,False,0,2 ng/ul,,,50 ul,,,,,,
+jhu00078,Zymo_Mini_Prep_CS_005_Air_Swab_S30,17758420,18836418,1612,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F07,S30,,,,,,,5,L008,False,0,2.2 ng/ul,,,50 ul,,,,,,
+jhu00079,Zymo_Mini_Prep_CS_005_Right_Eye_S17,2291774,40956656,14178,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F06,S17,Right,,,,,,5,,False,0,2.9 ng/ul,,,50 ul,,,,,,
+jhu00080,Zymo_Mini_Prep_CS_006_7_8_Air_Swab_S14,7536196,8949636,1032,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F11,S14,,,,,,,6,L008,False,0,1.8 ng/ul,,,50 ul,,,,,,
+jhu00081,Zymo_Mini_Prep_CS_006_Left_Eye_S79,1617322,33105326,11588,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F08,S79,Left,,,,,,6,,False,0,1.9 ng/ul,,,50 ul,,,,,,
+jhu00082,Zymo_Mini_Prep_CS_007_Right_Eye_S68,324011,32095648,10272,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F09,S68,Right,,,,,,7,,False,0,2 ng/ul,,,50 ul,,,,,,
+jhu00083,Zymo_Mini_Prep_CS_008_Left_Eye_S26,6806742,35237184,10146,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F10,S26,Left,,,,,,8,,False,0,1.2 ng/ul,,,50 ul,,,,,,
+jhu00084,Zymo_Mini_Prep_CS_009_10_Air_Swab_S73,8838152,10006514,948,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G02,S73,,,,,,,9,L008,False,0,2.2 ng/ul,,,50 ul,,,,,,
+jhu00085,Zymo_Mini_Prep_CS_009_Right_Eye_S71,952234,38765628,14802,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 F12,S71,Right,,,,,,9,,False,0,1.8 ng/ul,,,50 ul,,,,,,
+jhu00086,Zymo_Mini_Prep_CS_010_Left_Eye_S75,15953368,17974274,2160,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G01,S75,Left,,,,,,10,,False,0,2.1 ng/ul,,,50 ul,,,,,,
+jhu00087,Zymo_Mini_Prep_MCS_1_in_OMR_BD801_S9,41223360,41735660,326,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G03,S9,,,,,,,,,False,1,2 ng/ul,,,50 ul,,OMR,BD801,,,
+jhu00088,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,39611906,40013368,932,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G04,S50,,,,,,,,,False,1,1.5 ng/ul,,,50 ul,,OMR,BH802,,,
+jhu00089,Zymo_Mini_Prep_MCS_7_S25,43886996,44391128,1366,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 B03,S25,,,,,,,,,False,1,1 ng/ul,,,50 ul,,,,,,
+jhu00090,Zymo_Mini_Prep_MCS_HostZero_3_S20,40855032,41196628,1584,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 A11,S20,,,,,,,,,False,1,4.2 ng/ul,,,50 ul,,,,,,
+jhu00091,Zymo_Mini_Prep_MCS_MolYsis_1_S49,35723028,36069364,1014,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 A09,S49,,,,,,,,,False,1,15.4 ng/ul,,,50 ul,,,,,,
+jhu00092,Zymo_Mini_Prep_MCS_NEB_5_S76,49422172,50023086,1742,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 B01,S76,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,1,5.6 ng/ul,,,30 ul,,,,,,
+jhu00093,Zymo_Mini_Prep_OMR1_BD801_S69,5735618,6757958,998,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G05,S69,,,,,,,,,False,0,1.6 ng/ul,,,50 ul,,OMR,BD801,,,
+jhu00094,Zymo_Mini_Prep_OMR2_BH802_S7,17500980,19131372,1670,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G06,S7,,,,,,,,,False,0,2.2 ng/ul,,,50 ul,,OMR,BH802,,,
+jhu00095,Zymo_Mini_Prep_OMR_8_S36,13582120,14650184,4714,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 B04,S36,,,,,,,,,False,0,0.9 ng/ul,,,50 ul,,OMR,110,,,
+jhu00096,Zymo_Mini_Prep_OMR_HostZero_4_S1,9178486,10409184,2898,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 A12,S1,,,,,,,,,False,0,2.7 ng/ul,,,50 ul,,OMR,110,,,
+jhu00097,Zymo_Mini_Prep_OMR_MolYsis_2_S16,10799950,11881506,11140,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 A10,S16,,,,,,,,,False,0,2.9 ng/ul,,,50 ul,,OMR,110,,,
+jhu00098,Zymo_Mini_Prep_OMR_NEB_6_S55,29929196,34638068,6706,2024-10-28,,Zymo Mini Prep Kit,,S1304-SC1 B02,S55,,,,,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,,,False,0,1.8 ng/ul,,,30 ul,,OMR,110,,,
+jhu00099,Zymo_Mini_Prep_Water_S65,14370622,15606534,1290,2024-10-28,Clinical Sample,Zymo Mini Prep Kit,,S1304-SC1 G07,S65,,,,,,,,,False,0,1.9 ng/ul,,,50 ul,,,,,,
+jhu00100,10_Zymo_Micro_Prep_CS_010_Right_Eye_S90,78294,45659686,26326,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A10,S90,Right,,,,,,10,,,False,1.1 ng/ul,,,20 ul,,,,,,
+jhu00101,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,825688,3833154,3120,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A11,S91,,,,,,,7,L008,,False,0.9 ng/ul,,,20 ul,,,,,,
+jhu00102,12_Zymo_Micro_Prep_CS_010_Air_Swab_S92,1183850,3207752,2868,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A12,S92,,,,,,,10,L008,,False,1.3 ng/ul,,,20 ul,,,,,,
+jhu00103,13_Zymo_Microprep_MCS_OMR_BD801_S93,60910784,61518520,1636,2025-03-14,,Zymo Micro Prep Kit,,S1289-SC2 B01,S93,,,,,,,,,,True,5.2 ng/ul,,,20 ul,,OMR,BD801,,,
+jhu00104,14_Zymo_Microprep_OMR_BD801_S94,3027716,4484986,1630,2025-03-14,,Zymo Micro Prep Kit,,S1289-SC2 B02,S94,,,,,,,,,,False,0.7 ng/ul,,,20 ul,,OMR,110,,,
+jhu00105,15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95,6086256,12210924,6624,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B03,S95,Left,,,,,,1,L008,,False,3.5 ng/ul,,,30 ul,,,,,,
+jhu00106,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,240134,36118220,14356,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B04,S96,Right,,,,,,2,L008,,False,5.1 ng/ul,,,30 ul,,,,,,
+jhu00107,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,104292,38046632,22106,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B05,S1,Left,,,,,,3,L008,,False,23.9 ng/ul,,,30 ul,,,,,,
+jhu00108,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,1380408,10028758,7776,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B06,S2,Right,,,,,,4,L008,,False,3.2 ng/ul,,,30 ul,,,,,,
+jhu00109,19_Qiagen_Soil_Pro_CS_005_Left_Eye_S3,68876,43951844,21108,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B07,S3,Left,,,,,,5,L008,,False,2.4 ng/ul,,,30 ul,,,,,,
+jhu00110,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,236530,39501098,25120,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A01,S81,Left,,,,,,1,,,False,0.5 ng/ul,,,20 ul,,,,,,
+jhu00111,20_Qiagen_Soil_Pro_CS_006_Right_Eye_S4,81518,54752908,28698,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B08,S4,Right,,,,,,6,L008,,False,3.1 ng/ul,,,30 ul,,,,,,
+jhu00112,21_Qiagen_Soil_Pro_CS_007_Left_Eye_S5,101126,44699042,20158,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B09,S5,Left,,,,,,7,L008,,False,21.1 ng/ul,,,30 ul,,,,,,
+jhu00113,22_Qiagen_Soil_Pro_CS_008_Right_Eye_S6,40300,26788942,12408,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B10,S6,Right,,,,,,8,L008,,False,31.1 ng/ul,,,30 ul,,,,,,
+jhu00114,23_Qiagen_Soil_Pro_CS_009_Left_Eye_S7,48782,36960138,15656,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B11,S7,Left,,,,,,9,L008,,False,3.2 ng/ul,,,30 ul,,,,,,
+jhu00115,24_Qiagen_Soil_Pro_CS_010_Right_Eye_S8,55430,31969622,17942,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 B12,S8,Right,,,,,,10,L008,,False,8.9 ng/ul,,,30 ul,,,,,,
+jhu00116,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,765962,6053986,9810,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 C01,S9,,,,,,,7,L008,,False,6.3 ng/ul,,,30 ul,,,,,,
+jhu00117,26_Qiagen_Soil_Pro_CS_010_Air_Swab_S10,351816,3261946,3954,2025-03-14,Clinical Sample,Qiagen PowerSoil Pro Kits,,S1289-SC2 C02,S10,,,,,,,10,L008,,False,8 ng/ul,,,30 ul,,,,,,
+jhu00118,27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11,41746854,42109058,436,2025-03-14,,Qiagen PowerSoil Pro Kits,,S1289-SC2 C03,S11,,,,,,,,L008,,True,5.7 ng/ul,,,30 ul,,OMR,BD801,,,
+jhu00119,28_Qiagen_Soil_Pro_OMR_BD801_S12,2432922,4332234,1942,2025-03-14,,Qiagen PowerSoil Pro Kits,,S1289-SC2 C04,S12,,,,,,,,L008,,False,4.2 ng/ul,,,30 ul,,OMR,110,,,
+jhu00120,29_Z_Mini_049_Conj_L_1_S13,227196,31525430,14334,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C05,S13,,,,,,,49,,,False,2.1 ng/ul,,,50 ul,,,,,,
+jhu00121,2_Zymo_Micro_Prep_CS_002_Right_Eye_S82,48236,33284990,14592,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A02,S82,Right,,,,,,2,,,False,1.7 ng/ul,,,20 ul,,,,,,
+jhu00122,30_Z_Mini_049_049_Lid_L_1_S14,156300,41552644,19902,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C06,S14,,,,,,,49,,,False,4.5 ng/ul,,,50 ul,,,,,,
+jhu00123,31_Z_Mini_049_Skin_L_1_S15,513826,32921432,27476,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C07,S15,,,,,,,49,L008,,False,2.6 ng/ul,,,50 ul,,,,,,
+jhu00124,32_Z_Mini_049_Conj_L_2_S16,137816,45873886,24760,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C08,S16,,,,,,,49,,,False,2.3 ng/ul,,,50 ul,,,,,,
+jhu00125,33_Z_Mini_049_Lid_L_2_S17,237672,47177030,21438,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C09,S17,,,,,,,49,,,False,1.9 ng/ul,,,50 ul,,,,,,
+jhu00126,34_Z_Mini_049_Skin_L_2_S18,2783902,41718480,19286,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C10,S18,,,,,,,49,L008,,False,5.9 ng/ul,,,50 ul,,,,,,
+jhu00127,35_Z_Mini_049_Conj_L_3_S19,122650,34927468,16572,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C11,S19,,,,,,,49,,,False,3.2 ng/ul,,,50 ul,,,,,,
+jhu00128,36_Z_Mini_049_Lid_L_3_S20,216532,32727486,14194,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C12,S20,,,,,,,49,,,False,2.3 ng/ul,,,50 ul,,,,,,
+jhu00129,37_Z_Mini_049_Skin_L_3_S21,926160,29446270,15872,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D01,S21,,,,,,,49,L008,,False,2.5 ng/ul,,,50 ul,,,,,,
+jhu00130,38_Z_Mini_050_Conj_R_1_S22,79976,34785172,15762,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D02,S22,,,,,,,50,,,False,1.9 ng/ul,,,50 ul,,,,,,
+jhu00131,39_Z_Mini_050_Lid_R_1_S23,444978,34115450,16264,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D03,S23,,,,,,,50,,,False,2.8 ng/ul,,,50 ul,,,,,,
+jhu00132,3_Zymo_Micro_Prep_CS_003_Left_Eye_S83,61544,33119306,17446,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A03,S83,Left,,,,,,3,,,False,1.1 ng/ul,,,20 ul,,,,,,
+jhu00133,40_Z_Mini_050_Skin_R_1_S24,1257572,38186840,16014,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D04,S24,,,,,,,50,L008,,False,1.5 ng/ul,,,50 ul,,,,,,
+jhu00134,41_Z_Mini_050_Conj_R_2_S25,103304,34953428,16460,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D05,S25,,,,,,,50,,,False,2.8 ng/ul,,,50 ul,,,,,,
+jhu00135,42_Z_Mini_050_Lid_R_2_S26,868844,29293512,16936,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D06,S26,,,,,,,50,,,False,6.6 ng/ul,,,50 ul,,,,,,
+jhu00136,43_Z_Mini_050_Skin_R_2_S27,16347162,32730352,17526,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D07,S27,,,,,,,50,L008,,False,2.2 ng/ul,,,50 ul,,,,,,
+jhu00137,44_Z_Mini_050_Conj_R_3_S28,141226,47977490,25352,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D08,S28,,,,,,,50,,,False,2.6 ng/ul,,,50 ul,,,,,,
+jhu00138,45_Z_Mini_050_Lid_R_3_S29,45490,11420460,5700,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D09,S29,,,,,,,50,,,False,7.3 ng/ul,,,50 ul,,,,,,
+jhu00139,46_Z_Mini_050_Skin_R_3_S30,2052824,43053728,21236,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D10,S30,,,,,,,50,L008,,False,3.1 ng/ul,,,50 ul,,,,,,
+jhu00140,47_Z_Mini_051_Conj_L_1_S31,70408,27966576,14780,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D11,S31,,,,,,,51,,,False,2.5 ng/ul,,,50 ul,,,,,,
+jhu00141,48_Z_Mini_051_Lid_L_1_S32,401594,25121522,12180,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D12,S32,,,,,,,51,,,False,3.2 ng/ul,,,50 ul,,,,,,
+jhu00142,49_Z_Mini_051_Skin_L_1_S33,656596,35332946,13172,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E01,S33,,,,,,,51,L008,,False,1.6 ng/ul,,,50 ul,,,,,,
+jhu00143,4_Zymo_Micro_Prep_CS_004_Right_Eye_S84,162330,38499352,16810,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A04,S84,Right,,,,,,4,,,False,0.6 ng/ul,,,20 ul,,,,,,
+jhu00144,50_Z_Mini_051_Conj_L_2_S34,147718,35040996,13130,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E02,S34,,,,,,,51,,,False,1.5 ng/ul,,,50 ul,,,,,,
+jhu00145,51_Z_Mini_051_Lid_L_2_S35,1247844,34131880,19000,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E03,S35,,,,,,,51,,,False,2.2 ng/ul,,,50 ul,,,,,,
+jhu00146,52_Z_Mini_051_Skin_L_2_S36,7481328,37028196,54560,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E04,S36,,,,,,,51,L008,,False,2.3 ng/ul,,,50 ul,,,,,,
+jhu00147,53_Z_Mini_051_Conj_L_3_S37,114590,45066420,16762,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E05,S37,,,,,,,51,,,False,2.4 ng/ul,,,50 ul,,,,,,
+jhu00148,54_Z_Mini_051_Lid_L_3_S38,524094,36131172,17656,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E06,S38,,,,,,,51,,,False,2.9 ng/ul,,,50 ul,,,,,,
+jhu00149,55_Z_Mini_051_Skin_L_3_S39,561418,33852700,12546,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E07,S39,,,,,,,51,L008,,False,2 ng/ul,,,50 ul,,,,,,
+jhu00150,56_Z_Mini_049_ISO_Cont_1_S40,11107258,12416174,39802,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E08,S40,,,,,,,49,,,False,1.9 ng/ul,,,50 ul,,,,Isohelix,,
+jhu00151,57_Z_Mini_050_ISO_Cont_1_S41,1173574,3335810,2746,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E09,S41,,,,,,,50,,,False,5.3 ng/ul,,,50 ul,,,,Isohelix,,
+jhu00152,58_Z_Mini_049_ISO_Cont_2_S42,929036,2884484,1822,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E10,S42,,,,,,,49,,,False,3.3 ng/ul,,,50 ul,,,,Isohelix,,
+jhu00153,59_Z_Mini_050_ISO_Cont_3_S43,1625792,4178718,1944,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E11,S43,,,,,,,50,,,False,2.6 ng/ul,,,50 ul,,,,Isohelix,,
+jhu00154,5_Zymo_Micro_Prep_CS_005_Left_Eye_S85,53528,40024344,14988,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A05,S85,Left,,,,,,5,,,False,1.4 ng/ul,,,20 ul,,,,,,
+jhu00155,60_Z_Mini_049_ISO_Cont_3_S44,1182772,2675222,2964,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E12,S44,,,,,,,49,,,False,2.7 ng/ul,,,50 ul,,,,Isohelix,,
+jhu00156,61_Z_Mini__MCS_OMR_B1001_S45,35749524,36063388,932,2025-03-14,,Zymo Mini Prep Kit,,S1289-SC2 F01,S45,,,,,,,,,,True,4.4 ng/ul,,,50 ul,,OMR,B1001,,,
+jhu00157,62_Z_Mini__OMR_B1001_S46,1185936,2222666,3538,2025-03-14,,Zymo Mini Prep Kit,,S1289-SC2 F02,S46,,,,,,,,,,False,1.6 ng/ul,,,50 ul,,OMR,110,,,
+jhu00158,63_Qiagen_DNeasy_049_Conj_L_1_S47,252626,24982470,13428,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F03,S47,,,,,,,49,,,False,6.2 ng/ul,,,30 ul,,,,,,
+jhu00159,64_Qiagen_DNeasy_049_049_Lid_L_1_S48,404176,35941794,18736,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F04,S48,,,,,,,49,,,False,3.1 ng/ul,,,30 ul,,,,,,
+jhu00160,65_Qiagen_DNeasy_049_Skin_L_1_S49,585908,27026776,22134,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F05,S49,,,,,,,49,L008,,False,3.1 ng/ul,,,30 ul,,,,,,
+jhu00161,66_Qiagen_DNeasy_049_Conj_L_2_S50,181468,14688670,8140,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F06,S50,,,,,,,49,,,False,5.1 ng/ul,,,30 ul,,,,,,
+jhu00162,67_Qiagen_DNeasy_049_Lid_L_2_S51,370482,30068876,19246,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F07,S51,,,,,,,49,,,False,3.3 ng/ul,,,30 ul,,,,,,
+jhu00163,68_Qiagen_DNeasy_049_Skin_L_2_S52,4346422,20128868,21596,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F08,S52,,,,,,,49,L008,,False,3.2 ng/ul,,,30 ul,,,,,,
+jhu00164,69_Qiagen_DNeasy_049_Conj_L_3_S53,502054,35063194,23824,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F09,S53,,,,,,,49,,,False,4.2 ng/ul,,,30 ul,,,,,,
+jhu00165,6_Zymo_Micro_Prep_CS_006_Right_Eye_S86,45018,35409510,14064,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A06,S86,Right,,,,,,6,,,False,3.2 ng/ul,,,20 ul,,,,,,
+jhu00166,70_Qiagen_DNeasy_049_Lid_L_3_S54,516504,33964622,22634,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F10,S54,,,,,,,49,,,False,3 ng/ul,,,30 ul,,,,,,
+jhu00167,71_Qiagen_DNeasy_049_Skin_L_3_S55,959892,33006434,27568,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F11,S55,,,,,,,49,L008,,False,4.3 ng/ul,,,30 ul,,,,,,
+jhu00168,72_Qiagen_DNeasy_050_Conj_R_1_S56,172474,33123140,24838,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F12,S56,,,,,,,50,,,False,2.4 ng/ul,,,30 ul,,,,,,
+jhu00169,73_Qiagen_DNeasy_050_Lid_R_1_S57,381884,17268860,12878,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G01,S57,,,,,,,50,,,False,2.7 ng/ul,,,30 ul,,,,,,
+jhu00170,74_Qiagen_DNeasy_050_Skin_R_1_S58,704142,27762924,18698,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G02,S58,,,,,,,50,L008,,False,1.1 ng/ul,,,30 ul,,,,,,
+jhu00171,75_Qiagen_DNeasy_050_Conj_R_2_S59,1173226,14314556,6588,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G03,S59,,,,,,,50,,,False,3.7 ng/ul,,,30 ul,,,,,,
+jhu00172,76_Qiagen_DNeasy_050_Lid_R_2_S60,3195228,17244178,11648,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G04,S60,,,,,,,50,,,False,3.1 ng/ul,,,30 ul,,,,,,
+jhu00173,77_Qiagen_DNeasy_050_Skin_R_2_S61,1609656,5053072,2336,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G05,S61,,,,,,,50,L008,,False,4.4 ng/ul,,,30 ul,,,,,,
+jhu00174,78_Qiagen_DNeasy_050_Conj_R_3_S62,851568,17628764,11838,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G06,S62,,,,,,,50,,,False,2.9 ng/ul,,,30 ul,,,,,,
+jhu00175,79_Qiagen_DNeasy_050_Lid_R_3_S63,109760,39371834,30284,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G07,S63,,,,,,,50,,,False,3.7 ng/ul,,,30 ul,,,,,,
+jhu00176,7_Zymo_Micro_Prep_CS_007_Left_Eye_S87,62698,43232332,21686,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A07,S87,Left,,,,,,7,,,False,3.1 ng/ul,,,20 ul,,,,,,
+jhu00177,80_Qiagen_DNeasy_050_Skin_R_3_S64,1135474,24263344,18902,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G08,S64,,,,,,,50,L008,,False,3.5 ng/ul,,,30 ul,,,,,,
+jhu00178,81_Qiagen_DNeasy_051_Conj_L_1_S65,237028,36612768,11498,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G09,S65,,,,,,,51,,,False,8.5 ng/ul,,,30 ul,,,,,,
+jhu00179,82_Qiagen_DNeasy_051_Lid_L_1_S66,931950,34917400,17062,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G10,S66,,,,,,,51,,,False,4.4 ng/ul,,,30 ul,,,,,,
+jhu00180,83_Qiagen_DNeasy_051_Skin_L_1_S67,507342,33013214,16788,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G11,S67,,,,,,,51,L008,,False,2.1 ng/ul,,,30 ul,,,,,,
+jhu00181,84_Qiagen_DNeasy_051_Conj_L_2_S68,227688,21188542,14748,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G12,S68,,,,,,,51,,,False,4.3 ng/ul,,,30 ul,,,,,,
+jhu00182,85_Qiagen_DNeasy_051_Lid_L_2_S69,391990,26559930,20814,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H01,S69,,,,,,,51,,,False,4.6 ng/ul,,,30 ul,,,,,,
+jhu00183,86_Qiagen_DNeasy_051_Skin_L_2_S70,3750474,56713128,29620,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H02,S70,,,,,,,51,L008,,False,5.7 ng/ul,,,30 ul,,,,,,
+jhu00184,87_Qiagen_DNeasy_051_Conj_L_3_S71,144870,20109656,13466,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H03,S71,,,,,,,51,,,False,4.1 ng/ul,,,30 ul,,,,,,
+jhu00185,88_Qiagen_DNeasy_051_Lid_L_3_S72,482634,31839926,24882,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H04,S72,,,,,,,51,,,False,8.6 ng/ul,,,30 ul,,,,,,
+jhu00186,89_Qiagen_DNeasy_051_Skin_L_3_S73,650284,23786366,12794,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H05,S73,,,,,,,51,L008,,False,2.2 ng/ul,,,30 ul,,,,,,
+jhu00187,8_Zymo_Micro_Prep_CS_008_Right_Eye_S88,64446,38966104,18090,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A08,S88,Right,,,,,,8,,,False,2 ng/ul,,,20 ul,,,,,,
+jhu00188,90_Qiagen_DNeasy_049_ISO_Cont_1_S74,5034864,5984954,3886,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H06,S74,,,,,,,49,,,False,3.6 ng/ul,,,30 ul,,,,Isohelix,,
+jhu00189,91_Qiagen_DNeasy_050_ISO_Cont_1_S75,7267232,8369204,6530,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H07,S75,,,,,,,50,,,False,6.1 ng/ul,,,30 ul,,,,Isohelix,,
+jhu00190,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,7772954,9323984,4032,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H08,S76,,,,,,,49,,,False,2.3 ng/ul,,,30 ul,,,,Isohelix,,
+jhu00191,93_Qiagen_DNeasy_050_ISO_Cont_3_S77,14926116,17362842,5072,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H09,S77,,,,,,,50,,,False,5 ng/ul,,,30 ul,,,,Isohelix,,
+jhu00192,94_Qiagen_DNeasy_049_ISO_Cont_3_S78,4873948,6150176,2338,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H10,S78,,,,,,,49,,,False,3.9 ng/ul,,,30 ul,,,,Isohelix,,
+jhu00193,95_Qiagen_DNeasy_MCS_OMR_B1001_S79,35642672,35938974,182,2025-03-14,,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H11,S79,,,,,,,,,,True,4.9 ng/ul,,,30 ul,,OMR,B1001,,,
+jhu00194,96_Qiagen_DNeasy_OMR_B1001_S80,16317426,17166234,5478,2025-03-14,,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H12,S80,,,,,,,,,,False,7 ng/ul,,,30 ul,,OMR,110,,,
+jhu00195,9_Zymo_Micro_Prep_CS_009_Left_Eye_S89,62870,41196538,19850,2025-03-14,Clinical Sample,Zymo Micro Prep Kit,,S1289-SC2 A09,S89,Left,,,,,,9,,,False,0.9 ng/ul,,,20 ul,,,,,,
+jhu00196,025RM_Conj_L_1_S1,135732,12268814,5126,2025-08-06,Conj,Zymo Mini Prep Kit,2,,S1,,2024-10-09,,1A,,,25,,,,2,A2,,,L006,,,Puritan,BG001,1
+jhu00197,025RM_Conj_L_2_S2,110586,43959082,15396,2025-08-06,Conj,Zymo Mini Prep Kit,14,,S2,,2025-10-16,,1A,,,25,,,,1.8,B2,,,L006,,,Puritan,BG001,2
+jhu00198,025RM_Conj_L_3_S3,3488320,50162800,17586,2025-08-06,Conj,Zymo Mini Prep Kit,23,,S3,,2024-11-06,,1A,,,25,,,,2,B11,,,L006,,,Puritan,BG001,3
+jhu00199,025RM_Conj_R_1_S4,236406,13173330,5256,2025-08-06,Conj,Zymo Mini Prep Kit,1,,S4,,2024-10-09,,1A,,,25,,,,1.5,A1,,,L006,,,ISOHELIX-mini,BG001,1
+jhu00200,025RM_Conj_R_2_S5,72762,2307774,868,2025-08-06,Conj,Zymo Mini Prep Kit,13,,S5,,2024-10-16,,1A,,,25,,,,1.6,B1,,,L006,,,ISOHELIX-mini,BG001,2
+jhu00201,025RM_Conj_R_3_S6,227994,55688896,25642,2025-08-06,Conj,Zymo Mini Prep Kit,22,,S6,,2024-11-06,,1A,,,25,,,,1.7,B10,,,L006,,,ISOHELIX-mini,BG001,3
+jhu00202,025RM_ISO_CONT_3_S7,318264,3401418,1302,2025-08-06,ISO,Zymo Mini Prep Kit,35,,S7,,2024-11-06,,1A,,,25,,,,2.7,C11,,,L006,,,ISOHELIX-mini,BG001,3
+jhu00203,025RM_Lid_L_1_S8,151446,3390956,1148,2025-08-06,Lid,Zymo Mini Prep Kit,4,,S8,,2024-10-09,,1A,,,25,,,,1.1,A4,,,L006,,,Puritan,BG001,1
+jhu00204,025RM_Lid_L_2_S9,91004,2725808,1392,2025-08-06,Lid,Zymo Mini Prep Kit,16,,S9,,2027-10-16,,1A,,,25,,,,0.7,B4,,,L006,,,Puritan,BG001,2
+jhu00205,025RM_Lid_L_3_S10,389826,7848812,4978,2025-08-06,Lid,Zymo Mini Prep Kit,25,,S10,,2024-11-06,,1A,,,25,,,,2.7,C1,,,L006,,,Puritan,BG001,3
+jhu00206,025RM_Lid_R_1_S11,6484400,9875818,4846,2025-08-06,Lid,Zymo Mini Prep Kit,3,,S11,,2024-10-09,,1A,,,25,,,,2.1,A3,,,L006,,,ISOHELIX-mini,BG001,1
+jhu00207,025RM_Lid_R_2_S12,785178,30808158,11516,2025-08-06,Lid,Zymo Mini Prep Kit,15,,S12,,2026-10-16,,1A,,,25,,,,1.5,B3,,,L006,,,ISOHELIX-mini,BG001,2
+jhu00208,025RM_Lid_R_3_S13,315998,17295594,7888,2025-08-06,Lid,Zymo Mini Prep Kit,24,,S13,,2024-11-06,,1A,,,25,,,,2.2,B12,,,L006,,,ISOHELIX-mini,BG001,3
+jhu00209,025RM_PUR_CONT_1_S14,253080,2436162,1256,2025-08-06,PUR_CONT,Zymo Mini Prep Kit,19,,S14,,2024-10-09,,1A,,,25,,,,2.1,B7,,,L006,,,Puritan,BG001,1
+jhu00210,025RM_PUR_CONT_2_S15,269718,2282396,1200,2025-08-06,PUR_CONT,Zymo Mini Prep Kit,21,,S15,,2024-10-16,,1A,,,25,,,,1.3,B9,,,L006,,,Puritan,BG001,2
+jhu00211,025RM_PUR_CONT_3_S16,373516,5053556,3150,2025-08-06,PUR_CONT,Zymo Mini Prep Kit,34,,S16,,2024-11-06,,1A,,,25,,,,2.8,C10,,,L006,,,Puritan,BG001,3
+jhu00212,025RM_Skin_L_1_S17,1852058,20596108,7702,2025-08-06,Skin,Zymo Mini Prep Kit,6,,S17,,2024-10-09,,1A,,,25,L006,,,1.5,A6,,,L006,,,Puritan,BG001,1
+jhu00213,025RM_Skin_L_2_S18,1075980,21717516,9272,2025-08-06,Skin,Zymo Mini Prep Kit,18,,S18,,2029-10-16,,1A,,,25,L006,,,1.5,B6,,,L006,,,Puritan,BG001,2
+jhu00214,025RM_Skin_L_3_S19,1600272,35015266,13170,2025-08-06,Skin,Zymo Mini Prep Kit,27,,S19,,2024-11-06,,1A,,,25,L006,,,2.6,C3,,,L006,,,Puritan,BG001,3
+jhu00215,025RM_Skin_R_1_S20,366622,12493120,4462,2025-08-06,Skin,Zymo Mini Prep Kit,5,,S20,,2024-10-09,,1A,,,25,L006,,,1.8,A5,,,L006,,,ISOHELIX-mini,BG001,1
+jhu00216,025RM_Skin_R_2_S21,1551758,31475386,11838,2025-08-06,Skin,Zymo Mini Prep Kit,17,,S21,,2028-10-16,,1A,,,25,L006,,,1.3,B5,,,L006,,,ISOHELIX-mini,BG001,2
+jhu00217,025RM_Skin_R_3_S22,1381106,45264334,17330,2025-08-06,Skin,Zymo Mini Prep Kit,26,,S22,,2024-11-06,,1A,,,25,L006,,,2.8,C2,,,L006,,,ISOHELIX-mini,BG001,3
+jhu00218,026MH_Conj_L_1_S23,168252,55936422,20474,2025-08-06,Conj,Zymo Mini Prep Kit,8,,S23,,2024-10-09,,1A,,,26,,,,1.8,A8,,,L006,,,ISOHELIX-mini,BG001,1
+jhu00219,026MH_Conj_L_2_S24,143292,50646898,17926,2025-08-06,Conj,Zymo Mini Prep Kit,42,,S24,,2024-10-23,,1A,,,26,,,,1.5,D6,,,L006,,,ISOHELIX-mini,BG001,2
+jhu00220,026MH_Conj_L_3_S25,159982,52787182,24278,2025-08-06,Conj,Zymo Mini Prep Kit,62,,S25,,2024-10-30,,1A,,,26,,,,2.7,F2,,,L006,,,ISOHELIX-mini,BG001,3
+jhu00221,026MH_Conj_R_1_S26,152418,45201646,18724,2025-08-06,Conj,Zymo Mini Prep Kit,7,,S26,,2024-10-09,,1A,,,26,,,,3,A7,,,L006,,,Puritan,BG001,1
+jhu00222,026MH_Conj_R_2_S27,121048,47000768,15760,2025-08-06,Conj,Zymo Mini Prep Kit,41,,S27,,2024-10-23,,1A,,,26,,,,1.6,D5,,,L006,,,Puritan,BG001,2
+jhu00223,026MH_Conj_R_3_S28,1523586,55698180,18914,2025-08-06,Conj,Zymo Mini Prep Kit,61,,S28,,2024-10-30,,1A,,,26,,,,1.7,F1,,,L006,,,Puritan,BG001,3
+jhu00224,026MH_ISO_CONT_1_S29,49086,923890,644,2025-08-06,ISO,Zymo Mini Prep Kit,20,,S29,,2024-10-09,,1A,,,26,,,,1.6,B8,,,L006,,,ISOHELIX-mini,BG001,1
+jhu00225,026MH_ISO_CONT_2_S30,251256,1432348,464,2025-08-06,ISO,Zymo Mini Prep Kit,54,,S30,,2024-10-23,,1A,,,26,,,,1.2,E6,,,L006,,,ISOHELIX-mini,BG001,2
+jhu00226,026MH_ISO_CONT_3_S31,265306,1237868,658,2025-08-06,ISO,Zymo Mini Prep Kit,74,,S31,,2024-10-30,,1A,,,26,,,,2.5,G2,,,L006,,,ISOHELIX-mini,BG001,3
+jhu00227,026MH_Lid_L_1_S32,553680,50002684,19594,2025-08-06,Lid,Zymo Mini Prep Kit,10,,S32,,2024-10-09,,1A,,,26,,,,2.3,A10,,,L006,,,ISOHELIX-mini,BG001,1
+jhu00228,026MH_Lid_L_2_S33,375490,40271782,13934,2025-08-06,Lid,Zymo Mini Prep Kit,44,,S33,,2024-10-23,,1A,,,26,,,,1.8,D8,,,L006,,,ISOHELIX-mini,BG001,2
+jhu00229,026MH_Lid_L_3_S34,2796024,39328036,14034,2025-08-06,Lid,Zymo Mini Prep Kit,64,,S34,,2024-10-30,,1A,,,26,,,,2,F4,,,L006,,,ISOHELIX-mini,BG001,3
+jhu00230,026MH_Lid_R_1_S35,1115052,41525412,17192,2025-08-06,Lid,Zymo Mini Prep Kit,9,,S35,,2024-10-09,,1A,,,26,,,,1.3,A9,,,L006,,,Puritan,BG001,1
+jhu00231,026MH_Lid_R_2_S36,340254,7622622,2482,2025-08-06,Lid,Zymo Mini Prep Kit,43,,S36,,2024-10-23,,1A,,,26,,,,1.4,D7,,,L006,,,Puritan,BG001,2
+jhu00232,026MH_Lid_R_3_S37,761586,47474774,17354,2025-08-06,Lid,Zymo Mini Prep Kit,63,,S37,,2024-10-30,,1A,,,26,,,,2.1,F3,,,L006,,,Puritan,BG001,3
+jhu00233,026MH_PUR_CONT_2_S38,551414,3144842,1474,2025-08-06,PUR_CONT,Zymo Mini Prep Kit,53,,S38,,2024-10-23,,1A,,,26,,,,1,E5,,,L006,,,Puritan,BG001,2
+jhu00234,026MH_PUR_CONT_3_S39,820050,2219106,1288,2025-08-06,PUR_CONT,Zymo Mini Prep Kit,73,,S39,,2024-10-30,,1A,,,26,,,,2.1,G1,,,L006,,,Puritan,BG001,3
+jhu00235,026MH_Skin_L_1_S40,2777744,42208536,16136,2025-08-06,Skin,Zymo Mini Prep Kit,12,,S40,,2024-10-09,,1A,,,26,L006,,,1.3,A12,,,L006,,,ISOHELIX-mini,BG001,1
+jhu00236,026MH_Skin_L_2_S41,6457054,26649308,7706,2025-08-06,Skin,Zymo Mini Prep Kit,46,,S41,,2024-10-23,,1A,,,26,L006,,,1.4,D10,,,L006,,,ISOHELIX-mini,BG001,2
+jhu00237,026MH_Skin_L_3_S42,4387450,40181076,13832,2025-08-06,Skin,Zymo Mini Prep Kit,66,,S42,,2024-10-30,,1A,,,26,L006,,,1.9,F6,,,L006,,,ISOHELIX-mini,BG001,3
+jhu00238,026MH_Skin_R_1_S43,2041166,57261318,22418,2025-08-06,Skin,Zymo Mini Prep Kit,11,,S43,,2024-10-09,,1A,,,26,L006,,,2,A11,,,L006,,,Puritan,BG001,1
+jhu00239,026MH_Skin_R_2_S44,60425394,102409676,16860,2025-08-06,Skin,Zymo Mini Prep Kit,45,,S44,,2024-10-23,,1A,,,26,L006,,,1.3,D9,,,L006,,,Puritan,BG001,2
+jhu00240,026MH_Skin_R_3_S45,4717238,24797522,7852,2025-08-06,Skin,Zymo Mini Prep Kit,65,,S45,,2024-10-30,,1A,,,26,L006,,,1.9,F5,,,L006,,,Puritan,BG001,3
+jhu00241,0277R_Skin_R_1_S46,6002334,50792410,19580,2025-08-06,Skin,Zymo Mini Prep Kit,51,,S46,,2024-10-23,,1A,,,27,L006,,,1.3,E3,,,L006,,,ISOHELIX-mini,BG001,1
+jhu00242,0277R_Skin_R_2_S47,6226348,47914888,15620,2025-08-06,Skin,Zymo Mini Prep Kit,71,,S47,,2024-10-30,,1A,,,27,L006,,,1.8,F11,,,L006,,,ISOHELIX-mini,BG001,2
+jhu00243,027AW_Conj_L_3_S48,920128,40300970,14798,2025-08-06,Conj,Zymo Mini Prep Kit,29,,S48,,2024-11-06,,1A,,,27,,,,3.6,C5,,,L006,,,Puritan,BG001,3
+jhu00244,027ZR_Conj_L_1_S49,2021928,48603604,15992,2025-08-06,Conj,Zymo Mini Prep Kit,48,,S49,,2024-10-23,,1A,,,27,,,,2.2,D12,,,L006,,,Puritan,BG001,1
+jhu00245,027ZR_Conj_L_2_S50,168346,47787736,22660,2025-08-06,Conj,Zymo Mini Prep Kit,68,,S50,,2024-10-30,,1A,,,27,,,,2,F8,,,L006,,,Puritan,BG001,2
+jhu00246,027ZR_Conj_R_1_S51,113378,50582818,19636,2025-08-06,Conj,Zymo Mini Prep Kit,47,,S51,,2024-10-23,,1A,,,27,,,,1.4,D11,,,L006,,,ISOHELIX-mini,BG001,1
+jhu00247,027ZR_Conj_R_2_S52,126082,47386120,15574,2025-08-06,Conj,Zymo Mini Prep Kit,67,,S52,,2024-10-30,,1A,,,27,,,,1.6,F7,,,L006,,,ISOHELIX-mini,BG001,2
+jhu00248,027ZR_Conj_R_3_S53,103104,39011800,14856,2025-08-06,Conj,Zymo Mini Prep Kit,28,,S53,,2024-11-06,,1A,,,27,,,,1.9,C4,,,L006,,,ISOHELIX-mini,BG001,3
+jhu00249,027ZR_Lid_L_1_S54,2153904,39047732,13470,2025-08-06,Lid,Zymo Mini Prep Kit,50,,S54,,2024-10-23,,1A,,,27,,,,0.9,E2,,,L006,,,Puritan,BG001,1
+jhu00250,027ZR_Lid_L_2_S55,2714008,33456716,13120,2025-08-06,Lid,Zymo Mini Prep Kit,70,,S55,,2024-10-30,,1A,,,27,,,,2.2,F10,,,L006,,,Puritan,BG001,2
+jhu00251,027ZR_Lid_L_3_S56,56220,1621628,370,2025-08-06,Lid,Zymo Mini Prep Kit,31,,S56,,2024-11-06,,1A,,,27,,,,2.6,C7,,,L006,,,Puritan,BG001,3
+jhu00252,027ZR_Lid_R_1_S57,1329586,25239240,9610,2025-08-06,Lid,Zymo Mini Prep Kit,49,,S57,,2024-10-23,,1A,,,27,,,,1.4,E1,,,L006,,,ISOHELIX-mini,BG001,1
+jhu00253,027ZR_Lid_R_2_S58,634544,50263086,18574,2025-08-06,Lid,Zymo Mini Prep Kit,69,,S58,,2024-10-30,,1A,,,27,,,,2.7,F9,,,L006,,,ISOHELIX-mini,BG001,2
+jhu00254,027ZR_Lid_R_3_S59,801026,31503084,11070,2025-08-06,Lid,Zymo Mini Prep Kit,30,,S59,,2024-11-06,,1A,,,27,,,,2.6,C6,,,L006,,,ISOHELIX-mini,BG001,3
+jhu00255,027ZR_Skin_L_1_S60,2416804,40456310,15006,2025-08-06,Skin,Zymo Mini Prep Kit,52,,S60,,2024-10-23,,1A,,,27,L006,,,0.9,E4,,,L006,,,Puritan,BG001,1
+jhu00256,027ZR_Skin_L_2_S61,4674842,46599264,12136,2025-08-06,Skin,Zymo Mini Prep Kit,72,,S61,,2024-10-30,,1A,,,27,L006,,,2.2,F12,,,L006,,,Puritan,BG001,2
+jhu00257,027ZR_Skin_L_3_S62,2564532,6648446,1620,2025-08-06,Skin,Zymo Mini Prep Kit,33,,S62,,2024-11-06,,1A,,,27,L006,,,2.8,C9,,,L006,,,Puritan,BG001,3
+jhu00258,027ZR_Skin_R_3_S63,7420868,13999104,2644,2025-08-06,Skin,Zymo Mini Prep Kit,32,,S63,,2024-11-06,,1A,,,27,L006,,,3.3,C8,,,L006,,,ISOHELIX-mini,BG001,3
+jhu00259,029SH_ISO_CONT_2_S64,276874,2105816,932,2025-08-06,ISO,Zymo Mini Prep Kit,84,,S64,,2024-11-13,,1B,,,29,,,,1.3,G12,1,,L006,,,ISOHELIX-mini,BG001,2
+jhu00260,030AH_Conj_L_1_S65,4787748,38390706,11666,2025-08-06,Conj,Zymo Mini Prep Kit,37,,S65,,2024-11-06,,1B,,,30,,,,2.8,D1,1,,L006,,,ISOHELIX-mini,BG001,1
+jhu00261,030AH_Conj_L_2_S66,123140,46788940,20476,2025-08-06,Conj,Zymo Mini Prep Kit,76,,S66,,2024-11-13,,1B,,,30,,,,1,G4,1,,L006,,,ISOHELIX-mini,BG001,2
+jhu00262,030AH_Conj_L_3_S67,2620284,45034332,17296,2025-08-06,Conj,Zymo Mini Prep Kit,86,,S67,,2024-11-20,,1B,,,30,,,,1.2,H2,1,,L006,,,ISOHELIX-mini,BG001,3
+jhu00263,030AH_Conj_R_1_S68,4493034,6985228,1368,2025-08-06,Conj,Zymo Mini Prep Kit,36,,S68,,2024-11-06,,1B,,,30,,,,3.8,C12,1,,L006,,,FloQ,BG001,1
+jhu00264,030AH_Conj_R_2_S69,161786,48497366,17878,2025-08-06,Conj,Zymo Mini Prep Kit,75,,S69,,2024-11-13,,1B,,,30,,,,1.4,G3,1,,L006,,,FloQ,BG001,2
+jhu00265,030AH_Conj_R_3_S70,72990,19494706,8662,2025-08-06,Conj,Zymo Mini Prep Kit,85,,S70,,2024-11-20,,1B,,,30,,,,1.5,H1,1,,L006,,,FloQ,BG001,3
+jhu00266,030AH_FLOQ_CONT_1_S71,180568,975462,248,2025-08-06,FLOQ_CONT,Zymo Mini Prep Kit,40,,S71,,2024-11-06,,1B,,,30,,,,3.1,D4,1,,L006,,,FloQ,BG001,1
+jhu00267,030AH_Floq_CONT_2_S72,220168,2399724,2496,2025-08-06,FLOQ_CONT,Zymo Mini Prep Kit,83,,S72,,2024-11-13,,1B,,,30,,,,1.3,G11,1,,L006,,,FloQ,BG001,2
+jhu00268,030AH_Floq_CONT_3_S73,461636,2068138,776,2025-08-06,FLOQ_CONT,Zymo Mini Prep Kit,93,,S73,,2024-11-20,,1B,,,30,,,,1.8,H9,1,,L006,,,FloQ,BG001,3
+jhu00269,030AH_Lid_L_1_S74,175788,4353622,1396,2025-08-06,Lid,Zymo Mini Prep Kit,38,,S74,,2024-11-06,,1B,,,30,,,,3.1,D2,1,,L006,,,ISOHELIX-mini,BG001,1
+jhu00270,030AH_Lid_L_2_S75,2899134,17619094,6512,2025-08-06,Lid,Zymo Mini Prep Kit,77,,S75,,2024-11-13,,1B,,,30,,,,1.6,G5,1,,L006,,,ISOHELIX-mini,BG001,2
+jhu00271,030AH_Lid_L_3_S76,1105324,22153198,8070,2025-08-06,Lid,Zymo Mini Prep Kit,87,,S76,,2024-11-20,,1B,,,30,,,,2.2,H3,1,,L006,,,ISOHELIX-mini,BG001,3
+jhu00272,030AH_Skin_L_1_S77,10312724,12166598,1306,2025-08-06,Skin,Zymo Mini Prep Kit,39,,S77,,2024-11-06,,1B,,,30,L006,,,3.2,D3,1,,L006,,,ISOHELIX-mini,BG001,1
+jhu00273,030AH_Skin_L_2_S78,1207768,9334500,5592,2025-08-06,Skin,Zymo Mini Prep Kit,78,,S78,,2024-11-13,,1B,,,30,L006,,,1,G6,1,,L006,,,ISOHELIX-mini,BG001,2
+jhu00274,030AH_Skin_L_3_S79,3099190,37470878,14822,2025-08-06,Skin,Zymo Mini Prep Kit,88,,S79,,2024-11-20,,1B,,,30,L006,,,1.7,H4,1,,L006,,,ISOHELIX-mini,BG001,3
+jhu00275,032SN_Conj_L_1_S80,127342,52259710,17518,2025-08-06,Conj,Zymo Mini Prep Kit,80,,S80,,2024-11-13,,1B,,,32,,,,1.2,G8,1,,L006,,,ISOHELIX-mini,BG001,1
+jhu00276,032SN_Conj_L_2_S81,100546,33507440,14156,2025-08-06,Conj,Zymo Mini Prep Kit,90,,S81,,2024-11-20,,1B,,,32,,,,1.6,H6,1,,L006,,,ISOHELIX-mini,BG001,2
+jhu00277,032SN_Conj_L_3_S82,137808,20668010,7564,2025-08-06,Conj,Zymo Mini Prep Kit,56,,S82,,2024-12-04,,1B,,,32,,,,1.3,E8,1,,L006,,,ISOHELIX-mini,BG001,3
+jhu00278,032SN_Conj_R_1_S83,609128,53149062,16590,2025-08-06,Conj,Zymo Mini Prep Kit,79,,S83,,2024-11-13,,1B,,,32,,,,1.3,G7,1,,L006,,,FloQ,BG001,1
+jhu00279,032SN_Conj_R_2_S84,250826,49945736,19464,2025-08-06,Conj,Zymo Mini Prep Kit,89,,S84,,2024-11-20,,1B,,,32,,,,1.3,H5,1,,L006,,,FloQ,BG001,2
+jhu00280,032SN_Conj_R_3_S85,106712,40143120,14966,2025-08-06,Conj,Zymo Mini Prep Kit,55,,S85,,2024-12-04,,1B,,,32,,,,1.5,E7,1,,L006,,,FloQ,BG001,3
+jhu00281,032SN_FLOQ_CONT_3_S86,748474,3952236,1968,2025-08-06,FLOQ_CONT,Zymo Mini Prep Kit,59,,S86,,2024-12-04,,1B,,,32,,,,0.9,E11,1,,L006,,,FloQ,BG001,3
+jhu00282,032SN_ISO_CONT_2_S87,118128,1178150,636,2025-08-06,ISO,Zymo Mini Prep Kit,94,,S87,,2024-11-20,,1B,,,32,,,,2.5,H10,1,,L006,,,ISOHELIX-mini,BG001,2
+jhu00283,032SN_ISO_CONT_3_S88,13740402,19458694,4958,2025-08-06,ISO,Zymo Mini Prep Kit,60,,S88,,2024-12-04,,1B,,,32,,,,1.4,E12,1,,L006,,,ISOHELIX-mini,BG001,3
+jhu00284,032SN_Lid_L_1_S89,619816,12562348,5650,2025-08-06,Lid,Zymo Mini Prep Kit,81,,S89,,2024-11-13,,1B,,,32,,,,2.1,G9,1,,L006,,,ISOHELIX-mini,BG001,1
+jhu00285,032SN_Lid_L_2_S90,119612,1413486,416,2025-08-06,Lid,Zymo Mini Prep Kit,91,,S90,,2024-11-20,,1B,,,32,,,,1.8,H7,1,,L006,,,ISOHELIX-mini,BG001,2
+jhu00286,032SN_Lid_L_3_S91,158556,3838364,1374,2025-08-06,Lid,Zymo Mini Prep Kit,57,,S91,,2024-12-04,,1B,,,32,,,,2,E9,1,,L006,,,ISOHELIX-mini,BG001,3
+jhu00287,032SN_Skin_R_1_S92,388514,17605122,25996,2025-08-06,Skin,Zymo Mini Prep Kit,82,,S92,,2024-11-13,,1B,,,32,L006,,,1.1,G10,1,,L006,,,FloQ,BG001,1
+jhu00288,032SN_Skin_R_2_S93,732040,135172550,54136,2025-08-06,Skin,Zymo Mini Prep Kit,92,,S93,,2024-11-20,,1B,,,32,L006,,,1.9,H8,1,,L006,,,FloQ,BG001,2
+jhu00289,032SN_Skin_R_3_S94,3086932,41533392,13742,2025-08-06,Skin,Zymo Mini Prep Kit,58,,S94,,2024-12-04,,1B,,,32,L006,,,2,E10,1,,L006,,,FloQ,BG001,3
+jhu00290,033MA_BSS_CONT_1_S191,26362584,28377748,3260,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,113,,S191,,2024-11-13,BSS,2A,,,33,,,,2.1,B7,,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00291,033MA_BSS_CONT_3_S192,14204242,15107700,1630,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,115,,S192,,2024-12-04,BSS,2A,,,33,,,,2.8,B9,,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00292,033MA_Conj_L_1_S193,167488,25921280,11872,2025-08-06,Conj,Zymo Mini Prep Kit,96,,S193,,2024-11-13,,2A,,,33,,,,0.7,A2,,,L008,,,ISOHELIX-mini,BG001,1
+jhu00293,033MA_Conj_L_2_S194,18327060,20771082,2854,2025-08-06,Conj,Zymo Mini Prep Kit,102,,S194,,2024-11-20,,2A,,,33,,,,1.3,A8,2,,L008,,,ISOHELIX-mini,BG001,2
+jhu00294,033MA_Conj_L_3_S195,26400582,28511082,3612,2025-08-06,Conj,Zymo Mini Prep Kit,108,,S195,,2024-12-04,,2A,,,33,,,,1.7,B2,,,L008,,,ISOHELIX-mini,BG001,3
+jhu00295,033MA_Conj_R_1_S196,33172,76826,38,2025-08-06,Conj,Zymo Mini Prep Kit,95,,S196,,2024-11-13,,2A,,,33,,,,1.5,A1,,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00296,033MA_Conj_R_2_S197,34207456,36027326,4532,2025-08-06,Conj,Zymo Mini Prep Kit,101,,S197,,2024-11-20,,2A,,,33,,,,2.3,A7,2,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00297,033MA_Conj_R_3_S198,2028,3746,2,2025-08-06,Conj,Zymo Mini Prep Kit,107,,S198,,2024-12-04,,2A,,,33,,,,1.8,B1,,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00298,033MA_Lid_L_1_S199,3734074,12506034,3994,2025-08-06,Lid,Zymo Mini Prep Kit,98,,S199,,2024-11-13,,2A,,,33,,,,1.2,A4,,,L008,,,ISOHELIX-mini,BG001,1
+jhu00299,033MA_Lid_L_2_S200,19442558,20956020,2774,2025-08-06,Lid,Zymo Mini Prep Kit,104,,S200,,2024-11-20,,2A,,,33,,,,1.7,A10,2,,L008,,,ISOHELIX-mini,BG001,2
+jhu00300,033MA_Lid_L_3_S201,64242,1040810,1020,2025-08-06,Lid,Zymo Mini Prep Kit,110,,S201,,2024-12-04,,2A,,,33,,,,1.2,B4,,,L008,,,ISOHELIX-mini,BG001,3
+jhu00301,033MA_Lid_R_1_S202,4346956,5291544,3058,2025-08-06,Lid,Zymo Mini Prep Kit,97,,S202,,2024-11-13,,2A,,,33,,,,1.4,A3,,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00302,033MA_Lid_R_2_S203,10244302,11377378,1738,2025-08-06,Lid,Zymo Mini Prep Kit,103,,S203,,2024-11-20,,2A,,,33,,,,1.3,A9,2,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00303,033MA_Lid_R_3_S204,25628662,31422278,4636,2025-08-06,Lid,Zymo Mini Prep Kit,109,,S204,,2024-12-04,,2A,,,33,,,,2.2,B3,,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00304,033MA_Skin_L_1_S205,11193568,12455074,2292,2025-08-06,Skin,Zymo Mini Prep Kit,100,,S205,,2024-11-13,,2A,,,33,L008,,,1.5,A6,,,L008,,,ISOHELIX-mini,BG001,1
+jhu00305,033MA_Skin_L_2_S206,31874790,34142834,3670,2025-08-06,Skin,Zymo Mini Prep Kit,106,,S206,,2024-11-20,,2A,,,33,L008,,,2,A12,2,,L008,,,ISOHELIX-mini,BG001,2
+jhu00306,033MA_Skin_L_3_S207,19351020,21539266,3092,2025-08-06,Skin,Zymo Mini Prep Kit,112,,S207,,2024-12-04,,2A,,,33,L008,,,1.9,B6,,,L008,,,ISOHELIX-mini,BG001,3
+jhu00307,033MA_Skin_R_1_S208,12337230,29436520,7790,2025-08-06,Skin,Zymo Mini Prep Kit,99,,S208,,2024-11-13,,2A,,,33,L008,,,1.9,A5,,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00308,033MA_Skin_R_2_S209,68654,1912726,1746,2025-08-06,Skin,Zymo Mini Prep Kit,105,,S209,,2024-11-20,,2A,,,33,L008,,,1,A11,2,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00309,033MA_Skin_R_3_S210,23850816,25448738,3134,2025-08-06,Skin,Zymo Mini Prep Kit,111,,S210,,2024-12-04,,2A,,,33,L008,,,1.4,B5,,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00310,034AN_BSS_CONT_3a_S211,14115094,15785642,2016,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,136,,S211,,2024-12-18,BSS,2A,,,34,,,,1,D6,,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00311,034AN_BSS_CONT_3b_S212,5452508,6184694,1300,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,157,,S212,,2024-12-18,BSS,2A,,,34,,,,2,F3,,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00312,034AN_BSS_ISO_CONT_1a_S214,19692852,22067954,2268,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,114,,S214,,2024-11-20,BSS,2A,,,34,,,,0.8,B8,,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00313,034AN_BSS_ISO_CONT_1b_S215,38225402,40103426,4472,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,134,,S215,,2024-11-20,BSS,2A,,,34,,,,0.5,D4,,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00314,034AN_BSS_ISO_CONT_2_S213,32160188,34158900,4116,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,135,,S213,,2024-12-04,BSS,2A,,,34,,,,1,D5,,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00315,034AN_Conj_L_1_S216,3222336,53175570,20176,2025-08-06,Conj,Zymo Mini Prep Kit,117,,S216,,2024-11-20,,2A,,,34,,,,1,B11,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00316,034AN_Conj_L_2_S217,3457710,50493734,17246,2025-08-06,Conj,Zymo Mini Prep Kit,123,,S217,,2024-12-04,,2A,,,34,,,,1.3,C5,,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00317,034AN_Conj_L_3_S218,4978906,59821682,20470,2025-08-06,Conj,Zymo Mini Prep Kit,129,,S218,,2024-12-18,,2A,,,34,,,,0.8,C11,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00318,034AN_Conj_R_1_S219,16363986,46628414,13752,2025-08-06,Conj,Zymo Mini Prep Kit,116,,S219,,2024-11-20,,2A,,,34,,,,0.7,B10,2,,L008,,,ISOHELIX-mini,BG001,1
+jhu00319,034AN_Conj_R_2_S220,8776274,69377324,24746,2025-08-06,Conj,Zymo Mini Prep Kit,122,,S220,,2024-12-04,,2A,,,34,,,,1.5,C4,,,L008,,,ISOHELIX-mini,BG001,2
+jhu00320,034AN_Conj_R_3_S221,12587976,32530674,9406,2025-08-06,Conj,Zymo Mini Prep Kit,128,,S221,,2024-12-18,,2A,,,34,,,,1,C10,2,,L008,,,ISOHELIX-mini,BG001,3
+jhu00321,034AN_Lid_L_1_S222,20136422,24596266,7112,2025-08-06,Lid,Zymo Mini Prep Kit,119,,S222,,2024-11-20,,2A,,,34,,,,0.9,C1,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00322,034AN_Lid_L_2_S223,17601798,19254970,3260,2025-08-06,Lid,Zymo Mini Prep Kit,125,,S223,,2024-12-04,,2A,,,34,,,,0.9,C7,,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00323,034AN_Lid_L_3_S224,15864072,17565426,3714,2025-08-06,Lid,Zymo Mini Prep Kit,131,,S224,,2024-12-18,,2A,,,34,,,,0.6,D1,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00324,034AN_Lid_R_1_S225,1458,3622,0,2025-08-06,Lid,Zymo Mini Prep Kit,118,,S225,,2024-11-20,,2A,,,34,,,,1.8,B12,2,,L008,,,ISOHELIX-mini,BG001,1
+jhu00325,034AN_Lid_R_2_S226,19654920,35071864,7640,2025-08-06,Lid,Zymo Mini Prep Kit,124,,S226,,2024-12-04,,2A,,,34,,,,1.2,C6,,,L008,,,ISOHELIX-mini,BG001,2
+jhu00326,034AN_Lid_R_3_S227,720,1870,2,2025-08-06,Lid,Zymo Mini Prep Kit,130,,S227,,2024-12-18,,2A,,,34,,,,1.8,C12,2,,L008,,,ISOHELIX-mini,BG001,3
+jhu00327,034AN_Skin_L_1_S228,27087828,29704278,6948,2025-08-06,Skin,Zymo Mini Prep Kit,121,,S228,,2024-11-20,,2A,,,34,L008,,,1.2,C3,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00328,034AN_Skin_L_2_S229,18433792,21698340,2446,2025-08-06,Skin,Zymo Mini Prep Kit,127,,S229,,2024-12-04,,2A,,,34,L008,,,1.7,C9,,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00329,034AN_Skin_L_3_S230,16464486,17839024,2630,2025-08-06,Skin,Zymo Mini Prep Kit,133,,S230,,2024-12-18,,2A,,,34,L008,,,0.8,D3,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00330,034AN_Skin_R_1_S231,14008572,15233978,4098,2025-08-06,Skin,Zymo Mini Prep Kit,120,,S231,,2024-11-20,,2A,,,34,L008,,,0.9,C2,2,,L008,,,ISOHELIX-mini,BG001,1
+jhu00331,034AN_Skin_R_2_S232,8967062,10274758,1614,2025-08-06,Skin,Zymo Mini Prep Kit,126,,S232,,2024-12-04,,2A,,,34,L008,,,0.9,C8,,,L008,,,ISOHELIX-mini,BG001,2
+jhu00332,034AN_Skin_R_3_S233,10062902,31158966,9246,2025-08-06,Skin,Zymo Mini Prep Kit,132,,S233,,2024-12-18,,2A,,,34,L008,,,0.8,D2,2,,L008,,,ISOHELIX-mini,BG001,3
+jhu00333,035FS_BSS_ISO_CONT_1_S234,12041048,14310660,5788,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,155,,S234,,2024-11-20,BSS,2A,,,35,,,,1.8,F1,,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00334,035FS_BSS_ISO_CONT_2_S235,19457672,20542348,2722,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,156,,S235,,2024-12-04,BSS,2A,,,35,,,,2.5,F2,,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00335,035FS_Conj_L_1_S236,7066628,13389778,3322,2025-08-06,Conj,Zymo Mini Prep Kit,138,,S236,,2024-11-20,,2A,,,35,,,,1.8,D8,,,L008,,,ISOHELIX-mini,BG001,1
+jhu00336,035FS_Conj_L_2_S237,11422888,26399408,7304,2025-08-06,Conj,Zymo Mini Prep Kit,144,,S237,,2024-12-04,,2A,,,35,,,,2.9,E2,,,L008,,,ISOHELIX-mini,BG001,2
+jhu00337,035FS_Conj_L_3_S238,8364386,49849466,16326,2025-08-06,Conj,Zymo Mini Prep Kit,150,,S238,,2024-12-18,,2A,,,35,,,,1.4,E8,2,,L008,,,ISOHELIX-mini,BG001,3
+jhu00338,035FS_Conj_R_1_S239,42354030,45498796,5644,2025-08-06,Conj,Zymo Mini Prep Kit,137,,S239,,2024-11-20,,2A,,,35,,,,1.5,D7,,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00339,035FS_Conj_R_2_S240,783924,55420296,18668,2025-08-06,Conj,Zymo Mini Prep Kit,143,,S240,,2024-12-04,,2A,,,35,,,,1.7,E1,,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00340,035FS_Conj_R_3_S241,6277694,29291876,10414,2025-08-06,Conj,Zymo Mini Prep Kit,149,,S241,,2024-12-18,,2A,,,35,,,,2,E7,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00341,035FS_Lid_L_1_S242,19075048,21443268,2108,2025-08-06,Lid,Zymo Mini Prep Kit,140,,S242,,2024-11-20,,2A,,,35,,,,2,D10,,,L008,,,ISOHELIX-mini,BG001,1
+jhu00342,035FS_Lid_L_2_S243,2544326,44068110,14758,2025-08-06,Lid,Zymo Mini Prep Kit,146,,S243,,2024-12-04,,2A,,,35,,,,3,E4,,,L008,,,ISOHELIX-mini,BG001,2
+jhu00343,035FS_Lid_L_3_S244,23868678,25662744,3996,2025-08-06,Lid,Zymo Mini Prep Kit,152,,S244,,2024-12-18,,2A,,,35,,,,2,E10,2,,L008,,,ISOHELIX-mini,BG001,3
+jhu00344,035FS_Lid_R_1_S245,12248720,39227624,12706,2025-08-06,Lid,Zymo Mini Prep Kit,139,,S245,,2024-11-20,,2A,,,35,,,,1.8,D9,,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00345,035FS_Lid_R_2_S246,22862860,27962896,6464,2025-08-06,Lid,Zymo Mini Prep Kit,145,,S246,,2024-12-04,,2A,,,35,,,,1.7,E3,,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00346,035FS_Lid_R_3_S247,8925114,28396400,7982,2025-08-06,Lid,Zymo Mini Prep Kit,151,,S247,,2024-12-18,,2A,,,35,,,,1.9,E9,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00347,035FS_Skin_L_1_S248,900986,1711966,662,2025-08-06,Skin,Zymo Mini Prep Kit,142,,S248,,2024-11-20,,2A,,,35,L008,,,2.1,D12,,,L008,,,ISOHELIX-mini,BG001,1
+jhu00348,035FS_Skin_L_2_S249,1271630,44618800,14644,2025-08-06,Skin,Zymo Mini Prep Kit,148,,S249,,2024-12-04,,2A,,,35,L008,,,2.1,E6,,,L008,,,ISOHELIX-mini,BG001,2
+jhu00349,035FS_Skin_L_3_S250,5558316,10629508,4770,2025-08-06,Skin,Zymo Mini Prep Kit,154,,S250,,2024-12-18,,2A,,,35,L008,,,3.2,E12,2,,L008,,,ISOHELIX-mini,BG001,3
+jhu00350,035FS_Skin_R_1_S251,10665562,28328904,8116,2025-08-06,Skin,Zymo Mini Prep Kit,141,,S251,,2024-11-20,,2A,,,35,L008,,,2.3,D11,,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00351,035FS_Skin_R_2_S252,1215766,52253602,16976,2025-08-06,Skin,Zymo Mini Prep Kit,147,,S252,,2024-12-04,,2A,,,35,L008,,,2.1,E5,,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00352,035FS_Skin_R_3_S253,9891122,41453914,12448,2025-08-06,Skin,Zymo Mini Prep Kit,153,,S253,,2024-12-18,,2A,,,35,L008,,,2,E11,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00353,036VK_BSS_ISO_CONT_2_S254,11772652,14291344,2054,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,176,,S254,,2024-12-18,BSS,2A,,,36,,,,1.8,G10,,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00354,036VK_BSS_ISO_CONT_3_S255,946876,7948778,6934,2025-08-06,BSS_CONT,Zymo Mini Prep Kit,177,,S255,,2025-01-08,BSS,2A,,,36,,,,2.8,G11,,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00355,036VK_Conj_L_1_S256,15062220,34437640,9520,2025-08-06,Conj,Zymo Mini Prep Kit,159,,S256,,2024-12-04,,2A,,,36,,,,1.7,F5,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00356,036VK_Conj_L_2_S257,1156028,74927688,23664,2025-08-06,Conj,Zymo Mini Prep Kit,165,,S257,,2024-12-18,,2A,,,36,,,,2.3,F11,,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00357,036VK_Conj_L_3_S258,12296172,14061158,3088,2025-08-06,Conj,Zymo Mini Prep Kit,171,,S258,,2025-01-08,,2A,,,36,,,,1.8,G5,,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00358,036VK_Conj_R_1_S259,4255488,48483790,17284,2025-08-06,Conj,Zymo Mini Prep Kit,158,,S259,,2024-12-04,,2A,,,36,,,,2.2,F4,2,,L008,,,ISOHELIX-mini,BG001,1
+jhu00359,036VK_Conj_R_2_S260,18717462,20045528,3550,2025-08-06,Conj,Zymo Mini Prep Kit,164,,S260,,2024-12-18,,2A,,,36,,,,1.9,F10,,,L008,,,ISOHELIX-mini,BG001,2
+jhu00360,036VK_Conj_R_3_S261,3548282,63964472,21974,2025-08-06,Conj,Zymo Mini Prep Kit,170,,S261,,2025-01-08,,2A,,,36,,,,1.6,G4,,,L008,,,ISOHELIX-mini,BG001,3
+jhu00361,036VK_Lid_L_1_S262,9529752,35666188,11854,2025-08-06,Lid,Zymo Mini Prep Kit,161,,S262,,2024-12-04,,2A,,,36,,,,2.3,F7,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00362,036VK_Lid_L_2_S263,17105212,31690390,7026,2025-08-06,Lid,Zymo Mini Prep Kit,167,,S263,,2024-12-18,,2A,,,36,,,,2.5,G1,,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00363,036VK_Lid_L_3_S264,11778820,34298398,9896,2025-08-06,Lid,Zymo Mini Prep Kit,173,,S264,,2025-01-08,,2A,,,36,,,,1.6,G7,,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00364,036VK_Lid_R_1_S265,4476416,50000276,17958,2025-08-06,Lid,Zymo Mini Prep Kit,160,,S265,,2024-12-04,,2A,,,36,,,,2,F6,2,,L008,,,ISOHELIX-mini,BG001,1
+jhu00365,036VK_Lid_R_2_S266,17850776,33343410,7632,2025-08-06,Lid,Zymo Mini Prep Kit,166,,S266,,2024-12-18,,2A,,,36,,,,1.9,F12,,,L008,,,ISOHELIX-mini,BG001,2
+jhu00366,036VK_Lid_R_3_S267,14858792,16686678,2992,2025-08-06,Lid,Zymo Mini Prep Kit,172,,S267,,2025-01-08,,2A,,,36,,,,1.6,G6,,,L008,,,ISOHELIX-mini,BG001,3
+jhu00367,036VK_Skin_L_1_S268,6980466,21698098,6842,2025-08-06,Skin,Zymo Mini Prep Kit,163,,S268,,2024-12-04,,2A,,,36,L008,,,1.9,F9,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
+jhu00368,036VK_Skin_L_2_S269,13241280,35915414,9836,2025-08-06,Skin,Zymo Mini Prep Kit,169,,S269,,2024-12-18,,2A,,,36,L008,,,3.1,G3,,,L008,,,BSS+ISOHELIX-mini,BG001,2
+jhu00369,036VK_Skin_L_3_S270,10102300,30568094,8630,2025-08-06,Skin,Zymo Mini Prep Kit,175,,S270,,2025-01-08,,2A,,,36,L008,,,1.8,G9,,,L008,,,BSS+ISOHELIX-mini,BG001,3
+jhu00370,036VK_Skin_R_1_S271,23098192,25551060,5010,2025-08-06,Skin,Zymo Mini Prep Kit,162,,S271,,2024-12-04,,2A,,,36,L008,,,1.8,F8,2,,L008,,,ISOHELIX-mini,BG001,1
+jhu00371,036VK_Skin_R_2_S272,13711998,15057708,2560,2025-08-06,Skin,Zymo Mini Prep Kit,168,,S272,,2024-12-18,,2A,,,36,L008,,,2.3,G2,,,L008,,,ISOHELIX-mini,BG001,2
+jhu00372,036VK_Skin_R_3_S273,13930870,49311220,15554,2025-08-06,Skin,Zymo Mini Prep Kit,174,,S273,,2025-01-08,,2A,,,36,L008,,,1.4,G8,,,L008,,,ISOHELIX-mini,BG001,3
+jhu00373,038JM_ANE_CONT_1_S96,22192,830944,280,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,184,,S96,,2024-12-04,ANE,3A,,,38,,,,2.4,A7,,,L007,,,Tetra/ISOHELIX-mini,BG001,1
+jhu00374,038JM_ANE_CONT_2_S97,22068,495378,306,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,185,,S97,,2025-01-22,ANE,3A,,,38,,,,2.3,A8,,,L007,,,Tetra/ISOHELIX-mini,BG001,2
+jhu00375,038JM_ANE_CONT_3_S98,5027272,5382000,646,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,186,,S98,,2025-02-19,ANE,3A,,,38,,,,3.3,A9,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
+jhu00376,038JM_Conj_L_1_S99,81262,15172398,7442,2025-08-06,Conj,Zymo Mini Prep Kit,179,,S99,,2024-12-04,,3A,,,38,,,,1.6,A2,,,L007,,,ISOHELIX-mini,BG001,1
+jhu00377,038JM_Conj_L_2_S100,1407382,30929938,11596,2025-08-06,Conj,Zymo Mini Prep Kit,181,,S100,,2024-12-04,,3A,,,38,,,,2.4,A4,,,L007,,,ISOHELIX-mini,BG001,2
+jhu00378,038JM_Conj_L_3_S101,90970,34464636,14968,2025-08-06,Conj,Zymo Mini Prep Kit,183,,S101,,2025-02-19,,3A,,,38,,,,2.1,A6,,,L007,,,ISOHELIX-mini,BI001,3
+jhu00379,038JM_Conj_R_2_S103,3065960,21863632,8016,2025-08-06,Conj,Zymo Mini Prep Kit,180,,S103,,2025-01-22,,3A,,,38,,,,2.1,A3,,,L007,,,Tetra+ISOHELIX-mini,BG001,2
+jhu00380,038JM_Conj_R_3_S104,97446,28255866,12384,2025-08-06,Conj,Zymo Mini Prep Kit,182,,S104,,2025-02-19,,3A,,,38,,,,2.1,A5,,,L007,,,Tetra+ISOHELIX-mini,BI001,3
+jhu00381,039WB_ANE_CONT_1_S105,13952,1107786,470,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,205,,S105,,2025-01-08,ANE,3A,,,39,,,,1.5,C4,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
+jhu00382,039WB_ANE_CONT_2_S106,22732,753802,604,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,207,,S106,,2025-01-22,ANE,3B,,,39,,,,1.6,C6,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
+jhu00383,039WB_ANE_CONT_3_S107,9452,623862,188,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,208,,S107,,2025-01-29,ANE,3A,,,39,,,,1.6,C7,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
+jhu00384,039WB_Conj_L_1_S108,38592,12121940,5602,2025-08-06,Conj,Zymo Mini Prep Kit,188,,S108,,2025-01-08,,3A,,,39,,,,1.6,A11,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
+jhu00385,039WB_Conj_L_2_S109,96700,30299220,11746,2025-08-06,Conj,Zymo Mini Prep Kit,190,,S109,,2025-01-22,,3A,,,39,,,,1.5,B1,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
+jhu00386,039WB_Conj_L_3_S110,410872,35378530,11238,2025-08-06,Conj,Zymo Mini Prep Kit,192,,S110,,2025-01-29,,3A,,,39,,,,1.8,B3,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
+jhu00387,039WB_Conj_R_1_S111,539688,27913104,10128,2025-08-06,Conj,Zymo Mini Prep Kit,187,,S111,,2025-01-08,,3A,,,39,,,,1.6,A10,,,L007,,,ISOHELIX-mini,BI001,1
+jhu00388,039WB_Conj_R_3_S113,83416,40723754,14918,2025-08-06,Conj,Zymo Mini Prep Kit,191,,S113,,2025-01-29,,3A,,,39,,,,2.3,B2,,,L007,,,ISOHELIX-mini,BI001,3
+jhu00389,040RR_ANE_CONT_2_S114,60742,654142,326,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,206,,S114,,2025-01-15,ANE,3A,,,40,,,,1.6,C5,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
+jhu00390,040RR_Conj_L_1_S115,135856,20885474,9030,2025-08-06,Conj,Zymo Mini Prep Kit,194,,S115,,2025-01-08,,3A,,,40,,,,1.3,B5,,,L007,,,ISOHELIX-mini,BI001,1
+jhu00391,040RR_Conj_L_2_S116,741130,194925578,77732,2025-08-06,Conj,Zymo Mini Prep Kit,196,,S116,,2025-01-15,,3A,,,40,,,,3.4,B7,,,L007,,,ISOHELIX-mini,BI001,2
+jhu00392,040RR_Conj_L_3_S117,84960,40582094,17846,2025-08-06,Conj,Zymo Mini Prep Kit,198,,S117,,2025-01-29,,3A,,,40,,,,1.7,B9,,,L007,,,ISOHELIX-mini,BI001,3
+jhu00393,040RR_Conj_R_1_S118,59382,19112646,9398,2025-08-06,Conj,Zymo Mini Prep Kit,193,,S118,,2025-01-08,,3A,,,40,,,,1.6,B4,,,L007,,,Tetra+ISOHELIX-mini,BI001,1
+jhu00394,040RR_Conj_R_2_S119,4409046,20123386,7812,2025-08-06,Conj,Zymo Mini Prep Kit,195,,S119,,2025-01-15,,3A,,,40,,,,1.9,B6,,,L007,,,Tetra+ISOHELIX-mini,BI001,2
+jhu00395,040RR_Conj_R_3_S120,57398,18145306,7926,2025-08-06,Conj,Zymo Mini Prep Kit,197,,S120,,2025-01-29,,3A,,,40,,,,1.3,B8,,,L007,,,Tetra+ISOHELIX-mini,BI001,3
+jhu00396,041SB_Conj_L_1_S121,141966,52180948,22796,2025-08-06,Conj,Zymo Mini Prep Kit,200,,S121,,2025-01-15,,3A,,,41,,,,1.5,B11,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
+jhu00397,041SB_Conj_L_2_S122,65438,6632970,3558,2025-08-06,Conj,Zymo Mini Prep Kit,202,,S122,,2025-01-15,,3A,,,41,,,,2.4,C1,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
+jhu00398,041SB_Conj_L_3_S123,200306,85562290,37166,2025-08-06,Conj,Zymo Mini Prep Kit,204,,S123,,2025-01-22,,3A,,,41,,,,1.9,C3,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
+jhu00399,041SB_Conj_R_1_S124,148190,54830150,24828,2025-08-06,Conj,Zymo Mini Prep Kit,199,,S124,,2025-01-15,,3A,,,41,,,,2.3,B10,,,L007,,,ISOHELIX-mini,BI001,1
+jhu00400,041SB_Conj_R_2_S125,2802,759762,272,2025-08-06,Conj,Zymo Mini Prep Kit,201,,S125,,2025-01-22,,3A,,,41,,,,1.9,B12,,,L007,,,ISOHELIX-mini,BI001,2
+jhu00401,041SB_Conj_R_3_S126,186542,74744616,38612,2025-08-06,Conj,Zymo Mini Prep Kit,203,,S126,,2025-01-29,,3A,,,41,,,,2.1,C2,,,L007,,,ISOHELIX-mini,BI001,3
+jhu00402,043SA_ANE_CONT_1_S127,95548,1646618,982,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,227,,S127,,2025-01-15,ANE,3B,,,43,,,,1.6,E2,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
+jhu00403,043SA_ANE_CONT_2_S128,8066,213822,190,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,228,,S128,,2025-01-22,ANE,3B,,,43,,,,1.2,E3,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
+jhu00404,043SA_ANE_CONT_3_S129,7740,365154,104,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,229,,S129,,2025-02-05,ANE,3B,,,43,,,,1.3,E4,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
+jhu00405,043SA_Conj_L_1_S130,839948,30110462,11342,2025-08-06,Conj,Zymo Mini Prep Kit,210,,S130,,2025-01-15,,3B,,,43,,,,1.5,C9,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
+jhu00406,043SA_Conj_L_2_S131,4724710,22283980,8198,2025-08-06,Conj,Zymo Mini Prep Kit,216,,S131,,2025-01-22,,3B,,,43,,,,2.2,D3,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
+jhu00407,043SA_Conj_L_3_S132,10946428,16170122,2750,2025-08-06,Conj,Zymo Mini Prep Kit,222,,S132,,2025-02-05,,3B,,,43,,,,1.6,D9,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
+jhu00408,043SA_Conj_R_1_S133,187404,15797680,9294,2025-08-06,Conj,Zymo Mini Prep Kit,209,,S133,,2025-01-15,,3B,,,43,,,,1.8,C8,,,L007,,,ISOHELIX-mini,BI001,1
+jhu00409,043SA_Conj_R_2_S134,1490330,29742090,39604,2025-08-06,Conj,Zymo Mini Prep Kit,215,,S134,,2025-01-22,,3B,,,43,,,,1.9,D2,,,L007,,,ISOHELIX-mini,BI001,2
+jhu00410,043SA_Conj_R_3_S135,54038,25179690,9552,2025-08-06,Conj,Zymo Mini Prep Kit,221,,S135,,2025-02-05,,3B,,,43,,,,1.2,D8,,,L007,,,ISOHELIX-mini,BI001,3
+jhu00411,043SA_Lid_L_1_S136,3029750,25924318,8582,2025-08-06,Lid,Zymo Mini Prep Kit,212,,S136,,2025-01-15,,3B,,,43,,,,2.8,C11,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
+jhu00412,043SA_Lid_L_2_S137,3483012,23084444,7900,2025-08-06,Lid,Zymo Mini Prep Kit,218,,S137,,2025-01-22,,3B,,,43,,,,1.3,D5,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
+jhu00413,043SA_Lid_L_3_S138,70142,4064858,2274,2025-08-06,Lid,Zymo Mini Prep Kit,224,,S138,,2025-02-05,,3B,,,43,,,,1.1,D11,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
+jhu00414,043SA_Lid_R_1_S139,68290,12989238,5176,2025-08-06,Lid,Zymo Mini Prep Kit,211,,S139,,2025-01-15,,3B,,,43,,,,1.5,C10,,,L007,,,ISOHELIX-mini,BI001,1
+jhu00415,043SA_Lid_R_2_S140,131706,11893124,5462,2025-08-06,Lid,Zymo Mini Prep Kit,217,,S140,,2025-01-22,,3B,,,43,,,,1.1,D4,,,L007,,,ISOHELIX-mini,BI001,2
+jhu00416,043SA_Lid_R_3_S141,165074,28072658,12384,2025-08-06,Lid,Zymo Mini Prep Kit,223,,S141,,2025-02-05,,3B,,,43,,,,1.8,D10,,,L007,,,ISOHELIX-mini,BI001,3
+jhu00417,043SA_Skin_L_1_S142,153964,7567778,3280,2025-08-06,Skin,Zymo Mini Prep Kit,214,,S142,,2025-01-15,,3B,,,43,L007,,,1.7,D1,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
+jhu00418,043SA_Skin_L_2_S143,24202,680036,304,2025-08-06,Skin,Zymo Mini Prep Kit,220,,S143,,2025-01-22,,3B,,,43,L007,,,1.3,D7,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
+jhu00419,043SA_Skin_L_3_S144,860448,14732334,5558,2025-08-06,Skin,Zymo Mini Prep Kit,226,,S144,,2025-02-05,,3B,,,43,L007,,,0.8,E1,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
+jhu00420,043SA_Skin_R_1_S145,11572732,24787858,6422,2025-08-06,Skin,Zymo Mini Prep Kit,213,,S145,,2025-01-15,,3B,,,43,L007,,,2.7,C12,,,L007,,,ISOHELIX-mini,BI001,1
+jhu00421,043SA_Skin_R_2_S146,8413746,9369080,1314,2025-08-06,Skin,Zymo Mini Prep Kit,219,,S146,,2025-01-22,,3B,,,43,L007,,,1.5,D6,,,L007,,,ISOHELIX-mini,BI001,2
+jhu00422,043SA_Skin_R_3_S147,7714288,16573406,4950,2025-08-06,Skin,Zymo Mini Prep Kit,225,,S147,,2025-02-05,,3B,,,43,L007,,,1,D12,,,L007,,,ISOHELIX-mini,BI001,3
+jhu00423,044PB_ANE_CONT_1_S148,71020,3398320,1768,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,248,,S148,,2025-01-22,ANE,3B,,,44,,,,4.1,F11,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
+jhu00424,044PB_ANE_CONT_2_S149,7836,433800,180,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,249,,S149,,2025-02-19,ANE,3B,,,44,,,,2.9,F12,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
+jhu00425,044PB_ANE_CONT_3_S150,66318,1069106,800,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,250,,S150,,2025-02-26,ANE,3B,,,44,,,,1.9,G1,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
+jhu00426,044PB_Conj_L_1_S151,45916,19981034,8922,2025-08-06,Conj,Zymo Mini Prep Kit,231,,S151,,2025-01-22,,3B,,,44,,,,2.3,E6,,,L007,,,ISOHELIX-mini,BI001,1
+jhu00427,044PB_Conj_L_2_S152,129384,18225392,8220,2025-08-06,Conj,Zymo Mini Prep Kit,237,,S152,,2025-02-19,,3B,,,44,,,,1.9,E12,,,L007,,,ISOHELIX-mini,BI001,2
+jhu00428,044PB_Conj_L_3_S153,95752,12230172,6738,2025-08-06,Conj,Zymo Mini Prep Kit,243,,S153,,2025-02-26,,3B,,,44,,,,2.2,F6,,,L007,,,ISOHELIX-mini,BI001,3
+jhu00429,044PB_Conj_R_1_S154,59336,31253846,11904,2025-08-06,Conj,Zymo Mini Prep Kit,230,,S154,,2025-01-22,,3B,,,44,,,,0.9,E5,,,L007,,,Tetra+ISOHELIX-mini,BI001,1
+jhu00430,044PB_Conj_R_2_S155,11935292,16031066,8006,2025-08-06,Conj,Zymo Mini Prep Kit,236,,S155,,2025-02-19,,3B,,,44,,,,2.2,E11,,,L007,,,Tetra+ISOHELIX-mini,BI001,2
+jhu00431,044PB_Conj_R_3_S156,166348,12858186,6380,2025-08-06,Conj,Zymo Mini Prep Kit,242,,S156,,2025-02-26,,3B,,,44,,,,2.7,F5,,,L007,,,Tetra+ISOHELIX-mini,BI001,3
+jhu00432,044PB_Lid_L_1_S157,305314,15166108,6806,2025-08-06,Lid,Zymo Mini Prep Kit,233,,S157,,2025-01-22,,3B,,,44,,,,2.1,E8,,,L007,,,ISOHELIX-mini,BI001,1
+jhu00433,044PB_Lid_L_2_S158,48430,484262,464,2025-08-06,Lid,Zymo Mini Prep Kit,239,,S158,,2025-02-19,,3B,,,44,,,,4.1,F2,,,L007,,,ISOHELIX-mini,BI001,2
+jhu00434,044PB_Lid_L_3_S159,703734,29475218,10370,2025-08-06,Lid,Zymo Mini Prep Kit,245,,S159,,2025-02-26,,3B,,,44,,,,1.9,F8,,,L007,,,ISOHELIX-mini,BI001,3
+jhu00435,044PB_Lid_R_1_S160,214346,12765540,4966,2025-08-06,Lid,Zymo Mini Prep Kit,232,,S160,,2025-01-22,,3B,,,44,,,,1.4,E7,,,L007,,,Tetra+ISOHELIX-mini,BI001,1
+jhu00436,044PB_Lid_R_2_S161,2830538,16133862,5876,2025-08-06,Lid,Zymo Mini Prep Kit,238,,S161,,2025-02-19,,3B,,,44,,,,3.4,F1,,,L007,,,Tetra+ISOHELIX-mini,BI001,2
+jhu00437,044PB_Lid_R_3_S162,4049260,15463936,4804,2025-08-06,Lid,Zymo Mini Prep Kit,244,,S162,,2025-02-26,,3B,,,44,,,,1.5,F7,,,L007,,,Tetra+ISOHELIX-mini,BI001,3
+jhu00438,044PB_Skin_L_1_S163,224630,4103006,1700,2025-08-06,Skin,Zymo Mini Prep Kit,235,,S163,,2025-01-22,,3B,,,44,L007,,,2.1,E10,,,L007,,,ISOHELIX-mini,BI001,1
+jhu00439,044PB_Skin_L_2_S164,1429854,4577486,2020,2025-08-06,Skin,Zymo Mini Prep Kit,241,,S164,,2025-02-19,,3B,,,44,L007,,,1.8,F4,,,L007,,,ISOHELIX-mini,BI001,2
+jhu00440,044PB_Skin_L_3_S165,2617402,30465918,10178,2025-08-06,Skin,Zymo Mini Prep Kit,247,,S165,,2025-02-26,,3B,,,44,L007,,,2.2,F10,,,L007,,,ISOHELIX-mini,BI001,3
+jhu00441,044PB_Skin_R_1_S166,6196498,7573618,1386,2025-08-06,Skin,Zymo Mini Prep Kit,234,,S166,,2025-01-22,,3B,,,44,L007,,,1.6,E9,,,L007,,,Tetra+ISOHELIX-mini,BI001,1
+jhu00442,044PB_Skin_R_2_S167,10333834,17371018,4452,2025-08-06,Skin,Zymo Mini Prep Kit,240,,S167,,2025-02-19,,3B,,,44,L007,,,1.9,F3,,,L007,,,Tetra+ISOHELIX-mini,BI001,2
+jhu00443,044PB_Skin_R_3_S168,7340382,8633622,1982,2025-08-06,Skin,Zymo Mini Prep Kit,246,,S168,,2025-02-26,,3B,,,44,L007,,,1.3,F9,,,L007,,,Tetra+ISOHELIX-mini,BI001,3
+jhu00444,045TA_ANE_CONT_1_S169,4677846,5357952,1452,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,269,,S169,,2025-01-29,ANE,3B,,,45,,,,3.3,H8,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
+jhu00445,045TA_ANE_CONT_2_S170,11306852,12058202,1760,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,270,,S170,,2025-02-05,ANE,3B,,,45,,,,1.4,H9,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
+jhu00446,045TA_ANE_CONT_3_S171,9640038,9987788,1164,2025-08-06,ANE_CONT,Zymo Mini Prep Kit,271,,S171,,2025-02-19,ANE,3B,,,45,,,,2.5,H10,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
+jhu00447,045TA_Conj_L_1_S172,298020,61434976,25804,2025-08-06,Conj,Zymo Mini Prep Kit,252,,S172,,2025-01-29,,3B,,,45,,,,2.1,G3,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
+jhu00448,045TA_Conj_L_2_S173,168044,37947424,16052,2025-08-06,Conj,Zymo Mini Prep Kit,258,,S173,,2025-02-05,,3B,,,45,,,,1.7,G9,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
+jhu00449,045TA_Conj_L_3_S174,113988,48925882,21214,2025-08-06,Conj,Zymo Mini Prep Kit,264,,S174,,2025-02-19,,3B,,,45,,,,1.8,H3,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
+jhu00450,045TA_Conj_R_1_S175,45296,19086490,17644,2025-08-06,Conj,Zymo Mini Prep Kit,251,,S175,,2025-01-29,,3B,,,45,,,,2.2,G2,,,L007,,,ISOHELIX-mini,BI001,1
+jhu00451,045TA_Conj_R_2_S176,97116,32187372,12904,2025-08-06,Conj,Zymo Mini Prep Kit,257,,S176,,2025-02-05,,3B,,,45,,,,1.9,G8,,,L007,,,ISOHELIX-mini,BI001,2
+jhu00452,045TA_Conj_R_3_S177,70200,30574320,11700,2025-08-06,Conj,Zymo Mini Prep Kit,263,,S177,,2025-02-19,,3B,,,45,,,,1.8,H2,,,L007,,,ISOHELIX-mini,BI001,3
+jhu00453,045TA_Lid_L_1_S178,640418,137401266,51102,2025-08-06,Lid,Zymo Mini Prep Kit,254,,S178,,2025-01-29,,3B,,,45,,,,2.2,G5,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
+jhu00454,045TA_Lid_L_2_S179,281610,44533038,17990,2025-08-06,Lid,Zymo Mini Prep Kit,260,,S179,,2025-02-05,,3B,,,45,,,,1.6,G11,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
+jhu00455,045TA_Lid_L_3_S180,11680,1581280,666,2025-08-06,Lid,Zymo Mini Prep Kit,266,,S180,,2025-02-19,,3B,,,45,,,,1.5,H5,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
+jhu00456,045TA_Lid_R_1_S181,257968,47339930,21134,2025-08-06,Lid,Zymo Mini Prep Kit,253,,S181,,2025-01-29,,3B,,,45,,,,1.9,G4,,,L007,,,ISOHELIX-mini,BI001,1
+jhu00457,045TA_Lid_R_2_S182,808130,192932400,63396,2025-08-06,Lid,Zymo Mini Prep Kit,259,,S182,,2025-02-05,,3B,,,45,,,,4.8,G10,,,L007,,,ISOHELIX-mini,BI001,2
+jhu00458,045TA_Lid_R_3_S183,257548,45944866,17600,2025-08-06,Lid,Zymo Mini Prep Kit,265,,S183,,2025-02-19,,3B,,,45,,,,3.1,H4,,,L007,,,ISOHELIX-mini,BI001,3
+jhu00459,045TA_Skin_L_1_S184,1232112,205299986,84454,2025-08-06,Skin,Zymo Mini Prep Kit,256,,S184,,2025-01-29,,3B,,,45,L007,,,3.6,G7,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
+jhu00460,045TA_Skin_L_2_S185,656724,27063788,11636,2025-08-06,Skin,Zymo Mini Prep Kit,262,,S185,,2025-02-05,,3B,,,45,L007,,,2.6,H1,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
+jhu00461,045TA_Skin_L_3_S186,527600,39744448,13302,2025-08-06,Skin,Zymo Mini Prep Kit,268,,S186,,2025-02-19,,3B,,,45,L007,,,2.7,H7,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
+jhu00462,045TA_Skin_R_1_S187,789502,104442106,38538,2025-08-06,Skin,Zymo Mini Prep Kit,255,,S187,,2025-01-29,,3B,,,45,L007,,,1.5,G6,,,L007,,,ISOHELIX-mini,BI001,1
+jhu00463,045TA_Skin_R_2_S188,1484676,29767144,10980,2025-08-06,Skin,Zymo Mini Prep Kit,261,,S188,,2025-02-05,,3B,,,45,L007,,,2,G12,,,L007,,,ISOHELIX-mini,BI001,2
+jhu00464,045TA_Skin_R_3_S189,656870,32932716,11836,2025-08-06,Skin,Zymo Mini Prep Kit,267,,S189,,2025-02-19,,3B,,,45,L007,,,1.6,H6,,,L007,,,ISOHELIX-mini,BI001,3
+jhu00465,MCS_M1_BG001_S274,138496636,140796766,3242,2025-08-06,MCS,Zymo Mini Prep Kit,M_1,,S274,,,,,,,,,,MCS,2.7,H12,,,L008,,,,BG003,
+jhu00466,MCS_M6_BG001_S275,105134610,106377142,3292,2025-08-06,MCS,Zymo Mini Prep Kit,M6,,S275,,,,,,,,,,MCS,2.5,H1,,,L008,,,,BG001,
+jhu00467,OMR_O14_BI001_S95,10201252,11030008,1246,2025-08-06,OMR,Zymo Mini Prep Kit,O14,,S95,,,OMR,,,,,,,,2.1,H11,,,L006,,,,BI002,
+jhu00468,OMR_O1_BG001_S276,30852220,32232232,4962,2025-08-06,OMR,Zymo Mini Prep Kit,O_1,,S276,,,OMR,,,,,,,,1.6,H11,,,L008,,,,BG002,
+jhu00469,OMR_O6_BG001_S277,18857730,21465548,13362,2025-08-06,OMR,Zymo Mini Prep Kit,O6,,S277,,,OMR,,,,,,,,1.5,G12,,,L008,,,,BG001,

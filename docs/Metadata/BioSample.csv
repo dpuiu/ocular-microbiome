@@ -11,6 +11,7 @@ biosample_site,Anatomical site of origin,"Skin,Lid,Conj",required,string
 biosample_material,Material type of sample,"swab, tissue, tear",required,string
 biosample_side,Laterality of sample,"left right, NA",recommended*,string
 collection_method,Method used for sample collection,"swab, wash, filter paper",recommended,string
+collection_time,AM/PM,5pm,,string
 collection_medium,Fluid in which the biosample is stored,"ANE(Amies Transport Medium),BSS(Balanced Salt Solution)",recommended,string
 collection_device_lot,Collection device batch,BG001,optional,string
 collection_device_id,Device identifier or lot number for collection device,DEV001-2023,optional,string

@@ -1,0 +1,623 @@
+omc_id,sample_id,non_human_reads,individual_id,race,age,ethnicity,sex,uses_contact_lenses,has_pets,uses_antibiotics,visit_number,biosample_side,collection_time
+vumc00001,12680-PG-001,4226,V24_1,Other,33,Not Hispanic,Female,False,False,True,V1,R,
+vumc00002,12680-PG-002,6938,V24_2,Asian,35,Not Hispanic,Female,False,False,False,V1,R,
+vumc00003,12680-PG-003,27128,V24_3,Caucasian,32,Not Hispanic,Female,False,True,False,V1,R,
+vumc00004,12680-PG-004,23812,V24_4,Caucasian,22,Not Hispanic,Female,False,False,False,V1,R,
+vumc00005,12680-PG-005,15592,V24_5,Caucasian,23,Hispanic,Female,False,True,False,V1,R,
+vumc00006,12680-PG-006,13578,V24_6,Caucasian,59,Not Hispanic,Female,False,True,True,V1,R,
+vumc00007,12680-PG-007,14498,V24_7,Caucasian,38,Not Hispanic,Female,True,True,False,V1,R,
+vumc00008,12680-PG-008,28814,V24_8,Caucasian,33,Not Hispanic,Female,False,False,False,V1,R,
+vumc00009,12680-PG-009,130514,V24_9,Caucasian,33,Not Hispanic,Female,False,True,False,V1,R,
+vumc00010,12680-PG-010,14064,V24_11,Caucasian,39,Not Hispanic,Male,False,True,False,V1,R,
+vumc00011,12680-PG-011,74506,V24_12,Caucasian,27,Not Hispanic,Male,False,False,False,V1,R,
+vumc00012,12680-PG-012,165218,V24_15,Caucasian,24,Not Hispanic,Female,True,False,False,V1,R,
+vumc00013,12680-PG-013,53492,V24_17,Asian,31,Not Hispanic,Female,False,False,False,V1,R,
+vumc00014,12680-PG-014,25458,V24_19,Caucasian,29,Not Hispanic,Female,False,True,False,V1,R,
+vumc00015,12680-PG-015,68680,V24_20,Asian,24,Not Hispanic,Male,False,False,False,V1,R,
+vumc00016,12680-PG-016,27904,V24_22,Caucasian,32,Not Hispanic,Female,False,True,False,V1,R,
+vumc00017,12680-PG-017,3640,V24_23,Caucasian,32,Not Hispanic,Female,True,True,False,V1,R,
+vumc00018,12680-PG-018,1016,V24_24,Caucasian,44,Not Hispanic,Male,False,False,False,V1,R,
+vumc00019,12680-PG-019,1796,U24_25,Caucasian,50,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00020,12680-PG-020,6000,U24_27,Caucasian,37,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00021,12680-PG-021,4014,U24_28,Caucasian,36,Not Hispanic,Male,False,False,False,V1,R,AM
+vumc00022,12680-PG-022,5376,U24_29,Caucasian,35,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00023,12680-PG-023,7668,U24_30,Caucasian,25,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00024,12680-PG-024,6468,U24_31,Asian,28,Not Hispanic,Female,True,False,False,V1,R,AM
+vumc00025,12680-PG-025,4268,U24_32,Caucasian,27,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00026,12680-PG-026,1736,U24_38,Caucasian,24,Not Hispanic,Female,True,False,False,V1,R,AM
+vumc00027,12680-PG-027,912,U24_40,Caucasian,77,Not Hispanic,Male,False,False,False,V1,R,AM
+vumc00028,12680-PG-028,1606,U24_42,Caucasian,26,Hispanic,Female,True,True,False,V1,R,AM
+vumc00029,12680-PG-029,1536,U24_43,Caucasian,28,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00030,12680-PG-030,1568,U24_44,Caucasian,27,Not Hispanic,Male,False,False,False,V1,R,PM
+vumc00031,12680-PG-031,2852,U24_46,Caucasian,50,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00032,12680-PG-032,1734,U24_48,Caucasian,23,Not Hispanic,Female,False,False,False,V1,R,PM
+vumc00033,12680-PG-033,28242,U24_49,Caucasian,25,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00034,12680-PG-034,16948,U24_50,Caucasian,53,Hispanic,Male,False,False,False,V1,R,AM
+vumc00035,12680-PG-035,3384,U24_51,Caucasian,39,Not Hispanic,Female,True,False,False,V1,R,AM
+vumc00036,12680-PG-036,120462,U24_52,Caucasian,54,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00037,12680-PG-037,6396,U24_53,Caucasian,53,Unknown/Not Reported,Female,False,False,False,V1,R,PM
+vumc00038,12680-PG-038,87006,U24_54,Caucasian,28,Hispanic,Male,False,False,False,V1,Both,AM
+vumc00039,12680-PG-039,3446,U24_56,Caucasian,31,Not Hispanic,Female,False,False,False,V1,R,PM
+vumc00040,12680-PG-040,1386,U24_57,Caucasian,29,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00041,12680-PG-041,18042,U24_59,Caucasian,27,Hispanic,Female,False,True,False,V1,R,PM
+vumc00042,12680-PG-042,85730,U24_63,Caucasian,46,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00043,12680-PG-043,18408,U24_66,Caucasian,22,Not Hispanic,Male,False,False,False,V1,R,PM
+vumc00044,12680-PG-044,89720,U24_1,Other,33,Not Hispanic,Female,False,False,True,V2,R,AM
+vumc00045,12680-PG-045,25198,U24_2,Asian,35,Not Hispanic,Female,False,False,False,V2,R,AM
+vumc00046,12680-PG-046,30532,U24_3,Caucasian,32,Not Hispanic,Female,False,True,False,V2,R,AM
+vumc00047,12680-PG-047,54846,U24_4,Caucasian,22,Not Hispanic,Female,False,False,False,V2,R,AM
+vumc00048,12680-PG-048,15654,U24_5,Caucasian,23,Hispanic,Female,False,True,False,V2,R,AM
+vumc00049,12680-PG-049,11404,U24_6,Caucasian,59,Not Hispanic,Female,False,True,True,V2,R,PM
+vumc00050,12680-PG-050,195020,U24_7,Caucasian,38,Not Hispanic,Female,True,True,False,V2,R,AM
+vumc00051,12680-PG-051,23242,U24_8,Caucasian,33,Not Hispanic,Female,False,False,False,V2,R,AM
+vumc00052,12680-PG-052,37694,U24_9,Caucasian,33,Not Hispanic,Female,False,True,False,V2,R,AM
+vumc00053,12680-PG-053,20734,U24_11,Caucasian,39,Not Hispanic,Male,False,True,False,V2,R,PM
+vumc00054,12680-PG-054,58636,U24_12,Caucasian,27,Not Hispanic,Male,False,False,False,V2,R,AM
+vumc00055,12680-PG-055,17664,U24_15,Caucasian,24,Not Hispanic,Female,True,False,False,V2,R,AM
+vumc00056,12680-PG-056,36290,U24_17,Asian,31,Not Hispanic,Female,False,False,False,V2,R,PM
+vumc00057,12680-PG-057,13532,U24_19,Caucasian,29,Not Hispanic,Female,False,True,False,V2,R,AM
+vumc00058,12680-PG-059,26056,U24_22,Caucasian,32,Not Hispanic,Female,False,True,False,V2,R,AM
+vumc00059,12680-PG-060,2796,U24_23,Caucasian,32,Not Hispanic,Female,True,True,False,V2,R,AM
+vumc00060,12680-PG-061,105442,U24_24,Caucasian,44,Not Hispanic,Male,False,False,False,V2,R,PM
+vumc00061,12680-PG-063,153320,U24_27,Caucasian,37,Not Hispanic,Female,False,True,False,V2,R,AM
+vumc00062,12680-PG-064,78248,U24_28,Caucasian,36,Not Hispanic,Male,False,False,False,V2,R,PM
+vumc00063,12680-PG-065,30618,U24_29,Caucasian,35,Not Hispanic,Female,False,True,False,V2,R,AM
+vumc00064,12680-PG-066,13524,U24_30,Caucasian,25,Not Hispanic,Female,False,True,False,V2,R,AM
+vumc00065,12680-PG-067,49718,U24_31,Asian,28,Not Hispanic,Female,True,False,False,V2,R,PM
+vumc00066,12680-PG-068,12560,U24_32,Caucasian,27,Not Hispanic,Female,False,False,False,V2,R,AM
+vumc00067,12680-PG-069,49782,U24_38,Caucasian,24,Not Hispanic,Female,True,False,False,V2,R,PM
+vumc00068,12680-PG-070,15026,U24_42,Caucasian,26,Hispanic,Female,True,True,False,V2,R,AM
+vumc00069,12680-PG-071,83458,U24_43,Caucasian,28,Not Hispanic,Female,False,True,False,V2,R,AM
+vumc00070,12680-PG-072,6392,U24_44,Caucasian,27,Not Hispanic,Male,False,False,False,V2,R,PM
+vumc00071,12680-PG-073,21448,U24_48,Caucasian,23,Not Hispanic,Female,False,False,False,V2,R,PM
+vumc00072,12680-PG-074,38872,U24_49,Caucasian,25,Not Hispanic,Female,False,True,False,V2,R,AM
+vumc00073,12680-PG-075,23204,U24_50,Caucasian,53,Hispanic,Male,False,False,False,V2,R,PM
+vumc00074,12680-PG-076,2616,U24_51,Caucasian,39,Not Hispanic,Female,True,False,False,V2,R,PM
+vumc00075,12680-PG-077,6850,U24_54,Caucasian,28,Hispanic,Male,False,False,False,V2,R,PM
+vumc00076,12680-PG-078,20726,U24_56,Caucasian,31,Not Hispanic,Female,False,False,False,V2,R,PM
+vumc00077,12680-PG-079,33378,U24_57,Caucasian,29,Not Hispanic,Female,False,False,False,V2,R,PM
+vumc00078,12680-PG-080,11472,U24_59,Caucasian,27,Hispanic,Female,False,True,False,V2,R,AM
+vumc00079,12680-PG-081,2802,U24_62,African American,50,Not Hispanic,Female,False,False,False,V2,R,AM
+vumc00080,12680-PG-082,38056,U24_63,Caucasian,46,Not Hispanic,Female,False,False,False,V2,R,AM
+vumc00081,12680-PG-083,115348,U24_66,Caucasian,22,Not Hispanic,Male,False,False,False,V2,R,AM
+vumc00082,12680-PG-085,45774,U24_2,Asian,35,Not Hispanic,Female,False,False,False,V3,Both,AM
+vumc00083,12680-PG-086,44854,U24_3,Caucasian,32,Not Hispanic,Female,False,True,False,V3,R,PM
+vumc00084,12680-PG-087,73990,U24_4,Caucasian,22,Not Hispanic,Female,False,False,False,V3,R,AM
+vumc00085,12680-PG-088,3722,U24_5,Caucasian,23,Hispanic,Female,False,True,False,V3,R,PM
+vumc00086,12680-PG-089,36652,U24_7,Caucasian,38,Not Hispanic,Female,True,True,False,V3,R,AM
+vumc00087,12680-PG-090,12768,U24_8,Caucasian,33,Not Hispanic,Female,False,False,False,V3,R,PM
+vumc00088,12680-PG-091,15282,U24_9,Caucasian,33,Not Hispanic,Female,False,True,False,V3,R,PM
+vumc00089,12680-PG-092,18942,U24_11,Caucasian,39,Not Hispanic,Male,False,True,False,V3,R,PM
+vumc00090,12680-PG-093,113924,U24_12,Caucasian,27,Not Hispanic,Male,False,False,False,V3,R,PM
+vumc00091,12680-PG-095,3248,U24_17,Asian,31,Not Hispanic,Female,False,False,False,V3,R,AM
+vumc00092,12680-PG-096,35082,U24_19,Caucasian,29,Not Hispanic,Female,False,True,False,V3,R,PM
+vumc00093,12680-PG-097,29310,U24_20,Asian,24,Not Hispanic,Male,False,False,False,V3,R,AM
+vumc00094,12680-PG-098,250460,U24_22,Caucasian,32,Not Hispanic,Female,False,True,False,V3,R,PM
+vumc00095,12680-PG-099,193748,U24_23,Caucasian,32,Not Hispanic,Female,True,True,False,V3,R,PM
+vumc00096,12680-PG-100,6644,U24_24,Caucasian,44,Not Hispanic,Male,False,False,False,V3,R,PM
+vumc00097,12680-PG-101,22976,U24_25,Caucasian,50,Not Hispanic,Female,False,True,False,V3,R,PM
+vumc00098,12680-PG-102,60186,U24_27,Caucasian,37,Not Hispanic,Female,False,True,False,V3,Both,AM
+vumc00099,12680-PG-103,12220,U24_28,Caucasian,36,Not Hispanic,Male,False,False,False,V3,R,AM
+vumc00100,12680-PG-104,118700,U24_29,Caucasian,35,Not Hispanic,Female,False,True,False,V3,R,PM
+vumc00101,12680-PG-105,45662,U24_30,Caucasian,25,Not Hispanic,Female,False,True,False,V3,R,AM
+vumc00102,12680-PG-106,88278,U24_31,Asian,28,Not Hispanic,Female,True,False,False,V3,R,AM
+vumc00103,12680-PG-107,1918,U24_32,Caucasian,27,Not Hispanic,Female,False,False,False,V3,R,AM
+vumc00104,12680-PG-108,27948,U24_38,Caucasian,24,Not Hispanic,Female,True,False,False,V3,Both,AM
+vumc00105,12680-PG-109,7068,U24_40,Caucasian,77,Not Hispanic,Male,False,False,False,V3,R,AM
+vumc00106,12680-PG-110,6980,U24_42,Caucasian,26,Hispanic,Female,True,True,False,V3,R,AM
+vumc00107,12680-PG-111,3512,U24_43,Caucasian,28,Not Hispanic,Female,False,True,False,V3,R,AM
+vumc00108,12680-PG-112,13522,U24_44,Caucasian,27,Not Hispanic,Male,False,False,False,V3,R,PM
+vumc00109,12680-PG-114,44382,U24_48,Caucasian,23,Not Hispanic,Female,False,False,False,V3,R,PM
+vumc00110,12680-PG-115,22706,U24_49,Caucasian,25,Not Hispanic,Female,False,True,False,V3,R,AM
+vumc00111,12680-PG-116,18474,U24_50,Caucasian,53,Hispanic,Male,False,False,False,V3,R,PM
+vumc00112,12680-PG-117,37268,U24_51,Caucasian,39,Not Hispanic,Female,True,False,False,V3,R,AM
+vumc00113,12680-PG-118,64360,U24_52,Caucasian,54,Not Hispanic,Female,False,False,False,V3,R,AM
+vumc00114,12680-PG-119,25844,U24_53,Caucasian,53,Unknown/Not Reported,Female,False,False,False,V3,R,AM
+vumc00115,12680-PG-120,111404,U24_54,Caucasian,28,Hispanic,Male,False,False,False,V3,R,AM
+vumc00116,12680-PG-121,65264,U24_56,Caucasian,31,Not Hispanic,Female,False,False,False,V3,R,PM
+vumc00117,12680-PG-122,45896,U24_57,Caucasian,29,Not Hispanic,Female,False,False,False,V3,R,PM
+vumc00118,12680-PG-123,4554,U24_59,Caucasian,27,Hispanic,Female,False,True,False,V3,R,PM
+vumc00119,12680-PG-124,3080,U24_62,African American,50,Not Hispanic,Female,False,False,False,V3,R,AM
+vumc00120,12680-PG-125,47548,U24_63,Caucasian,46,Not Hispanic,Female,False,False,False,V3,R,AM
+vumc00121,12680-PG-126,40526,U24_66,Caucasian,22,Not Hispanic,Male,False,False,False,V3,R,PM
+vumc00122,14064-PG-001,9664,U24_65,Caucasian,54,Not Hispanic,Female,False,True,False,V1,L,AM
+vumc00123,14064-PG-002,27064,U24_65,Caucasian,54,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00124,14064-PG-003,2246,U24_65,Caucasian,54,Not Hispanic,Female,False,True,False,V2,L,AM
+vumc00125,14064-PG-004,4146,U24_65,Caucasian,54,Not Hispanic,Female,False,True,False,V2,R,AM
+vumc00126,14064-PG-005,24924,U24_65,Caucasian,54,Not Hispanic,Female,False,True,False,V3,L,AM
+vumc00127,14064-PG-006,9540,U24_65,Caucasian,54,Not Hispanic,Female,False,True,False,V3,R,AM
+vumc00128,14064-PG-007,28598,U24_68,Caucasian,42,Not Hispanic,Female,False,False,False,V1,L,AM
+vumc00129,14064-PG-008,11862,U24_68,Caucasian,42,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00130,14064-PG-009,5286,U24_68,Caucasian,42,Not Hispanic,Female,False,False,False,V2,L,PM
+vumc00131,14064-PG-010,3310,U24_68,Caucasian,42,Not Hispanic,Female,False,False,False,V2,R,PM
+vumc00132,14064-PG-011,2706,U24_68,Caucasian,42,Not Hispanic,Female,False,False,False,V3,L,AM
+vumc00133,14064-PG-012,13560,U24_68,Caucasian,42,Not Hispanic,Female,False,False,False,V3,R,AM
+vumc00134,14064-PG-013,1564,U24_69,Caucasian,35,Not Hispanic,Female,False,False,False,V1,L,AM
+vumc00135,14064-PG-014,7390,U24_69,Caucasian,35,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00136,14064-PG-015,61424,U24_69,Caucasian,35,Not Hispanic,Female,False,False,False,V2,L,PM
+vumc00137,14064-PG-016,123590,U24_69,Caucasian,35,Not Hispanic,Female,False,False,False,V2,R,PM
+vumc00138,14064-PG-017,2980,U24_69,Caucasian,35,Not Hispanic,Female,False,False,False,V3,L,
+vumc00139,14064-PG-018,10274,U24_69,Caucasian,35,Not Hispanic,Female,False,False,False,V3,R,
+vumc00140,14064-PG-019,36450,U24_70,Caucasian,38,Not Hispanic,Female,False,True,False,V1,L,AM
+vumc00141,14064-PG-020,1954,U24_70,Caucasian,38,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00142,14064-PG-021,111010,U24_70,Caucasian,38,Not Hispanic,Female,False,True,False,V2,L,PM
+vumc00143,14064-PG-023,540,U24_70,Caucasian,38,Not Hispanic,Female,False,True,False,V3,L,PM
+vumc00144,14064-PG-024,1762,U24_70,Caucasian,38,Not Hispanic,Female,False,True,False,V3,R,PM
+vumc00145,14064-PG-025,2184,U24_83,African American,25,Unknown/Not Reported,Male,False,False,False,V1,L,PM
+vumc00146,14064-PG-026,2394,U24_83,African American,25,Unknown/Not Reported,Male,False,False,False,V1,R,PM
+vumc00147,14064-PG-027,34452,U24_83,African American,25,Unknown/Not Reported,Male,False,False,False,V2,L,PM
+vumc00148,14064-PG-028,11298,U24_83,African American,25,Unknown/Not Reported,Male,False,False,False,V2,R,PM
+vumc00149,14064-PG-029,3328,U24_83,African American,25,Unknown/Not Reported,Male,False,False,False,V3,L,PM
+vumc00150,14064-PG-030,3746,U24_83,African American,25,Unknown/Not Reported,Male,False,False,False,V3,R,PM
+vumc00151,14064-PG-031,13652,U24_90,Asian,52,Not Hispanic,Male,True,False,False,V1,L,AM
+vumc00152,14064-PG-032,7730,U24_90,Asian,52,Not Hispanic,Male,True,False,False,V1,R,AM
+vumc00153,14064-PG-033,57740,U24_90,Asian,52,Not Hispanic,Male,True,False,False,V2,L,
+vumc00154,14064-PG-034,66714,U24_90,Asian,52,Not Hispanic,Male,True,False,False,V2,R,
+vumc00155,14064-PG-035,8784,U24_90,Asian,52,Not Hispanic,Male,True,False,False,V3,L,AM
+vumc00156,14064-PG-036,10494,U24_90,Asian,52,Not Hispanic,Male,True,False,False,V3,R,AM
+vumc00157,14064-PG-037,30882,U24_91,Caucasian,66,Not Hispanic,Male,False,False,False,V1,L,PM
+vumc00158,14064-PG-038,74704,U24_91,Caucasian,66,Not Hispanic,Male,False,False,False,V1,R,PM
+vumc00159,14064-PG-039,59324,U24_91,Caucasian,66,Not Hispanic,Male,False,False,False,V2,L,
+vumc00160,14064-PG-040,106596,U24_91,Caucasian,66,Not Hispanic,Male,False,False,False,V2,R,
+vumc00161,14064-PG-042,20378,U24_91,Caucasian,66,Not Hispanic,Male,False,False,False,V3,R,AM
+vumc00162,14064-PG-043,236390,U24_93,Caucasian,42,Not Hispanic,Male,False,True,False,V1,L,AM
+vumc00163,14064-PG-044,46562,U24_93,Caucasian,42,Not Hispanic,Male,False,True,False,V1,R,AM
+vumc00164,14064-PG-045,4748,U24_93,Caucasian,42,Not Hispanic,Male,False,True,False,V2,L,PM
+vumc00165,14064-PG-046,12744,U24_93,Caucasian,42,Not Hispanic,Male,False,True,False,V2,R,PM
+vumc00166,14064-PG-047,22716,U24_93,Caucasian,42,Not Hispanic,Male,False,True,False,V3,L,PM
+vumc00167,14064-PG-048,32456,U24_93,Caucasian,42,Not Hispanic,Male,False,True,False,V3,R,AM
+vumc00168,14064-PG-049,8338,U24_100,Caucasian,60,Not Hispanic,Male,False,True,False,V1,L,AM
+vumc00169,14064-PG-050,1350,U24_100,Caucasian,60,Not Hispanic,Male,False,True,False,V1,R,AM
+vumc00170,14064-PG-051,1818,U24_100,Caucasian,60,Not Hispanic,Male,False,True,False,V2,L,AM
+vumc00171,14064-PG-052,3560,U24_100,Caucasian,60,Not Hispanic,Male,False,True,False,V2,R,AM
+vumc00172,14064-PG-053,27452,U24_100,Caucasian,60,Not Hispanic,Male,False,True,False,V3,L,AM
+vumc00173,14064-PG-054,18572,U24_100,Caucasian,60,Not Hispanic,Male,False,True,False,V3,R,AM
+vumc00174,14064-PG-055,2952,U24_101,Asian,35,Not Hispanic,Male,False,False,False,V1,L,PM
+vumc00175,14064-PG-056,5144,U24_101,Asian,35,Not Hispanic,Male,False,False,False,V1,R,PM
+vumc00176,14064-PG-057,144162,U24_101,Asian,35,Not Hispanic,Male,False,False,False,V2,L,PM
+vumc00177,14064-PG-058,76214,U24_101,Asian,35,Not Hispanic,Male,False,False,False,V2,R,PM
+vumc00178,14064-PG-059,50220,U24_101,Asian,35,Not Hispanic,Male,False,False,False,V3,L,PM
+vumc00179,14064-PG-060,107642,U24_101,Asian,35,Not Hispanic,Male,False,False,False,V3,R,PM
+vumc00180,14064-PG-061,14376,U24_71,Caucasian,39,Not Hispanic,Female,True,False,False,V1,L,AM
+vumc00181,14064-PG-062,6788,U24_71,Caucasian,39,Not Hispanic,Female,True,False,False,V1,R,AM
+vumc00182,14064-PG-063,8744,U24_71,Caucasian,39,Not Hispanic,Female,True,False,False,V2,L,AM
+vumc00183,14064-PG-064,4042,U24_71,Caucasian,39,Not Hispanic,Female,True,False,False,V2,R,AM
+vumc00184,14064-PG-065,19224,U24_71,Caucasian,39,Not Hispanic,Female,True,False,False,V3,L,AM
+vumc00185,14064-PG-066,38952,U24_71,Caucasian,39,Not Hispanic,Female,True,False,False,V3,R,AM
+vumc00186,14064-PG-067,121138,U24_72,Caucasian,39,Not Hispanic,Female,False,True,False,V1,L,
+vumc00187,14064-PG-068,27050,U24_72,Caucasian,39,Not Hispanic,Female,False,True,False,V1,R,
+vumc00188,14064-PG-069,81384,U24_72,Caucasian,39,Not Hispanic,Female,False,True,False,V2,L,PM
+vumc00189,14064-PG-071,41364,U24_72,Caucasian,39,Not Hispanic,Female,False,True,False,V3,L,AM
+vumc00190,14064-PG-072,79990,U24_72,Caucasian,39,Not Hispanic,Female,False,True,False,V3,R,AM
+vumc00191,14064-PG-073,23520,U24_73,Caucasian,28,Not Hispanic,Female,False,False,False,V1,L,PM
+vumc00192,14064-PG-074,10254,U24_73,Caucasian,28,Not Hispanic,Female,False,False,False,V1,R,PM
+vumc00193,14064-PG-075,75172,U24_73,Caucasian,28,Not Hispanic,Female,False,False,False,V2,L,AM
+vumc00194,14064-PG-076,71856,U24_73,Caucasian,28,Not Hispanic,Female,False,False,False,V2,R,AM
+vumc00195,14064-PG-077,42956,U24_73,Caucasian,28,Not Hispanic,Female,False,False,False,V3,L,PM
+vumc00196,14064-PG-078,66532,U24_73,Caucasian,28,Not Hispanic,Female,False,False,False,V3,R,PM
+vumc00197,14064-PG-079,5640,U24_74,African American,40,Not Hispanic,Female,False,False,False,V1,L,AM
+vumc00198,14064-PG-080,92118,U24_74,African American,40,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00199,14064-PG-082,260514,U24_74,African American,40,Not Hispanic,Female,False,False,False,V2,R,AM
+vumc00200,14064-PG-083,3528,U24_74,African American,40,Not Hispanic,Female,False,False,False,V3,L,PM
+vumc00201,14064-PG-084,92134,U24_74,African American,40,Not Hispanic,Female,False,False,False,V3,R,PM
+vumc00202,14064-PG-085,9586,U24_102,Caucasian,59,Not Hispanic,Male,False,True,False,V1,L,
+vumc00203,14064-PG-086,11638,U24_102,Caucasian,59,Not Hispanic,Male,False,True,False,V1,R,
+vumc00204,14064-PG-087,2596,U24_102,Caucasian,59,Not Hispanic,Male,False,True,False,V2,L,AM
+vumc00205,14064-PG-088,9176,U24_102,Caucasian,59,Not Hispanic,Male,False,True,False,V2,R,AM
+vumc00206,14064-PG-089,63780,U24_102,Caucasian,59,Not Hispanic,Male,False,True,False,V3,L,AM
+vumc00207,14064-PG-090,51628,U24_102,Caucasian,59,Not Hispanic,Male,False,True,False,V3,R,AM
+vumc00208,14064-PG-092,9426,,,,,,,,,,,
+vumc00209,14064-PG-094,4292,,,,,,,,,,,
+vumc00210,14064-PG-095,6978,U24_108,Asian,34,Not Hispanic,Male,False,False,False,V1,L,
+vumc00211,14064-PG-096,1024,U24_108,Asian,34,Not Hispanic,Male,False,False,False,V1,R,
+vumc00212,14064-PG-097,6162,U24_108,Asian,34,Not Hispanic,Male,False,False,False,V2,L,AM
+vumc00213,14064-PG-098,4920,U24_108,Asian,34,Not Hispanic,Male,False,False,False,V2,R,AM
+vumc00214,14064-PG-099,31196,U24_108,Asian,34,Not Hispanic,Male,False,False,False,V3,L,AM
+vumc00215,14064-PG-100,25036,U24_108,Asian,34,Not Hispanic,Male,False,False,False,V3,R,AM
+vumc00216,14064-PG-101,1852,U24_111,Caucasian,26,Not Hispanic,Male,False,False,False,V1,L,
+vumc00217,14064-PG-102,18264,U24_111,Caucasian,26,Not Hispanic,Male,False,False,False,V1,R,
+vumc00218,14064-PG-103,160720,U24_111,Caucasian,26,Not Hispanic,Male,False,False,False,V2,L,AM
+vumc00219,14064-PG-104,25496,U24_111,Caucasian,26,Not Hispanic,Male,False,False,False,V2,R,AM
+vumc00220,14064-PG-107,47336,U24_75,African American,47,Not Hispanic,Female,True,False,False,V1,L,PM
+vumc00221,14064-PG-108,56576,U24_75,African American,47,Not Hispanic,Female,True,False,False,V1,R,PM
+vumc00222,14064-PG-109,8840,U24_75,African American,47,Not Hispanic,Female,True,False,False,V2,L,PM
+vumc00223,14064-PG-110,82824,U24_75,African American,47,Not Hispanic,Female,True,False,False,V2,R,PM
+vumc00224,14064-PG-111,1786,U24_75,African American,47,Not Hispanic,Female,True,False,False,V3,L,AM
+vumc00225,14064-PG-112,4104,U24_75,African American,47,Not Hispanic,Female,True,False,False,V3,R,AM
+vumc00226,14064-PG-113,3140,U24_76,Other,47,Hispanic,Female,True,True,False,V1,L,PM
+vumc00227,14064-PG-114,13010,U24_76,Other,47,Hispanic,Female,True,True,False,V1,R,PM
+vumc00228,14064-PG-115,4120,U24_76,Other,47,Hispanic,Female,True,True,False,V2,L,PM
+vumc00229,14064-PG-116,110700,U24_76,Other,47,Hispanic,Female,True,True,False,V2,R,PM
+vumc00230,14064-PG-117,3296,U24_76,Other,47,Hispanic,Female,True,True,False,V3,L,AM
+vumc00231,14064-PG-118,1656,U24_76,Other,47,Hispanic,Female,True,True,False,V3,R,AM
+vumc00232,14064-PG-119,2506,U24_77,Other,39,Hispanic,Female,False,True,False,V1,L,PM
+vumc00233,14064-PG-120,4480,U24_77,Other,39,Hispanic,Female,False,True,False,V1,R,PM
+vumc00234,14064-PG-121,21906,U24_77,Other,39,Hispanic,Female,False,True,False,V2,L,AM
+vumc00235,14064-PG-122,8050,U24_77,Other,39,Hispanic,Female,False,True,False,V2,R,AM
+vumc00236,14064-PG-123,8468,U24_77,Other,39,Hispanic,Female,False,True,False,V3,L,PM
+vumc00237,14064-PG-124,26006,U24_77,Other,39,Hispanic,Female,False,True,False,V3,R,PM
+vumc00238,14064-PG-125,51544,U24_78,Caucasian,38,Not Hispanic,Female,True,True,False,V1,L,AM
+vumc00239,14064-PG-126,34640,U24_78,Caucasian,38,Not Hispanic,Female,True,True,False,V1,R,AM
+vumc00240,14064-PG-127,56518,U24_78,Caucasian,38,Not Hispanic,Female,True,True,False,V2,L,AM
+vumc00241,14064-PG-129,6034,U24_78,Caucasian,38,Not Hispanic,Female,True,True,False,V3,L,AM
+vumc00242,14064-PG-130,1540,U24_78,Caucasian,38,Not Hispanic,Female,True,True,False,V3,R,AM
+vumc00243,14064-PG-131,11108,U24_79,African American,33,Not Hispanic,Female,True,True,False,V1,L,AM
+vumc00244,14064-PG-132,92712,U24_79,African American,33,Not Hispanic,Female,True,True,False,V1,R,AM
+vumc00245,14064-PG-134,28786,U24_79,African American,33,Not Hispanic,Female,True,True,False,V2,R,PM
+vumc00246,14064-PG-135,9880,U24_79,African American,33,Not Hispanic,Female,True,True,False,V3,L,AM
+vumc00247,14064-PG-136,9114,U24_79,African American,33,Not Hispanic,Female,True,True,False,V3,R,AM
+vumc00248,14064-PG-137,34510,U24_112,Caucasian,27,Hispanic,Male,False,True,False,V1,L,PM
+vumc00249,14064-PG-138,81870,U24_112,Caucasian,27,Hispanic,Male,False,True,False,V1,R,PM
+vumc00250,14064-PG-139,4344,U24_112,Caucasian,27,Hispanic,Male,False,True,False,V2,L,PM
+vumc00251,14064-PG-140,9702,U24_112,Caucasian,27,Hispanic,Male,False,True,False,V2,R,PM
+vumc00252,14064-PG-141,45886,U24_112,Caucasian,27,Hispanic,Male,False,True,False,V3,L,PM
+vumc00253,14064-PG-142,140392,U24_112,Caucasian,27,Hispanic,Male,False,True,False,V3,R,PM
+vumc00254,14064-PG-143,5078,U24_113,Caucasian,34,Not Hispanic,Male,True,False,False,V1,L,PM
+vumc00255,14064-PG-144,6946,U24_113,Caucasian,34,Not Hispanic,Male,True,False,False,V1,R,PM
+vumc00256,14064-PG-145,71140,U24_113,Caucasian,34,Not Hispanic,Male,True,False,False,V2,L,PM
+vumc00257,14064-PG-146,43090,U24_113,Caucasian,34,Not Hispanic,Male,True,False,False,V2,R,PM
+vumc00258,14064-PG-147,101472,U24_113,Caucasian,34,Not Hispanic,Male,True,False,False,V3,L,PM
+vumc00259,14064-PG-149,27758,U24_128,Caucasian,22,Not Hispanic,Male,False,True,False,V1,L,
+vumc00260,14064-PG-150,127460,U24_128,Caucasian,22,Not Hispanic,Male,False,True,False,V1,R,
+vumc00261,14064-PG-151,29180,U24_128,Caucasian,22,Not Hispanic,Male,False,True,False,V2,L,AM
+vumc00262,14064-PG-152,32976,U24_128,Caucasian,22,Not Hispanic,Male,False,True,False,V2,R,AM
+vumc00263,14064-PG-153,1210,U24_128,Caucasian,22,Not Hispanic,Male,False,True,False,V3,L,PM
+vumc00264,14064-PG-155,6678,U24_132,Caucasian,27,Not Hispanic,Male,True,False,False,V1,L,
+vumc00265,14064-PG-156,101992,U24_132,Caucasian,27,Not Hispanic,Male,True,False,False,V1,R,
+vumc00266,14064-PG-157,40886,U24_132,Caucasian,27,Not Hispanic,Male,True,False,False,V2,L,AM
+vumc00267,14064-PG-158,30508,U24_132,Caucasian,27,Not Hispanic,Male,True,False,False,V2,R,AM
+vumc00268,14064-PG-161,2652,U24_80,Caucasian,26,Not Hispanic,Female,False,True,False,V1,L,PM
+vumc00269,14064-PG-162,9932,U24_80,Caucasian,26,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00270,14064-PG-163,307114,U24_80,Caucasian,26,Not Hispanic,Female,False,True,False,V2,L,AM
+vumc00271,14064-PG-164,140418,U24_80,Caucasian,26,Not Hispanic,Female,False,True,False,V2,R,AM
+vumc00272,14064-PG-165,5654,U24_80,Caucasian,26,Not Hispanic,Female,False,True,False,V3,L,PM
+vumc00273,14064-PG-166,13802,U24_80,Caucasian,26,Not Hispanic,Female,False,True,False,V3,R,PM
+vumc00274,14064-PG-167,30460,U24_81,Caucasian,52,Not Hispanic,Female,False,True,False,V1,L,PM
+vumc00275,14064-PG-168,4606,U24_81,Caucasian,52,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00276,14064-PG-169,47266,U24_81,Caucasian,52,Not Hispanic,Female,False,True,False,V2,L,PM
+vumc00277,14064-PG-170,33966,U24_81,Caucasian,52,Not Hispanic,Female,False,True,False,V2,R,PM
+vumc00278,14064-PG-171,59494,U24_81,Caucasian,52,Not Hispanic,Female,False,True,False,V3,L,PM
+vumc00279,14064-PG-172,9164,U24_81,Caucasian,52,Not Hispanic,Female,False,True,False,V3,R,PM
+vumc00280,14064-PG-173,1988,U24_82,Other,0,Hispanic,Female,False,False,False,V1,L,PM
+vumc00281,14064-PG-174,3708,U24_82,Other,0,Hispanic,Female,False,False,False,V1,R,PM
+vumc00282,14064-PG-175,15858,U24_82,Other,0,Hispanic,Female,False,False,False,V2,L,PM
+vumc00283,14064-PG-176,530,U24_82,Other,0,Hispanic,Female,False,False,False,V2,R,PM
+vumc00284,14064-PG-177,89338,U24_82,Other,0,Hispanic,Female,False,False,False,V3,L,PM
+vumc00285,14064-PG-178,91428,U24_82,Other,0,Hispanic,Female,False,False,False,V3,R,PM
+vumc00286,14064-PG-179,24962,U24_136,Caucasian,64,Not Hispanic,Male,False,False,False,V1,L,
+vumc00287,14064-PG-180,23782,U24_136,Caucasian,64,Not Hispanic,Male,False,False,False,V1,R,
+vumc00288,14064-PG-181,33246,U24_136,Caucasian,64,Not Hispanic,Male,False,False,False,V2,L,AM
+vumc00289,14064-PG-182,88006,U24_136,Caucasian,64,Not Hispanic,Male,False,False,False,V2,R,AM
+vumc00290,14064-PG-183,6406,U24_136,Caucasian,64,Not Hispanic,Male,False,False,False,V3,L,AM
+vumc00291,14064-PG-184,2562,U24_136,Caucasian,64,Not Hispanic,Male,False,False,False,V3,R,AM
+vumc00292,14064-PG-185,69930,,,,,,,,,,,
+vumc00293,14064-PG-186,6154,,,,,,,,,,,
+vumc00294,14064-PG-187,5298,,,,,,,,,,,
+vumc00295,14064-PG-188,612,,,,,,,,,,,
+vumc00296,14142-PG-001,58920,U24_138,African American,26,Not Hispanic,Male,False,False,False,V1,L,AM
+vumc00297,14142-PG-002,20696,U24_138,African American,26,Not Hispanic,Male,False,False,False,V1,R,AM
+vumc00298,14142-PG-003,2182,U24_138,African American,26,Not Hispanic,Male,False,False,False,V2,L,
+vumc00299,14142-PG-004,3764,U24_138,African American,26,Not Hispanic,Male,False,False,False,V2,R,
+vumc00300,14142-PG-007,3350,U24_147,Caucasian,50,Not Hispanic,Male,True,True,False,V1,L,AM
+vumc00301,14142-PG-008,2792,U24_147,Caucasian,50,Not Hispanic,Male,True,True,False,V1,R,AM
+vumc00302,14142-PG-009,60266,U24_147,Caucasian,50,Not Hispanic,Male,True,True,False,V2,L,AM
+vumc00303,14142-PG-010,4120,,,,,,,,,,,
+vumc00304,14142-PG-011,75296,U24_147,Caucasian,50,Not Hispanic,Male,True,True,False,V2,R,AM
+vumc00305,14142-PG-012,25472,U24_147,Caucasian,50,Not Hispanic,Male,True,True,False,V3,L,AM
+vumc00306,14142-PG-013,37910,U24_147,Caucasian,50,Not Hispanic,Male,True,True,False,V3,R,AM
+vumc00307,14142-PG-014,7394,U24_148,Asian,22,Not Hispanic,Male,False,False,False,V1,L,AM
+vumc00308,14142-PG-015,2102,U24_148,Asian,22,Not Hispanic,Male,False,False,False,V1,R,AM
+vumc00309,14142-PG-016,2398,U24_148,Asian,22,Not Hispanic,Male,False,False,False,V2,L,AM
+vumc00310,14142-PG-017,5914,U24_148,Asian,22,Not Hispanic,Male,False,False,False,V2,R,AM
+vumc00311,14142-PG-018,29426,U24_148,Asian,22,Not Hispanic,Male,False,False,False,V3,L,AM
+vumc00312,14142-PG-019,10266,U24_148,Asian,22,Not Hispanic,Male,False,False,False,V3,R,AM
+vumc00313,14142-PG-020,6012,U24_149,Caucasian,34,Not Hispanic,Female,True,False,False,V1,L,PM
+vumc00314,14142-PG-021,7302,U24_149,Caucasian,34,Not Hispanic,Female,True,False,False,V1,R,PM
+vumc00315,14142-PG-022,48172,U24_149,Caucasian,34,Not Hispanic,Female,True,False,False,V2,L,
+vumc00316,14142-PG-023,20384,U24_149,Caucasian,34,Not Hispanic,Female,True,False,False,V2,R,
+vumc00317,14142-PG-024,72624,U24_149,Caucasian,34,Not Hispanic,Female,True,False,False,V3,L,AM
+vumc00318,14142-PG-026,52434,U24_149,Caucasian,34,Not Hispanic,Female,True,False,False,V3,R,AM
+vumc00319,14142-PG-027,416,U24_150,Caucasian,30,Not Hispanic,Male,True,True,False,V1,L,PM
+vumc00320,14142-PG-028,956,U24_150,Caucasian,30,Not Hispanic,Male,True,True,False,V1,R,PM
+vumc00321,14142-PG-029,45238,U24_150,Caucasian,30,Not Hispanic,Male,True,True,False,V2,L,PM
+vumc00322,14142-PG-030,22336,U24_150,Caucasian,30,Not Hispanic,Male,True,True,False,V2,R,PM
+vumc00323,14142-PG-031,58118,U24_150,Caucasian,30,Not Hispanic,Male,True,True,False,V3,L,PM
+vumc00324,14142-PG-032,20098,U24_150,Caucasian,30,Not Hispanic,Male,True,True,False,V3,R,PM
+vumc00325,14142-PG-033,2402,U24_152,American Indian,26,Hispanic,Female,True,False,False,V1,L,PM
+vumc00326,14142-PG-034,6602,U24_152,American Indian,26,Hispanic,Female,True,False,False,V1,R,PM
+vumc00327,14142-PG-035,5040,U24_152,American Indian,26,Hispanic,Female,True,False,False,V2,L,AM
+vumc00328,14142-PG-036,1850,U24_152,American Indian,26,Hispanic,Female,True,False,False,V2,R,AM
+vumc00329,14142-PG-037,29924,U24_152,American Indian,26,Hispanic,Female,True,False,False,V3,L,PM
+vumc00330,14142-PG-038,59730,U24_152,American Indian,26,Hispanic,Female,True,False,False,V3,R,PM
+vumc00331,14142-PG-039,2222,U24_84,Caucasian,28,Not Hispanic,Female,False,True,False,V1,L,PM
+vumc00332,14142-PG-041,1924,U24_84,Caucasian,28,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00333,14142-PG-042,19858,U24_84,Caucasian,28,Not Hispanic,Female,False,True,False,V2,L,PM
+vumc00334,14142-PG-043,28952,U24_84,Caucasian,28,Not Hispanic,Female,False,True,False,V2,R,PM
+vumc00335,14142-PG-044,332,U24_84,Caucasian,28,Not Hispanic,Female,False,True,False,V3,L,PM
+vumc00336,14142-PG-045,8968,U24_84,Caucasian,28,Not Hispanic,Female,False,True,False,V3,R,PM
+vumc00337,14142-PG-046,6968,U24_85,Asian,22,Not Hispanic,Female,False,True,False,V1,L,PM
+vumc00338,14142-PG-047,2114,U24_85,Asian,22,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00339,14142-PG-048,8360,U24_85,Asian,22,Not Hispanic,Female,False,True,False,V2,L,PM
+vumc00340,14142-PG-049,10678,U24_85,Asian,22,Not Hispanic,Female,False,True,False,V2,R,PM
+vumc00341,14142-PG-050,1730,U24_85,Asian,22,Not Hispanic,Female,False,True,False,V3,L,PM
+vumc00342,14142-PG-051,1894,U24_85,Asian,22,Not Hispanic,Female,False,True,False,V3,R,PM
+vumc00343,14142-PG-052,17218,U24_86,African American,43,Not Hispanic,Female,False,True,False,V1,L,AM
+vumc00344,14142-PG-053,15342,U24_86,African American,43,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00345,14142-PG-054,19172,U24_86,African American,43,Not Hispanic,Female,False,True,False,V2,L,PM
+vumc00346,14142-PG-055,52964,U24_86,African American,43,Not Hispanic,Female,False,True,False,V2,R,PM
+vumc00347,14142-PG-056,28760,U24_86,African American,43,Not Hispanic,Female,False,True,False,V3,L,PM
+vumc00348,14142-PG-057,4772,,,,,,,,,,,
+vumc00349,14142-PG-058,41318,U24_86,African American,43,Not Hispanic,Female,False,True,False,V3,R,PM
+vumc00350,14142-PG-059,15252,U24_87,Caucasian,33,Not Hispanic,Female,False,True,False,V1,L,AM
+vumc00351,14142-PG-060,15802,U24_87,Caucasian,33,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00352,14142-PG-061,10678,U24_87,Caucasian,33,Not Hispanic,Female,False,True,False,V2,L,AM
+vumc00353,14142-PG-062,40920,U24_87,Caucasian,33,Not Hispanic,Female,False,True,False,V2,R,AM
+vumc00354,14142-PG-063,2254,U24_87,Caucasian,33,Not Hispanic,Female,False,True,False,V3,L,PM
+vumc00355,14142-PG-064,5822,U24_87,Caucasian,33,Not Hispanic,Female,False,True,False,V3,R,PM
+vumc00356,14142-PG-065,13916,U24_88,African American,23,Not Hispanic,Female,False,True,False,V1,L,AM
+vumc00357,14142-PG-066,5130,U24_88,African American,23,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00358,14142-PG-067,19318,U24_88,African American,23,Not Hispanic,Female,False,True,False,V2,L,PM
+vumc00359,14142-PG-068,20224,U24_88,African American,23,Not Hispanic,Female,False,True,False,V2,R,PM
+vumc00360,14142-PG-069,448,U24_88,African American,23,Not Hispanic,Female,False,True,False,V3,L,AM
+vumc00361,14142-PG-070,338,U24_88,African American,23,Not Hispanic,Female,False,True,False,V3,R,AM
+vumc00362,14142-PG-071,2718,U24_89,Caucasian,61,Not Hispanic,Female,False,True,False,V1,L,AM
+vumc00363,14142-PG-072,4138,U24_89,Caucasian,61,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00364,14142-PG-073,4230,U24_89,Caucasian,61,Not Hispanic,Female,False,True,False,V2,L,
+vumc00365,14142-PG-074,24332,U24_89,Caucasian,61,Not Hispanic,Female,False,True,False,V2,R,
+vumc00366,14142-PG-075,1530,U24_89,Caucasian,61,Not Hispanic,Female,False,True,False,V3,L,AM
+vumc00367,14142-PG-076,27676,U24_89,Caucasian,61,Not Hispanic,Female,False,True,False,V3,R,AM
+vumc00368,14142-PG-077,118300,U24_92,Caucasian,40,Not Hispanic,Female,True,False,False,V1,L,AM
+vumc00369,14142-PG-078,430198,U24_92,Caucasian,40,Not Hispanic,Female,True,False,False,V1,R,AM
+vumc00370,14142-PG-079,7658,U24_92,Caucasian,40,Not Hispanic,Female,True,False,False,V2,L,PM
+vumc00371,14142-PG-080,19834,U24_92,Caucasian,40,Not Hispanic,Female,True,False,False,V2,R,PM
+vumc00372,14142-PG-081,2988,U24_92,Caucasian,40,Not Hispanic,Female,True,False,False,V3,L,AM
+vumc00373,14142-PG-082,1942,U24_92,Caucasian,40,Not Hispanic,Female,True,False,False,V3,R,AM
+vumc00374,14142-PG-083,34966,U24_94,Not Reported,63,Unknown/Not Reported,Female,False,True,False,V1,L,AM
+vumc00375,14142-PG-084,38772,U24_94,Not Reported,63,Unknown/Not Reported,Female,False,True,False,V1,R,AM
+vumc00376,14142-PG-085,20516,U24_94,Not Reported,63,Unknown/Not Reported,Female,False,True,False,V2,L,PM
+vumc00377,14142-PG-087,57238,U24_94,Not Reported,63,Unknown/Not Reported,Female,False,True,False,V3,L,PM
+vumc00378,14142-PG-088,11940,U24_94,Not Reported,63,Unknown/Not Reported,Female,False,True,False,V3,R,PM
+vumc00379,14142-PG-089,40536,U24_95,Caucasian,31,Not Hispanic,Female,False,False,False,V1,L,AM
+vumc00380,14142-PG-090,51664,U24_95,Caucasian,31,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00381,14142-PG-091,127226,U24_95,Caucasian,31,Not Hispanic,Female,False,False,False,V2,L,
+vumc00382,14142-PG-092,66574,U24_95,Caucasian,31,Not Hispanic,Female,False,False,False,V2,R,
+vumc00383,14142-PG-093,14572,U24_95,Caucasian,31,Not Hispanic,Female,False,False,False,V3,L,PM
+vumc00384,14142-PG-094,16668,U24_95,Caucasian,31,Not Hispanic,Female,False,False,False,V3,R,PM
+vumc00385,14142-PG-095,1432,U24_96,Caucasian,34,Not Hispanic,Female,False,True,False,V1,L,PM
+vumc00386,14142-PG-096,2846,U24_96,Caucasian,34,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00387,14142-PG-097,68938,U24_96,Caucasian,34,Not Hispanic,Female,False,True,False,V2,L,AM
+vumc00388,14142-PG-098,5998,U24_96,Caucasian,34,Not Hispanic,Female,False,True,False,V2,R,AM
+vumc00389,14142-PG-099,16240,U24_96,Caucasian,34,Not Hispanic,Female,False,True,False,V3,L,AM
+vumc00390,14142-PG-100,6280,U24_96,Caucasian,34,Not Hispanic,Female,False,True,False,V3,R,AM
+vumc00391,14142-PG-101,8484,U24_153,Asian,26,Not Hispanic,Male,False,False,True,V1,L,
+vumc00392,14142-PG-102,4240,U24_153,Asian,26,Not Hispanic,Male,False,False,True,V1,R,
+vumc00393,14142-PG-103,22572,U24_153,Asian,26,Not Hispanic,Male,False,False,True,V2,L,AM
+vumc00394,14142-PG-104,44152,U24_153,Asian,26,Not Hispanic,Male,False,False,True,V2,R,AM
+vumc00395,14142-PG-105,34766,U24_153,Asian,26,Not Hispanic,Male,False,False,True,V3,L,AM
+vumc00396,14142-PG-106,2764,,,,,,,,,,,
+vumc00397,14142-PG-107,68370,U24_153,Asian,26,Not Hispanic,Male,False,False,True,V3,R,AM
+vumc00398,14142-PG-108,2712,U24_156,Other,47,Not Hispanic,Male,False,False,False,V1,L,PM
+vumc00399,14142-PG-109,2422,U24_156,Other,47,Not Hispanic,Male,False,False,False,V1,R,PM
+vumc00400,14142-PG-110,2266,U24_156,Other,47,Not Hispanic,Male,False,False,False,V2,L,PM
+vumc00401,14142-PG-111,1940,U24_156,Other,47,Not Hispanic,Male,False,False,False,V2,R,PM
+vumc00402,14142-PG-112,78078,U24_156,Other,47,Not Hispanic,Male,False,False,False,V3,L,PM
+vumc00403,14142-PG-113,61014,U24_156,Other,47,Not Hispanic,Male,False,False,False,V3,R,PM
+vumc00404,14142-PG-114,17402,U24_169,Caucasian,27,Not Hispanic,Male,False,False,False,V1,L,AM
+vumc00405,14142-PG-115,4106,U24_169,Caucasian,27,Not Hispanic,Male,False,False,False,V1,R,AM
+vumc00406,14142-PG-116,10914,U24_169,Caucasian,27,Not Hispanic,Male,False,False,False,V2,L,AM
+vumc00407,14142-PG-117,25318,U24_169,Caucasian,27,Not Hispanic,Male,False,False,False,V2,R,AM
+vumc00408,14142-PG-118,16198,U24_169,Caucasian,27,Not Hispanic,Male,False,False,False,V3,L,AM
+vumc00409,14142-PG-119,15886,U24_169,Caucasian,27,Not Hispanic,Male,False,False,False,V3,R,AM
+vumc00410,14142-PG-120,9400,U24_170,Caucasian,24,Not Hispanic,Male,False,False,False,V1,L,AM
+vumc00411,14142-PG-121,11412,U24_170,Caucasian,24,Not Hispanic,Male,False,False,False,V1,R,AM
+vumc00412,14142-PG-122,7210,,,,,,,,,,,
+vumc00413,14142-PG-123,108382,U24_170,Caucasian,24,Not Hispanic,Male,False,False,False,V2,L,AM
+vumc00414,14142-PG-124,24024,U24_170,Caucasian,24,Not Hispanic,Male,False,False,False,V2,R,AM
+vumc00415,14142-PG-125,80314,U24_170,Caucasian,24,Not Hispanic,Male,False,False,False,V3,L,AM
+vumc00416,14142-PG-126,112438,U24_170,Caucasian,24,Not Hispanic,Male,False,False,False,V3,R,AM
+vumc00417,14142-PG-127,12994,U24_173,Asian,38,Not Hispanic,Male,False,False,False,V1,L,PM
+vumc00418,14142-PG-128,29108,U24_173,Asian,38,Not Hispanic,Male,False,False,False,V1,R,PM
+vumc00419,14142-PG-129,15654,U24_173,Asian,38,Not Hispanic,Male,False,False,False,V2,L,PM
+vumc00420,14142-PG-130,130008,U24_173,Asian,38,Not Hispanic,Male,False,False,False,V2,R,PM
+vumc00421,14142-PG-131,7254,U24_173,Asian,38,Not Hispanic,Male,False,False,False,V3,L,PM
+vumc00422,14142-PG-132,11124,U24_173,Asian,38,Not Hispanic,Male,False,False,False,V3,R,PM
+vumc00423,14142-PG-133,127164,U24_179,Other,34,Not Hispanic,Male,False,False,False,V1,L,PM
+vumc00424,14142-PG-134,3632,U24_179,Other,34,Not Hispanic,Male,False,False,False,V1,R,PM
+vumc00425,14142-PG-135,12638,U24_179,Other,34,Not Hispanic,Male,False,False,False,V2,L,PM
+vumc00426,14142-PG-136,17296,U24_179,Other,34,Not Hispanic,Male,False,False,False,V2,R,PM
+vumc00427,14142-PG-137,26736,U24_179,Other,34,Not Hispanic,Male,False,False,False,V3,L,PM
+vumc00428,14142-PG-139,17530,U24_179,Other,34,Not Hispanic,Male,False,False,False,V3,R,PM
+vumc00429,14142-PG-140,7794,U24_183,Caucasian,25,Not Hispanic,Male,False,True,False,V1,L,AM
+vumc00430,14142-PG-141,11378,U24_183,Caucasian,25,Not Hispanic,Male,False,True,False,V1,R,AM
+vumc00431,14142-PG-142,5268,U24_183,Caucasian,25,Not Hispanic,Male,False,True,False,V2,L,AM
+vumc00432,14142-PG-143,13154,U24_183,Caucasian,25,Not Hispanic,Male,False,True,False,V2,R,AM
+vumc00433,14142-PG-144,6798,U24_183,Caucasian,25,Not Hispanic,Male,False,True,False,V3,L,PM
+vumc00434,14142-PG-145,8678,U24_183,Caucasian,25,Not Hispanic,Male,False,True,False,V3,R,PM
+vumc00435,14142-PG-146,22410,U24_191,Other,38,Not Hispanic,Male,False,False,False,V1,L,AM
+vumc00436,14142-PG-147,15036,U24_191,Other,38,Not Hispanic,Male,False,False,False,V1,R,AM
+vumc00437,14142-PG-148,8582,U24_191,Other,38,Not Hispanic,Male,False,False,False,V2,L,PM
+vumc00438,14142-PG-149,11504,U24_191,Other,38,Not Hispanic,Male,False,False,False,V2,R,PM
+vumc00439,14142-PG-150,14226,U24_191,Other,38,Not Hispanic,Male,False,False,False,V3,L,AM
+vumc00440,14142-PG-151,9874,U24_191,Other,38,Not Hispanic,Male,False,False,False,V3,R,AM
+vumc00441,14142-PG-152,84544,U24_195,Other,27,Not Hispanic,Male,False,False,False,V1,L,PM
+vumc00442,14142-PG-153,30192,U24_195,Other,27,Not Hispanic,Male,False,False,False,V1,R,PM
+vumc00443,14142-PG-154,9442,,,,,,,,,,,
+vumc00444,14142-PG-155,12654,U24_195,Other,27,Not Hispanic,Male,False,False,False,V2,L,PM
+vumc00445,14142-PG-156,35560,U24_195,Other,27,Not Hispanic,Male,False,False,False,V2,R,PM
+vumc00446,14142-PG-157,58976,U24_195,Other,27,Not Hispanic,Male,False,False,False,V3,L,PM
+vumc00447,14142-PG-158,294116,U24_195,Other,27,Not Hispanic,Male,False,False,False,V3,R,PM
+vumc00448,14252-PG-001,2862,U24_97,Other,58,Not Hispanic,Female,True,False,False,V1,L,PM
+vumc00449,14252-PG-002,4680,U24_97,Other,58,Not Hispanic,Female,True,False,False,V1,R,PM
+vumc00450,14252-PG-003,49510,U24_97,Other,58,Not Hispanic,Female,True,False,False,V2,L,AM
+vumc00451,14252-PG-004,103274,U24_97,Other,58,Not Hispanic,Female,True,False,False,V2,R,AM
+vumc00452,14252-PG-005,145458,U24_97,Other,58,Not Hispanic,Female,True,False,False,V3,L,PM
+vumc00453,14252-PG-007,10228,U24_98,Caucasian,43,Not Hispanic,Female,True,True,False,V1,L,AM
+vumc00454,14252-PG-008,15420,U24_98,Caucasian,43,Not Hispanic,Female,True,True,False,V1,R,AM
+vumc00455,14252-PG-009,47496,U24_98,Caucasian,43,Not Hispanic,Female,True,True,False,V2,L,AM
+vumc00456,14252-PG-010,100198,U24_98,Caucasian,43,Not Hispanic,Female,True,True,False,V2,R,AM
+vumc00457,14252-PG-011,227318,U24_98,Caucasian,43,Not Hispanic,Female,True,True,False,V3,L,AM
+vumc00458,14252-PG-012,160844,U24_98,Caucasian,43,Not Hispanic,Female,True,True,False,V3,R,AM
+vumc00459,14252-PG-013,5424,U24_103,Other,33,Hispanic,Female,True,True,False,V1,L,
+vumc00460,14252-PG-014,7124,U24_103,Other,33,Hispanic,Female,True,True,False,V1,R,
+vumc00461,14252-PG-015,36938,U24_103,Other,33,Hispanic,Female,True,True,False,V2,L,
+vumc00462,14252-PG-016,17614,U24_103,Other,33,Hispanic,Female,True,True,False,V2,R,
+vumc00463,14252-PG-017,60278,U24_103,Other,33,Hispanic,Female,True,True,False,V3,L,PM
+vumc00464,14252-PG-018,137496,U24_103,Other,33,Hispanic,Female,True,True,False,V3,R,PM
+vumc00465,14252-PG-019,21280,U24_109,Other,21,Not Hispanic,Female,True,False,True,V1,L,AM
+vumc00466,14252-PG-020,245066,U24_109,Other,21,Not Hispanic,Female,True,False,True,V1,R,AM
+vumc00467,14252-PG-021,51372,U24_109,Other,21,Not Hispanic,Female,True,False,True,V2,L,PM
+vumc00468,14252-PG-022,175414,U24_109,Other,21,Not Hispanic,Female,True,False,True,V2,R,PM
+vumc00469,14252-PG-023,5594,U24_109,Other,21,Not Hispanic,Female,True,False,True,V3,L,PM
+vumc00470,14252-PG-024,3376,U24_109,Other,21,Not Hispanic,Female,True,False,True,V3,R,PM
+vumc00471,14252-PG-025,53244,U24_110,Caucasian,49,Not Hispanic,Female,True,True,False,V1,L,AM
+vumc00472,14252-PG-026,54560,U24_110,Caucasian,49,Not Hispanic,Female,True,True,False,V1,R,AM
+vumc00473,14252-PG-027,5172,U24_110,Caucasian,49,Not Hispanic,Female,True,True,False,V2,L,PM
+vumc00474,14252-PG-028,5424,U24_110,Caucasian,49,Not Hispanic,Female,True,True,False,V2,R,PM
+vumc00475,14252-PG-029,114880,U24_110,Caucasian,49,Not Hispanic,Female,True,True,False,V3,L,AM
+vumc00476,14252-PG-030,96974,U24_110,Caucasian,49,Not Hispanic,Female,True,True,False,V3,R,AM
+vumc00477,14252-PG-031,19968,U24_114,Caucasian,30,Not Hispanic,Female,True,True,False,V1,L,PM
+vumc00478,14252-PG-032,11716,U24_114,Caucasian,30,Not Hispanic,Female,True,True,False,V1,R,PM
+vumc00479,14252-PG-033,26754,U24_114,Caucasian,30,Not Hispanic,Female,True,True,False,V2,L,AM
+vumc00480,14252-PG-034,48628,U24_114,Caucasian,30,Not Hispanic,Female,True,True,False,V2,R,AM
+vumc00481,14252-PG-035,10386,U24_114,Caucasian,30,Not Hispanic,Female,True,True,False,V3,L,AM
+vumc00482,14252-PG-036,37416,U24_114,Caucasian,30,Not Hispanic,Female,True,True,False,V3,R,AM
+vumc00483,14252-PG-038,37522,U24_122,Caucasian,29,Not Hispanic,Female,True,False,False,V1,L,AM
+vumc00484,14252-PG-039,17654,U24_122,Caucasian,29,Not Hispanic,Female,True,False,False,V1,R,AM
+vumc00485,14252-PG-040,11618,U24_122,Caucasian,29,Not Hispanic,Female,True,False,False,V2,L,AM
+vumc00486,14252-PG-041,7072,U24_122,Caucasian,29,Not Hispanic,Female,True,False,False,V2,R,AM
+vumc00487,14252-PG-042,50586,U24_122,Caucasian,29,Not Hispanic,Female,True,False,False,V3,L,AM
+vumc00488,14252-PG-043,18582,U24_122,Caucasian,29,Not Hispanic,Female,True,False,False,V3,R,AM
+vumc00489,14252-PG-044,16238,U24_127,Caucasian,32,Not Hispanic,Female,True,True,False,V1,L,AM
+vumc00490,14252-PG-045,54350,U24_127,Caucasian,32,Not Hispanic,Female,True,True,False,V1,R,AM
+vumc00491,14252-PG-046,76532,U24_127,Caucasian,32,Not Hispanic,Female,True,True,False,V2,L,AM
+vumc00492,14252-PG-047,53390,U24_127,Caucasian,32,Not Hispanic,Female,True,True,False,V2,R,AM
+vumc00493,14252-PG-048,1740,U24_127,Caucasian,32,Not Hispanic,Female,True,True,False,V3,L,AM
+vumc00494,14252-PG-049,2430,U24_127,Caucasian,32,Not Hispanic,Female,True,True,False,V3,R,AM
+vumc00495,14252-PG-050,7212,U24_141,Caucasian,46,Not Hispanic,Female,True,True,False,V1,L,AM
+vumc00496,14252-PG-051,12490,U24_141,Caucasian,46,Not Hispanic,Female,True,True,False,V1,R,AM
+vumc00497,14252-PG-052,48612,U24_141,Caucasian,46,Not Hispanic,Female,True,True,False,V2,L,AM
+vumc00498,14252-PG-053,37578,U24_141,Caucasian,46,Not Hispanic,Female,True,True,False,V2,R,AM
+vumc00499,14252-PG-054,22824,U24_141,Caucasian,46,Not Hispanic,Female,True,True,False,V3,L,AM
+vumc00500,14252-PG-055,295742,U24_141,Caucasian,46,Not Hispanic,Female,True,True,False,V3,R,AM
+vumc00501,14252-PG-056,1314,U24_154,Caucasian,33,Not Hispanic,Female,True,True,False,V1,L,
+vumc00502,14252-PG-057,4340,U24_154,Caucasian,33,Not Hispanic,Female,True,True,False,V1,R,
+vumc00503,14252-PG-058,32172,U24_154,Caucasian,33,Not Hispanic,Female,True,True,False,V2,L,PM
+vumc00504,14252-PG-059,20494,U24_154,Caucasian,33,Not Hispanic,Female,True,True,False,V2,R,PM
+vumc00505,14252-PG-060,20294,U24_154,Caucasian,33,Not Hispanic,Female,True,True,False,V3,L,PM
+vumc00506,14252-PG-061,214,U24_154,Caucasian,33,Not Hispanic,Female,True,True,False,V3,R,PM
+vumc00507,14252-PG-062,4848,,,,,,,,,,,
+vumc00508,14252-PG-063,53924,U24_163,Caucasian,25,Not Hispanic,Female,True,False,False,V1,L,PM
+vumc00509,14252-PG-064,22540,U24_163,Caucasian,25,Not Hispanic,Female,True,False,False,V1,R,PM
+vumc00510,14252-PG-065,29760,U24_163,Caucasian,25,Not Hispanic,Female,True,False,False,V2,L,PM
+vumc00511,14252-PG-066,8088,U24_163,Caucasian,25,Not Hispanic,Female,True,False,False,V2,R,PM
+vumc00512,14252-PG-067,4634,U24_163,Caucasian,25,Not Hispanic,Female,True,False,False,V3,L,AM
+vumc00513,14252-PG-068,9524,U24_163,Caucasian,25,Not Hispanic,Female,True,False,False,V3,R,AM
+vumc00514,14252-PG-069,10980,U24_181,Caucasian,38,Not Hispanic,Female,True,True,True,V1,L,PM
+vumc00515,14252-PG-070,23296,U24_181,Caucasian,38,Not Hispanic,Female,True,True,True,V1,R,PM
+vumc00516,14252-PG-071,8786,U24_181,Caucasian,38,Not Hispanic,Female,True,True,True,V2,L,PM
+vumc00517,14252-PG-072,58730,U24_181,Caucasian,38,Not Hispanic,Female,True,True,True,V2,R,PM
+vumc00518,14252-PG-073,34172,U24_181,Caucasian,38,Not Hispanic,Female,True,True,True,V3,L,AM
+vumc00519,14252-PG-074,14330,U24_181,Caucasian,38,Not Hispanic,Female,True,True,True,V3,R,AM
+vumc00520,14252-PG-075,3138,U24_67,Caucasian,61,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00521,14252-PG-076,6164,U24_99,Caucasian,27,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00522,14252-PG-077,4892,U24_104,Caucasian,63,Not Hispanic,Female,False,True,False,V1,R,
+vumc00523,14252-PG-078,9668,U24_107,Caucasian,24,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00524,14252-PG-079,5868,U24_116,Other,28,Hispanic,Female,False,True,False,V1,R,PM
+vumc00525,14252-PG-080,6602,U24_119,Asian,30,Not Hispanic,Female,False,False,False,V1,R,PM
+vumc00526,14252-PG-081,32020,U24_120,Caucasian,57,Not Hispanic,Female,False,True,True,V1,R,AM
+vumc00527,14252-PG-082,41134,U24_124,Caucasian,50,Unknown/Not Reported,Female,False,False,False,V1,R,
+vumc00528,14252-PG-083,15384,U24_125,Caucasian,54,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00529,14252-PG-084,49264,U24_129,African American,27,Not Hispanic,Female,False,False,False,V1,R,PM
+vumc00530,14252-PG-085,28632,U24_130,Asian,63,Not Hispanic,Female,False,False,False,V1,R,PM
+vumc00531,14252-PG-086,95010,U24_131,Caucasian,22,Hispanic,Female,False,False,False,V1,R,PM
+vumc00532,14252-PG-087,27088,U24_133,Caucasian,23,Hispanic,Female,False,False,False,V1,R,PM
+vumc00533,14252-PG-088,19994,U24_134,Asian,57,Not Hispanic,Female,False,False,False,V1,R,PM
+vumc00534,14252-PG-089,11498,U24_139,Asian,62,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00535,14252-PG-090,10048,U24_142,Asian,27,Not Hispanic,Female,True,False,False,V1,R,AM
+vumc00536,14252-PG-091,4674,U24_143,African American,66,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00537,14252-PG-092,6670,U24_144,Caucasian,57,Not Hispanic,Female,False,False,True,V1,R,AM
+vumc00538,14252-PG-093,3726,U24_146,Caucasian,23,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00539,14252-PG-094,16170,U24_151,Other,30,Hispanic,Female,False,False,False,V1,R,PM
+vumc00540,14252-PG-095,51584,U24_155,Caucasian,24,Not Hispanic,Female,False,False,False,V1,R,PM
+vumc00541,14252-PG-096,8204,U24_158,Caucasian,48,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00542,14252-PG-097,11714,U24_160,Caucasian,23,Hispanic,Female,False,False,False,V1,R,AM
+vumc00543,14252-PG-098,60404,U24_161,Asian,26,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00544,14252-PG-099,5174,U24_171,Asian,26,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00545,14252-PG-100,38526,U24_174,Caucasian,23,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00546,14252-PG-101,55468,U24_175,Caucasian,24,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00547,14252-PG-102,30370,U24_176,Caucasian,59,Not Hispanic,Female,False,False,False,V1,R,PM
+vumc00548,14252-PG-103,41084,U24_177,Caucasian,22,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00549,14252-PG-104,134056,U24_180,African American,29,Not Hispanic,Female,False,False,False,V1,R,PM
+vumc00550,14252-PG-105,21638,U24_182,Caucasian,25,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00551,14252-PG-106,4726,U24_184,Caucasian,29,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00552,14252-PG-107,5670,U24_185,Caucasian,29,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00553,14252-PG-108,5052,U24_186,Caucasian,51,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00554,14252-PG-109,26244,U24_187,Caucasian,62,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00555,14252-PG-110,63482,U24_188,African American,46,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00556,14252-PG-111,34646,U24_189,Asian,62,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00557,14252-PG-112,10786,,,,,,,,,,,
+vumc00558,14252-PG-113,33816,U24_190,Caucasian,25,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00559,14252-PG-114,44960,U24_193,Other,26,Not Hispanic,Female,False,True,False,V1,R,PM
+vumc00560,14252-PG-115,5476,U24_194,Other,22,Not Hispanic,Female,False,False,False,V1,R,PM
+vumc00561,14252-PG-116,45700,U24_196,Caucasian,30,Not Hispanic,Female,False,False,True,V1,R,AM
+vumc00562,14252-PG-117,4396,U24_197,Caucasian,61,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00563,14252-PG-118,23192,U24_198,Caucasian,22,Not Hispanic,Female,True,False,False,V1,R,AM
+vumc00564,14252-PG-119,58866,U24_202,Other,24,Not Hispanic,Male,False,False,False,V1,R,AM
+vumc00565,14252-PG-120,5700,U24_203,Asian,25,Not Hispanic,Male,False,False,False,V1,R,AM
+vumc00566,14252-PG-121,4892,U24_204,Caucasian,21,Not Hispanic,Male,False,False,False,V1,R,AM
+vumc00567,14252-PG-122,129468,U24_205,Caucasian,30,Not Hispanic,Male,False,False,False,V1,R,AM
+vumc00568,14252-PG-123,5056,U24_207,Caucasian,24,Not Hispanic,Male,False,False,False,V1,R,AM
+vumc00569,14252-PG-124,9218,U24_209,Caucasian,67,Not Hispanic,Male,False,False,False,V1,R,PM
+vumc00570,14252-PG-125,36488,U24_210,Caucasian,27,Not Hispanic,Male,False,False,False,V1,R,PM
+vumc00571,14252-PG-126,824,,,,,,,,,,,
+vumc00572,14252-PG-127,34522,U24_211,Caucasian,70,Not Hispanic,Male,False,False,False,V1,R,PM
+vumc00573,14252-PG-128,6450,U24_215,Caucasian,63,Not Hispanic,Male,False,True,False,V1,R,PM
+vumc00574,14252-PG-129,14286,U24_216,Caucasian,25,Not Hispanic,Male,False,False,False,V1,R,AM
+vumc00575,14252-PG-130,44862,U24_219,African American,21,Not Hispanic,Male,False,True,False,V1,R,PM
+vumc00576,14252-PG-131,56916,U24_220,African American,30,Not Hispanic,Male,False,False,False,V1,R,PM
+vumc00577,14252-PG-132,7016,U24_221,Caucasian,26,Not Hispanic,Male,False,False,False,V1,R,PM
+vumc00578,14252-PG-133,56816,U24_223,Other,30,Hispanic,Male,False,False,False,V1,R,AM
+vumc00579,14252-PG-134,178406,U24_225,Caucasian,68,Not Hispanic,Male,False,True,False,V1,R,PM
+vumc00580,14252-PG-135,28496,U24_226,Caucasian,28,Not Hispanic,Male,False,True,False,V1,R,PM
+vumc00581,14252-PG-136,7152,U24_227,Caucasian,46,Not Hispanic,Female,False,False,False,V1,R,PM
+vumc00582,O011,12902,V24_1,Other,33,Not Hispanic,Female,False,False,True,V1,L,
+vumc00583,O012,19192,U24_1,Other,33,Not Hispanic,Female,False,False,True,V2,L,AM
+vumc00584,O013,10322,V24_2,Asian,35,Not Hispanic,Female,False,False,False,V1,R,
+vumc00585,O014,19962,U24_2,Asian,35,Not Hispanic,Female,False,False,False,V2,R,AM
+vumc00586,O015,7286,V24_3,Caucasian,32,Not Hispanic,Female,False,True,False,V1,L,
+vumc00587,O016,30272,U24_3,Caucasian,32,Not Hispanic,Female,False,True,False,V2,L,AM
+vumc00588,O017,12110,V24_4,Caucasian,22,Not Hispanic,Female,False,False,False,V1,L,
+vumc00589,O018,21146,U24_4,Caucasian,22,Not Hispanic,Female,False,False,False,V2,L,AM
+vumc00590,O019,13898,V24_5,Caucasian,23,Hispanic,Female,False,True,False,V1,L,
+vumc00591,O020,4398,U24_5,Caucasian,23,Hispanic,Female,False,True,False,V2,L,AM
+vumc00592,O021,64300,,,,,,,,,,,
+vumc00593,O022,23772,,,,,,,,,,,
+vumc00594,O023,9722,V24_6,Caucasian,59,Not Hispanic,Female,False,True,True,V1,L,
+vumc00595,O024,8726,U24_6,Caucasian,59,Not Hispanic,Female,False,True,True,V2,L,PM
+vumc00596,O025,30846,V24_7,Caucasian,38,Not Hispanic,Female,True,True,False,V1,L,
+vumc00597,O026,13084,U24_7,Caucasian,38,Not Hispanic,Female,True,True,False,V2,L,AM
+vumc00598,O027,34614,U24_9,Caucasian,33,Not Hispanic,Female,False,True,False,V2,L,AM
+vumc00599,O028,1374,U24_30,Caucasian,25,Not Hispanic,Female,False,True,False,V2,L,AM
+vumc00600,O029,46012,U24_13,Caucasian,29,Not Hispanic,Female,False,True,False,V2,L,AM
+vumc00601,O030,32126,U24_41,Caucasian,54,Not Hispanic,Male,False,False,False,V2,L,AM
+vumc00602,O031,3416,U24_49,Caucasian,25,Not Hispanic,Female,False,True,False,V1,R,AM
+vumc00603,O032,19892,U24_50,Caucasian,53,Hispanic,Male,False,False,False,V1,R,AM
+vumc00604,O033,33006,,,,,,,,,,,
+vumc00605,O034,45780,,,,,,,,,,,
+vumc00606,O063,3518,U24_6,Caucasian,59,Not Hispanic,Female,False,True,True,V3,L,PM
+vumc00607,O064,5210,U24_25,Caucasian,50,Not Hispanic,Female,False,True,False,V3,L,PM
+vumc00608,O065,8018,U24_40,Caucasian,77,Not Hispanic,Male,False,False,False,V3,L,AM
+vumc00609,O066,28084,U24_50,Caucasian,53,Hispanic,Male,False,False,False,V2,L,PM
+vumc00610,O067,43062,U24_52,Caucasian,54,Not Hispanic,Female,False,False,False,V2,L,PM
+vumc00611,O068,4712,U24_53,Caucasian,53,Unknown/Not Reported,Female,False,False,False,V2,L,PM
+vumc00612,O069,78334,U24_55,Caucasian,50,Not Hispanic,Female,False,False,False,V1,L,AM
+vumc00613,O070,23456,U24_62,African American,50,Not Hispanic,Female,False,False,False,V1,L,PM
+vumc00614,O071,9094,U24_6,Caucasian,59,Not Hispanic,Female,False,True,True,V3,R,PM
+vumc00615,O072,4928,U24_46,Caucasian,50,Not Hispanic,Female,False,True,False,V2,R,PM
+vumc00616,O073,21702,U24_52,Caucasian,54,Not Hispanic,Female,False,False,False,V2,R,PM
+vumc00617,O074,24352,U24_53,Caucasian,53,Unknown/Not Reported,Female,False,False,False,V2,R,PM
+vumc00618,O075,45986,U24_55,Caucasian,50,Not Hispanic,Female,False,False,False,V1,R,AM
+vumc00619,O076,19124,U24_62,African American,50,Not Hispanic,Female,False,False,False,V1,R,PM
+vumc00620,O077,3338,U24_41,Caucasian,54,Not Hispanic,Male,False,False,False,V2,R,AM
+vumc00621,O078,77692,U24_40,Caucasian,77,Not Hispanic,Male,False,False,False,V2,R,AM
+vumc00622,O079,10786,U24_21,Caucasian,58,Not Hispanic,Female,True,False,False,V2,L,AM
