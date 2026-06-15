@@ -31,9 +31,17 @@ html_css_files = ['custom.css']
 html_js_files = ['custom.js']
 html_search_options = { 'separate_word_search': True }
 html_search_language = 'en'
+
 #html_theme_options = { "navigation_depth": 2 }
 #html_theme_options = { "use_table_sorting": False } $ commented on 20250911
-html_theme_options = {    "collapse_navigation": False,  "sticky_navigation": True, "navigation_depth": 2, "includehidden": True }
+html_theme_options = {
+	"collapse_navigation": False,
+	"sticky_navigation": True,
+	"navigation_depth": 2,
+	"includehidden": True 
+	}
+#to add "google_analytics_id": "G-XXXXXXX"
+
 #html_extra_path = [] # 'Public_Results']
 html_meta = {    "google-site-verification": "e2LnwrGlv397RPlrT8ckb-yVwcPyZaGyADcmCFv63y4" }
 
@@ -46,3 +54,6 @@ source_suffix = { '.rst': 'restructuredtext' , '.md': 'markdown' }
 #from recommonmark.parser import CommonMarkParser
 #source_parsers = {    '.md': CommonMarkParser }
 #html_extrahead = open("_static/extra_head.html").read()
+
+
+#html_templates_path = ['_templates']

@@ -9,8 +9,8 @@
     });
     </script>
 
-Samples: Lid
-============
+Samples: Lid Margin
+===================
 
 .. csv-table::
     :file: Samples.Lid.csv

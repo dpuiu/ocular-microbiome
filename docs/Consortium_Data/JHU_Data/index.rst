@@ -8,7 +8,6 @@ Johns Hopkins University Data
     Samples
     Samples.Air
     Samples.Conj
-    Samples.Eye
     Samples.Lid
     Samples.Skin
     Files

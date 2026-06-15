@@ -9,8 +9,8 @@
     });
     </script>
 
-Samples: Skin
-=============
+Samples: Periocular Skin
+========================
 
 .. csv-table::
     :file: Samples.Skin.csv

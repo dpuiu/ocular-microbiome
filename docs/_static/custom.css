@@ -93,3 +93,37 @@ table.dataTable {
     box-sizing: content-box !important;
 }
 */
+
+
+.document {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-logos img {
+    height: auto;
+    width: auto;
+    max-width: 120px;   /* prevents huge logos */
+    max-height: 60px;
+    object-fit: contain;
+}
+
+/* make smaller on mobile */
+@media (max-width: 600px) {
+    .footer-logos img {
+        max-width: 80px;
+        max-height: 40px;
+    }
+}
+
+h1 {
+    text-align: center;
+}

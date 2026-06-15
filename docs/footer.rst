@@ -1,6 +1,7 @@
 .. raw:: html
 
    <hr>
+   <div class="footer-logos">
 	
 .. image:: images/footer_01_nih-logo.jpg
    :target: https://www.nei.nih.gov/
@@ -47,3 +48,4 @@
    :alt: "University of Pittsburgh"
    :width: 80px
 
+   </div>

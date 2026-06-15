@@ -14,6 +14,6 @@ Samples: Conjunctiva
 ====================
 
 .. csv-table::
-    :file: Samples.Conj.csv
+    :file: Samples.Eye_Conj.csv
     :header-rows: 1
 	
