@@ -1,0 +1,5 @@
+column_name         #samples  min  median    max        #read-pairs  #bases
+total_reads         469       935  14188874  102649993  7647243298   2294172989400
+non_human_reads     469       360  742338    97247641   2648141160   794442348000
+human_reads         469       575  6935943   102033937  4999102137   1499730641100
+kraken_human_reads  469       0    3926      44470      2540048      762014400

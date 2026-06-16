@@ -1,0 +1,470 @@
+omc_id,sample_name,non_human_reads,total_reads,kraken_human_reads,collection_date,visit_number,biosample_type,biosample_site,biosample_side,biosample_alias,collection_medium_tube,tube_lot,added_medium,added_medium_lot,swab_type,swab_lot,extraction_kit,lysozyme_treatment,sample_volume,host_depletion,host_depletion_kit,nucleic_acid_concentration,sequencing_date,seq_plate_number,seq_batch_plate_location,seq_plate_location,sequencing_lane,individual_id,microbial_standard
+jhu00001,Molzym_Ultra_Deep_Air_Ctr_3_S20,10005673.0,48265834,44470,,,Air Control,,,S20,,,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,6.3 ng/ul,2024-03-14,,S1273-SC1 A03,,,,0
+jhu00002,Molzym_Ultra_Deep_MCS_1-100_4_S8,69784135.0,72009445,5626,,,Microbial Community Standard,,,S8,,,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,16 ng/ul,2024-03-14,,S1273-SC1 A04,,,,1
+jhu00003,Qiagen_DNeasy_Air_Ctr_3_S10,5413108.0,52434861,37930,,,Air Control,,,S10,,,,,,,Qiagen DNeasy Blood & Tissue Kit,0.0,50 ul,,,1.2 ng/ul,2024-03-14,,S1273-SC1 A11,,,,0
+jhu00004,Qiagen_DNeasy_MCS_1-100_4_S18,97247641.0,98376897,331,,,Microbial Community Standard,,,S18,,,,,,,Qiagen DNeasy Blood & Tissue Kit,0.0,50 ul,,,3.5 ng/ul,2024-03-14,,S1273-SC1 A12,,,,1
+jhu00005,Qiagen_Soil_Air_Ctr_3_S2,4579.0,717757,120,,,Air Control,,,S2,,,,,,,Qiagen DNeasy PowerMax Soil Kit,0.0,200 ul,,,0 ng/ul,2024-03-14,,S1273-SC1 A07,,L008,,0
+jhu00006,Qiagen_Soil_MCS_1-100_4_S5,17666737.0,18930999,770,,,Microbial Community Standard,,,S5,,,,,,,Qiagen DNeasy PowerMax Soil Kit,0.0,200 ul,,,1.5 ng/ul,2024-03-14,,S1273-SC1 A08,,L008,,1
+jhu00007,Thermo_MagMax_Air_Ctr_3_S21,27799952.0,60308293,22411,,,Air Control,,,S21,,,,,,,Thermo Fisher MagMAX™ Pathogen RNA/DNA Kit,0.0,50 ul,,,2.8 ng/ul,2024-03-14,,S1273-SC1 B07,,,,0
+jhu00008,Thermo_MagMax_MCS_1-100_4_S24,36370013.0,54899862,12377,,,Microbial Community Standard,,,S24,,,,,,,Thermo Fisher MagMAX™ Pathogen RNA/DNA Kit,0.0,50 ul,,,3.4 ng/ul,2024-03-14,,S1273-SC1 B08,,,,1
+jhu00009,Zymo_Magbead_Air_Ctr_3_S4,57956237.0,59730283,6701,,,Air Control,,,S4,,,,,,,Zymo Magbead Kit,0.0,50 ul,,,0.1 ng/ul,2024-03-14,,S1273-SC1 B11,,,,0
+jhu00010,Zymo_Magbead_MCS_1-100_4_S22,54189462.0,55883346,4554,,,Microbial Community Standard,,,S22,,,,,,,Zymo Magbead Kit,0.0,50 ul,,,0.4 ng/ul,2024-03-14,,S1273-SC1 B12,,,,1
+jhu00011,Zymo_Mini_prep_Air_Ctr_3_S19,49977453.0,51666532,3159,,,Air Control,,,S19,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1.8 ng/ul,2024-03-14,,S1273-SC1 B03,,,,0
+jhu00012,Zymo_Mini_prep_MCS_1-100_4_S13,58421667.0,59266306,636,,,Microbial Community Standard,,,S13,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,5.3 ng/ul,2024-03-14,,S1273-SC1 B04,,,,1
+jhu00013,MasterPure_Air_Ctr_3_S34,18257574.0,22172626,5697,,,Air Control,,,S34,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,,10.6 ng/ul,2024-07-15,,S1289-SC1 A03,,,,0
+jhu00014,MasterPure_Lyso_MCS_1_100_4_S39,78755608.0,81023723,1101,,,Microbial Community Standard,,,S39,,,,,,,MasterPure Gram Positive DNA Purification Kit,1.0,50 ul,,,36.2 ng/ul,2024-07-15,,S1289-SC1 A08,,,100.0,1
+jhu00015,MasterPure_Lysol_Air_Ctr_3_S38,18077534.0,23135866,9008,,,Air Control,,,S38,,,,,,,MasterPure Gram Positive DNA Purification Kit,1.0,50 ul,,,20.6 ng/ul,2024-07-15,,S1289-SC1 A07,,,,0
+jhu00016,MasterPure_MCS_1_100_4_S35,76560480.0,78906076,2968,,,Microbial Community Standard,,,S35,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,,43.9 ng/ul,2024-07-15,,S1289-SC1 A04,,,100.0,1
+jhu00017,MasterPure_MolYsis_Basic_5_Air_Ctr_3_S42,1956435.0,2513359,690,,,Air Control,,,S42,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,35 ul,,MolYsis™ Basic7,12 ng/ul,2024-07-15,,S1289-SC1 A11,,,,0
+jhu00018,MasterPure_MolYsis_Basic_5_MCS_1_100_4_S43,59433187.0,62161455,1366,,,Microbial Community Standard,,,S43,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,35 ul,,MolYsis™ Basic8,10.3 ng/ul,2024-07-15,,S1289-SC1 A12,,,100.0,1
+jhu00019,MasterPure_NEB_Air_Ctr_3_S46,53224864.0,56029521,7510,,,Air Control,,,S46,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,35 ul,,NEBNext Microbiome DNA Enrichment Kit,4.9 ng/ul,2024-07-15,,S1289-SC1 B03,,,,0
+jhu00020,MasterPure_NEB_MCS_1_100_4_S47,68512694.0,69979815,885,,,Microbial Community Standard,,,S47,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,35 ul,,NEBNext Microbiome DNA Enrichment Kit,15 ng/ul,2024-07-15,,S1289-SC1 B04,,,100.0,1
+jhu00021,MasterPure_Zymo_HostZero_200ul_Air_Ctr_3_S29,936206.0,1292866,1619,,,Air Control,,,S29,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,35 ul,,Zymo HostZero,20.2 ng/ul,2024-07-15,,S1289-SC1 B07,,,,0
+jhu00022,MasterPure_Zymo_HostZero_MCS_1_100_4_S30,53921998.0,55949505,3901,,,Microbial Community Standard,,,S30,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,35 ul,,Zymo HostZero,21.2 ng/ul,2024-07-15,,S1289-SC1 B08,,,100.0,1
+jhu00023,MasterPure_MCS_7_S56,22605228.0,22827811,192,,,Microbial Community Standard,,,S56,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,,22.7 ng/ul,2024-10-28,,S1304-SC1 C05,,,,1
+jhu00024,MasterPure_MCS_HostZero_3_S3,22355787.0,23207708,4027,,,Microbial Community Standard,,,S3,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,,34 ng/ul,2024-10-28,,S1304-SC1 C01,,,,1
+jhu00025,MasterPure_MCS_MolYsis_1_S59,17775556.0,18014237,2836,,,Microbial Community Standard,,,S59,,,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,26.1 ng/ul,2024-10-28,,S1304-SC1 B11,,,,1
+jhu00026,MasterPure_MCS_NEB_5_S34,22246672.0,22510110,194,,,Microbial Community Standard,,,S34,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,10.9 ng/ul,2024-10-28,,S1304-SC1 C03,,,,1
+jhu00027,MasterPure_OMR_8_S22,7943287.0,8911434,822,,,OMR-110,,,S22,OMR,110,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,,20.1 ng/ul,2024-10-28,,S1304-SC1 C06,,,,0
+jhu00028,MasterPure_OMR_HostZero_4_S24,4101482.0,4428396,455,,,OMR-110,,,S24,OMR,110,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,,30.6 ng/ul,2024-10-28,,S1304-SC1 C02,,,,0
+jhu00029,MasterPure_OMR_MolYsis_2_S42,5359746.0,5820531,754,,,OMR-110,,,S42,OMR,110,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,15 ng/ul,2024-10-28,,S1304-SC1 B12,,,,0
+jhu00030,MasterPure_OMR_NEB_6_S15,11587585.0,12119044,987,,,OMR-110,,,S15,OMR,110,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,10.1 ng/ul,2024-10-28,,S1304-SC1 C04,,,,0
+jhu00031,Molzym_Ultra-Deep_MCS_1_S11,12249405.0,12789593,1055,,,Microbial Community Standard,,,S11,,,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,5.2 ng/ul,2024-10-28,,S1304-SC1 B05,,,,1
+jhu00032,Molzym_Ultra-Deep_MCS_HostZero_3_S19,8223625.0,8798826,738,,,Microbial Community Standard,,,S19,,,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,4.9 ng/ul,2024-10-28,,S1304-SC1 B07,,,,1
+jhu00033,Molzym_Ultra-Deep_MCS_NEB_5_S44,14768077.0,15138766,1242,,,Microbial Community Standard,,,S44,,,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,30 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,6.3 ng/ul,2024-10-28,,S1304-SC1 B09,,,,1
+jhu00034,Molzym_Ultra-Deep_OMR_2_S10,8144617.0,8739573,1489,,,OMR-110,,,S10,OMR,110,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,0.2 ng/ul,2024-10-28,,S1304-SC1 B06,,,,0
+jhu00035,Molzym_Ultra-Deep_OMR_HostZero_4_S37,1283586.0,1712697,632,,,OMR-110,,,S37,OMR,110,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,2.8 ng/ul,2024-10-28,,S1304-SC1 B08,,,,0
+jhu00036,Molzym_Ultra-Deep_OMR_NEB_6_S32,11565756.0,12171299,1179,,,OMR-110,,,S32,OMR,110,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,30 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,6.6 ng/ul,2024-10-28,,S1304-SC1 B10,,,,0
+jhu00037,Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47,26620598.0,26788711,95,,,Microbial Community Standard,,,S47,OMR,BD801,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,13 ng/ul,2024-10-28,,S1304-SC1 E05,,,,1
+jhu00038,Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23,20569289.0,20760644,113,,,Microbial Community Standard,,,S23,OMR,BH802,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,6.5 ng/ul,2024-10-28,,S1304-SC1 E06,,,,1
+jhu00039,Qiagen_DNeasy_MCS_7_S2,22516590.0,22718068,103,,,Microbial Community Standard,,,S2,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,7.3 ng/ul,2024-10-28,,S1304-SC1 A07,,,,1
+jhu00040,Qiagen_DNeasy_MCS_HostZero_3_S5,13732825.0,14225290,7700,,,Microbial Community Standard,,,S5,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,3.5 ng/ul,2024-10-28,,S1304-SC1 A03,,,,1
+jhu00041,Qiagen_DNeasy_MCS_MolYsis_1_S72,20391814.0,20690503,1613,,,Microbial Community Standard,,,S72,,,,,,,Qiagen DNeasy Blood & Tissue Kit,0.0,30 ul,,,3.2 ng/ul,2024-10-28,,S1304-SC1 A01,,,,1
+jhu00042,Qiagen_DNeasy_MCS_NEB_5_S60,23905676.0,24164234,87,,,Microbial Community Standard,,,S60,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,4.2 ng/ul,2024-10-28,,S1304-SC1 A05,,,,1
+jhu00043,Qiagen_DNeasy_OMR1_BD801_S61,9539120.0,10270188,1678,,,OMR-110,,,S61,OMR,BD801,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,3.4 ng/ul,2024-10-28,,S1304-SC1 E07,,,,0
+jhu00044,Qiagen_DNeasy_OMR2_BH802_S12,13258485.0,13987582,2585,,,OMR-110,,,S12,OMR,BH802,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,2.1 ng/ul,2024-10-28,,S1304-SC1 E08,,,,0
+jhu00045,Qiagen_DNeasy_OMR_2_S74,7757781.0,8562095,1799,,,OMR-110,,,S74,OMR,110,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,1.7 ng/ul,2024-10-28,,S1304-SC1 A08,,,,0
+jhu00046,Qiagen_DNeasy_OMR_HostZero_4_S38,2977704.0,3567954,1380,,,OMR-110,,,S38,OMR,110,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,3.5 ng/ul,2024-10-28,,S1304-SC1 A04,,,,0
+jhu00047,Qiagen_DNeasy_OMR_MolYsis_2_S53,9911422.0,10729728,5059,,,OMR-110,,,S53,OMR,110,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,2 ng/ul,2024-10-28,,S1304-SC1 A02,,,,0
+jhu00048,Qiagen_DNeasy_OMR_NEB_6_S57,12171104.0,12694537,982,,,OMR-110,,,S57,OMR,110,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,3.41 ng/ul,2024-10-28,,S1304-SC1 A06,,,,0
+jhu00049,Qiagen_DNeasy_Water_S70,10645462.0,11108913,1223,,,Water Control,,,S70,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,2.2 ng/ul,2024-10-28,,S1304-SC1 E09,,,,0
+jhu00050,Qiagen_Dneasy_CS_001_Air_Swab_S39,9733137.0,10548488,1496,,,Air control,,,S39,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,1.9 ng/ul,2024-10-28,,S1304-SC1 D01,,L008,1.0,0
+jhu00051,Qiagen_Dneasy_CS_001_Right_Eye_S28,410412.0,63568721,30387,,,Human Ocular Surface,,Right,S28,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,27.7 ng/ul,2024-10-28,,S1304-SC1 C12,,,1.0,0
+jhu00052,Qiagen_Dneasy_CS_002_Air_Swab_S62,8643576.0,10577681,2432,,,Air control,,,S62,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,3.7 ng/ul,2024-10-28,,S1304-SC1 D03,,L008,2.0,0
+jhu00053,Qiagen_Dneasy_CS_002_Left_Eye_S21,108620.0,27925922,11632,,,Human Ocular Surface,,Left,S21,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,18.7 ng/ul,2024-10-28,,S1304-SC1 D02,,,2.0,0
+jhu00054,Qiagen_Dneasy_CS_003_Air_Swab_S18,11888030.0,12364167,1065,,,Air control,,,S18,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,1.3 ng/ul,2024-10-28,,S1304-SC1 D05,,L008,3.0,0
+jhu00055,Qiagen_Dneasy_CS_003_Right_Eye_S58,136517.0,27503333,9901,,,Human Ocular Surface,,Right,S58,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,6 ng/ul,2024-10-28,,S1304-SC1 D04,,,3.0,0
+jhu00056,Qiagen_Dneasy_CS_004_Air_Swab_S52,5018344.0,5364087,1166,,,Air control,,,S52,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,7.6 ng/ul,2024-10-28,,S1304-SC1 D07,,L008,4.0,0
+jhu00057,Qiagen_Dneasy_CS_004_Left_Eye_S27,265638.0,20291771,10199,,,Human Ocular Surface,,Left,S27,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,2.7 ng/ul,2024-10-28,,S1304-SC1 D06,,,4.0,0
+jhu00058,Qiagen_Dneasy_CS_005_Air_Swab_S67,11494954.0,12532134,1897,,,Air control,,,S67,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,4.3 ng/ul,2024-10-28,,S1304-SC1 D09,,L008,5.0,0
+jhu00059,Qiagen_Dneasy_CS_005_Right_Eye_S54,406364.0,61006949,25420,,,Human Ocular Surface,,Right,S54,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,14.2 ng/ul,2024-10-28,,S1304-SC1 D08,,,5.0,0
+jhu00060,Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51,12505470.0,18904920,6329,,,Air control,,,S51,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,1.6 ng/ul,2024-10-28,,S1304-SC1 E01,,L008,6.0,0
+jhu00061,Qiagen_Dneasy_CS_006_Left_Eye_S31,237523.0,20958993,9933,,,Human Ocular Surface,,Left,S31,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,3.4 ng/ul,2024-10-28,,S1304-SC1 D10,,,6.0,0
+jhu00062,Qiagen_Dneasy_CS_007_Right_Eye_S4,88107.0,18985908,7657,,,Human Ocular Surface,,Right,S4,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,11.7 ng/ul,2024-10-28,,S1304-SC1 D11,,,7.0,0
+jhu00063,Qiagen_Dneasy_CS_008_Left_Eye_S33,556078.0,56216667,25086,,,Human Ocular Surface,,Left,S33,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,3.1 ng/ul,2024-10-28,,S1304-SC1 D12,,,8.0,0
+jhu00064,Qiagen_Dneasy_CS_009_10_Air_Swab_S48,10793358.0,12072399,2187,,,Air control,,,S48,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,5.6 ng/ul,2024-10-28,,S1304-SC1 E04,,L008,9.0,0
+jhu00065,Qiagen_Dneasy_CS_009_Right_Eye_S41,120809.0,21643335,11600,,,Human Ocular Surface,,Right,S41,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,7.2 ng/ul,2024-10-28,,S1304-SC1 E02,,,9.0,0
+jhu00066,Qiagen_Dneasy_CS_010_Left_Eye_S45,559804.0,20577802,8821,,,Human Ocular Surface,,Left,S45,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,5.7 ng/ul,2024-10-28,,S1304-SC1 E03,,,10.0,0
+jhu00067,Qiagen_Soil_MCS_1_S29,17597321.0,17896553,800,,,Microbial Community Standard,,,S29,,,,,,,Qiagen DNeasy PowerMax Soil Kit,0.0,1400 ul,,,6.2 ng/ul,2024-10-28,,S1304-SC1 C07,,L008,,1
+jhu00068,Qiagen_Soil_OMR_8_S40,14946070.0,15420797,1221,,,OMR-110,,,S40,OMR,110,,,,,Qiagen DNeasy PowerMax Soil Kit,0.0,1600 ul,,,3.9 ng/ul,2024-10-28,,S1304-SC1 C08,,L008,,0
+jhu00069,Water_S63,1513206.0,1731585,147,,,Water Control,,,S63,,,,,,,Control,0.0,50 ul,,,,2024-10-28,,S1304-SC1 C11,,,,0
+jhu00070,Zymo_Mini_Prep_CS_001_Air_Swab_S8,3144802.0,3865306,525,,,Air control,,,S8,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,0.9 ng/ul,2024-10-28,,S1304-SC1 E11,,L008,1.0,0
+jhu00071,Zymo_Mini_Prep_CS_001_Right_Eye_S46,5244815.0,11081608,3137,,,Human Ocular Surface,,Right,S46,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1.3 ng/ul,2024-10-28,,S1304-SC1 E10,,,1.0,0
+jhu00072,Zymo_Mini_Prep_CS_002_Air_Swab_S64,4433238.0,5510196,891,,,Air control,,,S64,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,3.1 ng/ul,2024-10-28,,S1304-SC1 F01,,L008,2.0,0
+jhu00073,Zymo_Mini_Prep_CS_002_Left_Eye_S43,390424.0,18729963,7238,,,Human Ocular Surface,,Left,S43,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.1 ng/ul,2024-10-28,,S1304-SC1 E12,,,2.0,0
+jhu00074,Zymo_Mini_Prep_CS_003_Air_Swab_S77,8211156.0,8990156,852,,,Air control,,,S77,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1 ng/ul,2024-10-28,,S1304-SC1 F03,,L008,3.0,0
+jhu00075,Zymo_Mini_Prep_CS_003_Right_Eye_S13,1063632.0,21233200,7251,,,Human Ocular Surface,,Right,S13,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.3 ng/ul,2024-10-28,,S1304-SC1 F02,,,3.0,0
+jhu00076,Zymo_Mini_Prep_CS_004_Air_Swab_S66,2724980.0,3362129,439,,,Air control,,,S66,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,0.1 ng/ul,2024-10-28,,S1304-SC1 F05,,L008,4.0,0
+jhu00077,Zymo_Mini_Prep_CS_004_Left_Eye_S78,4215943.0,13074025,3671,,,Human Ocular Surface,,Left,S78,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2 ng/ul,2024-10-28,,S1304-SC1 F04,,,4.0,0
+jhu00078,Zymo_Mini_Prep_CS_005_Air_Swab_S30,8879210.0,9418209,806,,,Air control,,,S30,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.2 ng/ul,2024-10-28,,S1304-SC1 F07,,L008,5.0,0
+jhu00079,Zymo_Mini_Prep_CS_005_Right_Eye_S17,1145887.0,20478328,7089,,,Human Ocular Surface,,Right,S17,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.9 ng/ul,2024-10-28,,S1304-SC1 F06,,,5.0,0
+jhu00080,Zymo_Mini_Prep_CS_006_7_8_Air_Swab_S14,3768098.0,4474818,516,,,Air control,,,S14,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1.8 ng/ul,2024-10-28,,S1304-SC1 F11,,L008,6.0,0
+jhu00081,Zymo_Mini_Prep_CS_006_Left_Eye_S79,808661.0,16552663,5794,,,Human Ocular Surface,,Left,S79,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1.9 ng/ul,2024-10-28,,S1304-SC1 F08,,,6.0,0
+jhu00082,Zymo_Mini_Prep_CS_007_Right_Eye_S68,162005.5,16047824,5136,,,Human Ocular Surface,,Right,S68,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2 ng/ul,2024-10-28,,S1304-SC1 F09,,,7.0,0
+jhu00083,Zymo_Mini_Prep_CS_008_Left_Eye_S26,3403371.0,17618592,5073,,,Human Ocular Surface,,Left,S26,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1.2 ng/ul,2024-10-28,,S1304-SC1 F10,,,8.0,0
+jhu00084,Zymo_Mini_Prep_CS_009_10_Air_Swab_S73,4419076.0,5003257,474,,,Air control,,,S73,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.2 ng/ul,2024-10-28,,S1304-SC1 G02,,L008,9.0,0
+jhu00085,Zymo_Mini_Prep_CS_009_Right_Eye_S71,476117.0,19382814,7401,,,Human Ocular Surface,,Right,S71,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1.8 ng/ul,2024-10-28,,S1304-SC1 F12,,,9.0,0
+jhu00086,Zymo_Mini_Prep_CS_010_Left_Eye_S75,7976684.0,8987137,1080,,,Human Ocular Surface,,Left,S75,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.1 ng/ul,2024-10-28,,S1304-SC1 G01,,,10.0,0
+jhu00087,Zymo_Mini_Prep_MCS_1_in_OMR_BD801_S9,20611680.0,20867830,163,,,Microbial Community Standard,,,S9,OMR,BD801,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2 ng/ul,2024-10-28,,S1304-SC1 G03,,,,1
+jhu00088,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,19805953.0,20006684,466,,,Microbial Community Standard,,,S50,OMR,BH802,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1.5 ng/ul,2024-10-28,,S1304-SC1 G04,,,,1
+jhu00089,Zymo_Mini_Prep_MCS_7_S25,21943498.0,22195564,683,,,Microbial Community Standard,,,S25,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1 ng/ul,2024-10-28,,S1304-SC1 B03,,,,1
+jhu00090,Zymo_Mini_Prep_MCS_HostZero_3_S20,20427516.0,20598314,792,,,Microbial Community Standard,,,S20,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,4.2 ng/ul,2024-10-28,,S1304-SC1 A11,,,,1
+jhu00091,Zymo_Mini_Prep_MCS_MolYsis_1_S49,17861514.0,18034682,507,,,Microbial Community Standard,,,S49,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,15.4 ng/ul,2024-10-28,,S1304-SC1 A09,,,,1
+jhu00092,Zymo_Mini_Prep_MCS_NEB_5_S76,24711086.0,25011543,871,,,Microbial Community Standard,,,S76,,,,,,,Zymo Mini Prep Kit,0.0,30 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,5.6 ng/ul,2024-10-28,,S1304-SC1 B01,,,,1
+jhu00093,Zymo_Mini_Prep_OMR1_BD801_S69,2867809.0,3378979,499,,,OMR-110,,,S69,OMR,BD801,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1.6 ng/ul,2024-10-28,,S1304-SC1 G05,,,,0
+jhu00094,Zymo_Mini_Prep_OMR2_BH802_S7,8750490.0,9565686,835,,,OMR-110,,,S7,OMR,BH802,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.2 ng/ul,2024-10-28,,S1304-SC1 G06,,,,0
+jhu00095,Zymo_Mini_Prep_OMR_8_S36,6791060.0,7325092,2357,,,OMR-110,,,S36,OMR,110,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,0.9 ng/ul,2024-10-28,,S1304-SC1 B04,,,,0
+jhu00096,Zymo_Mini_Prep_OMR_HostZero_4_S1,4589243.0,5204592,1449,,,OMR-110,,,S1,OMR,110,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.7 ng/ul,2024-10-28,,S1304-SC1 A12,,,,0
+jhu00097,Zymo_Mini_Prep_OMR_MolYsis_2_S16,5399975.0,5940753,5570,,,OMR-110,,,S16,OMR,110,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.9 ng/ul,2024-10-28,,S1304-SC1 A10,,,,0
+jhu00098,Zymo_Mini_Prep_OMR_NEB_6_S55,14964598.0,17319034,3353,,,OMR-110,,,S55,OMR,110,,,,,Zymo Mini Prep Kit,0.0,30 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,1.8 ng/ul,2024-10-28,,S1304-SC1 B02,,,,0
+jhu00099,Zymo_Mini_Prep_Water_S65,7185311.0,7803267,645,,,Water Control,,,S65,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1.9 ng/ul,2024-10-28,,S1304-SC1 G07,,,,0
+jhu00100,10_Zymo_Micro_Prep_CS_010_Right_Eye_S90,39147.0,22829843,13163,,,Human Ocular Surface,,Right,S90,,,,,,,Zymo Micro Prep Kit,,20 ul,,,1.1 ng/ul,2025-03-14,,S1289-SC2 A10,,,10.0,False
+jhu00101,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,412844.0,1916577,1560,,,Air control,,,S91,,,,,,,Zymo Micro Prep Kit,,20 ul,,,0.9 ng/ul,2025-03-14,,S1289-SC2 A11,,L008,7.0,False
+jhu00102,12_Zymo_Micro_Prep_CS_010_Air_Swab_S92,591925.0,1603876,1434,,,Air control,,,S92,,,,,,,Zymo Micro Prep Kit,,20 ul,,,1.3 ng/ul,2025-03-14,,S1289-SC2 A12,,L008,10.0,False
+jhu00103,13_Zymo_Microprep_MCS_OMR_BD801_S93,30455392.0,30759260,818,,,Microbial Community Standard,,,S93,OMR,BD801,,,,,Zymo Micro Prep Kit,,20 ul,,,5.2 ng/ul,2025-03-14,,S1289-SC2 B01,,,,True
+jhu00104,14_Zymo_Microprep_OMR_BD801_S94,1513858.0,2242493,815,,,OMR-110,,,S94,OMR,110,,,,,Zymo Micro Prep Kit,,20 ul,,,0.7 ng/ul,2025-03-14,,S1289-SC2 B02,,,,False
+jhu00105,15_Qiagen_Soil_Pro_CS_001_Left_Eye_S95,3043128.0,6105462,3312,,,Human Ocular Surface,,Left,S95,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,3.5 ng/ul,2025-03-14,,S1289-SC2 B03,,L008,1.0,False
+jhu00106,16_Qiagen_Soil_Pro_CS_002_Right_Eye_S96,120067.0,18059110,7178,,,Human Ocular Surface,,Right,S96,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,5.1 ng/ul,2025-03-14,,S1289-SC2 B04,,L008,2.0,False
+jhu00107,17_Qiagen_Soil_Pro_CS_003_Left_Eye_S1,52146.0,19023316,11053,,,Human Ocular Surface,,Left,S1,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,23.9 ng/ul,2025-03-14,,S1289-SC2 B05,,L008,3.0,False
+jhu00108,18_Qiagen_Soil_Pro_CS_004_Right_Eye_S2,690204.0,5014379,3888,,,Human Ocular Surface,,Right,S2,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,3.2 ng/ul,2025-03-14,,S1289-SC2 B06,,L008,4.0,False
+jhu00109,19_Qiagen_Soil_Pro_CS_005_Left_Eye_S3,34438.0,21975922,10554,,,Human Ocular Surface,,Left,S3,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,2.4 ng/ul,2025-03-14,,S1289-SC2 B07,,L008,5.0,False
+jhu00110,1_Zymo_Micro_Prep_CS_001_Left_Eye_S81,118265.0,19750549,12560,,,Human Ocular Surface,,Left,S81,,,,,,,Zymo Micro Prep Kit,,20 ul,,,0.5 ng/ul,2025-03-14,,S1289-SC2 A01,,,1.0,False
+jhu00111,20_Qiagen_Soil_Pro_CS_006_Right_Eye_S4,40759.0,27376454,14349,,,Human Ocular Surface,,Right,S4,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,3.1 ng/ul,2025-03-14,,S1289-SC2 B08,,L008,6.0,False
+jhu00112,21_Qiagen_Soil_Pro_CS_007_Left_Eye_S5,50563.0,22349521,10079,,,Human Ocular Surface,,Left,S5,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,21.1 ng/ul,2025-03-14,,S1289-SC2 B09,,L008,7.0,False
+jhu00113,22_Qiagen_Soil_Pro_CS_008_Right_Eye_S6,20150.0,13394471,6204,,,Human Ocular Surface,,Right,S6,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,31.1 ng/ul,2025-03-14,,S1289-SC2 B10,,L008,8.0,False
+jhu00114,23_Qiagen_Soil_Pro_CS_009_Left_Eye_S7,24391.0,18480069,7828,,,Human Ocular Surface,,Left,S7,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,3.2 ng/ul,2025-03-14,,S1289-SC2 B11,,L008,9.0,False
+jhu00115,24_Qiagen_Soil_Pro_CS_010_Right_Eye_S8,27715.0,15984811,8971,,,Human Ocular Surface,,Right,S8,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,8.9 ng/ul,2025-03-14,,S1289-SC2 B12,,L008,10.0,False
+jhu00116,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,382981.0,3026993,4905,,,Air control,,,S9,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,6.3 ng/ul,2025-03-14,,S1289-SC2 C01,,L008,7.0,False
+jhu00117,26_Qiagen_Soil_Pro_CS_010_Air_Swab_S10,175908.0,1630973,1977,,,Air control,,,S10,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,8 ng/ul,2025-03-14,,S1289-SC2 C02,,L008,10.0,False
+jhu00118,27_Qiagen_Soil_Pro_MCS_OMR_BD801_S11,20873427.0,21054529,218,,,Microbial Community Standard,,,S11,OMR,BD801,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,5.7 ng/ul,2025-03-14,,S1289-SC2 C03,,L008,,True
+jhu00119,28_Qiagen_Soil_Pro_OMR_BD801_S12,1216461.0,2166117,971,,,OMR-110,,,S12,OMR,110,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,4.2 ng/ul,2025-03-14,,S1289-SC2 C04,,L008,,False
+jhu00120,29_Z_Mini_049_Conj_L_1_S13,113598.0,15762715,7167,,,Human Ocular Surface,,Left,S13,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.1 ng/ul,2025-03-14,,S1289-SC2 C05,,,49.0,False
+jhu00121,2_Zymo_Micro_Prep_CS_002_Right_Eye_S82,24118.0,16642495,7296,,,Human Ocular Surface,,Right,S82,,,,,,,Zymo Micro Prep Kit,,20 ul,,,1.7 ng/ul,2025-03-14,,S1289-SC2 A02,,,2.0,False
+jhu00122,30_Z_Mini_049_049_Lid_L_1_S14,78150.0,20776322,9951,,,Human Ocular Surface,,left,S14,,,,,,,Zymo Mini Prep Kit,,50 ul,,,4.5 ng/ul,2025-03-14,,S1289-SC2 C06,,,49.0,False
+jhu00123,31_Z_Mini_049_Skin_L_1_S15,256913.0,16460716,13738,,,Human Ocular Surface,,left,S15,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.6 ng/ul,2025-03-14,,S1289-SC2 C07,,L008,49.0,False
+jhu00124,32_Z_Mini_049_Conj_L_2_S16,68908.0,22936943,12380,,,Human Ocular Surface,,left,S16,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.3 ng/ul,2025-03-14,,S1289-SC2 C08,,,49.0,False
+jhu00125,33_Z_Mini_049_Lid_L_2_S17,118836.0,23588515,10719,,,Human Ocular Surface,,left,S17,,,,,,,Zymo Mini Prep Kit,,50 ul,,,1.9 ng/ul,2025-03-14,,S1289-SC2 C09,,,49.0,False
+jhu00126,34_Z_Mini_049_Skin_L_2_S18,1391951.0,20859240,9643,,,Human Ocular Surface,,left,S18,,,,,,,Zymo Mini Prep Kit,,50 ul,,,5.9 ng/ul,2025-03-14,,S1289-SC2 C10,,L008,49.0,False
+jhu00127,35_Z_Mini_049_Conj_L_3_S19,61325.0,17463734,8286,,,Human Ocular Surface,,left,S19,,,,,,,Zymo Mini Prep Kit,,50 ul,,,3.2 ng/ul,2025-03-14,,S1289-SC2 C11,,,49.0,False
+jhu00128,36_Z_Mini_049_Lid_L_3_S20,108266.0,16363743,7097,,,Human Ocular Surface,,left,S20,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.3 ng/ul,2025-03-14,,S1289-SC2 C12,,,49.0,False
+jhu00129,37_Z_Mini_049_Skin_L_3_S21,463080.0,14723135,7936,,,Human Ocular Surface,,left,S21,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.5 ng/ul,2025-03-14,,S1289-SC2 D01,,L008,49.0,False
+jhu00130,38_Z_Mini_050_Conj_R_1_S22,39988.0,17392586,7881,,,Human Ocular Surface,,Right,S22,,,,,,,Zymo Mini Prep Kit,,50 ul,,,1.9 ng/ul,2025-03-14,,S1289-SC2 D02,,,50.0,False
+jhu00131,39_Z_Mini_050_Lid_R_1_S23,222489.0,17057725,8132,,,Human Ocular Surface,,Right,S23,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.8 ng/ul,2025-03-14,,S1289-SC2 D03,,,50.0,False
+jhu00132,3_Zymo_Micro_Prep_CS_003_Left_Eye_S83,30772.0,16559653,8723,,,Human Ocular Surface,,Left,S83,,,,,,,Zymo Micro Prep Kit,,20 ul,,,1.1 ng/ul,2025-03-14,,S1289-SC2 A03,,,3.0,False
+jhu00133,40_Z_Mini_050_Skin_R_1_S24,628786.0,19093420,8007,,,Human Ocular Surface,,Right,S24,,,,,,,Zymo Mini Prep Kit,,50 ul,,,1.5 ng/ul,2025-03-14,,S1289-SC2 D04,,L008,50.0,False
+jhu00134,41_Z_Mini_050_Conj_R_2_S25,51652.0,17476714,8230,,,Human Ocular Surface,,Right,S25,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.8 ng/ul,2025-03-14,,S1289-SC2 D05,,,50.0,False
+jhu00135,42_Z_Mini_050_Lid_R_2_S26,434422.0,14646756,8468,,,Human Ocular Surface,,Right,S26,,,,,,,Zymo Mini Prep Kit,,50 ul,,,6.6 ng/ul,2025-03-14,,S1289-SC2 D06,,,50.0,False
+jhu00136,43_Z_Mini_050_Skin_R_2_S27,8173581.0,16365176,8763,,,Human Ocular Surface,,Right,S27,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.2 ng/ul,2025-03-14,,S1289-SC2 D07,,L008,50.0,False
+jhu00137,44_Z_Mini_050_Conj_R_3_S28,70613.0,23988745,12676,,,Human Ocular Surface,,Right,S28,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.6 ng/ul,2025-03-14,,S1289-SC2 D08,,,50.0,False
+jhu00138,45_Z_Mini_050_Lid_R_3_S29,22745.0,5710230,2850,,,Human Ocular Surface,,Right,S29,,,,,,,Zymo Mini Prep Kit,,50 ul,,,7.3 ng/ul,2025-03-14,,S1289-SC2 D09,,,50.0,False
+jhu00139,46_Z_Mini_050_Skin_R_3_S30,1026412.0,21526864,10618,,,Human Ocular Surface,,Right,S30,,,,,,,Zymo Mini Prep Kit,,50 ul,,,3.1 ng/ul,2025-03-14,,S1289-SC2 D10,,L008,50.0,False
+jhu00140,47_Z_Mini_051_Conj_L_1_S31,35204.0,13983288,7390,,,Human Ocular Surface,,Left,S31,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.5 ng/ul,2025-03-14,,S1289-SC2 D11,,,51.0,False
+jhu00141,48_Z_Mini_051_Lid_L_1_S32,200797.0,12560761,6090,,,Human Ocular Surface,,Left,S32,,,,,,,Zymo Mini Prep Kit,,50 ul,,,3.2 ng/ul,2025-03-14,,S1289-SC2 D12,,,51.0,False
+jhu00142,49_Z_Mini_051_Skin_L_1_S33,328298.0,17666473,6586,,,Human Ocular Surface,,Left,S33,,,,,,,Zymo Mini Prep Kit,,50 ul,,,1.6 ng/ul,2025-03-14,,S1289-SC2 E01,,L008,51.0,False
+jhu00143,4_Zymo_Micro_Prep_CS_004_Right_Eye_S84,81165.0,19249676,8405,,,Human Ocular Surface,,Right,S84,,,,,,,Zymo Micro Prep Kit,,20 ul,,,0.6 ng/ul,2025-03-14,,S1289-SC2 A04,,,4.0,False
+jhu00144,50_Z_Mini_051_Conj_L_2_S34,73859.0,17520498,6565,,,Human Ocular Surface,,Left,S34,,,,,,,Zymo Mini Prep Kit,,50 ul,,,1.5 ng/ul,2025-03-14,,S1289-SC2 E02,,,51.0,False
+jhu00145,51_Z_Mini_051_Lid_L_2_S35,623922.0,17065940,9500,,,Human Ocular Surface,,Left,S35,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.2 ng/ul,2025-03-14,,S1289-SC2 E03,,,51.0,False
+jhu00146,52_Z_Mini_051_Skin_L_2_S36,3740664.0,18514098,27280,,,Human Ocular Surface,,Left,S36,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.3 ng/ul,2025-03-14,,S1289-SC2 E04,,L008,51.0,False
+jhu00147,53_Z_Mini_051_Conj_L_3_S37,57295.0,22533210,8381,,,Human Ocular Surface,,Left,S37,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.4 ng/ul,2025-03-14,,S1289-SC2 E05,,,51.0,False
+jhu00148,54_Z_Mini_051_Lid_L_3_S38,262047.0,18065586,8828,,,Human Ocular Surface,,Left,S38,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.9 ng/ul,2025-03-14,,S1289-SC2 E06,,,51.0,False
+jhu00149,55_Z_Mini_051_Skin_L_3_S39,280709.0,16926350,6273,,,Human Ocular Surface,,Left,S39,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2 ng/ul,2025-03-14,,S1289-SC2 E07,,L008,51.0,False
+jhu00150,56_Z_Mini_049_ISO_Cont_1_S40,5553629.0,6208087,19901,,,Air control,,,S40,,,,,Isohelix,,Zymo Mini Prep Kit,,50 ul,,,1.9 ng/ul,2025-03-14,,S1289-SC2 E08,,,49.0,False
+jhu00151,57_Z_Mini_050_ISO_Cont_1_S41,586787.0,1667905,1373,,,Air control,,,S41,,,,,Isohelix,,Zymo Mini Prep Kit,,50 ul,,,5.3 ng/ul,2025-03-14,,S1289-SC2 E09,,,50.0,False
+jhu00152,58_Z_Mini_049_ISO_Cont_2_S42,464518.0,1442242,911,,,Air control,,,S42,,,,,Isohelix,,Zymo Mini Prep Kit,,50 ul,,,3.3 ng/ul,2025-03-14,,S1289-SC2 E10,,,49.0,False
+jhu00153,59_Z_Mini_050_ISO_Cont_3_S43,812896.0,2089359,972,,,Air control,,,S43,,,,,Isohelix,,Zymo Mini Prep Kit,,50 ul,,,2.6 ng/ul,2025-03-14,,S1289-SC2 E11,,,50.0,False
+jhu00154,5_Zymo_Micro_Prep_CS_005_Left_Eye_S85,26764.0,20012172,7494,,,Human Ocular Surface,,Left,S85,,,,,,,Zymo Micro Prep Kit,,20 ul,,,1.4 ng/ul,2025-03-14,,S1289-SC2 A05,,,5.0,False
+jhu00155,60_Z_Mini_049_ISO_Cont_3_S44,591386.0,1337611,1482,,,Air control,,,S44,,,,,Isohelix,,Zymo Mini Prep Kit,,50 ul,,,2.7 ng/ul,2025-03-14,,S1289-SC2 E12,,,49.0,False
+jhu00156,61_Z_Mini__MCS_OMR_B1001_S45,17874762.0,18031694,466,,,Microbial Community Standard,,,S45,OMR,BI001,,,,,Zymo Mini Prep Kit,,50 ul,,,4.4 ng/ul,2025-03-14,,S1289-SC2 F01,,,,True
+jhu00157,62_Z_Mini__OMR_B1001_S46,592968.0,1111333,1769,,,OMR-110,,,S46,OMR,110,,,,,Zymo Mini Prep Kit,,50 ul,,,1.6 ng/ul,2025-03-14,,S1289-SC2 F02,,,,False
+jhu00158,63_Qiagen_DNeasy_049_Conj_L_1_S47,126313.0,12491235,6714,,,Human Ocular Surface,,Left,S47,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,6.2 ng/ul,2025-03-14,,S1289-SC2 F03,,,49.0,False
+jhu00159,64_Qiagen_DNeasy_049_049_Lid_L_1_S48,202088.0,17970897,9368,,,Human Ocular Surface,,Left,S48,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.1 ng/ul,2025-03-14,,S1289-SC2 F04,,,49.0,False
+jhu00160,65_Qiagen_DNeasy_049_Skin_L_1_S49,292954.0,13513388,11067,,,Human Ocular Surface,,Left,S49,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.1 ng/ul,2025-03-14,,S1289-SC2 F05,,L008,49.0,False
+jhu00161,66_Qiagen_DNeasy_049_Conj_L_2_S50,90734.0,7344335,4070,,,Human Ocular Surface,,Left,S50,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,5.1 ng/ul,2025-03-14,,S1289-SC2 F06,,,49.0,False
+jhu00162,67_Qiagen_DNeasy_049_Lid_L_2_S51,185241.0,15034438,9623,,,Human Ocular Surface,,Left,S51,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.3 ng/ul,2025-03-14,,S1289-SC2 F07,,,49.0,False
+jhu00163,68_Qiagen_DNeasy_049_Skin_L_2_S52,2173211.0,10064434,10798,,,Human Ocular Surface,,Left,S52,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.2 ng/ul,2025-03-14,,S1289-SC2 F08,,L008,49.0,False
+jhu00164,69_Qiagen_DNeasy_049_Conj_L_3_S53,251027.0,17531597,11912,,,Human Ocular Surface,,Left,S53,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,4.2 ng/ul,2025-03-14,,S1289-SC2 F09,,,49.0,False
+jhu00165,6_Zymo_Micro_Prep_CS_006_Right_Eye_S86,22509.0,17704755,7032,,,Human Ocular Surface,,Right,S86,,,,,,,Zymo Micro Prep Kit,,20 ul,,,3.2 ng/ul,2025-03-14,,S1289-SC2 A06,,,6.0,False
+jhu00166,70_Qiagen_DNeasy_049_Lid_L_3_S54,258252.0,16982311,11317,,,Human Ocular Surface,,Left,S54,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3 ng/ul,2025-03-14,,S1289-SC2 F10,,,49.0,False
+jhu00167,71_Qiagen_DNeasy_049_Skin_L_3_S55,479946.0,16503217,13784,,,Human Ocular Surface,,Left,S55,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,4.3 ng/ul,2025-03-14,,S1289-SC2 F11,,L008,49.0,False
+jhu00168,72_Qiagen_DNeasy_050_Conj_R_1_S56,86237.0,16561570,12419,,,Human Ocular Surface,,Right,S56,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,2.4 ng/ul,2025-03-14,,S1289-SC2 F12,,,50.0,False
+jhu00169,73_Qiagen_DNeasy_050_Lid_R_1_S57,190942.0,8634430,6439,,,Human Ocular Surface,,Right,S57,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,2.7 ng/ul,2025-03-14,,S1289-SC2 G01,,,50.0,False
+jhu00170,74_Qiagen_DNeasy_050_Skin_R_1_S58,352071.0,13881462,9349,,,Human Ocular Surface,,Right,S58,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,1.1 ng/ul,2025-03-14,,S1289-SC2 G02,,L008,50.0,False
+jhu00171,75_Qiagen_DNeasy_050_Conj_R_2_S59,586613.0,7157278,3294,,,Human Ocular Surface,,Right,S59,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.7 ng/ul,2025-03-14,,S1289-SC2 G03,,,50.0,False
+jhu00172,76_Qiagen_DNeasy_050_Lid_R_2_S60,1597614.0,8622089,5824,,,Human Ocular Surface,,Right,S60,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.1 ng/ul,2025-03-14,,S1289-SC2 G04,,,50.0,False
+jhu00173,77_Qiagen_DNeasy_050_Skin_R_2_S61,804828.0,2526536,1168,,,Human Ocular Surface,,Right,S61,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,4.4 ng/ul,2025-03-14,,S1289-SC2 G05,,L008,50.0,False
+jhu00174,78_Qiagen_DNeasy_050_Conj_R_3_S62,425784.0,8814382,5919,,,Human Ocular Surface,,Right,S62,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,2.9 ng/ul,2025-03-14,,S1289-SC2 G06,,,50.0,False
+jhu00175,79_Qiagen_DNeasy_050_Lid_R_3_S63,54880.0,19685917,15142,,,Human Ocular Surface,,Right,S63,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.7 ng/ul,2025-03-14,,S1289-SC2 G07,,,50.0,False
+jhu00176,7_Zymo_Micro_Prep_CS_007_Left_Eye_S87,31349.0,21616166,10843,,,Human Ocular Surface,,Left,S87,,,,,,,Zymo Micro Prep Kit,,20 ul,,,3.1 ng/ul,2025-03-14,,S1289-SC2 A07,,,7.0,False
+jhu00177,80_Qiagen_DNeasy_050_Skin_R_3_S64,567737.0,12131672,9451,,,Human Ocular Surface,,left,S64,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.5 ng/ul,2025-03-14,,S1289-SC2 G08,,L008,50.0,False
+jhu00178,81_Qiagen_DNeasy_051_Conj_L_1_S65,118514.0,18306384,5749,,,Human Ocular Surface,,left,S65,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,8.5 ng/ul,2025-03-14,,S1289-SC2 G09,,,51.0,False
+jhu00179,82_Qiagen_DNeasy_051_Lid_L_1_S66,465975.0,17458700,8531,,,Human Ocular Surface,,left,S66,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,4.4 ng/ul,2025-03-14,,S1289-SC2 G10,,,51.0,False
+jhu00180,83_Qiagen_DNeasy_051_Skin_L_1_S67,253671.0,16506607,8394,,,Human Ocular Surface,,left,S67,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,2.1 ng/ul,2025-03-14,,S1289-SC2 G11,,L008,51.0,False
+jhu00181,84_Qiagen_DNeasy_051_Conj_L_2_S68,113844.0,10594271,7374,,,Human Ocular Surface,,left,S68,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,4.3 ng/ul,2025-03-14,,S1289-SC2 G12,,,51.0,False
+jhu00182,85_Qiagen_DNeasy_051_Lid_L_2_S69,195995.0,13279965,10407,,,Human Ocular Surface,,left,S69,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,4.6 ng/ul,2025-03-14,,S1289-SC2 H01,,,51.0,False
+jhu00183,86_Qiagen_DNeasy_051_Skin_L_2_S70,1875237.0,28356564,14810,,,Human Ocular Surface,,left,S70,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,5.7 ng/ul,2025-03-14,,S1289-SC2 H02,,L008,51.0,False
+jhu00184,87_Qiagen_DNeasy_051_Conj_L_3_S71,72435.0,10054828,6733,,,Human Ocular Surface,,left,S71,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,4.1 ng/ul,2025-03-14,,S1289-SC2 H03,,,51.0,False
+jhu00185,88_Qiagen_DNeasy_051_Lid_L_3_S72,241317.0,15919963,12441,,,Human Ocular Surface,,left,S72,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,8.6 ng/ul,2025-03-14,,S1289-SC2 H04,,,51.0,False
+jhu00186,89_Qiagen_DNeasy_051_Skin_L_3_S73,325142.0,11893183,6397,,,Human Ocular Surface,,Left,S73,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,2.2 ng/ul,2025-03-14,,S1289-SC2 H05,,L008,51.0,False
+jhu00187,8_Zymo_Micro_Prep_CS_008_Right_Eye_S88,32223.0,19483052,9045,,,Human Ocular Surface,,Right,S88,,,,,,,Zymo Micro Prep Kit,,20 ul,,,2 ng/ul,2025-03-14,,S1289-SC2 A08,,,8.0,False
+jhu00188,90_Qiagen_DNeasy_049_ISO_Cont_1_S74,2517432.0,2992477,1943,,,Air control,,,S74,,,,,Isohelix,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.6 ng/ul,2025-03-14,,S1289-SC2 H06,,,49.0,False
+jhu00189,91_Qiagen_DNeasy_050_ISO_Cont_1_S75,3633616.0,4184602,3265,,,Air control,,,S75,,,,,Isohelix,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,6.1 ng/ul,2025-03-14,,S1289-SC2 H07,,,50.0,False
+jhu00190,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,3886477.0,4661992,2016,,,Air control,,,S76,,,,,Isohelix,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,2.3 ng/ul,2025-03-14,,S1289-SC2 H08,,,49.0,False
+jhu00191,93_Qiagen_DNeasy_050_ISO_Cont_3_S77,7463058.0,8681421,2536,,,Air control,,,S77,,,,,Isohelix,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,5 ng/ul,2025-03-14,,S1289-SC2 H09,,,50.0,False
+jhu00192,94_Qiagen_DNeasy_049_ISO_Cont_3_S78,2436974.0,3075088,1169,,,Air control,,,S78,,,,,Isohelix,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.9 ng/ul,2025-03-14,,S1289-SC2 H10,,,49.0,False
+jhu00193,95_Qiagen_DNeasy_MCS_OMR_B1001_S79,17821336.0,17969487,91,,,Microbial Community Standard,,,S79,OMR,BI001,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,4.9 ng/ul,2025-03-14,,S1289-SC2 H11,,,,True
+jhu00194,96_Qiagen_DNeasy_OMR_B1001_S80,8158713.0,8583117,2739,,,OMR-110,,,S80,OMR,110,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,7 ng/ul,2025-03-14,,S1289-SC2 H12,,,,False
+jhu00195,9_Zymo_Micro_Prep_CS_009_Left_Eye_S89,31435.0,20598269,9925,,,Human Ocular Surface,,Left,S89,,,,,,,Zymo Micro Prep Kit,,20 ul,,,0.9 ng/ul,2025-03-14,,S1289-SC2 A09,,,9.0,False
+jhu00196,025RM_Conj_L_1_S1,67866.0,6134407,2563,2024-10-09,1.0,Human Ocular Surface,Conj,Left,S1,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2,2025-08-06,,,A2,L006,25.0,
+jhu00197,025RM_Conj_L_2_S2,55293.0,21979541,7698,2025-10-16,2.0,Human Ocular Surface,Conj,Left,S2,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,B2,L006,25.0,
+jhu00198,025RM_Conj_L_3_S3,1744160.0,25081400,8793,2024-11-06,3.0,Human Ocular Surface,Conj,Left,S3,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2,2025-08-06,,,B11,L006,25.0,
+jhu00199,025RM_Conj_R_1_S4,118203.0,6586665,2628,2024-10-09,1.0,Human Ocular Surface,Conj,Right,S4,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,A1,L006,25.0,
+jhu00200,025RM_Conj_R_2_S5,36381.0,1153887,434,2024-10-16,2.0,Human Ocular Surface,Conj,Right,S5,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,B1,L006,25.0,
+jhu00201,025RM_Conj_R_3_S6,113997.0,27844448,12821,2024-11-06,3.0,Human Ocular Surface,Conj,Right,S6,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,,,B10,L006,25.0,
+jhu00202,025RM_ISO_CONT_3_S7,159132.0,1700709,651,2024-11-06,3.0,Air control,,,S7,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.7,2025-08-06,,,C11,L006,25.0,
+jhu00203,025RM_Lid_L_1_S8,75723.0,1695478,574,2024-10-09,1.0,Human Ocular Surface,Lid margin,Left,S8,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.1,2025-08-06,,,A4,L006,25.0,
+jhu00204,025RM_Lid_L_2_S9,45502.0,1362904,696,2027-10-16,2.0,Human Ocular Surface,Lid margin,Left,S9,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,0.7,2025-08-06,,,B4,L006,25.0,
+jhu00205,025RM_Lid_L_3_S10,194913.0,3924406,2489,2024-11-06,3.0,Human Ocular Surface,Lid margin,Left,S10,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.7,2025-08-06,,,C1,L006,25.0,
+jhu00206,025RM_Lid_R_1_S11,3242200.0,4937909,2423,2024-10-09,1.0,Human Ocular Surface,Lid margin,Right,S11,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,A3,L006,25.0,
+jhu00207,025RM_Lid_R_2_S12,392589.0,15404079,5758,2026-10-16,2.0,Human Ocular Surface,Lid margin,Right,S12,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,B3,L006,25.0,
+jhu00208,025RM_Lid_R_3_S13,157999.0,8647797,3944,2024-11-06,3.0,Human Ocular Surface,Lid margin,Right,S13,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,,,B12,L006,25.0,
+jhu00209,025RM_PUR_CONT_1_S14,126540.0,1218081,628,2024-10-09,1.0,Air control,,,S14,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,B7,L006,25.0,
+jhu00210,025RM_PUR_CONT_2_S15,134859.0,1141198,600,2024-10-16,2.0,Air control,,,S15,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,B9,L006,25.0,
+jhu00211,025RM_PUR_CONT_3_S16,186758.0,2526778,1575,2024-11-06,3.0,Air control,,,S16,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.8,2025-08-06,,,C10,L006,25.0,
+jhu00212,025RM_Skin_L_1_S17,926029.0,10298054,3851,2024-10-09,1.0,Human Ocular Surface,Periocular skin,,S17,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,A6,L006,25.0,
+jhu00213,025RM_Skin_L_2_S18,537990.0,10858758,4636,2029-10-16,2.0,Human Ocular Surface,Periocular skin,,S18,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,B6,L006,25.0,
+jhu00214,025RM_Skin_L_3_S19,800136.0,17507633,6585,2024-11-06,3.0,Human Ocular Surface,Periocular skin,,S19,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.6,2025-08-06,,,C3,L006,25.0,
+jhu00215,025RM_Skin_R_1_S20,183311.0,6246560,2231,2024-10-09,1.0,Human Ocular Surface,Periocular skin,,S20,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,A5,L006,25.0,
+jhu00216,025RM_Skin_R_2_S21,775879.0,15737693,5919,2028-10-16,2.0,Human Ocular Surface,Periocular skin,,S21,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,B5,L006,25.0,
+jhu00217,025RM_Skin_R_3_S22,690553.0,22632167,8665,2024-11-06,3.0,Human Ocular Surface,Periocular skin,,S22,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.8,2025-08-06,,,C2,L006,25.0,
+jhu00218,026MH_Conj_L_1_S23,84126.0,27968211,10237,2024-10-09,1.0,Human Ocular Surface,Conj,,S23,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,A8,L006,26.0,
+jhu00219,026MH_Conj_L_2_S24,71646.0,25323449,8963,2024-10-23,2.0,Human Ocular Surface,Conj,,S24,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,D6,L006,26.0,
+jhu00220,026MH_Conj_L_3_S25,79991.0,26393591,12139,2024-10-30,3.0,Human Ocular Surface,Conj,,S25,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.7,2025-08-06,,,F2,L006,26.0,
+jhu00221,026MH_Conj_R_1_S26,76209.0,22600823,9362,2024-10-09,1.0,Human Ocular Surface,Conj,,S26,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,3,2025-08-06,,,A7,L006,26.0,
+jhu00222,026MH_Conj_R_2_S27,60524.0,23500384,7880,2024-10-23,2.0,Human Ocular Surface,Conj,,S27,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,D5,L006,26.0,
+jhu00223,026MH_Conj_R_3_S28,761793.0,27849090,9457,2024-10-30,3.0,Human Ocular Surface,Conj,,S28,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,,,F1,L006,26.0,
+jhu00224,026MH_ISO_CONT_1_S29,24543.0,461945,322,2024-10-09,1.0,Air control,,,S29,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,B8,L006,26.0,
+jhu00225,026MH_ISO_CONT_2_S30,125628.0,716174,232,2024-10-23,2.0,Air control,,,S30,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.2,2025-08-06,,,E6,L006,26.0,
+jhu00226,026MH_ISO_CONT_3_S31,132653.0,618934,329,2024-10-30,3.0,Air control,,,S31,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.5,2025-08-06,,,G2,L006,26.0,
+jhu00227,026MH_Lid_L_1_S32,276840.0,25001342,9797,2024-10-09,1.0,Human Ocular Surface,Lid margin,,S32,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.3,2025-08-06,,,A10,L006,26.0,
+jhu00228,026MH_Lid_L_2_S33,187745.0,20135891,6967,2024-10-23,2.0,Human Ocular Surface,Lid margin,,S33,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,D8,L006,26.0,
+jhu00229,026MH_Lid_L_3_S34,1398012.0,19664018,7017,2024-10-30,3.0,Human Ocular Surface,Lid margin,,S34,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,,,F4,L006,26.0,
+jhu00230,026MH_Lid_R_1_S35,557526.0,20762706,8596,2024-10-09,1.0,Human Ocular Surface,Lid margin,,S35,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,A9,L006,26.0,
+jhu00231,026MH_Lid_R_2_S36,170127.0,3811311,1241,2024-10-23,2.0,Human Ocular Surface,Lid margin,,S36,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,,,D7,L006,26.0,
+jhu00232,026MH_Lid_R_3_S37,380793.0,23737387,8677,2024-10-30,3.0,Human Ocular Surface,Lid margin,,S37,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,F3,L006,26.0,
+jhu00233,026MH_PUR_CONT_2_S38,275707.0,1572421,737,2024-10-23,2.0,Air control,,,S38,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1,2025-08-06,,,E5,L006,26.0,
+jhu00234,026MH_PUR_CONT_3_S39,410025.0,1109553,644,2024-10-30,3.0,Air control,,,S39,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,G1,L006,26.0,
+jhu00235,026MH_Skin_L_1_S40,1388872.0,21104268,8068,2024-10-09,1.0,Human Ocular Surface,Periocular skin,,S40,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,A12,L006,26.0,
+jhu00236,026MH_Skin_L_2_S41,3228527.0,13324654,3853,2024-10-23,2.0,Human Ocular Surface,Periocular skin,,S41,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,,,D10,L006,26.0,
+jhu00237,026MH_Skin_L_3_S42,2193725.0,20090538,6916,2024-10-30,3.0,Human Ocular Surface,Periocular skin,,S42,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,F6,L006,26.0,
+jhu00238,026MH_Skin_R_1_S43,1020583.0,28630659,11209,2024-10-09,1.0,Human Ocular Surface,Periocular skin,,S43,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2,2025-08-06,,,A11,L006,26.0,
+jhu00239,026MH_Skin_R_2_S44,30212697.0,51204838,8430,2024-10-23,2.0,Human Ocular Surface,Periocular skin,,S44,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,D9,L006,26.0,
+jhu00240,026MH_Skin_R_3_S45,2358619.0,12398761,3926,2024-10-30,3.0,Human Ocular Surface,Periocular skin,,S45,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,F5,L006,26.0,
+jhu00241,0277R_Skin_R_1_S46,3001167.0,25396205,9790,2024-10-23,1.0,Human Ocular Surface,Periocular skin,,S46,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,E3,L006,27.0,
+jhu00242,0277R_Skin_R_2_S47,3113174.0,23957444,7810,2024-10-30,2.0,Human Ocular Surface,Periocular skin,,S47,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,F11,L006,27.0,
+jhu00243,027AW_Conj_L_3_S48,460064.0,20150485,7399,2024-11-06,3.0,Human Ocular Surface,Conj,,S48,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,3.6,2025-08-06,,,C5,L006,27.0,
+jhu00244,027ZR_Conj_L_1_S49,1010964.0,24301802,7996,2024-10-23,1.0,Human Ocular Surface,Conj,,S49,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,,,D12,L006,27.0,
+jhu00245,027ZR_Conj_L_2_S50,84173.0,23893868,11330,2024-10-30,2.0,Human Ocular Surface,Conj,,S50,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2,2025-08-06,,,F8,L006,27.0,
+jhu00246,027ZR_Conj_R_1_S51,56689.0,25291409,9818,2024-10-23,1.0,Human Ocular Surface,Conj,,S51,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,,,D11,L006,27.0,
+jhu00247,027ZR_Conj_R_2_S52,63041.0,23693060,7787,2024-10-30,2.0,Human Ocular Surface,Conj,,S52,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,F7,L006,27.0,
+jhu00248,027ZR_Conj_R_3_S53,51552.0,19505900,7428,2024-11-06,3.0,Human Ocular Surface,Conj,,S53,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,C4,L006,27.0,
+jhu00249,027ZR_Lid_L_1_S54,1076952.0,19523866,6735,2024-10-23,1.0,Human Ocular Surface,Lid margin,,S54,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,0.9,2025-08-06,,,E2,L006,27.0,
+jhu00250,027ZR_Lid_L_2_S55,1357004.0,16728358,6560,2024-10-30,2.0,Human Ocular Surface,Lid margin,,S55,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,,,F10,L006,27.0,
+jhu00251,027ZR_Lid_L_3_S56,28110.0,810814,185,2024-11-06,3.0,Human Ocular Surface,Lid margin,,S56,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.6,2025-08-06,,,C7,L006,27.0,
+jhu00252,027ZR_Lid_R_1_S57,664793.0,12619620,4805,2024-10-23,1.0,Human Ocular Surface,Lid margin,,S57,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,,,E1,L006,27.0,
+jhu00253,027ZR_Lid_R_2_S58,317272.0,25131543,9287,2024-10-30,2.0,Human Ocular Surface,Lid margin,,S58,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.7,2025-08-06,,,F9,L006,27.0,
+jhu00254,027ZR_Lid_R_3_S59,400513.0,15751542,5535,2024-11-06,3.0,Human Ocular Surface,Lid margin,,S59,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.6,2025-08-06,,,C6,L006,27.0,
+jhu00255,027ZR_Skin_L_1_S60,1208402.0,20228155,7503,2024-10-23,1.0,Human Ocular Surface,Periocular skin,,S60,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,0.9,2025-08-06,,,E4,L006,27.0,
+jhu00256,027ZR_Skin_L_2_S61,2337421.0,23299632,6068,2024-10-30,2.0,Human Ocular Surface,Periocular skin,,S61,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,,,F12,L006,27.0,
+jhu00257,027ZR_Skin_L_3_S62,1282266.0,3324223,810,2024-11-06,3.0,Human Ocular Surface,Periocular skin,,S62,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.8,2025-08-06,,,C9,L006,27.0,
+jhu00258,027ZR_Skin_R_3_S63,3710434.0,6999552,1322,2024-11-06,3.0,Human Ocular Surface,Periocular skin,,S63,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.3,2025-08-06,,,C8,L006,27.0,
+jhu00259,029SH_ISO_CONT_2_S64,138437.0,1052908,466,2024-11-13,2.0,Air control,,,S64,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,1.0,,G12,L006,29.0,
+jhu00260,030AH_Conj_L_1_S65,2393874.0,19195353,5833,2024-11-06,1.0,Human Ocular Surface,Conj,,S65,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.8,2025-08-06,1.0,,D1,L006,30.0,
+jhu00261,030AH_Conj_L_2_S66,61570.0,23394470,10238,2024-11-13,2.0,Human Ocular Surface,Conj,,S66,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1,2025-08-06,1.0,,G4,L006,30.0,
+jhu00262,030AH_Conj_L_3_S67,1310142.0,22517166,8648,2024-11-20,3.0,Human Ocular Surface,Conj,,S67,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.2,2025-08-06,1.0,,H2,L006,30.0,
+jhu00263,030AH_Conj_R_1_S68,2246517.0,3492614,684,2024-11-06,1.0,Human Ocular Surface,Conj,,S68,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,3.8,2025-08-06,1.0,,C12,L006,30.0,
+jhu00264,030AH_Conj_R_2_S69,80893.0,24248683,8939,2024-11-13,2.0,Human Ocular Surface,Conj,,S69,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,1.0,,G3,L006,30.0,
+jhu00265,030AH_Conj_R_3_S70,36495.0,9747353,4331,2024-11-20,3.0,Human Ocular Surface,Conj,,S70,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,1.0,,H1,L006,30.0,
+jhu00266,030AH_FLOQ_CONT_1_S71,90284.0,487731,124,2024-11-06,1.0,Air control,,,S71,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,3.1,2025-08-06,1.0,,D4,L006,30.0,
+jhu00267,030AH_Floq_CONT_2_S72,110084.0,1199862,1248,2024-11-13,2.0,Air control,,,S72,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,1.0,,G11,L006,30.0,
+jhu00268,030AH_Floq_CONT_3_S73,230818.0,1034069,388,2024-11-20,3.0,Air control,,,S73,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,1.0,,H9,L006,30.0,
+jhu00269,030AH_Lid_L_1_S74,87894.0,2176811,698,2024-11-06,1.0,Human Ocular Surface,Lid margin,,S74,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.1,2025-08-06,1.0,,D2,L006,30.0,
+jhu00270,030AH_Lid_L_2_S75,1449567.0,8809547,3256,2024-11-13,2.0,Human Ocular Surface,Lid margin,,S75,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,1.0,,G5,L006,30.0,
+jhu00271,030AH_Lid_L_3_S76,552662.0,11076599,4035,2024-11-20,3.0,Human Ocular Surface,Lid margin,,S76,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,1.0,,H3,L006,30.0,
+jhu00272,030AH_Skin_L_1_S77,5156362.0,6083299,653,2024-11-06,1.0,Human Ocular Surface,Periocular skin,,S77,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.2,2025-08-06,1.0,,D3,L006,30.0,
+jhu00273,030AH_Skin_L_2_S78,603884.0,4667250,2796,2024-11-13,2.0,Human Ocular Surface,Periocular skin,,S78,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1,2025-08-06,1.0,,G6,L006,30.0,
+jhu00274,030AH_Skin_L_3_S79,1549595.0,18735439,7411,2024-11-20,3.0,Human Ocular Surface,Periocular skin,,S79,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,1.0,,H4,L006,30.0,
+jhu00275,032SN_Conj_L_1_S80,63671.0,26129855,8759,2024-11-13,1.0,Human Ocular Surface,Conj,,S80,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.2,2025-08-06,1.0,,G8,L006,32.0,
+jhu00276,032SN_Conj_L_2_S81,50273.0,16753720,7078,2024-11-20,2.0,Human Ocular Surface,Conj,,S81,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,1.0,,H6,L006,32.0,
+jhu00277,032SN_Conj_L_3_S82,68904.0,10334005,3782,2024-12-04,3.0,Human Ocular Surface,Conj,,S82,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,1.0,,E8,L006,32.0,
+jhu00278,032SN_Conj_R_1_S83,304564.0,26574531,8295,2024-11-13,1.0,Human Ocular Surface,Conj,,S83,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,1.0,,G7,L006,32.0,
+jhu00279,032SN_Conj_R_2_S84,125413.0,24972868,9732,2024-11-20,2.0,Human Ocular Surface,Conj,,S84,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,1.0,,H5,L006,32.0,
+jhu00280,032SN_Conj_R_3_S85,53356.0,20071560,7483,2024-12-04,3.0,Human Ocular Surface,Conj,,S85,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,1.0,,E7,L006,32.0,
+jhu00281,032SN_FLOQ_CONT_3_S86,374237.0,1976118,984,2024-12-04,3.0,Air control,,,S86,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,0.9,2025-08-06,1.0,,E11,L006,32.0,
+jhu00282,032SN_ISO_CONT_2_S87,59064.0,589075,318,2024-11-20,2.0,Air control,,,S87,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.5,2025-08-06,1.0,,H10,L006,32.0,
+jhu00283,032SN_ISO_CONT_3_S88,6870201.0,9729347,2479,2024-12-04,3.0,Air control,,,S88,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,1.0,,E12,L006,32.0,
+jhu00284,032SN_Lid_L_1_S89,309908.0,6281174,2825,2024-11-13,1.0,Human Ocular Surface,Lid margin,,S89,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,1.0,,G9,L006,32.0,
+jhu00285,032SN_Lid_L_2_S90,59806.0,706743,208,2024-11-20,2.0,Human Ocular Surface,Lid margin,,S90,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,1.0,,H7,L006,32.0,
+jhu00286,032SN_Lid_L_3_S91,79278.0,1919182,687,2024-12-04,3.0,Human Ocular Surface,Lid margin,,S91,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,1.0,,E9,L006,32.0,
+jhu00287,032SN_Skin_R_1_S92,194257.0,8802561,12998,2024-11-13,1.0,Human Ocular Surface,Periocular skin,,S92,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,1.1,2025-08-06,1.0,,G10,L006,32.0,
+jhu00288,032SN_Skin_R_2_S93,366020.0,67586275,27068,2024-11-20,2.0,Human Ocular Surface,Periocular skin,,S93,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,1.0,,H8,L006,32.0,
+jhu00289,032SN_Skin_R_3_S94,1543466.0,20766696,6871,2024-12-04,3.0,Human Ocular Surface,Periocular skin,,S94,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,2,2025-08-06,1.0,,E10,L006,32.0,
+jhu00290,033MA_BSS_CONT_1_S191,13181292.0,14188874,1630,2024-11-13,1.0,Air control,,,S191,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,B7,L008,33.0,
+jhu00291,033MA_BSS_CONT_3_S192,7102121.0,7553850,815,2024-12-04,3.0,Air control,,,S192,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.8,2025-08-06,,,B9,L008,33.0,
+jhu00292,033MA_Conj_L_1_S193,83744.0,12960640,5936,2024-11-13,1.0,Human Ocular Surface,Conj,,S193,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.7,2025-08-06,,,A2,L008,33.0,
+jhu00293,033MA_Conj_L_2_S194,9163530.0,10385541,1427,2024-11-20,2.0,Human Ocular Surface,Conj,,S194,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,2.0,,A8,L008,33.0,
+jhu00294,033MA_Conj_L_3_S195,13200291.0,14255541,1806,2024-12-04,3.0,Human Ocular Surface,Conj,,S195,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,,,B2,L008,33.0,
+jhu00295,033MA_Conj_R_1_S196,16586.0,38413,19,2024-11-13,1.0,Human Ocular Surface,Conj,,S196,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,A1,L008,33.0,
+jhu00296,033MA_Conj_R_2_S197,17103728.0,18013663,2266,2024-11-20,2.0,Human Ocular Surface,Conj,,S197,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.3,2025-08-06,2.0,,A7,L008,33.0,
+jhu00297,033MA_Conj_R_3_S198,1014.0,1873,1,2024-12-04,3.0,Human Ocular Surface,Conj,,S198,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,B1,L008,33.0,
+jhu00298,033MA_Lid_L_1_S199,1867037.0,6253017,1997,2024-11-13,1.0,Human Ocular Surface,Lid margin,,S199,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.2,2025-08-06,,,A4,L008,33.0,
+jhu00299,033MA_Lid_L_2_S200,9721279.0,10478010,1387,2024-11-20,2.0,Human Ocular Surface,Lid margin,,S200,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,2.0,,A10,L008,33.0,
+jhu00300,033MA_Lid_L_3_S201,32121.0,520405,510,2024-12-04,3.0,Human Ocular Surface,Lid margin,,S201,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.2,2025-08-06,,,B4,L008,33.0,
+jhu00301,033MA_Lid_R_1_S202,2173478.0,2645772,1529,2024-11-13,1.0,Human Ocular Surface,Lid margin,,S202,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,,,A3,L008,33.0,
+jhu00302,033MA_Lid_R_2_S203,5122151.0,5688689,869,2024-11-20,2.0,Human Ocular Surface,Lid margin,,S203,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,2.0,,A9,L008,33.0,
+jhu00303,033MA_Lid_R_3_S204,12814331.0,15711139,2318,2024-12-04,3.0,Human Ocular Surface,Lid margin,,S204,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,,,B3,L008,33.0,
+jhu00304,033MA_Skin_L_1_S205,5596784.0,6227537,1146,2024-11-13,1.0,Human Ocular Surface,Periocular skin,,S205,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,A6,L008,33.0,
+jhu00305,033MA_Skin_L_2_S206,15937395.0,17071417,1835,2024-11-20,2.0,Human Ocular Surface,Periocular skin,,S206,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,2.0,,A12,L008,33.0,
+jhu00306,033MA_Skin_L_3_S207,9675510.0,10769633,1546,2024-12-04,3.0,Human Ocular Surface,Periocular skin,,S207,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,B6,L008,33.0,
+jhu00307,033MA_Skin_R_1_S208,6168615.0,14718260,3895,2024-11-13,1.0,Human Ocular Surface,Periocular skin,,S208,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,A5,L008,33.0,
+jhu00308,033MA_Skin_R_2_S209,34327.0,956363,873,2024-11-20,2.0,Human Ocular Surface,Periocular skin,,S209,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1,2025-08-06,2.0,,A11,L008,33.0,
+jhu00309,033MA_Skin_R_3_S210,11925408.0,12724369,1567,2024-12-04,3.0,Human Ocular Surface,Periocular skin,,S210,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,,,B5,L008,33.0,
+jhu00310,034AN_BSS_CONT_3a_S211,7057547.0,7892821,1008,2024-12-18,3.0,Air control,,,S211,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1,2025-08-06,,,D6,L008,34.0,
+jhu00311,034AN_BSS_CONT_3b_S212,2726254.0,3092347,650,2024-12-18,3.0,Air control,,,S212,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,,,F3,L008,34.0,
+jhu00312,034AN_BSS_ISO_CONT_1a_S214,9846426.0,11033977,1134,2024-11-20,1.0,Air control,,,S214,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.8,2025-08-06,,,B8,L008,34.0,
+jhu00313,034AN_BSS_ISO_CONT_1b_S215,19112701.0,20051713,2236,2024-11-20,1.0,Air control,,,S215,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.5,2025-08-06,,,D4,L008,34.0,
+jhu00314,034AN_BSS_ISO_CONT_2_S213,16080094.0,17079450,2058,2024-12-04,2.0,Air control,,,S213,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1,2025-08-06,,,D5,L008,34.0,
+jhu00315,034AN_Conj_L_1_S216,1611168.0,26587785,10088,2024-11-20,1.0,Human Ocular Surface,Conj,,S216,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1,2025-08-06,2.0,,B11,L008,34.0,
+jhu00316,034AN_Conj_L_2_S217,1728855.0,25246867,8623,2024-12-04,2.0,Human Ocular Surface,Conj,,S217,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,C5,L008,34.0,
+jhu00317,034AN_Conj_L_3_S218,2489453.0,29910841,10235,2024-12-18,3.0,Human Ocular Surface,Conj,,S218,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.8,2025-08-06,2.0,,C11,L008,34.0,
+jhu00318,034AN_Conj_R_1_S219,8181993.0,23314207,6876,2024-11-20,1.0,Human Ocular Surface,Conj,,S219,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.7,2025-08-06,2.0,,B10,L008,34.0,
+jhu00319,034AN_Conj_R_2_S220,4388137.0,34688662,12373,2024-12-04,2.0,Human Ocular Surface,Conj,,S220,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,C4,L008,34.0,
+jhu00320,034AN_Conj_R_3_S221,6293988.0,16265337,4703,2024-12-18,3.0,Human Ocular Surface,Conj,,S221,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1,2025-08-06,2.0,,C10,L008,34.0,
+jhu00321,034AN_Lid_L_1_S222,10068211.0,12298133,3556,2024-11-20,1.0,Human Ocular Surface,Lid margin,,S222,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.9,2025-08-06,2.0,,C1,L008,34.0,
+jhu00322,034AN_Lid_L_2_S223,8800899.0,9627485,1630,2024-12-04,2.0,Human Ocular Surface,Lid margin,,S223,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.9,2025-08-06,,,C7,L008,34.0,
+jhu00323,034AN_Lid_L_3_S224,7932036.0,8782713,1857,2024-12-18,3.0,Human Ocular Surface,Lid margin,,S224,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.6,2025-08-06,2.0,,D1,L008,34.0,
+jhu00324,034AN_Lid_R_1_S225,729.0,1811,0,2024-11-20,1.0,Human Ocular Surface,Lid margin,,S225,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,2.0,,B12,L008,34.0,
+jhu00325,034AN_Lid_R_2_S226,9827460.0,17535932,3820,2024-12-04,2.0,Human Ocular Surface,Lid margin,,S226,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.2,2025-08-06,,,C6,L008,34.0,
+jhu00326,034AN_Lid_R_3_S227,360.0,935,1,2024-12-18,3.0,Human Ocular Surface,Lid margin,,S227,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,2.0,,C12,L008,34.0,
+jhu00327,034AN_Skin_L_1_S228,13543914.0,14852139,3474,2024-11-20,1.0,Human Ocular Surface,Periocular skin,,S228,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.2,2025-08-06,2.0,,C3,L008,34.0,
+jhu00328,034AN_Skin_L_2_S229,9216896.0,10849170,1223,2024-12-04,2.0,Human Ocular Surface,Periocular skin,,S229,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,,,C9,L008,34.0,
+jhu00329,034AN_Skin_L_3_S230,8232243.0,8919512,1315,2024-12-18,3.0,Human Ocular Surface,Periocular skin,,S230,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.8,2025-08-06,2.0,,D3,L008,34.0,
+jhu00330,034AN_Skin_R_1_S231,7004286.0,7616989,2049,2024-11-20,1.0,Human Ocular Surface,Periocular skin,,S231,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.9,2025-08-06,2.0,,C2,L008,34.0,
+jhu00331,034AN_Skin_R_2_S232,4483531.0,5137379,807,2024-12-04,2.0,Human Ocular Surface,Periocular skin,,S232,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.9,2025-08-06,,,C8,L008,34.0,
+jhu00332,034AN_Skin_R_3_S233,5031451.0,15579483,4623,2024-12-18,3.0,Human Ocular Surface,Periocular skin,,S233,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.8,2025-08-06,2.0,,D2,L008,34.0,
+jhu00333,035FS_BSS_ISO_CONT_1_S234,6020524.0,7155330,2894,2024-11-20,1.0,Air control,,,S234,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,F1,L008,35.0,
+jhu00334,035FS_BSS_ISO_CONT_2_S235,9728836.0,10271174,1361,2024-12-04,2.0,Air control,,,S235,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.5,2025-08-06,,,F2,L008,35.0,
+jhu00335,035FS_Conj_L_1_S236,3533314.0,6694889,1661,2024-11-20,1.0,Human Ocular Surface,Conj,,S236,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,D8,L008,35.0,
+jhu00336,035FS_Conj_L_2_S237,5711444.0,13199704,3652,2024-12-04,2.0,Human Ocular Surface,Conj,,S237,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.9,2025-08-06,,,E2,L008,35.0,
+jhu00337,035FS_Conj_L_3_S238,4182193.0,24924733,8163,2024-12-18,3.0,Human Ocular Surface,Conj,,S238,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,2.0,,E8,L008,35.0,
+jhu00338,035FS_Conj_R_1_S239,21177015.0,22749398,2822,2024-11-20,1.0,Human Ocular Surface,Conj,,S239,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,D7,L008,35.0,
+jhu00339,035FS_Conj_R_2_S240,391962.0,27710148,9334,2024-12-04,2.0,Human Ocular Surface,Conj,,S240,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,,,E1,L008,35.0,
+jhu00340,035FS_Conj_R_3_S241,3138847.0,14645938,5207,2024-12-18,3.0,Human Ocular Surface,Conj,,S241,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,2.0,,E7,L008,35.0,
+jhu00341,035FS_Lid_L_1_S242,9537524.0,10721634,1054,2024-11-20,1.0,Human Ocular Surface,Lid margin,,S242,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,,,D10,L008,35.0,
+jhu00342,035FS_Lid_L_2_S243,1272163.0,22034055,7379,2024-12-04,2.0,Human Ocular Surface,Lid margin,,S243,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3,2025-08-06,,,E4,L008,35.0,
+jhu00343,035FS_Lid_L_3_S244,11934339.0,12831372,1998,2024-12-18,3.0,Human Ocular Surface,Lid margin,,S244,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,2.0,,E10,L008,35.0,
+jhu00344,035FS_Lid_R_1_S245,6124360.0,19613812,6353,2024-11-20,1.0,Human Ocular Surface,Lid margin,,S245,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,D9,L008,35.0,
+jhu00345,035FS_Lid_R_2_S246,11431430.0,13981448,3232,2024-12-04,2.0,Human Ocular Surface,Lid margin,,S246,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,,,E3,L008,35.0,
+jhu00346,035FS_Lid_R_3_S247,4462557.0,14198200,3991,2024-12-18,3.0,Human Ocular Surface,Lid margin,,S247,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,2.0,,E9,L008,35.0,
+jhu00347,035FS_Skin_L_1_S248,450493.0,855983,331,2024-11-20,1.0,Human Ocular Surface,Periocular skin,,S248,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,D12,L008,35.0,
+jhu00348,035FS_Skin_L_2_S249,635815.0,22309400,7322,2024-12-04,2.0,Human Ocular Surface,Periocular skin,,S249,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,E6,L008,35.0,
+jhu00349,035FS_Skin_L_3_S250,2779158.0,5314754,2385,2024-12-18,3.0,Human Ocular Surface,Periocular skin,,S250,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.2,2025-08-06,2.0,,E12,L008,35.0,
+jhu00350,035FS_Skin_R_1_S251,5332781.0,14164452,4058,2024-11-20,1.0,Human Ocular Surface,Periocular skin,,S251,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.3,2025-08-06,,,D11,L008,35.0,
+jhu00351,035FS_Skin_R_2_S252,607883.0,26126801,8488,2024-12-04,2.0,Human Ocular Surface,Periocular skin,,S252,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,E5,L008,35.0,
+jhu00352,035FS_Skin_R_3_S253,4945561.0,20726957,6224,2024-12-18,3.0,Human Ocular Surface,Periocular skin,,S253,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,2.0,,E11,L008,35.0,
+jhu00353,036VK_BSS_ISO_CONT_2_S254,5886326.0,7145672,1027,2024-12-18,2.0,Air control,,,S254,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,G10,L008,36.0,
+jhu00354,036VK_BSS_ISO_CONT_3_S255,473438.0,3974389,3467,2025-01-08,3.0,Air control,,,S255,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.8,2025-08-06,,,G11,L008,36.0,
+jhu00355,036VK_Conj_L_1_S256,7531110.0,17218820,4760,2024-12-04,1.0,Human Ocular Surface,Conj,,S256,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,2.0,,F5,L008,36.0,
+jhu00356,036VK_Conj_L_2_S257,578014.0,37463844,11832,2024-12-18,2.0,Human Ocular Surface,Conj,,S257,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.3,2025-08-06,,,F11,L008,36.0,
+jhu00357,036VK_Conj_L_3_S258,6148086.0,7030579,1544,2025-01-08,3.0,Human Ocular Surface,Conj,,S258,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,G5,L008,36.0,
+jhu00358,036VK_Conj_R_1_S259,2127744.0,24241895,8642,2024-12-04,1.0,Human Ocular Surface,Conj,,S259,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,2.0,,F4,L008,36.0,
+jhu00359,036VK_Conj_R_2_S260,9358731.0,10022764,1775,2024-12-18,2.0,Human Ocular Surface,Conj,,S260,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,F10,L008,36.0,
+jhu00360,036VK_Conj_R_3_S261,1774141.0,31982236,10987,2025-01-08,3.0,Human Ocular Surface,Conj,,S261,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,G4,L008,36.0,
+jhu00361,036VK_Lid_L_1_S262,4764876.0,17833094,5927,2024-12-04,1.0,Human Ocular Surface,Lid margin,,S262,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.3,2025-08-06,2.0,,F7,L008,36.0,
+jhu00362,036VK_Lid_L_2_S263,8552606.0,15845195,3513,2024-12-18,2.0,Human Ocular Surface,Lid margin,,S263,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.5,2025-08-06,,,G1,L008,36.0,
+jhu00363,036VK_Lid_L_3_S264,5889410.0,17149199,4948,2025-01-08,3.0,Human Ocular Surface,Lid margin,,S264,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,G7,L008,36.0,
+jhu00364,036VK_Lid_R_1_S265,2238208.0,25000138,8979,2024-12-04,1.0,Human Ocular Surface,Lid margin,,S265,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,2.0,,F6,L008,36.0,
+jhu00365,036VK_Lid_R_2_S266,8925388.0,16671705,3816,2024-12-18,2.0,Human Ocular Surface,Lid margin,,S266,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,F12,L008,36.0,
+jhu00366,036VK_Lid_R_3_S267,7429396.0,8343339,1496,2025-01-08,3.0,Human Ocular Surface,Lid margin,,S267,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,G6,L008,36.0,
+jhu00367,036VK_Skin_L_1_S268,3490233.0,10849049,3421,2024-12-04,1.0,Human Ocular Surface,Periocular skin,,S268,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,2.0,,F9,L008,36.0,
+jhu00368,036VK_Skin_L_2_S269,6620640.0,17957707,4918,2024-12-18,2.0,Human Ocular Surface,Periocular skin,,S269,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.1,2025-08-06,,,G3,L008,36.0,
+jhu00369,036VK_Skin_L_3_S270,5051150.0,15284047,4315,2025-01-08,3.0,Human Ocular Surface,Periocular skin,,S270,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,G9,L008,36.0,
+jhu00370,036VK_Skin_R_1_S271,11549096.0,12775530,2505,2024-12-04,1.0,Human Ocular Surface,Periocular skin,,S271,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,2.0,,F8,L008,36.0,
+jhu00371,036VK_Skin_R_2_S272,6855999.0,7528854,1280,2024-12-18,2.0,Human Ocular Surface,Periocular skin,,S272,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.3,2025-08-06,,,G2,L008,36.0,
+jhu00372,036VK_Skin_R_3_S273,6965435.0,24655610,7777,2025-01-08,3.0,Human Ocular Surface,Periocular skin,,S273,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,,,G8,L008,36.0,
+jhu00373,038JM_ANE_CONT_1_S96,11096.0,415472,140,2024-12-04,1.0,Air control,,,S96,OMR,BG001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.4,2025-08-06,,,A7,L007,38.0,
+jhu00374,038JM_ANE_CONT_2_S97,11034.0,247689,153,2025-01-22,2.0,Air control,,,S97,OMR,BG001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.3,2025-08-06,,,A8,L007,38.0,
+jhu00375,038JM_ANE_CONT_3_S98,2513636.0,2691000,323,2025-02-19,3.0,Air control,,,S98,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.3,2025-08-06,,,A9,L007,38.0,
+jhu00376,038JM_Conj_L_1_S99,40631.0,7586199,3721,2024-12-04,1.0,Human Ocular Surface,Conj,,S99,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,A2,L007,38.0,
+jhu00377,038JM_Conj_L_2_S100,703691.0,15464969,5798,2024-12-04,2.0,Human Ocular Surface,Conj,,S100,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.4,2025-08-06,,,A4,L007,38.0,
+jhu00378,038JM_Conj_L_3_S101,45485.0,17232318,7484,2025-02-19,3.0,Human Ocular Surface,Conj,,S101,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,A6,L007,38.0,
+jhu00379,038JM_Conj_R_2_S103,1532980.0,10931816,4008,2025-01-22,2.0,Human Ocular Surface,Conj,,S103,OMR,BG001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,A3,L007,38.0,
+jhu00380,038JM_Conj_R_3_S104,48723.0,14127933,6192,2025-02-19,3.0,Human Ocular Surface,Conj,,S104,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,A5,L007,38.0,
+jhu00381,039WB_ANE_CONT_1_S105,6976.0,553893,235,2025-01-08,1.0,Air control,,,S105,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,C4,L007,39.0,
+jhu00382,039WB_ANE_CONT_2_S106,11366.0,376901,302,2025-01-22,2.0,Air control,,,S106,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,C6,L007,39.0,
+jhu00383,039WB_ANE_CONT_3_S107,4726.0,311931,94,2025-01-29,3.0,Air control,,,S107,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,C7,L007,39.0,
+jhu00384,039WB_Conj_L_1_S108,19296.0,6060970,2801,2025-01-08,1.0,Human Ocular Surface,Conj,,S108,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,A11,L007,39.0,
+jhu00385,039WB_Conj_L_2_S109,48350.0,15149610,5873,2025-01-22,2.0,Human Ocular Surface,Conj,,S109,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,B1,L007,39.0,
+jhu00386,039WB_Conj_L_3_S110,205436.0,17689265,5619,2025-01-29,3.0,Human Ocular Surface,Conj,,S110,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,B3,L007,39.0,
+jhu00387,039WB_Conj_R_1_S111,269844.0,13956552,5064,2025-01-08,1.0,Human Ocular Surface,Conj,,S111,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,A10,L007,39.0,
+jhu00388,039WB_Conj_R_3_S113,41708.0,20361877,7459,2025-01-29,3.0,Human Ocular Surface,Conj,,S113,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.3,2025-08-06,,,B2,L007,39.0,
+jhu00389,040RR_ANE_CONT_2_S114,30371.0,327071,163,2025-01-15,2.0,Air control,,,S114,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,C5,L007,40.0,
+jhu00390,040RR_Conj_L_1_S115,67928.0,10442737,4515,2025-01-08,1.0,Human Ocular Surface,Conj,,S115,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,B5,L007,40.0,
+jhu00391,040RR_Conj_L_2_S116,370565.0,97462789,38866,2025-01-15,2.0,Human Ocular Surface,Conj,,S116,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.4,2025-08-06,,,B7,L007,40.0,
+jhu00392,040RR_Conj_L_3_S117,42480.0,20291047,8923,2025-01-29,3.0,Human Ocular Surface,Conj,,S117,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,,,B9,L007,40.0,
+jhu00393,040RR_Conj_R_1_S118,29691.0,9556323,4699,2025-01-08,1.0,Human Ocular Surface,Conj,,S118,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,B4,L007,40.0,
+jhu00394,040RR_Conj_R_2_S119,2204523.0,10061693,3906,2025-01-15,2.0,Human Ocular Surface,Conj,,S119,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,B6,L007,40.0,
+jhu00395,040RR_Conj_R_3_S120,28699.0,9072653,3963,2025-01-29,3.0,Human Ocular Surface,Conj,,S120,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,B8,L007,40.0,
+jhu00396,041SB_Conj_L_1_S121,70983.0,26090474,11398,2025-01-15,1.0,Human Ocular Surface,Conj,,S121,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,B11,L007,41.0,
+jhu00397,041SB_Conj_L_2_S122,32719.0,3316485,1779,2025-01-15,2.0,Human Ocular Surface,Conj,,S122,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.4,2025-08-06,,,C1,L007,41.0,
+jhu00398,041SB_Conj_L_3_S123,100153.0,42781145,18583,2025-01-22,3.0,Human Ocular Surface,Conj,,S123,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,C3,L007,41.0,
+jhu00399,041SB_Conj_R_1_S124,74095.0,27415075,12414,2025-01-15,1.0,Human Ocular Surface,Conj,,S124,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.3,2025-08-06,,,B10,L007,41.0,
+jhu00400,041SB_Conj_R_2_S125,1401.0,379881,136,2025-01-22,2.0,Human Ocular Surface,Conj,,S125,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,B12,L007,41.0,
+jhu00401,041SB_Conj_R_3_S126,93271.0,37372308,19306,2025-01-29,3.0,Human Ocular Surface,Conj,,S126,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,C2,L007,41.0,
+jhu00402,043SA_ANE_CONT_1_S127,47774.0,823309,491,2025-01-15,1.0,Air control,,,S127,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,E2,L007,43.0,
+jhu00403,043SA_ANE_CONT_2_S128,4033.0,106911,95,2025-01-22,2.0,Air control,,,S128,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.2,2025-08-06,,,E3,L007,43.0,
+jhu00404,043SA_ANE_CONT_3_S129,3870.0,182577,52,2025-02-05,3.0,Air control,,,S129,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,E4,L007,43.0,
+jhu00405,043SA_Conj_L_1_S130,419974.0,15055231,5671,2025-01-15,1.0,Human Ocular Surface,Conj,,S130,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,C9,L007,43.0,
+jhu00406,043SA_Conj_L_2_S131,2362355.0,11141990,4099,2025-01-22,2.0,Human Ocular Surface,Conj,,S131,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,,,D3,L007,43.0,
+jhu00407,043SA_Conj_L_3_S132,5473214.0,8085061,1375,2025-02-05,3.0,Human Ocular Surface,Conj,,S132,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,D9,L007,43.0,
+jhu00408,043SA_Conj_R_1_S133,93702.0,7898840,4647,2025-01-15,1.0,Human Ocular Surface,Conj,,S133,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,C8,L007,43.0,
+jhu00409,043SA_Conj_R_2_S134,745165.0,14871045,19802,2025-01-22,2.0,Human Ocular Surface,Conj,,S134,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,D2,L007,43.0,
+jhu00410,043SA_Conj_R_3_S135,27019.0,12589845,4776,2025-02-05,3.0,Human Ocular Surface,Conj,,S135,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.2,2025-08-06,,,D8,L007,43.0,
+jhu00411,043SA_Lid_L_1_S136,1514875.0,12962159,4291,2025-01-15,1.0,Human Ocular Surface,Lid margin,,S136,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.8,2025-08-06,,,C11,L007,43.0,
+jhu00412,043SA_Lid_L_2_S137,1741506.0,11542222,3950,2025-01-22,2.0,Human Ocular Surface,Lid margin,,S137,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,D5,L007,43.0,
+jhu00413,043SA_Lid_L_3_S138,35071.0,2032429,1137,2025-02-05,3.0,Human Ocular Surface,Lid margin,,S138,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.1,2025-08-06,,,D11,L007,43.0,
+jhu00414,043SA_Lid_R_1_S139,34145.0,6494619,2588,2025-01-15,1.0,Human Ocular Surface,Lid margin,,S139,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,C10,L007,43.0,
+jhu00415,043SA_Lid_R_2_S140,65853.0,5946562,2731,2025-01-22,2.0,Human Ocular Surface,Lid margin,,S140,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.1,2025-08-06,,,D4,L007,43.0,
+jhu00416,043SA_Lid_R_3_S141,82537.0,14036329,6192,2025-02-05,3.0,Human Ocular Surface,Lid margin,,S141,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,D10,L007,43.0,
+jhu00417,043SA_Skin_L_1_S142,76982.0,3783889,1640,2025-01-15,1.0,Human Ocular Surface,Periocular skin,,S142,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,,,D1,L007,43.0,
+jhu00418,043SA_Skin_L_2_S143,12101.0,340018,152,2025-01-22,2.0,Human Ocular Surface,Periocular skin,,S143,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,D7,L007,43.0,
+jhu00419,043SA_Skin_L_3_S144,430224.0,7366167,2779,2025-02-05,3.0,Human Ocular Surface,Periocular skin,,S144,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.8,2025-08-06,,,E1,L007,43.0,
+jhu00420,043SA_Skin_R_1_S145,5786366.0,12393929,3211,2025-01-15,1.0,Human Ocular Surface,Periocular skin,,S145,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.7,2025-08-06,,,C12,L007,43.0,
+jhu00421,043SA_Skin_R_2_S146,4206873.0,4684540,657,2025-01-22,2.0,Human Ocular Surface,Periocular skin,,S146,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,D6,L007,43.0,
+jhu00422,043SA_Skin_R_3_S147,3857144.0,8286703,2475,2025-02-05,3.0,Human Ocular Surface,Periocular skin,,S147,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1,2025-08-06,,,D12,L007,43.0,
+jhu00423,044PB_ANE_CONT_1_S148,35510.0,1699160,884,2025-01-22,1.0,Air control,,,S148,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,4.1,2025-08-06,,,F11,L007,44.0,
+jhu00424,044PB_ANE_CONT_2_S149,3918.0,216900,90,2025-02-19,2.0,Air control,,,S149,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.9,2025-08-06,,,F12,L007,44.0,
+jhu00425,044PB_ANE_CONT_3_S150,33159.0,534553,400,2025-02-26,3.0,Air control,,,S150,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,G1,L007,44.0,
+jhu00426,044PB_Conj_L_1_S151,22958.0,9990517,4461,2025-01-22,1.0,Human Ocular Surface,Conj,,S151,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.3,2025-08-06,,,E6,L007,44.0,
+jhu00427,044PB_Conj_L_2_S152,64692.0,9112696,4110,2025-02-19,2.0,Human Ocular Surface,Conj,,S152,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,E12,L007,44.0,
+jhu00428,044PB_Conj_L_3_S153,47876.0,6115086,3369,2025-02-26,3.0,Human Ocular Surface,Conj,,S153,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,,,F6,L007,44.0,
+jhu00429,044PB_Conj_R_1_S154,29668.0,15626923,5952,2025-01-22,1.0,Human Ocular Surface,Conj,,S154,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.9,2025-08-06,,,E5,L007,44.0,
+jhu00430,044PB_Conj_R_2_S155,5967646.0,8015533,4003,2025-02-19,2.0,Human Ocular Surface,Conj,,S155,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,,,E11,L007,44.0,
+jhu00431,044PB_Conj_R_3_S156,83174.0,6429093,3190,2025-02-26,3.0,Human Ocular Surface,Conj,,S156,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.7,2025-08-06,,,F5,L007,44.0,
+jhu00432,044PB_Lid_L_1_S157,152657.0,7583054,3403,2025-01-22,1.0,Human Ocular Surface,Lid margin,,S157,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,E8,L007,44.0,
+jhu00433,044PB_Lid_L_2_S158,24215.0,242131,232,2025-02-19,2.0,Human Ocular Surface,Lid margin,,S158,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,4.1,2025-08-06,,,F2,L007,44.0,
+jhu00434,044PB_Lid_L_3_S159,351867.0,14737609,5185,2025-02-26,3.0,Human Ocular Surface,Lid margin,,S159,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,F8,L007,44.0,
+jhu00435,044PB_Lid_R_1_S160,107173.0,6382770,2483,2025-01-22,1.0,Human Ocular Surface,Lid margin,,S160,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,,,E7,L007,44.0,
+jhu00436,044PB_Lid_R_2_S161,1415269.0,8066931,2938,2025-02-19,2.0,Human Ocular Surface,Lid margin,,S161,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.4,2025-08-06,,,F1,L007,44.0,
+jhu00437,044PB_Lid_R_3_S162,2024630.0,7731968,2402,2025-02-26,3.0,Human Ocular Surface,Lid margin,,S162,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,F7,L007,44.0,
+jhu00438,044PB_Skin_L_1_S163,112315.0,2051503,850,2025-01-22,1.0,Human Ocular Surface,Periocular skin,,S163,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,E10,L007,44.0,
+jhu00439,044PB_Skin_L_2_S164,714927.0,2288743,1010,2025-02-19,2.0,Human Ocular Surface,Periocular skin,,S164,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,F4,L007,44.0,
+jhu00440,044PB_Skin_L_3_S165,1308701.0,15232959,5089,2025-02-26,3.0,Human Ocular Surface,Periocular skin,,S165,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,,,F10,L007,44.0,
+jhu00441,044PB_Skin_R_1_S166,3098249.0,3786809,693,2025-01-22,1.0,Human Ocular Surface,Periocular skin,,S166,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,E9,L007,44.0,
+jhu00442,044PB_Skin_R_2_S167,5166917.0,8685509,2226,2025-02-19,2.0,Human Ocular Surface,Periocular skin,,S167,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,F3,L007,44.0,
+jhu00443,044PB_Skin_R_3_S168,3670191.0,4316811,991,2025-02-26,3.0,Human Ocular Surface,Periocular skin,,S168,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,F9,L007,44.0,
+jhu00444,045TA_ANE_CONT_1_S169,2338923.0,2678976,726,2025-01-29,1.0,Air control,,,S169,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.3,2025-08-06,,,H8,L007,45.0,
+jhu00445,045TA_ANE_CONT_2_S170,5653426.0,6029101,880,2025-02-05,2.0,Air control,,,S170,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,,,H9,L007,45.0,
+jhu00446,045TA_ANE_CONT_3_S171,4820019.0,4993894,582,2025-02-19,3.0,Air control,,,S171,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.5,2025-08-06,,,H10,L007,45.0,
+jhu00447,045TA_Conj_L_1_S172,149010.0,30717488,12902,2025-01-29,1.0,Human Ocular Surface,Conj,,S172,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,G3,L007,45.0,
+jhu00448,045TA_Conj_L_2_S173,84022.0,18973712,8026,2025-02-05,2.0,Human Ocular Surface,Conj,,S173,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,,,G9,L007,45.0,
+jhu00449,045TA_Conj_L_3_S174,56994.0,24462941,10607,2025-02-19,3.0,Human Ocular Surface,Conj,,S174,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,H3,L007,45.0,
+jhu00450,045TA_Conj_R_1_S175,22648.0,9543245,8822,2025-01-29,1.0,Human Ocular Surface,Conj,,S175,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,,,G2,L007,45.0,
+jhu00451,045TA_Conj_R_2_S176,48558.0,16093686,6452,2025-02-05,2.0,Human Ocular Surface,Conj,,S176,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,G8,L007,45.0,
+jhu00452,045TA_Conj_R_3_S177,35100.0,15287160,5850,2025-02-19,3.0,Human Ocular Surface,Conj,,S177,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,H2,L007,45.0,
+jhu00453,045TA_Lid_L_1_S178,320209.0,68700633,25551,2025-01-29,1.0,Human Ocular Surface,Lid margin,,S178,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,,,G5,L007,45.0,
+jhu00454,045TA_Lid_L_2_S179,140805.0,22266519,8995,2025-02-05,2.0,Human Ocular Surface,Lid margin,,S179,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,G11,L007,45.0,
+jhu00455,045TA_Lid_L_3_S180,5840.0,790640,333,2025-02-19,3.0,Human Ocular Surface,Lid margin,,S180,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,H5,L007,45.0,
+jhu00456,045TA_Lid_R_1_S181,128984.0,23669965,10567,2025-01-29,1.0,Human Ocular Surface,Lid margin,,S181,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,G4,L007,45.0,
+jhu00457,045TA_Lid_R_2_S182,404065.0,96466200,31698,2025-02-05,2.0,Human Ocular Surface,Lid margin,,S182,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,4.8,2025-08-06,,,G10,L007,45.0,
+jhu00458,045TA_Lid_R_3_S183,128774.0,22972433,8800,2025-02-19,3.0,Human Ocular Surface,Lid margin,,S183,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.1,2025-08-06,,,H4,L007,45.0,
+jhu00459,045TA_Skin_L_1_S184,616056.0,102649993,42227,2025-01-29,1.0,Human Ocular Surface,Periocular skin,,S184,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.6,2025-08-06,,,G7,L007,45.0,
+jhu00460,045TA_Skin_L_2_S185,328362.0,13531894,5818,2025-02-05,2.0,Human Ocular Surface,Periocular skin,,S185,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.6,2025-08-06,,,H1,L007,45.0,
+jhu00461,045TA_Skin_L_3_S186,263800.0,19872224,6651,2025-02-19,3.0,Human Ocular Surface,Periocular skin,,S186,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.7,2025-08-06,,,H7,L007,45.0,
+jhu00462,045TA_Skin_R_1_S187,394751.0,52221053,19269,2025-01-29,1.0,Human Ocular Surface,Periocular skin,,S187,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,G6,L007,45.0,
+jhu00463,045TA_Skin_R_2_S188,742338.0,14883572,5490,2025-02-05,2.0,Human Ocular Surface,Periocular skin,,S188,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,,,G12,L007,45.0,
+jhu00464,045TA_Skin_R_3_S189,328435.0,16466358,5918,2025-02-19,3.0,Human Ocular Surface,Periocular skin,,S189,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,H6,L007,45.0,
+jhu00465,MCS_M1_BG001_S274,69248318.0,70398383,1621,,,Microbial Community Standard,,,S274,OMR,BG001,,,,,Zymo Mini Prep Kit,,,,,2.7,2025-08-06,,,H12,L008,,MCS
+jhu00466,MCS_M6_BG001_S275,52567305.0,53188571,1646,,,Microbial Community Standard,,,S275,OMR,BG001,,,,,Zymo Mini Prep Kit,,,,,2.5,2025-08-06,,,H1,L008,,MCS
+jhu00467,OMR_O14_BI001_S95,5100626.0,5515004,623,,,OMR-110,,,S95,OMR,BI002,,,,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,H11,L006,,
+jhu00468,OMR_O1_BG001_S276,15426110.0,16116116,2481,,,OMR-110,,,S276,OMR,BG001,,,,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,H11,L008,,
+jhu00469,OMR_O6_BG001_S277,9428865.0,10732774,6681,,,OMR-110,,,S277,OMR,BG001,,,,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,G12,L008,,

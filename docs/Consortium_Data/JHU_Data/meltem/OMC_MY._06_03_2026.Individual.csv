@@ -1,0 +1,12 @@
+field_name,description,example,notes,data_format
+individual_id,Unique identifier for individual/subject,OMI00001,required,string
+individual_alias,Internal code or label for the individual within a study,52,recommended,string
+birth_year,Year of birth (YYYY),1990,recommended,numeric
+age,Age of subject at collection (years),35,required,numeric
+sex,"Biological sex at birth (M, F, Other, Unknown)",M,required,string
+ethnicity-,Self-identified ethnicity,Hispanic,recommended,string
+disease_status,"Health status or diagnosis (""healthy"", disease name, diagnosis)","healthy, dry eye ",recommended,string
+longitudinal_sampling,Indicate repeated sampling across time points (yes/no),yes,recommended,string
+treatment,Treatment or medication info prior to/in context of sampling,none,recommended,string
+consent_code,Study consent or IRB protocol identifier,IRB2024-001,required,string
+race,race,"white,african american, native indian,asian,other",recommended,string
