@@ -6,6 +6,4 @@ Baylor College of Medicine Data
 
     Direct_16S_Full_Length_Sequence
     Culturomics_Sequence
-    Samples.Illumina_WGS
-    Samples.Sanger_SEQ
     Files
