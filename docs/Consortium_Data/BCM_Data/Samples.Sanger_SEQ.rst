@@ -11,7 +11,4 @@
 Samples: Sanger_SEQ
 ===================
 
-.. csv-table::
-    :file: Samples.Sanger_SEQ.csv
-    :header-rows: 1
-
+Coming soon
