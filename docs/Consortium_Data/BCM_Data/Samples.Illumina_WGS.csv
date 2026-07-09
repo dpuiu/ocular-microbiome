@@ -1,58 +1,58 @@
-omc_id,sample_id,sample_name,non_human_reads,seqcoast_order_id,seqcoast_tube_id,manifest_sample_name,manifest_16s_call,gtdb_species,display_label,genus,qc_pass,checkm_completeness,checkm_contamination,quast_GC_percent,quast_N50,quast_contigs,quast_total_length
-bcm00030,5731_016,5731_016_S53,2609436,5731,16,P19-T-R2A-E4,Staphylococcus capitis strain LK 499,Staphylococcus capitis,Staphylococcus capitis,Staphylococcus,PASS,99.81273408,0.080256822,32.81,607162,11,2386455
-bcm00032,5731_018,5731_018_S55,2645278,5731,18,P8-CD7-C5,Staphylococcus capitis subsp. Urealyticus strain MAW 8436,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus,PASS,99.67228464419476,0.2808988764044944,31.95,411049,33,2491476
-bcm00041,6656_008,6656_008_S38,4203966,6656,8,N8=P021-2T-B10,Staphylococcus epidermidis,Brevibacillus agri,Brevibacillus agri,Brevibacillus,PASS,99.73118279569891,0.1792114695340501,53.67,82610,177,5221169
-bcm00044,6656_011,6656_011_S41,3477248,6656,11,N11=P034-1T-A10,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus,PASS,99.25093633,0.039013733,31.96,148057,36,2454648
-bcm00045,6656_012,6656_012_S42,2682516,6656,12,B3=P034-1T-B1,Staphylococcus lugdunensis,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus,PASS,99.25093633,0.039013733,31.96,148062,37,2457108
-bcm00047,6656_014,6656_014_S4,2057636,6656,14,D12=P034-1T-E5,Staphylococcus lugdunensis,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus,PASS,99.25093633,0.039013733,31.96,148062,36,2456211
-bcm00049,6656_019,6656_019_S6,2139814,6656,19,H1=P051-3T-E2,Bacillus amyloliquefaciens,Staphylococcus lugdunensis,Staphylococcus lugdunensis,Staphylococcus,PASS,99.60664335664336,0,33.63,356558,24,2568454
-bcm00056,7826_001,7826_001_S193,3067536,7826,1,p01_d2_R2A_A2halo,Brevibacillus agri,Brevibacillus agri,Brevibacillus agri,Brevibacillus,PASS,99.73118279569891,0.7616487455197132,53.8,76421,181,5266848
-bcm00057,7826_002,7826_002_S194,3251710,7826,2,p01_d2_R2A_A2orange,Staphylococcus roterodami/aureus,Staphylococcus aureus,Staphylococcus aureus,Staphylococcus,PASS,99.50842696629212,0.080256822,32.7,345030,24,2772000
-bcm00058,7826_003,7826_003_S195,2963308,7826,3,p03_d3_R2A_E5tinyT,Corynebacterium tuberculostearicum,Corynebacterium sp900539985,Corynebacterium sp900539985,Corynebacterium,PASS,99.77973568281938,0,59.82,154222,54,2368532
-bcm00059,7826_004,7826_004_S196,3603834,7826,4,p03_d3_R2A_E5tinyW,Staphylococcus capitis,Staphylococcus capitis,Staphylococcus capitis,Staphylococcus,PASS,99.81273408,0.056179775,32.72,639698,20,2413665
-bcm00060,7826_005,7826_005_S197,2942324,7826,5,p03_d3_R2A_E5yellow,Staphylococcus roterodami/aureus,Staphylococcus aureus,Staphylococcus aureus,Staphylococcus,PASS,99.50842696629212,0.080256822,32.7,219815,26,2769171
-bcm00061,7826_006,7826_006_S198,2304294,7826,6,p06_d7_BHIT_A2,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus,PASS,99.81273408,0.1021450459652706,32.03,240815,32,2449712
-bcm00062,7826_007,7826_007_S199,2471232,7826,7,p08_d7_TSA_B2reg,Brevibacillus agri,Brevibacillus agri,Brevibacillus agri,Brevibacillus,PASS,99.73118279569891,0.7168458781362006,53.76,81776,162,5165714
-bcm00063,7826_008reseq,7826_008reseq_S7,2789222,7826,8,p08_d7_BHIT_C1,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus,PASS,99.81273408,0.1021450459652706,31.92,328736,37,2510679
-bcm00064,7826_009,7826_009_S201,3754748,7826,9,p08_d7_CBA_F2small,Cutibacterium acnes,Cutibacterium acnes,Cutibacterium acnes,Cutibacterium,PASS,100,0,60.06,616222,14,2474841
-bcm00065,7826_010,7826_010_S202,2749738,7826,10,p08_d7_CBA_F5BIG,Staphylococcus roterodami/aureus,Staphylococcus aureus,Staphylococcus aureus,Staphylococcus,PASS,99.50842696629212,0.080256822,32.66,379534,24,2745456
-bcm00066,7826_011,7826_011_S203,3020552,7826,11,p09_d7_R2A_A4,Brevibacillus agri,Brevibacillus agri,Brevibacillus agri,Brevibacillus,PASS,99.73118279569891,0.1792114695340501,53.85,79811,196,5215892
-bcm00067,7826_012,7826_012_S204,2424486,7826,12,p09_d7_BHIT_E2,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus,PASS,99.81273408,0.1021450459652706,31.93,328774,29,2489342
-bcm00068,7826_013,7826_013_S205,2281096,7826,13,p09_d7_BHIT_E3BIG,Staphylococcus roterodami/aureus,Staphylococcus aureus,Staphylococcus aureus,Staphylococcus,PASS,99.50842696629212,0.080256822,32.65,379499,30,2744891
-bcm00069,7826_014,7826_014_S206,2628794,7826,14,p011_d3_CBA_F10trans,Corynebacterium accolens,unclassified,Corynebacterium sp.,Corynebacterium,PASS,99.77973568281938,0.1101321585903083,59.21,247941,43,2394462
-bcm00070,7826_015,7826_015_S207,2188902,7826,15,p013_d3_BHIT_A3small,Corynebacterium bovis,Corynebacterium bovis,Corynebacterium bovis,Corynebacterium,PASS,99.17417417417415,0.9009009009009008,73,28984,159,2512386
-bcm00071,7826_016,7826_016_S208,2426436,7826,16,p014_d3_TSA_A8small,Cutibacterium avidum,Cutibacterium avidum,Cutibacterium avidum,Cutibacterium,PASS,100,0,63.42,107021,40,2590328
-bcm00072,7826_017,7826_017_S209,2492584,7826,17,p014_d3_TSA_A8white,Staphylococcus hominis,Staphylococcus hominis,Staphylococcus hominis,Staphylococcus,PASS,99.37937062937064,0,31.27,622597,21,2300567
-bcm00073,7826_018,7826_018_S210,2539358,7826,18,p017_d3_BHIT_D6,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus,PASS,99.67228464419476,0.2808988764044944,31.97,300680,35,2459395
-bcm00074,7826_019,7826_019_S211,2743530,7826,19,p019_d2_R2A_A4,Staphylococcus capitis/caprae,Staphylococcus capitis,Staphylococcus capitis,Staphylococcus,PASS,99.81273408,0.080256822,32.81,860414,11,2386830
-bcm00075,7826_020,7826_020_S212,2147300,7826,20,p020_d2_BHIT_D2,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus,PASS,99.25093633,0.039013733,31.96,148129,36,2455913
-bcm00076,7826_021,7826_021_S213,2232694,7826,21,p021_d1_CBA_D12white,Staphylococcus capitis/caprae,Staphylococcus capitis,Staphylococcus capitis,Staphylococcus,PASS,99.81273408,0.056179775,32.77,604135,36,2449183
-bcm00077,7826_022,7826_022_S214,3028180,7826,22,p021_d2_BHIT_D1,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus,PASS,99.67228464419476,0,31.88,625362,22,2550997
-bcm00079,7826_024,7826_024_S216,2797834,7826,24,p034_d1_TSA_B3,Staphylococcus lugdunensis,Staphylococcus lugdunensis,Staphylococcus lugdunensis,Staphylococcus,PASS,99.60664335664336,0,33.64,252559,26,2568749
-bcm00080,7826_025,7826_025_S217,3117202,7826,25,p036_d1_TSA_A9small,Corynebacterium simulans,Corynebacterium simulans,Corynebacterium simulans,Corynebacterium,PASS,99.11894273127751,0.3083700440528634,59.29,409032,19,2606337
-bcm00081,7826_026,7826_026_S218,2969388,7826,26,p038_d1_TSA_F5yellow,Peribacillus frigoritolerans/simplex,Peribacillus frigoritolerans,Peribacillus frigoritolerans,Peribacillus,PASS,98.90710382513662,2.3952641165755915,40.2,139971,122,5977755
-bcm00082,7826_027,7826_027_S219,3233548,7826,27,p046_d1_TSA_H4,Paenibacillus taichungensis,Paenibacillus sp000499205,Paenibacillus sp000499205,Paenibacillus,PASS,99.85294118,0.2696078431372549,46.11,694270,47,7287220
-bcm00083,7826_028,7826_028_S220,4433944,7826,28,p051_d3_TSA_E4,Corynebacterium tuberculostearicum,Corynebacterium aurimucosum_E,Corynebacterium aurimucosum_E,Corynebacterium,PASS,99.77973568281938,0,59.61,101079,63,2310720
-bcm00084,7826_029,7826_029_S221,2825808,7826,29,p057_d1_TSA_B1,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus epidermidis,Staphylococcus,PASS,99.81273408,0.196629213,32,169312,39,2511718
-bcm00085,7826_030,7826_030_S222,2723546,7826,30,p061_d3_TSA_E1,Corynebacterium macginleyi,Corynebacterium macginleyi,Corynebacterium macginleyi,Corynebacterium,PASS,99.77973568281938,0,57.25,66790,104,2387138
-bcm00086,7826_031,7826_031_S223,2149606,7826,31,p067_d7_CBA_A7small,Cutibacterium acnes,Cutibacterium acnes,Cutibacterium acnes,Cutibacterium,PASS,100,0,60.06,722618,10,2476684
-bcm00088,7826_033,7826_033_S225,3241702,7826,33,p071_d7_CBA_B5,Cutibacterium acnes,Cutibacterium acnes,Cutibacterium acnes,Cutibacterium,PASS,100,0,60.06,773520,11,2474805
-bcm00089,7826_034,7826_034_S226,2506052,7826,34,p071_d7_R2A_F10,Brevibacillus agri,Brevibacillus agri,Brevibacillus agri,Brevibacillus,PASS,99.73118279569891,0.1792114695340501,53.83,82326,179,5242156
-bcm00090,7826_035,7826_035_S227,2348544,7826,35,p075_d2_BHIT_A3,Corynebacterium accolens,Corynebacterium accolens,Corynebacterium accolens,Corynebacterium,PASS,99.77973568281938,0,59.53,381789,21,2456388
-bcm00091,7826_036,7826_036_S228,3760156,7826,36,p079_d2_BHIT_A2,Corynebacterium accolens,unclassified,Corynebacterium sp.,Corynebacterium,PASS,99.77973568281938,0.1101321585903083,59.11,119205,64,2427121
-bcm00094,8167_001,8167_001_S301,2687766,8167,1,p3_t1_sT_TSA_D10,Corynebacterium tuberculostearicum,Corynebacterium kefirresidentii,Corynebacterium kefirresidentii,Corynebacterium,PASS,99.70631424,0,58.6,543697,15,2439041
-bcm00095,8167_002,8167_002_S302,6121588,8167,2,p3_t3_sC_BHIT_A4,Corynebacterium tuberculostearicum,Corynebacterium sp900539985,Corynebacterium sp900539985,Corynebacterium,PASS,99.77973568281938,0,59.82,135321,55,2370349
-bcm00096,8167_003,8167_003_S303,2408920,8167,3,p7_t0_sC_BHIT_D11,Corynebacterium bovis,Corynebacterium bovis,Corynebacterium bovis,Corynebacterium,PASS,98.87387387387388,0,72.93,57901,76,2590993
-bcm00097,8167_004,8167_004_S304,1917994,8167,4,p7_t1_sT_BHIT_C11,Corynebacterium bovis,Corynebacterium bovis,Corynebacterium bovis,Corynebacterium,PASS,97.97297297297295,0,72.91,39730,116,2573515
-bcm00098,8167_005,8167_005_S305,2176472,8167,5,p7_t0_sT_BHIT_A11,Corynebacterium macginleyi,Corynebacterium macginleyi,Corynebacterium macginleyi,Corynebacterium,PASS,99.77973568281938,0,57.22,82541,78,2340430
-bcm00099,8167_006,8167_006_S306,1575620,8167,6,p7_t1_sT_BHIT_C12,Corynebacterium macginleyi,Corynebacterium macginleyi,Corynebacterium macginleyi,Corynebacterium,PASS,99.77973568281938,0,57.22,92552,75,2340952
-bcm00100,8167_007,8167_007_S307,2582016,8167,7,p8_t0_sT_BHIT_A4,Corynebacterium lowii,Corynebacterium lowii,Corynebacterium lowii,Corynebacterium,PASS,100,0.2863436123348017,62.57,374482,13,2396183
-bcm00101,8167_008,8167_008_S308,2204868,8167,8,p8_t2_sT_BHIT_A1,Corynebacterium lowii,Corynebacterium lowii,Corynebacterium lowii,Corynebacterium,PASS,100,0.2863436123348017,62.65,302064,13,2378697
-bcm00102,8167_009,8167_009_S309,1810642,8167,9,p8_t3_sT_BHIT_A7,Corynebacterium lowii,Corynebacterium lowii,Corynebacterium lowii,Corynebacterium,PASS,100,0.2863436123348017,62.57,190247,21,2401869
-bcm00103,8167_010,8167_010_S310,4047314,8167,10,p52_t3_sT_BHIT_A3,Corynebacterium macginleyi,Corynebacterium macginleyi,Corynebacterium macginleyi,Corynebacterium,PASS,99.77973568281938,0,57.24,79337,74,2353103
-bcm00104,8167_011,8167_011_S311,1680656,8167,11,p52_t0_sG_TSA_H9,Corynebacterium tuberculostearicum,Corynebacterium kefirresidentii,Corynebacterium kefirresidentii,Corynebacterium,PASS,99.77973568281938,0,58.53,454805,17,2435953
-bcm00105,8167_012,8167_012_S312,1467616,8167,12,p57_t3_sT_TSA_F5,Corynebacterium accolens,unclassified,Corynebacterium sp.,Corynebacterium,PASS,99.77973568281938,0.1101321585903083,59.18,118053,67,2436729
-bcm00106,8167_013,8167_013_S313,2026210,8167,13,p57_t0_sT_BHIT_A5,Corynebacterium lowii,Corynebacterium lowii,Corynebacterium lowii,Corynebacterium,PASS,100,0.2863436123348017,62.7,290445,15,2357578
-bcm00107,8167_014,8167_014_S314,2286640,8167,14,p57_t3_sT_BHIT_A10,Corynebacterium lowii,Corynebacterium lowii,Corynebacterium lowii,Corynebacterium,PASS,100,0.2863436123348017,62.63,224098,19,2369637
-bcm00108,8167_015,8167_015_S315,2454020,8167,15,p57_t3_sT_TSA_F3,Corynebacterium tuberculostearicum,Corynebacterium aurimucosum_E,Corynebacterium aurimucosum_E,Corynebacterium,PASS,99.77973568281938,0.2202643171806167,59.56,170638,37,2339382
-bcm00109,8167_016,8167_016_S316,3034316,8167,16,p89_t0_sC_TSA_C1,Corynebacterium accolens,unclassified,Corynebacterium sp.,Corynebacterium,PASS,99.77973568281938,0.1101321585903083,59.08,104721,65,2472298
+omc_id,sample_id,sample_name,non_human_reads,seqcoast_order_id,seqcoast_tube_id,manifest_sample_name,gtdb_species,Isolate name in BCM biobank
+bcm00030,5731_016,5731_016_S53,2609436,5731,16,P19-T-R2A-E4,Staphylococcus capitis,OM075
+bcm00032,5731_018,5731_018_S55,2645278,5731,18,P8-CD7-C5,Staphylococcus epidermidis,OM022
+bcm00041,6656_008,6656_008_S38,4203966,6656,8,P021-2T-B10,Brevibacillus agri,OM078
+bcm00044,6656_011,6656_011_S41,3477248,6656,11,P034-1T-A10,Staphylococcus epidermidis,OM079
+bcm00045,6656_012,6656_012_S42,2682516,6656,12,P034-1T-B1,Staphylococcus epidermidis,OM080
+bcm00047,6656_014,6656_014_S4,2057636,6656,14,P034-1T-E5,Staphylococcus epidermidis,OM081
+bcm00049,6656_019,6656_019_S6,2139814,6656,19,P051-3T-E2,Staphylococcus lugdunensis,OM077
+bcm00056,7826_001,7826_001_S193,3067536,7826,1,p01_d2_R2A_A2halo,Brevibacillus agri,OM001
+bcm00057,7826_002,7826_002_S194,3251710,7826,2,p01_d2_R2A_A2orange,Staphylococcus aureus,OM035
+bcm00058,7826_003,7826_003_S195,2963308,7826,3,p03_d3_R2A_E5tinyT,Corynebacterium sp900539985,OM011
+bcm00059,7826_004,7826_004_S196,3603834,7826,4,p03_d3_R2A_E5tinyW,Staphylococcus capitis,OM019
+bcm00060,7826_005,7826_005_S197,2942324,7826,5,p03_d3_R2A_E5yellow,Staphylococcus aureus,OM036
+bcm00061,7826_006,7826_006_S198,2304294,7826,6,p06_d7_BHIT_A2,Staphylococcus epidermidis,OM023
+bcm00062,7826_007,7826_007_S199,2471232,7826,7,p08_d7_TSA_B2reg,Brevibacillus agri,OM002
+bcm00063,7826_008reseq,7826_008reseq_S7,2789222,7826,8,p08_d7_BHIT_C1,Staphylococcus epidermidis,OM024
+bcm00064,7826_009,7826_009_S201,3754748,7826,9,p08_d7_CBA_F2small,Cutibacterium acnes,OM013
+bcm00065,7826_010,7826_010_S202,2749738,7826,10,p08_d7_CBA_F5BIG,Staphylococcus aureus,OM037
+bcm00066,7826_011,7826_011_S203,3020552,7826,11,p09_d7_R2A_A4,Brevibacillus agri,OM003
+bcm00067,7826_012,7826_012_S204,2424486,7826,12,p09_d7_BHIT_E2,Staphylococcus epidermidis,OM025
+bcm00068,7826_013,7826_013_S205,2281096,7826,13,p09_d7_BHIT_E3BIG,Staphylococcus aureus,OM038
+bcm00069,7826_014,7826_014_S206,2628794,7826,14,p011_d3_CBA_F10trans,Corynebacterium rhinophilum,OM005
+bcm00070,7826_015,7826_015_S207,2188902,7826,15,p013_d3_BHIT_A3small,Corynebacterium bovis,OM008
+bcm00071,7826_016,7826_016_S208,2426436,7826,16,p014_d3_TSA_A8small,Cutibacterium avidum,OM016
+bcm00072,7826_017,7826_017_S209,2492584,7826,17,p014_d3_TSA_A8white,Staphylococcus hominis,OM033
+bcm00073,7826_018,7826_018_S210,2539358,7826,18,p017_d3_BHIT_D6,Staphylococcus epidermidis,OM026
+bcm00074,7826_019,7826_019_S211,2743530,7826,19,p019_d2_R2A_A4,Staphylococcus capitis,OM020
+bcm00075,7826_020,7826_020_S212,2147300,7826,20,p020_d2_BHIT_D2,Staphylococcus epidermidis,OM027
+bcm00076,7826_021,7826_021_S213,2232694,7826,21,p021_d1_CBA_D12white,Staphylococcus capitis,OM021
+bcm00077,7826_022,7826_022_S214,3028180,7826,22,p021_d2_BHIT_D1,Staphylococcus epidermidis,OM028
+bcm00079,7826_024,7826_024_S216,2797834,7826,24,p034_d1_TSA_B3,Staphylococcus lugdunensis,OM034
+bcm00080,7826_025,7826_025_S217,3117202,7826,25,p036_d1_TSA_A9small,Corynebacterium simulans,OM010
+bcm00081,7826_026,7826_026_S218,2969388,7826,26,p038_d1_TSA_F5yellow,Peribacillus frigoritolerans,OM018
+bcm00082,7826_027,7826_027_S219,3233548,7826,27,p046_d1_TSA_H4,Paenibacillus sp000499205,OM017
+bcm00083,7826_028,7826_028_S220,4433944,7826,28,p051_d3_TSA_E4,Corynebacterium aurimucosum_E,OM012
+bcm00084,7826_029,7826_029_S221,2825808,7826,29,p057_d1_TSA_B1,Staphylococcus epidermidis,OM029
+bcm00085,7826_030,7826_030_S222,2723546,7826,30,p061_d3_TSA_E1,Corynebacterium macginleyi,OM009
+bcm00086,7826_031,7826_031_S223,2149606,7826,31,p067_d7_CBA_A7small,Cutibacterium acnes,OM014
+bcm00088,7826_033,7826_033_S225,3241702,7826,33,p071_d7_CBA_B5,Cutibacterium acnes,OM015
+bcm00089,7826_034,7826_034_S226,2506052,7826,34,p071_d7_R2A_F10,Brevibacillus agri,OM004
+bcm00090,7826_035,7826_035_S227,2348544,7826,35,p075_d2_BHIT_A3,Corynebacterium accolens,OM006
+bcm00091,7826_036,7826_036_S228,3760156,7826,36,p079_d2_BHIT_A2,Corynebacterium rhinophilum,OM007
+bcm00094,8167_001,8167_001_S301,2687766,8167,1,p3_t1_sT_TSA_D10,Corynebacterium kefirresidentii,OM039
+bcm00095,8167_002,8167_002_S302,6121588,8167,2,p3_t3_sC_BHIT_A4,Corynebacterium sp900539985,OM040
+bcm00096,8167_003,8167_003_S303,2408920,8167,3,p7_t0_sC_BHIT_D11,Corynebacterium bovis,OM055
+bcm00097,8167_004,8167_004_S304,1917994,8167,4,p7_t1_sT_BHIT_C11,Corynebacterium bovis,OM057
+bcm00098,8167_005,8167_005_S305,1575620,8167,5,p7_t0_sT_BHIT_A11,Corynebacterium macginleyi,OM056
+bcm00099,8167_006,8167_006_S306,1575620,8167,6,p7_t1_sT_BHIT_C12,Corynebacterium macginleyi,OM058
+bcm00100,8167_007,8167_007_S307,2582016,8167,7,p8_t0_sT_BHIT_A4,Corynebacterium lowii,OM060
+bcm00101,8167_008,8167_008_S308,2204868,8167,8,p8_t2_sT_BHIT_A1,Corynebacterium lowii,OM061
+bcm00102,8167_009,8167_009_S309,1810642,8167,9,p8_t3_sT_BHIT_A7,Corynebacterium lowii,OM062
+bcm00103,8167_010,8167_010_S310,2176472,8167,10,p52_t3_sT_BHIT_A3,Corynebacterium macginleyi,OM045
+bcm00104,8167_011,8167_011_S311,1680656,8167,11,p52_t0_sG_TSA_H9,Corynebacterium kefirresidentii,OM043
+bcm00105,8167_012,8167_012_S312,1467616,8167,12,p57_t3_sT_TSA_F5,Corynebacterium rhinophilum,OM050
+bcm00106,8167_013,8167_013_S313,2026210,8167,13,p57_t0_sT_BHIT_A5,Corynebacterium lowii,OM046
+bcm00107,8167_014,8167_014_S314,2286640,8167,14,p57_t3_sT_BHIT_A10,Corynebacterium lowii,OM048
+bcm00108,8167_015,8167_015_S315,2454020,8167,15,p57_t3_sT_TSA_F3,Corynebacterium aurimucosum_E,OM049
+bcm00109,8167_016,8167_016_S316,3034316,8167,16,p89_t0_sC_TSA_C1,Corynebacterium rhinophilum,OM063
