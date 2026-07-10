@@ -1,85 +1,85 @@
-omc_id,sample_name,non_human_reads,total_reads,kraken_human_reads,sequencing_date,biosample_site,extraction_kit,batch_number,batch_plate_location,biosample_alias,biosample_side,collection_date,collection_medium,experiment_number,host_depletion,host_depletion_kit,individual_id,lane_number,lysozyme_treatment,microbial_standard,nucleic_acid_concentration,plate_location,plate_number,sample_volume,sequencing_lane,stabilizing_fluid,stabilizing_fluid_lot,swab_type,tube_lot,visit_number
-jhu00123,31_Z_Mini_049_Skin_L_1_S15,513826,32921432,27476,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C07,S15,,,,,,,49,L008,,False,2.6 ng/ul,,,50 ul,,,,,,
-jhu00126,34_Z_Mini_049_Skin_L_2_S18,2783902,41718480,19286,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 C10,S18,,,,,,,49,L008,,False,5.9 ng/ul,,,50 ul,,,,,,
-jhu00129,37_Z_Mini_049_Skin_L_3_S21,926160,29446270,15872,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D01,S21,,,,,,,49,L008,,False,2.5 ng/ul,,,50 ul,,,,,,
-jhu00133,40_Z_Mini_050_Skin_R_1_S24,1257572,38186840,16014,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D04,S24,,,,,,,50,L008,,False,1.5 ng/ul,,,50 ul,,,,,,
-jhu00136,43_Z_Mini_050_Skin_R_2_S27,16347162,32730352,17526,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D07,S27,,,,,,,50,L008,,False,2.2 ng/ul,,,50 ul,,,,,,
-jhu00139,46_Z_Mini_050_Skin_R_3_S30,2052824,43053728,21236,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 D10,S30,,,,,,,50,L008,,False,3.1 ng/ul,,,50 ul,,,,,,
-jhu00142,49_Z_Mini_051_Skin_L_1_S33,656596,35332946,13172,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E01,S33,,,,,,,51,L008,,False,1.6 ng/ul,,,50 ul,,,,,,
-jhu00146,52_Z_Mini_051_Skin_L_2_S36,7481328,37028196,54560,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E04,S36,,,,,,,51,L008,,False,2.3 ng/ul,,,50 ul,,,,,,
-jhu00149,55_Z_Mini_051_Skin_L_3_S39,561418,33852700,12546,2025-03-14,Clinical Sample,Zymo Mini Prep Kit,,S1289-SC2 E07,S39,,,,,,,51,L008,,False,2 ng/ul,,,50 ul,,,,,,
-jhu00160,65_Qiagen_DNeasy_049_Skin_L_1_S49,585908,27026776,22134,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F05,S49,,,,,,,49,L008,,False,3.1 ng/ul,,,30 ul,,,,,,
-jhu00163,68_Qiagen_DNeasy_049_Skin_L_2_S52,4346422,20128868,21596,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F08,S52,,,,,,,49,L008,,False,3.2 ng/ul,,,30 ul,,,,,,
-jhu00167,71_Qiagen_DNeasy_049_Skin_L_3_S55,959892,33006434,27568,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 F11,S55,,,,,,,49,L008,,False,4.3 ng/ul,,,30 ul,,,,,,
-jhu00170,74_Qiagen_DNeasy_050_Skin_R_1_S58,704142,27762924,18698,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G02,S58,,,,,,,50,L008,,False,1.1 ng/ul,,,30 ul,,,,,,
-jhu00173,77_Qiagen_DNeasy_050_Skin_R_2_S61,1609656,5053072,2336,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G05,S61,,,,,,,50,L008,,False,4.4 ng/ul,,,30 ul,,,,,,
-jhu00177,80_Qiagen_DNeasy_050_Skin_R_3_S64,1135474,24263344,18902,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G08,S64,,,,,,,50,L008,,False,3.5 ng/ul,,,30 ul,,,,,,
-jhu00180,83_Qiagen_DNeasy_051_Skin_L_1_S67,507342,33013214,16788,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 G11,S67,,,,,,,51,L008,,False,2.1 ng/ul,,,30 ul,,,,,,
-jhu00183,86_Qiagen_DNeasy_051_Skin_L_2_S70,3750474,56713128,29620,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H02,S70,,,,,,,51,L008,,False,5.7 ng/ul,,,30 ul,,,,,,
-jhu00186,89_Qiagen_DNeasy_051_Skin_L_3_S73,650284,23786366,12794,2025-03-14,Clinical Sample,Qiagen DNeasy Blood_Tissue Kit,,S1289-SC2 H05,S73,,,,,,,51,L008,,False,2.2 ng/ul,,,30 ul,,,,,,
-jhu00212,025RM_Skin_L_1_S17,1852058,20596108,7702,2025-08-06,Skin,Zymo Mini Prep Kit,6,,S17,,2024-10-09,,1A,,,25,L006,,,1.5,A6,,,L006,,,Puritan,BG001,1
-jhu00213,025RM_Skin_L_2_S18,1075980,21717516,9272,2025-08-06,Skin,Zymo Mini Prep Kit,18,,S18,,2029-10-16,,1A,,,25,L006,,,1.5,B6,,,L006,,,Puritan,BG001,2
-jhu00214,025RM_Skin_L_3_S19,1600272,35015266,13170,2025-08-06,Skin,Zymo Mini Prep Kit,27,,S19,,2024-11-06,,1A,,,25,L006,,,2.6,C3,,,L006,,,Puritan,BG001,3
-jhu00215,025RM_Skin_R_1_S20,366622,12493120,4462,2025-08-06,Skin,Zymo Mini Prep Kit,5,,S20,,2024-10-09,,1A,,,25,L006,,,1.8,A5,,,L006,,,ISOHELIX-mini,BG001,1
-jhu00216,025RM_Skin_R_2_S21,1551758,31475386,11838,2025-08-06,Skin,Zymo Mini Prep Kit,17,,S21,,2028-10-16,,1A,,,25,L006,,,1.3,B5,,,L006,,,ISOHELIX-mini,BG001,2
-jhu00217,025RM_Skin_R_3_S22,1381106,45264334,17330,2025-08-06,Skin,Zymo Mini Prep Kit,26,,S22,,2024-11-06,,1A,,,25,L006,,,2.8,C2,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00235,026MH_Skin_L_1_S40,2777744,42208536,16136,2025-08-06,Skin,Zymo Mini Prep Kit,12,,S40,,2024-10-09,,1A,,,26,L006,,,1.3,A12,,,L006,,,ISOHELIX-mini,BG001,1
-jhu00236,026MH_Skin_L_2_S41,6457054,26649308,7706,2025-08-06,Skin,Zymo Mini Prep Kit,46,,S41,,2024-10-23,,1A,,,26,L006,,,1.4,D10,,,L006,,,ISOHELIX-mini,BG001,2
-jhu00237,026MH_Skin_L_3_S42,4387450,40181076,13832,2025-08-06,Skin,Zymo Mini Prep Kit,66,,S42,,2024-10-30,,1A,,,26,L006,,,1.9,F6,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00238,026MH_Skin_R_1_S43,2041166,57261318,22418,2025-08-06,Skin,Zymo Mini Prep Kit,11,,S43,,2024-10-09,,1A,,,26,L006,,,2,A11,,,L006,,,Puritan,BG001,1
-jhu00239,026MH_Skin_R_2_S44,60425394,102409676,16860,2025-08-06,Skin,Zymo Mini Prep Kit,45,,S44,,2024-10-23,,1A,,,26,L006,,,1.3,D9,,,L006,,,Puritan,BG001,2
-jhu00240,026MH_Skin_R_3_S45,4717238,24797522,7852,2025-08-06,Skin,Zymo Mini Prep Kit,65,,S45,,2024-10-30,,1A,,,26,L006,,,1.9,F5,,,L006,,,Puritan,BG001,3
-jhu00241,0277R_Skin_R_1_S46,6002334,50792410,19580,2025-08-06,Skin,Zymo Mini Prep Kit,51,,S46,,2024-10-23,,1A,,,27,L006,,,1.3,E3,,,L006,,,ISOHELIX-mini,BG001,1
-jhu00242,0277R_Skin_R_2_S47,6226348,47914888,15620,2025-08-06,Skin,Zymo Mini Prep Kit,71,,S47,,2024-10-30,,1A,,,27,L006,,,1.8,F11,,,L006,,,ISOHELIX-mini,BG001,2
-jhu00255,027ZR_Skin_L_1_S60,2416804,40456310,15006,2025-08-06,Skin,Zymo Mini Prep Kit,52,,S60,,2024-10-23,,1A,,,27,L006,,,0.9,E4,,,L006,,,Puritan,BG001,1
-jhu00256,027ZR_Skin_L_2_S61,4674842,46599264,12136,2025-08-06,Skin,Zymo Mini Prep Kit,72,,S61,,2024-10-30,,1A,,,27,L006,,,2.2,F12,,,L006,,,Puritan,BG001,2
-jhu00257,027ZR_Skin_L_3_S62,2564532,6648446,1620,2025-08-06,Skin,Zymo Mini Prep Kit,33,,S62,,2024-11-06,,1A,,,27,L006,,,2.8,C9,,,L006,,,Puritan,BG001,3
-jhu00258,027ZR_Skin_R_3_S63,7420868,13999104,2644,2025-08-06,Skin,Zymo Mini Prep Kit,32,,S63,,2024-11-06,,1A,,,27,L006,,,3.3,C8,,,L006,,,ISOHELIX-mini,BG001,3
-jhu00272,030AH_Skin_L_1_S77,10312724,12166598,1306,2025-08-06,Skin,Zymo Mini Prep Kit,39,,S77,,2024-11-06,,1B,,,30,L006,,,3.2,D3,1,,L006,,,ISOHELIX-mini,BG001,1
-jhu00273,030AH_Skin_L_2_S78,1207768,9334500,5592,2025-08-06,Skin,Zymo Mini Prep Kit,78,,S78,,2024-11-13,,1B,,,30,L006,,,1,G6,1,,L006,,,ISOHELIX-mini,BG001,2
-jhu00274,030AH_Skin_L_3_S79,3099190,37470878,14822,2025-08-06,Skin,Zymo Mini Prep Kit,88,,S79,,2024-11-20,,1B,,,30,L006,,,1.7,H4,1,,L006,,,ISOHELIX-mini,BG001,3
-jhu00287,032SN_Skin_R_1_S92,388514,17605122,25996,2025-08-06,Skin,Zymo Mini Prep Kit,82,,S92,,2024-11-13,,1B,,,32,L006,,,1.1,G10,1,,L006,,,FloQ,BG001,1
-jhu00288,032SN_Skin_R_2_S93,732040,135172550,54136,2025-08-06,Skin,Zymo Mini Prep Kit,92,,S93,,2024-11-20,,1B,,,32,L006,,,1.9,H8,1,,L006,,,FloQ,BG001,2
-jhu00289,032SN_Skin_R_3_S94,3086932,41533392,13742,2025-08-06,Skin,Zymo Mini Prep Kit,58,,S94,,2024-12-04,,1B,,,32,L006,,,2,E10,1,,L006,,,FloQ,BG001,3
-jhu00304,033MA_Skin_L_1_S205,11193568,12455074,2292,2025-08-06,Skin,Zymo Mini Prep Kit,100,,S205,,2024-11-13,,2A,,,33,L008,,,1.5,A6,,,L008,,,ISOHELIX-mini,BG001,1
-jhu00305,033MA_Skin_L_2_S206,31874790,34142834,3670,2025-08-06,Skin,Zymo Mini Prep Kit,106,,S206,,2024-11-20,,2A,,,33,L008,,,2,A12,2,,L008,,,ISOHELIX-mini,BG001,2
-jhu00306,033MA_Skin_L_3_S207,19351020,21539266,3092,2025-08-06,Skin,Zymo Mini Prep Kit,112,,S207,,2024-12-04,,2A,,,33,L008,,,1.9,B6,,,L008,,,ISOHELIX-mini,BG001,3
-jhu00307,033MA_Skin_R_1_S208,12337230,29436520,7790,2025-08-06,Skin,Zymo Mini Prep Kit,99,,S208,,2024-11-13,,2A,,,33,L008,,,1.9,A5,,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00308,033MA_Skin_R_2_S209,68654,1912726,1746,2025-08-06,Skin,Zymo Mini Prep Kit,105,,S209,,2024-11-20,,2A,,,33,L008,,,1,A11,2,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00309,033MA_Skin_R_3_S210,23850816,25448738,3134,2025-08-06,Skin,Zymo Mini Prep Kit,111,,S210,,2024-12-04,,2A,,,33,L008,,,1.4,B5,,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00327,034AN_Skin_L_1_S228,27087828,29704278,6948,2025-08-06,Skin,Zymo Mini Prep Kit,121,,S228,,2024-11-20,,2A,,,34,L008,,,1.2,C3,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00328,034AN_Skin_L_2_S229,18433792,21698340,2446,2025-08-06,Skin,Zymo Mini Prep Kit,127,,S229,,2024-12-04,,2A,,,34,L008,,,1.7,C9,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00329,034AN_Skin_L_3_S230,16464486,17839024,2630,2025-08-06,Skin,Zymo Mini Prep Kit,133,,S230,,2024-12-18,,2A,,,34,L008,,,0.8,D3,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00330,034AN_Skin_R_1_S231,14008572,15233978,4098,2025-08-06,Skin,Zymo Mini Prep Kit,120,,S231,,2024-11-20,,2A,,,34,L008,,,0.9,C2,2,,L008,,,ISOHELIX-mini,BG001,1
-jhu00331,034AN_Skin_R_2_S232,8967062,10274758,1614,2025-08-06,Skin,Zymo Mini Prep Kit,126,,S232,,2024-12-04,,2A,,,34,L008,,,0.9,C8,,,L008,,,ISOHELIX-mini,BG001,2
-jhu00332,034AN_Skin_R_3_S233,10062902,31158966,9246,2025-08-06,Skin,Zymo Mini Prep Kit,132,,S233,,2024-12-18,,2A,,,34,L008,,,0.8,D2,2,,L008,,,ISOHELIX-mini,BG001,3
-jhu00347,035FS_Skin_L_1_S248,900986,1711966,662,2025-08-06,Skin,Zymo Mini Prep Kit,142,,S248,,2024-11-20,,2A,,,35,L008,,,2.1,D12,,,L008,,,ISOHELIX-mini,BG001,1
-jhu00348,035FS_Skin_L_2_S249,1271630,44618800,14644,2025-08-06,Skin,Zymo Mini Prep Kit,148,,S249,,2024-12-04,,2A,,,35,L008,,,2.1,E6,,,L008,,,ISOHELIX-mini,BG001,2
-jhu00349,035FS_Skin_L_3_S250,5558316,10629508,4770,2025-08-06,Skin,Zymo Mini Prep Kit,154,,S250,,2024-12-18,,2A,,,35,L008,,,3.2,E12,2,,L008,,,ISOHELIX-mini,BG001,3
-jhu00350,035FS_Skin_R_1_S251,10665562,28328904,8116,2025-08-06,Skin,Zymo Mini Prep Kit,141,,S251,,2024-11-20,,2A,,,35,L008,,,2.3,D11,,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00351,035FS_Skin_R_2_S252,1215766,52253602,16976,2025-08-06,Skin,Zymo Mini Prep Kit,147,,S252,,2024-12-04,,2A,,,35,L008,,,2.1,E5,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00352,035FS_Skin_R_3_S253,9891122,41453914,12448,2025-08-06,Skin,Zymo Mini Prep Kit,153,,S253,,2024-12-18,,2A,,,35,L008,,,2,E11,2,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00367,036VK_Skin_L_1_S268,6980466,21698098,6842,2025-08-06,Skin,Zymo Mini Prep Kit,163,,S268,,2024-12-04,,2A,,,36,L008,,,1.9,F9,2,,L008,,,BSS+ISOHELIX-mini,BG001,1
-jhu00368,036VK_Skin_L_2_S269,13241280,35915414,9836,2025-08-06,Skin,Zymo Mini Prep Kit,169,,S269,,2024-12-18,,2A,,,36,L008,,,3.1,G3,,,L008,,,BSS+ISOHELIX-mini,BG001,2
-jhu00369,036VK_Skin_L_3_S270,10102300,30568094,8630,2025-08-06,Skin,Zymo Mini Prep Kit,175,,S270,,2025-01-08,,2A,,,36,L008,,,1.8,G9,,,L008,,,BSS+ISOHELIX-mini,BG001,3
-jhu00370,036VK_Skin_R_1_S271,23098192,25551060,5010,2025-08-06,Skin,Zymo Mini Prep Kit,162,,S271,,2024-12-04,,2A,,,36,L008,,,1.8,F8,2,,L008,,,ISOHELIX-mini,BG001,1
-jhu00371,036VK_Skin_R_2_S272,13711998,15057708,2560,2025-08-06,Skin,Zymo Mini Prep Kit,168,,S272,,2024-12-18,,2A,,,36,L008,,,2.3,G2,,,L008,,,ISOHELIX-mini,BG001,2
-jhu00372,036VK_Skin_R_3_S273,13930870,49311220,15554,2025-08-06,Skin,Zymo Mini Prep Kit,174,,S273,,2025-01-08,,2A,,,36,L008,,,1.4,G8,,,L008,,,ISOHELIX-mini,BG001,3
-jhu00417,043SA_Skin_L_1_S142,153964,7567778,3280,2025-08-06,Skin,Zymo Mini Prep Kit,214,,S142,,2025-01-15,,3B,,,43,L007,,,1.7,D1,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00418,043SA_Skin_L_2_S143,24202,680036,304,2025-08-06,Skin,Zymo Mini Prep Kit,220,,S143,,2025-01-22,,3B,,,43,L007,,,1.3,D7,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00419,043SA_Skin_L_3_S144,860448,14732334,5558,2025-08-06,Skin,Zymo Mini Prep Kit,226,,S144,,2025-02-05,,3B,,,43,L007,,,0.8,E1,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00420,043SA_Skin_R_1_S145,11572732,24787858,6422,2025-08-06,Skin,Zymo Mini Prep Kit,213,,S145,,2025-01-15,,3B,,,43,L007,,,2.7,C12,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00421,043SA_Skin_R_2_S146,8413746,9369080,1314,2025-08-06,Skin,Zymo Mini Prep Kit,219,,S146,,2025-01-22,,3B,,,43,L007,,,1.5,D6,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00422,043SA_Skin_R_3_S147,7714288,16573406,4950,2025-08-06,Skin,Zymo Mini Prep Kit,225,,S147,,2025-02-05,,3B,,,43,L007,,,1,D12,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00438,044PB_Skin_L_1_S163,224630,4103006,1700,2025-08-06,Skin,Zymo Mini Prep Kit,235,,S163,,2025-01-22,,3B,,,44,L007,,,2.1,E10,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00439,044PB_Skin_L_2_S164,1429854,4577486,2020,2025-08-06,Skin,Zymo Mini Prep Kit,241,,S164,,2025-02-19,,3B,,,44,L007,,,1.8,F4,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00440,044PB_Skin_L_3_S165,2617402,30465918,10178,2025-08-06,Skin,Zymo Mini Prep Kit,247,,S165,,2025-02-26,,3B,,,44,L007,,,2.2,F10,,,L007,,,ISOHELIX-mini,BI001,3
-jhu00441,044PB_Skin_R_1_S166,6196498,7573618,1386,2025-08-06,Skin,Zymo Mini Prep Kit,234,,S166,,2025-01-22,,3B,,,44,L007,,,1.6,E9,,,L007,,,Tetra+ISOHELIX-mini,BI001,1
-jhu00442,044PB_Skin_R_2_S167,10333834,17371018,4452,2025-08-06,Skin,Zymo Mini Prep Kit,240,,S167,,2025-02-19,,3B,,,44,L007,,,1.9,F3,,,L007,,,Tetra+ISOHELIX-mini,BI001,2
-jhu00443,044PB_Skin_R_3_S168,7340382,8633622,1982,2025-08-06,Skin,Zymo Mini Prep Kit,246,,S168,,2025-02-26,,3B,,,44,L007,,,1.3,F9,,,L007,,,Tetra+ISOHELIX-mini,BI001,3
-jhu00459,045TA_Skin_L_1_S184,1232112,205299986,84454,2025-08-06,Skin,Zymo Mini Prep Kit,256,,S184,,2025-01-29,,3B,,,45,L007,,,3.6,G7,,,L007,,,Tetra/ISOHELIX-mini,BI001,1
-jhu00460,045TA_Skin_L_2_S185,656724,27063788,11636,2025-08-06,Skin,Zymo Mini Prep Kit,262,,S185,,2025-02-05,,3B,,,45,L007,,,2.6,H1,,,L007,,,Tetra/ISOHELIX-mini,BI001,2
-jhu00461,045TA_Skin_L_3_S186,527600,39744448,13302,2025-08-06,Skin,Zymo Mini Prep Kit,268,,S186,,2025-02-19,,3B,,,45,L007,,,2.7,H7,,,L007,,,Tetra/ISOHELIX-mini,BI001,3
-jhu00462,045TA_Skin_R_1_S187,789502,104442106,38538,2025-08-06,Skin,Zymo Mini Prep Kit,255,,S187,,2025-01-29,,3B,,,45,L007,,,1.5,G6,,,L007,,,ISOHELIX-mini,BI001,1
-jhu00463,045TA_Skin_R_2_S188,1484676,29767144,10980,2025-08-06,Skin,Zymo Mini Prep Kit,261,,S188,,2025-02-05,,3B,,,45,L007,,,2,G12,,,L007,,,ISOHELIX-mini,BI001,2
-jhu00464,045TA_Skin_R_3_S189,656870,32932716,11836,2025-08-06,Skin,Zymo Mini Prep Kit,267,,S189,,2025-02-19,,3B,,,45,L007,,,1.6,H6,,,L007,,,ISOHELIX-mini,BI001,3
+omc_id,sample_name,non_human_reads,total_reads,kraken_human_reads,collection_date,visit_number,biosample_type,biosample_site,biosample_side,biosample_alias,collection_medium_tube,tube_lot,added_medium,added_medium_lot,swab_type,swab_lot,extraction_kit,lysozyme_treatment,sample_volume,host_depletion,host_depletion_kit,nucleic_acid_concentration,sequencing_date,seq_plate_number,seq_batch_plate_location,seq_plate_location,sequencing_lane,individual_id,microbial_standard
+jhu00123,31_Z_Mini_049_Skin_L_1_S15,513826,16460716,13738,,,Human Ocular Surface,,left,S15,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.6 ng/ul,2025-03-14,,S1289-SC2 C07,,L008,49.0,False
+jhu00126,34_Z_Mini_049_Skin_L_2_S18,2783902,20859240,9643,,,Human Ocular Surface,,left,S18,,,,,,,Zymo Mini Prep Kit,,50 ul,,,5.9 ng/ul,2025-03-14,,S1289-SC2 C10,,L008,49.0,False
+jhu00129,37_Z_Mini_049_Skin_L_3_S21,926160,14723135,7936,,,Human Ocular Surface,,left,S21,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.5 ng/ul,2025-03-14,,S1289-SC2 D01,,L008,49.0,False
+jhu00133,40_Z_Mini_050_Skin_R_1_S24,1257572,19093420,8007,,,Human Ocular Surface,,Right,S24,,,,,,,Zymo Mini Prep Kit,,50 ul,,,1.5 ng/ul,2025-03-14,,S1289-SC2 D04,,L008,50.0,False
+jhu00136,43_Z_Mini_050_Skin_R_2_S27,16347162,16365176,8763,,,Human Ocular Surface,,Right,S27,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.2 ng/ul,2025-03-14,,S1289-SC2 D07,,L008,50.0,False
+jhu00139,46_Z_Mini_050_Skin_R_3_S30,2052824,21526864,10618,,,Human Ocular Surface,,Right,S30,,,,,,,Zymo Mini Prep Kit,,50 ul,,,3.1 ng/ul,2025-03-14,,S1289-SC2 D10,,L008,50.0,False
+jhu00142,49_Z_Mini_051_Skin_L_1_S33,656596,17666473,6586,,,Human Ocular Surface,,Left,S33,,,,,,,Zymo Mini Prep Kit,,50 ul,,,1.6 ng/ul,2025-03-14,,S1289-SC2 E01,,L008,51.0,False
+jhu00146,52_Z_Mini_051_Skin_L_2_S36,7481328,18514098,27280,,,Human Ocular Surface,,Left,S36,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2.3 ng/ul,2025-03-14,,S1289-SC2 E04,,L008,51.0,False
+jhu00149,55_Z_Mini_051_Skin_L_3_S39,561418,16926350,6273,,,Human Ocular Surface,,Left,S39,,,,,,,Zymo Mini Prep Kit,,50 ul,,,2 ng/ul,2025-03-14,,S1289-SC2 E07,,L008,51.0,False
+jhu00160,65_Qiagen_DNeasy_049_Skin_L_1_S49,585908,13513388,11067,,,Human Ocular Surface,,Left,S49,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.1 ng/ul,2025-03-14,,S1289-SC2 F05,,L008,49.0,False
+jhu00163,68_Qiagen_DNeasy_049_Skin_L_2_S52,4346422,10064434,10798,,,Human Ocular Surface,,Left,S52,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.2 ng/ul,2025-03-14,,S1289-SC2 F08,,L008,49.0,False
+jhu00167,71_Qiagen_DNeasy_049_Skin_L_3_S55,959892,16503217,13784,,,Human Ocular Surface,,Left,S55,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,4.3 ng/ul,2025-03-14,,S1289-SC2 F11,,L008,49.0,False
+jhu00170,74_Qiagen_DNeasy_050_Skin_R_1_S58,704142,13881462,9349,,,Human Ocular Surface,,Right,S58,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,1.1 ng/ul,2025-03-14,,S1289-SC2 G02,,L008,50.0,False
+jhu00173,77_Qiagen_DNeasy_050_Skin_R_2_S61,1609656,2526536,1168,,,Human Ocular Surface,,Right,S61,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,4.4 ng/ul,2025-03-14,,S1289-SC2 G05,,L008,50.0,False
+jhu00177,80_Qiagen_DNeasy_050_Skin_R_3_S64,1135474,12131672,9451,,,Human Ocular Surface,,left,S64,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.5 ng/ul,2025-03-14,,S1289-SC2 G08,,L008,50.0,False
+jhu00180,83_Qiagen_DNeasy_051_Skin_L_1_S67,507342,16506607,8394,,,Human Ocular Surface,,left,S67,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,2.1 ng/ul,2025-03-14,,S1289-SC2 G11,,L008,51.0,False
+jhu00183,86_Qiagen_DNeasy_051_Skin_L_2_S70,3750474,28356564,14810,,,Human Ocular Surface,,left,S70,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,5.7 ng/ul,2025-03-14,,S1289-SC2 H02,,L008,51.0,False
+jhu00186,89_Qiagen_DNeasy_051_Skin_L_3_S73,650284,11893183,6397,,,Human Ocular Surface,,Left,S73,,,,,,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,2.2 ng/ul,2025-03-14,,S1289-SC2 H05,,L008,51.0,False
+jhu00212,025RM_Skin_L_1_S17,1852058,10298054,3851,2024-10-09,1.0,Human Ocular Surface,Periocular skin,,S17,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,A6,L006,25.0,
+jhu00213,025RM_Skin_L_2_S18,1075980,10858758,4636,2029-10-16,2.0,Human Ocular Surface,Periocular skin,,S18,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,B6,L006,25.0,
+jhu00214,025RM_Skin_L_3_S19,1600272,17507633,6585,2024-11-06,3.0,Human Ocular Surface,Periocular skin,,S19,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.6,2025-08-06,,,C3,L006,25.0,
+jhu00215,025RM_Skin_R_1_S20,366622,6246560,2231,2024-10-09,1.0,Human Ocular Surface,Periocular skin,,S20,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,A5,L006,25.0,
+jhu00216,025RM_Skin_R_2_S21,1551758,15737693,5919,2028-10-16,2.0,Human Ocular Surface,Periocular skin,,S21,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,B5,L006,25.0,
+jhu00217,025RM_Skin_R_3_S22,1381106,22632167,8665,2024-11-06,3.0,Human Ocular Surface,Periocular skin,,S22,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.8,2025-08-06,,,C2,L006,25.0,
+jhu00235,026MH_Skin_L_1_S40,2777744,21104268,8068,2024-10-09,1.0,Human Ocular Surface,Periocular skin,,S40,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,A12,L006,26.0,
+jhu00236,026MH_Skin_L_2_S41,6457054,13324654,3853,2024-10-23,2.0,Human Ocular Surface,Periocular skin,,S41,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,,,D10,L006,26.0,
+jhu00237,026MH_Skin_L_3_S42,4387450,20090538,6916,2024-10-30,3.0,Human Ocular Surface,Periocular skin,,S42,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,F6,L006,26.0,
+jhu00238,026MH_Skin_R_1_S43,2041166,28630659,11209,2024-10-09,1.0,Human Ocular Surface,Periocular skin,,S43,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2,2025-08-06,,,A11,L006,26.0,
+jhu00239,026MH_Skin_R_2_S44,60425394,51204838,8430,2024-10-23,2.0,Human Ocular Surface,Periocular skin,,S44,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,D9,L006,26.0,
+jhu00240,026MH_Skin_R_3_S45,4717238,12398761,3926,2024-10-30,3.0,Human Ocular Surface,Periocular skin,,S45,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,F5,L006,26.0,
+jhu00241,0277R_Skin_R_1_S46,6002334,25396205,9790,2024-10-23,1.0,Human Ocular Surface,Periocular skin,,S46,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,E3,L006,27.0,
+jhu00242,0277R_Skin_R_2_S47,6226348,23957444,7810,2024-10-30,2.0,Human Ocular Surface,Periocular skin,,S47,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,F11,L006,27.0,
+jhu00255,027ZR_Skin_L_1_S60,2416804,20228155,7503,2024-10-23,1.0,Human Ocular Surface,Periocular skin,,S60,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,0.9,2025-08-06,,,E4,L006,27.0,
+jhu00256,027ZR_Skin_L_2_S61,4674842,23299632,6068,2024-10-30,2.0,Human Ocular Surface,Periocular skin,,S61,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,,,F12,L006,27.0,
+jhu00257,027ZR_Skin_L_3_S62,2564532,3324223,810,2024-11-06,3.0,Human Ocular Surface,Periocular skin,,S62,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.8,2025-08-06,,,C9,L006,27.0,
+jhu00258,027ZR_Skin_R_3_S63,7420868,6999552,1322,2024-11-06,3.0,Human Ocular Surface,Periocular skin,,S63,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.3,2025-08-06,,,C8,L006,27.0,
+jhu00272,030AH_Skin_L_1_S77,10312724,6083299,653,2024-11-06,1.0,Human Ocular Surface,Periocular skin,,S77,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.2,2025-08-06,1.0,,D3,L006,30.0,
+jhu00273,030AH_Skin_L_2_S78,1207768,4667250,2796,2024-11-13,2.0,Human Ocular Surface,Periocular skin,,S78,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1,2025-08-06,1.0,,G6,L006,30.0,
+jhu00274,030AH_Skin_L_3_S79,3099190,18735439,7411,2024-11-20,3.0,Human Ocular Surface,Periocular skin,,S79,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,1.0,,H4,L006,30.0,
+jhu00287,032SN_Skin_R_1_S92,388514,8802561,12998,2024-11-13,1.0,Human Ocular Surface,Periocular skin,,S92,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,1.1,2025-08-06,1.0,,G10,L006,32.0,
+jhu00288,032SN_Skin_R_2_S93,732040,67586275,27068,2024-11-20,2.0,Human Ocular Surface,Periocular skin,,S93,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,1.0,,H8,L006,32.0,
+jhu00289,032SN_Skin_R_3_S94,3086932,20766696,6871,2024-12-04,3.0,Human Ocular Surface,Periocular skin,,S94,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,2,2025-08-06,1.0,,E10,L006,32.0,
+jhu00304,033MA_Skin_L_1_S205,11193568,6227537,1146,2024-11-13,1.0,Human Ocular Surface,Periocular skin,,S205,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,A6,L008,33.0,
+jhu00305,033MA_Skin_L_2_S206,31874790,17071417,1835,2024-11-20,2.0,Human Ocular Surface,Periocular skin,,S206,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,2.0,,A12,L008,33.0,
+jhu00306,033MA_Skin_L_3_S207,19351020,10769633,1546,2024-12-04,3.0,Human Ocular Surface,Periocular skin,,S207,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,B6,L008,33.0,
+jhu00307,033MA_Skin_R_1_S208,12337230,14718260,3895,2024-11-13,1.0,Human Ocular Surface,Periocular skin,,S208,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,A5,L008,33.0,
+jhu00308,033MA_Skin_R_2_S209,68654,956363,873,2024-11-20,2.0,Human Ocular Surface,Periocular skin,,S209,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1,2025-08-06,2.0,,A11,L008,33.0,
+jhu00309,033MA_Skin_R_3_S210,23850816,12724369,1567,2024-12-04,3.0,Human Ocular Surface,Periocular skin,,S210,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,,,B5,L008,33.0,
+jhu00327,034AN_Skin_L_1_S228,27087828,14852139,3474,2024-11-20,1.0,Human Ocular Surface,Periocular skin,,S228,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.2,2025-08-06,2.0,,C3,L008,34.0,
+jhu00328,034AN_Skin_L_2_S229,18433792,10849170,1223,2024-12-04,2.0,Human Ocular Surface,Periocular skin,,S229,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,,,C9,L008,34.0,
+jhu00329,034AN_Skin_L_3_S230,16464486,8919512,1315,2024-12-18,3.0,Human Ocular Surface,Periocular skin,,S230,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.8,2025-08-06,2.0,,D3,L008,34.0,
+jhu00330,034AN_Skin_R_1_S231,14008572,7616989,2049,2024-11-20,1.0,Human Ocular Surface,Periocular skin,,S231,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.9,2025-08-06,2.0,,C2,L008,34.0,
+jhu00331,034AN_Skin_R_2_S232,8967062,5137379,807,2024-12-04,2.0,Human Ocular Surface,Periocular skin,,S232,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.9,2025-08-06,,,C8,L008,34.0,
+jhu00332,034AN_Skin_R_3_S233,10062902,15579483,4623,2024-12-18,3.0,Human Ocular Surface,Periocular skin,,S233,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.8,2025-08-06,2.0,,D2,L008,34.0,
+jhu00347,035FS_Skin_L_1_S248,900986,855983,331,2024-11-20,1.0,Human Ocular Surface,Periocular skin,,S248,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,D12,L008,35.0,
+jhu00348,035FS_Skin_L_2_S249,1271630,22309400,7322,2024-12-04,2.0,Human Ocular Surface,Periocular skin,,S249,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,E6,L008,35.0,
+jhu00349,035FS_Skin_L_3_S250,5558316,5314754,2385,2024-12-18,3.0,Human Ocular Surface,Periocular skin,,S250,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.2,2025-08-06,2.0,,E12,L008,35.0,
+jhu00350,035FS_Skin_R_1_S251,10665562,14164452,4058,2024-11-20,1.0,Human Ocular Surface,Periocular skin,,S251,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.3,2025-08-06,,,D11,L008,35.0,
+jhu00351,035FS_Skin_R_2_S252,1215766,26126801,8488,2024-12-04,2.0,Human Ocular Surface,Periocular skin,,S252,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,E5,L008,35.0,
+jhu00352,035FS_Skin_R_3_S253,9891122,20726957,6224,2024-12-18,3.0,Human Ocular Surface,Periocular skin,,S253,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,2.0,,E11,L008,35.0,
+jhu00367,036VK_Skin_L_1_S268,6980466,10849049,3421,2024-12-04,1.0,Human Ocular Surface,Periocular skin,,S268,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,2.0,,F9,L008,36.0,
+jhu00368,036VK_Skin_L_2_S269,13241280,17957707,4918,2024-12-18,2.0,Human Ocular Surface,Periocular skin,,S269,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.1,2025-08-06,,,G3,L008,36.0,
+jhu00369,036VK_Skin_L_3_S270,10102300,15284047,4315,2025-01-08,3.0,Human Ocular Surface,Periocular skin,,S270,OMR,BG001,,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,G9,L008,36.0,
+jhu00370,036VK_Skin_R_1_S271,23098192,12775530,2505,2024-12-04,1.0,Human Ocular Surface,Periocular skin,,S271,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,2.0,,F8,L008,36.0,
+jhu00371,036VK_Skin_R_2_S272,13711998,7528854,1280,2024-12-18,2.0,Human Ocular Surface,Periocular skin,,S272,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.3,2025-08-06,,,G2,L008,36.0,
+jhu00372,036VK_Skin_R_3_S273,13930870,24655610,7777,2025-01-08,3.0,Human Ocular Surface,Periocular skin,,S273,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,,,G8,L008,36.0,
+jhu00417,043SA_Skin_L_1_S142,153964,3783889,1640,2025-01-15,1.0,Human Ocular Surface,Periocular skin,,S142,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.7,2025-08-06,,,D1,L007,43.0,
+jhu00418,043SA_Skin_L_2_S143,24202,340018,152,2025-01-22,2.0,Human Ocular Surface,Periocular skin,,S143,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,D7,L007,43.0,
+jhu00419,043SA_Skin_L_3_S144,860448,7366167,2779,2025-02-05,3.0,Human Ocular Surface,Periocular skin,,S144,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.8,2025-08-06,,,E1,L007,43.0,
+jhu00420,043SA_Skin_R_1_S145,11572732,12393929,3211,2025-01-15,1.0,Human Ocular Surface,Periocular skin,,S145,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.7,2025-08-06,,,C12,L007,43.0,
+jhu00421,043SA_Skin_R_2_S146,8413746,4684540,657,2025-01-22,2.0,Human Ocular Surface,Periocular skin,,S146,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,D6,L007,43.0,
+jhu00422,043SA_Skin_R_3_S147,7714288,8286703,2475,2025-02-05,3.0,Human Ocular Surface,Periocular skin,,S147,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1,2025-08-06,,,D12,L007,43.0,
+jhu00438,044PB_Skin_L_1_S163,224630,2051503,850,2025-01-22,1.0,Human Ocular Surface,Periocular skin,,S163,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,E10,L007,44.0,
+jhu00439,044PB_Skin_L_2_S164,1429854,2288743,1010,2025-02-19,2.0,Human Ocular Surface,Periocular skin,,S164,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,F4,L007,44.0,
+jhu00440,044PB_Skin_L_3_S165,2617402,15232959,5089,2025-02-26,3.0,Human Ocular Surface,Periocular skin,,S165,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.2,2025-08-06,,,F10,L007,44.0,
+jhu00441,044PB_Skin_R_1_S166,6196498,3786809,693,2025-01-22,1.0,Human Ocular Surface,Periocular skin,,S166,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,E9,L007,44.0,
+jhu00442,044PB_Skin_R_2_S167,10333834,8685509,2226,2025-02-19,2.0,Human Ocular Surface,Periocular skin,,S167,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,F3,L007,44.0,
+jhu00443,044PB_Skin_R_3_S168,7340382,4316811,991,2025-02-26,3.0,Human Ocular Surface,Periocular skin,,S168,OMR,BI001,,,Tetra+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,F9,L007,44.0,
+jhu00459,045TA_Skin_L_1_S184,1232112,102649993,42227,2025-01-29,1.0,Human Ocular Surface,Periocular skin,,S184,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.6,2025-08-06,,,G7,L007,45.0,
+jhu00460,045TA_Skin_L_2_S185,656724,13531894,5818,2025-02-05,2.0,Human Ocular Surface,Periocular skin,,S185,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.6,2025-08-06,,,H1,L007,45.0,
+jhu00461,045TA_Skin_L_3_S186,527600,19872224,6651,2025-02-19,3.0,Human Ocular Surface,Periocular skin,,S186,OMR,BI001,,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.7,2025-08-06,,,H7,L007,45.0,
+jhu00462,045TA_Skin_R_1_S187,789502,52221053,19269,2025-01-29,1.0,Human Ocular Surface,Periocular skin,,S187,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,G6,L007,45.0,
+jhu00463,045TA_Skin_R_2_S188,1484676,14883572,5490,2025-02-05,2.0,Human Ocular Surface,Periocular skin,,S188,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,,,G12,L007,45.0,
+jhu00464,045TA_Skin_R_3_S189,656870,16466358,5918,2025-02-19,3.0,Human Ocular Surface,Periocular skin,,S189,OMR,BI001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,H6,L007,45.0,
