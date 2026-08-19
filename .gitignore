@@ -10,7 +10,7 @@ make.bat
 **/*.csvstat
 **/run.sh
 charts_test/
-OLD/
+OLD*/
 docs/_templates/
 docs/_extensions/
 docs/Consortium_Data_Analysis/JHU_Results/split
