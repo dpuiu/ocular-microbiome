@@ -10,21 +10,74 @@ jhu00015,MasterPure_Lysol_Air_Ctr_3_S38,36155068,46271732,18016,,,Air Control,,,
 jhu00017,MasterPure_MolYsis_Basic_5_Air_Ctr_3_S42,3912870,5026718,1380,,,Air Control,,,S42,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,35 ul,,MolYsis™ Basic7,12 ng/ul,2024-07-15,,S1289-SC1 A11,,,,0
 jhu00019,MasterPure_NEB_Air_Ctr_3_S46,106449728,112059042,15020,,,Air Control,,,S46,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,35 ul,,NEBNext Microbiome DNA Enrichment Kit,4.9 ng/ul,2024-07-15,,S1289-SC1 B03,,,,0
 jhu00021,MasterPure_Zymo_HostZero_200ul_Air_Ctr_3_S29,1872412,2585732,3238,,,Air Control,,,S29,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,35 ul,,Zymo HostZero,20.2 ng/ul,2024-07-15,,S1289-SC1 B07,,,,0
-jhu00050,Qiagen_Dneasy_CS_001_Air_Swab_S39,19466274,21096976,2992,,,Air control,,,S39,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,1.9 ng/ul,2024-10-28,,S1304-SC1 D01,,L008,1.0,0
-jhu00052,Qiagen_Dneasy_CS_002_Air_Swab_S62,17287152,21155362,4864,,,Air control,,,S62,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,3.7 ng/ul,2024-10-28,,S1304-SC1 D03,,L008,2.0,0
-jhu00054,Qiagen_Dneasy_CS_003_Air_Swab_S18,23776060,24728334,2130,,,Air control,,,S18,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,1.3 ng/ul,2024-10-28,,S1304-SC1 D05,,L008,3.0,0
-jhu00056,Qiagen_Dneasy_CS_004_Air_Swab_S52,10036688,10728174,2332,,,Air control,,,S52,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,7.6 ng/ul,2024-10-28,,S1304-SC1 D07,,L008,4.0,0
-jhu00058,Qiagen_Dneasy_CS_005_Air_Swab_S67,22989908,25064268,3794,,,Air control,,,S67,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,4.3 ng/ul,2024-10-28,,S1304-SC1 D09,,L008,5.0,0
-jhu00060,Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51,25010940,37809840,12658,,,Air control,,,S51,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,1.6 ng/ul,2024-10-28,,S1304-SC1 E01,,L008,6.0,0
-jhu00064,Qiagen_Dneasy_CS_009_10_Air_Swab_S48,21586716,24144798,4374,,,Air control,,,S48,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,5.6 ng/ul,2024-10-28,,S1304-SC1 E04,,L008,9.0,0
-jhu00070,Zymo_Mini_Prep_CS_001_Air_Swab_S8,6289604,7730612,1050,,,Air control,,,S8,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,0.9 ng/ul,2024-10-28,,S1304-SC1 E11,,L008,1.0,0
-jhu00072,Zymo_Mini_Prep_CS_002_Air_Swab_S64,8866476,11020392,1782,,,Air control,,,S64,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,3.1 ng/ul,2024-10-28,,S1304-SC1 F01,,L008,2.0,0
-jhu00074,Zymo_Mini_Prep_CS_003_Air_Swab_S77,16422312,17980312,1704,,,Air control,,,S77,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1 ng/ul,2024-10-28,,S1304-SC1 F03,,L008,3.0,0
-jhu00076,Zymo_Mini_Prep_CS_004_Air_Swab_S66,5449960,6724258,878,,,Air control,,,S66,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,0.1 ng/ul,2024-10-28,,S1304-SC1 F05,,L008,4.0,0
-jhu00078,Zymo_Mini_Prep_CS_005_Air_Swab_S30,17758420,18836418,1612,,,Air control,,,S30,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.2 ng/ul,2024-10-28,,S1304-SC1 F07,,L008,5.0,0
-jhu00080,Zymo_Mini_Prep_CS_006_7_8_Air_Swab_S14,7536196,8949636,1032,,,Air control,,,S14,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1.8 ng/ul,2024-10-28,,S1304-SC1 F11,,L008,6.0,0
-jhu00084,Zymo_Mini_Prep_CS_009_10_Air_Swab_S73,8838152,10006514,948,,,Air control,,,S73,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.2 ng/ul,2024-10-28,,S1304-SC1 G02,,L008,9.0,0
-jhu00101,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,825688,3833154,3120,,,Air control,,,S91,,,,,,,Zymo Micro Prep Kit,,20 ul,,,0.9 ng/ul,2025-03-14,,S1289-SC2 A11,,L008,7.0,False
-jhu00102,12_Zymo_Micro_Prep_CS_010_Air_Swab_S92,1183850,3207752,2868,,,Air control,,,S92,,,,,,,Zymo Micro Prep Kit,,20 ul,,,1.3 ng/ul,2025-03-14,,S1289-SC2 A12,,L008,10.0,False
-jhu00116,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,765962,6053986,9810,,,Air control,,,S9,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,6.3 ng/ul,2025-03-14,,S1289-SC2 C01,,L008,7.0,False
-jhu00117,26_Qiagen_Soil_Pro_CS_010_Air_Swab_S10,351816,3261946,3954,,,Air control,,,S10,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,8 ng/ul,2025-03-14,,S1289-SC2 C02,,L008,10.0,False
+jhu00050,Qiagen_Dneasy_CS_001_Air_Swab_S39,19466274,21096976,2992,,,Air Control,,,S39,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,1.9 ng/ul,2024-10-28,,S1304-SC1 D01,,L008,1.0,0
+jhu00052,Qiagen_Dneasy_CS_002_Air_Swab_S62,17287152,21155362,4864,,,Air Control,,,S62,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,3.7 ng/ul,2024-10-28,,S1304-SC1 D03,,L008,2.0,0
+jhu00054,Qiagen_Dneasy_CS_003_Air_Swab_S18,23776060,24728334,2130,,,Air Control,,,S18,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,1.3 ng/ul,2024-10-28,,S1304-SC1 D05,,L008,3.0,0
+jhu00056,Qiagen_Dneasy_CS_004_Air_Swab_S52,10036688,10728174,2332,,,Air Control,,,S52,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,7.6 ng/ul,2024-10-28,,S1304-SC1 D07,,L008,4.0,0
+jhu00058,Qiagen_Dneasy_CS_005_Air_Swab_S67,22989908,25064268,3794,,,Air Control,,,S67,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,4.3 ng/ul,2024-10-28,,S1304-SC1 D09,,L008,5.0,0
+jhu00060,Qiagen_Dneasy_CS_006_7_8_Air_Swab_S51,25010940,37809840,12658,,,Air Control,,,S51,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,1.6 ng/ul,2024-10-28,,S1304-SC1 E01,,L008,6.0,0
+jhu00064,Qiagen_Dneasy_CS_009_10_Air_Swab_S48,21586716,24144798,4374,,,Air Control,,,S48,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,5.6 ng/ul,2024-10-28,,S1304-SC1 E04,,L008,9.0,0
+jhu00070,Zymo_Mini_Prep_CS_001_Air_Swab_S8,6289604,7730612,1050,,,Air Control,,,S8,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,0.9 ng/ul,2024-10-28,,S1304-SC1 E11,,L008,1.0,0
+jhu00072,Zymo_Mini_Prep_CS_002_Air_Swab_S64,8866476,11020392,1782,,,Air Control,,,S64,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,3.1 ng/ul,2024-10-28,,S1304-SC1 F01,,L008,2.0,0
+jhu00074,Zymo_Mini_Prep_CS_003_Air_Swab_S77,16422312,17980312,1704,,,Air Control,,,S77,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1 ng/ul,2024-10-28,,S1304-SC1 F03,,L008,3.0,0
+jhu00076,Zymo_Mini_Prep_CS_004_Air_Swab_S66,5449960,6724258,878,,,Air Control,,,S66,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,0.1 ng/ul,2024-10-28,,S1304-SC1 F05,,L008,4.0,0
+jhu00078,Zymo_Mini_Prep_CS_005_Air_Swab_S30,17758420,18836418,1612,,,Air Control,,,S30,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.2 ng/ul,2024-10-28,,S1304-SC1 F07,,L008,5.0,0
+jhu00080,Zymo_Mini_Prep_CS_006_7_8_Air_Swab_S14,7536196,8949636,1032,,,Air Control,,,S14,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1.8 ng/ul,2024-10-28,,S1304-SC1 F11,,L008,6.0,0
+jhu00084,Zymo_Mini_Prep_CS_009_10_Air_Swab_S73,8838152,10006514,948,,,Air Control,,,S73,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.2 ng/ul,2024-10-28,,S1304-SC1 G02,,L008,9.0,0
+jhu00101,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,825688,3833154,3120,,,Air Control,,,S91,,,,,,,Zymo Micro Prep Kit,,20 ul,,,0.9 ng/ul,2025-03-14,,S1289-SC2 A11,,L008,7.0,0
+jhu00102,12_Zymo_Micro_Prep_CS_010_Air_Swab_S92,1183850,3207752,2868,,,Air Control,,,S92,,,,,,,Zymo Micro Prep Kit,,20 ul,,,1.3 ng/ul,2025-03-14,,S1289-SC2 A12,,L008,10.0,0
+jhu00116,25_Qiagen_Soil_Pro_CS_007_Air_Swab_S9,765962,6053986,9810,,,Air Control,,,S9,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,6.3 ng/ul,2025-03-14,,S1289-SC2 C01,,L008,7.0,0
+jhu00117,26_Qiagen_Soil_Pro_CS_010_Air_Swab_S10,351816,3261946,3954,,,Air Control,,,S10,,,,,,,Qiagen PowerSoil Pro Kits,,30 ul,,,8 ng/ul,2025-03-14,,S1289-SC2 C02,,L008,10.0,0
+jhu00150,56_Z_Mini_049_ISO_Cont_1_S40,11107258,12416174,39802,,,Air Control,,,S40,,,,,Isohelix,,Zymo Mini Prep Kit,,50 ul,,,1.9 ng/ul,2025-03-14,,S1289-SC2 E08,,,49.0,0
+jhu00151,57_Z_Mini_050_ISO_Cont_1_S41,1173574,3335810,2746,,,Air Control,,,S41,,,,,Isohelix,,Zymo Mini Prep Kit,,50 ul,,,5.3 ng/ul,2025-03-14,,S1289-SC2 E09,,,50.0,0
+jhu00152,58_Z_Mini_049_ISO_Cont_2_S42,929036,2884484,1822,,,Air Control,,,S42,,,,,Isohelix,,Zymo Mini Prep Kit,,50 ul,,,3.3 ng/ul,2025-03-14,,S1289-SC2 E10,,,49.0,0
+jhu00153,59_Z_Mini_050_ISO_Cont_3_S43,1625792,4178718,1944,,,Air Control,,,S43,,,,,Isohelix,,Zymo Mini Prep Kit,,50 ul,,,2.6 ng/ul,2025-03-14,,S1289-SC2 E11,,,50.0,0
+jhu00155,60_Z_Mini_049_ISO_Cont_3_S44,1182772,2675222,2964,,,Air Control,,,S44,,,,,Isohelix,,Zymo Mini Prep Kit,,50 ul,,,2.7 ng/ul,2025-03-14,,S1289-SC2 E12,,,49.0,0
+jhu00188,90_Qiagen_DNeasy_049_ISO_Cont_1_S74,5034864,5984954,3886,,,Air Control,,,S74,,,,,Isohelix,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.6 ng/ul,2025-03-14,,S1289-SC2 H06,,,49.0,0
+jhu00189,91_Qiagen_DNeasy_050_ISO_Cont_1_S75,7267232,8369204,6530,,,Air Control,,,S75,,,,,Isohelix,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,6.1 ng/ul,2025-03-14,,S1289-SC2 H07,,,50.0,0
+jhu00190,92_Qiagen_DNeasy_049_ISO_Cont_2_S76,7772954,9323984,4032,,,Air Control,,,S76,,,,,Isohelix,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,2.3 ng/ul,2025-03-14,,S1289-SC2 H08,,,49.0,0
+jhu00191,93_Qiagen_DNeasy_050_ISO_Cont_3_S77,14926116,17362842,5072,,,Air Control,,,S77,,,,,Isohelix,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,5 ng/ul,2025-03-14,,S1289-SC2 H09,,,50.0,0
+jhu00192,94_Qiagen_DNeasy_049_ISO_Cont_3_S78,4873948,6150176,2338,,,Air Control,,,S78,,,,,Isohelix,,Qiagen DNeasy Blood_Tissue Kit,,30 ul,,,3.9 ng/ul,2025-03-14,,S1289-SC2 H10,,,49.0,0
+jhu00202,025RM_ISO_CONT_3_S7,318264,3401418,1302,2024-11-06,3.0,Air Control,,,S7,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.7,2025-08-06,,,C11,L006,25.0,0
+jhu00209,025RM_PUR_CONT_1_S14,253080,2436162,1256,2024-10-09,1.0,Air Control,,,S14,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,B7,L006,25.0,0
+jhu00210,025RM_PUR_CONT_2_S15,269718,2282396,1200,2024-10-16,2.0,Air Control,,,S15,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,B9,L006,25.0,0
+jhu00211,025RM_PUR_CONT_3_S16,373516,5053556,3150,2024-11-06,3.0,Air Control,,,S16,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.8,2025-08-06,,,C10,L006,25.0,0
+jhu00224,026MH_ISO_CONT_1_S29,49086,923890,644,2024-10-09,1.0,Air Control,,,S29,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,B8,L006,26.0,0
+jhu00225,026MH_ISO_CONT_2_S30,251256,1432348,464,2024-10-23,2.0,Air Control,,,S30,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.2,2025-08-06,,,E6,L006,26.0,0
+jhu00226,026MH_ISO_CONT_3_S31,265306,1237868,658,2024-10-30,3.0,Air Control,,,S31,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.5,2025-08-06,,,G2,L006,26.0,0
+jhu00233,026MH_PUR_CONT_2_S38,551414,3144842,1474,2024-10-23,2.0,Air Control,,,S38,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1,2025-08-06,,,E5,L006,26.0,0
+jhu00234,026MH_PUR_CONT_3_S39,820050,2219106,1288,2024-10-30,3.0,Air Control,,,S39,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,G1,L006,26.0,0
+jhu00259,029SH_ISO_CONT_2_S64,276874,2105816,932,2024-11-13,2.0,Air Control,,,S64,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,1.0,,G12,L006,29.0,0
+jhu00266,030AH_FLOQ_CONT_1_S71,180568,975462,248,2024-11-06,1.0,Air Control,,,S71,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,3.1,2025-08-06,1.0,,D4,L006,30.0,0
+jhu00267,030AH_Floq_CONT_2_S72,220168,2399724,2496,2024-11-13,2.0,Air Control,,,S72,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,1.0,,G11,L006,30.0,0
+jhu00268,030AH_Floq_CONT_3_S73,461636,2068138,776,2024-11-20,3.0,Air Control,,,S73,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,1.0,,H9,L006,30.0,0
+jhu00281,032SN_FLOQ_CONT_3_S86,748474,3952236,1968,2024-12-04,3.0,Air Control,,,S86,OMR,BG001,,,FloQ,,Zymo Mini Prep Kit,,,,,0.9,2025-08-06,1.0,,E11,L006,32.0,0
+jhu00282,032SN_ISO_CONT_2_S87,118128,1178150,636,2024-11-20,2.0,Air Control,,,S87,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.5,2025-08-06,1.0,,H10,L006,32.0,0
+jhu00283,032SN_ISO_CONT_3_S88,13740402,19458694,4958,2024-12-04,3.0,Air Control,,,S88,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,1.0,,E12,L006,32.0,0
+jhu00290,033MA_BSS_CONT_1_S191,26362584,28377748,3260,2024-11-13,1.0,Air Control,,,S191,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,B7,L008,33.0,0
+jhu00291,033MA_BSS_CONT_3_S192,14204242,15107700,1630,2024-12-04,3.0,Air Control,,,S192,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.8,2025-08-06,,,B9,L008,33.0,0
+jhu00310,034AN_BSS_CONT_3a_S211,14115094,15785642,2016,2024-12-18,3.0,Air Control,,,S211,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1,2025-08-06,,,D6,L008,34.0,0
+jhu00311,034AN_BSS_CONT_3b_S212,5452508,6184694,1300,2024-12-18,3.0,Air Control,,,S212,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2,2025-08-06,,,F3,L008,34.0,0
+jhu00312,034AN_BSS_ISO_CONT_1a_S214,19692852,22067954,2268,2024-11-20,1.0,Air Control,,,S214,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.8,2025-08-06,,,B8,L008,34.0,0
+jhu00313,034AN_BSS_ISO_CONT_1b_S215,38225402,40103426,4472,2024-11-20,1.0,Air Control,,,S215,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,0.5,2025-08-06,,,D4,L008,34.0,0
+jhu00314,034AN_BSS_ISO_CONT_2_S213,32160188,34158900,4116,2024-12-04,2.0,Air Control,,,S213,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1,2025-08-06,,,D5,L008,34.0,0
+jhu00333,035FS_BSS_ISO_CONT_1_S234,12041048,14310660,5788,2024-11-20,1.0,Air Control,,,S234,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,F1,L008,35.0,0
+jhu00334,035FS_BSS_ISO_CONT_2_S235,19457672,20542348,2722,2024-12-04,2.0,Air Control,,,S235,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.5,2025-08-06,,,F2,L008,35.0,0
+jhu00353,036VK_BSS_ISO_CONT_2_S254,11772652,14291344,2054,2024-12-18,2.0,Air Control,,,S254,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,G10,L008,36.0,0
+jhu00354,036VK_BSS_ISO_CONT_3_S255,946876,7948778,6934,2025-01-08,3.0,Air Control,,,S255,OMR,BG001,BSS,,BSS+ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.8,2025-08-06,,,G11,L008,36.0,0
+jhu00373,038JM_ANE_CONT_1_S96,22192,830944,280,2024-12-04,1.0,Air Control,,,S96,OMR,BG001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.4,2025-08-06,,,A7,L007,38.0,0
+jhu00374,038JM_ANE_CONT_2_S97,22068,495378,306,2025-01-22,2.0,Air Control,,,S97,OMR,BG001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.3,2025-08-06,,,A8,L007,38.0,0
+jhu00375,038JM_ANE_CONT_3_S98,5027272,5382000,646,2025-02-19,3.0,Air Control,,,S98,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.3,2025-08-06,,,A9,L007,38.0,0
+jhu00381,039WB_ANE_CONT_1_S105,13952,1107786,470,2025-01-08,1.0,Air Control,,,S105,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,C4,L007,39.0,0
+jhu00382,039WB_ANE_CONT_2_S106,22732,753802,604,2025-01-22,2.0,Air Control,,,S106,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,C6,L007,39.0,0
+jhu00383,039WB_ANE_CONT_3_S107,9452,623862,188,2025-01-29,3.0,Air Control,,,S107,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,C7,L007,39.0,0
+jhu00389,040RR_ANE_CONT_2_S114,60742,654142,326,2025-01-15,2.0,Air Control,,,S114,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,C5,L007,40.0,0
+jhu00402,043SA_ANE_CONT_1_S127,95548,1646618,982,2025-01-15,1.0,Air Control,,,S127,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,E2,L007,43.0,0
+jhu00403,043SA_ANE_CONT_2_S128,8066,213822,190,2025-01-22,2.0,Air Control,,,S128,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.2,2025-08-06,,,E3,L007,43.0,0
+jhu00404,043SA_ANE_CONT_3_S129,7740,365154,104,2025-02-05,3.0,Air Control,,,S129,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,E4,L007,43.0,0
+jhu00423,044PB_ANE_CONT_1_S148,71020,3398320,1768,2025-01-22,1.0,Air Control,,,S148,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,4.1,2025-08-06,,,F11,L007,44.0,0
+jhu00424,044PB_ANE_CONT_2_S149,7836,433800,180,2025-02-19,2.0,Air Control,,,S149,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.9,2025-08-06,,,F12,L007,44.0,0
+jhu00425,044PB_ANE_CONT_3_S150,66318,1069106,800,2025-02-26,3.0,Air Control,,,S150,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.9,2025-08-06,,,G1,L007,44.0,0
+jhu00444,045TA_ANE_CONT_1_S169,4677846,5357952,1452,2025-01-29,1.0,Air Control,,,S169,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,3.3,2025-08-06,,,H8,L007,45.0,0
+jhu00445,045TA_ANE_CONT_2_S170,11306852,12058202,1760,2025-02-05,2.0,Air Control,,,S170,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.4,2025-08-06,,,H9,L007,45.0,0
+jhu00446,045TA_ANE_CONT_3_S171,9640038,9987788,1164,2025-02-19,3.0,Air Control,,,S171,OMR,BI001,ANE,,Tetra/ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.5,2025-08-06,,,H10,L007,45.0,0
