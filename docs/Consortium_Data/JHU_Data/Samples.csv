@@ -468,3 +468,377 @@ jhu00466,MCS_M6_BG001_S275,105134610,106377142,3292,,,Microbial Community Standa
 jhu00467,OMR_O14_BI001_S95,10201252,11030008,1246,,,OMR-110,,,S95,OMR,BI002,,,,,Zymo Mini Prep Kit,,,,,2.1,2025-08-06,,,H11,L006,,0
 jhu00468,OMR_O1_BG001_S276,30852220,32232232,4962,,,OMR-110,,,S276,OMR,BG001,,,,,Zymo Mini Prep Kit,,,,,1.6,2025-08-06,,,H11,L008,,0
 jhu00469,OMR_O6_BG001_S277,18857730,21465548,13362,,,OMR-110,,,S277,OMR,BG001,,,,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,G12,L008,,0
+jhu00470,022UJ_Conj_R_2_6_S181,123121,12634769,6302,2024-10-02,,Human Ocular Surface,Conj,Right,S181,,BD801,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,1,S1304-SC2 A01,,,,False
+jhu00471,022UJ_Conj_R_3_5_S5,36209,11917318,5270,2024-10-16,,Human Ocular Surface,Conj,Right,S5,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,2.2 ng/ul,,1,S1304-SC2 A7,,,,False
+jhu00472,022UJ_Conj_R_7_S198,110249,3025192,1934,2024-10-02,,Human Ocular Surface,Conj,Right,S198,,BD801,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,1,S1304-SC2 A1,,,,False
+jhu00473,022UJ_Control_2_8_S360,839293,1845660,493,2024-10-09,,Control,,,S360,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,0.6 ng/ul,,1,S1304-SC2 B9,,,,False
+jhu00474,022UJ_Control_3_5_S47,3676,269494,203,2024-10-16,,Control,,,S47,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,0.7 ng/ul,,1,S1304-SC2 B10,,,,False
+jhu00475,022UJ_Control_8_S361,131036,1213814,1001,2024-10-02,,Control,,,S361,,BD801,,,,,Zymo Miniprep Kit,,50 ul,,,0.5 ng/ul,,1,S1304-SC2 B8,,,,False
+jhu00476,022UJ_Lid_R_2_5_S22,38538,9085268,3874,2024-10-09,,Human Ocular Surface,Lid margin,Right,S22,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,2.8 ng/ul,,1,S1304-SC2 A5,,,,False
+jhu00477,022UJ_Lid_R_3_8_S313,94949,5959631,2031,2024-10-16,,Human Ocular Surface,Lid margin,Right,S313,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,1,S1304-SC2 A8,,,,False
+jhu00478,022UJ_Lid_R_5_S25,58422,10660989,4540,2024-10-02,,Human Ocular Surface,Lid margin,Right,S25,,BD801,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,1,S1304-SC2 A2,,,,False
+jhu00479,022UJ_Skin_R_2_7_S210,171450,1613884,781,2024-10-09,,Human Ocular Surface,Periocular skin,Right,S210,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,1,S1304-SC2 A6,,,,False
+jhu00480,022UJ_Skin_R_3_7_S218,201664,1811857,671,2024-10-16,,Human Ocular Surface,Periocular skin,Right,S218,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,1,S1304-SC2 A9,,,,False
+jhu00481,022UJ_Skin_R_6_S151,288841,14488066,5042,2024-10-02,,Human Ocular Surface,Periocular skin,Right,S151,,BD801,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,1,S1304-SC2 A3,,,,False
+jhu00482,023CB_Conj_L_2_5_S52,29766,11077244,5140,2024-10-09,,Human Ocular Surface,Conj,Left,S52,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,1,S1304-SC2 B1,,,,False
+jhu00483,023CB_Conj_L_3_7_S254,145478,11024536,4252,2024-10-16,,Human Ocular Surface,Conj,Left,S254,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.9 ng/ul,,1,S1304-SC2 B5,,,,False
+jhu00484,023CB_Conj_L_7_S245,66064,12948941,4353,2024-10-02,,Human Ocular Surface,Conj,Left,S245,,BB001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,1,S1304-SC2 A10,,,,False
+jhu00485,023CB_Control_1_7_S238,51546,511440,449,2024-10-02,,Control,,,S238,,BB001,,,,,Zymo Miniprep Kit,,50 ul,,,0.8 ng/ul,,1,S1304-SC2 B11,,,,False
+jhu00486,023CB_Lid_L_2_6_S138,215222,7225031,3566,2024-10-09,,Human Ocular Surface,Lid margin,Left,S138,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,2.1 ng/ul,,1,S1304-SC2 B3,,,,False
+jhu00487,023CB_Lid_L_3_5_S3,45089,8261889,3996,2024-10-16,,Human Ocular Surface,Lid margin,Left,S3,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,3.3 ng/ul,,1,S1304-SC2 B6,,,,False
+jhu00488,023CB_Lid_L_6_S155,1349850,8829145,4977,2024-10-02,,Human Ocular Surface,Lid margin,Left,S155,,BB001,,,,,Zymo Miniprep Kit,,50 ul,,,0.7 ng/ul,,1,S1304-SC2 A11,,,,False
+jhu00489,023CB_Skin_L_2_7_S276,123857,4254305,1733,2024-10-09,,Human Ocular Surface,Periocular skin,Left,S276,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,0.8 ng/ul,,1,S1304-SC2 B4,,,,False
+jhu00490,023CB_Skin_L_3_5_S4,79886,8880546,4128,2024-10-16,,Human Ocular Surface,Periocular skin,Left,S4,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,1,S1304-SC2 B7,,,,False
+jhu00491,023CB_Skin_L_6_S177,458926,16744276,6079,2024-10-02,,Human Ocular Surface,Periocular skin,Left,S177,,BB001,,,,,Zymo Miniprep Kit,,50 ul,,,0.8 ng/ul,,1,S1304-SC2 A12,,,,False
+jhu00492,027ZR_ISO_CONT_2_8_S318,103287,4366018,2349,2024-10-30,,Control,,,S318,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,2.1 ng/ul,,1,S1304-SC2 D6,,,,False
+jhu00493,028IS_Conj_L_1_8_S354,104791,15282730,4830,2024-10-30,,Human Ocular Surface,Conj,Left,S354,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,2.3 ng/ul,,1,S1304-SC2 B12,,,,False
+jhu00494,028IS_Conj_L_2_7_S240,335800,24343013,8584,2024-11-06,,Human Ocular Surface,Conj,Left,S240,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,2.1 ng/ul,,1,S1304-SC2 C3,,,,False
+jhu00495,028IS_Conj_L_3_5_S41,37645,9020956,3764,2024-11-13,,Human Ocular Surface,Conj,Left,S41,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,2.7 ng/ul,,1,S1304-SC2 C6,,,,False
+jhu00496,028IS_ISO_CONT_3_7_S188,75821,986585,601,2024-11-13,,Control,,,S188,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,3.1 ng/ul,,1,S1304-SC2 D8,,,,False
+jhu00497,028IS_Lid_L_1_8_S340,1096844,17362968,7944,2024-10-30,,Human Ocular Surface,Lid margin,Left,S340,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,3.1 ng/ul,,1,S1304-SC2 C1,,,,False
+jhu00498,028IS_Lid_L_2_7_S224,994213,19713272,11359,2024-11-06,,Human Ocular Surface,Lid margin,Left,S224,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,1,S1304-SC2 C4,,,,False
+jhu00499,028IS_Lid_L_3_7_S266,143568,3400154,1299,2024-11-13,,Human Ocular Surface,Lid margin,Left,S266,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.6 ng/ul,,1,S1304-SC2 C7,,,,False
+jhu00500,028IS_Skin_L_1_7_S249,1264386,96174637,40592,2024-10-30,,Human Ocular Surface,Periocular skin,Left,S249,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,2.3 ng/ul,,1,S1304-SC2 C2,,,,False
+jhu00501,028IS_Skin_L_2_7_S255,2352971,13062368,4698,2024-11-06,,Human Ocular Surface,Periocular skin,Left,S255,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,1,S1304-SC2 C5,,,,False
+jhu00502,028IS_Skin_L_3_7_S237,1635502,8496813,2954,2024-11-13,,Human Ocular Surface,Periocular skin,Left,S237,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,0.8 ng/ul,,1,S1304-SC2 C8,,,,False
+jhu00503,029SH_Conj_R_1_6_S122,65691,17718722,7661,2024-11-06,,Human Ocular Surface,Conj,Right,S122,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,3 ng/ul,,1,S1304-SC2 C9,,,,False
+jhu00504,029SH_Conj_R_2_8_S369,201138,5471343,1842,2024-11-13,,Human Ocular Surface,Conj,Right,S369,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,2.9 ng/ul,,1,S1304-SC2 C12,,,,False
+jhu00505,029SH_Conj_R_3_6_S102,60670,16546327,7751,2024-11-20,,Human Ocular Surface,Conj,Right,S102,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,3 ng/ul,,1,S1304-SC2 D3,,,,False
+jhu00506,029SH_ISO_CONT_3_8_S346,184737,600709,403,2024-11-20,,Control,,,S346,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,1,S1304-SC2 D9,,,,False
+jhu00507,029SH_Lid_R_1_5_S11,524597,8884080,4162,2024-11-06,,Human Ocular Surface,Lid margin,Right,S11,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,3.8 ng/ul,,1,S1304-SC2 C10,,,,False
+jhu00508,029SH_Lid_R_2_6_S141,656712,10597404,5028,2024-11-13,,Human Ocular Surface,Lid margin,Right,S141,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,1,S1304-SC2 D1,,,,False
+jhu00509,029SH_Lid_R_3_8_S281,866527,23041670,7538,2024-11-20,,Human Ocular Surface,Lid margin,Right,S281,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,3.7 ng/ul,,1,S1304-SC2 D4,,,,False
+jhu00510,029SH_Skin_R_1_6_S166,1418159,8876671,4895,2024-11-06,,Human Ocular Surface,Periocular skin,Right,S166,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,2.8 ng/ul,,1,S1304-SC2 C11,,,,False
+jhu00511,029SH_Skin_R_2_7_S261,308654,8069818,3650,2024-11-13,,Human Ocular Surface,Periocular skin,Right,S261,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,1,S1304-SC2 D2,,,,False
+jhu00512,029SH_Skin_R_3_6_S118,3346276,22627151,10425,2024-11-20,,Human Ocular Surface,Periocular skin,Right,S118,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,1,S1304-SC2 D5,,,,False
+jhu00513,030AH_ISO_CONT_1_8_S371,546344,1570147,1800,2024-11-06,,Control,,,S371,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,1,S1304-SC2 D7,,,,False
+jhu00514,035FS_ISO_CONT_2_7_S242,251831,3572650,2638,2024-12-04,,Control,,,S242,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,2.1 ng/ul,,1,S1304-SC2 F1,,,,False
+jhu00515,037SA_Conj_L_2_6_S144,73909,10720595,5191,2025-01-22,,Human Ocular Surface,Conj,Left,S144,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,3.3 ng/ul,,1,S1304-SC2 E1,,,,False
+jhu00516,037SA_Conj_L_3_5_S75,34220,9966908,5097,2025-01-29,,Human Ocular Surface,Conj,Left,S75,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,5 ng/ul,,1,S1304-SC2 E4,,,,False
+jhu00517,037SA_Conj_L_8_S348,90134,8426039,2930,2024-12-04,,Human Ocular Surface,Conj,Left,S348,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.9 ng/ul,,1,S1304-SC2 D10,,,,False
+jhu00518,037SA_ISO_CONT_2_7_S217,100475,605967,403,2025-01-22,,Control,,,S217,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,1,S1304-SC2 F2,,,,False
+jhu00519,037SA_ISO_CONT_3_8_S370,443449,3043552,1885,2025-01-29,,Control,,,S370,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.6 ng/ul,,1,S1304-SC2 F3,,,,False
+jhu00520,037SA_Lid_L_2_6_S125,646335,10151248,5175,2025-01-22,,Human Ocular Surface,Lid margin,Left,S125,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,4.8 ng/ul,,1,S1304-SC2 E2,,,,False
+jhu00521,037SA_Lid_L_3_5_S61,80249,10687939,5990,2025-01-29,,Human Ocular Surface,Lid margin,Left,S61,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.8 ng/ul,,1,S1304-SC2 E5,,,,False
+jhu00522,037SA_Lid_L_7_S225,101596,1929335,814,2024-12-04,,Human Ocular Surface,Lid margin,Left,S225,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,2.1 ng/ul,,1,S1304-SC2 D11,,,,False
+jhu00523,037SA_Skin_L_2_6_S119,262676,2361434,800,2025-01-22,,Human Ocular Surface,Periocular skin,Left,S119,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,3.1 ng/ul,,1,S1304-SC2 E3,,,,False
+jhu00524,037SA_Skin_L_3_8_S311,978359,28923450,9387,2025-01-29,,Human Ocular Surface,Periocular skin,Left,S311,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,7.2 ng/ul,,1,S1304-SC2 E6,,,,False
+jhu00525,037SA_Skin_L_8_S352,613920,5989198,2005,2024-12-04,,Human Ocular Surface,Periocular skin,Left,S352,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,1,S1304-SC2 D12,,,,False
+jhu00526,038JM_ISO_CONT_3_7_S228,127230,505629,389,2025-02-19,,Control,,,S228,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,1,S1304-SC2 F4,,,,False
+jhu00527,038JM_Lid_L_2_8_S301,490536,6863753,2872,2025-01-22,,Human Ocular Surface,Lid margin,Left,S301,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,6.7 ng/ul,,1,S1304-SC2 E9,,,,False
+jhu00528,038JM_Lid_L_3_7_S247,228363,2819738,1234,2025-02-19,,Human Ocular Surface,Lid margin,Left,S247,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,6.2 ng/ul,,1,S1304-SC2 E11,,,,False
+jhu00529,038JM_Lid_L_8_S300,258319,3081653,1487,2024-12-04,,Human Ocular Surface,Lid margin,Left,S300,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,6.4 ng/ul,,1,S1304-SC2 E7,,,,False
+jhu00530,038JM_Skin_L_2_6_S117,491861,3236759,1273,2025-01-22,,Human Ocular Surface,Periocular skin,Left,S117,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,14.2 ng/ul,,1,S1304-SC2 E10,,,,False
+jhu00531,038JM_Skin_L_3_6_S133,2295269,3762352,664,2025-02-19,,Human Ocular Surface,Periocular skin,Left,S133,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,10.7 ng/ul,,1,S1304-SC2 E12,,,,False
+jhu00532,038JM_Skin_L_8_S335,2373880,6174646,1858,2024-12-04,,Human Ocular Surface,Periocular skin,Left,S335,,BG001,,,,,Zymo Miniprep Kit,,50 ul,,,3.2 ng/ul,,1,S1304-SC2 E8,,,,False
+jhu00533,039WB_ISO_CONT_2_8_S297,115176,835257,871,2025-01-22,,Control,,,S297,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2 ng/ul,,1,S1304-SC2 G10,,,,False
+jhu00534,039WB_ISO_CONT_3_8_S315,114234,731052,779,2025-01-29,,Control,,,S315,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.5 ng/ul,,1,S1304-SC2 G11,,,,False
+jhu00535,039WB_ISO_CONT_8_S316,122151,623531,597,2025-01-08,,Control,,,S316,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,1,S1304-SC2 G9,,,,False
+jhu00536,039WB_Lid_R_2_8_S322,467511,8750491,5100,2025-01-22,,Human Ocular Surface,Lid margin,Right,S322,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.5 ng/ul,,1,S1304-SC2 G5,,,,False
+jhu00537,039WB_Lid_R_3_6_S137,175946,14043326,3814,2025-01-29,,Human Ocular Surface,Lid margin,Right,S137,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,1,S1304-SC2 G7,,,,False
+jhu00538,039WB_Lid_R_8_S288,85327,1012139,903,2025-01-08,,Human Ocular Surface,Lid margin,Right,S288,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,1,S1304-SC2 G2,,,,False
+jhu00539,039WB_Skin_R_2_7_S243,197451,5648062,2199,2025-01-22,,Human Ocular Surface,Periocular skin,Right,S243,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,1,S1304-SC2 G6,,,,False
+jhu00540,039WB_Skin_R_3_7_S215,208941,1371208,571,2025-01-29,,Human Ocular Surface,Periocular skin,Right,S215,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.5 ng/ul,,1,S1304-SC2 G8,,,,False
+jhu00541,039WB_Skin_R_8_S319,798452,14420390,4604,2025-01-08,,Human Ocular Surface,Periocular skin,Right,S319,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.1 ng/ul,,1,S1304-SC2 G4,,,,False
+jhu00542,040RR_ISO_CONT_2_8_S321,269666,923698,694,2025-01-15,,Control,,,S321,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.2 ng/ul,,2,S1304-SC3 B5,,,,False
+jhu00543,040RR_ISO_CONT_3_8_S345,389113,692447,349,2025-01-29,,Control,,,S345,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,2,S1304-SC3 B7,,,,False
+jhu00544,040RR_ISO_CONT_8_S307,289385,1779113,1601,2025-01-08,,Control,,,S307,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.9 ng/ul,,2,S1304-SC3 B4,,,,False
+jhu00545,040RR_Lid_L_2_5_S46,62479,14481572,5856,2025-01-15,,Human Ocular Surface,Lid margin,Left,S46,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.3 ng/ul,,2,S1304-SC3 A12,,,,False
+jhu00546,040RR_Lid_L_3_5_S50,43943,14404808,5226,2025-01-29,,Human Ocular Surface,Lid margin,Left,S50,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,7.7 ng/ul,,2,S1304-SC3 B2,,,,False
+jhu00547,040RR_Lid_L_8_S320,1634940,104194193,35968,2025-01-08,,Human Ocular Surface,Lid margin,Left,S320,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.1 ng/ul,,2,S1304-SC3 A10,,,,False
+jhu00548,040RR_Skin_L_2_5_S40,131046,18302536,9026,2025-01-15,,Human Ocular Surface,Periocular skin,Left,S40,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.9 ng/ul,,2,S1304-SC3 B1,,,,False
+jhu00549,040RR_Skin_L_3_5_S31,198075,14484021,5565,2025-01-29,,Human Ocular Surface,Periocular skin,Left,S31,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,4 ng/ul,,2,S1304-SC3 B3,,,,False
+jhu00550,040RR_Skin_L_5_S39,89577,11970908,4556,2025-01-08,,Human Ocular Surface,Periocular skin,Left,S39,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.7 ng/ul,,2,S1304-SC3 A11,,,,False
+jhu00551,041SB_ISO_CONT_2_7_S209,110785,449031,305,2025-01-22,,Control,,,S209,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,2,S1304-SC3 C11,,,,False
+jhu00552,041SB_ISO_CONT_8_S310,673906,1787652,566,2025-01-15,,Control,,,S310,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,2,S1304-SC3 D2,,,,False
+jhu00553,041SB_Lid_R_2_6_S106,118934,19893044,8212,2025-01-22,,Human Ocular Surface,Lid margin,Right,S106,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.7 ng/ul,,2,S1304-SC3 D3,,,,False
+jhu00554,041SB_Lid_R_3_6_S108,102229,18021127,7514,2025-01-29,,Human Ocular Surface,Lid margin,Right,S108,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.9 ng/ul,,2,S1304-SC3 C12,,,,False
+jhu00555,041SB_Lid_R_7_S189,141928,18551801,6933,2025-01-15,,Human Ocular Surface,Lid margin,Right,S189,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,2,S1304-SC3 C8,,,,False
+jhu00556,041SB_Skin_R_2_5_S33,119028,15113704,7570,2025-01-22,,Human Ocular Surface,Periocular skin,Right,S33,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,2,S1304-SC3 C10,,,,False
+jhu00557,041SB_Skin_R_3_5_S32,574709,17079975,6458,2025-01-29,,Human Ocular Surface,Periocular skin,Right,S32,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.7 ng/ul,,2,S1304-SC3 D1,,,,False
+jhu00558,041SB_Skin_R_5_S44,106521,13878144,6110,2025-01-15,,Human Ocular Surface,Periocular skin,Right,S44,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,2,S1304-SC3 C9,,,,False
+jhu00559,042RA_Conj_L_2_6_S147,53958,18862773,6405,2025-02-19,,Human Ocular Surface,Conj,Left,S147,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,1,S1304-SC2 F8,,,,False
+jhu00560,042RA_Conj_L_3_5_S48,14481,6879303,2636,2025-02-26,,Human Ocular Surface,Conj,Left,S48,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.9 ng/ul,,1,S1304-SC2 F11,,,,False
+jhu00561,042RA_Conj_L_6_S165,55270,10249343,3691,2025-01-15,,Human Ocular Surface,Conj,Left,S165,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,1,S1304-SC2 F5,,,,False
+jhu00562,042RA_ISO_CONT_2_7_S192,568017,2953000,1857,2025-02-19,,Control,,,S192,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.9 ng/ul,,1,S1304-SC2 H1,,,,False
+jhu00563,042RA_ISO_CONT_3_7_S219,143277,982728,586,2025-02-26,,Control,,,S219,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,1,S1304-SC2 H2,,,,False
+jhu00564,042RA_ISO_CONT_7_S234,62150,486410,473,2025-01-15,,Control,,,S234,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,4.8 ng/ul,,1,S1304-SC2 G12,,,,False
+jhu00565,042RA_Lid_L_2_5_S28,131806,9266563,3773,2025-02-19,,Human Ocular Surface,Lid margin,Left,S28,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.3 ng/ul,,1,S1304-SC2 F9,,,,False
+jhu00566,042RA_Lid_L_3_7_S220,242327,10302239,3314,2025-02-26,,Human Ocular Surface,Lid margin,Left,S220,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.2 ng/ul,,1,S1304-SC2 F12,,,,False
+jhu00567,042RA_Lid_L_6_S158,118830,2211951,696,2025-01-15,,Human Ocular Surface,Lid margin,Left,S158,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2 ng/ul,,1,S1304-SC2 F6,,,,False
+jhu00568,042RA_Skin_L_2_7_S207,3402200,16702314,5409,2025-02-19,,Human Ocular Surface,Periocular skin,Left,S207,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.7 ng/ul,,1,S1304-SC2 F10,,,,False
+jhu00569,042RA_Skin_L_3_8_S359,417212,2267787,1522,2025-02-26,,Human Ocular Surface,Periocular skin,Left,S359,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.7 ng/ul,,1,S1304-SC2 G1,,,,False
+jhu00570,042RA_Skin_L_8_S333,940873,4009217,1355,2025-01-15,,Human Ocular Surface,Periocular skin,Left,S333,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.9 ng/ul,,1,S1304-SC2 F7,,,,False
+jhu00571,046HA_Conj_L_2_7_S226,188990,29281370,10329,2025-02-12,,Human Ocular Surface,Conj,Left,S226,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.7 ng/ul,,2,S1304-SC3 A4,,,,False
+jhu00572,046HA_Conj_L_3_5_S19,39478,10044350,3855,2025-02-19,,Human Ocular Surface,Conj,Left,S19,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.4 ng/ul,,2,S1304-SC3 A7,,,,False
+jhu00573,046HA_Conj_L_6_S129,228108,25317150,9393,2025-01-22,,Human Ocular Surface,Conj,Left,S129,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.6 ng/ul,,2,S1304-SC3 A1,,,,False
+jhu00574,046HA_ISO_CONT_2_7_S193,312826,1715091,1686,2025-02-12,,Control,,,S193,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.9 ng/ul,,2,S1304-SC3 B8,,,,False
+jhu00575,046HA_ISO_CONT_3_7_S248,187681,440122,333,2025-02-19,,Control,,,S248,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.5 ng/ul,,2,S1304-SC3 B9,,,,False
+jhu00576,046HA_ISO_CONT_7_S258,215319,889140,640,2025-01-22,,Control,,,S258,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.9 ng/ul,,2,S1304-SC3 B6,,,,False
+jhu00577,046HA_Lid_L_2_7_S263,356193,16202607,5635,2025-02-12,,Human Ocular Surface,Lid margin,Left,S263,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,2,S1304-SC3 A5,,,,False
+jhu00578,046HA_Lid_L_3_5_S27,117324,10186401,4474,2025-02-19,,Human Ocular Surface,Lid margin,Left,S27,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.9 ng/ul,,2,S1304-SC3 A8,,,,False
+jhu00579,046HA_Lid_L_6_S180,139312,18852746,9746,2025-01-22,,Human Ocular Surface,Lid margin,Left,S180,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.8 ng/ul,,2,S1304-SC3 A2,,,,False
+jhu00580,046HA_Skin_L_2_7_S205,1204644,19829905,6786,2025-02-12,,Human Ocular Surface,Periocular skin,Left,S205,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,2,S1304-SC3 A6,,,,False
+jhu00581,046HA_Skin_L_3_6_S100,816491,14455052,4796,2025-02-19,,Human Ocular Surface,Periocular skin,Left,S100,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.4 ng/ul,,2,S1304-SC3 A9,,,,False
+jhu00582,046HA_Skin_L_5_S89,1417350,5993987,2566,2025-01-22,,Human Ocular Surface,Periocular skin,Left,S89,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.8 ng/ul,,2,S1304-SC3 A3,,,,False
+jhu00583,047MI_Conj_R_2_5_S60,35193,12794790,5339,2025-02-05,,Human Ocular Surface,Conj,Right,S60,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.5 ng/ul,,2,S1304-SC3 C2,,,,False
+jhu00584,047MI_Conj_R_3_5_S66,33013,15128694,6502,2025-03-26,,Human Ocular Surface,Conj,Right,S66,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,2,S1304-SC3 C5,,,,False
+jhu00585,047MI_Conj_R_5_S59,27574,16648326,6534,2025-01-29,,Human Ocular Surface,Conj,Right,S59,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.9 ng/ul,,2,S1304-SC3 B10,,,,False
+jhu00586,047MI_ISO_CONT_2_8_S350,823758,2674715,2720,2025-02-05,,Control,,,S350,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,2,S1304-SC3 D5,,,,False
+jhu00587,047MI_ISO_CONT_3_8_S358,210136,1894484,2677,2025-03-26,,Control,,,S358,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.5 ng/ul,,2,S1304-SC3 D6,,,,False
+jhu00588,047MI_ISO_CONT_8_S338,190473,887034,1433,2025-01-29,,Control,,,S338,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,2,S1304-SC3 D4,,,,False
+jhu00589,047MI_Lid_R_2_7_S201,239412,15426244,5499,2025-02-05,,Human Ocular Surface,Lid margin,Right,S201,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,2,S1304-SC3 C3,,,,False
+jhu00590,047MI_Lid_R_3_5_S37,37262,10875250,4069,2025-03-26,,Human Ocular Surface,Lid margin,Right,S37,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,2,S1304-SC3 C6,,,,False
+jhu00591,047MI_Lid_R_7_S274,110040,12412608,4043,2025-01-29,,Human Ocular Surface,Lid margin,Right,S274,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.4 ng/ul,,2,S1304-SC3 B11,,,,False
+jhu00592,047MI_Skin_R_2_8_S282,435549,4368260,1518,2025-02-05,,Human Ocular Surface,Periocular skin,Right,S282,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,2,S1304-SC3 C4,,,,False
+jhu00593,047MI_Skin_R_3_5_S69,112266,7933558,2818,2025-03-26,,Human Ocular Surface,Periocular skin,Right,S69,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,2,S1304-SC3 C7,,,,False
+jhu00594,047MI_Skin_R_6_S145,227468,6148363,2601,2025-01-29,,Human Ocular Surface,Periocular skin,Right,S145,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.1 ng/ul,,2,S1304-SC3 B12,,,,False
+jhu00595,048MA_Conj_L_2_5_S85,25255,13069806,5576,2025-02-12,,Human Ocular Surface,Conj,Left,S85,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.4 ng/ul,,2,S1304-SC3 D10,,,,False
+jhu00596,048MA_Conj_L_3_8_S284,1517065,80591038,35504,2025-02-19,,Human Ocular Surface,Conj,Left,S284,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2 ng/ul,,2,S1304-SC3 E1,,,,False
+jhu00597,048MA_Conj_L_8_S366,252900,44809752,15212,2025-01-29,,Human Ocular Surface,Conj,Left,S366,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,2,S1304-SC3 D7,,,,False
+jhu00598,048MA_ISO_CONT_2_7_S269,61411,481334,308,2025-02-12,,Control,,,S269,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,2,S1304-SC3 F2,,,,False
+jhu00599,048MA_ISO_CONT_3_8_S353,289923,925882,432,2025-02-19,,Control,,,S353,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.5 ng/ul,,2,S1304-SC3 F3,,,,False
+jhu00600,048MA_ISO_CONT_8_S341,1393337,3362342,840,2025-01-29,,Control,,,S341,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.6 ng/ul,,2,S1304-SC3 F1,,,,False
+jhu00601,048MA_Lid_L_2_5_S87,254117,13083684,6518,2025-02-12,,Human Ocular Surface,Lid margin,Left,S87,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.8 ng/ul,,2,S1304-SC3 D11,,,,False
+jhu00602,048MA_Lid_L_3_8_S326,1983139,42903376,15235,2025-02-19,,Human Ocular Surface,Lid margin,Left,S326,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,2,S1304-SC3 E2,,,,False
+jhu00603,048MA_Lid_L_7_S246,449695,34779154,12577,2025-01-29,,Human Ocular Surface,Lid margin,Left,S246,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.4 ng/ul,,2,S1304-SC3 D8,,,,False
+jhu00604,048MA_Skin_L_2_8_S330,11684999,155351945,58675,2025-02-12,,Human Ocular Surface,Periocular skin,Left,S330,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2 ng/ul,,2,S1304-SC3 D12,,,,False
+jhu00605,048MA_Skin_L_3_7_S203,2603163,5478332,1169,2025-02-19,,Human Ocular Surface,Periocular skin,Left,S203,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.1 ng/ul,,2,S1304-SC3 E3,,,,False
+jhu00606,048MA_Skin_L_5_S10,638183,17985816,6282,2025-01-29,,Human Ocular Surface,Periocular skin,Left,S10,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.2 ng/ul,,2,S1304-SC3 D9,,,,False
+jhu00607,052JB_Conj_L_8_S339,145118,9966071,3276,2025-02-11,,Human Ocular Surface,Conj,Left,S339,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.5 ng/ul,,2,S1304-SC3 F6,,,,False
+jhu00608,052JB_ISO_CONT_8_S312,106178,841898,426,2025-02-11,,Control,,,S312,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.9 ng/ul,,2,S1304-SC3 F9,,,,False
+jhu00609,052JB_Lid_L_8_S299,414235,32825668,10071,2025-02-11,,Human Ocular Surface,Lid margin,Left,S299,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.8 ng/ul,,2,S1304-SC3 F7,,,,False
+jhu00610,052JB_Skin_L_5_S64,125573,11854582,4431,2025-02-11,,Human Ocular Surface,Periocular skin,Left,S64,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,2,S1304-SC3 F8,,,,False
+jhu00611,053GD_Conj_R_2_5_S67,24007,11926296,5915,2025-02-19,,Human Ocular Surface,Conj,Right,S67,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.1 ng/ul,,2,S1304-SC3 E7,,,,False
+jhu00612,053GD_Conj_R_3_5_S51,19305,12103993,5078,2025-03-05,,Human Ocular Surface,Conj,Right,S51,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,4.6 ng/ul,,2,S1304-SC3 E10,,,,False
+jhu00613,053GD_Conj_R_6_S120,43874,11111161,4094,2025-02-12,,Human Ocular Surface,Conj,Right,S120,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.3 ng/ul,,2,S1304-SC3 E4,,,,False
+jhu00614,053GD_ISO_CONT_3_6_S148,38585,136905,83,2025-03-05,,Control,,,S148,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,2,S1304-SC3 F5,,,,False
+jhu00615,053GD_Lid_R_2_7_S279,629203,18096975,6630,2025-02-19,,Human Ocular Surface,Lid margin,Right,S279,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.5 ng/ul,,2,S1304-SC3 E8,,,,False
+jhu00616,053GD_Lid_R_3_7_S277,1084357,7026965,2723,2025-03-05,,Human Ocular Surface,Lid margin,Right,S277,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2 ng/ul,,2,S1304-SC3 E11,,,,False
+jhu00617,053GD_Lid_R_8_S364,2602947,13663854,4904,2025-02-12,,Human Ocular Surface,Lid margin,Right,S364,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,4.2 ng/ul,,2,S1304-SC3 E5,,,,False
+jhu00618,053GD_Skin_R_2_5_S26,1960301,14014868,9553,2025-02-19,,Human Ocular Surface,Periocular skin,Right,S26,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,6.9 ng/ul,,2,S1304-SC3 E9,,,,False
+jhu00619,053GD_Skin_R_3_7_S200,1660812,11619835,5026,2025-03-05,,Human Ocular Surface,Periocular skin,Right,S200,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.3 ng/ul,,2,S1304-SC3 E12,,,,False
+jhu00620,053GD_Skin_R_8_S328,7509550,27949659,11877,2025-02-12,,Human Ocular Surface,Periocular skin,Right,S328,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.3 ng/ul,,2,S1304-SC3 E6,,,,False
+jhu00621,054SK_Conj_L_5_S14,29810,10733976,5492,2025-02-18,,Human Ocular Surface,Conj,Left,S14,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.8 ng/ul,,1,S1304-SC2 H3,,,,False
+jhu00622,054SK_ISO_CONT_7_S191,129363,1540195,608,2025-02-18,,Control,,,S191,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.6 ng/ul,,1,S1304-SC2 H9,,,,False
+jhu00623,054SK_Lid_L_5_S82,149660,9596735,4704,2025-02-18,,Human Ocular Surface,Lid margin,Left,S82,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.9 ng/ul,,1,S1304-SC2 H4,,,,False
+jhu00624,054SK_Skin_L_5_S58,1137936,6761076,2707,2025-02-18,,Human Ocular Surface,Periocular skin,Left,S58,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,1,S1304-SC2 H5,,,,False
+jhu00625,055JS_Conj_R_8_S332,665057,36839652,12877,2025-02-18,,Human Ocular Surface,Conj,Right,S332,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.8 ng/ul,,1,S1304-SC2 H6,,,,False
+jhu00626,055JS_Lid_R_8_S351,613055,4559311,1581,2025-02-18,,Human Ocular Surface,Lid margin,Right,S351,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,1,S1304-SC2 H7,,,,False
+jhu00627,055JS_Skin_R_6_S185,628634,2182693,883,2025-02-18,,Human Ocular Surface,Periocular skin,Right,S185,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.6 ng/ul,,1,S1304-SC2 H8,,,,False
+jhu00628,056XC_Conj_L_2_6_S123,58330,16140038,6071,2025-02-26,,Human Ocular Surface,Conj,Left,S123,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,2,S1304-SC3 G1,,,,False
+jhu00629,056XC_Conj_L_3_6_S94,95880,12694704,4729,2025-03-05,,Human Ocular Surface,Conj,Left,S94,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.6 ng/ul,,2,S1304-SC3 G4,,,,False
+jhu00630,056XC_Conj_L_7_S213,83079,23391441,8432,2025-02-19,,Human Ocular Surface,Conj,Left,S213,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,2,S1304-SC3 F10,,,,False
+jhu00631,056XC_ISO_CONT_2_7_S231,63304,248169,106,2025-02-26,,Control,,,S231,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,2,S1304-SC3 H5,,,,False
+jhu00632,056XC_ISO_CONT_3_8_S343,87796,365774,112,2025-03-05,,Control,,,S343,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,2,S1304-SC3 H6,,,,False
+jhu00633,056XC_ISO_CONT_7_S275,237520,541614,169,2025-02-19,,Control,,,S275,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.2 ng/ul,,2,S1304-SC3 H4,,,,False
+jhu00634,056XC_Lid_L_2_5_S70,68046,11682231,5825,2025-02-26,,Human Ocular Surface,Lid margin,Left,S70,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.9 ng/ul,,2,S1304-SC3 G2,,,,False
+jhu00635,056XC_Lid_L_3_7_S227,362694,9483346,4671,2025-03-05,,Human Ocular Surface,Lid margin,Left,S227,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,2,S1304-SC3 G5,,,,False
+jhu00636,056XC_Lid_L_5_S54,63079,11657820,5031,2025-02-19,,Human Ocular Surface,Lid margin,Left,S54,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.9 ng/ul,,2,S1304-SC3 F11,,,,False
+jhu00637,056XC_Skin_L_2_7_S230,526426,8522024,3883,2025-02-26,,Human Ocular Surface,Periocular skin,Left,S230,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.6 ng/ul,,2,S1304-SC3 G3,,,,False
+jhu00638,056XC_Skin_L_3_7_S267,214110,3220693,1691,2025-03-05,,Human Ocular Surface,Periocular skin,Left,S267,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,2,S1304-SC3 G6,,,,False
+jhu00639,056XC_Skin_L_8_S291,882166,15220807,5609,2025-02-19,,Human Ocular Surface,Periocular skin,Left,S291,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.9 ng/ul,,2,S1304-SC3 F12,,,,False
+jhu00640,057YH_Conj_R_2_7_S212,64454,14610029,5204,2025-02-26,,Human Ocular Surface,Conj,Right,S212,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,2,S1304-SC3 G10,,,,False
+jhu00641,057YH_Conj_R_3_6_S139,96093,10286143,3967,2025-03-05,,Human Ocular Surface,Conj,Right,S139,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,2,S1304-SC3 H1,,,,False
+jhu00642,057YH_Conj_R_5_S29,20933,14764105,6038,2025-02-19,,Human Ocular Surface,Conj,Right,S29,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.7 ng/ul,,2,S1304-SC3 G7,,,,False
+jhu00643,057YH_Lid_R_2_7_S259,161015,9606422,3647,2025-02-26,,Human Ocular Surface,Lid margin,Right,S259,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,5.2 ng/ul,,2,S1304-SC3 G11,,,,False
+jhu00644,057YH_Lid_R_3_6_S156,228353,18086171,11158,2025-03-05,,Human Ocular Surface,Lid margin,Right,S156,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.8 ng/ul,,2,S1304-SC3 H2,,,,False
+jhu00645,057YH_Lid_R_7_S251,166549,6708178,2647,2025-02-19,,Human Ocular Surface,Lid margin,Right,S251,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,4.4 ng/ul,,2,S1304-SC3 G8,,,,False
+jhu00646,057YH_Skin_R_2_8_S368,882598,12620414,4357,2025-02-26,,Human Ocular Surface,Periocular skin,Right,S368,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.1 ng/ul,,2,S1304-SC3 G12,,,,False
+jhu00647,057YH_Skin_R_3_6_S135,134553,840254,257,2025-03-05,,Human Ocular Surface,Periocular skin,Right,S135,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,2,S1304-SC3 H3,,,,False
+jhu00648,057YH_Skin_R_7_S280,509601,9210844,3178,2025-02-19,,Human Ocular Surface,Periocular skin,Right,S280,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.7 ng/ul,,2,S1304-SC3 G9,,,,False
+jhu00649,059OA_Conj_R_2_6_S132,66973,11268870,4118,2025-03-05,,Human Ocular Surface,Conj,Right,S132,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.1 ng/ul,,3,A04 A4,,,,False
+jhu00650,059OA_Conj_R_3_6_S104,60019,6282259,2090,2025-03-26,,Human Ocular Surface,Conj,Right,S104,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,3,A07 A7,,,,False
+jhu00651,059OA_Conj_R_6_S112,25833,4742344,2163,2025-02-26,,Human Ocular Surface,Conj,Right,S112,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.6 ng/ul,,3,A01 A1,,,,False
+jhu00652,059OA_ISO_CONT_2_6_S124,24230,200535,124,2025-03-05,,Control,,,S124,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,3,B08 B8,,,,False
+jhu00653,059OA_ISO_CONT_3_7_S194,41882,254886,108,2025-03-26,,Control,,,S194,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.5 ng/ul,,3,B09 B9,,,,False
+jhu00654,059OA_ISO_CONT_7_S239,74872,651668,426,2025-02-26,,Control,,,S239,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.8 ng/ul,,3,B07 B7,,,,False
+jhu00655,059OA_Lid_R_2_5_S16,351376,8918570,3903,2025-03-05,,Human Ocular Surface,Lid margin,Right,S16,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,3,A05 A5,,,,False
+jhu00656,059OA_Lid_R_3_6_S143,77865,2337961,982,2025-03-26,,Human Ocular Surface,Lid margin,Right,S143,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,3,A08 A8,,,,False
+jhu00657,059OA_Lid_R_6_S159,158184,3002263,1289,2025-02-26,,Human Ocular Surface,Lid margin,Right,S159,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.6 ng/ul,,3,A02 A2,,,,False
+jhu00658,059OA_Skin_R_2_6_S131,707635,2885975,925,2025-03-05,,Human Ocular Surface,Periocular skin,Right,S131,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,3,A06 A6,,,,False
+jhu00659,059OA_Skin_R_3_6_S164,182078,1867950,650,2025-03-26,,Human Ocular Surface,Periocular skin,Right,S164,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,3,A09 A9,,,,False
+jhu00660,059OA_Skin_R_8_S294,1449932,13454769,4213,2025-02-26,,Human Ocular Surface,Periocular skin,Right,S294,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2 ng/ul,,3,A03 A3,,,,False
+jhu00661,060RO_Conj_L_2_5_S17,13338,1215366,600,2025-03-26,,Human Ocular Surface,Conj,Left,S17,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.9 ng/ul,,3,B01 B1,,,,False
+jhu00662,060RO_Conj_L_3_7_S244,81785,10703912,3580,2025-04-02,,Human Ocular Surface,Conj,Left,S244,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.5 ng/ul,,3,B04 B4,,,,False
+jhu00663,060RO_Conj_L_6_S110,29125,7926227,2992,2025-03-05,,Human Ocular Surface,Conj,Left,S110,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,3,A10 A10,,,,False
+jhu00664,060RO_ISO_CONT_3_7_S223,44980,360647,238,2025-04-02,,Control,,,S223,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,3,B10 B10,,,,False
+jhu00665,060RO_Lid_L_2_6_S116,73093,6846009,2379,2025-03-26,,Human Ocular Surface,Lid margin,Left,S116,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,3,B02 B2,,,,False
+jhu00666,060RO_Lid_L_3_7_S273,193911,3851680,1408,2025-04-02,,Human Ocular Surface,Lid margin,Left,S273,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,3,B05 B5,,,,False
+jhu00667,060RO_Lid_L_5_S15,30625,12479752,5469,2025-03-05,,Human Ocular Surface,Lid margin,Left,S15,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,3,A11 A11,,,,False
+jhu00668,060RO_Skin_L_2_6_S150,103329,3835179,1527,2025-03-26,,Human Ocular Surface,Periocular skin,Left,S150,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,3,B03 B3,,,,False
+jhu00669,060RO_Skin_L_3_7_S202,156206,4214432,1547,2025-04-02,,Human Ocular Surface,Periocular skin,Left,S202,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,3,B06 B6,,,,False
+jhu00670,060RO_Skin_L_6_S130,85847,2563507,1104,2025-03-05,,Human Ocular Surface,Periocular skin,Left,S130,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.5 ng/ul,,3,A12 A12,,,,False
+jhu00671,061EZ_Conj_R_2_6_S153,75793,14619634,5196,2025-03-26,,Human Ocular Surface,Conj,Right,S153,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.6 ng/ul,,3,C02 C2,,,,False
+jhu00672,061EZ_Conj_R_3_6_S149,50440,6943225,2394,2025-04-02,,Human Ocular Surface,Conj,Right,S149,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.1 ng/ul,,3,C06 C6,,,,False
+jhu00673,061EZ_Conj_R_6_S121,60148,10907829,4138,2025-03-05,,Human Ocular Surface,Conj,Right,S121,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,3,B11 B11,,,,False
+jhu00674,061EZ_ISO_CONT_2_7_S232,110668,674968,528,2025-03-26,,Control,,,S232,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,8.4 ng/ul,,3,D07 D7,,,,False
+jhu00675,061EZ_ISO_CONT_3_7_S256,67231,460119,310,2025-04-02,,Control,,,S256,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.3 ng/ul,,3,D08 D8,,,,False
+jhu00676,061EZ_ISO_CONT_7_S196,109716,754603,557,2025-03-05,,Control,,,S196,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.4 ng/ul,,3,D06 D6,,,,False
+jhu00677,061EZ_Lid_R_2_5_S12,103780,10456525,4037,2025-03-26,,Human Ocular Surface,Lid margin,Right,S12,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,3,C03 C3,,,,False
+jhu00678,061EZ_Lid_R_3_7_S208,116625,3898697,1498,2025-04-02,,Human Ocular Surface,Lid margin,Right,S208,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2 ng/ul,,3,C07 C7,,,,False
+jhu00679,061EZ_Lid_R_6_S146,64151,3185885,1201,2025-03-05,,Human Ocular Surface,Lid margin,Right,S146,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.9 ng/ul,,3,B12 B12,,,,False
+jhu00680,061EZ_Skin_R_2_7_S199,611651,4778512,1648,2025-03-26,,Human Ocular Surface,Periocular skin,Right,S199,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,3,C05 C5,,,,False
+jhu00681,061EZ_Skin_R_3_7_S197,177801,954090,365,2025-04-02,,Human Ocular Surface,Periocular skin,Right,S197,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,3,C08 C8,,,,False
+jhu00682,061EZ_Skin_R_8_S357,2699616,16838228,7494,2025-03-05,,Human Ocular Surface,Periocular skin,Right,S357,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.6 ng/ul,,3,C01 C1,,,,False
+jhu00683,062GS_Conj_L_2_5_S45,29612,16258508,6617,2025-04-23,,Human Ocular Surface,Conj,Left,S45,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.9 ng/ul,,3,E02 E2,,,,False
+jhu00684,062GS_Conj_L_3_5_S24,26543,13428658,6269,2025-05-21,,Human Ocular Surface,Conj,Left,S24,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,3,E05 E5,,,,False
+jhu00685,062GS_Conj_L_5_S9,26112,9753945,4779,2025-03-05,,Human Ocular Surface,Conj,Left,S9,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,3,D10 D10,,,,False
+jhu00686,062GS_ISO_CONT_2_6_S162,32440,163370,108,2025-04-23,,Control,,,S162,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.6 ng/ul,,3,E09 E9,,,,False
+jhu00687,062GS_ISO_CONT_3_8_S323,176657,1351421,896,2025-05-21,,Control,,,S323,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,3,E10 E10,,,,False
+jhu00688,062GS_ISO_CONT_8_S290,63189,773896,474,2025-03-05,,Control,,,S290,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,4.2 ng/ul,,3,E08 E8,,,,False
+jhu00689,062GS_Lid_L_2_5_S2,45893,9379572,3429,2025-04-23,,Human Ocular Surface,Lid margin,Left,S2,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,3,E03 E3,,,,False
+jhu00690,062GS_Lid_L_3_6_S176,80996,6880973,2594,2025-05-21,,Human Ocular Surface,Lid margin,Left,S176,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.9 ng/ul,,3,E06 E6,,,,False
+jhu00691,062GS_Lid_L_5_S7,37649,10298522,3866,2025-03-05,,Human Ocular Surface,Lid margin,Left,S7,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,3,D12 D12,,,,False
+jhu00692,062GS_Skin_L_2_6_S97,403356,13014506,5275,2025-04-23,,Human Ocular Surface,Periocular skin,Left,S97,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,3,E04 E4,,,,False
+jhu00693,062GS_Skin_L_3_7_S262,105914,2385270,1165,2025-05-21,,Human Ocular Surface,Periocular skin,Left,S262,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,3,E07 E7,,,,False
+jhu00694,062GS_Skin_L_6_S170,360634,5675679,3164,2025-03-05,,Human Ocular Surface,Periocular skin,Left,S170,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,3,E01 E1,,,,False
+jhu00695,063KO_Conj_R_2_5_S13,74587,7269848,4048,2025-04-02,,Human Ocular Surface,Conj,Right,S13,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.5 ng/ul,,3,C12 C12,,,,False
+jhu00696,063KO_Conj_R_3_5_S23,66580,17175061,8050,2025-04-09,,Human Ocular Surface,Conj,Right,S23,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3 ng/ul,,3,D03 D3,,,,False
+jhu00697,063KO_Conj_R_6_S172,62952,2794629,915,2025-03-26,,Human Ocular Surface,Conj,Right,S172,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.3 ng/ul,,3,C09 C9,,,,False
+jhu00698,063KO_ISO_CONT_3_6_S178,47563,108548,76,2025-04-09,,Control,,,S178,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.6 ng/ul,,3,D09 D9,,,,False
+jhu00699,063KO_Lid_R_2_5_S36,167214,8393293,2854,2025-04-02,,Human Ocular Surface,Lid margin,Right,S36,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,6 ng/ul,,3,D01 D1,,,,False
+jhu00700,063KO_Lid_R_3_5_S71,59993,19769480,8209,2025-04-09,,Human Ocular Surface,Lid margin,Right,S71,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,4.5 ng/ul,,3,D04 D4,,,,False
+jhu00701,063KO_Lid_R_6_S173,113573,8206598,2910,2025-03-26,,Human Ocular Surface,Lid margin,Right,S173,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.2 ng/ul,,3,C10 C10,,,,False
+jhu00702,063KO_Skin_R_2_8_S367,12708415,33505851,8001,2025-04-02,,Human Ocular Surface,Periocular skin,Right,S367,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,3,D02 D2,,,,False
+jhu00703,063KO_Skin_R_3_5_S76,1096143,12893132,6014,2025-04-09,,Human Ocular Surface,Periocular skin,Right,S76,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.2 ng/ul,,3,D05 D5,,,,False
+jhu00704,063KO_Skin_R_7_S190,817431,4495177,1489,2025-03-26,,Human Ocular Surface,Periocular skin,Right,S190,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.8 ng/ul,,3,C11 C11,,,,False
+jhu00705,065AN_Conj_L_2_6_S182,37805,3145333,1253,2025-04-02,,Human Ocular Surface,Conj,Left,S182,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,3,F02 F2,,,,False
+jhu00706,065AN_Conj_L_3_6_S99,84374,9451878,3613,2025-04-09,,Human Ocular Surface,Conj,Left,S99,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,3,F05 F5,,,,False
+jhu00707,065AN_Conj_L_5_S83,26397,8969521,4145,2025-03-26,,Human Ocular Surface,Conj,Left,S83,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,3,E11 E11,,,,False
+jhu00708,065AN_ISO_CONT_2_6_S167,24374,139417,69,2025-04-02,,Control,,,S167,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,3,F09 F9,,,,False
+jhu00709,065AN_ISO_CONT_3_7_S250,109269,654817,387,2025-04-09,,Control,,,S250,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,3,F10 F10,,,,False
+jhu00710,065AN_ISO_CONT_6_S186,21664,134879,82,2025-03-26,,Control,,,S186,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.7 ng/ul,,3,F08 F8,,,,False
+jhu00711,065AN_Lid_L_2_6_S105,143409,8566298,3279,2025-04-02,,Human Ocular Surface,Lid margin,Left,S105,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.8 ng/ul,,3,F03 F3,,,,False
+jhu00712,065AN_Lid_L_3_5_S21,84661,15176570,6915,2025-04-09,,Human Ocular Surface,Lid margin,Left,S21,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,3,F06 F6,,,,False
+jhu00713,065AN_Lid_L_5_S74,78870,5297559,2104,2025-03-26,,Human Ocular Surface,Lid margin,Left,S74,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,3,E12 E12,,,,False
+jhu00714,065AN_Skin_L_2_7_S235,986973,30679272,10553,2025-04-02,,Human Ocular Surface,Periocular skin,Left,S235,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,3,F04 F4,,,,False
+jhu00715,065AN_Skin_L_3_5_S84,139049,10497952,3794,2025-04-09,,Human Ocular Surface,Periocular skin,Left,S84,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,3,F07 F7,,,,False
+jhu00716,065AN_Skin_L_5_S62,831225,9943272,3608,2025-03-26,,Human Ocular Surface,Periocular skin,Left,S62,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.3 ng/ul,,3,F01 F1,,,,False
+jhu00717,067DA_Conj_L_2_5_S88,43985,17646280,6444,2025-04-16,,Human Ocular Surface,Conj,Left,S88,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.6 ng/ul,,3,G02 G2,,,,False
+jhu00718,067DA_Conj_L_3_5_S8,59761,14247949,7334,2025-04-30,,Human Ocular Surface,Conj,Left,S8,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.4 ng/ul,,3,G05 G5,,,,False
+jhu00719,067DA_Conj_L_5_S35,30264,8799675,3504,2025-04-02,,Human Ocular Surface,Conj,Left,S35,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,3,F11 F11,,,,False
+jhu00720,067DA_ISO_CONT_2_7_S229,60797,327360,256,2025-04-16,,Control,,,S229,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,4.7 ng/ul,,3,G09 G9,,,,False
+jhu00721,067DA_ISO_CONT_3_6_S128,47422,229887,116,2025-04-30,,Control,,,S128,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,3,G10 G10,,,,False
+jhu00722,067DA_ISO_CONT_6_S179,19757,187426,119,2025-04-02,,Control,,,S179,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,3,G08 G8,,,,False
+jhu00723,067DA_Lid_L_2_6_S98,163479,10224164,3661,2025-04-16,,Human Ocular Surface,Lid margin,Left,S98,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.9 ng/ul,,3,G03 G3,,,,False
+jhu00724,067DA_Lid_L_3_6_S163,113726,6295757,2621,2025-04-30,,Human Ocular Surface,Lid margin,Left,S163,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,3,G06 G6,,,,False
+jhu00725,067DA_Lid_L_6_S175,117633,7545250,2689,2025-04-02,,Human Ocular Surface,Lid margin,Left,S175,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,3,F12 F12,,,,False
+jhu00726,067DA_Skin_L_2_6_S115,598279,10225099,3220,2025-04-16,,Human Ocular Surface,Periocular skin,Left,S115,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2 ng/ul,,3,G04 G4,,,,False
+jhu00727,067DA_Skin_L_3_5_S49,1545404,8506220,4056,2025-04-30,,Human Ocular Surface,Periocular skin,Left,S49,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,3,G07 G7,,,,False
+jhu00728,067DA_Skin_L_6_S184,706688,11364758,4239,2025-04-02,,Human Ocular Surface,Periocular skin,Left,S184,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,3,G01 G1,,,,False
+jhu00729,068DO_Conj_R_2_7_S204,468191,62022252,20998,2025-04-16,,Human Ocular Surface,Conj,Right,S204,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,3,H02 H2,,,,False
+jhu00730,068DO_Conj_R_3_6_S101,246028,9818690,3908,2025-04-23,,Human Ocular Surface,Conj,Right,S101,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.3 ng/ul,,3,H05 H5,,,,False
+jhu00731,068DO_Conj_R_5_S92,18423,5772643,2342,2025-04-09,,Human Ocular Surface,Conj,Right,S92,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,3,G11 G11,,,,False
+jhu00732,068DO_ISO_CONT_2_7_S211,120125,375278,177,2025-04-16,,Control,,,S211,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.1 ng/ul,,3,H09 H9,,,,False
+jhu00733,068DO_ISO_CONT_3_7_S206,118882,394951,177,2025-04-23,,Control,,,S206,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.3 ng/ul,,3,H10 H10,,,,False
+jhu00734,068DO_ISO_CONT_6_S107,64224,211152,95,2025-04-09,,Control,,,S107,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.5 ng/ul,,3,H08 H8,,,,False
+jhu00735,068DO_Lid_R_2_6_S140,161267,1862548,687,2025-04-16,,Human Ocular Surface,Lid margin,Right,S140,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.8 ng/ul,,3,H03 H3,,,,False
+jhu00736,068DO_Lid_R_3_5_S1,113908,8874264,4663,2025-04-23,,Human Ocular Surface,Lid margin,Right,S1,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.7 ng/ul,,3,H06 H6,,,,False
+jhu00737,068DO_Lid_R_5_S79,114675,8099467,3540,2025-04-09,,Human Ocular Surface,Lid margin,Right,S79,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,3,G12 G12,,,,False
+jhu00738,068DO_Skin_R_2_5_S57,1229107,9174832,3859,2025-04-16,,Human Ocular Surface,Periocular skin,Right,S57,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,3,H04 H4,,,,False
+jhu00739,068DO_Skin_R_3_5_S18,38238,852607,362,2025-04-23,,Human Ocular Surface,Periocular skin,Right,S18,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.6 ng/ul,,3,H07 H7,,,,False
+jhu00740,068DO_Skin_R_6_S154,377050,5091185,1716,2025-04-09,,Human Ocular Surface,Periocular skin,Right,S154,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,3,H01 H1,,,,False
+jhu00741,069MM_Conj_L_2_7_S241,502766,66101853,21914,2025-04-16,,Human Ocular Surface,Conj,Left,S241,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,4,A04 A4,,,,False
+jhu00742,069MM_Conj_L_3_8_S304,906245,36744702,10282,2025-04-23,,Human Ocular Surface,Conj,Left,S304,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.9 ng/ul,,4,A07 A7,,,,False
+jhu00743,069MM_Conj_L_8_S305,1036121,46660265,14984,2025-04-09,,Human Ocular Surface,Conj,Left,S305,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.8 ng/ul,,4,A01 A1,,,,False
+jhu00744,069MM_ISO_CONT_2_8_S298,490959,2101492,1491,2025-04-16,,Control,,,S298,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,4,A12 A12,,,,False
+jhu00745,069MM_ISO_CONT_3_8_S287,821292,2139995,747,2025-04-23,,Control,,,S287,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,7.3 ng/ul,,4,A11 A11,,,,False
+jhu00746,069MM_ISO_CONT_8_S283,944228,2452083,928,2025-04-09,,Control,,,S283,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.5 ng/ul,,4,A10 A10,,,,False
+jhu00747,069MM_Lid_L_2_5_S93,128352,23830345,8382,2025-04-16,,Human Ocular Surface,Lid margin,Left,S93,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.7 ng/ul,,4,A05 A5,,,,False
+jhu00748,069MM_Lid_L_3_7_S253,775973,24325838,8051,2025-04-23,,Human Ocular Surface,Lid margin,Left,S253,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,4.3 ng/ul,,4,A08 A8,,,,False
+jhu00749,069MM_Lid_L_5_S43,152314,25381184,8831,2025-04-09,,Human Ocular Surface,Lid margin,Left,S43,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2 ng/ul,,4,A02 A2,,,,False
+jhu00750,069MM_Skin_L_2_5_S81,228003,21520659,7522,2025-04-16,,Human Ocular Surface,Periocular skin,Left,S81,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,4,A06 A6,,,,False
+jhu00751,069MM_Skin_L_3_7_S222,1378897,28287485,9755,2025-04-23,,Human Ocular Surface,Periocular skin,Left,S222,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.6 ng/ul,,4,A09 A9,,,,False
+jhu00752,069MM_Skin_L_6_S183,400502,33532619,11031,2025-04-09,,Human Ocular Surface,Periocular skin,Left,S183,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,4,A03 A3,,,,False
+jhu00753,070RD_Conj_R_2_8_S374,1172800,46219926,19870,2025-04-23,,Human Ocular Surface,Conj,Right,S374,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.5 ng/ul,,4,B04 B4,,,,False
+jhu00754,070RD_Conj_R_3_6_S103,239003,28165963,8638,2025-04-30,,Human Ocular Surface,Conj,Right,S103,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,4,B07 B7,,,,False
+jhu00755,070RD_Conj_R_5_S78,113481,38395145,15063,2025-04-16,,Human Ocular Surface,Conj,Right,S78,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.9 ng/ul,,4,B01 B1,,,,False
+jhu00756,070RD_ISO_CONT_2_8_S308,1285716,2614812,642,2025-04-23,,Control,,,S308,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.9 ng/ul,,4,B11 B11,,,,False
+jhu00757,070RD_ISO_CONT_3_8_S372,87077,1055323,1020,2025-04-30,,Control,,,S372,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.4 ng/ul,,4,B12 B12,,,,False
+jhu00758,070RD_ISO_CONT_8_S317,1171475,2445138,545,2025-04-16,,Control,,,S317,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.8 ng/ul,,4,B10 B10,,,,False
+jhu00759,070RD_Lid_R_2_5_S6,957224,21013147,8412,2025-04-23,,Human Ocular Surface,Lid margin,Right,S6,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.9 ng/ul,,4,B05 B5,,,,False
+jhu00760,070RD_Lid_R_3_7_S252,1231169,5839015,1867,2025-04-30,,Human Ocular Surface,Lid margin,Right,S252,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,4,B08 B8,,,,False
+jhu00761,070RD_Lid_R_5_S30,30141,823922,321,2025-04-16,,Human Ocular Surface,Lid margin,Right,S30,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,4,B02 B2,,,,False
+jhu00762,070RD_Skin_R_2_6_S157,10369477,35290735,13746,2025-04-23,,Human Ocular Surface,Periocular skin,Right,S157,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,4,B06 B6,,,,False
+jhu00763,070RD_Skin_R_3_8_S286,3849663,6687675,1707,2025-04-30,,Human Ocular Surface,Periocular skin,Right,S286,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,8.4 ng/ul,,4,B09 B9,,,,False
+jhu00764,070RD_Skin_R_8_S293,2525716,12753579,3205,2025-04-16,,Human Ocular Surface,Periocular skin,Right,S293,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.6 ng/ul,,4,B03 B3,,,,False
+jhu00765,071OA_Conj_L_2_7_S233,527386,36652578,12924,2025-04-23,,Human Ocular Surface,Conj,Left,S233,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,4,C04 C4,,,,False
+jhu00766,071OA_Conj_L_3_7_S265,517112,38390694,12395,2025-04-30,,Human Ocular Surface,Conj,Left,S265,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,4,C07 C7,,,,False
+jhu00767,071OA_Conj_L_8_S342,685938,3426655,2203,2025-04-16,,Human Ocular Surface,Conj,Left,S342,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,4,C01 C1,,,,False
+jhu00768,071OA_ISO_CONT_2_8_S296,160213,1733902,787,2025-04-23,,Control,,,S296,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.3 ng/ul,,4,C11 C11,,,,False
+jhu00769,071OA_ISO_CONT_3_7_S257,437597,1663637,613,2025-04-30,,Control,,,S257,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.2 ng/ul,,4,C12 C12,,,,False
+jhu00770,071OA_ISO_CONT_8_S356,1502799,4203690,1067,2025-04-16,,Control,,,S356,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,4,C10 C10,,,,False
+jhu00771,071OA_Lid_L_2_8_S302,1330587,8632062,3146,2025-04-23,,Human Ocular Surface,Lid margin,Left,S302,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.9 ng/ul,,4,C05 C5,,,,False
+jhu00772,071OA_Lid_L_3_8_S327,1080278,31095561,12697,2025-04-30,,Human Ocular Surface,Lid margin,Left,S327,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.7 ng/ul,,4,C08 C8,,,,False
+jhu00773,071OA_Lid_L_8_S325,1869172,9476349,3552,2025-04-16,,Human Ocular Surface,Lid margin,Left,S325,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.5 ng/ul,,4,C02 C2,,,,False
+jhu00774,071OA_Skin_L_2_8_S362,3846928,13226471,5926,2025-04-23,,Human Ocular Surface,Periocular skin,Left,S362,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.6 ng/ul,,4,C06 C6,,,,False
+jhu00775,071OA_Skin_L_3_6_S160,657978,28907255,10422,2025-04-30,,Human Ocular Surface,Periocular skin,Left,S160,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,4,C09 C9,,,,False
+jhu00776,071OA_Skin_L_8_S306,2371921,9991046,2698,2025-04-16,,Human Ocular Surface,Periocular skin,Left,S306,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,4,C03 C3,,,,False
+jhu00777,073DG_Conj_R_2_7_S278,503292,52113814,18216,2025-05-14,,Human Ocular Surface,Conj,Right,S278,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.4 ng/ul,,4,D04 D4,,,,False
+jhu00778,073DG_Conj_R_3_5_S42,57349,20397936,8332,2025-05-21,,Human Ocular Surface,Conj,Right,S42,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,4,D07 D7,,,,False
+jhu00779,073DG_Conj_R_7_S270,559139,34767422,12991,2025-04-30,,Human Ocular Surface,Conj,Right,S270,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.1 ng/ul,,4,D01 D1,,,,False
+jhu00780,073DG_ISO_CONT_2_8_S331,90709,1221614,674,2025-05-14,,Control,,,S331,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,4,E08 E8,,,,False
+jhu00781,073DG_ISO_CONT_3_8_S337,1330179,2629896,605,2025-05-21,,Control,,,S337,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,4,E09 E9,,,,False
+jhu00782,073DG_ISO_CONT_8_S365,1183220,3852580,975,2025-04-30,,Control,,,S365,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,13.1 ng/ul,,4,E07 E7,,,,False
+jhu00783,073DG_Lid_R_2_5_S91,94159,16439599,5615,2025-05-14,,Human Ocular Surface,Lid margin,Right,S91,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.2 ng/ul,,4,D05 D5,,,,False
+jhu00784,073DG_Lid_R_3_7_S272,748228,31070432,9555,2025-05-21,,Human Ocular Surface,Lid margin,Right,S272,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.6 ng/ul,,4,D08 D8,,,,False
+jhu00785,073DG_Lid_R_6_S127,510044,59285598,19317,2025-04-30,,Human Ocular Surface,Lid margin,Right,S127,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.6 ng/ul,,4,D02 D2,,,,False
+jhu00786,073DG_Skin_R_2_7_S271,987761,28029867,9585,2025-05-14,,Human Ocular Surface,Periocular skin,Right,S271,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,4,D06 D6,,,,False
+jhu00787,073DG_Skin_R_3_5_S65,104158,13919357,4325,2025-05-21,,Human Ocular Surface,Periocular skin,Right,S65,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.9 ng/ul,,4,D09 D9,,,,False
+jhu00788,073DG_Skin_R_8_S363,1046499,22834080,8068,2025-04-30,,Human Ocular Surface,Periocular skin,Right,S363,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.9 ng/ul,,4,D03 D3,,,,False
+jhu00789,074GM_Conj_L_2_7_S195,600763,38508163,12297,2025-05-14,,Human Ocular Surface,Conj,Left,S195,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.7 ng/ul,,4,E01 E1,,,,False
+jhu00790,074GM_Conj_L_3_7_S260,530888,29840478,9259,2025-05-21,,Human Ocular Surface,Conj,Left,S260,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,4,E04 E4,,,,False
+jhu00791,074GM_Conj_L_8_S336,9813,106005,36,2025-04-30,,Human Ocular Surface,Conj,Left,S336,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,6.6 ng/ul,,4,D10 D10,,,,False
+jhu00792,074GM_ISO_CONT_3_8_S285,864100,1691275,360,2025-05-21,,Control,,,S285,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,4,E10 E10,,,,False
+jhu00793,074GM_Lid_L_2_7_S268,602948,40092113,13534,2025-05-14,,Human Ocular Surface,Lid margin,Left,S268,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,4,E02 E2,,,,False
+jhu00794,074GM_Lid_L_3_5_S20,138389,17279529,7001,2025-05-21,,Human Ocular Surface,Lid margin,Left,S20,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,4,E05 E5,,,,False
+jhu00795,074GM_Lid_L_8_S349,8833,128831,25,2025-04-30,,Human Ocular Surface,Lid margin,Left,S349,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,4,D11 D11,,,,False
+jhu00796,074GM_Skin_L_2_8_S329,83782,2258827,1074,2025-05-14,,Human Ocular Surface,Periocular skin,Left,S329,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,4,E03 E3,,,,False
+jhu00797,074GM_Skin_L_3_6_S142,519576,23333138,7421,2025-05-21,,Human Ocular Surface,Periocular skin,Left,S142,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,4,E06 E6,,,,False
+jhu00798,074GM_Skin_L_8_S309,277132,9942792,3098,2025-04-30,,Human Ocular Surface,Periocular skin,Left,S309,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,4,D12 D12,,,,False
+jhu00799,075SR_Conj_R_6_S169,90538,12811863,5384,2025-05-13,,Human Ocular Surface,Conj,Right,S169,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.2 ng/ul,,2,S1304-SC3 H7,,,,False
+jhu00800,075SR_ISO_CONT_8_S324,167560,1220605,530,2025-05-13,,Control,,,S324,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,2,S1304-SC3 H10,,,,False
+jhu00801,075SR_Lid_R_7_S187,287306,14914514,5387,2025-05-13,,Human Ocular Surface,Lid margin,Right,S187,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,2,S1304-SC3 H8,,,,False
+jhu00802,075SR_Skin_R_8_S355,561567,9241178,3332,2025-05-13,,Human Ocular Surface,Periocular skin,Right,S355,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.9 ng/ul,,2,S1304-SC3 H9,,,,False
+jhu00803,076JD_Conj_L_5_S53,64014,18958693,6794,2025-05-14,,Human Ocular Surface,Conj,Left,S53,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.7 ng/ul,,4,F07 F7,,,,False
+jhu00804,076JD_ISO_CONT_5_S34,7648,24795,30,2025-05-14,,Control,,,S34,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,4,G01 G1,,,,False
+jhu00805,076JD_Lid_L_8_S373,1025303,14579924,3952,2025-05-14,,Human Ocular Surface,Lid margin,Left,S373,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,4,F08 F8,,,,False
+jhu00806,076JD_Skin_L_6_S174,627730,27560816,9606,2025-05-14,,Human Ocular Surface,Periocular skin,Left,S174,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2 ng/ul,,4,F09 F9,,,,False
+jhu00807,077SA_Conj_R_5_S77,79875,17491977,7714,2025-05-14,,Human Ocular Surface,Conj,Right,S77,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2 ng/ul,,4,E11 E11,,,,False
+jhu00808,077SA_ISO_CONT_2_8_S303,1421375,2964775,1089,2025-05-21,,Control,,,S303,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.2 ng/ul,,4,F06 F6,,,,False
+jhu00809,077SA_ISO_CONT_8_S347,425600,2280790,1502,2025-05-14,,Control,,,S347,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.2 ng/ul,,4,F05 F5,,,,False
+jhu00810,077SA_Lid_R_5_S73,62859,4215465,1637,2025-05-14,,Human Ocular Surface,Lid margin,Right,S73,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,4,E12 E12,,,,False
+jhu00811,077SA_Skin_R_6_S152,1870772,31831608,11577,2025-05-14,,Human Ocular Surface,Periocular skin,Right,S152,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.9 ng/ul,,4,F01 F1,,,,False
+jhu00812,078KL_Conj_L_6_S136,249901,23739113,7449,2025-05-14,,Human Ocular Surface,Conj,Left,S136,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.7 ng/ul,,4,F10 F10,,,,False
+jhu00813,078KL_Lid_L_5_S90,127834,17197089,7421,2025-05-14,,Human Ocular Surface,Lid margin,Left,S90,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.5 ng/ul,,4,F11 F11,,,,False
+jhu00814,078KL_Skin_L_7_S236,2458747,7933066,3170,2025-05-14,,Human Ocular Surface,Periocular skin,Left,S236,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.8 ng/ul,,4,F12 F12,,,,False
+jhu00815,079RB_Conj_R_6_S113,286555,26595317,8611,2025-05-20,,Human Ocular Surface,Conj,Right,S113,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.4 ng/ul,,4,G02 G2,,,,False
+jhu00816,079RB_ISO_CONT_8_S292,666324,3717637,2816,2025-05-20,,Control,,,S292,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,3.3 ng/ul,,4,G05 G5,,,,False
+jhu00817,079RB_Lid_R_5_S38,276597,17393175,5718,2025-05-20,,Human Ocular Surface,Lid margin,Right,S38,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.4 ng/ul,,4,G03 G3,,,,False
+jhu00818,079RB_Skin_R_6_S96,2914127,27121790,9085,2025-05-20,,Human Ocular Surface,Periocular skin,Right,S96,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,4,G04 G4,,,,False
+jhu00819,080IO_Conj_L_6_S168,259616,31452193,10397,2025-05-21,,Human Ocular Surface,Conj,Left,S168,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1 ng/ul,,4,F02 F2,,,,False
+jhu00820,080IO_Lid_L_7_S221,1090642,34409739,23265,2025-05-21,,Human Ocular Surface,Lid margin,Left,S221,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.9 ng/ul,,4,F03 F3,,,,False
+jhu00821,080IO_Skin_L_8_S344,1611163,31420509,9759,2025-05-21,,Human Ocular Surface,Periocular skin,Left,S344,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.7 ng/ul,,4,F04 F4,,,,False
+jhu00822,081JA_Conj_R_6_S161,266176,23522192,8122,2025-05-21,,Human Ocular Surface,Conj,Right,S161,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,4,G06 G6,,,,False
+jhu00823,081JA_ISO_CONT_8_S334,1437020,3232664,1508,2025-05-21,,Control,,,S334,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.5 ng/ul,,4,G10 G10,,,,False
+jhu00824,081JA_Lid_R_6_S126,315137,20063139,7658,2025-05-21,,Human Ocular Surface,Lid margin,Right,S126,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.9 ng/ul,,4,G07 G7,,,,False
+jhu00825,081JA_Skin_R_6_S134,1152119,26975079,8127,2025-05-21,,Human Ocular Surface,Periocular skin,Right,S134,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,4,G08 G8,,,,False
+jhu00826,082EB_Conj_L_6_S109,257422,35423371,11755,2025-05-28,,Human Ocular Surface,Conj,Left,S109,,CB001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,4,G11 G11,,,,False
+jhu00827,082EB_ISO_CONT_8_S295,1078521,4121891,980,2025-05-28,,Control,,,S295,,CB001,,,,,Zymo Miniprep Kit,,53 ul,,,0.5 ng/ul,,4,H09 H9,,,,False
+jhu00828,082EB_Lid_L_6_S171,3579422,24533294,6872,2025-05-28,,Human Ocular Surface,Lid margin,Left,S171,,CB001,,,,,Zymo Miniprep Kit,,50 ul,,,1.1 ng/ul,,4,G12 G12,,,,False
+jhu00829,082EB_Skin_L_5_S80,112650,324159,110,2025-05-28,,Human Ocular Surface,Periocular skin,Left,S80,,CB001,,,,,Zymo Miniprep Kit,,50 ul,,,1.3 ng/ul,,4,H01 H1,,,,False
+jhu00830,083JL_Conj_R_6_S114,1068476,31814846,9913,2025-05-28,,Human Ocular Surface,Conj,Right,S114,,CB001,,,,,Zymo Miniprep Kit,,50 ul,,,0.8 ng/ul,,4,H02 H2,,,,False
+jhu00831,083JL_Lid_R_5_S63,227159,20857631,8268,2025-05-28,,Human Ocular Surface,Lid margin,Right,S63,,CB001,,,,,Zymo Miniprep Kit,,50 ul,,,1.2 ng/ul,,4,H03 H3,,,,False
+jhu00832,083JL_Skin_R_6_S111,3781546,28418018,10275,2025-05-28,,Human Ocular Surface,Periocular skin,Right,S111,,CB001,,,,,Zymo Miniprep Kit,,50 ul,,,1.5 ng/ul,,4,H04 H4,,,,False
+jhu00833,084MZ_Conj_L_6_S95,429810,29458784,9676,2025-05-28,,Human Ocular Surface,Conj,Left,S95,,CB001,,,,,Zymo Miniprep Kit,,50 ul,,,2.5 ng/ul,,4,H06 H6,,,,False
+jhu00834,084MZ_Lid_L_5_S55,41919,17793044,7055,2025-05-28,,Human Ocular Surface,Lid margin,Left,S55,,CB001,,,,,Zymo Miniprep Kit,,51 ul,,,1.4 ng/ul,,4,H07 H7,,,,False
+jhu00835,084MZ_Skin_L_7_S214,1620924,33222107,10658,2025-05-28,,Human Ocular Surface,Periocular skin,Left,S214,,CB001,,,,,Zymo Miniprep Kit,,52 ul,,,1.4 ng/ul,,4,H08 H8,,,,False
+jhu00836,MCS_BG001_5_S68,27854245,28041775,326,,,Microbial Community Standard,,,S68,,,,,,,Zymo Miniprep Kit,,50 ul,,,2.1 ng/ul,,1,S1304-SC2 H11,,,,True
+jhu00837,MCS_BI001_1_5_S86,22995217,23134021,267,,,Microbial Community Standard,,,S86,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,20.9 ng/ul,,2,S1304-SC3 H12,,,,True
+jhu00838,MCS_BI001_5_S56,16612632,16675713,170,,,Microbial Community Standard,,,S56,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,6.2 ng/ul,,3,H12 H12,,,,True
+jhu00839,MCS_CB001_5_S72,28255023,28415171,575,,,Microbial Community Standard,,,S72,,,,,,,Zymo Miniprep Kit,,55 ul,,,2.9 ng/ul,,4,H11 H11,,,,True
+jhu00840,OMR_BG001_8_S289,292854,1644367,815,,,OMR,,,S289,,,,,,,Zymo Miniprep Kit,,50 ul,,,2.5 ng/ul,,1,S1304-SC2 H10,,,,False
+jhu00841,OMR_BI001_1_7_S264,179112,1010737,441,,,OMR,,,S264,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,0.8 ng/ul,,2,S1304-SC3 H11,,,,False
+jhu00842,OMR_BI001_7_S216,346200,594215,221,,,OMR,,,S216,,BI001,,,,,Zymo Miniprep Kit,,50 ul,,,2.3 ng/ul,,3,H11 H11,,,,False
+jhu00843,OMR_CB001_8_S314,968630,2901719,751,,,OMR,,,S314,,,,,,,Zymo Miniprep Kit,,54 ul,,,1 ng/ul,,4,H10 H10,,,,False
