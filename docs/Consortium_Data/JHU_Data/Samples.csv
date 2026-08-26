@@ -1,8 +1,8 @@
 omc_id,sample_name,non_human_reads,total_reads,kraken_human_reads,collection_date,visit_number,biosample_type,biosample_site,biosample_side,biosample_alias,collection_medium_tube,tube_lot,added_medium,added_medium_lot,swab_type,swab_lot,extraction_kit,lysozyme_treatment,sample_volume,host_depletion,host_depletion_kit,nucleic_acid_concentration,sequencing_date,seq_plate_number,seq_batch_plate_location,seq_plate_location,sequencing_lane,individual_id,microbial_standard
 jhu00001,Molzym_Ultra_Deep_Air_Ctr_3_S20,20011346,96531668,88940,,,Air Control,,,S20,,,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,6.3 ng/ul,2024-03-14,,S1273-SC1 A03,,,,0
 jhu00002,Molzym_Ultra_Deep_MCS_1-100_4_S8,139568270,144018890,11252,,,Microbial Community Standard,,,S8,,,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,16 ng/ul,2024-03-14,,S1273-SC1 A04,,,,1
-jhu00003,Qiagen_DNeasy_Air_Ctr_3_S10,10826216,104869722,75860,,,Air Control,,,S10,,,,,,,Qiagen DNeasy Blood & Tissue Kit,0.0,50 ul,,,1.2 ng/ul,2024-03-14,,S1273-SC1 A11,,,,0
-jhu00004,Qiagen_DNeasy_MCS_1-100_4_S18,194495282,196753794,662,,,Microbial Community Standard,,,S18,,,,,,,Qiagen DNeasy Blood & Tissue Kit,0.0,50 ul,,,3.5 ng/ul,2024-03-14,,S1273-SC1 A12,,,,1
+jhu00003,Qiagen_DNeasy_Air_Ctr_3_S10,10826216,104869722,75860,,,Air Control,,,S10,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,50 ul,,,1.2 ng/ul,2024-03-14,,S1273-SC1 A11,,,,0
+jhu00004,Qiagen_DNeasy_MCS_1-100_4_S18,194495282,196753794,662,,,Microbial Community Standard,,,S18,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,50 ul,,,3.5 ng/ul,2024-03-14,,S1273-SC1 A12,,,,1
 jhu00005,Qiagen_Soil_Air_Ctr_3_S2,9158,1435514,240,,,Air Control,,,S2,,,,,,,Qiagen DNeasy PowerMax Soil Kit,0.0,200 ul,,,0 ng/ul,2024-03-14,,S1273-SC1 A07,,L008,,0
 jhu00006,Qiagen_Soil_MCS_1-100_4_S5,35333474,37861998,1540,,,Microbial Community Standard,,,S5,,,,,,,Qiagen DNeasy PowerMax Soil Kit,0.0,200 ul,,,1.5 ng/ul,2024-03-14,,S1273-SC1 A08,,L008,,1
 jhu00007,Thermo_MagMax_Air_Ctr_3_S21,55599904,120616586,44822,,,Air Control,,,S21,,,,,,,Thermo Fisher MagMAX™ Pathogen RNA/DNA Kit,0.0,50 ul,,,2.8 ng/ul,2024-03-14,,S1273-SC1 B07,,,,0
@@ -24,29 +24,29 @@ jhu00022,MasterPure_Zymo_HostZero_MCS_1_100_4_S30,107843996,111899010,7802,,,Mic
 jhu00023,MasterPure_MCS_7_S56,45210456,45655622,384,,,Microbial Community Standard,,,S56,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,,22.7 ng/ul,2024-10-28,,S1304-SC1 C05,,,,1
 jhu00024,MasterPure_MCS_HostZero_3_S3,44711574,46415416,8054,,,Microbial Community Standard,,,S3,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,,34 ng/ul,2024-10-28,,S1304-SC1 C01,,,,1
 jhu00025,MasterPure_MCS_MolYsis_1_S59,35551112,36028474,5672,,,Microbial Community Standard,,,S59,,,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,26.1 ng/ul,2024-10-28,,S1304-SC1 B11,,,,1
-jhu00026,MasterPure_MCS_NEB_5_S34,44493344,45020220,388,,,Microbial Community Standard,,,S34,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,10.9 ng/ul,2024-10-28,,S1304-SC1 C03,,,,1
+jhu00026,MasterPure_MCS_NEB_5_S34,44493344,45020220,388,,,Microbial Community Standard,,,S34,,,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,NEBNext Microbiome DNA Enrichment Kit,10.9 ng/ul,2024-10-28,,S1304-SC1 C03,,,,1
 jhu00027,MasterPure_OMR_8_S22,15886574,17822868,1644,,,OMR-110,,,S22,OMR,110,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,,20.1 ng/ul,2024-10-28,,S1304-SC1 C06,,,,0
 jhu00028,MasterPure_OMR_HostZero_4_S24,8202964,8856792,910,,,OMR-110,,,S24,OMR,110,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,,30.6 ng/ul,2024-10-28,,S1304-SC1 C02,,,,0
 jhu00029,MasterPure_OMR_MolYsis_2_S42,10719492,11641062,1508,,,OMR-110,,,S42,OMR,110,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,15 ng/ul,2024-10-28,,S1304-SC1 B12,,,,0
-jhu00030,MasterPure_OMR_NEB_6_S15,23175170,24238088,1974,,,OMR-110,,,S15,OMR,110,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,10.1 ng/ul,2024-10-28,,S1304-SC1 C04,,,,0
+jhu00030,MasterPure_OMR_NEB_6_S15,23175170,24238088,1974,,,OMR-110,,,S15,OMR,110,,,,,MasterPure Gram Positive DNA Purification Kit,0.0,50 ul,,NEBNext Microbiome DNA Enrichment Kit,10.1 ng/ul,2024-10-28,,S1304-SC1 C04,,,,0
 jhu00031,Molzym_Ultra-Deep_MCS_1_S11,24498810,25579186,2110,,,Microbial Community Standard,,,S11,,,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,5.2 ng/ul,2024-10-28,,S1304-SC1 B05,,,,1
 jhu00032,Molzym_Ultra-Deep_MCS_HostZero_3_S19,16447250,17597652,1476,,,Microbial Community Standard,,,S19,,,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,4.9 ng/ul,2024-10-28,,S1304-SC1 B07,,,,1
-jhu00033,Molzym_Ultra-Deep_MCS_NEB_5_S44,29536154,30277532,2484,,,Microbial Community Standard,,,S44,,,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,30 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,6.3 ng/ul,2024-10-28,,S1304-SC1 B09,,,,1
+jhu00033,Molzym_Ultra-Deep_MCS_NEB_5_S44,29536154,30277532,2484,,,Microbial Community Standard,,,S44,,,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,30 ul,,NEBNext Microbiome DNA Enrichment Kit,6.3 ng/ul,2024-10-28,,S1304-SC1 B09,,,,1
 jhu00034,Molzym_Ultra-Deep_OMR_2_S10,16289234,17479146,2978,,,OMR-110,,,S10,OMR,110,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,0.2 ng/ul,2024-10-28,,S1304-SC1 B06,,,,0
 jhu00035,Molzym_Ultra-Deep_OMR_HostZero_4_S37,2567172,3425394,1264,,,OMR-110,,,S37,OMR,110,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,50 ul,,,2.8 ng/ul,2024-10-28,,S1304-SC1 B08,,,,0
-jhu00036,Molzym_Ultra-Deep_OMR_NEB_6_S32,23131512,24342598,2358,,,OMR-110,,,S32,OMR,110,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,30 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,6.6 ng/ul,2024-10-28,,S1304-SC1 B10,,,,0
+jhu00036,Molzym_Ultra-Deep_OMR_NEB_6_S32,23131512,24342598,2358,,,OMR-110,,,S32,OMR,110,,,,,Molzym Ultra-Deep Microbiome Prep,0.0,30 ul,,NEBNext Microbiome DNA Enrichment Kit,6.6 ng/ul,2024-10-28,,S1304-SC1 B10,,,,0
 jhu00037,Qiagen_DNeasy_MCS_1_in_OMR_BD801_S47,53241196,53577422,190,,,Microbial Community Standard,,,S47,OMR,BD801,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,13 ng/ul,2024-10-28,,S1304-SC1 E05,,,,1
 jhu00038,Qiagen_DNeasy_MCS_2_in_OMR_BH802_S23,41138578,41521288,226,,,Microbial Community Standard,,,S23,OMR,BH802,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,6.5 ng/ul,2024-10-28,,S1304-SC1 E06,,,,1
 jhu00039,Qiagen_DNeasy_MCS_7_S2,45033180,45436136,206,,,Microbial Community Standard,,,S2,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,7.3 ng/ul,2024-10-28,,S1304-SC1 A07,,,,1
 jhu00040,Qiagen_DNeasy_MCS_HostZero_3_S5,27465650,28450580,15400,,,Microbial Community Standard,,,S5,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,3.5 ng/ul,2024-10-28,,S1304-SC1 A03,,,,1
-jhu00041,Qiagen_DNeasy_MCS_MolYsis_1_S72,40783628,41381006,3226,,,Microbial Community Standard,,,S72,,,,,,,Qiagen DNeasy Blood & Tissue Kit,0.0,30 ul,,,3.2 ng/ul,2024-10-28,,S1304-SC1 A01,,,,1
-jhu00042,Qiagen_DNeasy_MCS_NEB_5_S60,47811352,48328468,174,,,Microbial Community Standard,,,S60,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,4.2 ng/ul,2024-10-28,,S1304-SC1 A05,,,,1
+jhu00041,Qiagen_DNeasy_MCS_MolYsis_1_S72,40783628,41381006,3226,,,Microbial Community Standard,,,S72,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,3.2 ng/ul,2024-10-28,,S1304-SC1 A01,,,,1
+jhu00042,Qiagen_DNeasy_MCS_NEB_5_S60,47811352,48328468,174,,,Microbial Community Standard,,,S60,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,NEBNext Microbiome DNA Enrichment Kit,4.2 ng/ul,2024-10-28,,S1304-SC1 A05,,,,1
 jhu00043,Qiagen_DNeasy_OMR1_BD801_S61,19078240,20540376,3356,,,OMR-110,,,S61,OMR,BD801,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,3.4 ng/ul,2024-10-28,,S1304-SC1 E07,,,,0
 jhu00044,Qiagen_DNeasy_OMR2_BH802_S12,26516970,27975164,5170,,,OMR-110,,,S12,OMR,BH802,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,2.1 ng/ul,2024-10-28,,S1304-SC1 E08,,,,0
 jhu00045,Qiagen_DNeasy_OMR_2_S74,15515562,17124190,3598,,,OMR-110,,,S74,OMR,110,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,1.7 ng/ul,2024-10-28,,S1304-SC1 A08,,,,0
 jhu00046,Qiagen_DNeasy_OMR_HostZero_4_S38,5955408,7135908,2760,,,OMR-110,,,S38,OMR,110,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,3.5 ng/ul,2024-10-28,,S1304-SC1 A04,,,,0
 jhu00047,Qiagen_DNeasy_OMR_MolYsis_2_S53,19822844,21459456,10118,,,OMR-110,,,S53,OMR,110,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,2 ng/ul,2024-10-28,,S1304-SC1 A02,,,,0
-jhu00048,Qiagen_DNeasy_OMR_NEB_6_S57,24342208,25389074,1964,,,OMR-110,,,S57,OMR,110,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,3.41 ng/ul,2024-10-28,,S1304-SC1 A06,,,,0
+jhu00048,Qiagen_DNeasy_OMR_NEB_6_S57,24342208,25389074,1964,,,OMR-110,,,S57,OMR,110,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,NEBNext Microbiome DNA Enrichment Kit,3.41 ng/ul,2024-10-28,,S1304-SC1 A06,,,,0
 jhu00049,Qiagen_DNeasy_Water_S70,21290924,22217826,2446,,,Water Control,,,S70,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,2.2 ng/ul,2024-10-28,,S1304-SC1 E09,,,,0
 jhu00050,Qiagen_Dneasy_CS_001_Air_Swab_S39,19466274,21096976,2992,,,Air Control,,,S39,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,1.9 ng/ul,2024-10-28,,S1304-SC1 D01,,L008,1.0,0
 jhu00051,Qiagen_Dneasy_CS_001_Right_Eye_S28,820824,127137442,60774,,,Human Ocular Surface,Conj,Right,S28,,,,,,,Qiagen DNeasy Blood_Tissue Kit,0.0,30 ul,,,27.7 ng/ul,2024-10-28,,S1304-SC1 C12,,,1.0,0
@@ -90,13 +90,13 @@ jhu00088,Zymo_Mini_Prep_MCS_2_in_OMR_BH802_S50,39611906,40013368,932,,,Microbial
 jhu00089,Zymo_Mini_Prep_MCS_7_S25,43886996,44391128,1366,,,Microbial Community Standard,,,S25,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1 ng/ul,2024-10-28,,S1304-SC1 B03,,,,1
 jhu00090,Zymo_Mini_Prep_MCS_HostZero_3_S20,40855032,41196628,1584,,,Microbial Community Standard,,,S20,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,4.2 ng/ul,2024-10-28,,S1304-SC1 A11,,,,1
 jhu00091,Zymo_Mini_Prep_MCS_MolYsis_1_S49,35723028,36069364,1014,,,Microbial Community Standard,,,S49,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,15.4 ng/ul,2024-10-28,,S1304-SC1 A09,,,,1
-jhu00092,Zymo_Mini_Prep_MCS_NEB_5_S76,49422172,50023086,1742,,,Microbial Community Standard,,,S76,,,,,,,Zymo Mini Prep Kit,0.0,30 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,5.6 ng/ul,2024-10-28,,S1304-SC1 B01,,,,1
+jhu00092,Zymo_Mini_Prep_MCS_NEB_5_S76,49422172,50023086,1742,,,Microbial Community Standard,,,S76,,,,,,,Zymo Mini Prep Kit,0.0,30 ul,,NEBNext Microbiome DNA Enrichment Kit,5.6 ng/ul,2024-10-28,,S1304-SC1 B01,,,,1
 jhu00093,Zymo_Mini_Prep_OMR1_BD801_S69,5735618,6757958,998,,,OMR-110,,,S69,OMR,BD801,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1.6 ng/ul,2024-10-28,,S1304-SC1 G05,,,,0
 jhu00094,Zymo_Mini_Prep_OMR2_BH802_S7,17500980,19131372,1670,,,OMR-110,,,S7,OMR,BH802,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.2 ng/ul,2024-10-28,,S1304-SC1 G06,,,,0
 jhu00095,Zymo_Mini_Prep_OMR_8_S36,13582120,14650184,4714,,,OMR-110,,,S36,OMR,110,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,0.9 ng/ul,2024-10-28,,S1304-SC1 B04,,,,0
 jhu00096,Zymo_Mini_Prep_OMR_HostZero_4_S1,9178486,10409184,2898,,,OMR-110,,,S1,OMR,110,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.7 ng/ul,2024-10-28,,S1304-SC1 A12,,,,0
 jhu00097,Zymo_Mini_Prep_OMR_MolYsis_2_S16,10799950,11881506,11140,,,OMR-110,,,S16,OMR,110,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,2.9 ng/ul,2024-10-28,,S1304-SC1 A10,,,,0
-jhu00098,Zymo_Mini_Prep_OMR_NEB_6_S55,29929196,34638068,6706,,,OMR-110,,,S55,OMR,110,,,,,Zymo Mini Prep Kit,0.0,30 ul,,NEBNext Microbiome DNA Enrichment KitNext Microbiome DNA Enrichment Kit,1.8 ng/ul,2024-10-28,,S1304-SC1 B02,,,,0
+jhu00098,Zymo_Mini_Prep_OMR_NEB_6_S55,29929196,34638068,6706,,,OMR-110,,,S55,OMR,110,,,,,Zymo Mini Prep Kit,0.0,30 ul,,NEBNext Microbiome DNA Enrichment Kit,1.8 ng/ul,2024-10-28,,S1304-SC1 B02,,,,0
 jhu00099,Zymo_Mini_Prep_Water_S65,14370622,15606534,1290,,,Water Control,,,S65,,,,,,,Zymo Mini Prep Kit,0.0,50 ul,,,1.9 ng/ul,2024-10-28,,S1304-SC1 G07,,,,0
 jhu00100,10_Zymo_Micro_Prep_CS_010_Right_Eye_S90,78294,45659686,26326,,,Human Ocular Surface,Conj,Right,S90,,,,,,,Zymo Micro Prep Kit,,20 ul,,,1.1 ng/ul,2025-03-14,,S1289-SC2 A10,,,10.0,0
 jhu00101,11_Zymo_Micro_Prep_CS_007_Air_Swab_S91,825688,3833154,3120,,,Air Control,,,S91,,,,,,,Zymo Micro Prep Kit,,20 ul,,,0.9 ng/ul,2025-03-14,,S1289-SC2 A11,,L008,7.0,0
@@ -214,7 +214,7 @@ jhu00212,025RM_Skin_L_1_S17,1852058,20596108,7702,2024-10-09,1.0,Human Ocular Su
 jhu00213,025RM_Skin_L_2_S18,1075980,21717516,9272,2029-10-16,2.0,Human Ocular Surface,Periocular skin,Left,S18,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,B6,L006,25.0,0
 jhu00214,025RM_Skin_L_3_S19,1600272,35015266,13170,2024-11-06,3.0,Human Ocular Surface,Periocular skin,Left,S19,OMR,BG001,,,Puritan,,Zymo Mini Prep Kit,,,,,2.6,2025-08-06,,,C3,L006,25.0,0
 jhu00215,025RM_Skin_R_1_S20,366622,12493120,4462,2024-10-09,1.0,Human Ocular Surface,Periocular skin,Right,S20,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,A5,L006,25.0,0
-jhu00216,025RM_Skin_R_2_S21,1551758,31475386,11838,2028-10-16,2.0,Human Ocular Surface,Periocular skin,Right,S21,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,B5,L006,25.0,0
+jhu00216,025RM_Skin_R_2_S21,1551758,31475386,11838,2024-10-16,2.0,Human Ocular Surface,Periocular skin,Right,S21,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.3,2025-08-06,,,B5,L006,25.0,0
 jhu00217,025RM_Skin_R_3_S22,1381106,45264334,17330,2024-11-06,3.0,Human Ocular Surface,Periocular skin,Right,S22,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,2.8,2025-08-06,,,C2,L006,25.0,0
 jhu00218,026MH_Conj_L_1_S23,168252,55936422,20474,2024-10-09,1.0,Human Ocular Surface,Conj,Left,S23,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.8,2025-08-06,,,A8,L006,26.0,0
 jhu00219,026MH_Conj_L_2_S24,143292,50646898,17926,2024-10-23,2.0,Human Ocular Surface,Conj,Left,S24,OMR,BG001,,,ISOHELIX-mini,,Zymo Mini Prep Kit,,,,,1.5,2025-08-06,,,D6,L006,26.0,0
