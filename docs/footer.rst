@@ -44,8 +44,10 @@
    :width: 50px
 
 .. image:: images/Pitt_logo.png
-   :target: https://www.uth.edu/
+   :target: https://www.pitt.edu
    :alt: "University of Pittsburgh"
    :width: 80px
+
+.. raw:: html
 
    </div>
