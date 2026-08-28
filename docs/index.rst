@@ -18,14 +18,12 @@ This research makes use of the `SciServer <https://www.sciserver.org/>`_ scien
     :hidden:
 
     Consortium_members
-    Consortium_Publications/index
-    PMC <https://pmc.ncbi.nlm.nih.gov/search/?term=%28Anthony+St.+Leger%5Bau%5D+OR+Cintia+de+Paiva%5Bau%5D+OR+Laura+Ensign%5Bau%5D+OR+Russell+Van+Gelder%5Bau%5D+OR+Seesandra+V.+Rajagopala%5Bau%5D+OR+Sezen+Karakus%5Bau%5D+OR+Steven+L+Salzberg%5Bau%5D%29+AND+%28eye+OR+microbiom*%29&sort=pubdate>
+    CONSORTIUM PUBLICATIONS <https://pmc.ncbi.nlm.nih.gov/search/?term=%28Anthony+St.+Leger%5Bau%5D+OR+Cintia+de+Paiva%5Bau%5D+OR+Laura+Ensign%5Bau%5D+OR+Russell+Van+Gelder%5Bau%5D+OR+Seesandra+V.+Rajagopala%5Bau%5D+OR+Sezen+Karakus%5Bau%5D+OR+Steven+L+Salzberg%5Bau%5D%29+AND+%28eye+OR+microbiom*%29&sort=pubdate>
     Consortium_Data/index
     Consortium_Data_Analysis/index
     Public_Data/index
     Public_Data_Analysis/index
     Metadata/index
-    FAQ
 
 * Administration
 
