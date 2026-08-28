@@ -38,16 +38,18 @@ html_theme_options = {
 	"collapse_navigation": False,
 	"sticky_navigation": True,
 	"navigation_depth": 2,
-	"includehidden": True 
+	"includehidden": True ,
+        "body_max_width": "none",
 	}
 #to add "google_analytics_id": "G-XXXXXXX"
 
 #html_extra_path = [] # 'Public_Results']
+html_extra_path = [    "google5ed79d6dabf65a2d.html" ]
 html_meta = {    "google-site-verification": "e2LnwrGlv397RPlrT8ckb-yVwcPyZaGyADcmCFv63y4" }
 
 master_doc = 'index'
 templates_path = [] # '_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "OLD*/*" , "**/OLD*","**/*.csv*"]
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "OLD*/*" , "**/OLD*","**/*.csv*",".venv","README.md","header.rst","**/header.rst"]
 extensions = ['sphinxcontrib.mermaid','sphinx_design','myst_parser'] #'sphinxcontrib.lunrsearch']  # 'recommonmark', 'myst_parser; sphinx_design. 'search_extension', sphinx_charts.charts
 source_suffix = { '.rst': 'restructuredtext' , '.md': 'markdown' }
 

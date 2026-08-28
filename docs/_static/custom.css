@@ -127,3 +127,20 @@ table.dataTable {
 h1 {
     text-align: center;
 }
+
+/*---------------
+
+.wy-nav-content {
+    width: 100% !important;
+    max-width: none !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    flex-grow: 1 !important;
+    box-sizing: border-box !important;
+}
+
+.dataTables_wrapper {
+    width: 100%;
+}
+*/
+

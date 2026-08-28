@@ -93,31 +93,69 @@
             $table.find('tbody tr').prepend('<td></td>');
         }
 
-        const dt = $table.DataTable({
-            dom: 'tBfipr',
-            pageLength: 10,
-            deferRender: true,
-            lengthMenu: [[10, 50, -1], [10, 50, "All"]],
+	let dt;
 
-            buttons: [
-                'pageLength',
-                {
-                    extend: 'csv',
-                    text: 'Save',
-                    exportOptions: {
-                        columns: ':not(:first-child)',
-                        format: {
-                            body: function (data) {
-                                return $('<div>' + data + '</div>').text().replace(/,/g, '');
-                            }
-                        }
-                    }
-                },
-                { extend: 'colvis', text: 'Columns' }
-            ],
+	if ($.fn.DataTable.isDataTable($table))
+	{
+	    	dt = $table.DataTable();
+	}
+	else
+	{
+	        dt = $table.DataTable({
+        	    //dom: 'tBfipr',
+	            pageLength: 10,
+        	    deferRender: true,
+	            lengthMenu: [[10, 50, -1], [10, 50, "All"]],
+        	    deferRender: true,
+		    layout: {
+			topStart: 'buttons',
+	        	topEnd: 'search',
+	                bottomStart: 'info',
+        	        bottomEnd: 'paging'
+	            },
+        	    buttons: [
+	                'pageLength',
+        	        {
+                	    extend: 'csv',
+	                    text: 'Save',
+        	            exportOptions: {
+                	        columns: ':not(:first-child)',
+                        	format: {
+	                            body: function (data) {
+        	                        return $('<div>' + data + '</div>').text().replace(/,/g, '');
+                	            }
+	                        }
+        	            }
+                	},
+	                //{ extend: 'colvis', text: 'Columns' }
+			{
+			    extend: 'collection',
+			    text: 'Columns',
+			    buttons: [
+			        {
+		        	    text: 'Select all',
+			            action: function (e, dt) {
+			                dt.columns(':not(:first-child)').visible(true);
+			            }
+		        	},
+			        {
+			            text: 'Deselect all',
+			            action: function (e, dt) {
+		        	        dt.columns(':not(:first-child)').visible(false);
+			            }
+			        },
+			        {
+		        	    extend: 'colvis',
+			            text: 'Choose columns'
+			        }
+			    ]
+			}
+        	    ],
 
-            columnDefs: initSampleColumns(idTarget, downloadTarget, numericTargets, hiddenTargets, baseUrl, extension)
-        });
+	            columnDefs: initSampleColumns(idTarget, downloadTarget, numericTargets, hiddenTargets, baseUrl, extension)
+        	});
+	}
+
 
         // Row numbering
         dt.on('draw.dt', function () {
@@ -197,95 +235,6 @@
 
     window.initSampleColumns = initSampleColumns;
 
-    /*
-    function initPublicationTable(selector) {
-
-     selector = selector || 'table.docutils.align-default';
-
-      $(selector).each(function () {
-        var $table = $(this);
-    
-        // Add row number column if it doesn't already exist
-        if ($table.find('thead th').length === $table.find('thead tr').first().children().length) {
-          $table.find('thead tr').prepend('<th>#</th>');
-          $table.find('tbody tr').prepend('<td></td>');
-        }
-    
-        var dt = $table.DataTable({
-          dom: 'tBfipr',
-          pageLength: 10,
-          lengthMenu: [[10, 50, -1], [10, 50, "All"]],
-    
-          buttons: [
-          'pageLength',
-           { extend: 'csv', text: 'Save', exportOptions: { columns: ':not(:first-child)',  format: { body: function (data) { return $('<div>' + data + '</div>').text().replace(/,/g, '');}}}},
-           { extend: 'colvis', text: 'Columns' }
-          ],
-
-          columnDefs: [
-          {
-                    targets: 1,
-                    render: function (data, type, row, meta) {
-                        var text = $('<div>' + data + '</div>').text().trim();
-
-                        return '<a href="https://www.ncbi.nlm.nih.gov/bioproject/' +
-                        text +
-                        '" target="_blank" rel="noopener" title="NCBI BioProject">' +
-                        text +
-                        '</a>';
-                    }
-          },
-            {
-              targets: [3],
-              render: function (data, type, row, meta) {
-                var text = $('<div>' + data + '</div>').text().trim();
-    
-                if ($.isNumeric(text)) {
-                  return '<a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=' +
-                    text +
-                    '" target="_blank" rel="noopener" title="NCBI Taxonomy">' +
-                    text +
-                    '</a>';
-                }
-                return data;
-              }
-            },
-            {
-              // Last column: format numeric values with thousands separator
-              targets: [5,6,7],
-              render: function (data, type, row, meta) {
-                var text = $('<div>' + data + '</div>').text().trim();
-                if ($.isNumeric(text)) {
-                   return Number(text).toLocaleString(); 
-                }
-                return data;
-              }
-            },
-            {
-               targets: [4,5,6],
-               visible: false
-            }
-
-          ],
-          order: [[1, 'asc']]
-        });
-    
-        // Update row numbers on draw, for current page only
-        dt.on('draw.dt', function () {
-          var info = dt.page.info();
-          dt.column(0, { page: 'current' }).nodes().each(function (cell, i) {
-            cell.innerHTML = info.start + i + 1;
-          });
-        });
-    
-        // Initial draw to fill row numbers immediately
-        dt.draw();
-      });
-    }
-
-    window.initPublicationTable = initPublicationTable;
-    */
-
     ////////////////////////////////////////////////////////
 
    function initPublicationTable(selector) {
@@ -302,7 +251,7 @@
         }
 
 	var dt = $table.DataTable({
-          dom: 'tBfipr',
+          //dom: 'tBfipr',
           pageLength: 10,
           lengthMenu: [[10, 50, -1], [10, 50, "All"]],
 
