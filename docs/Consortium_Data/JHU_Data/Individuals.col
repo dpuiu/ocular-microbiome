@@ -1,0 +1,69 @@
+No
+Subject ID
+Eye
+Visit# (1-3)
+Sequencing Date
+Note
+Location
+Age
+Sex
+Race
+Ethnicity
+Geo location (urban=1, suburban=2, rural=3)
+Zipcode
+Pets (y=1, n=0)
+Type of Pet (free text)
+Occupation (employed=1, unemployed=2, student=3, retired=4, other=5)
+If Employed, primary occupation
+Work/school environment free text
+Time spend daily at home (hr)
+Time spend daily at work/ school (hr)
+Time spend daily outside (hr)
+Time Spend daily other: (hr)
+Time spent daily on electronic devices (hr)
+Average sleep (hr)
+CPAP (y=1, n=0)
+Swimming (Once a week or more=1, Few times in the last 3 months=2, Not in last 3 months=3, Rarely or never=4)
+Smoking (Yes =1, Never smoked=2, Quit in the past 6 months=3, Quit more than 6 months ago=4,  Second hand smoking=5)
+Tobacco details free text
+Contact lenses (y=1, n=0)
+Glasses (y=1, n=0)
+Cosmetics around the eye (y=1, n=0)
+Cosmetic type (free text)
+Past Ocular Condition (y=1, n=0)
+Type of Ocular Condition (free text)
+Eye drops/ oint (y=1, n=0)
+Eye drops/ung free text
+Eye Surgery (y=1, n=0)
+Eye Surgery detail (free text)
+Allergies (y=1, n=0)
+Type of Allergy (free text)
+Systemic Conditions (y=1, n=0)
+Type of Systemic Condition (free text)
+Antibiotic use within a year (y=1, no=0)
+Antibiotic use detail free text
+Pre/probiotics Use (y=1, n=0)
+Pre/probiotics detail free text
+OSDI Score (0-100)
+Shirmer (mm)
+TBUT (sec) 
+Cornea Score (0-15)
+Conj Score (0-18)
+Ant Bleph (none=0,mild=1,moderate=2,severe=3)
+MGD (none=0, mild=1, moderate=2, severe=3)
+Lid Margin Telengectasia (y=1,n=0)
+Conj Inj (y=1, n=0)
+Chalasis (y=1, n=0)
+Lens (phakic=1, aphakic=2, pseudophakic=3)
+Collection Time
+Visit Date #1 (MM/DD/YYYY)
+Visit #1 Time
+Visit #1 Swab Collection Notes
+Visit#2 Date
+Visit #2 Time
+Visit#2 changes since last visit 
+V2 Sample Collection Notes 
+Visit#3 Date
+Visit #3 Time
+Visit#3  changes since last visit 
+V3 Sample collection notes 

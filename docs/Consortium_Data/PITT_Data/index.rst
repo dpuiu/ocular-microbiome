@@ -5,4 +5,5 @@ University of Pittsburg Data
     :maxdepth: 2
 
     Samples
+    Individuals
     Files

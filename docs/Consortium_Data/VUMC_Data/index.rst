@@ -5,5 +5,6 @@ Vanderbilt University Medical Center Data
     :maxdepth: 2
 
     Samples
+    Individuals
     Files
 

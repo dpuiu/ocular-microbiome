@@ -10,4 +10,5 @@ Johns Hopkins University Data
     Samples.Conj
     Samples.Lid
     Samples.Skin
+    Individuals
     Files
