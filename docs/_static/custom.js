@@ -1,6 +1,18 @@
 // Custom search override for Sphinx (safe for RTD theme)
 
 (function() {
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const next = document.querySelector("a.next-page");
+
+        if (next) {
+            const link = document.createElement("link");
+            link.rel = "prefetch";
+            link.href = next.href;
+            document.head.appendChild(link);
+        }
+    });
+
     ////////////////////////////////////////////////////////
     function overrideSearch() {
         if (!window.Search || !Search.prototype) return;
