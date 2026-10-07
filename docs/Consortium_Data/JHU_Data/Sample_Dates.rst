@@ -1,5 +1,3 @@
-.. include:: header.rst
-
 Libraries
 =========
 
@@ -7,3 +5,6 @@ Libraries
     :file: Sample_Dates.csv
     :header-rows: 1
     :name: jhu-sample-dates
+
+.. include:: header.rst
+
