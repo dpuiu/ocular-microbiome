@@ -1,0 +1,11 @@
+Dataset	Samples	Non-human reads	Pair / Single	Read length	Sample type	Individuals	Notes
+BCM	57	153986046	Paired	151 bp	Culturomics Sequence Data; Illumina WGS	0	-
+JHU	843	5932638348	Paired	150 bp	Air, Conjunctiva, Lid, Skin, OMR, MCS, Water	67	-
+JHU Air	160	1055979180	Paired	150 bp	Air	59	-
+JHU Conj	240	432776356	Paired	150 bp	Conjunctiva	67	-
+JHU Lid	184	438865782	Paired	150 bp	Lid Margin	57	-
+JHU Skin	184	819376460	Paired	150 bp	Periocular Skin	57	-
+JHU OMR/MCS/Water	75	3185640570	Paired	150 bp	OMR, MCS, Water	0	Not listed separately in the website
+PITT	788	119861326	Paired	251 bp	-	144	Individuals identified, but not linked to samples
+UW	258	45448140	Single	Mean 55 bp	-	0	Maximum read length: several thousand bp
+VUMC	622	21109650	Paired	151 bp	Conjunctiva; DNA-seq	195	18 samples not linked to individuals

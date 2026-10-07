@@ -4,7 +4,7 @@ Samples
 .. csv-table::
     :file: Samples.csv
     :header-rows: 1
-    :name: Samples
+    :name: pitt-samples
 
 Individuals
 ===========
@@ -12,7 +12,7 @@ Individuals
 .. csv-table::
     :file: Individuals.csv
     :header-rows: 1
-    :name: Individuals
+    :name: pitt-individuals
 
 
 .. include:: header.rst
@@ -22,7 +22,7 @@ Individuals
     <script defer>
     $(function () {
         //initSampleTable('table.docutils.align-default', 1, 4, [4], [6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39], 'Consortium_data/PITT');
-        initSampleTable('#id1', 1, 4, [4], [2,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39], 'Consortium_data/PITT');
-        initSampleTable('#id2', 1);
+        initSampleTable('#pitt-samples', 1, 4, [4], [2,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39], 'Consortium_data/PITT');
+        initSampleTable('#pitt-individuals', 1);
     });
     </script>
